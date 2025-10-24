@@ -1,4 +1,4 @@
-names-dragon-title-dataset-1 = the Dread
+﻿names-dragon-title-dataset-1 = the Dread
 names-dragon-title-dataset-2 = the Scorchinator
 names-dragon-title-dataset-3 = the Carpmonger
 names-dragon-title-dataset-4 = the Invincible

@@ -1,4 +1,4 @@
-damage-type-asphyxiation = Asphyxiation
+﻿damage-type-asphyxiation = Asphyxiation
 damage-type-bloodloss = Bloodloss
 damage-type-blunt = Blunt
 damage-type-cellular = Cellular

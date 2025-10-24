@@ -1,4 +1,4 @@
-## Entity
+﻿## Entity
 
 gas-analyzer-object-out-of-range = The object went out of range.
 gas-analyzer-shutoff = The gas analyzer shuts off.

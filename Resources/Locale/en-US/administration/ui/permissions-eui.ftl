@@ -1,4 +1,4 @@
-permissions-eui-do-not-have-required-flags-to-edit-admin-tooltip = You do not have the required flags to edit this admin.
+﻿permissions-eui-do-not-have-required-flags-to-edit-admin-tooltip = You do not have the required flags to edit this admin.
 permissions-eui-do-not-have-required-flags-to-edit-rank-tooltip = You do not have the required flags to edit this rank.
 
 permissions-eui-menu-title = Permissions Panel

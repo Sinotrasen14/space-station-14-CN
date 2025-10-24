@@ -1,4 +1,4 @@
-polymorph-self-action-name = Polymorph ({CAPITALIZE($target)})
+﻿polymorph-self-action-name = Polymorph ({CAPITALIZE($target)})
 polymorph-self-action-description = Instantly polymorph yourself into {$target}.
 
 polymorph-popup-generic = {CAPITALIZE(THE($parent))} turned into {$child}.

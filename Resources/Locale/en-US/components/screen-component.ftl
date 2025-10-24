@@ -1,2 +1,2 @@
-screen-text = screenText
+﻿screen-text = screenText
 screen-color = screenColor

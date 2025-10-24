@@ -1,7 +1,7 @@
-cmd-arrivals-enable-hint = Enables arrivals
-cmd-arrivals-disable-hint = Disables arrivals
+﻿cmd-arrivals-enable-hint = 启用抵达
+cmd-arrivals-disable-hint = 禁用抵达
 
-cmd-arrivals-returns = Set arrivals returns to {$value}.
+cmd-arrivals-returns = 设置抵达回到 {$value}.
 cmd-arrivals-returns-hint = Toggles allowing players to return via arrivals.
 
 cmd-arrivals-invalid = Invalid arg supplied.

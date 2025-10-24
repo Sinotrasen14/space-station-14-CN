@@ -1,4 +1,4 @@
-names-reptilian-female-dataset-1 = Adzi
+﻿names-reptilian-female-dataset-1 = Adzi
 names-reptilian-female-dataset-2 = Ah
 names-reptilian-female-dataset-3 = Ahaht
 names-reptilian-female-dataset-4 = Ajim

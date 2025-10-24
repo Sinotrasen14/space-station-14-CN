@@ -1,5 +1,5 @@
-cmd-adduplink-desc = Creates uplink on selected item and link it to users account
-cmd-adduplink-help = Usage: adduplink [username] [item-id] [discountEnabled]
+﻿cmd-adduplink-desc = 在所选物品上创建上行链路并将其链接到用户帐户
+cmd-adduplink-help = 用法: adduplink [username] [item-id] [discountEnabled]
 
 add-uplink-command-completion-1 = Username (defaults to self)
 add-uplink-command-completion-2 = Uplink uid (default to PDA)

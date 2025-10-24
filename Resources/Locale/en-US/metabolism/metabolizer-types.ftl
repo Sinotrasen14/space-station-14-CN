@@ -1,4 +1,4 @@
-metabolizer-type-animal = Animal
+﻿metabolizer-type-animal = Animal
 metabolizer-type-bloodsucker = Bloodsucker
 metabolizer-type-dragon = Dragon
 metabolizer-type-human = Human

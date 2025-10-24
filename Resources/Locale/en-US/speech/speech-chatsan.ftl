@@ -1,4 +1,4 @@
-chatsan-word-1 = omg
+﻿chatsan-word-1 = omg
 chatsan-replacement-1 = oh my god
 
 chatsan-word-2 = omfg

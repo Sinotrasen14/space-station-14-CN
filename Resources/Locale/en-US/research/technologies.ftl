@@ -1,4 +1,4 @@
-research-discipline-none = None
+﻿research-discipline-none = None
 research-discipline-industrial = Industrial
 research-discipline-arsenal = Arsenal
 research-discipline-experimental = Experimental

@@ -1,4 +1,4 @@
-action-name-internals-toggle-on = Toggle Internals On
+﻿action-name-internals-toggle-on = Toggle Internals On
 action-description-internals-toggle-on = Breathe from the equipped gas tank. Also requires equipped breath mask.
 action-name-internals-toggle-off = Toggle Internals Off
 action-description-internals-toggle-off = Breathe from the environment.

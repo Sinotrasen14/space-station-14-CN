@@ -1,4 +1,4 @@
-reagent-name-blood = blood
+﻿reagent-name-blood = blood
 reagent-desc-blood = I hope this is ketchup.
 
 reagent-name-insect-blood = insect blood

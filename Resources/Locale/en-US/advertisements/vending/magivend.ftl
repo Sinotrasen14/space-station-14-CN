@@ -1,4 +1,4 @@
-advertisement-magivend-1 = Sling spells the proper way with MagiVend!
+﻿advertisement-magivend-1 = Sling spells the proper way with MagiVend!
 advertisement-magivend-2 = Be your own Houdini! Use MagiVend!
 advertisement-magivend-3 = FJKLFJSD
 advertisement-magivend-4 = AJKFLBJAKL

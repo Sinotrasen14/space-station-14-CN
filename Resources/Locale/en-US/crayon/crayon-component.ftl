@@ -1,4 +1,4 @@
-
+﻿
 ## Entity
 
 crayon-drawing-label = Drawing: [color={$color}]{$state}[/color] ({$charges}/{$capacity})

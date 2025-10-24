@@ -1,4 +1,4 @@
-reagent-name-carpetium = carpetium
+﻿reagent-name-carpetium = carpetium
 reagent-desc-carpetium = A mystical chemical, usually outsourced from the Clown Planet, that covers everything it touches in carpet. Somehow filters out carpotoxin from the blood stream.
 
 reagent-name-fiber = fiber

@@ -1,9 +1,9 @@
-name-identifier-format-monkey = MK-{$number}
+﻿name-identifier-format-monkey = 猴子-{$number}
 name-identifier-format-kobold = KB-{$number}
-name-identifier-format-holoparasite = HOLO-{$number}
+name-identifier-format-holoparasite = 全息寄生物-{$number}
 name-identifier-format-mmi = MMI-{$number}
-name-identifier-format-positronic-brain = PB-{$number}
-name-identifier-format-silicon = Si-{$number}
+name-identifier-format-positronic-brain = 正电子脑-{$number}
+name-identifier-format-silicon = 硅-{$number}
 name-identifier-format-xenoborg = Xi-{$number}
 name-identifier-format-station-ai = AI-{$number}
 name-identifier-format-telepad = TELE-{$number}

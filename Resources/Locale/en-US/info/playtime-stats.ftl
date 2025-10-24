@@ -1,4 +1,4 @@
-# Playtime Stats
+﻿# Playtime Stats
 
 ui-playtime-stats-title = User Playtime Stats
 ui-playtime-overall-base = Overall Playtime:

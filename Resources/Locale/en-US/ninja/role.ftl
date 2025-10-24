@@ -1,4 +1,4 @@
-ninja-round-end-agent-name = ninja
+﻿ninja-round-end-agent-name = ninja
 
 objective-issuer-spiderclan = [color=#33cc00]Spider Clan[/color]
 

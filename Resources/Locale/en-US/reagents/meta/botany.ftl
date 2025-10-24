@@ -1,4 +1,4 @@
-reagent-name-e-z-nutrient = EZ nutrient
+﻿reagent-name-e-z-nutrient = EZ nutrient
 reagent-desc-e-z-nutrient = Give your plants some of those EZ nutrients! Dionas find this delicious.
 
 reagent-name-left4-zed = left-4-zed

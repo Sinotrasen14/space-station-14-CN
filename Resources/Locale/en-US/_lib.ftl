@@ -1,46 +1,46 @@
-### Special messages used by internal localizer stuff.
+﻿### 供内部定位人员使用的特殊讯息
 
-# Used internally by the PRESSURE() function.
+# 由PRESSURE() 函数内部使用
 zzzz-fmt-pressure = { TOSTRING($divided, "F1") } { $places ->
-    [0] kPa
-    [1] MPa
-    [2] GPa
-    [3] TPa
-    [4] PBa
+ [0] 千帕
+    [1] 兆帕
+    [2] 吉帕
+   [3] 太帕
+   [4] 拍帕
     *[5] ???
 }
 
-# Used internally by the POWERWATTS() function.
+# 由POWERWATTS() 函数内部使用
 zzzz-fmt-power-watts = { TOSTRING($divided, "F1") } { $places ->
-    [0] W
-    [1] kW
-    [2] MW
-    [3] GW
-    [4] TW
+    [0] 瓦
+    [1] 千瓦
+    [2] 兆瓦
+    [3] 吉瓦
+    [4] 太瓦
     *[5] ???
 }
 
-# Used internally by the POWERJOULES() function.
-# Reminder: 1 joule = 1 watt for 1 second (multiply watts by seconds to get joules).
-# Therefore 1 kilowatt-hour is equal to 3,600,000 joules (3.6MJ)
+# 由POWERJOULES() 函数内部使用
+# 提示：1焦耳 = 1瓦特乘1秒（焦耳等于瓦特乘以秒）
+# 因此1千瓦时等于3600000焦耳（3.6兆焦）
 zzzz-fmt-power-joules = { TOSTRING($divided, "F1") } { $places ->
-    [0] J
-    [1] kJ
-    [2] MJ
-    [3] GJ
-    [4] TJ
+    [0] 焦
+    [1] 千焦
+    [2] 兆焦
+    [3] 吉焦
+    [4] 太焦
     *[5] ???
 }
 
-# Used internally by the ENERGYWATTHOURS() function.
+# 由ENERGYWATTHOURS() 函数内部使用
 zzzz-fmt-energy-watt-hours = { TOSTRING($divided, "F1") } { $places ->
-    [0] Wh
-    [1] kWh
-    [2] MWh
-    [3] GWh
-    [4] TWh
+   [0] 瓦时
+    [1] 千瓦时
+    [2] 兆瓦时
+    [3] 吉瓦时
+    [4] 太瓦时
     *[5] ???
 }
 
-# Used internally by the PLAYTIME() function.
+# 由PLAYTIME() 函数内部使用
 zzzz-fmt-playtime = {$hours}H {$minutes}M

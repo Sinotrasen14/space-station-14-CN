@@ -1,4 +1,4 @@
-## Survivor
+﻿## Survivor
 
 roles-antag-survivor-name = Survivor
 # It's a Halo reference

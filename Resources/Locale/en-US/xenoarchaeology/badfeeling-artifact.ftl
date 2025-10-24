@@ -1,4 +1,4 @@
-badfeeling-artifact-1 = Something doesn't feel right.
+﻿badfeeling-artifact-1 = Something doesn't feel right.
 badfeeling-artifact-2 = You get a strange feeling in your gut.
 badfeeling-artifact-3 = Your instincts are trying to warn you about something.
 badfeeling-artifact-4 = Someone just walked over your grave.

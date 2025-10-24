@@ -1,4 +1,4 @@
-emergency-light-component-on-examine = The battery indicator displays: {$batteryStateText}.
+﻿emergency-light-component-on-examine = The battery indicator displays: {$batteryStateText}.
 emergency-light-component-on-examine-alert = The current station alert level is: [color={$color}]{$level}[/color].
 emergency-light-component-light-state-full = [color=darkgreen]full[/color]
 emergency-light-component-light-state-empty = [color=darkgreen]empty[/color]

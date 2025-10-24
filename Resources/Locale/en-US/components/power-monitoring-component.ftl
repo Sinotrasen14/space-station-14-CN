@@ -1,4 +1,4 @@
-power-monitoring-window-title = Power Monitoring Console
+﻿power-monitoring-window-title = Power Monitoring Console
 
 power-monitoring-window-label-sources = Sources
 power-monitoring-window-label-smes = SMES

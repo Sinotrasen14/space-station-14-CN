@@ -1,4 +1,4 @@
-markings-used = Used Markings
+﻿markings-used = Used Markings
 markings-unused = Unused Markings
 markings-add = Add Marking
 markings-remove = Remove Marking

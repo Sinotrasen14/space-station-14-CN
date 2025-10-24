@@ -1,4 +1,4 @@
-make-ghost-roles-window-title = Make Ghost Role
+﻿make-ghost-roles-window-title = Make Ghost Role
 
 make-ghost-roles-window-entity-label = Entity
 make-ghost-roles-window-role-name-label = Role Name

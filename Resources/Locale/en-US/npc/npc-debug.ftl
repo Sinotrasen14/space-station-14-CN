@@ -1,4 +1,4 @@
-npc-debug-overlay-window-title = NPC debug
+﻿npc-debug-overlay-window-title = NPC debug
 
 npc-debug-overlay-window-section-npc-label = NPC
 npc-debug-overlay-window-section-pathfinder-label = Pathfinder

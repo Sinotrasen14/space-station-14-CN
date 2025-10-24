@@ -1,4 +1,4 @@
-trigger-on-voice-examine = The display reads: "{$keyphrase}"
+﻿trigger-on-voice-examine = The display reads: "{$keyphrase}"
 trigger-on-voice-uninitialized = The display reads: Uninitialized...
 
 trigger-on-voice-record = Record

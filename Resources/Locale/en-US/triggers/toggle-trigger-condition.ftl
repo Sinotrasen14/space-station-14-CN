@@ -1,4 +1,4 @@
-toggle-trigger-condition-default-verb = Toggle device
+﻿toggle-trigger-condition-default-verb = Toggle device
 toggle-trigger-condition-default-on = Device enabled.
 toggle-trigger-condition-default-off = Device disabled.
 

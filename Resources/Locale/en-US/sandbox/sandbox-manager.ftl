@@ -1,4 +1,4 @@
-sandbox-window-title = Sandbox Panel
+﻿sandbox-window-title = Sandbox Panel
 
 sandbox-window-map-editing-label = Editing
 sandbox-window-visibility-label = Visibility

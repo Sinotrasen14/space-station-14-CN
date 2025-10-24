@@ -1,4 +1,4 @@
-mech-verb-enter = Enter
+﻿mech-verb-enter = Enter
 mech-verb-exit = Remove pilot
 
 mech-equipment-begin-install = Installing the {THE($item)}...

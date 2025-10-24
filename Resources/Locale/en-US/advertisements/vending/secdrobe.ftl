@@ -1,5 +1,5 @@
-advertisement-secdrobe-1 = Beat perps in style!
-advertisement-secdrobe-2 = It's red so you can't see the blood!
-advertisement-secdrobe-3 = You have the right to be fashionable!
-advertisement-secdrobe-4 = Now you can be the fashion police you always wanted to be!
-advertisement-secdrobe-5 = The best shade of red, TOTALLY not, like, the same shade as what Syndicates use!
+﻿advertisement-secdrobe-1 = 击败罪犯的风格！
+advertisement-secdrobe-2 = 它是红色的，所以你看不到血！
+advertisement-secdrobe-3 = 你有权利保持时尚！
+advertisement-secdrobe-4 = 现在你可以成为你一直想成为的时尚警察了！
+advertisement-secdrobe-5 = 最好的红色阴影，完全不是，就像，与辛迪加使用的相同的阴影！

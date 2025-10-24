@@ -1,4 +1,4 @@
-names-clown-dataset-1 = Gigglesworth
+﻿names-clown-dataset-1 = Gigglesworth
 names-clown-dataset-2 = Honkel the III
 names-clown-dataset-3 = Goose McSunny
 names-clown-dataset-4 = Toodles Sharperton

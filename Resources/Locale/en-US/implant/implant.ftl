@@ -1,4 +1,4 @@
-## Implanter Attempt Messages
+﻿## Implanter Attempt Messages
 
 implanter-component-implanting-target = {$user} is trying to implant you with something!
 implanter-component-implant-failed = The {$implant} cannot be given to {$target}!

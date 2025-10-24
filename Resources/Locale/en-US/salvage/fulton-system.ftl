@@ -1,4 +1,4 @@
-fulton-folded = Beacon needs unfolding
+﻿fulton-folded = Beacon needs unfolding
 fulton-examine = {$time} seconds until extraction
 fulton-linked = Linked beacon
 fulton-not-found = No beacon found

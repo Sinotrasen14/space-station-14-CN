@@ -1,4 +1,4 @@
-names-dragon-dataset-1 = Dayle
+﻿names-dragon-dataset-1 = Dayle
 names-dragon-dataset-2 = Phlogdor
 names-dragon-dataset-3 = Nidir
 names-dragon-dataset-4 = Smaoge

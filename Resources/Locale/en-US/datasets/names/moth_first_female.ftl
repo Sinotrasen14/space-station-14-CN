@@ -1,4 +1,4 @@
-# Acherontia atropos
+﻿# Acherontia atropos
 names-moth-first-female-dataset-1 = Atropos
 
 # Biston betularia

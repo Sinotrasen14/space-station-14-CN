@@ -1,4 +1,4 @@
-salvage-expedition-type = Mission
+﻿salvage-expedition-type = Mission
 salvage-expedition-window-title = Salvage expeditions
 salvage-expedition-window-difficulty = Difficulty:
 salvage-expedition-window-details = Details:

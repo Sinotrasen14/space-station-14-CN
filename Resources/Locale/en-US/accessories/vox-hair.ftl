@@ -1,4 +1,4 @@
-marking-VoxHairAfro = Vox Afro
+﻿marking-VoxHairAfro = Vox Afro
 marking-VoxHairBraids = Vox Braids
 marking-VoxHairCrestedQuills = Vox Crested Quills
 marking-VoxHairEmperorQuills = Vox Emperor Quills

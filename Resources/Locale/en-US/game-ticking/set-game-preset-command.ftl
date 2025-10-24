@@ -1,4 +1,4 @@
-set-game-preset-command-description = Sets the game preset for the specified number of upcoming rounds. Can also display another preset's title and description in the lobby to fool players.
+﻿set-game-preset-command-description = Sets the game preset for the specified number of upcoming rounds. Can also display another preset's title and description in the lobby to fool players.
 set-game-preset-command-help-text = setgamepreset <id> [number of rounds, defaulting to 1] [decoy preset]
 set-game-preset-command-hint-1 = <id>
 set-game-preset-command-hint-2 = [number of rounds]

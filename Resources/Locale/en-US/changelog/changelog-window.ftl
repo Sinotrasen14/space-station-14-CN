@@ -1,4 +1,4 @@
-### ChangelogWindow.xaml.cs
+﻿### ChangelogWindow.xaml.cs
 
 changelog-window-title = Changelog
 changelog-author-changed = [color=#EEE]{ $author }[/color] changed:

@@ -1,14 +1,14 @@
-marking-HumanNoseSchnozz = Schnozz
-marking-HumanNoseSchnozz-schnozz = Nose
+﻿marking-HumanNoseSchnozz = 大鼻子
+marking-HumanNoseSchnozz-schnozz = 鼻子
 
-marking-HumanNoseNubby = Nubby Nose
-marking-HumanNoseNubby-nubby = Nose
+marking-HumanNoseNubby = 蒜头鼻
+marking-HumanNoseNubby-nubby = 鼻子
 
-marking-HumanNoseDroop = Droopy Nose
-marking-HumanNoseDroop-droop = Nose
+marking-HumanNoseDroop = 下垂鼻
+marking-HumanNoseDroop-droop = 鼻子
 
-marking-HumanNoseBlob = Blobby Nose
-marking-HumanNoseBlob-blob = Nose
+marking-HumanNoseBlob = 团状鼻
+marking-HumanNoseBlob-blob = 鼻子
 
-marking-HumanNoseUppie = Uppie Nose
-marking-HumanNoseUppie-uppie = Nose
+marking-HumanNoseUppie = 上翘鼻
+marking-HumanNoseUppie-uppie = 鼻子

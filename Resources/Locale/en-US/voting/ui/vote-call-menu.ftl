@@ -1,4 +1,4 @@
-ui-vote-type-restart = Restart round
+﻿ui-vote-type-restart = Restart round
 ui-vote-type-gamemode = Next gamemode
 ui-vote-type-map = Next map
 ui-vote-type-votekick = Votekick

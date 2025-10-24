@@ -1,6 +1,6 @@
-tool-openable-component-examine-closed = The {$name} is closed.
-tool-openable-component-examine-opened = The {$name} is open.
+﻿tool-openable-component-examine-closed = 此 {$name} 已关闭。
+tool-openable-component-examine-opened = 此 {$name} 已开启。
 
-tool-openable-component-verb-close = Close
-tool-openable-component-verb-open = Open
-tool-openable-component-verb-cant-close = You can't close the {$name} with that.
+tool-openable-component-verb-close = 关闭
+tool-openable-component-verb-open = 开启
+tool-openable-component-verb-cant-close = 你不能关闭 {$name} 用那个。

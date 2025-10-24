@@ -1,4 +1,4 @@
-# FlippableComponent
+﻿# FlippableComponent
 flippable-component-try-flip-is-stuck = It's stuck.
 
 # FlippableVerb

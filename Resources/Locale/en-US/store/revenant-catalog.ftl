@@ -1,4 +1,4 @@
-revenant-defile-name = Defile
+﻿revenant-defile-name = Defile
 revenant-defile-desc = Defiles the surrounding area, ripping up floors, damaging windows, opening containers, and throwing items. Using it leaves you vulnerable to attacks for a short period of time.
 
 revenant-overload-name = Overload Lights

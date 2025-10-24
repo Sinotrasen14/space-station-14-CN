@@ -1,4 +1,4 @@
-selectable-lock-verb-category-name = Add lock
+﻿selectable-lock-verb-category-name = Add lock
 
 selectable-lock-no-lock-verb = No lock
 selectable-lock-no-lock-popup = No lock has been added to {THE($target)}.

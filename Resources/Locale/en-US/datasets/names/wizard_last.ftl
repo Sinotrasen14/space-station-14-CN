@@ -1,4 +1,4 @@
-names-wizard-last-dataset-1 = Dark
+﻿names-wizard-last-dataset-1 = Dark
 names-wizard-last-dataset-2 = Darkmagic
 names-wizard-last-dataset-3 = Darko
 names-wizard-last-dataset-4 = Dumbledoom

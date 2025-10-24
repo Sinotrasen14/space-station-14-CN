@@ -1,27 +1,27 @@
-book-text-escalation = When it comes to getting robusted, it's all about strategy. Do it right and you'll be the envy of the station. Do it wrong and the gods themselves may turn against you. Personally, I always aim for the former...
+﻿book-text-escalation = 当涉及权力博弈时，关键在于策略运用。处理得当则全空间站都将艳羡你的手腕，稍有差池连神明都会与你为敌。就个人而言，我始终追求前者境界……
 
-        First things first: let the insults fly! This is your chance to really let your opponent know what you think of their ridiculously large shoes and that annoying bike horn.
+        首先：让那些侮辱飞起来吧！这是你真正让对手知道你对他们那可笑的大鞋子和那恼人的自行车角的看法的机会。
 
-        No conflict is complete without a little bit of physicality. Give your opponent a good shove or two, and if you're lucky, they'll stumble and fall, providing even more opportunities for insults.
+        没有肢体冲突的对抗总是不完整的。给你的对手来上一两次狠狠的推搡，如果运气好，他们会踉跄跌倒，这为你提供了更多 侮辱 的机会。
 
-        But beware, because by now your opponent is probably trying to kill you. So, try to calm things down a bit. It'll make you look good during the inevitable homicide investigation.
+        但要注意，因为此刻你的对手很可能正试图杀掉你。所以，试着让事态稍微平息下来。这能让你在无可避免的凶杀调查中显得更体面。
 
-        If deescalation doesn't work, it's time to grab a weapon. But be smart about it - choose something that looks like it couldn't possibly be deadly, like this book.
+        如果降级措施无效，就该抄家伙了。但得聪明点儿——选那种看起来压根不可能致命的东西，比如这本 书。
 
-        And if you're both still standing, it's time to pull out the big guns. Find the sharpest thing you can and end things, because everyone's getting kind of tired of this by now.
+        如果你们俩都还站着，是时候亮出大家伙了。找到你能用的最锋利的东西做个了断，因为大家到现在都有点厌倦了。
 
-        Now parade your vanquished opponent through the halls to the medbay so that everyone knows just how robust you really are.
+        现在带着你被击败的对手穿过大厅前往医疗舱，让所有人都知道你究竟有多么强大。
 
-        Remember, it's all about conserving energy. Let your opponent do some of the escalation for you - it's a win-win!
+        记住，这一切都是为了保存体力。让你的对手为你承担一部分攻势——这是双赢的局面！
 
-book-text-escalation-security = Get it right and you'll have the whole station calling you shitsec. Get it wrong and you'll face harmbatoning from the gods. Personally, I always aim for the former...
+book-text-escalation-security = 做得好，全站都会尊称你为狗屁安保。搞砸了，就等着挨神仙们的警棍吧。我个人嘛，向来只追求前者……
 
-        They say the pen is mightier than the sword, but you don't have a sword, you have a stun baton, and as soon as you start writing, any suspect is going to leave.
+        人们常说笔胜于剑，可你并没有剑，只有一根电击棒，而且只要你一开始写字，任何嫌疑人都会离开。
 
-        So, try starting your confrontations with words. It probably won't get you called shitsec, but it's also not likely to be very effective against someone with lethal intent.
+        所以，试着用言语开始你的对抗。这或许不会让你被骂成狗管理，但对抱有致命意图的人来说，也不太可能奏效。
 
-        Your next move should be to use non-lethal or less lethal devices, like stun batons, disablers, flashes, and flashbangs. Just make sure you get some training on these before trying to use them - offering them to a suspect in exchange for their cooperation is not an effective use of these tools.
+        你的下一步行动应是使用非致命或低致命性装备，例如电击棍、干扰器、闪光灯和闪光弹。务必在使用前接受相关培训——试图用这些工具与嫌疑人交换合作并非有效运用方式。
 
-        If you're lucky enough to run into a suspect who is a lethal threat, it's time to bust out all the goodies you've been hoarding from the armory.
+        若你足够幸运地遭遇具有致命威胁的嫌犯，此刻正是启用你从军械库囤积的所有装备之时。
 
-        For an extra intimidation factor, take your robusted suspects to the medbay to be healed instead of the brig. That way, the whole crew can see just how robust you are.
+        为了增加威慑力，把那些被你狠狠教训过的嫌犯带到医疗舱治疗，而不是禁闭室。这样一来，全体船员都能见识到你究竟有多强健。

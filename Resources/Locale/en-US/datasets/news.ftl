@@ -1,84 +1,84 @@
-news-dataset-1 = Tree stuck in tajaran; firefighters baffled.
-news-dataset-2 = Armadillos want aardvarks removed from dictionary claims 'here first'.
-news-dataset-3 = Angel found dancing on pinhead ordered to stop; cited for public nuisance.
-news-dataset-4 = Letters claim they are better than number; 'Always have been'.
+﻿news-dataset-1 = 树卡在塔贾兰中；消防员束手无策。
+news-dataset-2 = 犰狳声称“先来者”，要求将土豚从字典中移除。
+news-dataset-3 = 天使在针尖上跳舞被勒令停止；因公共妨害被传讯。
+news-dataset-4 = 字母声称它们比数字更好；'一直如此'。
 news-dataset-5 = Pens proclaim pencils obsolete, 'lead is dead'.
-news-dataset-6 = Rock and paper sues scissors for discrimination.
-news-dataset-7 = Steak tell-all book reveals he never liked sitting by potato.
-news-dataset-8 = Woodchuck stops counting how many times he’s chucked 'Never again'.
-news-dataset-9 = 'Here kitty kitty' no longer preferred tajaran retrieval technique.
-news-dataset-10 = Man travels 7000 light years to retrieve lost hankie, 'It was my favourite'.
-news-dataset-11 = New bowling lane that shoots mini-meteors at bowlers very popular.
-news-dataset-12 = Skrell marries computer; wedding attended by 100 modems.
-news-dataset-13 = Chef reports successfully using harmonica as cheese grater.
-news-dataset-14 = Nanotrasen invents handkerchief that says 'Bless you' after sneeze.
-news-dataset-15 = Clone accused of posing for other clones’s school photo.
-news-dataset-16 = Clone accused of stealing other clones’s employee of the month award.
-news-dataset-17 = Woman robs station with hair dryer; crewmen love new style.
-news-dataset-18 = This space for rent.
-news-dataset-19 = Skrell Scientist Discovers Abacus Can Be Used To Dry Towels
-news-dataset-20 = Survey: 'Cheese Louise' Voted Best Pizza Restaurant In Tau Ceti
-news-dataset-21 = Swamp Gas Verified To Be Exhalations Of Stars--Movie Stars--Long Passed
-news-dataset-22 = Tainted Broccoli Weapon Of Choice For Syndicate Assassins
-news-dataset-23 = Chefs Find Broccoli Effective Tool For Cutting Cheese
-news-dataset-24 = Broccoli Found To Cause Grumpiness In Monkeys
-news-dataset-25 = Giant Hairball Has Perfect Grammar But Rolls rr's Too Much, Linguists Say
-news-dataset-26 = Gibson Gazette Updates Frequently Absurd, Poll Indicates
-news-dataset-27 = Taj Demand Longer Breaks, Cleaner Litter, Slower Mice
-news-dataset-28 = Survey: 3 Out Of 5 Skrell Loathe Modern Art
-news-dataset-29 = Skrell Scientist Discovers Gravity While Falling Down Stairs
+news-dataset-6 = Rock and paper起诉scissors歧视。
+news-dataset-7 = 牛排爆料书揭示他从未喜欢坐在土豆旁边。
+news-dataset-8 = 土拨鼠不再数自己扔了多少次“再也不了”。
+news-dataset-9 = 'Here kitty kitty' 不再是塔亚兰寻回技术的首选方法。
+news-dataset-10 = 男子穿越7000光年寻回遗失手帕，'那可是我的最爱'。
+news-dataset-11 = 新的保龄球道向投球手发射迷你流星，非常受欢迎。
+news-dataset-12 = Skrell与电脑结婚；婚礼由100个调制解调器参加。
+news-dataset-13 = 厨师报告成功使用口琴作为奶酪刨丝器。
+news-dataset-14 = Nanotrasen发明了能在打喷嚏后说“保佑你”的手帕。
+news-dataset-15 = 克隆人被指控为其他克隆人的毕业照充当模特。
+news-dataset-16 = 克隆人被指控窃取其他克隆人的月度最佳员工奖。
+news-dataset-17 = 女子用电吹风抢劫车站；船员们喜爱新造型。
+news-dataset-18 = 此空间招租。
+news-dataset-19 = Skrell科学家发现算盘可用于烘干毛巾
+news-dataset-20 = 调查：'Cheese Louise'餐厅获选Tau Ceti最佳比萨店
+news-dataset-21 = 沼泽气体被证实为早已逝去的明星——电影明星——的呼气
+news-dataset-22 = 受污染西兰花成为集团刺客首选武器
+news-dataset-23 = 厨师发现西兰花是切奶酪的有效工具
+news-dataset-24 = 西兰花被发现会导致猴子脾气暴躁
+news-dataset-25 = 巨型毛团语法完美但发rr音过多，语言学家称
+news-dataset-26 = 吉布森公报频繁更新荒谬内容，民调显示
+news-dataset-27 = 塔吉猫要求更长的休息时间、更干净的猫砂和更慢的老鼠
+news-dataset-28 = 调查显示：五分之三的史奎尔族厌恶现代艺术
+news-dataset-29 = Skrell科学家在楼梯摔倒时发现重力
 news-dataset-30 = Humans Everywhere Agree: Purring Tajarans Are Happy Tajarans
-news-dataset-31 = From The Desk Of Wise Guy Sammy: One Word In This Gazette Is Sdrawkcab
-news-dataset-32 = From The Desk Of Wise Guy Sammy: It's Hard To Have Too Much Shelf Space
-news-dataset-33 = From The Desk Of Wise Guy Sammy: Wine And Friendships Get Better With Age
-news-dataset-34 = From The Desk Of Wise Guy Sammy: The Insides Of Golf Balls Are Mostly Rubber Bands
-news-dataset-35 = From The Desk Of Wise Guy Sammy: You Don't Have To Fool All The People, Just The Right Ones
-news-dataset-36 = From The Desk Of Wise Guy Sammy: If You Made The Mess, You Clean It Up
-news-dataset-37 = From The Desk Of Wise Guy Sammy: It Is Easier To Get Forgiveness Than Permission
-news-dataset-38 = From The Desk Of Wise Guy Sammy: Check Your Facts Before Making A Fool Of Yourself
-news-dataset-39 = From The Desk Of Wise Guy Sammy: You Can't Outwait A Bureaucracy
-news-dataset-40 = From The Desk Of Wise Guy Sammy: It's Better To Yield Right Of Way Than To Demand It
-news-dataset-41 = From The Desk Of Wise Guy Sammy: A Person Who Likes Cats Can't Be All Bad
-news-dataset-42 = From The Desk Of Wise Guy Sammy: Help Is The Sunny Side Of Control
-news-dataset-43 = From The Desk Of Wise Guy Sammy: Two Points Determine A Straight Line
-news-dataset-44 = From The Desk Of Wise Guy Sammy: Reading Improves The Mind And Lifts The Spirit
-news-dataset-45 = From The Desk Of Wise Guy Sammy: Better To Aim High And Miss Then To Aim Low And Hit
-news-dataset-46 = From The Desk Of Wise Guy Sammy: Meteors Often Strike The Same Place More Than Once
-news-dataset-47 = Tommy B. Saif Sez: Look Both Ways Before Boarding The Shuttle
-news-dataset-48 = Tommy B. Saif Sez: Hold On; Sudden Stops Sometimes Necessary
-news-dataset-49 = Tommy B. Saif Sez: Keep Fingers Away From Moving Panels
-news-dataset-50 = Tommy B. Saif Sez: No Left Turn, Except Shuttles
-news-dataset-51 = Tommy B. Saif Sez: Return Seats And Trays To Their Proper Upright Position
-news-dataset-52 = Tommy B. Saif Sez: Eating And Drinking In Docking Bays Is Prohibited
-news-dataset-53 = Tommy B. Saif Sez: Accept No Substitutes, And Don't Be Fooled By Imitations
-news-dataset-54 = Tommy B. Saif Sez: Do Not Remove This Tag Under Penalty Of Law
-news-dataset-55 = Tommy B. Saif Sez: Always Mix Thoroughly When So Instructed
-news-dataset-56 = Tommy B. Saif Sez: Try To Keep Six Month's Expenses In Reserve
-news-dataset-57 = Tommy B. Saif Sez: Change Not Given Without Purchase
-news-dataset-58 = Tommy B. Saif Sez: If You Break It, You Buy It
-news-dataset-59 = Tommy B. Saif Sez: Reservations Must Be Cancelled 48 Hours Prior To Event To Obtain Refund
-news-dataset-60 = Doughnuts: Is There Anything They Can't Do
-news-dataset-61 = If Tin Whistles Are Made Of Tin, What Do They Make Foghorns Out Of?
-news-dataset-62 = Broccoli discovered to be colonies of tiny aliens with murder on their minds
+news-dataset-31 = 来自智者萨米的书桌：本公报中有一个词是倒着写的。
+news-dataset-32 = 来自智者萨米的书桌：书架空间永远不嫌多
+news-dataset-33 = 来自智者萨米的书桌：葡萄酒与友谊，历久弥香
+news-dataset-34 = 来自智者萨米的书桌：高尔夫球的内部主要是橡皮筋
+news-dataset-35 = 来自智者萨米的书桌：你不必愚弄所有人，只需愚弄该愚弄的人
+news-dataset-36 = 来自智者萨米的书桌：如果你搞砸了，就得自己收拾残局
+news-dataset-37 = 来自智者萨米的书桌：求得宽恕总比获得许可容易。
+news-dataset-38 = 来自智者萨米的书桌：在出洋相前请先核实你的信息
+news-dataset-39 = 来自智多星萨米的书桌：你无法耗过一个官僚体系
+news-dataset-40 = 来自智者萨米的书桌：与其强求路权，不如主动让行
+news-dataset-41 = 摘自智者萨米的手记：喜欢猫的人总不会太差
+news-dataset-42 = 来自智者萨米的书桌：帮助是掌控的光明面
+news-dataset-43 = 来自智者萨米之笔：两点确定一条直线
+news-dataset-44 = 来自智者萨米的书桌：阅读启迪心智，振奋精神。
+news-dataset-45 = 来自智者萨米的书桌：宁求其上者得其中，不求其上者无所得
+news-dataset-46 = 来自智者萨米的书桌：陨石常常多次击中同一地点
+news-dataset-47 = 汤米·B·赛夫有言：搭乘班车前请先看清左右路况
+news-dataset-48 = Tommy B. Saif Sez: 坚持住；有时急停是必要的
+news-dataset-49 = Tommy B. Saif 提醒您：请勿将手指靠近活动面板
+news-dataset-50 = 汤米·B·赛义夫声明：禁止左转，班车除外
+news-dataset-51 = 汤米·B·赛义夫提醒：请将座椅和小桌板恢复至直立定位
+news-dataset-52 = 汤米·B·赛夫发言：船坞区域内禁止饮食
+news-dataset-53 = 汤米·B·赛夫有言：拒绝替代品，勿被仿冒品所欺
+news-dataset-54 = Tommy B. Saif 郑重声明：根据法律规定，严禁移除此标签
+news-dataset-55 = Tommy B. Saif Sez: 遵照指示时务必彻底搅拌均匀
+news-dataset-56 = 汤米·B·赛夫建议：尽量储备六个月的开支
+news-dataset-57 = 汤米·B·赛夫有言：非购买不予变更
+news-dataset-58 = Tommy B. Saif 有言：损坏照价赔偿
+news-dataset-59 = 汤米·B·赛夫有言：活动开始前48小时内取消预约方可获得退款
+news-dataset-60 = 甜甜圈：它们有什么不能做的吗
+news-dataset-61 = 如果锡哨是用锡做的，那雾号是用什么做的？
+news-dataset-62 = 西兰花被发现是心怀谋杀意图的微小外星人群体
 
-## Commented
-# {{AFFECTED}} clerk first person able to pronounce '@*$%!'.
-# {{AFFECTED}} delis serving boiled paperback dictionaries, 'Adjectives chewy' customers declare.
-# {{AFFECTED}} weather deemed 'boring'; meteors and rad storms to be imported.
-# Most {{AFFECTED}} security officers prefer cream over sugar.
-# Palindrome speakers conference in {{AFFECTED}}; 'Wow!' says Otto.
-# Question mark worshipped as deity by ancient {{AFFECTED}} dwellers.
-# Spilled milk causes whole {{AFFECTED}} populace to cry.
-# World largest carp patty at display on {{AFFECTED}}.
+## 已注释
+#{{AFFECTED}} 职员 第一人称 能够发音 '@*$%!'。
+#{{AFFECTED}} 供应水煮平装词典的熟食店，顾客宣称“形容词很有嚼劲”。
+#{{AFFECTED}} 天气被视为'无聊'; 流星和辐射风暴将被导入。
+#大多数{{AFFECTED}}安全官员更喜欢奶油而非糖。
+#回文扬声器会议在{{AFFECTED}}举行；'哇！'奥托说道。
+#被古代{{AFFECTED}}居民奉为神明的问号。
+#泼洒的牛奶让整个{{AFFECTED}}民众哭泣。
+#世界上最大的鲤鱼饼在{{AFFECTED}}展出。
 # Guy gets tattoo of Tau Ceti on chest '[pick(CentCom,star,starship,asteroid)] tickles most'.
-# {{AFFECTED}} Baker Wins Pickled Crumpet Toss Three Years Running
-# I Was Framed, jokes {{AFFECTED}} artist
-# Mysterious Loud Rumbling Noises In {{AFFECTED}} Found To Be Mysterious Loud Rumblings
-# Alien ambassador becomes lost on {{AFFECTED}}, refuses to ask for directions
-# Survey: 80% Of People on {{AFFECTED}} Love Clog-Dancing
-# {{AFFECTED}} Phonebooks Print All Wrong Numbers; Results In 15 New Marriages
-# Tajaran Burglar Spotted on {{AFFECTED}}, Mistaken For Dalmatian
-# Esoteric Verbosity Culminates In Communicative Ennui, {{AFFECTED}} Academics Note
-# Boy Saves Tajaran From Tree on {{AFFECTED}}, Thousands Cheer
-# Shipment Of Apples Overturns, {{AFFECTED}} Diner Offers Applesauce Special
-# Spotted Owl Spotted on {{AFFECTED}}
+#{{AFFECTED}} 贝克连续三年赢得腌司康饼投掷大赛
+#我被陷害了，笑话{{AFFECTED}}艺术家
+#{{AFFECTED}}神秘巨响调查结果确认为神秘巨响
+#外星大使在{{AFFECTED}}迷路，拒绝问路
+#调查：80%的{{AFFECTED}}居民热爱木鞋舞
+#{{AFFECTED}} 电话簿印刷全部错号；促成15桩新婚
+#塔亚兰盗贼现身于{{AFFECTED}}，被误认作达尔马提亚犬
+#玄奥冗长终致交流倦怠，{{AFFECTED}}学者指出
+#男孩在{{AFFECTED}}从树上救下塔贾兰人，千人欢呼
+#苹果运输车翻覆，{{AFFECTED}}餐厅推出苹果酱特餐
+#斑点猫头鹰 出现在 {{AFFECTED}}

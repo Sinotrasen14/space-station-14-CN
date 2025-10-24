@@ -1,4 +1,4 @@
-# Shown when greeted with the Suspicion role
+﻿# Shown when greeted with the Suspicion role
 suspicion-role-greeting = You're a {$roleName}!
 
 # Shown when greeted with the Suspicion role

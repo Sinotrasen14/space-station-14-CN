@@ -1,4 +1,4 @@
-# Names
+﻿# Names
 chat-emote-name-scream = Scream
 chat-emote-name-laugh = Laugh
 chat-emote-name-honk = Honk

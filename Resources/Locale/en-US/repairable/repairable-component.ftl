@@ -1,4 +1,4 @@
-### Interaction Messages
+﻿### Interaction Messages
 
 # Shown when repairing something
 comp-repairable-repair = You repair {PROPER($target) ->

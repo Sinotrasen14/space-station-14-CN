@@ -1,4 +1,4 @@
-cmd-planet-desc = Converts the supplied map into a planet with some specific biome.
+﻿cmd-planet-desc = Converts the supplied map into a planet with some specific biome.
 cmd-planet-help = {$command} <mapid> <biome>.
 cmd-planet-args = Requires 2 args only.
 cmd-planet-map = Unable to parse {$map} as an existing map.

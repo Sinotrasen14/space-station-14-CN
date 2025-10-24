@@ -1,4 +1,4 @@
-contraband-examine-text-Minor =
+﻿contraband-examine-text-Minor =
     { $type ->
         *[item] [color=yellow]This item is considered minor contraband.[/color]
         [reagent] [color=yellow]This reagent is considered minor contraband.[/color]

@@ -1,5 +1,5 @@
-## UI
+﻿## UI
 
-body-scanner-display-title = Body Scanner
-body-scanner-display-health-label = Health:
-body-scanner-display-body-part-damage-text = {$damage} damage
+body-scanner-display-title = 健康扫描仪
+body-scanner-display-health-label = 健康:
+body-scanner-display-body-part-damage-text = {$damage} 伤害

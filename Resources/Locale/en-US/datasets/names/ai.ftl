@@ -1,4 +1,4 @@
-names-ai-dataset-1 = 16-20
+﻿names-ai-dataset-1 = 16-20
 names-ai-dataset-2 = 512k
 
 # Ought to be enough for anybody

@@ -1,4 +1,4 @@
-buckle-component-no-hands-message = You don't have hands!
+﻿buckle-component-no-hands-message = You don't have hands!
 buckle-component-already-buckled-message = You are already buckled in!
 buckle-component-other-already-buckled-message = {$owner} is already buckled in!
 buckle-component-cannot-buckle-message = You can't buckle yourself there!

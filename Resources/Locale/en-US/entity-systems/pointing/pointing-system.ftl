@@ -1,4 +1,4 @@
-## PointingSystem
+﻿## PointingSystem
 
 pointing-system-try-point-cannot-reach = You can't reach there!
 pointing-system-point-at-self = You point at yourself.

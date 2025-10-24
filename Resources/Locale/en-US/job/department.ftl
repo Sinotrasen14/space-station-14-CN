@@ -1,12 +1,12 @@
-department-Cargo = Cargo
-department-Civilian = Civilian
-department-Command = Command
-department-CentralCommand = Central Command
-department-Engineering = Engineering
-department-Medical = Medical
-department-Security = Security
-department-Science = Science
-department-Silicon = Silicon
-department-Specific = Station specific
+﻿department-Cargo = 货仓
+department-Civilian = 平民
+department-Command = 指挥部
+department-CentralCommand = 中央司令部
+department-Engineering = 工程部
+department-Medical = 医疗部
+department-Security = 安保部
+department-Science = 科研部
+department-Silicon = 硅基
+department-Specific = 特殊工作
 
-department-Unknown = Unknown
+department-Unknown = 未知

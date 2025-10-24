@@ -1,4 +1,4 @@
-credits-window-title = Credits
+﻿credits-window-title = Credits
 credits-window-patrons-tab = Patrons
 credits-window-ss14contributorslist-tab = Credits
 credits-window-licenses-tab = Open Source Licenses

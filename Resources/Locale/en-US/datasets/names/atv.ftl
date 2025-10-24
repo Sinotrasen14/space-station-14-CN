@@ -1,4 +1,4 @@
-descriptions-atv-dataset-1 = All-Tile Vehicle.
+﻿descriptions-atv-dataset-1 = All-Tile Vehicle.
 descriptions-atv-dataset-2 = Ant-Thwarting Vehicle.
 descriptions-atv-dataset-3 = Any-Time Vegetable.
 descriptions-atv-dataset-4 = Actually-Two Vehicles.

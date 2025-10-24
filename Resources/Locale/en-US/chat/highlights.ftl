@@ -1,57 +1,57 @@
-# Command
-highlights-captain = Captain, "Cap", Bridge, Command
-highlights-head-of-personnel = Head Of Personnel, "HoP", Service, Bridge, Command
-highlights-chief-engineer = Chief Engineer, "CE", Engineering, Engineer, "Engi", Bridge, Command
-highlights-chief-medical-officer = Chief Medical Officer, "CMO", MedBay, "Med", Bridge, Command
-highlights-head-of-security = Head of Security, "HoS", Security, "Sec", Bridge, Command
-highlights-quartermaster = Quartermaster, "QM", Cargo, Bridge, Command
-highlights-research-director = Research Director, "RD", Science, "Sci", Bridge, Command
+﻿# Command
+highlights-captain = 舰长，“Cap”，舰桥，指挥官
+highlights-head-of-personnel = 人事部部长, "HoP", 服务部, 舰桥, 指挥
+highlights-chief-engineer = 首席工程师，“CE”，工程部，工程师，“Engi”，舰桥，指挥
+highlights-chief-medical-officer = 首席医疗官，"CMO"，医疗部，"医疗"，舰桥，指挥
+highlights-head-of-security = 安保主管, "HoS", 安保部门, "Sec", 舰桥, 指挥
+highlights-quartermaster = 军需官，"QM"，货仓，舰桥，指挥
+highlights-research-director = 研究主管，"RD"，科研部，"Sci"，舰桥，指挥
 
 # Security
-highlights-detective = Detective, "Det", Security, "Sec"
-highlights-security-cadet = Security Cadet, Secoff, Cadet, Security, "Sec"
-highlights-security-officer = Security Officer, Secoff, Officer, Security, "Sec"
-highlights-warden = Warden, "Ward", Security, "Sec"
+highlights-detective = 侦探, "Det", 安保, "Sec"
+highlights-security-cadet = 安保部学员，保安，学员，安保，"Sec"
+highlights-security-officer = 安保人员，安保员，警员，安保，"Sec"
+highlights-warden = 典狱长，“Ward”，安保，“Sec”
 
 # Cargo
-highlights-cargo-technician = Cargo Technician, Cargo Tech, "Cargo"
-highlights-salvage-specialist = Salvage Specialist, Salvager, Salvage, "Salv", "Cargo", Miner
+highlights-cargo-technician = 货舱技工，货物技术员，"Cargo"
+highlights-salvage-specialist = 打捞专家, 打捞员, 打捞, "Salv", "Cargo", 矿工
 
 # Engineering
-highlights-atmospheric-technician = Atmospheric Technician, Atmos tech, Atmospheric, Engineering, "Atmos", "Engi"
-highlights-station-engineer = Station Engineer, Engineering, Engineer, "Engi"
-highlights-technical-assistant = Technical Assistant, Tech Assistant, Engineering, Engineer, "Engi"
+highlights-atmospheric-technician = 大气技师，大气技工，大气部门，工程部，"Atmos"，"Engi"
+highlights-station-engineer = 站点工程师, 工程部, 工程师, "Engi"
+highlights-technical-assistant = 工程助理、技术助理、工程、工程师、"Engi"
 
 # Medical
-highlights-chemist = Chemist, Chemistry, "Chem", MedBay, "Med"
-highlights-medical-doctor = Medical Doctor, Doctor, "Doc", MedBay, "Med"
-highlights-medical-intern = Medical Intern, "Doc", Intern, MedBay, "Med"
-highlights-paramedic = Paramedic, "Para", MedBay, "Med"
+highlights-chemist = 化学家，化学，"Chem"，医疗部，"Med"
+highlights-medical-doctor = 医生，医师，“Doc”，医疗部，“Med”
+highlights-medical-intern = 实习医生，"Doc"，护士，医疗部，"Med"
+highlights-paramedic = 急救员，"Para"，医疗部，"Med"
 
 # Science
-highlights-scientist = Scientist, Science, "Sci"
-highlights-research-assistant = Research Assistant, Science, "Sci"
+highlights-scientist = 科学家, 科研部, "Sci"
+highlights-research-assistant = 研究助理，科研部，“Sci”
 
 # Civilian
-highlights-bartender = Bartender, Barkeeper, Barkeep, "Bar"
-highlights-botanist = Botanist, Botany, Hydroponics
-highlights-chaplain = Chaplain, "Chap", Chapel
-highlights-chef = Chef, "Cook", Kitchen
-highlights-clown = Clown, Jester
-highlights-janitor = Janitor, "Jani"
-highlights-lawyer = Lawyer, Attorney
-highlights-librarian = Librarian, Library
-highlights-mime = Mime
-highlights-passenger = Passenger, Greytider, "Tider"
-highlights-service-worker = Service Worker
+highlights-bartender = 酒保, 酒吧主理人, 调酒师, "Bar"
+highlights-botanist = 植物学家,植物学,水培
+highlights-chaplain = 牧师，"Chap"，教堂
+highlights-chef = 厨师，"Cook"，厨房
+highlights-clown = 小丑，弄臣
+highlights-janitor = 清洁工，"Jani"
+highlights-lawyer = 律师，逆转裁判
+highlights-librarian = 图书管理员, 图书馆
+highlights-mime = 默剧
+highlights-passenger = 乘客, 灰潮, "Tider", 助手
+highlights-service-worker = 服务工作者
 
 # Station-specific
-highlights-boxer = Boxer
-highlights-reporter = Reporter, Journalist
-highlights-zookeeper = Zookeeper
-highlights-psychologist = Psychologist, Psychology
+highlights-boxer = 拳击手
+highlights-reporter = 记者, 新闻工作者
+highlights-zookeeper = 动物园管理员
+highlights-psychologist = 心理学家, 心理学
 
 # Silicon
-highlights-personal-ai = Personal AI, "pAI"
-highlights-cyborg = Cyborg, Silicon, Borg
-highlights-station-ai = Station AI, Silicon, "AI", "sAI"
+highlights-personal-ai = 个人AI，"pAI"
+highlights-cyborg = 赛博格, 硅基, 赛博
+highlights-station-ai = 站内AI，硅基，“AI”，“sAI”

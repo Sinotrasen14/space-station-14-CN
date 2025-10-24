@@ -1,4 +1,4 @@
-shuttle-pilot-start = Piloting ship
+﻿shuttle-pilot-start = Piloting ship
 shuttle-pilot-end = Stopped piloting
 
 shuttle-console-in-ftl = Currently in FTL

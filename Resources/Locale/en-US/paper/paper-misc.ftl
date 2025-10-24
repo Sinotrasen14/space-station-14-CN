@@ -1,72 +1,72 @@
-book-text-plasma-trap = Heheheheh, no way in hell they're going to get at our stash NOW, is there?
-      I rigged the area where our stuff's at to be a toasty thousand K.
-      You know how to drain it when we need it out.
+﻿book-text-plasma-trap = 嘿嘿嘿嘿，这下他们绝对没法找到咱们的藏货了吧？
+      我把我们东西所在的地方搞得热烘烘的，足有一千开尔文。
+      你知道在我们需要时如何将其排干。
        - J.
 
-book-text-holoparasite-info = Thanks for choosing our holoparasite package!
-      At cybersun, we pride ourselves on cutting-edge military and industrial technology, and greatly appreciate your contribution to our establishment!
-      Guardians are helpful and intelligent beings which nest within your body, completely immune to common hazards such as pressure, temperature and even bullets!
-      You have purchased the holoparasite package, which contains a holoparasite activator, an instruction booklet, and our softcap merchandise.
-      Instructions for use:
-      1. Activate the holoparasite injector (preferably in a secluded area).
-      2. Wait for the tingling and/or painful metaphysical sensation.
-      3. Check your holoparasite for the ability to communicate and cooperate, and capacity to understand your orders.
-      4. Use your recall-manifest ability to summon or recall the holoparasite back into your body.
-      5. Keep the holoparasite within a short distance from yourself, otherwise it will be recalled by force!
-      WARNING: Guardians are metaphysical beings, but draw from your HEALTH in order to exist. Direct damage done to guardians will be partially transferred to you!
-      Cybersun inc. is not responsible for complete annihilation following the misuse of Holoparasite technology.
+book-text-holoparasite-info = 感谢您选择我们的全息寄生体套餐！
+      在cybersun，我们以尖端的军事和工业技术为傲，并衷心感谢您为我们建立所做出的巨大贡献！
+      守护者是寄居在你体内的有益且聪明的存在，它们完全免疫常见危险，比如压力、温度甚至子弹！
+      您已购买全息寄生体礼包，内含全息寄生体激活器、说明书以及我们的softcap商品。
+      使用说明:
+      1. 激活全息寄生体注射器（最好在僻静的区域内）。
+      2. 等待刺痛和/或疼痛的形而上学 感觉。
+      3. 检查你的全息寄生体是否具备沟通协作能力，以及理解你订单的认知水平。
+      4. 使用你的召回显化能力来召唤或将全息寄生体召回你的身体。
+      5. 让全息寄生体与你保持近距离，否则它将被强制召回！
+      警告：守护灵是形而上的存在，但会汲取你的生命值以维持存在。对守护灵造成的直接伤害将部分转移给你！
+      Cybersun公司对因滥用全息寄生体技术而导致的彻底毁灭概不负责
 
-book-text-ame-scribbles = I don't know if you're trained already, so I hope this'll help.
-      AME controller needs LV power and an HV wire to output to. Check the area with a crowbar if you aren't sure.
-      There should be an empty room next to where you found this, that room's wired for the AME.
-      You can put an AME anywhere if you can get the wires to it, though.
-      3x3 grid of AME parts, multitool them to unpack. Be careful not to 'trap' anything.
-      AME controller adjacent horizontally or vertically (not diagonally) to any point.
-      With only 1 core (what a 3x3 grid will get you), don't turn it up above 2.
-      The golden rule is 2 injection for every 1 core. You can go lower to save fuel.
-      Higher will burn the engine out and eventually make it explode. Don't.
-      Don't forget to refuel it, it tends to stop at the worst possible time.
+book-text-ame-scribbles = 我不知道你是否已经接受过训练，所以希望这个能帮上忙。
+      AME控制器需要低压电源和一根高压电线才能输出。如果你不确定，用撬棍检查一下区域。
+      在你发现这个的隔壁应该有个空房间，那间屋子已为AME铺设好线路。
+      只要能把线路接过去，你可以把AME放在任何地方，尽管。
+      3x3 AME零件网格，用多功能工具拆包。小心不要“困住”任何事。
+      AME控制器在水平或垂直方向（非对角线）与任意点相邻。
+      仅使用1个核心（3x3网格所能提供的配置），请勿将数值调至2以上。
+      黄金法则是每1个核心对应2次注入。你可以降低这个比例以节省燃料。
+      更高的意志会烧毁引擎并最终导致其爆炸。不要。
+      别忘了给它加油，它总在最糟糕的时间熄火。
 
-book-text-agrichemkit-manual = Thank you for choosing the safe-for-all-ages NanoTrasen Agri-Chem is Fun! chemistry kit, the best learning-adjacent toy of 2468! Be prepared to discover all about the biggest innovations in agriculture since people buried fish with their corn seeds.
+book-text-agrichemkit-manual = 感谢您选择老少皆宜的 NanoTrasen 农业化学趣味套装——这款荣获2468年度最佳启蒙教育玩具的化学实验箱！准备好探索自人类将鱼埋入玉米种子以来农业领域最重大的创新奇迹吧。
 
-      Contents:
-      5 handily labeled 30u bottles, 1 each of nitrogen, phosphorus, hydrogen, potassium, and ethanol
-      2 Safe-T-Fun(TM) sized 5u vials, 1 each of chlorine and radium
-      1 30u empty bottle, ready for your experiments.
+      内容:
+      5个方便标记的30u瓶子，分别装有氮、磷、氢、钾和乙醇各一瓶。
+      2 瓶 Safe-T-Fun（TM）规格 5u 装，含氯和镭各1瓶
+      1 30u 空瓶，准备就绪，供您进行实验。
 
-      First Experiment: EZ Nutrient
-      To create EZ Nutrient, a fertilizer densely packed with nutrients required for healthy plants, mix equal parts nitrogen, phosphorus, and potassium. To make a full bottle, thats 10u of each.
-      A little bottle of EZ Nutrient replaces a big stack of produce you'd otherwise compost to keep your plants growing strong. And crops you compost are crops you didn't make a profit on, so keep that EZ Nutrient flowing.
+      第一实验：EZ 营养
+      要制作EZ营养素，一种富含健康植物所需营养的浓缩肥料，只需等量混合氮、磷和钾元素。若要制成整瓶，则每种成分各需10单位。
+      一小瓶EZ营养液就能替代一大堆本需堆肥才能让植物茁壮成长的农产品。而被你堆肥的作物正是未能创造利润的收成，因此请持续使用EZ营养液流动。
 
-      Second Experiment: Ammonia and Diethylamine
-      Mix 3 parts hydrogen to 1 part nitrogen to make ammonia. It's a healthy, nutritious treat for your crops that aren't at their best. 
-      But if you want to impress the judges at your local NanoTrasen-sponsored County Fair, you'll need to add an equal amount of ethanol to your ammonia.
-      This will mix into Diethylamine, a miracle fertilizer that can make plants grow faster AND live longer! Keep the crops you love with you longer thanks to Diethylamine.
+      第二次实验：氨与二乙胺
+      将3份氢与1份氮混合制成氨。这是为您状态欠佳的作物准备的健康营养补充剂。
+      但如果你想在本地由纳星赞助的县博览会上给评委留下深刻印象，就需要向你的氨溶液中加入等量的乙醇。
+      这将混合成二乙胺，一种能让植物长得更快、活得更久的奇迹肥料！多亏了二乙胺，让你喜爱的作物陪伴你更久。
 
-      Third Experiment: Unstable Mutagen
-      When you're ready to show everyone you're the greatest botanist on the station, you'll need to mix up some unstable mutagen and hope for the best. Despite the scary name, unstable mutagen is entirely safe when applied to plants, but do not drink the appealingly green chemical yourself.
+      第三次实验：不稳定 诱变剂
+      当你准备向所有人证明自己是空间站最伟大的植物学家时，就需要调配些不稳定突变剂然后听天由命。尽管名字吓人，不稳定突变剂对植物使用完全安全——但千万别喝下这瓶翠绿诱人的化学药剂你自己。
       
-      Mix equal parts radium, phosphorus, and chlorine together to get a bright green batch of unstable mutagen, the safe and fun way to get the most of your farm. The 15u this kit lets you make could be your introduction to agrichemical stardom!
-      Unstable mutagen can have a wide variety of effects on plant life, including drastic changes to all sorts of growth parameters, produce full of helpful pharmaceuticals, plants that glow in the dark, or creating entirely new species.
+      将等量的镭、磷和氯混合在一起，就能得到一批亮绿色的不稳定诱变剂，这是让您的农场获得最大收益的安全又有趣的方法。这套工具能让您制作15u，这或许是您踏入农业化学明星之路的第一步！
+      不稳定诱变剂对植物生命可能产生多种多样的影响，包括引发各类生长参数的剧烈变化、结出富含药用成分的果实、培育出在黑暗中发光的植株，甚至可能催生出全新的物种。
       
-      Each individual plant responds to unstable mutagen differently, so you may want to use small doses on multiple crops and try to crossbreed the best traits from each of those. Applying multiple doses to one plant can stack multiple changes and make it harder to single out desirable traits.
-      Unstable mutagen is entirely safe when used as a fertilizer, and NanoTrasen takes no responsibility for dead crops, excessive water bills, newly sentient plants asking existential questions, or flora-strangled farmhands that may coincidentally occur while using it.
-      Do not drink unstable mutagen. Wash your hands thoroughly after handling. Wash your eyes if you have looked at unstable mutagen for over 30 minutes in a 24 hour period. Store in a dark room between 293–295K. Do not use on corporate holidays. If you begin hearing voices telling you to drink unstable mutagen, please contact your doctor, head of personnel, or exorcist.
+      每株植物对不稳定诱变剂的反应各不相同，因此建议在多种作物上使用小剂量，并尝试杂交筛选各植株的最佳性状。对单一植物重复施用会导致多重性状叠加，增加筛选理想特质的难度。
+      不稳定诱变剂作为肥料使用时是完全安全的，而纳星石化对使用过程中可能巧合发生的作物死亡、超额水费账单、提出存在主义问题的新生感知植物，或被植物绞杀的农场工人概不负责。
+      切勿饮用不稳定突变剂。接触后请彻底清洗双手。若24小时内注视不稳定突变剂超过30分钟，请立即冲洗双眼。储存于293-295K的暗室中。企业节假日禁止使用。若开始出现幻听怂恿您饮用不稳定突变剂，请立即联系您的医生、人事主管或驱魔师。
 
-book-text-combat-bakery-kit = Thank you for choosing our combat bakery kit!
-      Enclosed are two (2) CyberSun patented Throwing Croissants, and one (1) patent-pending Baguette Sword.
-      The included Donk Co. microwave board can construct a microwave capable of baking more weapons.
-      Just like the baked weapons, be sure to eat this note after use. Good luck, agent.
+book-text-combat-bakery-kit = 感谢您选择我们的战斗面包房套装！
+      内附两个（2）CyberSun专利飞掷牛角包，以及一个（1）待审专利法棍剑。
+      内置的Donk Co.微波电路板可制造出能够烘烤更多武器的微波炉。
+      就像那些烘焙武器一样，使用后请务必吃掉这张字条。祝你好运，代理
 
-      Baguette Sword Recipe:
-      Dough x 1
-      Salt 5u
-      Pepper 5u
-      Metal Rod x 1
-      Cook Time: 15 seconds
+      法棍剑 配方:
+      面团 x 1
+      盐 5u
+      胡椒 5u
+      金属棒 x 1
+      烹饪时间：15 秒
 
-      Throwing Croissant Recipe:
-      Raw Croissant x 1
-      Butter Slice x 1
-      Glass Shard x 1
-      Cook Time: 5 seconds
+      投掷可颂 配方:
+      生牛角面包 x 1
+      黄油切片 x 1
+      玻璃碎片 x 1
+      烹饪时间：5 秒

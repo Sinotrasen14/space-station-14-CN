@@ -1,4 +1,4 @@
-accent-skeleton-words-1 = fuck you
+﻿accent-skeleton-words-1 = fuck you
 accent-skeleton-words-replace-1 = I've got a BONE to pick with you
 
 accent-skeleton-words-2 = fucked

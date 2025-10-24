@@ -1,4 +1,4 @@
-### UI
+﻿### UI
 
 chat-manager-max-message-length = Your message exceeds {$maxMessageLength} character limit
 chat-manager-ooc-chat-enabled-message = OOC chat has been enabled.

@@ -1,249 +1,249 @@
-# Ears
-marking-VulpEar-vulp = Vulpkanin ears (Base)
-marking-VulpEar-vulp-inner = Vulpkanin ears (Inner)
-marking-VulpEar = Vulpkanin
+﻿#耳朵
+marking-VulpEar-vulp = Vulpkanin耳朵（基础）
+marking-VulpEar-vulp-inner = Vulpkanin耳朵（内侧）
+marking-VulpEar = 狐耳
 
-marking-VulpEarFade-vulp = Vulpkanin ears (Base)
-marking-VulpEarFade-vulp-fade = Vulpkanin ears (Fade)
-marking-VulpEarFade-vulp-inner = Vulpkanin ears (Inner)
-marking-VulpEarFade = Vulpkanin (Fade)
+marking-VulpEarFade-vulp = Vulpkanin耳朵 (Base)
+marking-VulpEarFade-vulp-fade = Vulpkanin耳朵 (Fade)
+marking-VulpEarFade-vulp-inner = Vulpkanin耳朵（内侧）
+marking-VulpEarFade = 瓦普卡宁 (淡出)
 
-marking-VulpEarSharp-vulp = Vulpkanin ears (Base)
-marking-VulpEarSharp-vulp-sharp = Vulpkanin ears (Sharp)
-marking-VulpEarSharp-vulp-inner = Vulpkanin ears (Inner)
-marking-VulpEarSharp = Vulpkanin (Sharp)
+marking-VulpEarSharp-vulp = Vulpkanin耳朵 (Base)
+marking-VulpEarSharp-vulp-sharp = Vulpkanin耳朵 (Sharp)
+marking-VulpEarSharp-vulp-inner = Vulpkanin耳朵（内耳）
+marking-VulpEarSharp = 狐人 (尖耳)
 
-marking-VulpEarCoyote-coyote = Coyote ears (Base)
-marking-VulpEarCoyote-coyote-inner = Coyote ears (Inner)
-marking-VulpEarCoyote = Vulpkanin Coyote
+marking-VulpEarCoyote-coyote = 郊狼耳朵 (基础)
+marking-VulpEarCoyote-coyote-inner = 郊狼耳朵（内侧）
+marking-VulpEarCoyote = Vulpkanin 郊狼
 
-marking-VulpEarJackal-jackal = Jackal ears (Base)
-marking-VulpEarJackal-jackal-inner = Jackal ears (Inner)
-marking-VulpEarJackal = Vulpkanin Jackal
+marking-VulpEarJackal-jackal = 胡狼耳朵 (基础)
+marking-VulpEarJackal-jackal-inner = 胡狼耳朵（内侧）
+marking-VulpEarJackal = 狐犬
 
-marking-VulpEarTerrier-terrier = Terrier ears (Base)
-marking-VulpEarTerrier-terrier-inner = Terrier ears (Inner)
-marking-VulpEarTerrier = Vulpkanin Terrier
+marking-VulpEarTerrier-terrier = 梗犬耳朵 (Base)
+marking-VulpEarTerrier-terrier-inner = 梗犬耳朵 (内侧)
+marking-VulpEarTerrier = 沃尔普卡宁梗犬
 
 marking-VulpEarFennec-fennec = Fennec ears (Base)
-marking-VulpEarFennec-fennec-inner = Fennec ears (Inner)
-marking-VulpEarFennec = Vulpkanin Fennec
+marking-VulpEarFennec-fennec-inner = 芬内克耳（内侧）
+marking-VulpEarFennec = Vulpkanin 芬尼克
 
-marking-VulpEarFox-fox = Fox ears (Base)
-marking-VulpEarFox-fox-inner = Fox ears (Inner)
-marking-VulpEarFox = Vulpkanin Fox
+marking-VulpEarFox-fox = 狐狸耳朵 (基础)
+marking-VulpEarFox-fox-inner = 狐耳（内侧）
+marking-VulpEarFox = 狐犬福克斯
 
-marking-VulpEarOtie-otie = Otie ears (Base)
-marking-VulpEarOtie-otie-inner = Otie ears (Inner)
+marking-VulpEarOtie-otie = 奥提耳朵 (基础)
+marking-VulpEarOtie-otie-inner = 奥提耳朵（内侧）
 marking-VulpEarOtie = Vulpkanin Otie
 
-marking-VulpEarShock-shock = Shock ears (Base)
-marking-VulpEarShock-shock-inner = Shock ears (Inner)
-marking-VulpEarShock = Vulpkanin Shock
+marking-VulpEarShock-shock = 震惊耳朵 (基础)
+marking-VulpEarShock-shock-inner = 震惊耳朵（内部）
+marking-VulpEarShock = Vulpkanin 休克
 
 
-# Snout
+#鼻口部
 
-marking-VulpSnout-snout = Snout
-marking-VulpSnout = Vulpkanin Snout
+marking-VulpSnout-snout = 吻部
+marking-VulpSnout = Vulpkanin 吻部
 
-marking-VulpSnoutNose-snout-nose = Nose
-marking-VulpSnoutNose = Vulpkanin Nose
+marking-VulpSnoutNose-snout-nose = 鼻子
+marking-VulpSnoutNose = Vulpkanin 鼻子
 
-marking-VulpSnoutVulpine-vulpine = Vulpine
-marking-VulpSnoutVulpine = Vulpkanin Vulpine
+marking-VulpSnoutVulpine-vulpine = 狐
+marking-VulpSnoutVulpine = Vulpkanin 狐型
 
-marking-VulpSnoutVulpineLines-vulpine-lines = Vulpine Lines
-marking-VulpSnoutVulpineLines = Vulpkanin Vulpine Lines
+marking-VulpSnoutVulpineLines-vulpine-lines = 狐纹
+marking-VulpSnoutVulpineLines = Vulpkanin 狐纹线条
 
-marking-VulpSnoutBlaze-blaze = Blaze
-marking-VulpSnoutBlaze = Vulpkanin Blaze
+marking-VulpSnoutBlaze-blaze = 火焰
+marking-VulpSnoutBlaze = Vulpkanin 火焰斑
 
-marking-VulpSnoutMask-mask = Mask
-marking-VulpSnoutMask = Vulpkanin Mask
+marking-VulpSnoutMask-mask = 面具
+marking-VulpSnoutMask = Vulpkanin面具
 
-marking-VulpSnoutTop-snout-top = Top
-marking-VulpSnoutTop = Vulpkanin Snout Top
+marking-VulpSnoutTop-snout-top = 顶部
+marking-VulpSnoutTop = 狐犬吻部上侧
 
-marking-VulpSnoutPatch-patch = Patch
-marking-VulpSnoutPatch = Vulpkanin Patch
-
-
-# Head
-
-marking-VulpHeadBlaze-blaze = Blaze
-marking-VulpHeadBlaze = Vulpkanin Blaze
-
-marking-VulpHeadMask-mask = Mask
-marking-VulpHeadMask = Vulpkanin Mask
-
-marking-VulpPatch-patch = Patch
-marking-VulpPatch = Vulpkanin Patch
-
-marking-VulpSlash-slash = Slash
-marking-VulpSlash = Vulpkanin Slash
-
-marking-VulpStripes1-stripes_1 = Stripes
-marking-VulpStripes1 = Vulpkanin Stripes 1
-
-marking-VulpStripes2-stripes_2 = Stripes
-marking-VulpStripes2 = Vulpkanin Stripes 2
-
-marking-VulpVulpine-vulpine = Nose
-marking-VulpVulpine = Vulpkanin Nose
+marking-VulpSnoutPatch-patch = 斑块
+marking-VulpSnoutPatch = 瓦普卡宁斑块
 
 
-# Tails
+#头部
+
+marking-VulpHeadBlaze-blaze = 火焰
+marking-VulpHeadBlaze = Vulpkanin 火焰斑纹
+
+marking-VulpHeadMask-mask = 面具
+marking-VulpHeadMask = Vulpkanin面具
+
+marking-VulpPatch-patch = 斑块
+marking-VulpPatch = Vulpkanin 补丁
+
+marking-VulpSlash-slash = 斩击
+marking-VulpSlash = 狐犬斩击
+
+marking-VulpStripes1-stripes_1 = 条纹
+marking-VulpStripes1 = Vulpkanin 条纹 1
+
+marking-VulpStripes2-stripes_2 = 条纹
+marking-VulpStripes2 = Vulpkanin 条纹 2
+
+marking-VulpVulpine-vulpine = 鼻子
+marking-VulpVulpine = 狐鼻
+
+
+#尾巴
 
 marking-VulpTailFennec-fennec = Fennec tail (Base)
-marking-VulpTailFennec-fennec-tip = Fennec tail (Tip)
-marking-VulpTailFennec = Vulpkanin Fennec
+marking-VulpTailFennec-fennec-tip = Fennec尾尖
+marking-VulpTailFennec = Vulpkanin 耳廓狐
 
-marking-VulpTailFluffy-fluffy = Fluffy tail (Base)
-marking-VulpTailFluffy-fluffy-tip = Fluffy tail (Tip)
-marking-VulpTailFluffy = Vulpkanin Fluffy
+marking-VulpTailFluffy-fluffy = 毛茸茸的尾巴（基础款）
+marking-VulpTailFluffy-fluffy-tip = 毛茸茸的尾巴（尾尖）
+marking-VulpTailFluffy = 狐尾绒毛
 
-marking-VulpTailHusky-husky = Husky tail (Base)
-marking-VulpTailHusky-husky-inner = Husky tail (Inner)
-marking-VulpTailHusky-husky-outer = Husky tail (Outer)
-marking-VulpTailHusky = Vulpkanin Husky
+marking-VulpTailHusky-husky = 哈士奇尾巴 (基础)
+marking-VulpTailHusky-husky-inner = 哈士奇尾巴 (内侧)
+marking-VulpTailHusky-husky-outer = 哈士奇尾巴（外侧）
+marking-VulpTailHusky = 胡狼犬哈士奇
 
-marking-VulpTailLong-long = Long tail (Base)
-marking-VulpTailLong-long-tip = Long tail (Tip)
-marking-VulpTailLong = Vulpkanin Long
+marking-VulpTailLong-long = 长尾 (基础)
+marking-VulpTailLong-long-tip = 长尾（尖）
+marking-VulpTailLong = 狐尾长
 
-marking-VulpTailVulp-vulp = Vulpkanin tail (Base)
-marking-VulpTailVulp-vulp-tip = Vulpkanin tail (Tip)
+marking-VulpTailVulp-vulp = Vulpkanin 尾巴 (基础)
+marking-VulpTailVulp-vulp-tip = 狐尾（尾尖）
 marking-VulpTailVulp = Vulpkanin
 
-marking-VulpTailVulpFade-vulp = Vulpkanin tail (Base)
-marking-VulpTailVulpFade-vulp-fade = Vulpkanin tail (Fade)
-marking-VulpTailVulpFade = Vulpkanin (Fade)
+marking-VulpTailVulpFade-vulp = Vulpkanin 尾部 (基础)
+marking-VulpTailVulpFade-vulp-fade = Vulpkanin 尾巴 (渐变)
+marking-VulpTailVulpFade = 沃尔普卡宁（淡化）
 
 
-# Chest
+#箱子
 
-marking-VulpBellyCrest-belly_crest = Belly
-marking-VulpBellyCrest = Vulpkanin Belly Crest
+marking-VulpBellyCrest-belly_crest = 腹部
+marking-VulpBellyCrest = Vulpkanin 腹部冠斑
 
-marking-VulpBellyFull-belly_full = Belly
-marking-VulpBellyFull = Vulpkanin Belly Full
+marking-VulpBellyFull-belly_full = 腹部
+marking-VulpBellyFull = Vulp腹部饱满
 
-marking-VulpBellyFox-belly_fox = Belly
-marking-VulpBellyFox = Vulpkanin Belly Fox
-
-
-# Arms
-
-marking-VulpClawsHandLeft = Claws (Left Hand)
-marking-VulpClawsHandRight = Claws (Right Hand)
-
-marking-VulpClawsHandLeft-claws_l_hand = Claws
-marking-VulpClawsHandRight-claws_r_hand = Claws
-
-marking-VulpPointsCrestArmLeft = Crest (Left Arm)
-marking-VulpPointsCrestHandLeft = Crest (Left Hand)
-marking-VulpPointsCrestArmRight = Crest (Right Arm)
-marking-VulpPointsCrestHandRight = Crest (Right Hand)
-
-marking-VulpPointsCrestArmLeft-crest-arm-l = Crest
-marking-VulpPointsCrestHandLeft-crest-hand-l = Crest
-marking-VulpPointsCrestArmRight-crest-arm-r = Crest
-marking-VulpPointsCrestHandRight-crest-hand-r = Crest
-
-marking-VulpPointsFadeArmLeft = Fade (Left Arm)
-marking-VulpPointsFadeHandLeft = Fade (Left Hand)
-marking-VulpPointsFadeArmRight = Fade (Right Arm)
-marking-VulpPointsFadeHandRight = Fade (Right Hand)
-
-marking-VulpPointsFadeArmLeft-points_fade-arm-l = Fade
-marking-VulpPointsFadeHandLeft-points_fade-hand-l = Fade
-marking-VulpPointsFadeArmRight-points_fade-arm-r = Fade
-marking-VulpPointsFadeHandRight-points_fade-hand-r = Fade
-
-marking-VulpPointsSharpArmLeft = Sharp (Left Arm)
-marking-VulpPointsSharpLongArmLeft = Sharp Long (Left Arm)
-marking-VulpPointsSharpHandLeft = Sharp (Left Hand)
-marking-VulpPointsSharpArmRight = Sharp (Right Arm)
-marking-VulpPointsSharpLongArmRight = Sharp Long (Right Arm)
-marking-VulpPointsSharpHandRight = Sharp (Right Hand)
-
-marking-VulpPointsSharpArmLeft-points_sharp-arm-l = Sharp
-marking-VulpPointsSharpLongArmLeft-points_sharp-arm-long-l = Sharp Long
-marking-VulpPointsSharpHandLeft-points_sharp-hand-l = Sharp
-marking-VulpPointsSharpArmRight-points_sharp-arm-r = Sharp
-marking-VulpPointsSharpLongArmRight-points_sharp-arm-long-r = Sharp Long
-marking-VulpPointsSharpHandRight-points_sharp-hand-r = Sharp
+marking-VulpBellyFox-belly_fox = 腹部
+marking-VulpBellyFox = 狐腹狐
 
 
-# Legs
+#手臂
 
-marking-VulpClawsFootLeft = Claws (Left Foot)
-marking-VulpClawsFootRight = Claws (Right Foot)
+marking-VulpClawsHandLeft = 利爪（左手）
+marking-VulpClawsHandRight = 利爪（右手）
 
-marking-VulpClawsFootLeft-claws_l_foot = Claws
-marking-VulpClawsFootRight-claws_r_foot = Claws
+marking-VulpClawsHandLeft-claws_l_hand = 爪子
+marking-VulpClawsHandRight-claws_r_hand = 爪子
 
-marking-VulpPointsCrestLegLeft = Crest (Left Leg)
-marking-VulpPointsCrestFootLeft = Crest (Left Foot)
-marking-VulpPointsCrestLegRight = Crest (Right Leg)
-marking-VulpPointsCrestFootRight = Crest (Right Foot)
+marking-VulpPointsCrestArmLeft = 冠饰（左臂）
+marking-VulpPointsCrestHandLeft = 冠（左手）
+marking-VulpPointsCrestArmRight = 冠饰（右臂）
+marking-VulpPointsCrestHandRight = 冠饰（右手）
 
-marking-VulpPointsCrestLegLeft-crest-leg-l = Crest
-marking-VulpPointsCrestFootLeft-crest-foot-l = Crest
-marking-VulpPointsCrestLegRight-crest-leg-r = Crest
-marking-VulpPointsCrestFootRight-crest-foot-r = Crest
+marking-VulpPointsCrestArmLeft-crest-arm-l = 冠
+marking-VulpPointsCrestHandLeft-crest-hand-l = 冠
+marking-VulpPointsCrestArmRight-crest-arm-r = 冠
+marking-VulpPointsCrestHandRight-crest-hand-r = 冠
 
-marking-VulpPointsFadeLegLeft = Fade (Left Leg)
-marking-VulpPointsFadeFootLeft = Fade (Left Foot)
-marking-VulpPointsFadeLegRight = Fade (Right Leg)
-marking-VulpPointsFadeFootRight = Fade (Right Foot)
+marking-VulpPointsFadeArmLeft = 褪色（左臂）
+marking-VulpPointsFadeHandLeft = 褪色（左手）
+marking-VulpPointsFadeArmRight = 褪色（右臂）
+marking-VulpPointsFadeHandRight = 褪色（右手）
 
-marking-VulpPointsFadeLegLeft-points_fade-leg-l = Fade
-marking-VulpPointsFadeFootLeft-points_fade-foot-l = Fade
-marking-VulpPointsFadeLegRight-points_fade-leg-r = Fade
-marking-VulpPointsFadeFootRight-points_fade-foot-r = Fade
+marking-VulpPointsFadeArmLeft-points_fade-arm-l = 褪色
+marking-VulpPointsFadeHandLeft-points_fade-hand-l = 褪色
+marking-VulpPointsFadeArmRight-points_fade-arm-r = 褪色
+marking-VulpPointsFadeHandRight-points_fade-hand-r = 褪色
 
-marking-VulpPointsSharpLegLeft = Sharp (Left Leg)
-marking-VulpPointsSharpFootLeft = Sharp (Left Foot)
-marking-VulpPointsSharpLegRight = Sharp (Right Leg)
-marking-VulpPointsSharpFootRight = Sharp (Right Foot)
+marking-VulpPointsSharpArmLeft = 锋利 (左臂)
+marking-VulpPointsSharpLongArmLeft = 尖锐长（左臂）
+marking-VulpPointsSharpHandLeft = 锋利（左手）
+marking-VulpPointsSharpArmRight = 锋利 (右臂)
+marking-VulpPointsSharpLongArmRight = 锋利长刺（右臂）
+marking-VulpPointsSharpHandRight = 锋利（右手）
 
-marking-VulpPointsSharpLegLeft-points_sharp-leg-l = Sharp
-marking-VulpPointsSharpFootLeft-points_sharp-foot-l = Sharp
-marking-VulpPointsSharpLegRight-points_sharp-leg-r = Sharp
-marking-VulpPointsSharpFootRight-points_sharp-foot-r = Sharp
+marking-VulpPointsSharpArmLeft-points_sharp-arm-l = 锋利
+marking-VulpPointsSharpLongArmLeft-points_sharp-arm-long-l = 尖长
+marking-VulpPointsSharpHandLeft-points_sharp-hand-l = 尖锐
+marking-VulpPointsSharpArmRight-points_sharp-arm-r = 锋利
+marking-VulpPointsSharpLongArmRight-points_sharp-arm-long-r = 尖锐长
+marking-VulpPointsSharpHandRight-points_sharp-hand-r = 锋利
 
 
-# Hair
+#腿
 
-marking-VulpHairAdhara = Adhara
-marking-VulpHairAnita = Anita
-marking-VulpHairApollo = Apollo
-marking-VulpHairBelle = Belle
-marking-VulpHairBraided = Braided Hair
-marking-VulpHairBun = Bun
-marking-VulpHairCleanCut = Clean Cut
-marking-VulpHairCurl = Curl
-marking-VulpHairHawk = Hawk
-marking-VulpHairJagged = Jagged
-marking-VulpHairJeremy = Jeremy
-marking-VulpHairKajam = Kajam
+marking-VulpClawsFootLeft = 爪子 (左脚)
+marking-VulpClawsFootRight = 爪子（右脚）
+
+marking-VulpClawsFootLeft-claws_l_foot = 爪
+marking-VulpClawsFootRight-claws_r_foot = 爪子
+
+marking-VulpPointsCrestLegLeft = 冠（左腿）
+marking-VulpPointsCrestFootLeft = 冠（左脚）
+marking-VulpPointsCrestLegRight = 冠毛（右腿）
+marking-VulpPointsCrestFootRight = 冠毛（右脚）
+
+marking-VulpPointsCrestLegLeft-crest-leg-l = 冠
+marking-VulpPointsCrestFootLeft-crest-foot-l = 冠
+marking-VulpPointsCrestLegRight-crest-leg-r = 冠毛
+marking-VulpPointsCrestFootRight-crest-foot-r = 冠
+
+marking-VulpPointsFadeLegLeft = 褪色（左腿）
+marking-VulpPointsFadeFootLeft = 褪色（左脚）
+marking-VulpPointsFadeLegRight = 褪色（右腿）
+marking-VulpPointsFadeFootRight = 褪色 (右脚)
+
+marking-VulpPointsFadeLegLeft-points_fade-leg-l = 淡化
+marking-VulpPointsFadeFootLeft-points_fade-foot-l = 淡化
+marking-VulpPointsFadeLegRight-points_fade-leg-r = 褪去
+marking-VulpPointsFadeFootRight-points_fade-foot-r = 褪色
+
+marking-VulpPointsSharpLegLeft = 尖锐（左腿）
+marking-VulpPointsSharpFootLeft = 尖锐（左脚）
+marking-VulpPointsSharpLegRight = 尖锐 (右腿)
+marking-VulpPointsSharpFootRight = 锋利 (右脚)
+
+marking-VulpPointsSharpLegLeft-points_sharp-leg-l = 尖锐
+marking-VulpPointsSharpFootLeft-points_sharp-foot-l = 尖锐
+marking-VulpPointsSharpLegRight-points_sharp-leg-r = 锋利
+marking-VulpPointsSharpFootRight-points_sharp-foot-r = 尖锐
+
+
+#头发
+
+marking-VulpHairAdhara = 阿达拉
+marking-VulpHairAnita = 安妮塔
+marking-VulpHairApollo = 阿波罗
+marking-VulpHairBelle = 贝儿
+marking-VulpHairBraided = 编发
+marking-VulpHairBun = 发髻
+marking-VulpHairCleanCut = 利落短发
+marking-VulpHairCurl = 卷曲
+marking-VulpHairHawk = 鹰
+marking-VulpHairJagged = 锯齿状
+marking-VulpHairJeremy = 杰里米
+marking-VulpHairKajam = 卡贾姆
 marking-VulpHairKeid = Keid
-marking-VulpHairKleeia = Kleeia
+marking-VulpHairKleeia = 克蕾雅
 marking-VulpHairMizar = Mizar
-marking-VulpHairPunkBraided = Punk Braided
-marking-VulpHairRaine = Raine
-marking-VulpHairRough = Rough
-marking-VulpHairShort = Short Hair
-marking-VulpHairShort2 = Short Hair 2
-marking-VulpHairSpike = Spike
+marking-VulpHairPunkBraided = 庞克辫子
+marking-VulpHairRaine = 雷恩
+marking-VulpHairRough = 粗糙
+marking-VulpHairShort = 短发
+marking-VulpHairShort2 = 短发 2
+marking-VulpHairSpike = 尖刺
 
 
-# Facial Hair
+#面部毛发
 
-marking-VulpFacialHairRuff = Ruff
-marking-VulpFacialHairElder = Elder
-marking-VulpFacialHairElderChin = Elder Chin
-marking-VulpFacialHairKita = Kita
-marking-VulpFacialHairGoatee = Beard (Snout Goatee)
+marking-VulpFacialHairRuff = 颈毛
+marking-VulpFacialHairElder = 长老
+marking-VulpFacialHairElderChin = 年长者的下巴
+marking-VulpFacialHairKita = 北
+marking-VulpFacialHairGoatee = 胡须（吻部山羊胡）

@@ -1,13 +1,13 @@
-zombie-transform = {CAPITALIZE(THE($target))} turned into a zombie!
-zombie-infection-greeting = You have become a zombie. Your goal is to seek out the living and to try to infect them.  Work together with the other zombies and remaining initial infected to overtake the station.
+﻿zombie-transform = {CAPITALIZE(THE($target))} 变成了丧尸!
+zombie-infection-greeting = 你已经变成了一只丧尸，你的目标是寻找活人然后感染他们，与其他丧尸及感染者合作拿下整个太空站。
 
-zombie-generic = zombie
-zombie-name-prefix = zombified {$baseName}
-zombie-role-desc =  A malevolent creature of the dead.
-zombie-role-rules = You are a [color={role-type-team-antagonist-color}][bold]{role-type-team-antagonist-name}[/bold][/color]. Search out the living and bite them in order to infect them and turn them into zombies. Work together with the other zombies and remaining initial infected to overtake the station.
+zombie-generic = 丧尸
+zombie-name-prefix = 丧尸化的 {$baseName}
+zombie-role-desc = 一个邪恶的不死生物。
+zombie-role-rules = 你是一个 [color={role-type-team-antagonist-color}][bold]{role-type-team-antagonist-name}[/bold][/color]. 寻找活人啃咬他们来感染他们，与其他丧尸及感染者合作拿下整个太空站。
 
-zombie-permadeath = This time, you're dead for real.
+zombie-permadeath = 这一次，你是真的死了。
 
-zombification-resistance-coefficient-value = - [color=violet]Infection[/color] chance reduced by [color=lightblue]{$value}%[/color].
+zombification-resistance-coefficient-value = - [color=violet]感染[/color] 概率降低 [color=lightblue]{$value}%[/color].
 
-zombie-roleban-ghosted = You have been ghosted because you are banned from playing the Zombie role.
+zombie-roleban-ghosted = 由于你被禁止扮演丧尸角色，你已经被转换为鬼魂。

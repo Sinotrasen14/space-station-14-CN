@@ -1,4 +1,4 @@
-reagent-name-oxygen = oxygen
+﻿reagent-name-oxygen = oxygen
 reagent-desc-oxygen = An oxidizing, colorless gas.
 
 reagent-name-plasma = plasma

@@ -1,4 +1,4 @@
-ventriloquist-puppet-insert-hand = You insert your hand into the puppet.
+﻿ventriloquist-puppet-insert-hand = You insert your hand into the puppet.
 ventriloquist-puppet-remove-hand = You remove your hand from the puppet.
 
 ventriloquist-puppet-cant-speak = You cannot speak without a helping hand.

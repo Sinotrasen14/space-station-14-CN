@@ -1,1 +1,1 @@
-﻿examine-pinpointer-linked = It is tracking: {$target}
+﻿examine-pinpointer-linked = 正在追踪: {$target}

@@ -1,54 +1,54 @@
-book-text-atmos-distro = The distribution network, or "distro" for short, is the station's lifeline. It's responsible for transporting air from atmospherics throughout the station.
+﻿book-text-atmos-distro = 配气网络（简称"distro"）是空间站的生命线，负责将空气从大气处理区输送至全站各处。
 
-        Relevant pipes are often painted Popping Subdued Blue, but a surefire way to identify them is to use a tray scanner to trace which pipes are connected to active vents on the station.
+        相关管道通常被涂成Popping Subdued Blue，但最可靠的方法是利用托盘扫描仪追踪哪些管道连接到站点的活跃通风口。
 
-        The standard gas mix of the distribution network is 20 degrees celsius, 78% nitrogen, 22% oxygen. You can check this by using a gas analyzer on a distro pipe or any vent connected to it. Special circumstances may call for special mixes.
+        配气管网的标准气体混合物为20摄氏度，78%氮气，22%氧气。您可以通过在配气管道或任何与之相连的通风口上使用气体分析仪来确认这一点。特殊情况下可能需要特殊的混合。
 
-        When it comes to deciding on a distro pressure, there are a few things to consider. Active vents will regulate the station's pressure, so as long as everything is functioning properly, there's no such thing as too high of a distro pressure.
+        在确定分配压力时，有几个因素需要考虑。主动通风口会调节空间站气压，只要所有设备正常运行，分配压力就不存在过高之说。
 
-        A higher distro pressure will allow the distro network to act as a buffer between the gas miners and vents, providing a significant amount of extra air that can be used to re-pressurize the station after a spacing.
+        较高的分配压力将使分配网络能够作为气体开采口与通风口之间的缓冲，提供大量额外空气，可在间距后用于重新加压空间站。
 
-        A lower distro pressure will reduce the amount of gas lost in the event that the distro is spaced, a quick way to deal with distro contamination. It can also help slow or prevent over-pressurization of the station in the event of vent issues.
+        较低的分配器压力可减少在分配器间隔时损失的气体量，这是处理分配器污染的快捷方法。它还有助于在发生排气问题时减缓或防止空间站的过压情况。
 
-        Common distro pressures are in the range of 300-375 kPa, but other pressures can be used with knowledge of the risks and benefits.
+        常见分配压力在300-375 kPa范围内，但了解风险与好处后也可采用其他压力值。
 
-        The pressure of the network is determined by the last pump pumping into it. To prevent bottlenecks, all other pumps between the miners and the last pump should be set to their maximum rate, and any unnecessary devices should be removed.
+        网络的压力由最终注入的泵决定。为防止瓶颈，矿机与最终泵之间的所有其他泵应设置为最大速率，同时所有非必要设备应已移除。
 
-        You can validate the distro pressure with a gas analyzer, but keep in mind that high demand due to things like spacings can cause the distro to be below the set target pressure for extended periods. So, if you see a dip in pressure, don't panic - it might be temporary.
+        您可以用气体分析仪验证分配压力，但请注意，因间距等因素导致的高需求可能使分配压力长期低于设定目标值。所以若发现压力骤降不必惊慌——这可能是临时的。
 
-book-text-atmos-waste = The waste network is the primary system responsible for keeping the air on the station free of contaminants.
+book-text-atmos-waste = 废物网络是负责保持空间站空气不受污染的主要系统。
 
-        You can identify the relevant pipes by their Pleasing Dull Red color or by using a tray scanner to trace which pipes are connected to the scrubbers on the station.
+        您可以通过其悦目的暗红色或使用托盘扫描仪追踪哪些管道连接到 车站 上的洗涤器来识别相关管道。
 
-        The waste network is used to transport waste gasses to either be filtered or spaced. It is ideal to keep the pressure at 0 kPa, but it may sometimes be at a low non-zero pressure while in use.
+        废气管网用于输送废气，以便进行过滤或排放至太空。理想情况下应保持压力在0千帕，但有时在使用中可能会处于较低的非零压力状态。
 
-        Technicians have the option to filter or space the waste gasses. While spacing is faster, filtering allows for the gasses to be reused for recycling or selling.
+        技术人员可以选择过滤或排放废气。虽然排放速度更快，但过滤后的气体可以重新用于回收或出售。
 
-        The waste network can also be used to diagnose atmospheric issues on the station. High levels of a waste gas may suggest a large leak, while the presence of non-waste gases may indicate a scrubber configuration or physical connection issue. If the gases are at a high temperature, it could indicate a fire.
+        废物网络也可用于诊断空间站上的大气问题。高浓度的废气可能意味着存在大型泄漏，而非废气气体的出现则可能暗示汲取器配置或物理连接问题。若气体温度过高，则可能预示着存在火情。
 
-book-text-atmos-alarms = Air alarms are located throughout stations to allow management and monitoring of the local atmosphere.
+book-text-atmos-alarms = 空气警报器遍布空间站各处，用于对局部大气进行管理与监控。
 
-            The air alarm interface provides technicians with a list of connected sensors, their readings, and the ability to adjust thresholds. These thresholds are used to determine the alarm condition of the air alarm. Technicians can also use the interface to set target pressures for vents and configure the operating speeds and targeted gases for scrubbers.
+            空气警报界面为技术人员提供了已连接传感器的列表、它们的读数以及调整阈值的能力。这些阈值用于确定空气警报的警报状态。技术人员还可以使用该界面为通风口设置目标压力，并配置擦洗器的工作速度和目标气体。
 
-            While the interface allows for fine-tuning of the devices under the air alarm's control, there are also several modes available for rapid configuration of the alarm. These modes are automatically switched to when the alarm state changes:
-            - Filtering: The default mode
-            - Filtering (wide): A filtering mode that modifies the operation of scrubbers to scrub a wider area
-            - Fill: Disables scrubbers and sets vents to their maximum pressure
-            - Panic: Disables vents and sets scrubbers to siphon
+            尽管界面允许对空袭警报控制下的设备进行精细调节，但仍提供多种模式以便快速配置警报。这些模式会在警报状态变更时自动切换：
+            - 筛选：默认模式
+            - 筛选（宽）：一种筛选模式，可修改汲取器运作方式以汲取更广区域
+            - 填充: 禁用汲取器并将通风口设置为最大 压力
+            - 恐慌: 禁用通风口并将汲取器设置为汲取模式
 
-            A multitool or network configurator can be used to link devices to air alarms.
+            可使用多功能工具或网络配置器将设备连接至air 警报。
 
 book-text-atmos-vents =
-    Below is a quick reference guide to several atmospheric devices:
+    以下是几种大气设备的快速参考指南：
 
-                Passive Vents:
-                These vents don't require power, they allow gases to flow freely both into and out of the pipe network they are attached to.
+                被动 通风口:
+                这些通风口不需要电力，它们允许气体自由地流入和流出它们所连接的管网。
 
-                Active Vents:
-                These are the most common vents on the station. They have an internal pump, and require power. By default, they will only pump gases out of pipes, and only up to 101 kpa. However, they can be reconfigured using an air alarm. They will also lock out if the room is under 1 kpa, to prevent pumping gasses into space.
+                主动 通风口:
+                这些是空间站上最常见的通风口。它们配备内置泵且需要电力驱动。默认情况下，通风口仅能从管道中抽送气体，且最高压力为101千帕。但通过空气警报器可重新配置其工作模式。当舱内气压低于1千帕时，通风口会自动锁定，以防止气体被泵入 空间
 
-                Air Scrubbers:
-                These devices allow gases to be removed from the environment and put into the connected pipe network. They can be configured to select specific gases when connected to an air alarm.
+                空气汲取器:
+                这些设备能够将气体从环境中移除并导入连接的管道网络。当连接到空气警报系统时，可对其进行配置以筛选特定气体。
 
-                Air Injectors:
-                Injectors are similar to active vents, but they have no internal pump and do not require power. They cannot be configured, but they can continue to pump gasses up to much higher pressures.
+                空气注入器:
+                注入器与主动通风口类似，但它们没有内置泵且无需电力驱动。虽然不可配置，但能持续输送气体直至达到更高的 压力。

@@ -1,4 +1,4 @@
-# named frequencies
+﻿# named frequencies
 device-frequency-prototype-name-atmos = Atmospheric Devices
 device-frequency-prototype-name-suit-sensors = Suit Sensors
 device-frequency-prototype-name-crew-monitor = Crew Monitor

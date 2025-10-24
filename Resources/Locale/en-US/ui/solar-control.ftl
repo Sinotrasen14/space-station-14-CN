@@ -1,4 +1,4 @@
-solar-control-window-title = Solar Control Console
+﻿solar-control-window-title = Solar Control Console
 solar-control-window-output-power = Output Power:
 solar-control-window-watts = W
 solar-control-window-sun-angle = Sun Angle:

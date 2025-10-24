@@ -1,4 +1,4 @@
-verb-categories-antag = Antag ctrl
+﻿verb-categories-antag = Antag ctrl
 admin-verb-make-traitor = Make the target into a traitor.
 admin-verb-make-initial-infected = Make the target into an Initial Infected.
 admin-verb-make-zombie = Zombifies the target immediately.

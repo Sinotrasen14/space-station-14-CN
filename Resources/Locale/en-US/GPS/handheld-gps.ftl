@@ -1,3 +1,3 @@
-handheld-gps-coordinates-title =
-    Coords:
+﻿handheld-gps-coordinates-title =
+    坐标:
     {$coordinates}

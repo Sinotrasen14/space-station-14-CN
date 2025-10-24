@@ -1,10 +1,10 @@
-### EscapeMenu.xaml
+﻿### EscapeMenu.xaml
 
-ui-escape-title = Game Menu
-ui-escape-options = Options
-ui-escape-rules = Rules
-ui-escape-guidebook = Guidebook
-ui-escape-wiki = Wiki
-ui-escape-disconnect = Disconnect
-ui-escape-quit = Quit
+ui-escape-title = 游戏菜单
+ui-escape-options = 设置
+ui-escape-rules = 规则
+ui-escape-guidebook = 指南书
+ui-escape-wiki = 维基百科
+ui-escape-disconnect = 断开连接
+ui-escape-quit = 退出
 

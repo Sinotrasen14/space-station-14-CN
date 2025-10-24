@@ -1,4 +1,4 @@
-# General
+﻿# General
 ai-wire-snipped = One of your systems' wires has been cut at {$source}.
 wire-name-ai-vision-light = AIV
 wire-name-ai-act-light = AIA

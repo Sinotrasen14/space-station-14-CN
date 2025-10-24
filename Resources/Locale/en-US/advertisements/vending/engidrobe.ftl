@@ -1,5 +1,5 @@
-advertisement-engidrobe-1 = Guaranteed to protect your feet from industrial accidents!
-advertisement-engidrobe-2 = Afraid of radiation? Then wear yellow!
-advertisement-engidrobe-3 = We got hats that protect your noggin!
-advertisement-engidrobe-4 = Not enough people wear safety equipment nowadays!
-advertisement-engidrobe-5 = Get your safety equipment today!
+﻿advertisement-engidrobe-1 = 保证你的双脚免受工业事故的影响！
+advertisement-engidrobe-2 = 害怕辐射？穿上那些黄衣服！
+advertisement-engidrobe-3 = 我们有帽子保护你的头！
+advertisement-engidrobe-4 = 现在穿安全设备的人不够多！
+advertisement-engidrobe-5 = 立刻获取您的安全设备！

@@ -1,4 +1,4 @@
-gas-ammonia-abbreviation = NH₃
+﻿gas-ammonia-abbreviation = NH₃
 gas-carbon-dioxide-abbreviation = CO₂
 gas-frezon-abbreviation = F
 gas-nitrogen-abbreviation = N₂

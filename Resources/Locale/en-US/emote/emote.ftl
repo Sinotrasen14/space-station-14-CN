@@ -1,2 +1,2 @@
-chat-system-emote-cancelled-generic = You can't {$emote} right now!
-chat-system-emote-cancelled-blocked = You can't {$emote} because of {THE($blocker)}!
+﻿chat-system-emote-cancelled-generic = 你现在无法 {$emote}！
+chat-system-emote-cancelled-blocked = 由于 {THE($blocker)}，你现在无法 {$emote}！

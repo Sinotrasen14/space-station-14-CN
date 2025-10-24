@@ -1,4 +1,4 @@
-pai-mass-scanner-name = Mass Scanner
+﻿pai-mass-scanner-name = Mass Scanner
 pai-mass-scanner-desc = Enables you to scan nearby masses to assist in navigation.
 
 pai-midi-player-name = MIDI Player

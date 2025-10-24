@@ -1,4 +1,4 @@
-names-syndicate-normal-dataset-1 = Alfa
+﻿names-syndicate-normal-dataset-1 = Alfa
 names-syndicate-normal-dataset-2 = Bravo
 names-syndicate-normal-dataset-3 = Charlie
 names-syndicate-normal-dataset-4 = Delta

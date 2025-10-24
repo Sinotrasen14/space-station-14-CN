@@ -1,38 +1,38 @@
-tool-quality-anchoring-name = Anchoring
-tool-quality-anchoring-tool-name = Wrench
+﻿tool-quality-anchoring-name = 锚定
+tool-quality-anchoring-tool-name = 扳手
 
-tool-quality-prying-name = Prying
-tool-quality-prying-tool-name = Crowbar
+tool-quality-prying-name = 撬动
+tool-quality-prying-tool-name = 撬棍
 
-tool-quality-screwing-name = Screwing
-tool-quality-screwing-tool-name = Screwdriver
+tool-quality-screwing-name = 旋入
+tool-quality-screwing-tool-name = 螺丝刀
 
-tool-quality-cutting-name = Cutting
-tool-quality-cutting-tool-name = Wirecutter
+tool-quality-cutting-name = 切割
+tool-quality-cutting-tool-name = 剪线钳
 
-tool-quality-welding-name = Welding
-tool-quality-welding-tool-name = Welder
+tool-quality-welding-name = 焊接
+tool-quality-welding-tool-name = 焊枪
 
-tool-quality-pulsing-name = Pulsing
-tool-quality-pulsing-tool-name = Multitool
+tool-quality-pulsing-name = 脉冲
+tool-quality-pulsing-tool-name = 多功能工具
 
-tool-quality-slicing-name = Slicing
-tool-quality-slicing-tool-name = Knife
+tool-quality-slicing-name = 切片
+tool-quality-slicing-tool-name = 厨刀
 
-tool-quality-sawing-name = Sawing
-tool-quality-sawing-tool-name = Saw
+tool-quality-sawing-name = 锯切
+tool-quality-sawing-tool-name = 圆锯
 
 tool-quality-honking-name = Honking
-tool-quality-honking-tool-name = Bike Horn
+tool-quality-honking-tool-name = 自行车喇叭
 
-tool-quality-woodcutting-name = Woodcutting
-tool-quality-woodcutting-tool-name = Hatchet
+tool-quality-woodcutting-name = 伐木
+tool-quality-woodcutting-tool-name = 斧头
 
-tool-quality-rolling-name = Rolling
-tool-quality-rolling-tool-name = Rolling Pin
+tool-quality-rolling-name = 滚动
+tool-quality-rolling-tool-name = 擀面杖
 
-tool-quality-digging-name = Digging
-tool-quality-digging-tool-name = Shovel
+tool-quality-digging-name = 挖掘
+tool-quality-digging-tool-name = 铲子
 
-tool-quality-brushing-name = Brushing
-tool-quality-brushing-tool-name = Wire Brush
+tool-quality-brushing-name = 刷洗
+tool-quality-brushing-tool-name = 钢丝刷

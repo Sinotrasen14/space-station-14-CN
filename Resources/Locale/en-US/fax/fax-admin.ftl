@@ -1,4 +1,4 @@
-# Command
+﻿# Command
 cmd-faxui-desc = Open admin window for sending faxes
 cmd-faxui-help = Usage: faxui
 

@@ -1,4 +1,4 @@
-reagent-name-toxin = toxin
+﻿reagent-name-toxin = toxin
 reagent-desc-toxin = An unsurprisingly toxic chemical. Available at an emagged chem dispenser.
 
 reagent-name-carpotoxin = carpotoxin

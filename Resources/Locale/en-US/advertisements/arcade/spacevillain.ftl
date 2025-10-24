@@ -1,4 +1,4 @@
-advertisement-space-villain-1 = Are you a bad enough dude to beat this game?
+﻿advertisement-space-villain-1 = Are you a bad enough dude to beat this game?
 advertisement-space-villain-2 = Beat the bad guy; win a prize!
 advertisement-space-villain-3 = FIGHT ME!
 advertisement-space-villain-4 = Space needs a hero!

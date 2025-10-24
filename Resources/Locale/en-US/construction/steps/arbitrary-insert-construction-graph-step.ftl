@@ -1,4 +1,4 @@
-# Shown when examining an in-construction object
+﻿# Shown when examining an in-construction object
 construction-insert-arbitrary-entity = Next, insert {$stepName}.
 
 construction-insert-info-examine-name-instrument-brass = brass instrument

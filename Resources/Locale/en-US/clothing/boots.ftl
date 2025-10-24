@@ -1,1 +1,1 @@
-clothing-boots-sidearm = Sidearm
+﻿clothing-boots-sidearm = Sidearm

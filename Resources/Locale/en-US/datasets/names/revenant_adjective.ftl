@@ -1,4 +1,4 @@
-names-revenant-adjective-dataset-1 = abysmal
+﻿names-revenant-adjective-dataset-1 = abysmal
 names-revenant-adjective-dataset-2 = abyssal
 names-revenant-adjective-dataset-3 = brutal
 names-revenant-adjective-dataset-4 = dark

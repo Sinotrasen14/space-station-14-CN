@@ -1,4 +1,4 @@
-fax-machine-popup-source-unknown = unknown
+﻿fax-machine-popup-source-unknown = unknown
 fax-machine-popup-received = Received correspondence from { $from }.
 fax-machine-popup-name-long = Fax name is too long
 fax-machine-popup-name-exist = Fax with same name already exist in network

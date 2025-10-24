@@ -1,4 +1,4 @@
-verb-system-null-server-response = Entity not in view. You should not see this.
+﻿verb-system-null-server-response = Entity not in view. You should not see this.
 
 
 # if verbs have a range of targets (e.g., multiple ejectables) you can

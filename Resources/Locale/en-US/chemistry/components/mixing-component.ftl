@@ -1,4 +1,4 @@
-# Types
+﻿# Types
 mixing-verb-default-mix = mix
 mixing-verb-default-grind = grind
 mixing-verb-default-juice = juice

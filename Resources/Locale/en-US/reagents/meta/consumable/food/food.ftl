@@ -1,20 +1,20 @@
-reagent-name-nutriment = nutriment
-reagent-desc-nutriment = All the vitamins, minerals, and carbohydrates the body needs in pure form.
+﻿reagent-name-nutriment = 营养素
+reagent-desc-nutriment = 人体所需的全部维生素、矿物质和碳水化合物，均以纯净形式提供。
 
-reagent-name-glucose = glucose
-reagent-desc-glucose = A simple sugar found in many foods.
+reagent-name-glucose = 葡萄糖
+reagent-desc-glucose = 一种在许多食物中发现的单糖。
 
-reagent-name-vitamin = vitamin
-reagent-desc-vitamin = Found in healthy, complete meals.
+reagent-name-vitamin = 维生素
+reagent-desc-vitamin = 存在于健康、全面的膳食中。
 
-reagent-name-protein = protein
-reagent-desc-protein = Found in certain meals, good for bodily health.
+reagent-name-protein = 蛋白质
+reagent-desc-protein = 存在于某些餐食中，对身体有益。
 
-reagent-name-cocoapowder = cocoa powder
-reagent-desc-cocoapowder = From the best varieties of cocoa beans
+reagent-name-cocoapowder = 可可粉
+reagent-desc-cocoapowder = 来自最优质的可可豆品种
 
-reagent-name-butter = butter
-reagent-desc-butter = You can believe it!
+reagent-name-butter = 黄油
+reagent-desc-butter = 你可以相信它！
 
-reagent-name-pumpkin-flesh = pumpkin flesh
-reagent-desc-pumpkin-flesh = The mushy, sweet remains of a pumpkin.
+reagent-name-pumpkin-flesh = 南瓜肉
+reagent-desc-pumpkin-flesh = 南瓜果肉：这是南瓜柔软、甜美的剩余果肉。

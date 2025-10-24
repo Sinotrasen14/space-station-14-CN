@@ -1,4 +1,4 @@
-item-recall-marked-name = Recall {CAPITALIZE($item)}
+﻿item-recall-marked-name = Recall {CAPITALIZE($item)}
 item-recall-marked-description = Recall {THE($item)} back into your hand.
 
 item-recall-item-marked = You draw a magical sigil on {THE($item)}.

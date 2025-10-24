@@ -1,4 +1,4 @@
-### Solution transfer component
+﻿### Solution transfer component
 
 comp-solution-transfer-fill-normal = You fill {THE($target)} with {$amount}u from {THE($owner)}.
 comp-solution-transfer-fill-fully = You fill {THE($target)} to the brim with {$amount}u from {THE($owner)}.

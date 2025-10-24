@@ -1,4 +1,4 @@
-names-ninja-title-dataset-1 = Master
+﻿names-ninja-title-dataset-1 = Master
 names-ninja-title-dataset-2 = Sensei
 names-ninja-title-dataset-3 = Swift
 names-ninja-title-dataset-4 = Merciless
@@ -19,7 +19,7 @@ names-ninja-title-dataset-18 = Shinobi
 names-ninja-title-dataset-19 = Initiate
 names-ninja-title-dataset-20 = Grandmaster
 names-ninja-title-dataset-21 = Strider
-names-ninja-title-dataset-22 = Striker
+names-ninja-title-dataset-22 = Slayer
 names-ninja-title-dataset-23 = Slayer
 names-ninja-title-dataset-24 = Awesome
 names-ninja-title-dataset-25 = Ender

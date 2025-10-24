@@ -1,4 +1,4 @@
-# Foldable
+﻿# Foldable
 
 foldable-fold-fail = You can't fold the {$object} here.
 foldable-unfold-fail = You can't unfold the {$object} here.

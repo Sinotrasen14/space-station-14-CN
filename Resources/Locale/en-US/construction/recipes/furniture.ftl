@@ -1,4 +1,4 @@
-construction-recipe-red-comf-bench = comfortable bench (red)
+﻿construction-recipe-red-comf-bench = comfortable bench (red)
 construction-recipe-blue-comf-bench = comfortable bench (blue)
 construction-recipe-table-fancy-black = fancy table (black)
 construction-recipe-table-fancy-blue = fancy table (blue)

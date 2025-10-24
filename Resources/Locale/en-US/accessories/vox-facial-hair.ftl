@@ -1,4 +1,4 @@
-marking-VoxFacialHairBeard = Vox Beard (Quills)
+﻿marking-VoxFacialHairBeard = Vox Beard (Quills)
 marking-VoxFacialHairColonel = Vox Moustache (Colonel)
 marking-VoxFacialHairFu = Vox Moustache (Quill Fu)
 marking-VoxFacialHairNeck = Vox Beard (Neck Quills)

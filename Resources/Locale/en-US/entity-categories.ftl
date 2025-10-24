@@ -1,9 +1,9 @@
-entity-category-name-actions = Actions
-entity-category-name-game-rules = Game Rules
-entity-category-name-objectives = Objectives
-entity-category-name-roles = Mind Roles
-entity-category-name-mapping = Mapping
-entity-category-name-donotmap = Do not map
-entity-category-name-status-effects = Status Effects
+﻿entity-category-name-actions = 动作
+entity-category-name-game-rules = 游戏规则
+entity-category-name-objectives = 目标
+entity-category-name-roles = 意识角色
+entity-category-name-mapping = 地图制作
+entity-category-name-donotmap = 请勿修改地图
+entity-category-name-status-effects = 状态效果
 
-entity-category-suffix-donotmap = DO NOT MAP
+entity-category-suffix-donotmap = 严禁修改地图!

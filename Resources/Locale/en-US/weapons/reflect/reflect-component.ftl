@@ -1,1 +1,1 @@
-reflect-shot = Reflected!
+﻿reflect-shot = 反射!

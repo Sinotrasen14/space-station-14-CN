@@ -1,4 +1,4 @@
-construction-condition-machine-container-empty = Remove the parts from the frame using a [color=cyan]Crowbar[/color].
+﻿construction-condition-machine-container-empty = Remove the parts from the frame using a [color=cyan]Crowbar[/color].
 
 # MachineFrameComplete
 construction-condition-machine-frame-requirement-label = Requires:

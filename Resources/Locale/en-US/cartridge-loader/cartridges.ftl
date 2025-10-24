@@ -1,4 +1,4 @@
-device-pda-slot-component-slot-name-cartridge = Cartridge
+﻿device-pda-slot-component-slot-name-cartridge = Cartridge
 
 default-program-name = Program
 notekeeper-program-name = Notekeeper
@@ -92,8 +92,6 @@ wanted-list-status-label = [color=darkgray]status:[/color] {$status ->
         [detained] [color=#b18644]detained[/color]
         [paroled] [color=green]paroled[/color]
         [discharged] [color=green]discharged[/color]
-        [hostile] [color=darkred]hostile[/color]
-        [eliminated] [color=gray]eliminated[/color]
         *[other] none
     }
 

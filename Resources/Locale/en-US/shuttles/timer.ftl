@@ -1,4 +1,4 @@
-shuttle-timer-eta = ETA
+﻿shuttle-timer-eta = ETA
 shuttle-timer-etd = ETD
 shuttle-timer-shuttle-time = ShuttleTime
 shuttle-timer-source-time = SourceTime

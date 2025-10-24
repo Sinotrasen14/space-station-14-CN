@@ -1,4 +1,4 @@
-names-autoborg-dataset-1 = Autoburger Helper
+﻿names-autoborg-dataset-1 = Autoburger Helper
 names-autoborg-dataset-2 = Bob
 names-autoborg-dataset-3 = Joe
 names-autoborg-dataset-4 = Rogue Cyborg

@@ -1,4 +1,4 @@
-# rmaction
+﻿# rmaction
 cmd-rmaction-desc = Removes an action from an entity.
 cmd-rmaction-help = rmaction <EntityUid> <ActionUid>
 

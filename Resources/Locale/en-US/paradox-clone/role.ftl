@@ -1,4 +1,4 @@
-paradox-clone-round-end-agent-name = paradox clone
+﻿paradox-clone-round-end-agent-name = paradox clone
 
 objective-issuer-paradox = [color=lightblue]Paradox[/color]
 

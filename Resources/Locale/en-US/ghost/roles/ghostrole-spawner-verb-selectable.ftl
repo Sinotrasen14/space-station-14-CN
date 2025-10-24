@@ -1,1 +1,1 @@
-ghostrole-spawner-select = Selected: {$mode}
+﻿ghostrole-spawner-select = Selected: {$mode}

@@ -1,4 +1,4 @@
-changeling-role-greeting =
+﻿changeling-role-greeting =
     You are a Changeling, a highly intelligent predator.
     Your primary goal is to escape the station alive via assuming the identities of the denizens of this station.
     You are hungry and will not make it long without sustenance...

@@ -1,4 +1,4 @@
-# System
+﻿# System
 station-ai-fixer-console-is-locked = The console is locked.
 station-ai-fixer-console-station-ai-holder-required = Only AI storage units can be inserted into the console.
 station-ai-fixer-console-examination-station-ai-holder-present = There is {INDEFINITE($holder)} [color=cyan]{$holder}[/color] inserted in the console.

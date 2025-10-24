@@ -1,4 +1,4 @@
-descriptions-cookie-fortune-dataset-1 = The end is near... and it's all your fault.
+﻿descriptions-cookie-fortune-dataset-1 = The end is near... and it's all your fault.
 descriptions-cookie-fortune-dataset-2 = We know what you did.
 descriptions-cookie-fortune-dataset-3 = Beware.
 descriptions-cookie-fortune-dataset-4 = Don't look back.
@@ -72,7 +72,7 @@ descriptions-cookie-fortune-dataset-71 = Putting suit sensors on max is always a
 descriptions-cookie-fortune-dataset-72 = Syndicate is hiring. Contact us.
 descriptions-cookie-fortune-dataset-73 = The person next to you is up to something. You know what you have to do.
 descriptions-cookie-fortune-dataset-74 = Did you know? Monkeys are not what they seem.
-descriptions-cookie-fortune-dataset-75 = Did you know that half of salvage specialists go missing on the job?
+descriptions-cookie-fortune-dataset-75 = 你知道吗？半数的打捞专家都在执行任务时失踪了。
 descriptions-cookie-fortune-dataset-76 = Also try out sashimi with galaxythystle sauce!
 descriptions-cookie-fortune-dataset-77 = Did you know that 70% of Nanotrasen applicants go missing within the first years of their contract? The more you know!!
 descriptions-cookie-fortune-dataset-78 = This shift you are going to do a very robust move in front of everyone.

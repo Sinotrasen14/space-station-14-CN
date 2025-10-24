@@ -1,1 +1,1 @@
-﻿item-status-not-held = No held item
+﻿item-status-not-held = 没有持有物品

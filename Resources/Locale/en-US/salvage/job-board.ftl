@@ -1,4 +1,4 @@
-salvage-job-rank-title-0 = [color=gray]Scavenger[/color]
+﻿salvage-job-rank-title-0 = [color=gray]Scavenger[/color]
 salvage-job-rank-title-1 = [color=white]Scrapper[/color]
 salvage-job-rank-title-2 = [color=yellow]Specialist[/color]
 salvage-job-rank-title-MAX = [color=gold]Supreme Salvager[/color]

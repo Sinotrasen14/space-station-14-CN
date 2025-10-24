@@ -1,21 +1,21 @@
+﻿
+### 用户界面
 
-### UI
+paper-ui-blank-page-message = 此页特意留空
 
-paper-ui-blank-page-message = This page intentionally left blank
+#当检查带有文字的纸张时显示的详情
+paper-component-examine-detail-has-words = {CAPITALIZE(THE($paper))}上面写有文字。
+#检查盖章文件时显示
+paper-component-examine-detail-stamped-by = {CAPITALIZE(THE($paper))} {CONJUGATE-HAVE($paper)} 已被盖章于：{$stamps}。
+paper-component-illiterate = 你无法书写。
+paper-component-illiterate-mime = 你的誓言禁止你书写。
 
-# Shown when paper with words examined details
-paper-component-examine-detail-has-words = {CAPITALIZE(THE($paper))} has something written on it.
-# Shown when paper with stamps examined
-paper-component-examine-detail-stamped-by = {CAPITALIZE(THE($paper))} {CONJUGATE-HAVE($paper)} been stamped by: {$stamps}.
-paper-component-illiterate = You are unable to write.
-paper-component-illiterate-mime = Your vow forbids you from writing.
+paper-component-action-stamp-paper-other = {CAPITALIZE(THE($user))} 用 {THE($stamp)} 在 {THE($target)} 上盖章。
+paper-component-action-stamp-paper-self = 你用{THE($stamp)}在{THE($target)}上盖章。
 
-paper-component-action-stamp-paper-other = {CAPITALIZE(THE($user))} stamps {THE($target)} with {THE($stamp)}.
-paper-component-action-stamp-paper-self = You stamp {THE($target)} with {THE($stamp)}.
-
-# Indicator to show how full a paper is
+#指示器显示纸张有多满
 paper-ui-fill-level = {$currentLength}/{$maxLength}
 
-paper-ui-save-button = Save ({$keybind})
+paper-ui-save-button = 保存 ({$keybind})
 
-paper-tamper-proof-modified-message = This page was written using tamper-proof ink.
+paper-tamper-proof-modified-message = 此页面是使用防篡改墨水书写的。

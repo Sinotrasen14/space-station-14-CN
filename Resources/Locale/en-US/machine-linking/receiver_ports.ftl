@@ -1,4 +1,4 @@
-signal-port-name-autoclose = Autoclose
+﻿signal-port-name-autoclose = Autoclose
 signal-port-description-autoclose = Toggles whether the device should automatically close.
 
 signal-port-name-toggle = Toggle

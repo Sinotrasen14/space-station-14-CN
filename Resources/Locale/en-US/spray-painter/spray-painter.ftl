@@ -1,4 +1,4 @@
-# Components
+﻿# Components
 spray-painter-ammo-on-examine = It holds {$charges} charges.
 spray-painter-ammo-after-interact-full = The spray painter is full!
 spray-painter-ammo-after-interact-refilled = You refill the spray painter.
@@ -95,7 +95,7 @@ spray-painter-style-airlockglass-virology = Virology
 spray-painter-style-locker-atmospherics = Atmospherics
 spray-painter-style-locker-basic = Basic
 spray-painter-style-locker-botanist = Botanist
-spray-painter-style-locker-brigmedic = Brigmedic
+spray-painter-style-locker-brigmedic = 监狱医生
 spray-painter-style-locker-captain = Captain
 spray-painter-style-locker-ce = CE
 spray-painter-style-locker-chemical = Chemical

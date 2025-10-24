@@ -1,4 +1,4 @@
-## UI field names
+﻿## UI field names
 
 power-charge-window-status = Status:
 power-charge-window-power = Power:

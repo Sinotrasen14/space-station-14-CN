@@ -1,4 +1,4 @@
-radio-jammer-component-on-use = The jammer is now {$state}.
+﻿radio-jammer-component-on-use = The jammer is now {$state}.
 radio-jammer-component-on-state = on
 radio-jammer-component-off-state = off
 

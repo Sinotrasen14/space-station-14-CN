@@ -1,1 +1,1 @@
-rejuvenate-verb-get-data-text = Rejuvenate
+﻿rejuvenate-verb-get-data-text = Rejuvenate

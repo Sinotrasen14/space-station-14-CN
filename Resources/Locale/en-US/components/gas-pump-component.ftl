@@ -1,4 +1,4 @@
-comp-gas-pump-ui-pump-status = Status:
+﻿comp-gas-pump-ui-pump-status = Status:
 comp-gas-pump-ui-status-enabled = On
 comp-gas-pump-ui-status-disabled = Off
 

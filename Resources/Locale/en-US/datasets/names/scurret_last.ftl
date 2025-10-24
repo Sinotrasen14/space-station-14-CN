@@ -1,4 +1,4 @@
-# Scurrets from Planet Wawa have two parts to their name - a 'chosen' and 'qualitative' name.
+﻿# Scurrets from Planet Wawa have two parts to their name - a 'chosen' and 'qualitative' name.
 
 # The qualitative name is usually related to an important feature
 # of Wawa's wetland habitats that the scurret is associated with

@@ -1,4 +1,4 @@
-admin-solutions-window-title = Solution Editor - {$targetName}
+﻿admin-solutions-window-title = Solution Editor - {$targetName}
 admin-solutions-window-solution-label = Target solution:
 admin-solutions-window-solution-button = Solution
 admin-solutions-window-solution-button-tooltip = Opens the corresponding server-side Solution instance in ViewVariables. Useful for debugging prediction issues.

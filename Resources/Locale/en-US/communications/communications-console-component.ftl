@@ -1,4 +1,4 @@
-# User interface
+﻿# User interface
 comms-console-menu-title = Communications Console
 comms-console-menu-announcement-placeholder = Announcement text...
 comms-console-menu-announcement-button = Announce

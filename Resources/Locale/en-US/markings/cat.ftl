@@ -1,2 +1,2 @@
-marking-CatEars = Cat Ears
-marking-CatTail = Cat Tail
+﻿marking-CatEars = 猫耳
+marking-CatTail = 猫尾

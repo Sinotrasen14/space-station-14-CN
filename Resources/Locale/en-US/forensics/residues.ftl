@@ -1,4 +1,4 @@
-forensic-residue = {LOC($adjective)} residue
+﻿forensic-residue = {LOC($adjective)} residue
 forensic-residue-colored = {LOC($adjective)} {LOC($color)} residue
 
 residue-unknown = unknown

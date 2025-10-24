@@ -1,4 +1,4 @@
-# Ascalapha odorata
+﻿# Ascalapha odorata
 names-moth-last-dataset-1 = Blackwitch
 
 # Refers to any of the 3 Acherontia

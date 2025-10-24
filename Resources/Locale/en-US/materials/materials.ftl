@@ -1,4 +1,4 @@
-# Glass
+﻿# Glass
 materials-glass = glass
 materials-reinforced-glass = reinforced glass
 materials-plasma-glass = plasma glass

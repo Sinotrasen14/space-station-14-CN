@@ -1,4 +1,4 @@
--create-3rd-person =
+﻿-create-3rd-person =
     { $chance ->
         [1] Creates
         *[other] create
@@ -24,18 +24,6 @@ entity-effect-guidebook-spawn-entity =
         [1] {INDEFINITE($entname)}
         *[other] {$amount} {MAKEPLURAL($entname)}
     }
-
-entity-effect-guidebook-destroy =
-    { $chance ->
-        [1] Destroys
-        *[other] destroy
-    } the object
-
-entity-effect-guidebook-break =
-    { $chance ->
-        [1] Breaks
-        *[other] break
-    } the object
 
 entity-effect-guidebook-explosion =
     { $chance ->

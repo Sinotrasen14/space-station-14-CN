@@ -1,4 +1,4 @@
-
+﻿
 ### UI
 
 # Shown when the battery is examined in details range

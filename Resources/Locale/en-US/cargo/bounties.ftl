@@ -1,4 +1,4 @@
-bounty-item-artifact = Alien artifact
+﻿bounty-item-artifact = Alien artifact
 bounty-item-baseball-bat = Baseball bat
 bounty-item-box-hugs = Box of hugs
 bounty-item-brain = Brain

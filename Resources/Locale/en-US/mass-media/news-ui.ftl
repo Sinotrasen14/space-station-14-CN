@@ -1,4 +1,4 @@
-news-read-ui-next-text = ▶
+﻿news-read-ui-next-text = ▶
 news-read-ui-prev-text = ◀
 news-read-ui-next-tooltip = Next
 news-read-ui-prev-tooltip = Prev

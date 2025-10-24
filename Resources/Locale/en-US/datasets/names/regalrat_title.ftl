@@ -1,4 +1,4 @@
-names-regal-rat-title-dataset-1 = King
+﻿names-regal-rat-title-dataset-1 = King
 names-regal-rat-title-dataset-2 = Lord
 names-regal-rat-title-dataset-3 = Prince
 names-regal-rat-title-dataset-4 = Emperor

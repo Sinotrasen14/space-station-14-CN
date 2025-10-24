@@ -1,4 +1,4 @@
-revenant-essence-amount = You have [color=plum]{$current} Essence[/color]. Your regen amount is [color=plum]{$max} Essence[/color].
+﻿revenant-essence-amount = You have [color=plum]{$current} Essence[/color]. Your regen amount is [color=plum]{$max} Essence[/color].
 revenant-max-essence-increased = Your max essence has increased!
 
 revenant-not-enough-essence = Not enough essence!

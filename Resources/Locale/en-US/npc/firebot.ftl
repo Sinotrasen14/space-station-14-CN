@@ -1,1 +1,1 @@
-firebot-fire-detected = Fire detected!
+﻿firebot-fire-detected = Fire detected!

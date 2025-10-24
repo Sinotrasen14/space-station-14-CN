@@ -1,4 +1,4 @@
-marking-HumanHairAfro = Afro
+﻿marking-HumanHairAfro = Afro
 marking-HumanHairAfro2 = Afro 2
 marking-HumanHairBigafro = Afro (Large)
 marking-HumanHairAntenna = Ahoge

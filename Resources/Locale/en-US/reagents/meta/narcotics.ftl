@@ -1,4 +1,4 @@
-reagent-name-desoxyephedrine = desoxyephedrine
+﻿reagent-name-desoxyephedrine = desoxyephedrine
 reagent-desc-desoxyephedrine = A more effective ephedrine, with more active downsides. Requires less doses to cure narcolepsy.
 
 reagent-name-ephedrine = ephedrine

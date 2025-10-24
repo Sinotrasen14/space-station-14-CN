@@ -1,4 +1,4 @@
-medibot-start-inject = Hold still, please.
+﻿medibot-start-inject = Hold still, please.
 medibot-finish-inject = All done.
 
 medibot-target-dead = The patient is dead.

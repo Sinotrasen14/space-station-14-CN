@@ -1,4 +1,4 @@
-cargoproduct-category-name-armory = Armory
+﻿cargoproduct-category-name-armory = Armory
 cargoproduct-category-name-atmospherics = Atmospherics
 cargoproduct-category-name-cargo = Cargo
 cargoproduct-category-name-circuitboards = Circuitboards

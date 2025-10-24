@@ -1,4 +1,4 @@
-# addobjectives
+﻿# addobjectives
 cmd-rmobjective-desc = Removes an objective from the player's mind.
 cmd-rmobjective-help = rmobjective <username> <index>
 

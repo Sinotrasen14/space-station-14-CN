@@ -1,4 +1,4 @@
-names-military-last-dataset-1 = Agena
+﻿names-military-last-dataset-1 = Agena
 names-military-last-dataset-2 = Andromeda
 names-military-last-dataset-3 = Antares
 names-military-last-dataset-4 = Aquarius

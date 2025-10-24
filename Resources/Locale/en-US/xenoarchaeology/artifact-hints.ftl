@@ -1,4 +1,4 @@
-# you shouldn't be creating new hints for every effect/trigger
+﻿# you shouldn't be creating new hints for every effect/trigger
 # try and reuse them so that a hint isn't a dead giveaway. -emo
 
 artifact-effect-hint-mental = Cerebral influence

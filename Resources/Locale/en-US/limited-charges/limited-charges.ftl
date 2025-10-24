@@ -1,4 +1,4 @@
-limited-charges-charges-remaining = {$charges ->
+﻿limited-charges-charges-remaining = {$charges ->
     [one] It has [color=fuchsia]{$charges}[/color] charge remaining.
     *[other] It has [color=fuchsia]{$charges}[/color] charges remaining.
 }

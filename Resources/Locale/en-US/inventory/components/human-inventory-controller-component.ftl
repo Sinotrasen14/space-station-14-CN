@@ -1,1 +1,1 @@
-set-outfit-verb-get-data-text = Set Outfit
+﻿set-outfit-verb-get-data-text = Set Outfit

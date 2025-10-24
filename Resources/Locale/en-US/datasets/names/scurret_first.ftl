@@ -1,4 +1,4 @@
-# Scurrets from Planet Wawa have two parts to their name - a 'chosen' and 'qualitative' name.
+﻿# Scurrets from Planet Wawa have two parts to their name - a 'chosen' and 'qualitative' name.
 
 # The chosen name is picked by the scurret themselves,
 # encompassing a trait or value they hold themselves

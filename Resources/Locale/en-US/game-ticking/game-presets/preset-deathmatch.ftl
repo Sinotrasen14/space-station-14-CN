@@ -1,4 +1,4 @@
-death-match-title = DeathMatch
+﻿death-match-title = DeathMatch
 death-match-description = Kill anything that moves! Normal roleplay need not apply. The first to 31 points wins!
 
 death-match-name-player = [bold]{$name}[/bold] ([italic]{$username}[/italic])

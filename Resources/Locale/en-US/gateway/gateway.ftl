@@ -1,4 +1,4 @@
-gateway-window-title = Gateway
+﻿gateway-window-title = Gateway
 gateway-window-open-portal = Open Portal
 gateway-window-no-destinations = No destinations found.
 gateway-window-portal-cooldown = Cooldown

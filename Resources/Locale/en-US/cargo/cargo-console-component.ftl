@@ -1,4 +1,4 @@
-## UI
+﻿## UI
 cargo-console-menu-title = Cargo request console
 cargo-console-menu-account-name-label = Account:{" "}
 cargo-console-menu-account-name-none-text = None

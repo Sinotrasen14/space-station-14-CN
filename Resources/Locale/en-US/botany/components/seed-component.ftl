@@ -1,4 +1,4 @@
-## Entity
+﻿## Entity
 
 seed-component-description = It looks like you can grow [color=yellow]{$seedName}[/color] from these.
 seed-component-has-variety-tag = It's tagged as variety [color=lightgray]no. {$seedUid}[/color].

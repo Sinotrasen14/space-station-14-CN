@@ -1,4 +1,4 @@
-## RoundEndSystem
+﻿## RoundEndSystem
 
 round-end-system-shuttle-called-announcement = An emergency shuttle has been sent. ETA: {$time} {$units}.
 round-end-system-shuttle-already-called-announcement = An emergency shuttle has already been sent.

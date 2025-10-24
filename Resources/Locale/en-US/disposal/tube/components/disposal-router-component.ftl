@@ -1,4 +1,4 @@
-## UI
+﻿## UI
 
 disposal-router-window-title = Disposal Router
 disposal-router-window-tags-label = Tags:

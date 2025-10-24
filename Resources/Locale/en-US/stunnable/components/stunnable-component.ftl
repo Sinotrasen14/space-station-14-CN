@@ -1,4 +1,4 @@
-stunnable-component-disarm-success-others = {CAPITALIZE(THE($source))} pushes {THE($target)}!
+﻿stunnable-component-disarm-success-others = {CAPITALIZE(THE($source))} pushes {THE($target)}!
 stunnable-component-disarm-success = You push {THE($target)}!
 knockdown-component-pushup-failure = You're too exhausted to push yourself up!
 knockdown-component-pushup-success = With a burst of energy you push yourself up!

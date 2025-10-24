@@ -1,4 +1,4 @@
-thief-role-greeting-human =
+﻿thief-role-greeting-human =
     You are criminal scum, a kleptomaniac
     previously arrested and on parole for petty theft.
     You need to add more to your collection.

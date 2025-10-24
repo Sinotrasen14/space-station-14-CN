@@ -1,4 +1,4 @@
-admin-manager-self-de-admin-message = {$exAdminName} de-adminned themselves.
+﻿admin-manager-self-de-admin-message = {$exAdminName} de-adminned themselves.
 admin-manager-self-re-admin-message = {$newAdminName} re-adminned themselves.
 admin-manager-became-normal-player-message = You are now a normal player.
 admin-manager-became-admin-message = You are now an admin.

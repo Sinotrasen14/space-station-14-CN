@@ -1,4 +1,4 @@
-### Messages that can be utilized by multiple reagents.
+﻿### Messages that can be utilized by multiple reagents.
 
 generic-reagent-effect-burning-insides = You feel your insides burning up!
 generic-reagent-effect-burning-eyes = Your eyes begin to slightly burn.

@@ -1,4 +1,4 @@
-names-ninja-dataset-1 = Shadow
+﻿names-ninja-dataset-1 = Shadow
 names-ninja-dataset-2 = Sarutobi
 names-ninja-dataset-3 = Smoke
 names-ninja-dataset-4 = Rain

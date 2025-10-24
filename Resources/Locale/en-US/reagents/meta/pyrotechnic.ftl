@@ -1,4 +1,4 @@
-reagent-name-thermite = thermite
+﻿reagent-name-thermite = thermite
 reagent-desc-thermite = A mixture that becomes extremely hot when ignited.
 
 reagent-name-napalm = napalm

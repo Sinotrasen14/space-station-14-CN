@@ -1,4 +1,4 @@
-docking-component-dock = Dock
+﻿docking-component-dock = Dock
 docking-component-undock = Undock
 
 cmd-dock-desc = Attempts to dock 2 airlocks together. Doesn't check whether it is valid.

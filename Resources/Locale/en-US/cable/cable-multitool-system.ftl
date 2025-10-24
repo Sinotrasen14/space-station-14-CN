@@ -1,5 +1,5 @@
-cable-multitool-system-internal-error-no-power-node = Your multitool reads, "INTERNAL ERROR: NOT A POWER CABLE".
-cable-multitool-system-internal-error-missing-component = Your multitool reads, "INTERNAL ERROR: CABLE ABNORMAL".
+﻿cable-multitool-system-internal-error-no-power-node = 你的多功能工具显示， "内部错误：不是一根电缆"。
+cable-multitool-system-internal-error-missing-component = 你的多功能工具显示，“内部错误：电缆异常”。
 cable-multitool-system-verb-name = Power
 cable-multitool-system-verb-tooltip = Use a multitool to examine power statistics.
 

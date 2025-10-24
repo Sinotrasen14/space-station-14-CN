@@ -1,4 +1,4 @@
-lobby-state-paused = Paused
+﻿lobby-state-paused = Paused
 lobby-state-soon = Round starting soon
 lobby-state-right-now-question = Right Now?
 lobby-state-right-now-confirmation = Right Now

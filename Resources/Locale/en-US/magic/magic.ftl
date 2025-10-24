@@ -1,1 +1,1 @@
-﻿spell-requirements-failed = Missing requirements to cast this spell!
+﻿spell-requirements-failed = 缺少施展此法术的条件!

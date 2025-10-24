@@ -1,1 +1,1 @@
-﻿comp-lattice-cutting-unsafe-warning = You feel air blow past your fingers... Maybe you should reconsider?
+﻿comp-lattice-cutting-unsafe-warning = 你感觉到空气吹过你的手指...也许你应该重新考虑一下？

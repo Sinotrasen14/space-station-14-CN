@@ -1,4 +1,4 @@
-# ban
+﻿# ban
 cmd-ban-desc = Bans somebody
 cmd-ban-help = Usage: ban <name or user ID> <reason> [duration in minutes, leave out or 0 for permanent ban]
 cmd-ban-player = Unable to find a player with that name.

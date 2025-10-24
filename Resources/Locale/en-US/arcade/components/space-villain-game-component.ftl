@@ -1,6 +1,6 @@
-## SpaceVillainGame
+﻿## SpaceVillainGame
 
-space-villain-game-player-attack-message = You attack {$enemyName} for {$attackAmount}!
+space-villain-game-player-attack-message = 你攻击 {$enemyName} 造成 {$attackAmount} 伤害!
 space-villain-game-player-heal-message = You use {$magicPointAmount} magic to heal for {$healAmount} damage!
 space-villain-game-player-recharge-message = You regain {$regainedPoints} points
 space-villain-game-player-wins-message = You won!

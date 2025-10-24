@@ -1,15 +1,15 @@
-positronic-brain-installed = Neural activity detected.
-positronic-brain-off = No neural activity detected.
-positronic-brain-still-searching = Synthetic neuron descrambling in progress...
-positronic-brain-searching = Beginning synthetic neuron descrambling...
+﻿positronic-brain-installed = 检测到神经活动。
+positronic-brain-off = 未检测到神经活动。
+positronic-brain-still-searching = 合成神经元解扰进行中…
+positronic-brain-searching = 开始合成神经元解扰…
 
-positronic-brain-role-name = Positronic Brain
-positronic-brain-role-description = Serve the station crew.
+positronic-brain-role-name = 正电子脑
+positronic-brain-role-description = 为空间站人员服务。
 
-positronic-brain-wipe-device-verb-text = Wipe Brain
-positronic-brain-wiped-device = The neural activity was terminated.
+positronic-brain-wipe-device-verb-text = 擦拭大脑
+positronic-brain-wiped-device = 神经活动被终止。
 
-positronic-brain-stop-searching-verb-text = Stop searching
-positronic-brain-stopped-searching = Neuron descrambling halted.
+positronic-brain-stop-searching-verb-text = 停止搜索
+positronic-brain-stopped-searching = 神经元解扰已停止。
 
-positronic-brain-slot-component-slot-name-brain = Brain
+positronic-brain-slot-component-slot-name-brain = 大脑

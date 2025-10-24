@@ -1,4 +1,4 @@
-## Entity
+﻿## Entity
 
 microwave-component-interact-using-no-power = It has no power!
 microwave-component-interact-using-broken = It's broken!

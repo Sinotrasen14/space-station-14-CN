@@ -1,4 +1,4 @@
-## ConstructionMenu.xaml.cs
+﻿## ConstructionMenu.xaml.cs
 
 construction-menu-title = Construction
 construction-menu-place-ghost = Place construction ghost

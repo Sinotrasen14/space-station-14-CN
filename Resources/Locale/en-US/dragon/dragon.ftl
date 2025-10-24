@@ -1,4 +1,4 @@
-dragon-round-end-agent-name = dragon
+﻿dragon-round-end-agent-name = dragon
 
 objective-issuer-dragon = [color=#7567b6]Space Dragon[/color]
 

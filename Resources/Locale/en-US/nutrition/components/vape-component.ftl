@@ -1,4 +1,4 @@
-vape-component-vape-success = You puffed on the vape.
+﻿vape-component-vape-success = You puffed on the vape.
 vape-component-vape-success-forced = {CAPITALIZE(THE($user))} forced you to puffon the vape.
 vape-component-vape-success-user-forced = You successfully forced to puff {THE($target)}.
 vape-component-try-use-vape-forced = {CAPITALIZE(THE($user))} is trying to make you puff on the vape.

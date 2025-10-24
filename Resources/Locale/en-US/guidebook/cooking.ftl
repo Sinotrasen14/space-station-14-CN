@@ -1,4 +1,4 @@
-guidebook-microwave-ingredients-header = Ingredients
+﻿guidebook-microwave-ingredients-header = Ingredients
 guidebook-microwave-cook-time-header = Cooking Time
 guidebook-microwave-cook-time =
     { $time ->

@@ -1,4 +1,4 @@
-reagent-name-cryptobiolin = cryptobiolin
+﻿reagent-name-cryptobiolin = cryptobiolin
 reagent-desc-cryptobiolin = Causes confusion and dizziness.
 
 reagent-name-dylovene = dylovene

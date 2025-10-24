@@ -1,4 +1,4 @@
-names-syndicate-elite-dataset-1 = Alpha
+﻿names-syndicate-elite-dataset-1 = Alpha
 names-syndicate-elite-dataset-2 = Beta
 names-syndicate-elite-dataset-3 = Gamma
 names-syndicate-elite-dataset-4 = Delta

@@ -1,4 +1,4 @@
-## Traitor
+﻿## Traitor
 
 traitor-round-end-codewords = The codewords were: [color=White]{$codewords}[/color]
 traitor-round-end-agent-name = traitor

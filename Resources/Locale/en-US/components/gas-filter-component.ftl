@@ -1,4 +1,4 @@
-comp-gas-filter-ui-filter-status = Status:
+﻿comp-gas-filter-ui-filter-status = Status:
 comp-gas-filter-ui-status-enabled = On
 comp-gas-filter-ui-status-disabled = Off
 

@@ -1,4 +1,4 @@
-reagent-name-aluminium = aluminium
+﻿reagent-name-aluminium = aluminium
 reagent-desc-aluminium = A silver, soft, non-magnetic, and ductile metal.
 
 reagent-name-ash = ash

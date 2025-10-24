@@ -1,4 +1,4 @@
-gases-oxygen = Oxygen
+﻿gases-oxygen = Oxygen
 gases-nitrogen = Nitrogen
 gases-co2 = Carbon Dioxide
 gases-plasma = Plasma

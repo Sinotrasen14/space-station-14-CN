@@ -1,4 +1,4 @@
-marking-HumanFacialHairAbe = Beard (Abraham Lincoln)
+﻿marking-HumanFacialHairAbe = Beard (Abraham Lincoln)
 marking-HumanFacialHairBrokenman = Beard (Broken Man)
 marking-HumanFacialHairChin = Beard (Chinstrap)
 marking-HumanFacialHairDwarf = Beard (Dwarf)

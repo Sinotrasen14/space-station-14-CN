@@ -1,4 +1,4 @@
-## Rev Head
+﻿## Rev Head
 
 roles-antag-rev-head-name = Head Revolutionary
 roles-antag-rev-head-objective = Your objective is to take over the station by converting people to your cause and killing all Command staff on station.

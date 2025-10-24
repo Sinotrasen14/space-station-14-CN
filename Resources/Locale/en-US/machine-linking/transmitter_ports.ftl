@@ -1,4 +1,4 @@
-signal-port-name-pressed = Pressed
+﻿signal-port-name-pressed = Pressed
 signal-port-description-pressed = This port is invoked whenever the transmitter is activated.
 
 signal-port-name-on-transmitter = On

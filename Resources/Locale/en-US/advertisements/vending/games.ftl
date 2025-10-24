@@ -1,4 +1,4 @@
-advertisement-goodcleanfun-1 = Escape to a fantasy world!
+﻿advertisement-goodcleanfun-1 = Escape to a fantasy world!
 advertisement-goodcleanfun-2 = Fuel your gambling addiction!
 advertisement-goodcleanfun-3 = Ruin your friendships!
 advertisement-goodcleanfun-4 = Roll for initiative!

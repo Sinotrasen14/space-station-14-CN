@@ -1,4 +1,4 @@
-stethoscope-verb = Listen with stethoscope
+﻿stethoscope-verb = Listen with stethoscope
 
 stethoscope-nothing = You don't hear anything.
 

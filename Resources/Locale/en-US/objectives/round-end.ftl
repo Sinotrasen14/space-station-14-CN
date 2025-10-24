@@ -1,4 +1,4 @@
-objectives-round-end-result = {$count ->
+﻿objectives-round-end-result = {$count ->
     [one] There was one {$agent}.
     *[other] There were {$count} {MAKEPLURAL($agent)}.
 }

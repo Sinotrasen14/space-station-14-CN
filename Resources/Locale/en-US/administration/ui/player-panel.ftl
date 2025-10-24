@@ -1,4 +1,4 @@
-player-panel-title = information for {$player}
+﻿player-panel-title = information for {$player}
 player-panel-username = Username: {$player}
 player-panel-whitelisted = Whitelisted:
 player-panel-bans = Total Bans: {$totalBans}

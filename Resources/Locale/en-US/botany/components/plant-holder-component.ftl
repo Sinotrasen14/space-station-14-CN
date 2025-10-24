@@ -1,4 +1,4 @@
-## Entity
+﻿## Entity
 
 plant-holder-component-plant-success-message = You plant the {$seedName} {$seedNoun}.
 plant-holder-component-already-seeded-message = The {$name} already has seeds in it!

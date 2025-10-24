@@ -1,4 +1,4 @@
-names-revenant-type-dataset-1 = essence
+﻿names-revenant-type-dataset-1 = essence
 names-revenant-type-dataset-2 = ghost
 names-revenant-type-dataset-3 = phantom
 names-revenant-type-dataset-4 = poltergeist

@@ -1,4 +1,4 @@
-## UI
+﻿## UI
 
 injector-draw-text = Draw
 injector-inject-text = Inject

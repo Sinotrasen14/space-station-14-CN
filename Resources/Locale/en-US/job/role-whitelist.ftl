@@ -1,1 +1,1 @@
-﻿role-not-whitelisted = You are not whitelisted to play this role.
+﻿role-not-whitelisted = 你没有该角色的白名单。

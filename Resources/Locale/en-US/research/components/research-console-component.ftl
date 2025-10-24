@@ -1,4 +1,4 @@
-## UI
+﻿## UI
 
 research-console-menu-title = R&D Console
 research-console-menu-research-points-text = Research: [color=orchid]{$points}[/color]

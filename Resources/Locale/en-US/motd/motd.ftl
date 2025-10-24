@@ -1,4 +1,4 @@
-cmd-motd-desc = Prints or sets the Message Of The Day.
+﻿cmd-motd-desc = Prints or sets the Message Of The Day.
 cmd-motd-help = motd [ message... ]
 cmd-get-motd-desc = Prints the Message Of The Day.
 cmd-get-motd-help = get-motd

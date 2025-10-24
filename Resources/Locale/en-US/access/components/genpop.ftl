@@ -1,28 +1,28 @@
-genpop-prisoner-id-expire = You have served your sentence! You may now exit prison through the turnstiles and collect your belongings.
-genpop-prisoner-id-popup-not-served = Sentence not yet served!
+﻿genpop-prisoner-id-expire = 你已服刑完毕! 你现在可以从旋转门出去并且带走自己的随身物品.
+genpop-prisoner-id-popup-not-served = 刑期未完成!
 
 genpop-prisoner-id-crime-default = [Redacted]
-genpop-prisoner-id-examine-wait = You have served {$minutes} {$minutes ->
-    [1] minute
-    *[other] minutes
+genpop-prisoner-id-examine-wait = 你已服刑 {$minutes} {$minutes ->
+[1] 分钟
+ *[other] 分钟
 } {$seconds} {$seconds ->
-    [1] second
-    *[other] seconds
-} of your {$sentence} minute sentence for {$crime}.
-genpop-prisoner-id-examine-wait-perm = You are serving a permanent sentence for {$crime}.
-genpop-prisoner-id-examine-served = You have served your sentence for {$crime}.
+  [1] 秒
+    *[other] 秒
+} 你被判处了{$sentence} 分钟的刑期因为 {$crime}.
+genpop-prisoner-id-examine-wait-perm = 你被判永久监禁因为 {$crime}.
+genpop-prisoner-id-examine-served = 你已经完成对 {$crime} 的刑期.
 
-genpop-locker-name-default = prisoner closet
-genpop-locker-desc-default = It's a secure locker for an inmate's personal belongings during their time in prison.
+genpop-locker-name-default = 囚犯衣柜
+genpop-locker-desc-default = 这是一个牢固的安全储物柜在囚犯囚禁期间用作储存个人物品。
 
-genpop-locker-name-used = prisoner closet ({$name})
-genpop-locker-desc-used = It's a secure locker for an inmate's personal belongings during their time in prison. It contains the personal effects of {$name}.
+genpop-locker-name-used = 囚犯衣柜 ({$name})
+genpop-locker-desc-default = 这是一个牢固的安全储物柜在囚犯囚禁期间用作储存个人物品.它含有 {$name} 的个人物品.
 
-genpop-locker-ui-label-name = [bold]Convict Name:[/bold]
-genpop-locker-ui-label-sentence = [bold]Sentence length in minutes:[/bold] [color=gray](0 for perma)[/color]
-genpop-locker-ui-label-crime = [bold]Crime:[/bold]
-genpop-locket-ui-button-done = Done
+genpop-locker-ui-label-name = [bold]囚犯姓名：[/bold]
+genpop-locker-ui-label-sentence = [bold]判刑时间分钟:[/bold] [color=gray](填0为永久监禁)[/color]
+genpop-locker-ui-label-crime = [bold]罪行:[/bold]
+genpop-locket-ui-button-done = 完成
 
-genpop-locker-action-end-early = End Sentence Early
-genpop-locker-action-clear-id = Clear ID
-genpop-locker-action-reset-sentence = Reset Sentence ({NATURALFIXED($percent, 0)}% served)
+genpop-locker-action-end-early = 提前完成刑期
+genpop-locker-action-clear-id = 空白身份证
+genpop-locker-action-reset-sentence = 重置刑期(已服刑 {NATURALFIXED($percent, 0)}%)

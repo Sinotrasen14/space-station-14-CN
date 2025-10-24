@@ -1,4 +1,4 @@
-# Cat accent
+﻿# Cat accent
 accent-words-cat-1 = Meow!
 accent-words-cat-2 = Mow.
 accent-words-cat-3 = Mrrrow!

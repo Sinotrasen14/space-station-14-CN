@@ -1,4 +1,4 @@
-names-mushman-first-dataset-1 = Pleurocybella
+﻿names-mushman-first-dataset-1 = Pleurocybella
 names-mushman-first-dataset-2 = Geastrum
 names-mushman-first-dataset-3 = Tricholoma
 names-mushman-first-dataset-4 = Ganoderma

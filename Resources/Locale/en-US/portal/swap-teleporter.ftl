@@ -1,4 +1,4 @@
-swap-teleporter-popup-link-create = Quantum link established!
+﻿swap-teleporter-popup-link-create = Quantum link established!
 swap-teleporter-popup-link-fail-already = Quantum link failed! Link already present on device.
 swap-teleporter-popup-link-fail-already-other = Quantum link failed! Link already present on secondary device.
 swap-teleporter-popup-link-destroyed = Quantum link destroyed!

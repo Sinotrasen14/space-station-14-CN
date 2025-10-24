@@ -1,4 +1,4 @@
-## Entity
+﻿## Entity
 
 chem-master-component-activate-no-hands = You have no hands.
 chem-master-component-cannot-put-entity-message = You can't put this in the ChemMaster!

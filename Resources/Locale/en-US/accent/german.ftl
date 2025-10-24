@@ -1,4 +1,4 @@
-accent-german-words-1 = yes
+﻿accent-german-words-1 = yes
 accent-german-words-1-2 = yea
 accent-german-words-replace-1 = ja
 

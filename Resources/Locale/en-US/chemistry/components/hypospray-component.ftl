@@ -1,4 +1,4 @@
-## UI
+﻿## UI
 
 hypospray-all-mode-text = Only Injects
 hypospray-mobs-only-mode-text = Draws and Injects

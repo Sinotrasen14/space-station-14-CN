@@ -1,4 +1,4 @@
-food-sequence-no-space = You can't put any more!
+﻿food-sequence-no-space = You can't put any more!
 
 # GENERAL
 

@@ -1,4 +1,4 @@
-reagent-name-acetone = acetone
+﻿reagent-name-acetone = acetone
 reagent-desc-acetone = A slick, slightly carcinogenic liquid. Has a multitude of mundane uses in everyday life.
 
 reagent-name-phenol = phenol

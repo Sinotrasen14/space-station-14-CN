@@ -1,4 +1,4 @@
-names-skeleton-first-dataset-1 = Sternum
+﻿names-skeleton-first-dataset-1 = Sternum
 names-skeleton-first-dataset-2 = Ribs
 names-skeleton-first-dataset-3 = Vertebrae
 names-skeleton-first-dataset-4 = Sacrum

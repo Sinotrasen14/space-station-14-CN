@@ -1,4 +1,4 @@
-### Udder system
+﻿### Udder system
 
 udder-system-already-milking = The udder is already being milked.
 udder-system-success = You fill {THE($target)} with {$amount}u from the udder.
