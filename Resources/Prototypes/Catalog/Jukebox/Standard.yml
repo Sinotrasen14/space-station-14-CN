@@ -39,3 +39,111 @@
   name: PigeonBeans - Sunset
   path:
     path: /Audio/Jukebox/sunset.ogg
+
+- type: jukebox
+  id: Shadow_World
+  name: Shadow_World
+  path:
+    path: /Audio/Jukebox/Shadow_World.ogg
+
+- type: jukebox
+  id: Jazz_Dreams
+  name: Jazz_Dreams
+  path:
+    path: /Audio/Jukebox/Jazz_Dreams.ogg
+
+- type: jukebox
+  id: This_Is_For_You
+  name: This_Is_For_You
+  path:
+    path: /Audio/Jukebox/This_Is_For_You.ogg
+
+- type: jukebox
+  id: MyGO_栞
+  name: MyGO_栞
+  path:
+    path: /Audio/Jukebox/MyGO_栞.ogg
+
+- type: jukebox
+  id: Travelers_encore
+  name: Travelers_encore
+  path:
+    path: /Audio/Jukebox/Travelers_encore.ogg
+
+- type: jukebox
+  id: Stay_With_Me
+  name: Stay_With_Me
+  path:
+    path: /Audio/Jukebox/Stay_With_Me.ogg
+
+- type: jukebox
+  id: 白银感伤代偿联盟
+  name: 白银感伤代偿联盟
+  path:
+    path: /Audio/Jukebox/白银感伤代偿联盟.ogg
+
+- type: jukebox
+  id: MoshiMoshi
+  name: MoshiMoshi
+  path:
+    path: /Audio/Jukebox/MoshiMoshi.ogg
+
+- type: jukebox
+  id: See_You_Again
+  name: See_You_Again
+  path:
+    path: /Audio/Jukebox/See_You_Again.ogg
+
+- type: jukebox
+  id: Children_of_the_City
+  name: Children_of_the_City
+  path:
+    path: /Audio/Jukebox/Children_of_the_City.ogg
+
+- type: jukebox
+  id: TIAN_TIAN
+  name: TIAN_TIAN
+  path:
+    path: /Audio/Jukebox/TIAN_TIAN.ogg
+
+- type: jukebox
+  id: Misty_Memory
+  name: Misty_Memory
+  path:
+    path: /Audio/Jukebox/Misty_Memory.ogg
+
+- type: jukebox
+  id: 准备出发
+  name: 准备出发
+  path:
+    path: /Audio/Jukebox/准备出发.ogg
+
+- type: jukebox
+  id: 守望先锋中城
+  name: 守望先锋中城
+  path:
+    path: /Audio/Jukebox/守望先锋中城.ogg
+
+- type: jukebox
+  id: Pure_Sky_Song
+  name: Pure_Sky_Song
+  path:
+    path: /Audio/Jukebox/Pure_Sky_Song.ogg
+
+- type: jukebox
+  id: I_Love_You_So
+  name: I_Love_You_So
+  path:
+    path: /Audio/Jukebox/I_Love_You_So.ogg
+
+- type: jukebox
+  id: Take_Me_Home_Country_Roads
+  name: Take_Me_Home_Country_Roads
+  path:
+    path: /Audio/Jukebox/Take_Me_Home_Country_Roads.ogg
+
+- type: jukebox
+  id: 小马的自娱自乐
+  name: 小马的自娱自乐
+  path:
+    path: /Audio/Jukebox/小马的自娱自乐.ogg
