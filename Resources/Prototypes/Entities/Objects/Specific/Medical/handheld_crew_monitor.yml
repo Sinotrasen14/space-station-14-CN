@@ -1,10 +1,10 @@
 - type: entity
-  name: handheld crew monitor
+  name: 手持式乘员监测器
   categories: [ DoNotMap ]
   parent: [ BaseHandheldComputer, BaseGrandTheftContraband ]
   # CMO-only bud, don't add more.
   id: HandheldCrewMonitor
-  description: A hand-held crew monitor displaying the status of suit sensors.
+  description: 手持乘员监测器，显示宇航服传感器状态。
   components:
   - type: Item
     heldPrefix: scanner
@@ -40,4 +40,4 @@
   - type: ItemSlots
     slots:
       cell_slot:
-        name: power-cell-slot-component-slot-name-default
+        name: 动力电池插槽-组件插槽名称-默认

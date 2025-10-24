@@ -132,7 +132,7 @@
 
 - type: entity
   id: PuddleSparkle
-  name: sparkle
+  name: 闪耀
   placement:
     mode: SnapgridCenter
   components:
@@ -151,9 +151,9 @@
       color: "#FFFFFF80"
 
 - type: entity
-  name: puddle
+  name: 水洼
   id: Puddle
-  description: A puddle of liquid.
+  description: 一滩液体。
   placement:
     mode: SnapgridCenter
   components:

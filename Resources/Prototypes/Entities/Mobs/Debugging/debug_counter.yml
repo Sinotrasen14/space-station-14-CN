@@ -1,8 +1,8 @@
 - type: entity
   parent: MobHuman
   id: MobDebugCounter
-  name: debug counter
-  description: He can count
+  name: 调试计数器
+  description: 他会数数
   suffix: AI, DEBUG
   components:
     - type: HTN
@@ -19,8 +19,8 @@
 - type: entity
   parent: MobHuman
   id: MobDebugRandomCounter
-  name: debug random counter
-  description: He can randomize
+  name: 调试随机计数器
+  description: 他可以随机化
   suffix: AI, DEBUG
   components:
     - type: HTN
@@ -37,8 +37,8 @@
 - type: entity
   parent: MobHuman
   id: MobDebugRandomLess
-  name: debug random less
-  description: He can lessing
+  name: 调试随机减少
+  description: 他可以减少
   suffix: AI, DEBUG
   components:
     - type: HTN

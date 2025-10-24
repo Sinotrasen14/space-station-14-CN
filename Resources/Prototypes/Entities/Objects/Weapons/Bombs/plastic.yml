@@ -36,8 +36,8 @@
           Unprimed: { state: icon }
 
 - type: entity
-  name: composition C-4
-  description: Used to put holes in specific areas without too much extra hole. A saboteur's favorite.
+  name: 合成C-4炸药
+  description: 用于在特定区域开洞，且不会造成过多额外破坏。破坏者的最爱。
   parent: [BasePlasticExplosive, BaseSyndicateContraband]
   id: C4
   components:
@@ -95,8 +95,8 @@
     price: 625 # 5000 for a bundle of 8
 
 - type: entity
-  name: seismic charge
-  description: Concussion based explosive designed to destroy large amounts of rock.
+  name: 震荡炸弹
+  description: 震荡炸弹是一种基于冲击波的爆炸物，专为摧毁大量岩石而设计。
   parent: [ BasePlasticExplosive, BaseSecurityCargoContraband ]
   id: SeismicCharge
   components:

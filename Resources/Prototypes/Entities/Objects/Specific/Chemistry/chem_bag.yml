@@ -1,8 +1,8 @@
 - type: entity
-  name: chemistry bag
+  name: 化学袋
   id: ChemBag
   parent: BaseStorageItem
-  description: A bag for storing chemistry products, such as pills, pill canisters, bottles, and syringes.
+  description: 一个用于储存化学产品的袋子，例如药丸、药罐、瓶子和注射器。
   components:
   - type: Sprite
     sprite: Objects/Specific/Chemistry/chem_bag.rsi

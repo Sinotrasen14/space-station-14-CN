@@ -1,8 +1,8 @@
 - type: entity
-  name: pen
+  name: 钢笔
   suffix: Exploding
   parent: Pen
-  description: A dark ink pen.
+  description: 一支深色墨水的钢笔。
   id: PenExploding
   components:
   - type: TimerTrigger
@@ -29,8 +29,8 @@
 - type: entity
   parent: [BaseItem, BaseSyndicateContraband]
   id: PenExplodingBox
-  name: exploding pen box
-  description: A small box containing an exploding pen. Packaging disintegrates when opened, leaving no evidence behind.
+  name: 爆炸笔盒
+  description: 一个装有爆炸笔的小盒子。包装在打开时分解，不留痕迹。
   components:
   - type: Item
     size: Tiny

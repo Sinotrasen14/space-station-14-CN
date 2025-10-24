@@ -1,8 +1,8 @@
 - type: entity
   id: Cigarette
   parent: BaseCigar
-  name: cigarette
-  description: A roll of tobacco and nicotine.
+  name: 香烟
+  description: 一卷烟草与尼古丁。
   components:
   - type: Sprite
     sprite: Objects/Consumable/Smokeables/Cigarettes/cigarette.rsi
@@ -27,9 +27,9 @@
 - type: entity
   id: SoakedCigarette
   parent: BaseCigar
-  name: cigarette
+  name: 香烟
   suffix: Soaked
-  description: A roll of tobacco and nicotine soaked in some chemical.
+  description: 一卷浸泡在某些化学物质中的烟草和尼古丁。
   components:
   - type: Sprite
     sprite: Objects/Consumable/Smokeables/Cigarettes/cigarette.rsi
@@ -72,7 +72,7 @@
   id: CigaretteSyndicate
   suffix: syndicate
   parent: Cigarette
-  name: cigarette
+  name: 香烟
   components:
   - type: SolutionContainerManager
     solutions:
@@ -87,7 +87,7 @@
 - type: entity
   id: CigaretteOmnizine
   parent: SoakedCigarette
-  name: Hot Dog Water Flavor Explosion
+  name: 热狗风味水大爆发
   components:
   - type: SolutionContainerManager
     solutions:
@@ -102,7 +102,7 @@
 - type: entity
   id: CigaretteIron
   parent: SoakedCigarette
-  name: Rusty Orange Baja Blast
+  name: 生锈橙巴哈冲击
   components:
   - type: SolutionContainerManager
     solutions:
@@ -117,7 +117,7 @@
 - type: entity
   id: CigaretteTricordrazine
   parent: SoakedCigarette
-  name: Licorice Allsorts
+  name: 甘草什锦糖
   components:
   - type: SolutionContainerManager
     solutions:
@@ -132,7 +132,7 @@
 - type: entity
   id: CigaretteDylovene
   parent: SoakedCigarette
-  name: Urinal Cake Dissolver
+  name: 小便池除臭剂溶解器
   components:
   - type: SolutionContainerManager
     solutions:
@@ -147,7 +147,7 @@
 - type: entity
   id: CigaretteDermaline
   parent: SoakedCigarette
-  name: Aloe Peanut Butter Medley
+  name: 芦荟花生酱混合
   components:
   - type: SolutionContainerManager
     solutions:
@@ -162,7 +162,7 @@
 - type: entity
   id: CigaretteArithrazine
   parent: SoakedCigarette
-  name: Roman Pipe Works
+  name: 罗马管道工程
   components:
   - type: SolutionContainerManager
     solutions:
@@ -177,7 +177,7 @@
 - type: entity
   id: CigaretteNutriment
   parent: SoakedCigarette
-  name: Grandma's Christmas Fruitcake
+  name: 奶奶的圣诞水果蛋糕
   components:
   - type: SolutionContainerManager
     solutions:
@@ -192,7 +192,7 @@
 - type: entity
   id: CigaretteBicaridine
   parent: SoakedCigarette
-  name: Wet Dog Enhanced Cigarette
+  name: 湿狗加强型香烟
   components:
   - type: SolutionContainerManager
     solutions:
@@ -207,7 +207,7 @@
 - type: entity
   id: CigaretteDexalin
   parent: SoakedCigarette
-  name: Rocky Mountain Musk
+  name: 落基山麝香
   components:
   - type: SolutionContainerManager
     solutions:
@@ -222,7 +222,7 @@
 - type: entity
   id: CigaretteSaline
   parent: SoakedCigarette
-  name: North Atlantic Cruise
+  name: 北大西洋游轮
   components:
   - type: SolutionContainerManager
     solutions:
@@ -237,7 +237,7 @@
 - type: entity
   id: CigaretteBbqSauce
   parent: SoakedCigarette
-  name: Spicy Wood Aroma
+  name: 辛辣木香
   components:
   - type: SolutionContainerManager
     solutions:
@@ -252,7 +252,7 @@
 - type: entity
   id: CigaretteFrezon
   parent: SoakedCigarette
-  name: Atmospheric Adventure
+  name: 大气探险
   components:
   - type: SolutionContainerManager
     solutions:
@@ -267,7 +267,7 @@
 - type: entity
   id: CigaretteCapsaicinOil
   parent: SoakedCigarette
-  name: Chilly P
+  name: 奇力帕
   components:
   - type: SolutionContainerManager
     solutions:
@@ -282,7 +282,7 @@
 - type: entity
   id: CigaretteRadium
   parent: SoakedCigarette
-  name: Ex Ray
+  name: X光片
   components:
   - type: SolutionContainerManager
     solutions:
@@ -297,7 +297,7 @@
 - type: entity
   id: CigaretteHaloperidol
   parent: SoakedCigarette
-  name: Warm Bovine Extract
+  name: 温牛提取物
   components:
   - type: SolutionContainerManager
     solutions:
@@ -312,7 +312,7 @@
 - type: entity
   id: CigaretteLaughter
   parent: SoakedCigarette
-  name: Clown Adjacency Bonus
+  name: 小丑相邻加成
   components:
   - type: SolutionContainerManager
     solutions:
@@ -327,7 +327,7 @@
 - type: entity
   id: CigaretteLipolicide
   parent: SoakedCigarette
-  name: 80's Workout Routine
+  name: 80年代健身计划
   components:
   - type: SolutionContainerManager
     solutions:
@@ -342,7 +342,7 @@
 - type: entity
   id: CigaretteSodiumPolyacrylate
   parent: SoakedCigarette
-  name: Unhealthy Habits
+  name: 不健康的习惯
   components:
   - type: SolutionContainerManager
     solutions:
@@ -357,7 +357,7 @@
 - type: entity
   id: CigaretteMold
   parent: SoakedCigarette
-  name: Beneath The Sink Experience
+  name: 水槽下的体验
   components:
   - type: SolutionContainerManager
     solutions:
@@ -372,7 +372,7 @@
 - type: entity
   id: CigaretteLicoxide
   parent: SoakedCigarette
-  name: Wake Up Call
+  name: 警钟
   components:
   - type: SolutionContainerManager
     solutions:
@@ -387,7 +387,7 @@
 - type: entity
   id: CigaretteWeldingFuel
   parent: SoakedCigarette
-  name: Plasma Sauce
+  name: 等离子酱
   components:
   - type: SolutionContainerManager
     solutions:
@@ -402,7 +402,7 @@
 - type: entity
   id: CigaretteRobustHarvest
   parent: SoakedCigarette
-  name: Hippie Romance Novel
+  name: 嬉皮浪漫小说
   components:
   - type: SolutionContainerManager
     solutions:
@@ -417,7 +417,7 @@
 - type: entity
   id: CigarettePhlogiston
   parent: SoakedCigarette
-  name: Dragon Dating Sim
+  name: 龙之约会模拟
   components:
   - type: SolutionContainerManager
     solutions:
@@ -432,7 +432,7 @@
 - type: entity
   id: CigaretteBanana
   parent: SoakedCigarette
-  name: Pun Pun's Tropical Getaway
+  name: 蓬蓬的热带度假之旅
   components:
   - type: SolutionContainerManager
     solutions:
@@ -447,7 +447,7 @@
 - type: entity
   id: CigaretteBlackPepper
   parent: SoakedCigarette
-  name: English Spice
+  name: 英伦风情
   components:
   - type: SolutionContainerManager
     solutions:

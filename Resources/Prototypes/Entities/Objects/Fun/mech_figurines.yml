@@ -3,8 +3,8 @@
 - type: entity
   parent: BaseItem
   id: BaseFigurineMech
-  name: figurine
-  description: A small miniature.
+  name: 小雕像
+  description: 一个小型雕像。
   abstract: true
   components:
   - type: Sprite
@@ -22,8 +22,8 @@
 - type: entity
   parent: BaseFigurineMech
   id: ToyRipley
-  name: ripley toy
-  description: Mini-Mecha action figure! 'Mecha No. 1/12' is written on the back.
+  name: 里普利玩具
+  description: 迷你机甲动作玩偶！背部印有“机甲No.1/12”字样。
   components:
   - type: Sprite
     state: ripley
@@ -50,8 +50,8 @@
 - type: entity
   parent: BaseFigurineMech
   id: ToyFireRipley
-  name: fire ripley
-  description: Mini-Mecha action figure! 'Mecha No. 2/12' is written on the back.
+  name: 火·雷普利
+  description: 迷你机甲手办！背后写着"机甲编号2/12"。
   components:
   - type: Sprite
     state: fireripley
@@ -78,8 +78,8 @@
 - type: entity
   parent: BaseFigurineMech
   id: ToyDeathRipley
-  name: deathripley toy
-  description: Mini-Mecha action figure! 'Mecha No. 3/12' is written on the back.
+  name: 死亡雷普利玩具
+  description: 迷你机甲动作玩偶！背面写有“机甲编号3/12”。
   components:
   - type: Sprite
     state: deathripley
@@ -106,8 +106,8 @@
 - type: entity
   parent: BaseFigurineMech
   id: ToyGygax
-  name: gygax toy
-  description: Mini-Mecha action figure! 'Mecha No. 4/12' is written on the back.
+  name: 吉盖克斯玩具
+  description: 迷你机甲可动人偶！背后写着"机甲编号4/12"。
   components:
   - type: Sprite
     state: gygax
@@ -134,8 +134,8 @@
 - type: entity
   parent: BaseFigurineMech
   id: ToyDurand
-  name: durand toy
-  description: Mini-Mecha action figure! 'Mecha No. 5/12' is written on the back.
+  name: 杜兰德玩具
+  description: 迷你机甲动作玩偶！背面写着“机甲编号5/12”。
   components:
   - type: Sprite
     state: durand
@@ -162,8 +162,8 @@
 - type: entity
   parent: BaseFigurineMech
   id: ToyHonk
-  name: H.O.N.K. toy
-  description: Mini-Mecha action figure! 'Mecha No. 6/12' is written on the back.
+  name: H.O.N.K. 玩具
+  description: 迷你机甲动作玩偶！背面写着“机甲编号6/12”。
   components:
   - type: Sprite
     state: honk
@@ -190,8 +190,8 @@
 - type: entity
   parent: BaseFigurineMech
   id: ToyMarauder
-  name: marauder toy
-  description: Mini-Mecha action figure! 'Mecha No. 7/12' is written on the back.
+  name: 掠夺者玩具
+  description: 迷你机甲动作玩偶！背面写着“机甲编号7/12”。
   components:
   - type: Sprite
     state: marauder
@@ -218,8 +218,8 @@
 - type: entity
   parent: BaseFigurineMech
   id: ToySeraph
-  name: seraph toy
-  description: Mini-Mecha action figure! 'Mecha No. 8/12' is written on the back.
+  name: 六翼天使玩具
+  description: 迷你机甲动作玩偶！背面印有“机甲编号8/12”字样。
   components:
   - type: Sprite
     state: seraph
@@ -246,8 +246,8 @@
 - type: entity
   parent: BaseFigurineMech
   id: ToyMauler
-  name: mauler toy
-  description: Mini-Mecha action figure! 'Mecha No. 9/12' is written on the back.
+  name: 重击者玩具
+  description: 迷你机甲动作玩偶！背后印有"机甲9/12号"字样。
   components:
   - type: Sprite
     state: mauler
@@ -274,8 +274,8 @@
 - type: entity
   parent: BaseFigurineMech
   id: ToyOdysseus
-  name: odysseus toy
-  description: Mini-Mecha action figure! 'Mecha No. 10/12' is written on the back.
+  name: 奥德修斯玩具
+  description: 迷你机甲动作玩偶！背面写有“机甲10/12号”。
   components:
   - type: Sprite
     state: odysseus
@@ -302,8 +302,8 @@
 - type: entity
   parent: BaseFigurineMech
   id: ToyPhazon
-  name: phazon toy
-  description: Mini-Mecha action figure! 'Mecha No. 11/12' is written on the back.
+  name: 费佐玩具
+  description: 迷你机甲动作玩偶！背面写有“机甲11/12号”。
   components:
   - type: Sprite
     state: phazon
@@ -330,8 +330,8 @@
 - type: entity
   parent: BaseFigurineMech
   id: ToyReticence
-  name: reticence toy
-  description: Mini-Mecha action figure! 'Mecha No. 12/12' is written on the back.
+  name: 沉默玩具
+  description: 迷你机甲可动人偶！背面写着“机甲编号12/12”。
   components:
   - type: Sprite
     state: reticence

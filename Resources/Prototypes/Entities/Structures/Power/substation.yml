@@ -69,8 +69,8 @@
   abstract: true
   id: BaseSubstation
   parent: [ CoreSubstation, BaseMachine, ConstructibleMachine ]
-  name: substation
-  description: Reduces the voltage of electricity put into it.
+  name: 变电站
+  description: 降低输入其中的电压。
   placement:
     mode: SnapgridCenter
   components:
@@ -146,8 +146,8 @@
   id: BaseSubstationWall
   parent: CoreSubstation
   categories: [ HideSpawnMenu ]
-  name: wallmount substation
-  description: A substation designed for compact shuttles and spaces.
+  name: 壁挂式分站
+  description: 专为紧凑型穿梭器和空间设计的壁挂式分站。
   placement:
     mode: SnapgridCenter
   components:
@@ -257,8 +257,8 @@
 - type: entity
   id: BaseSubstationWallFrame
   categories: [ HideSpawnMenu ]
-  name: wallmount substation frame
-  description: A substation frame for construction.
+  name: 壁挂式变电站框架
+  description: 用于建筑的变电站框架。
   placement:
     mode: SnapgridCenter
   components:

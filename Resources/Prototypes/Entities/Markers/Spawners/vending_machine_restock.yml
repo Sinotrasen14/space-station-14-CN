@@ -1,6 +1,6 @@
 - type: entity
   id: SpawnVendingMachineRestockFoodDrink
-  name: Vending Machine Restock
+  name: 自动售货机补货
   suffix: "food or drink"
   parent: MarkerBase
   components:
@@ -24,7 +24,7 @@
 
 - type: entity
   id: SpawnVendingMachineRestockFood
-  name: Vending Machine Restock
+  name: 自动售货机补货
   suffix: "food"
   parent: MarkerBase
   components:
@@ -46,7 +46,7 @@
 
 - type: entity
   id: SpawnVendingMachineRestockDrink
-  name: Vending Machine Restock
+  name: 自动售货机补货
   suffix: "drink"
   parent: MarkerBase
   components:

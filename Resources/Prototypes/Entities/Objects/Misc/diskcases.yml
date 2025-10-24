@@ -1,8 +1,8 @@
 - type: entity
-  name: diskcase
+  name: 磁盘盒
   parent: BaseStorageItem
   id: DiskCase
-  description: Case for storing a coordinates disk.
+  description: 用于存放坐标盘的磁盘盒。
   components:
   - type: Sprite
     sprite: Objects/Misc/diskcases.rsi

@@ -28,10 +28,10 @@
 # Warm ones contain a small amount of Omnizine.
 
 - type: entity
-  name: donk-pocket
+  name: 登克口袋
   parent: FoodDonkpocketBase
   id: FoodDonkpocket
-  description: The food of choice for the seasoned traitor.
+  description: 经验丰富的叛徒首选食品。
   components:
   - type: FlavorProfile
     flavors:
@@ -42,10 +42,10 @@
     state: plain
 
 - type: entity
-  name: warm donk-pocket
+  name: 温热的Donk包
   parent: FoodDonkpocket
   id: FoodDonkpocketWarm
-  description: The heated food of choice for the seasoned traitor.
+  description: 经验丰富的叛徒首选的热食。
   components:
   - type: FlavorProfile
     flavors:
@@ -63,10 +63,10 @@
           Quantity: 2
 
 - type: entity
-  name: dank-pocket
+  name: 潮袋
   parent: FoodDonkpocketBase
   id: FoodDonkpocketDank
-  description: The food of choice for the seasoned botanist.
+  description: 经验丰富的植物学家的首选食品。
   components:
   - type: FlavorProfile
     flavors:
@@ -82,10 +82,10 @@
     state: dank
 
 - type: entity
-  name: warm dank-pocket
+  name: 温暖潮湿口袋
   parent: FoodDonkpocketDank
   id: FoodDonkpocketDankWarm
-  description: The heated food of choice for the seasoned botanist.
+  description: 经验丰富的植物学家首选的热食。
   components:
   - type: FlavorProfile
     flavors:
@@ -101,10 +101,10 @@
           Quantity: 4
 
 - type: entity
-  name: spicy-pocket
+  name: 辣味口袋
   parent: FoodDonkpocketBase
   id: FoodDonkpocketSpicy
-  description: The classic snack food, now with a heat-activated spicy flair.
+  description: 经典小吃，现加入热辣风味。
   components:
   - type: FlavorProfile
     flavors:
@@ -115,10 +115,10 @@
     state: plain
 
 - type: entity
-  name: warm spicy-pocket
+  name: 香辣包
   parent: FoodDonkpocketSpicy
   id: FoodDonkpocketSpicyWarm
-  description: The classic snack food, now maybe a bit too spicy.
+  description: 经典小吃，现在可能有点太辣了。
   components:
   - type: FlavorProfile
     flavors:
@@ -137,10 +137,10 @@
     state: spicy
 
 - type: entity
-  name: teriyaki-pocket
+  name: 照烧口袋包
   parent: FoodDonkpocketBase
   id: FoodDonkpocketTeriyaki
-  description: An East Asian take on the classic stationside snack.
+  description: 照烧口袋包是对经典车站小吃的东亚风味诠释。
   components:
   - type: FlavorProfile
     flavors:
@@ -151,10 +151,10 @@
     state: teriyaki
 
 - type: entity
-  name: warm teriyaki-pocket
+  name: 照烧口袋饼
   parent: FoodDonkpocketTeriyaki
   id: FoodDonkpocketTeriyakiWarm
-  description: An East Asian take on the classic stationside snack, now steamy and warm.
+  description: 照烧口袋饼：源自东亚的路边经典小吃，如今热气腾腾，暖意融融。
   components:
   - type: FlavorProfile
     flavors:
@@ -171,10 +171,10 @@
           Quantity: 2
 
 - type: entity
-  name: pizza-pocket
+  name: 披萨口袋
   parent: FoodDonkpocketBase
   id: FoodDonkpocketPizza
-  description: Delicious, cheesy and surprisingly filling.
+  description: 美味、奶酪丰富且出奇地饱腹。
   components:
   - type: FlavorProfile
     flavors:
@@ -192,10 +192,10 @@
     state: pizza
 
 - type: entity
-  name: warm pizza-pocket
+  name: 热披萨包
   parent: FoodDonkpocketPizza
   id: FoodDonkpocketPizzaWarm
-  description: Cheese filling really hits the spot when warm.
+  description: 芝士馅料热乎乎的时候真是恰到好处。
   components:
   - type: FlavorProfile
     flavors:
@@ -213,10 +213,10 @@
           Quantity: 2
 
 - type: entity
-  name: honk-pocket
+  name: 鸣兜
   parent: FoodDonkpocketBase
   id: FoodDonkpocketHonk
-  description: The award-winning donk-pocket that won the hearts of clowns and humans alike.
+  description: 这款获奖的鸣兜赢得了小丑和人类的一致喜爱。
   components:
   - type: FlavorProfile
     flavors:
@@ -234,10 +234,10 @@
     state: banana
 
 - type: entity
-  name: warm honk-pocket
+  name: 温暖舒适的 honk-pocket
   parent: FoodDonkpocketHonk
   id: FoodDonkpocketHonkWarm
-  description: The award-winning donk-pocket, now warm and toasty.
+  description: 屡获殊荣的donk-pocket，现已温暖舒适。
   components:
   - type: FlavorProfile
     flavors:
@@ -255,10 +255,10 @@
           Quantity: 2
 
 - type: entity
-  name: berry-pocket
+  name: 浆果口袋
   parent: FoodDonkpocketBase
   id: FoodDonkpocketBerry
-  description: A relentlessly sweet donk-pocket. Made with 100% artificial flavoring.
+  description: 一款甜到极致的甜甜圈口袋。采用100%人工香料制成。
   components:
   - type: FlavorProfile
     flavors:
@@ -274,10 +274,10 @@
     state: berry
 
 - type: entity
-  name: warm berry-pocket
+  name: 温热的浆果口袋
   parent: FoodDonkpocketBerry
   id: FoodDonkpocketBerryWarm
-  description: A relentlessly sweet donk-pocket, now warm and delicious.
+  description: 一个甜腻腻的浆果口袋，现在变得温热可口。
   components:
   - type: FlavorProfile
     flavors:
@@ -295,10 +295,10 @@
           Quantity: 2
 
 - type: entity
-  name: stonk-pocket
+  name: 股票口袋
   parent: FoodDonkpocketBase
   id: FoodDonkpocketStonk
-  description: Tasty, but a sad reminder of the great crash of '24.
+  description: 美味，却是对24年大崩盘的悲伤提醒。
   components:
   - type: FlavorProfile
     flavors:
@@ -314,7 +314,7 @@
     state: stonk
 
 - type: entity
-  name: warm stonk-pocket
+  name: 温暖的股票口袋
   parent: FoodDonkpocketStonk
   id: FoodDonkpocketStonkWarm
   components:
@@ -332,10 +332,10 @@
           Quantity: 2
 
 - type: entity
-  name: carp-pocket
+  name: 鲤鱼口袋
   parent: FoodDonkpocketBase
   id: FoodDonkpocketCarp
-  description: A long-lost edition of donk pocket, made specifically for hard-working salvagers.
+  description: 一本失传已久的鲤鱼口袋版本，专为勤劳的拾荒者打造。
   components:
   - type: FlavorProfile
     flavors:
@@ -351,7 +351,7 @@
     state: carp
 
 - type: entity
-  name: warm carp-pocket
+  name: 暖鲤袋
   parent: FoodDonkpocketCarp
   id: FoodDonkpocketCarpWarm
   components:
@@ -369,10 +369,10 @@
           Quantity: 2
 
 - type: entity
-  name: dink-pocket
+  name: 丁克口袋
   parent: FoodDonkpocketBase
   id: FoodDonkpocketDink
-  description: An off-brand lizard donk-pocket, filled with pickled carrot and wrapped with seaweed. Best eaten cold, or even better, not eaten at all.
+  description: 一个仿冒蜥蜴造型的丁克口袋，内馅是腌胡萝卜并用海苔包裹。最好冷食，或者干脆别吃更好。
   components:
   - type: FlavorProfile
     flavors:
@@ -390,10 +390,10 @@
     state: dink
 
 - type: entity
-  name: moth-pocket
+  name: 蛾虫口袋
   parent: FoodDonkpocketBase
   id: FoodDonkpocketMoth
-  description: Buzzy edition of donk-pocket that was created during mass protests ab-... Actually who cares? Just donk-pockets for moths.
+  description: 在群众抗议期间创造的嗡嗡作响的donk-pocket版本...其实谁在乎呢？就是给蛾虫的donk-pocket。
   components:
   - type: FlavorProfile
     flavors:
@@ -417,7 +417,7 @@
     - DonkPocket
 
 - type: entity
-  name: warm moth-pocket
+  name: 温暖的蛾袋
   parent: FoodDonkpocketMoth
   id: FoodDonkpocketMothWarm
   components:

@@ -1,7 +1,7 @@
 - type: entity
   parent: MagazineLightRifleBox # It goes in a saw, its funny.
   id: MagazineFoamBox
-  name: ammunition box (foam)
+  name: 弹药箱（泡沫）
   components:
   - type: BallisticAmmoProvider
     mayTransfer: true

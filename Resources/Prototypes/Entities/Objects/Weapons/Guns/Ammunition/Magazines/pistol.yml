@@ -1,6 +1,6 @@
 - type: entity
   id: BaseMagazinePistol
-  name: pistol magazine (.35 auto)
+  name: 手枪弹匣（.35自动手枪）
   parent: [ BaseItem, BaseSecurityContraband ]
   abstract: true
   components:
@@ -33,7 +33,7 @@
 
 - type: entity
   id: BaseMagazinePistolHighCapacity
-  name: machine pistol magazine (.35 auto)
+  name: 冲锋手枪弹匣（.35自动手枪子弹）
   parent: BaseItem
   abstract: true
   components:
@@ -66,7 +66,7 @@
 
 - type: entity
   id: BaseMagazinePistolSubMachineGun  # Yeah it's weird but it's pistol caliber
-  name: SMG magazine (.35 auto)
+  name: SMG杂志（点三五自动手枪）
   parent: [ BaseItem, BaseSecurityContraband ]
   abstract: true
   components:
@@ -99,9 +99,9 @@
 
 - type: entity
   id: MagazinePistolSubMachineGunTopMounted
-  name: WT550 magazine (.35 auto top-mounted)
+  name: WT550弹匣（.35自动上置式）
   parent: [ BaseItem, BaseSecurityContraband ]
-  description: Unconventional 30-round top feeding magazine for the WT550 SMG. Intended to hold general-purpose kinetic ammunition.
+  description: 非常规30发顶置弹匣，适用于WT550冲锋枪，旨在装填通用动能弹药。
   components:
   - type: Tag
     tags:
@@ -131,18 +131,18 @@
 
 - type: entity
   id: MagazinePistolSubMachineGunTopMountedEmpty
-  name: WT550 magazine (.35 auto top-mounted any)
+  name: WT550弹匣（.35自动手枪子弹 顶部安装 任意类型）
   parent: MagazinePistolSubMachineGunTopMounted
-  description: Unconventional 30-round top feeding magazine for the WT550 SMG.
+  description: WT550冲锋枪非常规的30发顶置弹匣。
   components:
   - type: BallisticAmmoProvider
     proto: null
 
 - type: entity
   id: MagazinePistol
-  name: pistol magazine (.35 auto)
+  name: 手枪弹匣（.35自动手枪）
   parent: BaseMagazinePistol
-  description: 10-round single-stack magazine for pistols. Intended to hold general-purpose kinetic ammunition.
+  description: 10发单排弹匣，适用于手枪，用于装填通用动能弹药。
   components:
   - type: BallisticAmmoProvider
     proto: CartridgePistol
@@ -161,10 +161,10 @@
 
 - type: entity
   id: MagazinePistolEmpty
-  name: pistol magazine (.35 auto any)
+  name: 手枪弹匣（.35自动手枪适用）
   suffix: empty
   parent: MagazinePistol
-  description: 10-round single-stack magazine for pistols.
+  description: 适用于手枪的10发单排弹匣。
   components:
   - type: BallisticAmmoProvider
     proto: null
@@ -183,9 +183,9 @@
 
 - type: entity
   id: MagazinePistolIncendiary
-  name: pistol magazine (.35 auto incendiary)
+  name: 手枪弹匣（.35口径自动燃烧弹）
   parent: MagazinePistol
-  description: 10-round single-stack magazine for pistols. Intended to hold self-igniting incendiary ammunition.
+  description: 10发单排手枪弹匣，适用于自燃式燃烧弹药。
   components:
   - type: BallisticAmmoProvider
     proto: CartridgePistolIncendiary
@@ -210,9 +210,9 @@
 
 - type: entity
   id: MagazinePistolPractice
-  name: pistol magazine (.35 auto practice)
+  name: 手枪弹匣（.35自动练习弹）
   parent: BaseMagazinePistol
-  description: 10-round single-stack magazine for pistols. Intended to hold non-harmful chalk ammunition.
+  description: 10发单排手枪弹匣，用于装填无害粉笔训练弹。
   components:
   - type: BallisticAmmoProvider
     proto: CartridgePistolPractice
@@ -237,9 +237,9 @@
 
 - type: entity
   id: MagazinePistolUranium
-  name: pistol magazine (.35 auto uranium)
+  name: 手枪弹匣（.35自动铀弹）
   parent: BaseMagazinePistol
-  description: 10-round single-stack magazine for pistols. Intended to hold exotic uranium-core ammunition.
+  description: 10发单排手枪弹匣，专用于装填特制铀芯弹药。
   components:
   - type: BallisticAmmoProvider
     proto: CartridgePistolUranium
@@ -264,7 +264,7 @@
 
 - type: entity
   id: MagazinePistolHighCapacityEmpty
-  name: machine pistol magazine (.35 auto any)
+  name: 机关手枪弹匣（适用.35自动手枪任何型号）
   suffix: empty
   parent: BaseMagazinePistolHighCapacity
   components:
@@ -285,7 +285,7 @@
 
 - type: entity
   id: MagazinePistolHighCapacity
-  name: machine pistol magazine (.35 auto)
+  name: 机关手枪弹匣（.35自动手枪弹）
   parent: BaseMagazinePistolHighCapacity
   components:
   - type: BallisticAmmoProvider
@@ -305,7 +305,7 @@
 
 - type: entity
   id: MagazinePistolHighCapacityPractice
-  name: machine pistol magazine (.35 auto practice)
+  name: 机关手枪弹匣（.35自动练习弹）
   parent: BaseMagazinePistolHighCapacity
   components:
   - type: BallisticAmmoProvider
@@ -331,9 +331,9 @@
 
 - type: entity
   id: MagazinePistolSubMachineGun
-  name: SMG magazine (.35 auto)
+  name: SMG弹匣（.35自动手枪弹）
   parent: BaseMagazinePistolSubMachineGun
-  description: 30-round double-stack magazine for submachine guns. Intended to hold general-purpose kinetic ammunition.
+  description: 30发双排弹匣，适用于冲锋枪，用于装填通用动能弹药。
   components:
   - type: BallisticAmmoProvider
     proto: CartridgePistol
@@ -357,10 +357,10 @@
 
 - type: entity
   id: MagazinePistolSubMachineGunEmpty
-  name: SMG magazine (.35 auto any)
+  name: SMG弹匣（适用.35自动手枪弹任何型号）
   suffix: empty
   parent: BaseMagazinePistolSubMachineGun
-  description: 30-round double-stack magazine for submachine guns.
+  description: 30发双排弹匣，适用于冲锋枪。
   components:
   - type: BallisticAmmoProvider
     proto: null
@@ -379,9 +379,9 @@
 
 - type: entity
   id: MagazinePistolSubMachineGunPractice
-  name: SMG magazine (.35 auto practice)
+  name: SMG弹匣（.35自动练习弹）
   parent: BaseMagazinePistolSubMachineGun
-  description: 30-round double-stack magazine for submachine guns. Intended to hold non-harmful chalk ammunition.
+  description: 30发双排弹匣，适用于冲锋枪，用于装填无害粉笔训练弹。
   components:
   - type: BallisticAmmoProvider
     proto: CartridgePistolPractice
@@ -406,9 +406,9 @@
 
 - type: entity
   id: MagazinePistolSubMachineGunUranium
-  name: SMG magazine (.35 auto uranium)
+  name: 冲锋枪弹匣（.35自动铀芯弹）
   parent: BaseMagazinePistolSubMachineGun
-  description: 30-round double-stack magazine for submachine guns. Intended to hold exotic uranium-core ammunition.
+  description: 30发双排弹匣，适用于冲锋枪，专为异型铀芯弹药设计。
   components:
   - type: BallisticAmmoProvider
     proto: CartridgePistolUranium
@@ -434,8 +434,8 @@
 - type: entity
   parent: BaseMagazinePistolSubMachineGun
   id: MagazinePistolSubMachineGunIncendiary
-  name: SMG magazine (.35 auto incendiary)
-  description: 30-round double-stack magazine for submachine guns. Intended to hold self-igniting incendiary ammunition.
+  name: 冲锋枪弹匣（.35自动燃烧弹）
+  description: 30发双排弹匣，适用于冲锋枪，专用于装填自燃式燃烧弹药。
   components:
   - type: BallisticAmmoProvider
     proto: CartridgePistolIncendiary

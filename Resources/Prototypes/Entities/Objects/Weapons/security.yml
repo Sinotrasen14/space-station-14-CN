@@ -1,8 +1,8 @@
 - type: entity
-  name: stun baton
+  name: 电击棒
   parent: [BaseItem, BaseSecurityContraband]
   id: Stunbaton
-  description: A stun baton for incapacitating people with. Actively harming with this is considered bad tone.
+  description: 电击棒，用于使人丧失行动能力。主动使用此物伤害他人被视为不当行为。
   components:
   - type: Sprite
     sprite: Objects/Weapons/Melee/stunbaton.rsi
@@ -93,10 +93,10 @@
     - Antagonists
 
 - type: entity
-  name: truncheon
+  name: 警棍
   parent: [BaseItem, BaseSecurityContraband]
   id: Truncheon
-  description: A rigid, steel-studded baton, meant to harm.
+  description: 一根坚硬的、镶有钢钉的警棍，意在伤人。
   components:
   - type: Sprite
     sprite: Objects/Weapons/Melee/truncheon.rsi
@@ -130,10 +130,10 @@
     - Antagonists
 
 - type: entity
-  name: flash
+  name: 闪光灯
   parent: [BaseItem, BaseSecurityScienceCommandContraband]
   id: Flash
-  description: An ultrabright flashbulb with a trigger, which causes the victim to be dazed and lose their eyesight for a moment. Useless when burnt out.
+  description: 带有触发装置的超亮闪光灯泡，可使受害者瞬间眩晕并暂时失明。燃尽后失效。
   components:
     - type: Sprite
       sprite: Objects/Weapons/Melee/flash.rsi
@@ -177,7 +177,7 @@
       - Antagonists
 
 - type: entity
-  name: flash
+  name: 闪存
   parent: Flash
   suffix: 2 charges
   id: SciFlash
@@ -186,10 +186,10 @@
       maxCharges: 2
 
 - type: entity
-  name: portable flasher
+  name: 便携式闪光器
   parent: [BaseMachine, BaseSecurityContraband]
   id: PortableFlasher
-  description: An ultrabright flashbulb with a proximity trigger, useful for making an area security-only.
+  description: 一种带有近距触发器的超亮闪光灯，适用于将区域设置为仅限安全用途。
   components:
     - type: EmitSoundOnTrigger
       predicted: true

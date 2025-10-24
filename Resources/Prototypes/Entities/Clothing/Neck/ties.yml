@@ -1,8 +1,8 @@
 - type: entity
   parent: ClothingNeckBase
   id: ClothingNeckTieRed
-  name: red-tie
-  description: A neosilk clip-on red tie.
+  name: 红色领结
+  description: 一个丝质针扣式红色领结。
   components:
   - type: Sprite
     sprite: Clothing/Neck/Ties/redtie.rsi
@@ -18,8 +18,8 @@
 - type: entity
   parent: ClothingNeckBase
   id: ClothingNeckTieDet
-  name: detective's tie
-  description: A loosely tied necktie, a perfect accessory for the over-worked detective.
+  name: 侦探的领带
+  description: 一条系得松垮的领带，是过度劳碌的侦探的绝佳配饰。
   components:
   - type: Sprite
     sprite: Clothing/Neck/Ties/dettie.rsi
@@ -29,8 +29,8 @@
 - type: entity
   parent: ClothingNeckBase
   id: ClothingNeckTieSci
-  name: scientist's tie
-  description: Why do we all have to wear these ridiculous ties?
+  name: 科学家的领带
+  description: 为什么我们都得系这些可笑的领带？
   components:
   - type: Sprite
     sprite: Clothing/Neck/Ties/scitie.rsi

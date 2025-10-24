@@ -2,8 +2,8 @@
   abstract: true
   parent: BaseItem
   id: CrayonInedible
-  name: crayon
-  description: A colourful crayon. Looks tasty. Mmmm...
+  name: 彩色蜡笔
+  description: 一根彩色蜡笔。看起来很好吃。嗯……
   components:
   - type: Sprite
     sprite: Objects/Fun/crayons.rsi
@@ -31,8 +31,8 @@
   abstract: true
   parent: CrayonInedible
   id: Crayon
-  name: crayon
-  description: A colourful crayon. Looks tasty. Mmmm...
+  name: 彩色蜡笔
+  description: 一根彩色蜡笔。看起来很好吃。嗯……
   components:
   - type: Sprite
     sprite: Objects/Fun/crayons.rsi
@@ -59,7 +59,7 @@
 - type: entity
   parent: Crayon
   id: CrayonWhite
-  name: white crayon
+  name: 白色蜡笔
   components:
   - type: Sprite
     state: white
@@ -78,7 +78,7 @@
 - type: entity
   parent: Crayon
   id: CrayonMime
-  name: mime crayon
+  name: 蜡笔
   components:
   - type: Sprite
     state: mime
@@ -97,7 +97,7 @@
 - type: entity
   parent: Crayon
   id: CrayonRainbow
-  name: rainbow crayon
+  name: 彩虹蜡笔
   components:
   - type: Sprite
     state: rainbow
@@ -118,7 +118,7 @@
 - type: entity
   parent: CrayonRainbow
   id: CrayonInfinite # should not be player available to prevent decal spam
-  name: infinite crayon
+  name: 无限蜡笔
   components:
   - type: Crayon
     deleteEmpty: false
@@ -128,8 +128,8 @@
 - type: entity
   parent: CrayonInedible
   id: CrayonBorg
-  name: electric crayon
-  description: Supposedly the most delicious crayon type in all the universes; unfortunately, you cannot eat.
+  name: 电光蜡笔
+  description: 据说是全宇宙最美味的蜡笔类型；可惜不能食用。
   components:
   - type: Sprite
     state: electric
@@ -152,7 +152,7 @@
 - type: entity
   parent: Crayon
   id: CrayonBlack
-  name: black crayon
+  name: 黑色蜡笔
   components:
   - type: Sprite
     state: black
@@ -171,7 +171,7 @@
 - type: entity
   parent: Crayon
   id: CrayonRed
-  name: red crayon
+  name: 红色蜡笔
   components:
   - type: Sprite
     state: red
@@ -190,7 +190,7 @@
 - type: entity
   parent: Crayon
   id: CrayonOrange
-  name: orange crayon
+  name: 橙色蜡笔
   components:
   - type: Sprite
     state: orange
@@ -209,7 +209,7 @@
 - type: entity
   parent: Crayon
   id: CrayonYellow
-  name: yellow crayon
+  name: 黄色蜡笔
   components:
   - type: Sprite
     state: yellow
@@ -228,7 +228,7 @@
 - type: entity
   parent: Crayon
   id: CrayonGreen
-  name: green crayon
+  name: 绿色蜡笔
   components:
   - type: Sprite
     state: green
@@ -247,7 +247,7 @@
 - type: entity
   parent: Crayon
   id: CrayonBlue
-  name: blue crayon
+  name: 蓝色蜡笔
   components:
   - type: Sprite
     state: blue
@@ -266,7 +266,7 @@
 - type: entity
   parent: Crayon
   id: CrayonPurple
-  name: purple crayon
+  name: 紫色蜡笔
   components:
   - type: Sprite
     state: purple
@@ -285,8 +285,8 @@
 - type: entity
   parent: BoxCardboard
   id: CrayonBox
-  name: crayon box
-  description: It's a box of crayons.
+  name: 蜡笔盒
+  description: 这是一盒蜡笔。
   components:
   - type: Sprite
     sprite: Objects/Fun/crayons.rsi

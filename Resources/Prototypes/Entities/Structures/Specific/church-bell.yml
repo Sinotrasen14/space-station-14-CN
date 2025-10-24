@@ -1,7 +1,7 @@
 - type: entity
   id: ChurchBell
-  name: church bell
-  description: You feel your soul grow ever closer to the realms beyond for every chime this bell tolls...
+  name: 教堂钟声
+  description: 每一声钟鸣，都让你感觉自己的灵魂离彼岸更近一步……
   placement:
     mode: SnapgridCenter
   components:

@@ -1,8 +1,8 @@
 - type: entity
   parent: ReagentDispenserBase
   id: SodaDispenserEmpty
-  name: soda dispenser
-  description: A beverage dispenser with a selection of soda and several other common beverages. Has a single fill slot for containers.
+  name: 苏打水分配器
+  description: 一款提供苏打水及其他多种常见饮品的饮料分配器，配有单一容器填充槽。
   suffix: Empty
   components:
   - type: Rotatable

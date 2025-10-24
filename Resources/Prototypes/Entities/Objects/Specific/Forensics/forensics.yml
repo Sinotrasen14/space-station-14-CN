@@ -1,8 +1,8 @@
 - type: entity
   id: ForensicPad
-  name: forensic pad
+  name: 取证垫
   parent: BaseItem
-  description: A forensic pad for collecting fingerprints or fibers.
+  description: 用于收集指纹或纤维的取证垫。
   components:
   - type: Item
     size: Tiny

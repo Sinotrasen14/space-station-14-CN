@@ -1,8 +1,8 @@
 - type: entity
   id: BasePKAUpgrade
   parent: BaseItem
-  name: PKA modkit
-  description: A modkit for a proto-kinetic accelerator.
+  name: PKA模组套件
+  description: 一套用于原型动能加速器的模组套件。
   abstract: true
   components:
   - type: Sprite
@@ -19,7 +19,7 @@
 - type: entity
   id: PKAUpgradeDamage
   parent: BasePKAUpgrade
-  name: PKA modkit (damage)
+  name: PKA修饰工具包（损伤）
   components:
   - type: Sprite
     layers:
@@ -42,7 +42,7 @@
 - type: entity
   id: PKAUpgradeRange
   parent: BasePKAUpgrade
-  name: PKA modkit (range)
+  name: PKA修饰工具包（范围）
   components:
   - type: Sprite
     layers:
@@ -62,7 +62,7 @@
 - type: entity
   id: PKAUpgradeFireRate
   parent: BasePKAUpgrade
-  name: PKA modkit (fire rate)
+  name: PKA改装套件（射速）
   components:
   - type: Sprite
     layers:

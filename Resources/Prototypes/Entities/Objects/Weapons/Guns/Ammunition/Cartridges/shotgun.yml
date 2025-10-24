@@ -1,6 +1,6 @@
 - type: entity
   id: BaseShellShotgun
-  name: shell (.50)
+  name: 外壳（0.50英寸）
   parent: BaseCartridge
   abstract: true
   components:
@@ -20,7 +20,7 @@
 
 - type: entity
   id: ShellShotgunBeanbag
-  name: shell (.50 beanbag)
+  name: 防暴枪豆袋弹（0.50口径）
   parent: [ BaseShellShotgun, BaseSecurityBartenderContraband ]
   components:
   - type: Tag
@@ -38,7 +38,7 @@
 
 - type: entity
   id: ShellShotgunSlug
-  name: shell (.50 slug)
+  name: 霰弹枪弹（.50口径）
   parent: [ BaseShellShotgun, BaseSecurityContraband]
   components:
   - type: Sprite
@@ -52,7 +52,7 @@
 
 - type: entity
   id: ShellShotgunFlare
-  name: shell (.50 flare)
+  name: 壳牌（0.50照明弹）
   parent: BaseShellShotgun
   components:
   - type: Tag
@@ -70,7 +70,7 @@
 
 - type: entity
   id: ShellShotgun
-  name: shell (.50 pellet)
+  name: 壳式（0.50颗粒弹）
   parent: [ BaseShellShotgun, BaseSecurityContraband ]
   components:
   - type: Sprite
@@ -82,7 +82,7 @@
 
 - type: entity
   id: ShellShotgunIncendiary
-  name: shell (.50 incendiary)
+  name: 壳式（0.50英寸燃烧弹）
   parent: [ BaseShellShotgun, BaseSecurityContraband ]
   components:
   - type: Sprite
@@ -96,7 +96,7 @@
 
 - type: entity
   id: ShellShotgunPractice
-  name: shell (.50 practice)
+  name: shell (.50 练习)
   parent: [ BaseShellShotgun, BaseSecurityContraband ]
   components:
   - type: Sprite
@@ -110,7 +110,7 @@
 
 - type: entity
   id: ShellTranquilizer
-  name: shell (.50 tranquilizer)
+  name: 麻醉弹壳（0.50口径）
   parent: [ BaseShellShotgun, BaseSecurityContraband ]
   components:
   - type: Tag
@@ -137,8 +137,8 @@
 
 - type: entity
   id: ShellShotgunImprovised
-  name: improvised shotgun shell
-  description: A homemade shotgun shell that shoots painful glass shrapnel. The spread is so wide that it couldn't hit the broad side of a barn.
+  name: 土制霰弹
+  description: 一种自制霰弹，能射出令人剧痛的玻璃碎片。其散射范围极广，连谷仓的宽阔侧面都难以击中。
   parent: [ BaseShellShotgun, BaseSecurityContraband ]
   components:
   - type: Tag
@@ -159,7 +159,7 @@
 
 - type: entity
   id: ShellShotgunUranium
-  name: uranium shotgun shell
+  name: 铀霰弹
   parent: [ BaseShellShotgun, BaseSecurityContraband ]
   components:
     - type: Sprite

@@ -3,8 +3,8 @@
 - type: entity
   id: ShuttleGunSvalinnMachineGunCircuitboard
   parent: BaseMachineCircuitboard
-  name: LSE-400c "Svalinn machine gun" machine board
-  description: A machine printed circuit board for an LSE-400c "Svalinn machine gun".
+  name: LSE-400c"斯瓦林机枪"机用电路板
+  description: LSE-400c"斯瓦林机枪"机用电路板
   suffix: DO NOT MAP, Machine Board
   categories: [ DoNotMap ]
   components:
@@ -20,8 +20,8 @@
 - type: entity
   id: ShuttleGunPerforatorCircuitboard
   parent: BaseMachineCircuitboard
-  name: LSE-1200c "Perforator" machine board
-  description: A machine printed circuit board for an LSE-1200c "Perforator".
+  name: LSE-1200c "穿孔机" 机器板
+  description: 一块用于LSE-1200c"穿孔机"的机器印刷电路板。
   suffix: DO NOT MAP, Machine Board
   categories: [ DoNotMap ]
   components:
@@ -37,8 +37,8 @@
 - type: entity
   id: ShuttleGunFriendshipCircuitboard
   parent: BaseMachineCircuitboard
-  name: EXP-320g "Friendship" machine board
-  description: A machine printed circuit board for an EXP-320g "Friendship".
+  name: EXP-320g "友谊"机器板
+  description: EXP-320g "友谊"机器的印刷电路板。
   suffix: DO NOT MAP, Machine Board
   categories: [ DoNotMap ]
   components:
@@ -54,8 +54,8 @@
 - type: entity
   id: ShuttleGunDusterCircuitboard
   parent: BaseMachineCircuitboard
-  name: EXP-2100g "Duster" machine board
-  description: A machine printed circuit board for an EXP-2100g "Duster".
+  name: EXP-2100g "Duster" 机器板
+  description: EXP-2100g "Duster" 机器的印刷电路板。
   suffix: DO NOT MAP, Machine Board
   categories: [ DoNotMap ]
   components:
@@ -72,8 +72,8 @@
 - type: entity
   id: ShuttleGunKineticCircuitboard
   parent: BaseMachineCircuitboard
-  name: PTK-800 "Matter Dematerializer" machine board
-  description: A machine printed circuit board for an PTK-800 "Matter Dematerializer".
+  name: PTK-800 "物质解构器" 机器电路板
+  description: PTK-800 "物质解构器" 机器的印刷电路板。
   suffix: DO NOT MAP, Machine Board
   categories: [ DoNotMap ]
   components:

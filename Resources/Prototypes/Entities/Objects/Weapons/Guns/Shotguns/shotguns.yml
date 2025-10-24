@@ -1,8 +1,8 @@
 - type: entity
-  name: BaseWeaponShotgun
+  name: 基础武器霰弹枪
   parent: BaseItem
   id: BaseWeaponShotgun
-  description: A rooty tooty point and shooty.
+  description: 一把指哪打哪的砰砰枪。
   abstract: true
   components:
   - type: Sprite
@@ -45,11 +45,11 @@
     price: 500
 
 - type: entity
-  name: Bulldog
+  name: 斗牛犬
   # Don't parent to BaseWeaponShotgun because it differs significantly
   parent: [BaseItem, BaseGunWieldable, BaseSyndicateContraband]
   id: WeaponShotgunBulldog
-  description: An automatic magazine-fed shotgun for close-quarters combat. Kicks like a mule on steroids. Uses .50 shotgun shells.
+  description: 一把用于近距离战斗的自动弹匣供弹霰弹枪。后坐力如同打了兴奋剂的骡子般强劲。使用.50口径霰弹。
   components:
   - type: Sprite
     sprite: Objects/Weapons/Guns/Shotguns/bulldog.rsi
@@ -80,7 +80,7 @@
   - type: ItemSlots
     slots:
       gun_magazine:
-        name: Magazine
+        name: 杂志
         startingItem: MagazineShotgun
         priority: 2
         whitelist:
@@ -103,10 +103,10 @@
     price: 5000
 
 - type: entity
-  name: double-barreled shotgun
+  name: 双管霰弹枪
   parent: [BaseWeaponShotgun, BaseGunWieldable, BaseSecurityBartenderZookeeperContraband]
   id: WeaponShotgunDoubleBarreled
-  description: An immortal classic. Uses .50 shotgun shells.
+  description: 不朽的经典。使用.50口径霰弹。
   components:
   - type: Sprite
     sprite: Objects/Weapons/Guns/Shotguns/db_shotgun.rsi
@@ -125,20 +125,20 @@
     deconstructionTarget: null
 
 - type: entity
-  name: double-barreled shotgun
+  name: 双管霰弹枪
   parent: WeaponShotgunDoubleBarreled
   id: WeaponShotgunDoubleBarreledRubber
-  description: An immortal classic. Uses .50 shotgun shells.
+  description: 不朽的经典之作。使用.50口径霰弹。
   suffix: Non-Lethal
   components:
   - type: BallisticAmmoProvider
     proto: ShellShotgunBeanbag
 
 - type: entity
-  name: Enforcer
+  name: 执法者
   parent: [BaseWeaponShotgun, BaseGunWieldable, BaseSecurityContraband]
   id: WeaponShotgunEnforcer
-  description: A premium semi-automatic shotgun, and the pride of all security forces. Uses .50 shotgun shells.
+  description: 一把高级半自动霰弹枪，所有安全部队的骄傲。使用.50口径霰弹。
   components: # intend for Enforcer to have wider choke for semi-auto function
   - type: Sprite
     sprite: Objects/Weapons/Guns/Shotguns/enforcer.rsi
@@ -158,10 +158,10 @@
     proto: ShellShotgunBeanbag
 
 - type: entity
-  name: Kammerer
+  name: 卡默勒
   parent: [BaseWeaponShotgun, BaseGunWieldable, BaseSecurityContraband]
   id: WeaponShotgunKammerer
-  description: An old yet faithful design, and a favorite among irregular forces of many worlds. Uses .50 shotgun shells.
+  description: 一个古老却可靠的设计，深受诸多世界非正规部队的青睐。使用.50口径霰弹。
   components: # intend for Kammerer to have tighter choke for slower fire rate and/or manual cycling
   - type: Item
     sprite: Objects/Weapons/Guns/Shotguns/pump_inhands_64x.rsi
@@ -179,10 +179,10 @@
     - WeaponShotgunKammerer
 
 - type: entity
-  name: sawn-off shotgun
+  name: 锯短霰弹枪
   parent: [ BaseWeaponShotgun, BaseSecurityBartenderContraband ]
   id: WeaponShotgunSawn
-  description: Groovy! Uses .50 shotgun shells.
+  description: 太棒了！使用.50口径霰弹。
   components: # needs to be super inaccurate because you don't need to wield it
   - type: Sprite
     sprite: Objects/Weapons/Guns/Shotguns/sawn.rsi
@@ -205,10 +205,10 @@
     deconstructionTarget: null
 
 - type: entity
-  name: sawn-off shotgun
+  name: 锯短型霰弹枪
   parent: WeaponShotgunSawn
   id: WeaponShotgunSawnEmpty
-  description: Groovy! Uses .50 shotgun shells.
+  description: 太棒了！使用.50口径霰弹。
   suffix: Empty
   components:
   - type: BallisticAmmoProvider
@@ -219,10 +219,10 @@
     deconstructionTarget: null
 
 - type: entity
-  name: handmade pistol
+  name: 手工手枪
   parent: [BaseWeaponShotgun, BaseMinorContraband]
   id: WeaponShotgunHandmade
-  description: Looks unreliable. Uses .50 shotgun shells.
+  description: 看起来不太可靠。使用.50口径霰弹。
   components:
   - type: Item
     size: Small
@@ -246,11 +246,11 @@
     price: 0
 
 - type: entity
-  name: blunderbuss
+  name: 喇叭枪
   parent: [BaseWeaponShotgun, BaseGunWieldable, BaseMinorContraband]
   id: WeaponShotgunBlunderbuss
   suffix: Pirate
-  description: Deadly at close range.
+  description: 近距离杀伤力极强。
   components:
   - type: Sprite
     sprite: Objects/Weapons/Guns/Shotguns/blunderbuss.rsi
@@ -263,10 +263,10 @@
     price: 0
 
 - type: entity
-  name: improvised shotgun
+  name: 土制霰弹枪
   parent: [BaseWeaponShotgun, BaseGunWieldable, BaseMinorContraband]
   id: WeaponShotgunImprovised
-  description: A shitty, hand-made shotgun that uses .50 shotgun shells. It can only hold one round in the chamber.
+  description: 一把劣质的土制霰弹枪，使用.50口径霰弹，弹膛仅能容纳一发子弹。
   components:
   - type: Sprite
     sprite: Objects/Weapons/Guns/Shotguns/improvised_shotgun.rsi
@@ -287,7 +287,7 @@
     price: 20
 
 - type: entity
-  name: improvised shotgun
+  name: 临时制作的猎枪
   parent: WeaponShotgunImprovised
   suffix: Loaded
   id: WeaponShotgunImprovisedLoaded

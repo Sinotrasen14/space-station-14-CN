@@ -1,8 +1,8 @@
 - type: entity
   parent: [BaseMob, StripableInventoryBase]
   id: BaseBorgChassisNotIonStormable
-  name: cyborg
-  description: A man-machine hybrid that assists in station activity. They love being asked to state their laws over and over.
+  name: 生化人
+  description: 一种协助空间站活动的人机混合体。他们特别喜欢被要求反复陈述自己的准则。
   save: false
   abstract: true
   components:
@@ -139,7 +139,7 @@
   - type: ItemSlots
     slots:
       cell_slot:
-        name: power-cell-slot-component-slot-name-default
+        name: 动力电池插槽组件默认插槽名称
   - type: Body
   - type: StatusEffects
     allowed:
@@ -428,8 +428,8 @@
 - type: entity
   parent: BaseBorgChassisNotIonStormable
   id: BaseXenoborgChassis
-  name: xenoborg
-  description: A man-machine hybrid that aims to replicate itself. They love extracting brains to insert into fresh Xenoborg chassis to grow their army.
+  name: 异生体
+  description: 一种旨在自我复制的人机混合体。它们热衷于提取大脑，将其植入新的异生体躯壳中，以此扩充军队规模。
   save: false
   abstract: true
   components:

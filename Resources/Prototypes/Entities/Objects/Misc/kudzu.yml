@@ -20,9 +20,9 @@
 
 - type: entity
   id: Kudzu
-  name: kudzu
+  name: 葛藤
   parent: BaseKudzu
-  description: A rapidly growing, dangerous plant. WHY ARE YOU STOPPING TO LOOK AT IT?!
+  description: 一种生长迅速且危险的植物。你为什么要停下来看它？！
   components:
     - type: MeleeSound
       soundGroups:
@@ -80,7 +80,6 @@
             types:
               Heat: 0.5
     - type: AtmosExposed
-    - type: Edible
     - type: Kudzu
       growthTickChance: 0.3
       spreadChance: 0.4
@@ -101,7 +100,7 @@
         food:
           reagents:
           - ReagentId: Nutriment
-            Quantity: 0.1
+            Quantity: 2
     - type: Tag
       tags:
       - Ruminant
@@ -116,9 +115,9 @@
 
 - type: entity
   id: KudzuFlowerFriendly
-  name: floral carpet
+  name: 花毯
   suffix: Friendly, Floral Anomaly
-  description: A colorful carpet of flowers sprawling in every direction. You're not sure whether to take it down or leave it up.
+  description: 一幅色彩斑斓的花毯向四面八方铺展开来。你不确定是该把它取下还是继续保留。
   parent: Kudzu
   components:
     - type: Sprite
@@ -149,9 +148,6 @@
       - CrystalCyan
       rarePrototypes:
       - AnomalyFloraBulb
-    - type: Tag
-      tags:
-      - Ruminant
 
 - type: entity
   id: KudzuFlowerAngry
@@ -171,9 +167,9 @@
 
 - type: entity
   id: FleshKudzu
-  name: tendons
+  name: 肌腱
   parent: BaseKudzu
-  description: A rapidly growing cluster of meaty tendons. WHY ARE YOU STOPPING TO LOOK AT IT?!
+  description: 一簇迅速增生的肉质肌腱。你干嘛停下来看它？！
   placement:
     mode: SnapgridCenter
     snap:
@@ -244,7 +240,6 @@
        types:
          Heat: 3
     - type: AtmosExposed
-    - type: Edible
     - type: SpeedModifierContacts
       walkSpeedModifier: 0.3
       sprintSpeedModifier: 0.3
@@ -267,10 +262,9 @@
     - type: Tag
       tags:
       - Meat
-      - Ruminant
 
 - type: entity
-  name: dark haze
+  name: 黑色阴霾
   id: ShadowKudzu
   parent: [ BaseKudzu, BaseShadow ]
   components:
@@ -310,7 +304,7 @@
           data: { state: spookysmoke_static }
 
 - type: entity
-  name: haze
+  name: 雾霾
   id: ShadowKudzuWeak
   parent: ShadowKudzu
   components:

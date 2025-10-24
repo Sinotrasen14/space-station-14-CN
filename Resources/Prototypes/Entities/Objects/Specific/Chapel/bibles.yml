@@ -1,6 +1,6 @@
 - type: entity
-  name: space bible
-  description: New Interstellar Version 2340.
+  name: 太空圣经
+  description: 新星际版 2340
   parent: BaseStorageItem
   id: Bible
   components:
@@ -57,8 +57,8 @@
 
 - type: entity
   parent: [Bible, BaseSyndicateContraband]
-  name: necronomicon
-  description: "There's a note: Klatuu, Verata, Nikto -- Don't forget it again!"
+  name: 死灵之书
+  description: "有条备注：克拉图，维拉塔，尼科托——别再忘了！"
   id: BibleNecronomicon
   components:
   - type: Bible
@@ -86,8 +86,8 @@
 - type: entity
   parent: BaseAction
   id: ActionBibleSummon
-  name: Summon familiar
-  description: Summon a familiar that will aid you and gain humanlike intelligence once inhabited by a soul.
+  name: 召唤使魔
+  description: 召唤一只使魔，它将协助你，并在寄宿灵魂后获得类人的智慧。
   components:
   - type: Action
     icon: { sprite: Clothing/Head/Hats/witch.rsi, state: icon }
@@ -97,9 +97,9 @@
 
 - type: entity
   id: BibleDruid
-  name: druidic tablet
+  name: 德鲁伊石板
   parent: Bible
-  description: "It's the mystery of the druids!"
+  description: "这是德鲁伊之谜！"
   components:
   - type: Sprite
     sprite: Objects/Specific/Chapel/mysteryofthedruids.rsi
@@ -108,9 +108,9 @@
 
 - type: entity
   id: BibleCommunistManifesto
-  name: communist manifesto
+  name: 共产党宣言
   parent: Bible
-  description: "Remove the mask of humanity from Capital."
+  description: 撕下资本人道的面具。
   components:
   - type: Sprite
     sprite: Objects/Specific/Chapel/communistmanifesto.rsi
@@ -119,9 +119,9 @@
 
 - type: entity
   id: BibleNarsie
-  name: tome of nar'sie
+  name: 纳尔斯之书
   parent: Bible
-  description: "What could possibly go wrong with a book covered in blood?"
+  description: "一本沾满血的书能出什么岔子？"
   components:
   - type: Sprite
     sprite: Objects/Specific/Chapel/tomeofnarsie.rsi
@@ -130,9 +130,9 @@
 
 - type: entity
   id: BibleNanoTrasen
-  name: codex nanotrasimus
+  name: 纳米传讯法典
   parent: Bible
-  description: "A familiar book containing the Sacred Operating Procedures."
+  description: 一本记载着神圣操作流程的熟悉典籍。
   components:
   - type: Sprite
     sprite: Objects/Specific/Chapel/codexnanotrasimus.rsi
@@ -141,9 +141,9 @@
 
 - type: entity
   id: BibleHonk
-  name: mirth of the honkmother
+  name: 响铃母神的欢愉
   parent: Bible
-  description: "Oh great and glorious Mother, Mistress of Mirth, Matron of Mask and Merriments, Blessed is she amongst us jesters."
+  description: “哦，伟大而荣耀的欢愉之主，面具与狂欢的女神，她是我们小丑中受祝福的存在。”
   components:
   - type: Sprite
     sprite: Objects/Specific/Chapel/honk.rsi
@@ -152,9 +152,9 @@
 
 - type: entity
   id: BibleRatvar
-  name: tablet of ratvar
+  name: 拉特瓦的碑板
   parent: Bible
-  description: "A holy relic of the Clockwork Cult, blessed by the Clockwork Justice, Ratvar."
+  description: “发条邪教的圣物，受发条正义拉特瓦赐福。”
   components:
   - type: Sprite
     sprite: Objects/Specific/Chapel/ratvartablet.rsi

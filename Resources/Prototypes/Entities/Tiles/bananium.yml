@@ -1,6 +1,6 @@
 - type: entity
   id: FloorBananiumEntity
-  name: bananium floor
+  name: 香蕉矿地板
   placement:
     mode: SnapgridCenter
   components:

@@ -2,8 +2,8 @@
 - type: entity
   id: MeteorRock
   parent: AsteroidRock
-  name: meteorite rock
-  description: What remains of a meteorite.
+  name: 陨石岩
+  description: 陨石的残留物。
   components:
   - type: Destructible
     thresholds:
@@ -23,7 +23,7 @@
 - type: entity
   id: MeteorRockCoal
   parent: MeteorRock
-  description: An ore vein rich with coal.
+  description: 一条富含煤炭的矿脉。
   suffix: Coal
   components:
     - type: OreVein
@@ -45,7 +45,7 @@
 - type: entity
   id: MeteorRockGold
   parent: MeteorRock
-  description: An ore vein rich with gold.
+  description: 一条富含黄金的矿脉。
   suffix: Gold
   components:
     - type: OreVein
@@ -67,7 +67,7 @@
 - type: entity
   id: MeteorRockDiamond
   parent: MeteorRock
-  description: An ore vein rich with diamonds.
+  description: 一条富含钻石的矿脉。
   suffix: Diamond
   components:
     - type: OreVein
@@ -89,7 +89,7 @@
 - type: entity
   id: MeteorRockPlasma
   parent: MeteorRock
-  description: An ore vein rich with plasma.
+  description: 富含等离子体的矿脉。
   suffix: Plasma
   components:
     - type: OreVein
@@ -111,7 +111,7 @@
 - type: entity
   id: MeteorRockQuartz
   parent: MeteorRock
-  description: An ore vein rich with quartz.
+  description: 一条富含石英的矿脉。
   suffix: Quartz
   components:
     - type: OreVein
@@ -133,7 +133,7 @@
 - type: entity
   id: MeteorRockSilver
   parent: MeteorRock
-  description: An ore vein rich with silver.
+  description: 一条富含白银的矿脉。
   suffix: Silver
   components:
     - type: OreVein
@@ -155,7 +155,7 @@
 - type: entity
   id: MeteorRockTin
   parent: MeteorRock
-  description: An ore vein rich with iron.
+  description: 一条富含铁的矿脉。
   suffix: Iron
   components:
     - type: OreVein
@@ -177,7 +177,7 @@
 - type: entity
   id: MeteorRockUranium
   parent: MeteorRock
-  description: An ore vein rich with uranium.
+  description: 一条富含铀的矿脉。
   suffix: Uranium
   components:
     - type: OreVein
@@ -199,7 +199,7 @@
 - type: entity
   id: MeteorRockBananium
   parent: MeteorRock
-  description: An ore vein rich with bananium.
+  description: 一条富含香蕉矿的矿脉。
   suffix: Bananium
   components:
     - type: OreVein

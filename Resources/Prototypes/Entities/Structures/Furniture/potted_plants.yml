@@ -1,8 +1,8 @@
 - type: entity
   id: PottedPlantBase
   parent: BaseStructureDynamic
-  name: potted plant
-  description: A little bit of nature contained in a pot.
+  name: 盆栽植物
+  description: 一盆容纳的微小自然。
   abstract: true
   components:
   - type: SpriteFade
@@ -119,8 +119,8 @@
 - type: entity
   id: PottedPlantBioluminscent #PottedPlant9 but i didn't want map conflicts
   parent: PottedPlantBase
-  name: "bioluminescent potted plant"
-  description: "It produces light!"
+  name: 生物发光盆栽植物
+  description: 它会发光！
   components:
   - type: Sprite
     state: plant-09
@@ -131,7 +131,7 @@
 - type: entity
   id: PottedPlant10
   parent: PottedPlantBase
-  description: A pretty piece of nature contained in a pot.
+  description: 一盆之中，尽显自然之美。
   components:
   - type: Sprite
     state: plant-10
@@ -237,8 +237,8 @@
 - type: entity
   id: PottedPlantRD #PottedPlant25
   parent: PottedPlantBase
-  name: "RD's potted plant"
-  description: "A gift from the botanical staff, presented after the RD's reassignment. There's a tag on it that says \"Y'all come back now, y'hear?\"\nIt doesn't look very healthy..."
+  name: RD的盆栽植物
+  description: 植物研究部人员赠送的礼物，在RD调任后呈上。上面挂着的标签写着“记得常回来看看，听见没？”\n它看起来不太健康……
   components:
   - type: Sprite
     state: plant-25
@@ -248,7 +248,7 @@
 - type: entity
   id: PottedPlant26
   parent: PottedPlantBase
-  description: Is it just me, or is it blinking?
+  description: 只有我一个人觉得它在闪吗？
   components:
   - type: Sprite
     state: plant-26
@@ -258,8 +258,8 @@
 - type: entity
   id: PottedPlant27
   parent: PottedPlantBase
-  name: plastic potted plant
-  description: A fake, cheap looking, plastic tree. Perfect for people who kill every plant they touch.
+  name: 塑料盆栽植物
+  description: 一棵看起来廉价、仿造的塑料树。非常适合那些养什么植物都活不了的人。
   components:
   - type: Sprite
     state: plant-27

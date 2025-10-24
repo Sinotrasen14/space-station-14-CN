@@ -1,6 +1,6 @@
 - type: entity
   id: BaseCartridgeMagnum
-  name: cartridge (.45 magnum)
+  name: 子弹（.45 马格南）
   parent: [ BaseCartridge, BaseSecurityContraband ]
   abstract: true
   components:
@@ -19,18 +19,18 @@
 
 - type: entity
   id: CartridgeMagnum
-  name: cartridge (.45 magnum)
+  name: 子弹（.45 马格南）
   parent: BaseCartridgeMagnum
-  description: Heavy magnum cartridge mostly used by revolvers. Standard kinetic ammunition is common and useful in most situations.
+  description: 重型马格南子弹通常由左轮手枪使用。标准动能弹药在多数情况下既常见又实用。
   components:
   - type: CartridgeAmmo
     proto: BulletMagnum
 
 - type: entity
   id: CartridgeMagnumPractice
-  name: cartridge (.45 magnum practice)
+  name: 子弹（.45马格南练习弹）
   parent: BaseCartridgeMagnum
-  description: Heavy magnum cartridge mostly used by revolvers. Chalk ammunition is generally non-harmful, used for practice.
+  description: 重型马格南子弹，多用于左轮手枪。粉笔训练弹通常无害，专为练习使用。
   components:
   - type: CartridgeAmmo
     proto: BulletMagnumPractice
@@ -44,9 +44,9 @@
 
 - type: entity
   id: CartridgeMagnumIncendiary
-  name: cartridge (.45 magnum incendiary)
+  name: 子弹（.45马格南燃烧弹）
   parent: BaseCartridgeMagnum
-  description: Heavy magnum cartridge mostly used by revolvers. Incendiary ammunition contains a self-igniting compound that sets the target ablaze.
+  description: 重型马格南子弹，多用于左轮手枪。燃烧弹药内含自燃化合物，可引燃目标。
   components:
   - type: CartridgeAmmo
     proto: BulletMagnumIncendiary
@@ -60,9 +60,9 @@
 
 - type: entity
   id: CartridgeMagnumAP
-  name: cartridge (.45 magnum armor-piercing)
+  name: 子弹（.45马格南穿甲弹）
   parent: BaseCartridgeMagnum
-  description: Heavy magnum cartridge mostly used by revolvers. Armor piercing ammunition is renowned for its ability to cut straight through body armor.
+  description: 重型马格南子弹通常用于左轮手枪。穿甲弹药以其直接击穿防弹衣的能力而闻名。
   components:
   - type: CartridgeAmmo
     proto: BulletMagnumAP
@@ -76,9 +76,9 @@
 
 - type: entity
   id: CartridgeMagnumUranium
-  name: cartridge (.45 magnum uranium)
+  name: 子弹（.45马格南铀弹）
   parent: BaseCartridgeMagnum
-  description: Heavy magnum cartridge mostly used by revolvers. Uranium ammunition replaces the lead core of the bullet with fissile material, irradiating the target from the inside.
+  description: 重型马格南子弹通常由左轮手枪使用。铀制弹药将弹头的铅芯替换为裂变材料，从内部对目标进行辐射。
   components:
   - type: CartridgeAmmo
     proto: BulletMagnumUranium

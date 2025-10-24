@@ -34,7 +34,7 @@
 - type: entity
   parent: AmmoProviderShotgunShell
   id: BoxBeanbag
-  name: ammunition box (.50 beanbag)
+  name: 弹药箱（.50豆袋）
   components:
     - type: BallisticAmmoProvider
       proto: ShellShotgunBeanbag
@@ -51,7 +51,7 @@
       - state: beanbag
 
 - type: entity
-  name: ammunition box (.50 pellet)
+  name: 弹药箱（.50口径弹丸）
   parent: AmmoProviderShotgunShell
   id: BoxLethalshot
   components:
@@ -66,7 +66,7 @@
       - state: lethal
 
 - type: entity
-  name: ammunition box (.50 slug)
+  name: 弹药箱（.50子弹）
   parent: AmmoProviderShotgunShell
   id: BoxShotgunSlug
   components:
@@ -85,7 +85,7 @@
       - state: slug
 
 - type: entity
-  name: ammunition box (.50 flare)
+  name: 弹药箱（.50信号弹）
   parent: AmmoProviderShotgunShell
   id: BoxShotgunFlare
   components:
@@ -104,7 +104,7 @@
       - state: flare
 
 - type: entity
-  name: ammunition box (.50 incendiary)
+  name: 弹药箱（0.50英寸燃烧弹）
   parent: AmmoProviderShotgunShell
   id: BoxShotgunIncendiary
   components:
@@ -123,7 +123,7 @@
       - state: incendiary
 
 - type: entity
-  name: ammunition box (.50 uranium)
+  name: 弹药箱（0.50铀弹）
   parent: AmmoProviderShotgunShell
   id: BoxShotgunUranium
   components:
@@ -142,7 +142,7 @@
       - state: uranium
 
 - type: entity
-  name: ammunition box (.50 practice)
+  name: 弹药箱（.50练习弹）
   parent: AmmoProviderShotgunShell
   id: BoxShotgunPractice
   components:
@@ -161,7 +161,7 @@
       - state: practice
 
 - type: entity
-  name: ammunition box (.50 tranquilizer)
+  name: 弹药箱（.50口径麻醉弹）
   parent: AmmoProviderShotgunShell
   id: BoxShellTranquilizer
   components:

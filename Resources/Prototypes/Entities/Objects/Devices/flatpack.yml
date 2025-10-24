@@ -1,8 +1,8 @@
 - type: entity
   parent: BaseItem
   id: BaseFlatpack
-  name: base flatpack
-  description: A flatpack used for constructing something.
+  name: 基础平板包装
+  description: 用于构建某物的平板包装。
   categories:
   - HideSpawnMenu
   components:
@@ -39,8 +39,8 @@
 - type: entity
   parent: BaseFlatpack
   id: SolarAssemblyFlatpack
-  name: solar assembly flatpack
-  description: A flatpack used for constructing a solar assembly.
+  name: 太阳能组件平板包装
+  description: 用于构建太阳能组件的平板包装。
   components:
   - type: Flatpack
     entity: SolarAssembly
@@ -53,8 +53,8 @@
 - type: entity
   parent: BaseFlatpack
   id: AmePartFlatpack
-  name: AME flatpack
-  description: A flatpack used for constructing an antimatter engine reactor.
+  name: AME平板包装
+  description: 用于构建反物质引擎反应堆的平板包装。
   components:
   - type: Sprite
     layers:
@@ -73,8 +73,8 @@
 - type: entity
   parent: BaseFlatpack
   id: SingularityGeneratorFlatpack
-  name: singularity generator flatpack
-  description: A flatpack used for constructing a singularity generator.
+  name: 奇点发生器平板包装
+  description: 用于构建奇点发生器的平板包装。
   components:
   - type: Flatpack
     entity: SingularityGenerator
@@ -89,8 +89,8 @@
 - type: entity
   parent: BaseFlatpack
   id: RadiationCollectorFlatpack
-  name: radiation collector flatpack
-  description: A flatpack used for constructing a radiation collector.
+  name: 辐射收集器平板包装
+  description: 用于构建辐射收集器的平板包装。
   components:
   - type: Flatpack
     entity: RadiationCollectorNoTank
@@ -105,8 +105,8 @@
 - type: entity
   parent: BaseFlatpack
   id: ContainmentFieldGeneratorFlatpack
-  name: containment field generator flatpack
-  description: A flatpack used for constructing a containment field generator.
+  name: 围护场发生器平板包装
+  description: 用于构建围护场发生器的平板包装。
   components:
   - type: Flatpack
     entity: ContainmentFieldGenerator
@@ -121,8 +121,8 @@
 - type: entity
   parent: BaseFlatpack
   id: EmitterFlatpack
-  name: emitter flatpack
-  description: A flatpack used for constructing an emitter.
+  name: 发射器平板封装
+  description: 用于构建发射器的平板封装。
   components:
   - type: Flatpack
     entity: Emitter
@@ -137,8 +137,8 @@
 - type: entity
   parent: BaseFlatpack
   id: TeslaGeneratorFlatpack
-  name: tesla generator flatpack
-  description: A flatpack used for constructing a tesla generator.
+  name: 特斯拉发电机平板包装
+  description: 用于构建特斯拉发电机的平板包装。
   components:
   - type: Flatpack
     entity: TeslaGenerator
@@ -153,8 +153,8 @@
 - type: entity
   parent: BaseFlatpack
   id: TeslaCoilFlatpack
-  name: tesla coil flatpack
-  description: A flatpack used for constructing a tesla coil.
+  name: 特斯拉线圈平板包
+  description: 用于构建特斯拉线圈的平板包。
   components:
   - type: Flatpack
     entity: TeslaCoil
@@ -169,8 +169,8 @@
 - type: entity
   parent: BaseFlatpack
   id: TeslaGroundingRodFlatpack
-  name: grounding rod flatpack
-  description: A flatpack used for constructing a grounding rod.
+  name: 接地棒平板包装
+  description: 用于构建接地棒的平板包装。
   components:
   - type: Flatpack
     entity: TeslaGroundingRod
@@ -185,8 +185,8 @@
 - type: entity
   parent: BaseFlatpack
   id: GyroscopeFlatpack
-  name: gyroscope flatpack
-  description: A flatpack used for constructing a gyroscope.
+  name: 陀螺仪平板包装
+  description: 用于构建陀螺仪的平板包装。
   components:
   - type: Flatpack
     entity: Gyroscope
@@ -200,8 +200,8 @@
 - type: entity
   parent: BaseFlatpack
   id: ThrusterFlatpack
-  name: thruster flatpack
-  description: A flatpack used for constructing a thruster.
+  name: 推进器平板包装
+  description: 用于构建推进器的平板包装。
   components:
   - type: Flatpack
     entity: Thruster
@@ -215,8 +215,8 @@
 - type: entity
   parent: BaseFlatpack
   id: SpaceHeaterFlatpack
-  name: space heater flatpack
-  description: A flatpack used for constructing a space heater.
+  name: 太空取暖器平板包装
+  description: 用于组装太空取暖器的平板包装。
   components:
   - type: Flatpack
     entity: SpaceHeaterAnchored
@@ -224,8 +224,8 @@
 - type: entity
   parent: BaseFlatpack
   id: FaxMachineFlatpack
-  name: fax machine flatpack
-  description: A flatpack used for constructing a fax machine.
+  name: 传真机平板包装
+  description: 用于组装传真机的平板包装。
   components:
   - type: Sprite
     layers:
@@ -236,8 +236,8 @@
 - type: entity
   parent: BaseFlatpack
   id: CrewMonitoringServerFlatpack
-  name: crew monitoring server flatpack
-  description: A flatpack used for constructing a crew monitoring server.
+  name: 机组监控服务器平板包装
+  description: 用于构建机组监控服务器的平板包装。
   components:
   - type: Flatpack
     entity: CrewMonitoringServer
@@ -245,8 +245,8 @@
 - type: entity
   parent: BaseFlatpack
   id: CrewMonitoringComputerFlatpack
-  name: crew monitoring computer flatpack
-  description: A flatpack used for constructing a crew monitoring console.
+  name: 乘员监控计算机平板包装
+  description: 用于构建乘员监控控制台的平板包装。
   components:
   - type: Flatpack
     entity: ComputerCrewMonitoring
@@ -254,8 +254,8 @@
 - type: entity
   parent: BaseFlatpack
   id: HydroponicsTrayFlatpack
-  name: hydroponics tray flatpack
-  description: A flatpack used for constructing a hydroponics tray.
+  name: 水培托盘平板包装
+  description: 用于构建水培托盘的平板包装。
   components:
   - type: Flatpack
     entity: hydroponicsTray

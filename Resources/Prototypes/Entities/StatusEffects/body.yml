@@ -11,7 +11,7 @@
 - type: entity
   parent: [ BloodstreamStatusEffectBase ]
   id: StatusEffectBloodloss
-  name: bloodloss
+  name: 失血
   components:
     - type: StutteringAccent
     - type: DrunkStatusEffect

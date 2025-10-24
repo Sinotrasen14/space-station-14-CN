@@ -23,7 +23,7 @@
     sprite:
       sprite: Mobs/Silicon/chassis.rsi
       state: robot
-    name: cyborg
+    name: 赛博格
   - type: InteractionPopup
     interactSuccessString: petting-success-generic-cyborg
     interactFailureString: petting-failure-generic-cyborg
@@ -35,7 +35,7 @@
 - type: entity
   id: BorgChassisGeneric
   parent: BorgChassisSelectable
-  name: generic cyborg
+  name: 通用电子人
   suffix: type picked
   components:
   - type: BorgSwitchableType
@@ -44,7 +44,7 @@
 - type: entity
   id: BorgChassisMining
   parent: BorgChassisSelectable
-  name: salvage cyborg
+  name: 改造型生化人
   components:
   - type: BorgSwitchableType
     selectedBorgType: mining
@@ -52,7 +52,7 @@
 - type: entity
   id: BorgChassisEngineer
   parent: BorgChassisSelectable
-  name: engineer cyborg
+  name: 机械工程师
   components:
   - type: BorgSwitchableType
     selectedBorgType: engineering
@@ -60,7 +60,7 @@
 - type: entity
   id: BorgChassisJanitor
   parent: BorgChassisSelectable
-  name: janitor cyborg
+  name: 清洁工机器人
   components:
   - type: BorgSwitchableType
     selectedBorgType: janitor
@@ -68,7 +68,7 @@
 - type: entity
   id: BorgChassisMedical
   parent: BorgChassisSelectable
-  name: medical cyborg
+  name: 医疗电子人
   components:
   - type: BorgSwitchableType
     selectedBorgType: medical
@@ -76,7 +76,7 @@
 - type: entity
   id: BorgChassisService
   parent: BorgChassisSelectable
-  name: service cyborg
+  name: 服务电子人
   components:
   - type: BorgSwitchableType
     selectedBorgType: service
@@ -84,8 +84,8 @@
 - type: entity
   id: BorgChassisSyndicateAssault
   parent: BaseBorgChassisSyndicate
-  name: syndicate assault cyborg
-  description: A lean, mean killing machine with access to a variety of deadly modules.
+  name: 辛迪加强袭生化人
+  description: 一台精悍致命的杀戮机器，配备多种致命模块。
   components:
     - type: Sprite
       layers:
@@ -116,8 +116,8 @@
 - type: entity
   id: BorgChassisSyndicateMedical
   parent: [BaseBorgChassisSyndicate, ShowMedicalIcons]
-  name: syndicate medical cyborg
-  description: A combat medical cyborg. Has limited offensive potential, but makes more than up for it with its support capabilities.
+  name: 辛迪加医疗机器人
+  description: 战斗医疗机器人。攻击能力有限，但凭借其支援能力足以弥补不足。
   components:
     - type: Sprite
       layers:
@@ -155,8 +155,8 @@
 - type: entity
   id: BorgChassisSyndicateSaboteur
   parent: BaseBorgChassisSyndicate
-  name: syndicate saboteur cyborg
-  description: A streamlined engineering cyborg, equipped with covert modules. Its chameleon projector lets it disguise itself as a Nanotrasen cyborg.
+  name: 辛迪加破坏者机器人
+  description: 一款流线型工程机器人，配备隐蔽模块。其变色龙投影仪可使其伪装成纳星集团机器人。
   components:
     - type: Sprite
       layers:
@@ -191,8 +191,8 @@
 - type: entity
   id: BorgChassisDerelict
   parent: BaseBorgChassisDerelict
-  name: derelict cyborg
-  description: A man-machine hybrid that assists in station activity. This one is in a state of great disrepair.
+  name: 被遗弃的赛博格
+  description: 协助空间站活动的人机混合体，目前处于严重失修状态。
   components:
   - type: Sprite
     layers:
@@ -223,8 +223,8 @@
 - type: entity
   parent: BaseBorgChassisDerelict
   id: EngineeringBorgChassisDerelict
-  name: derelict engineer cyborg
-  description: A man-machine hybrid that assists the engineering department. This one seems to have chunks of strange crystals pockmarking its surface.
+  name: 废弃工程师改造人
+  description: 协助工程部门的人机混合体。这一个的表面似乎布满了大块的奇异晶体。
   components:
   - type: Sprite
     layers:
@@ -253,8 +253,8 @@
 - type: entity
   parent: BaseBorgChassisDerelict
   id: JanitorBorgChassisDerelict
-  name: derelict janitor cyborg
-  description: A man-machine hybrid that assists the service department. It's a bigger mess than anything it can clean up.
+  name: 被遗弃的清洁工生化人
+  description: 协助服务部门的人机混合体。它惹出的麻烦比它能清理的任何东西都要大。
   components:
   - type: Sprite
     layers:
@@ -287,8 +287,8 @@
 - type: entity
   parent: BaseBorgChassisDerelict
   id: MedicalBorgChassisDerelict
-  name: derelict medical cyborg
-  description: A man-machine hybrid that assists the medical department. This one's needles don't look very sanitary.
+  name: 破败医疗赛博格
+  description: 协助医疗部门的人机混合体，它的针头看起来不太卫生。
   components:
   - type: Sprite
     layers:
@@ -328,8 +328,8 @@
 - type: entity
   parent: BaseBorgChassisDerelict
   id: MiningBorgChassisDerelict
-  name: derelict salvage cyborg
-  description: A man-machine hybrid that assists the cargo department. This one has seen the wrong side of a gibtonite chunk.
+  name: 废弃打捞生化人
+  description: 协助货舱部工作的人机混合体。这一台曾不幸遭遇吉布托尼特矿石的意外冲击。
   components:
   - type: Sprite
     layers:
@@ -362,8 +362,8 @@
 - type: entity
   parent: BaseBorgChassisSyndicateDerelict
   id: SyndicateAssaultBorgChassisDerelict
-  name: derelict syndicate assault cyborg
-  description: A lean, mean killing machine with access to a variety of deadly modules. This one is more rust-orange than blood-red.
+  name: 废弃集团突击生化人
+  description: 这是一台精悍的杀戮机器，配备多种致命模块。其色调更接近锈橙色而非血红色。
   components:
   - type: Sprite
     layers:

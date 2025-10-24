@@ -1,8 +1,8 @@
 - type: entity
   parent: ClothingBackpack
   id: ClothingBackpackSatchel
-  name: satchel
-  description: A trendy looking satchel.
+  name: 挎包
+  description: 一款时尚的挎包。
   components:
   - type: Sprite
     sprite: Clothing/Back/Satchels/satchel.rsi
@@ -15,8 +15,8 @@
 - type: entity
   parent: ClothingBackpackSatchel
   id: ClothingBackpackSatchelLeather
-  name: leather satchel
-  description: A trend-setting satchel from a bygone era.
+  name: 皮革挎包
+  description: 一款来自旧时代的潮流引领者挎包。
   components:
   - type: Sprite
     sprite: Clothing/Back/Satchels/leather.rsi
@@ -24,8 +24,8 @@
 - type: entity
   parent: ClothingBackpackSatchel
   id: ClothingBackpackSatchelEngineering
-  name: engineering satchel
-  description: A tough satchel with extra pockets.
+  name: 工程挎包
+  description: 一款带有额外口袋的耐用挎包。
   components:
   - type: Sprite
     sprite: Clothing/Back/Satchels/engineering.rsi
@@ -33,8 +33,8 @@
 - type: entity
   parent: ClothingBackpackSatchel
   id: ClothingBackpackSatchelAtmospherics
-  name: atmospherics satchel
-  description: A tough satchel made of fire resistant fibers. Smells like plasma.
+  name: 大气层挎包
+  description: 一个由耐火纤维制成的耐用挎包，闻起来有等离子体的味道。
   components:
   - type: Sprite
     sprite: Clothing/Back/Satchels/atmospherics.rsi
@@ -42,8 +42,8 @@
 - type: entity
   parent: ClothingBackpackSatchel
   id: ClothingBackpackSatchelClown
-  name: clown satchel
-  description: For fast running from security.
+  name: 小丑挎包
+  description: 为快速逃离保安而设。
   components:
   - type: Sprite
     sprite: Clothing/Back/Satchels/clown.rsi
@@ -60,8 +60,8 @@
 - type: entity
   parent: ClothingBackpackSatchel
   id: ClothingBackpackSatchelMime
-  name: mime satchel
-  description: A satchel designed for the silent and expressive art of miming.
+  name: 默剧挎包
+  description: 一款为无声而富有表现力的默剧艺术设计的挎包。
   components:
   - type: Sprite
     sprite: Clothing/Back/Satchels/mime.rsi
@@ -72,8 +72,8 @@
 - type: entity
   parent: ClothingBackpackSatchel
   id: ClothingBackpackSatchelMedical
-  name: medical satchel
-  description: A sterile satchel used in medical departments.
+  name: 医用无菌包
+  description: 医疗部门使用的无菌包。
   components:
   - type: Sprite
     sprite: Clothing/Back/Satchels/medical.rsi
@@ -81,8 +81,8 @@
 - type: entity
   parent: ClothingBackpackSatchel
   id: ClothingBackpackSatchelChemistry
-  name: chemistry satchel
-  description: A sterile satchel with chemist colours.
+  name: 化学挎包
+  description: 一个带有化学家色彩的消毒挎包。
   components:
   - type: Sprite
     sprite: Clothing/Back/Satchels/chemistry.rsi
@@ -90,8 +90,8 @@
 - type: entity
   parent: ClothingBackpackSatchel
   id: ClothingBackpackSatchelVirology
-  name: virology satchel
-  description: A satchel made of hypo-allergenic fibers. It's designed to help prevent the spread of disease. Smells like monkey.
+  name: 病毒学挎包
+  description: 采用低致敏性纤维制成的挎包，旨在帮助预防疾病传播。闻起来有猴子气味。
   components:
   - type: Sprite
     sprite: Clothing/Back/Satchels/virology.rsi
@@ -99,8 +99,8 @@
 - type: entity
   parent: ClothingBackpackSatchel
   id: ClothingBackpackSatchelGenetics
-  name: genetics satchel
-  description: A sterile satchel with geneticist colours.
+  name: 遗传学挎包
+  description: 一个带有遗传学家色彩的消毒挎包。
   components:
   - type: Sprite
     sprite: Clothing/Back/Satchels/genetics.rsi
@@ -108,8 +108,8 @@
 - type: entity
   parent: ClothingBackpackSatchel
   id: ClothingBackpackSatchelScience
-  name: science satchel
-  description: Useful for holding research materials.
+  name: 科学挎包
+  description: 用于存放研究材料。
   components:
   - type: Sprite
     sprite: Clothing/Back/Satchels/science.rsi
@@ -117,8 +117,8 @@
 - type: entity
   parent: [ClothingBackpackSatchel, BaseSecurityContraband]
   id: ClothingBackpackSatchelSecurity
-  name: security satchel
-  description: A robust satchel for security related needs.
+  name: 安全挎包
+  description: 一款满足安全相关需求的坚固挎包。
   components:
   - type: Sprite
     sprite: Clothing/Back/Satchels/security.rsi
@@ -126,8 +126,8 @@
 - type: entity
   parent: [ClothingBackpackSatchel, BaseSecurityContraband]
   id: ClothingBackpackSatchelBrigmedic
-  name: brigmedic satchel
-  description: A sterile satchel for medical related needs.
+  name: 布里格梅迪克挎包
+  description: 用于医疗相关需求的无菌挎包。
   components:
   - type: Sprite
     sprite: Clothing/Back/Satchels/brigmedic.rsi
@@ -135,8 +135,8 @@
 - type: entity
   parent: [ClothingBackpackSatchel, BaseCommandContraband]
   id: ClothingBackpackSatchelCaptain
-  name: captain's satchel
-  description: An exclusive satchel for Nanotrasen officers.
+  name: 船长公文包
+  description: 专为纳诺特拉森军官设计的独家公文包。
   components:
   - type: Sprite
     sprite: Clothing/Back/Satchels/captain.rsi
@@ -144,8 +144,8 @@
 - type: entity
   parent: ClothingBackpackSatchel
   id: ClothingBackpackSatchelHydroponics
-  name: hydroponics satchel
-  description: A satchel made of all natural fibers.
+  name: 水培挎包
+  description: 一个由全天然纤维制成的手提包。
   components:
   - type: Sprite
     sprite: Clothing/Back/Satchels/hydroponics.rsi
@@ -153,8 +153,8 @@
 - type: entity
   parent: ClothingBackpackSatchel
   id: ClothingBackpackSatchelCargo
-  name: cargo satchel
-  description: A robust satchel for stealing cargo's loot.
+  name: 货物挎包
+  description: 一款用于窃取货物战利品的坚固挎包。
   components:
     - type: Sprite
       sprite: Clothing/Back/Satchels/cargo.rsi
@@ -162,8 +162,8 @@
 - type: entity
   parent: ClothingBackpackSatchel
   id: ClothingBackpackSatchelSalvage
-  name: salvage satchel
-  description: A robust satchel for stashing your loot.
+  name: 抢救挎包
+  description: 一个用于存放战利品的坚固挎包。
   components:
     - type: Sprite
       sprite: Clothing/Back/Satchels/salvage.rsi
@@ -171,8 +171,8 @@
 - type: entity
   parent: ClothingBackpackSatchel
   id: ClothingBackpackSatchelHolding
-  name: satchel of holding
-  description: A satchel that opens into a localized pocket of bluespace.
+  name: 储物袋
+  description: 一个能开启通往局部蓝空口袋的储物袋。
   components:
   - type: Sprite
     sprite: Clothing/Back/Satchels/holding.rsi
@@ -191,9 +191,9 @@
 - type: entity
   parent: ClothingBackpackSatchelHolding
   id: ClothingBackpackSatchelAdmin
-  name: satchel of administration
+  name: 行政挎包
   suffix: Admin
-  description: If you are somehow seeing this, no you're not.
+  description: 如果你不知怎地看到了这个，不，你没看到。
   components:
   - type: ExplosionResistance
     damageCoefficient: 0

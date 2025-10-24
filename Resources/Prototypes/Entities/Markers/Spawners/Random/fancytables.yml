@@ -1,5 +1,5 @@
 - type: entity
-  name: random fancy table spawner
+  name: 随机花式刷怪笼
   id: FancyTableSpawner
   parent: MarkerBase
   components:

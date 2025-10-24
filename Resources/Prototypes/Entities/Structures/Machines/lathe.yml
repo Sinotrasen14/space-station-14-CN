@@ -2,7 +2,7 @@
   id: BaseLathe
   parent: [ BaseMachinePowered, ConstructibleMachine ]
   abstract: true
-  name: lathe
+  name: 车床
   components:
   - type: Appearance
   - type: WiresVisuals
@@ -88,8 +88,8 @@
 - type: entity
   id: Autolathe
   parent: BaseLatheLube
-  name: autolathe
-  description: It produces basic items using metal and glass. Has the ability to process blueprints to print new recipes.
+  name: 自动车床
+  description: 它使用金属和玻璃生产基础零件，并具备处理蓝图以打印新配方的能力。
   components:
   - type: Sprite
     sprite: Structures/Machines/autolathe.rsi
@@ -153,8 +153,8 @@
 - type: entity
   id: AutolatheHyperConvection
   parent: [Autolathe, BaseHyperlathe]
-  name: hyper convection autolathe
-  description: A highly-experimental autolathe that harnesses the power of extreme heat to slowly create objects more cost-effectively.
+  name: 超对流自动车床
+  description: 一台高度实验性的自动车床，利用极端高温缓慢且更具成本效益地制造物体。
   components:
   - type: Sprite
     sprite: Structures/Machines/autolathe_hypercon.rsi
@@ -164,8 +164,8 @@
 - type: entity
   id: Protolathe
   parent: BaseLatheLube
-  name: protolathe
-  description: Converts raw materials into advanced items.
+  name: 原型车床
+  description: 将原材料转化为高级物品。
   components:
   - type: Sprite
     sprite: Structures/Machines/protolathe.rsi
@@ -221,8 +221,8 @@
 - type: entity
   id: ProtolatheHyperConvection
   parent: [Protolathe, BaseHyperlathe]
-  name: hyper convection protolathe
-  description: A highly-experimental protolathe that harnesses the power of extreme heat to slowly create objects more cost-effectively.
+  name: 超对流原型车床
+  description: 一台高度实验性的原型车床，利用极端高温缓慢而更具成本效益地制造物体。
   components:
   - type: Sprite
     sprite: Structures/Machines/protolathe_hypercon.rsi
@@ -232,8 +232,8 @@
 - type: entity
   id: CircuitImprinter
   parent: BaseLatheLube
-  name: circuit imprinter
-  description: Prints circuit boards for machines.
+  name: 电路印刷机
+  description: 为机器印刷电路板。
   components:
   - type: Sprite
     sprite: Structures/Machines/circuit_imprinter.rsi
@@ -282,8 +282,8 @@
 - type: entity
   id: CircuitImprinterHyperConvection
   parent: [CircuitImprinter, BaseHyperlathe]
-  name: hyper convection circuit imprinter
-  description: A highly-experimental circuit imprinter that harnesses the power of extreme heat to slowly create objects more cost-effectively.
+  name: 超对流电路压印机
+  description: 一款高度实验性的电路压印机，利用超高温技术缓慢而更具成本效益地制造物体。
   components:
   - type: Sprite
     sprite: Structures/Machines/circuit_imprinter_hypercon.rsi
@@ -293,8 +293,8 @@
 - type: entity
   id: ExosuitFabricator
   parent: BaseLatheLube
-  name: exosuit fabricator
-  description: Creates parts for robotics and other mechanical needs.
+  name: 外骨骼套装制造机
+  description: 为机器人技术及其他机械需求制造零部件。
   components:
   - type: Sprite
     sprite: Structures/Machines/exosuit_fabricator.rsi
@@ -333,8 +333,8 @@
 - type: entity
   id: Biofabricator
   parent: BaseLathe
-  name: biocube fabricator
-  description: Produces animal cubes using biomass.
+  name: 生物立方制造机
+  description: 使用生物质生产动物立方。
   components:
   - type: Sprite
     sprite: Structures/Machines/biofabricator.rsi
@@ -372,8 +372,8 @@
 - type: entity
   id: SecurityTechFab
   parent: BaseLatheLube
-  name: security techfab
-  description: Prints equipment for use by security crew.
+  name: 安保技术制造设备
+  description: 为安保人员打印所需设备。
   components:
   - type: Sprite
     sprite: Structures/Machines/techfab.rsi
@@ -423,8 +423,8 @@
 - type: entity
   id: AmmoTechFab
   parent: BaseLatheLube
-  name: ammo techfab
-  description: Prints the bare minimum of bullets that any budget military or armory could need. Nothing fancy.
+  name: 弹药技术工厂
+  description: 打印任何预算有限的军队或军械库所需的最基本子弹数量。没有花哨之处。
   components:
     - type: Sprite
       sprite: Structures/Machines/techfab.rsi
@@ -460,8 +460,8 @@
 - type: entity
   id: MedicalTechFab
   parent: BaseLatheLube
-  name: medical techfab
-  description: Prints equipment for use by the medbay.
+  name: 医疗科技制造仪
+  description: 为医务室打印所需设备。
   components:
   - type: Sprite
     sprite: Structures/Machines/techfab.rsi
@@ -500,8 +500,8 @@
 - type: entity
   parent: BaseLathe
   id: UniformPrinter
-  name: uniform printer
-  description: Prints new or replacement uniforms.
+  name: 制服打印机
+  description: 打印新的或替换的制服。
   components:
   - type: Transform
     noRot: false
@@ -547,8 +547,8 @@
 - type: entity
   id: Biogenerator
   parent: BaseLathe
-  name: biogenerator
-  description: Converts plants into biomass, which can be used to construct useful items.
+  name: 生物发生器
+  description: 将植物转化为生物质，可用于制造实用物品。
   components:
   - type: Sprite
     sprite: Structures/Machines/biofabricator.rsi
@@ -570,7 +570,7 @@
   - type: ItemSlots
     slots:
       beaker_slot:
-        name: lathe-component-output-slot-beaker-name
+        name: 车床组件输出槽烧杯名称
         whitelist:
           components:
           - FitsInDispenser
@@ -594,8 +594,8 @@
 - type: entity
   parent: BaseLathe
   id: OreProcessor
-  name: ore processor
-  description: It produces sheets and ingots using ores.
+  name: 矿石处理器
+  description: 它使用矿石生产板材和锭。
   components:
     - type: Sprite
       sprite: Structures/Machines/ore_processor.rsi
@@ -627,8 +627,8 @@
 - type: entity
   parent: OreProcessor
   id: OreProcessorIndustrial
-  name: industrial ore processor
-  description: An ore processor specifically designed for mass-producing metals in industrial applications.
+  name: 工业矿石处理器
+  description: 一款专为工业应用中大规模生产金属而设计的矿石处理器。
   components:
   - type: Sprite
     sprite: Structures/Machines/ore_processor_industrial.rsi
@@ -645,8 +645,8 @@
 - type: entity
   parent: BaseLathe
   id: Sheetifier
-  name: sheet-meister 2000
-  description: A very sheety machine.
+  name: 薄片大师2000
+  description: 一台非常薄片的机器。
   components:
   - type: Sprite
     sprite: Structures/Machines/sheetifier.rsi
@@ -676,8 +676,8 @@
 - type: entity
   parent: BaseLathe
   id: CutterMachine
-  name: cutter machine
-  description: This is a cutter. It cuts. Add variety to your station floor with eye-pleasing patterns! Don't stick your fingers in.
+  name: 裁切机
+  description: 这是一台裁切机。它能进行裁切。用赏心悦目的图案为您的工位增添多样性！请勿将手指伸入。
   components:
   - type: Transform
     noRot: false

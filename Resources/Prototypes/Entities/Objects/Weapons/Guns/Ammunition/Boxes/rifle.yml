@@ -27,7 +27,7 @@
 - type: entity
   parent: BaseMagazineBoxRifle
   id: MagazineBoxRifleBig
-  name: ammunition box (.20 rifle)
+  name: 弹药箱（0.20口径步枪）
   suffix: Big
   components:
   - type: BallisticAmmoProvider
@@ -48,8 +48,8 @@
 - type: entity
   parent: BaseMagazineBoxRifle
   id: MagazineBoxRifle
-  name: ammunition box (.20 rifle)
-  description: A cardboard box of .20 rifle rounds. Intended to hold general-purpose kinetic ammunition.
+  name: 弹药箱（.20口径步枪）
+  description: 一箱.20口径步枪子弹。用于装载通用动能弹药。
   components:
   - type: BallisticAmmoProvider
     proto: CartridgeRifle
@@ -63,8 +63,8 @@
 - type: entity
   parent: BaseMagazineBoxRifle
   id: MagazineBoxRiflePractice
-  name: ammunition box (.20 rifle practice)
-  description: A cardboard box of .20 rifle rounds. Intended to hold non-harmful chalk ammunition.
+  name: 弹药箱（.20口径步枪练习用）
+  description: 一箱.20口径步枪练习弹。用于装填无害的粉笔弹药。
   components:
   - type: BallisticAmmoProvider
     proto: CartridgeRiflePractice
@@ -79,8 +79,8 @@
 - type: entity
   id: MagazineBoxRifleIncendiary
   parent: BaseMagazineBoxRifle
-  name: ammunition box (.20 rifle incendiary)
-  description: A cardboard box of .20 rifle rounds. Intended to hold self-igniting incendiary ammunition.
+  name: 弹药箱（.20口径步枪燃烧弹）
+  description: 一个装有.20口径步枪子弹的纸箱，用于盛放自燃式燃烧弹药。
   components:
   - type: BallisticAmmoProvider
     proto: CartridgeRifleIncendiary
@@ -95,8 +95,8 @@
 - type: entity
   id: MagazineBoxRifleUranium
   parent: BaseMagazineBoxRifle
-  name: ammunition box (.20 rifle uranium)
-  description: A cardboard box of .20 rifle rounds. Intended to hold exotic uranium-core ammunition.
+  name: 弹药箱（.20步枪铀弹）
+  description: 一个装有.20步枪子弹的纸板箱，用于存放特制的铀芯弹药。
   components:
   - type: BallisticAmmoProvider
     proto: CartridgeRifleUranium

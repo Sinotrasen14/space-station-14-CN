@@ -1,8 +1,8 @@
 - type: entity
   parent: ClothingUniformBase
   id: UniformShortsRed
-  name: boxing shorts
-  description: These are shorts, not boxers.
+  name: 拳击短裤
+  description: 这些是短裤，不是拳击短裤。
   components:
   - type: Sprite
     sprite: Clothing/Uniforms/Shorts/Color/red.rsi
@@ -12,8 +12,8 @@
 - type: entity
   parent: ClothingUniformBase
   id: UniformShortsRedWithTop
-  name: boxing shorts with top
-  description: These are shorts, not boxers.
+  name: 拳击短裤配上衣
+  description: 这些是短裤，不是拳击裤。
   components:
   - type: Sprite
     sprite: Clothing/Uniforms/Shorts/Color/red_female.rsi

@@ -1,8 +1,8 @@
 - type: entity
-  name: BaseSMG
+  name: 基础冲锋枪
   parent: BaseItem
   id: BaseWeaponSubMachineGun
-  description: A rooty tooty point and shooty.
+  description: 一把基础款指哪打哪的冲锋枪。
   abstract: true
   components:
   - type: Sprite
@@ -37,7 +37,7 @@
   - type: ItemSlots
     slots:
       gun_magazine:
-        name: Magazine
+        name: 杂志
         startingItem: MagazinePistolSubMachineGun
         insertSound: /Audio/Weapons/Guns/MagIn/smg_magin.ogg
         ejectSound: /Audio/Weapons/Guns/MagOut/smg_magout.ogg
@@ -47,7 +47,7 @@
             - MagazinePistolSubMachineGun
         whitelistFailPopup: gun-magazine-whitelist-fail
       gun_chamber:
-        name: Chamber
+        name: 腔室
         startingItem: CartridgePistol
         priority: 1
         whitelist:
@@ -61,10 +61,10 @@
     price: 500
 
 - type: entity
-  name: Atreides
+  name: 阿特雷德斯
   parent: [BaseWeaponSubMachineGun, BaseMajorContraband]
   id: WeaponSubMachineGunAtreides
-  description: A rare machine pistol hailing from the Corporate Wars. Its extremely high fire rate and compact profile make it useful in close quarters combat. Despite its age, it is in remarkably good condition. Feeds from .35 SMG magazines.
+  description: 一把源自企业战争的罕见冲锋手枪。其极高的射速和紧凑的外形使其在近距离作战中非常实用。尽管年代久远，这把枪仍保存得异常完好。使用.35口径冲锋枪弹匣供弹。
   components:
   - type: Sprite
     sprite: Objects/Weapons/Guns/SMGs/atreides.rsi
@@ -84,10 +84,10 @@
   - type: Appearance
 
 - type: entity
-  name: C-20r submachine gun
+  name: C-20r冲锋枪
   parent: [BaseWeaponSubMachineGun, BaseSyndicateContraband]
   id: WeaponSubMachineGunC20r
-  description: A classic and widespread submachine gun, infamous for its use by the Gorlex Marauders. One of the first homegrown Waffle Corp. designs, it remains in service today. Feeds from .35 SMG magazines.
+  description: 一把经典且广泛使用的冲锋枪，因戈莱克斯掠夺者使用而臭名昭著。作为华夫公司最早自主研发的设计之一，该枪款至今仍在服役。使用.35口径冲锋枪弹匣供弹。
   components:
   - type: Sprite
     sprite: Objects/Weapons/Guns/SMGs/c20r.rsi
@@ -124,10 +124,10 @@
     price: 5000
 
 - type: entity
-  name: C-20r ROW #I think ROW stands for Recharging Onboard Weapon so i'm following the L6C's example
+  name: C-20r ROW #我认为ROW代表"再充能载具武器"，因此我沿用了L6C的命名方式
   id: WeaponSubMachineGunC20rROW
   parent: BaseItem
-  description: A burst-fire C-20r submachine gun for use by cyborgs. Creates .35 caliber ammo on the fly from an internal ammo fabricator, which slowly self-charges.
+  description: 一把供生化人使用的C-20r连发冲锋枪。通过内置弹药制造器实时生成.35口径弹药，该制造器可缓慢自动充能。
   components:
   - type: Gun
     minAngle: 2
@@ -165,10 +165,10 @@
   - type: AmmoCounter
 
 - type: entity
-  name: Drozd
+  name: 德罗兹德
   parent: [BaseWeaponSubMachineGun, BaseSecurityContraband]
   id: WeaponSubMachineGunDrozd
-  description: A modern SMG manufactured by Nanotrasen’s Small Arms Division. It features an exceptional rate of fire in burst mode, useful for holding defensive angles or engaging hostiles at longer ranges. Feeds from .35 SMG magazines.
+  description: 一把由纳诺特拉森轻武器部门制造的现代冲锋枪。其点射模式下的射速尤为出色，适用于防守据点或在远距离与敌人交火。使用.35口径冲锋枪弹匣供弹。
   components:
     - type: Sprite
       sprite: Objects/Weapons/Guns/SMGs/drozd.rsi
@@ -201,7 +201,7 @@
     - type: ItemSlots
       slots:
         gun_magazine:
-          name: Magazine
+          name: 杂志
           startingItem: MagazinePistolSubMachineGun
           insertSound: /Audio/Weapons/Guns/MagIn/smg_magin.ogg
           ejectSound: /Audio/Weapons/Guns/MagOut/smg_magout.ogg
@@ -211,7 +211,7 @@
               - MagazinePistolSubMachineGun
           whitelistFailPopup: gun-magazine-whitelist-fail
         gun_chamber:
-          name: Chamber
+          name: 腔室
           startingItem: CartridgePistol
           priority: 1
           whitelist:
@@ -224,10 +224,10 @@
     - type: Appearance
 
 - type: entity
-  name: WT550
+  name: 威腾550
   parent: [BaseWeaponSubMachineGun, BaseSecurityContraband]
   id: WeaponSubMachineGunWt550
-  description: A truly unique firearm, the WT550 was designed by Nanotrasen's Small Arms Division as a compact submachine gun fully controllable with one hand. It contains an exotic internal recoil buffer and feeds from special top-mounted .35 magazines.
+  description: 作为一款真正独特的枪械，WT550由纳星轻武器部门设计，是一款可单手完全操控的紧凑型冲锋枪。该枪械采用特殊的内部后坐力缓冲系统，并配备顶置式.35口径专用弹匣供弹。
   components:
   - type: Sprite
     sprite: Objects/Weapons/Guns/SMGs/wt550.rsi
@@ -263,7 +263,7 @@
   - type: ItemSlots
     slots:
       gun_magazine:
-        name: Magazine
+        name: 杂志
         startingItem: MagazinePistolSubMachineGunTopMounted
         insertSound: /Audio/Weapons/Guns/MagIn/smg_magin.ogg
         ejectSound: /Audio/Weapons/Guns/MagOut/smg_magout.ogg
@@ -273,7 +273,7 @@
             - MagazinePistolSubMachineGunTopMounted
         whitelistFailPopup: gun-magazine-whitelist-fail
       gun_chamber:
-        name: Chamber
+        name: 腔室
         startingItem: CartridgePistol
         priority: 1
         whitelist:

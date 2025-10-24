@@ -110,8 +110,8 @@
 - type: entity
   id: MechRipley
   parent: BaseMech
-  name: Ripley APLU
-  description: Versatile and lightly armored, the Ripley is useful for almost any heavy work scenario. The "APLU" stands for Autonomous Power Loading Unit.
+  name: 雷普利 APLU
+  description: 多才多艺且轻装装甲的雷普利几乎适用于任何重型工作场景。"APLU"代表自主动力装载单元。
   components:
   - type: Sprite
     drawdepth: Mobs
@@ -155,8 +155,8 @@
 - type: entity
   parent: BaseMech
   id: MechHonker
-  name: H.O.N.K.
-  description: "Produced by \"Tyranny of Honk, INC\", this exosuit is designed as heavy clown-support. Used to spread the fun and joy of life. HONK!"
+  name: 轰——克！
+  description: 本外骨骼装甲由"轰——克暴政公司"出品，专为重型小丑支援而设计，旨在传播生活的乐趣与欢笑。轰——克！
   components:
   - type: Sprite
     drawdepth: Mobs
@@ -192,8 +192,8 @@
 - type: entity
   parent: BaseMech
   id: MechHamtr
-  name: HAMTR
-  description: "An experimental mech which uses a brain–computer interface to connect directly to a hamsters brain."
+  name: 仓鼠机甲
+  description: 一款实验性机甲，它通过脑机接口直接连接到仓鼠的大脑。
   components:
   - type: Sprite
     drawdepth: Mobs
@@ -244,8 +244,8 @@
 - type: entity
   parent: BaseMech
   id: MechVim
-  name: Vim
-  description: A miniature exosuit from Nanotrasen, developed to let the irreplaceable station pets live a little longer.
+  name: 维姆
+  description: 一套来自纳诺特拉森的微型外骨骼，旨在让不可替代的空间站宠物活得更久。
   components:
   - type: Sprite
     drawdepth: Mobs

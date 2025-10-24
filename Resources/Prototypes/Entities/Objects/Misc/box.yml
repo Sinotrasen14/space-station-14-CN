@@ -29,10 +29,10 @@
     price: 10
 
 - type: entity
-  name: circuit tote
+  name: 电路手提袋
   id: ToteBase
   parent: BoxBase
-  description: A large tote for carrying circuit boards.
+  description: 一个用于携带电路板的大手提袋。
   components:
   - type: Sprite
     layers:

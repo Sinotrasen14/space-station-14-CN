@@ -1,8 +1,8 @@
 - type: entity
-  name: sledgehammer
+  name: 大锤
   parent: BaseItem
   id: Sledgehammer
-  description: The perfect tool for wanton carnage.
+  description: 肆意杀戮的完美工具。
   components:
   - type: Sprite
     sprite: Objects/Weapons/Melee/sledgehammer.rsi
@@ -27,8 +27,8 @@
 - type: entity
   id: Mjollnir
   parent: [ BaseItem, BaseMagicalContraband ]
-  name: Mjollnir
-  description: A weapon worthy of a god, able to strike with the force of a lightning bolt. It crackles with barely contained energy.
+  name: 雷神之锤
+  description: 一把配得上神明身份的武器，能以雷霆万钧之势出击。它迸发着几乎难以抑制的能量火花。
   components:
   - type: Wieldable
     useDelayOnWield: false
@@ -70,8 +70,8 @@
 - type: entity
   id: SingularityHammer
   parent: [ BaseItem, BaseMagicalContraband ]
-  name: Singularity Hammer
-  description: The pinnacle of close combat technology, the hammer harnesses the power of a miniaturized singularity to deal crushing blows.
+  name: 奇点锤
+  description: 近战技术的巅峰之作，这把战锤利用微型奇点的力量来施以毁灭性打击。
   components:
   - type: Wieldable
     useDelayOnWield: false

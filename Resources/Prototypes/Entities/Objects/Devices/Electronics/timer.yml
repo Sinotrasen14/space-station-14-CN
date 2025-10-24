@@ -1,8 +1,8 @@
 - type: entity
   id: SignalTimerElectronics
   parent: BaseElectronics
-  name: signal timer electronics
-  description: An electronics board used in timer circuitry. Looks like you could use a screwdriver to change the board type.
+  name: 信号定时器电子板
+  description: 用于定时器电路中的电子板。看起来您可以用螺丝刀来更改板子类型。
   components:
   - type: Sprite
     sprite: Objects/Misc/module.rsi
@@ -20,7 +20,7 @@
 - type: entity
   id: ScreenTimerElectronics
   parent: SignalTimerElectronics
-  name: screen timer electronics
+  name: 屏幕定时器电子设备
   components:
   - type: Construction
     deconstructionTarget: null
@@ -33,7 +33,7 @@
 - type: entity
   id: BrigTimerElectronics
   parent: SignalTimerElectronics
-  name: brig timer electronics
+  name: 电桥定时器电子元件
   components:
   - type: Construction
     deconstructionTarget: null

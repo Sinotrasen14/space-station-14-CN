@@ -2,8 +2,8 @@
   abstract: true
   parent: BaseItem
   id: ShardCrystalBase
-  name: crystal shard
-  description:  A small piece of crystal.
+  name: 水晶碎片
+  description: 一小块水晶碎片。
   components:
   - type: Sharp
   - type: Execution
@@ -43,8 +43,8 @@
 - type: entity
   parent: ShardCrystalBase
   id: ShardCrystalCyan
-  name: cyan crystal shard
-  description: A small piece of crystal.
+  name: 青色水晶碎片
+  description: 一小块水晶。
   components:
   - type: Sprite
     color: "#47f8ff"
@@ -59,7 +59,7 @@
 
 - type: entity
   parent: ShardCrystalBase
-  name: blue crystal shard
+  name: 蓝色水晶碎片
   id: ShardCrystalBlue
   components:
   - type: Sprite
@@ -75,7 +75,7 @@
 
 - type: entity
   parent: ShardCrystalBase
-  name: yellow crystal shard
+  name: 黄色水晶碎片
   id: ShardCrystalYellow
   components:
   - type: Sprite
@@ -92,7 +92,7 @@
 - type: entity
   parent: ShardCrystalBase
   id: ShardCrystalOrange
-  name: orange crystal shard
+  name: 橙色水晶碎片
   components:
   - type: Sprite
     color: "#ff8227"
@@ -107,7 +107,7 @@
 
 - type: entity
   parent: ShardCrystalBase
-  name: black crystal shard
+  name: 黑色水晶碎片
   id: ShardCrystalBlack
   components:
   - type: Sprite
@@ -124,7 +124,7 @@
 - type: entity
   parent: ShardCrystalBase
   id: ShardCrystalPink
-  name: pink crystal shard
+  name: 粉色水晶碎片
   components:
   - type: Sprite
     color: "#ff66cc"
@@ -140,7 +140,7 @@
 - type: entity
   parent: ShardCrystalBase
   id: ShardCrystalGreen
-  name: green crystal shard
+  name: 绿色水晶碎片
   components:
   - type: Sprite
     color: "#52ff39"
@@ -156,7 +156,7 @@
 - type: entity
   parent: ShardCrystalBase
   id: ShardCrystalRed
-  name: red crystal shard
+  name: 红色水晶碎片
   components:
   - type: Sprite
     color: "#fb4747"
@@ -172,7 +172,7 @@
 - type: entity
   parent: ShardCrystalBase
   id: ShardCrystalRandom
-  name: random crystal shard
+  name: 随机水晶碎片
   components:
   - type: RandomSpawner
     prototypes:

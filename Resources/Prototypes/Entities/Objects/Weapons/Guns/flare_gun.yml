@@ -1,8 +1,8 @@
 - type: entity
-  name: flare gun
+  name: 信号枪
   parent: BaseItem
   id: WeaponFlareGun
-  description: A compact, single-shot pistol that fires shotgun shells. Comes with a safety feature that prevents the user from fitting lethal shells inside.
+  description: 一把紧凑的单发手枪，可发射霰弹枪子弹。配有安全装置，防止使用者装入致命弹药。
   components:
   - type: Sprite
     sprite: Objects/Weapons/Guns/Shotguns/flaregun.rsi
@@ -18,7 +18,7 @@
   - type: ItemSlots
     slots:
       gun_chamber:
-        name: Chamber
+        name: 腔室
         startingItem: ShellShotgunFlare
         priority: 1
         whitelist:
@@ -52,10 +52,10 @@
 
 
 - type: entity
-  name: security shell gun
+  name: 安保霰弹枪
   parent: [WeaponFlareGun, BaseSecurityContraband]
   id: WeaponFlareGunSecurity
-  description: A modified flare gun originally designed to be used by security to launch non-lethal shotgun shells, however it can also fire lethal shells without risk.
+  description: 一把改装过的信号枪，最初设计供安保人员使用，用于发射非致命霰弹枪子弹，但也能无风险地发射致命子弹。
   components:
   - type: Sprite
     sprite: Objects/Weapons/Guns/Shotguns/flaregun_security.rsi
@@ -68,7 +68,7 @@
   - type: ItemSlots
     slots:
       gun_chamber:
-        name: Chamber
+        name: 腔室
         priority: 1
         whitelist:
           tags:

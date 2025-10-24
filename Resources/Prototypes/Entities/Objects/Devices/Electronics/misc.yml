@@ -1,8 +1,8 @@
 - type: entity
   parent: BaseElectronics
   id: FreezerElectronics
-  name: freezer electronics
-  description: An electronics board used in kitchen freezers.
+  name: 冷冻器电子板
+  description: 用于厨房冷冻器的电子板。
   components:
   - type: Sprite
     sprite: Objects/Misc/module.rsi

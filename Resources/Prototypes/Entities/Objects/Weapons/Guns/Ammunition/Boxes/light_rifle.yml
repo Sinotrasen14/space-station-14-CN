@@ -2,7 +2,7 @@
   abstract: true
   parent: BaseItem
   id: BaseMagazineBoxLightRifle
-  name: ammunition box (.30 rifle)
+  name: 弹药箱（.30口径步枪）
   components:
   - type: BallisticAmmoProvider
     mayTransfer: true
@@ -28,7 +28,7 @@
 - type: entity
   parent: BaseMagazineBoxLightRifle
   id: MagazineBoxLightRifleBig
-  name: ammunition box (.30 rifle)
+  name: 弹药箱（0.30英寸步枪）
   suffix: Big
   components:
   - type: BallisticAmmoProvider
@@ -44,8 +44,8 @@
 - type: entity
   parent: BaseMagazineBoxLightRifle
   id: MagazineBoxLightRifle
-  name: ammunition box (.30 rifle)
-  description: A cardboard box of .30 rifle rounds. Intended to hold general-purpose kinetic ammunition.
+  name: 弹药箱（0.30英寸步枪）
+  description: 一个装有0.30英寸步枪子弹的纸箱，用于存放通用动能弹药。
   components:
   - type: BallisticAmmoProvider
     proto: CartridgeLightRifle
@@ -59,8 +59,8 @@
 - type: entity
   parent: BaseMagazineBoxLightRifle
   id: MagazineBoxLightRiflePractice
-  name: ammunition box (.30 rifle practice)
-  description: A cardboard box of .30 rifle rounds. Intended to hold non-harmful chalk ammunition.
+  name: 弹药箱（0.30英寸步枪练习用）
+  description: 一箱点30步枪子弹。用于装填无害的粉笔训练弹药。
   components:
   - type: BallisticAmmoProvider
     proto: CartridgeLightRiflePractice
@@ -75,8 +75,8 @@
 - type: entity
   id: MagazineBoxLightRifleIncendiary
   parent: BaseMagazineBoxLightRifle
-  name: ammunition box (.30 rifle incendiary)
-  description: A cardboard box of .30 rifle rounds. Intended to hold self-igniting incendiary ammunition.
+  name: 弹药箱（0.30英寸步枪燃烧弹）
+  description: 一个装有0.30英寸步枪子弹的纸板箱，用于盛装自燃式燃烧弹药。
   components:
   - type: BallisticAmmoProvider
     proto: CartridgeLightRifleIncendiary
@@ -91,8 +91,8 @@
 - type: entity
   parent: BaseMagazineBoxLightRifle
   id: MagazineBoxLightRifleUranium
-  name: ammunition box (.30 rifle uranium)
-  description: A cardboard box of .30 rifle rounds. Intended to hold exotic uranium-core ammunition.
+  name: 弹药箱（.30步枪铀弹）
+  description: 一个装有.30步枪子弹的纸板箱。用于存放特制的铀芯弹药。
   components:
   - type: BallisticAmmoProvider
     proto: CartridgeLightRifleUranium

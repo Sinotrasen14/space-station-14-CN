@@ -1,8 +1,8 @@
 ﻿- type: entity
   parent: [ClothingHeadsetGrey, BaseChameleon]
   id: ClothingHeadsetChameleon
-  name: passenger headset
-  description: An updated, modular intercom that fits over the head. Takes encryption keys.
+  name: 乘客耳机
+  description: 一款更新的模块化对讲机，采用头戴式设计。可加载加密密钥。
   suffix: Chameleon
   components:
     - type: Tag

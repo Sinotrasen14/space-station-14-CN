@@ -2,8 +2,8 @@
 - type: entity
   parent: BaseWallmountCabinet
   id: DefibrillatorCabinet
-  name: defibrillator cabinet
-  description: A small wall mounted cabinet designed to hold a defibrillator.
+  name: 除颤仪壁柜
+  description: 一款设计用于存放除颤仪的壁挂式小型柜体。
   placement:
     mode: SnapgridCenter
   components:

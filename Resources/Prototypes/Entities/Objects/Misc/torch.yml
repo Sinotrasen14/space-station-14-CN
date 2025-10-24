@@ -1,8 +1,8 @@
 - type: entity
-  name: torch
+  name: 火炬
   parent: BaseItem
   id: Torch
-  description: A torch fashioned from some wood.
+  description: 一根用木头做成的火炬。
   components:
     - type: ExpendableLight
       refuelMaterialID: WoodPlank

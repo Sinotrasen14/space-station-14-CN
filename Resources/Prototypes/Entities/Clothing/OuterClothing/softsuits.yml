@@ -2,8 +2,8 @@
 - type: entity
   parent: ClothingOuterEVASuitBase
   id: ClothingOuterHardsuitEVA
-  name: EVA suit
-  description: A lightweight space suit with the basic ability to protect the wearer from the vacuum of space during emergencies.
+  name: 舱外航天服
+  description: 一款轻量级航天服，具备在紧急情况下保护穿着者免受太空真空环境伤害的基本功能。
   components:
   - type: Sprite
     sprite: Clothing/OuterClothing/Suits/eva.rsi
@@ -20,8 +20,8 @@
 - type: entity
   parent: [ ClothingOuterEVASuitBase, BaseSyndicateContraband ]
   id: ClothingOuterEVASuitSyndicate
-  name: syndicate EVA suit
-  description: "Has a tag on the back that reads: 'Totally not property of an enemy corporation, honest!'"
+  name: 辛迪加EVA防护服
+  description: 背后挂着一个标签，上面写着："真的不是敌对公司的财产，诚实保证！"
   components:
   - type: Sprite
     sprite: Clothing/OuterClothing/Suits/eva_syndicate.rsi
@@ -39,8 +39,8 @@
 - type: entity
   parent: ClothingOuterEVASuitBase
   id: ClothingOuterSuitEmergency
-  name: emergency EVA suit
-  description: An emergency EVA suit with a built-in helmet. It's horribly slow and lacking in temperature protection, but enough to buy you time from the harsh vacuum of space.
+  name: 紧急舱外航天服
+  description: 一套内置头盔的紧急舱外航天服。它的行动极为迟缓且缺乏温度保护，但足以在严酷的太空真空中为你争取时间。
   components:
   - type: Sprite
     sprite: Clothing/OuterClothing/Suits/eva_emergency.rsi
@@ -70,8 +70,8 @@
 - type: entity
   parent: ClothingOuterEVASuitBase
   id:  ClothingOuterHardsuitEVAPrisoner
-  name: prisoner EVA suit
-  description: An emergency EVA suit meant for prisoners. It's horribly slow and lacking in temperature protection, but enough to buy you time from the harsh vacuum of space.
+  name: 囚犯舱外活动服
+  description: 一件专为囚犯设计的紧急舱外活动服。虽然移动极其缓慢且缺乏温度保护，但足以让你在严酷的太空真空中争取时间。
   components:
   - type: Sprite
     sprite: Clothing/OuterClothing/Suits/eva_prisoner.rsi
@@ -94,8 +94,8 @@
 - type: entity
   parent: ClothingOuterEVASuitBase
   id: ClothingOuterHardsuitAncientEVA
-  name: NTSRA voidsuit #Nanotrasen Space Research Association
-  description: An ancient space suit, designed by the NTSRA branch of CentComm. It is very finely crafted, allowing for greater mobility than most modern space suits.
+  name: NTSRA虚空服 #纳星太空研究协会
+  description: 一件古老的太空服，由中央司令部下属的纳星太空研究协会设计。其工艺极为精湛，相比大多数现代太空服具有更卓越的机动性。
   components:
   - type: Sprite
     sprite: Clothing/OuterClothing/Suits/ancient_voidsuit.rsi
@@ -110,8 +110,8 @@
 - type: entity
   parent: [ClothingOuterEVASuitBase, BaseMedicalContraband] #Despite "Voidsuits are light hardsuits", since it parents of EVA Suits, it goes with the other softsuits
   id: ClothingOuterHardsuitVoidParamed
-  name: paramedic void suit
-  description: A void suit made for paramedics.
+  name: 医护人员防护服
+  description: 为医护人员制作的防护服。
   components:
   - type: Sprite
     sprite: Clothing/OuterClothing/Hardsuits/paramed.rsi

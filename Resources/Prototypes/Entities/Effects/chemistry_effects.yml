@@ -34,7 +34,7 @@
 - type: entity
   parent: BaseFoam
   id: Smoke
-  name: smoke
+  name: 烟
   categories: [ HideSpawnMenu ]
   components:
   - type: Occluder
@@ -50,7 +50,7 @@
 - type: entity
   parent: BaseFoam
   id: TearGasSmoke
-  name: tear gas
+  name: 催泪瓦斯
   categories: [ HideSpawnMenu ]
   components:
   - type: Sprite
@@ -73,7 +73,7 @@
 - type: entity
   parent: Smoke
   id: WizardSmoke
-  name: smoke
+  name: 烟
   categories: [ HideSpawnMenu ]
   components:
   - type: Smoke
@@ -82,7 +82,7 @@
 - type: entity
   parent: BaseFoam
   id: Foam
-  name: foam
+  name: 泡沫
   categories: [ HideSpawnMenu ]
   components:
   - type: Sprite
@@ -113,7 +113,7 @@
 
 - type: entity
   id: MetalFoam
-  name: metal foam
+  name: 泡沫金属
   categories: [ HideSpawnMenu ]
   parent: Foam
   components:
@@ -139,7 +139,7 @@
 
 - type: entity
   id: IronMetalFoam
-  name: iron metal foam
+  name: 泡沫铁金属
   categories: [ HideSpawnMenu ]
   parent: MetalFoam
   components:
@@ -148,7 +148,7 @@
 
 - type: entity
   id: AluminiumMetalFoam
-  name: aluminium metal foam
+  name: 泡沫铝金属
   categories: [ HideSpawnMenu ]
   parent: MetalFoam
   components:
@@ -157,7 +157,7 @@
 
 - type: entity
   id: BaseFoamedMetal
-  name: base foamed metal
+  name: 泡沫金属基材
   abstract: true
   placement:
     mode: SnapgridCenter
@@ -212,8 +212,8 @@
 
 - type: entity
   id: FoamedIronMetal
-  name: foamed iron metal
-  description: "For sealing hull breaches."
+  name: 泡沫铁金属
+  description: 用于密封船体裂缝。
   parent: BaseFoamedMetal
   components:
   - type: Sprite
@@ -234,8 +234,8 @@
 
 - type: entity
   id: FoamedAluminiumMetal
-  name: foamed aluminium metal
-  description: "Leftover sparse foam from an aluminum foam grenade. Easily destroyed."
+  name: 泡沫铝金属
+  description: 铝泡沫手榴弹留下的稀疏泡沫残渣。易于摧毁。
   parent: BaseFoamedMetal
   components:
   - type: Sprite

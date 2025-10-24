@@ -16,10 +16,10 @@
     capacity: 5
 
 - type: entity
-  name: wand of carp polymorph
+  name: 鲤鱼变形魔杖
   parent: WeaponWandPolymorphBase
   id: WeaponWandPolymorphCarp
-  description: For when you need a carp filet quick and the clown is looking juicy.
+  description: 当你急需鲤鱼片而小丑鱼看起来正肥美时。
   components:
   - type: BasicEntityAmmoProvider
     proto: ProjectilePolyboltCarp
@@ -27,10 +27,10 @@
     count: 5
 
 - type: entity
-  name: wand of monkey polymorph
+  name: 猴形魔杖
   parent: WeaponWandPolymorphBase
   id: WeaponWandPolymorphMonkey
-  description: For when you need a monkey friend.
+  description: 当你需要一个猴子朋友时。
   components:
   - type: BasicEntityAmmoProvider
     proto: ProjectilePolyboltMonkey
@@ -38,10 +38,10 @@
     count: 5
 
 - type: entity
-  name: wand of fireball
+  name: 火球魔杖
   parent: WeaponWandBase
   id: WeaponWandFireball
-  description: Great big balls of fire!
+  description: 好大的火球啊！
   components:
   - type: Sprite
     layers:
@@ -58,8 +58,8 @@
     count: 5
 
 - type: entity
-  name: wand of the locker
-  description: Stuff nerds at a distance!
+  name: 储物柜之杖
+  description: 远程打击书呆子！
   parent: WeaponWandBase
   id: WeaponWandLocker
   components:
@@ -94,10 +94,10 @@
           False: { visible: False }
 
 - type: entity
-  name: magical wand of instant death
+  name: 瞬死魔杖
   parent: WeaponWandBase
   id: WeaponWandDeath
-  description: Only the best and brightest of the Space Wizards R&D team worked together to create this beauty.
+  description: 只有太空巫师研发团队中最优秀、最聪明的人通力合作，才创造出这件杰作。
   components:
   - type: Sprite
     layers:
@@ -113,10 +113,10 @@
     count: 3
 
 - type: entity
-  name: wand of entrance
+  name: 入口魔杖
   parent: WeaponWandBase
   id: WeaponWandPolymorphDoor
-  description: For when you need a get-away route.
+  description: 当你需要一条逃生路线时。
   components:
   - type: Sprite
     layers:
@@ -132,10 +132,10 @@
     count: 10
 
 - type: entity
-  name: wand of cluwning
+  name: 小丑魔杖
   parent: WeaponWandPolymorphBase
   id: WeaponWandCluwne
-  description: Make their situation worse by turning them into a cluwne.
+  description: 通过把他们变成小丑来让他们的处境更糟。
   components:
   - type: BasicEntityAmmoProvider
     proto: ProjectilePolyboltCluwne
@@ -145,8 +145,8 @@
 - type: entity
   parent: WeaponWandPolymorphBase
   id: WeaponWandPolymorphBread
-  name: magic bread wand
-  description: Turn all your friends into bread! Your boss! Your enemies! Your dog! Make everything bread!
+  name: 魔法面包魔杖
+  description: 把你所有的朋友都变成面包！你的老板！你的敌人！你的狗！让万物皆成面包！
   components:
   - type: BasicEntityAmmoProvider
     proto: ProjectilePolyboltBread

@@ -6,8 +6,8 @@
 - type: entity
   parent: [DrinkBaseMaterialGlass, DrinkBaseCup, DrinkVisualsFillOverlay]
   id: DrinkGlass
-  name: metamorphic glass
-  description: A metamorphic glass that automagically turns into a glass appropriate for the drink within. There's a sanded off patent number on the bottom.
+  name: 变形玻璃
+  description: 一种变形玻璃，能自动神奇地变成适合盛放其中饮品的杯子。底部有个被磨掉的专利号。
   components:
   - type: Sprite
     sprite: Objects/Consumable/Drinks/glass_clear.rsi
@@ -30,8 +30,8 @@
 - type: entity
   parent: DrinkGlass
   id: DrinkJar
-  name: jar
-  description: The hipster's cup.
+  name: 罐子
+  description: 潮人的罐子。
   components:
   - type: Sprite
     sprite: Objects/Consumable/Drinks/jar.rsi
@@ -991,7 +991,7 @@
   parent: DrinkGlass
   id: DrinkHoochGlass
   suffix: hooch
-  description: You've really hit rock bottom now... your liver packed its bags and left last night.
+  description: 你现在真是跌到谷底了……你的肝脏昨晚已经收拾行李离开了。
   components:
   - type: SolutionContainerManager
     solutions:
@@ -2243,8 +2243,8 @@
 - type: entity
   parent: DrinkGlass
   id: DrinkWaterJug
-  name: water jug
-  description: Stay hydrated.
+  name: 水壶
+  description: 保持水分。
   components:
   - type: SolutionContainerManager
     solutions:
@@ -2581,7 +2581,7 @@
   parent: DrinkGlass
   id: DrinkBacchusBlessing
   suffix: bacchus blessing
-  description: You didn't think it was possible for a liquid to be so utterly revolting. Are you sure about this...?
+  description: 你无法想象一种液体竟能如此令人作呕。你确定要这样吗……？
   components:
   - type: SolutionContainerManager
     solutions:

@@ -2,8 +2,8 @@
   parent: BaseWallmountMachine
   id: WallmountTelescreen
   suffix: camera monitor
-  name: telescreen
-  description: Finally, some decent reception around here...
+  name: 电幕
+  description: 总算能在这附近收到像样的信号了……
   components:
   - type: Sprite
     sprite: Structures/Machines/computers.rsi
@@ -49,8 +49,8 @@
 - type: entity
   parent: BaseWallmountMetallic
   id: WallmountTelescreenFrame
-  name: telescreen frame
-  description: Finally, some decent reception around here...
+  name: 电视屏幕框架
+  description: 终于能在这附近收到像样的信号了……
   components:
   - type: Construction
     graph: WallmountTelescreen

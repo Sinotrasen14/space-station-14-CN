@@ -1,8 +1,8 @@
 ﻿- type: entity
   parent: [BaseItem, BaseXenoArtifact]
   id: BaseXenoArtifactItem
-  name: artifact
-  description: A strange artifact from time unknown. Looks like a good time. Fits in hand perfectly.
+  name: 器物
+  description: 一件来历不明的奇异器物。看起来妙趣横生。握在手中恰到好处。
   abstract: true
   noSpawn: true
   components:
@@ -75,8 +75,8 @@
 - type: entity
   id: ArtifactFragment
   parent: BaseItem
-  name: artifact fragment
-  description: A broken piece of an artifact. You could probably repair it if you had more.
+  name: 神器碎片
+  description: 一块破碎的神器碎片。如果找到更多碎片，或许能将其修复。
   components:
   - type: Sprite
     sprite: Objects/Specific/Xenoarchaeology/artifact_fragments.rsi

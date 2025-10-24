@@ -1,8 +1,8 @@
 - type: entity
-  name: BasePistol
+  name: 根射式基础手枪
   parent: BaseItem
   id: BaseWeaponPistol
-  description: A rooty tooty point and shooty.
+  description: 一把根射式基础手枪。
   abstract: true
   components:
   - type: Sprite
@@ -40,7 +40,7 @@
   - type: ItemSlots
     slots:
       gun_magazine:
-        name: Magazine
+        name: 杂志
         startingItem: MagazinePistol
         insertSound: /Audio/Weapons/Guns/MagIn/pistol_magin.ogg
         ejectSound: /Audio/Weapons/Guns/MagOut/pistol_magout.ogg
@@ -50,7 +50,7 @@
             - MagazinePistol
         whitelistFailPopup: gun-magazine-whitelist-fail
       gun_chamber:
-        name: Chamber
+        name: 腔室
         startingItem: CartridgePistol
         priority: 1
         whitelist:
@@ -70,17 +70,17 @@
     price: 500
 
 - type: entity
-  name: viper
+  name: 蝮蛇
   parent: [BaseWeaponPistol, BaseSyndicateContraband]
   id: WeaponPistolViper
-  description: A common handgun illegally modified by the Syndicate. The Viper sports a selector switch between semi-auto and ‘rock and roll’. The standard sidearm for any soldier who fights under the three serpents. Feeds from .35 pistol magazines.
+  description: 由辛迪加非法改装的常见手枪。蝮蛇配有半自动与“摇滚”模式的切换选择器。这是为三蛇旗下而战的士兵的标准配枪。使用.35口径手枪弹匣供弹。
   components:
   - type: Sprite
     sprite: Objects/Weapons/Guns/Pistols/viper.rsi
   - type: ItemSlots
     slots:
       gun_magazine:
-        name: Magazine
+        name: 杂志
         startingItem: MagazinePistol
         insertSound: /Audio/Weapons/Guns/MagIn/pistol_magin.ogg
         ejectSound: /Audio/Weapons/Guns/MagOut/pistol_magout.ogg
@@ -91,7 +91,7 @@
             - MagazinePistolHighCapacity
         whitelistFailPopup: gun-magazine-whitelist-fail
       gun_chamber:
-        name: Chamber
+        name: 腔室
         startingItem: CartridgePistol
         priority: 1
         whitelist:
@@ -105,10 +105,10 @@
     price: 1000
 
 - type: entity
-  name: echis
+  name: 埃喀斯
   parent: [ BaseItem, BaseSyndicateContraband ]
   id: WeaponPistolEchis
-  description: A cyborg-mounted weapon system based on the Viper pistol. Creates ammunition on the fly from an internal fabricator, which slowly self-charges.
+  description: 基于蝰蛇手枪的赛博格搭载武器系统。其内置制造器可缓慢自我充能并实时生成弹药。
   components:
   - type: Gun
     fireRate: 5
@@ -140,10 +140,10 @@
   - type: AmmoCounter
 
 - type: entity
-  name: cobra
+  name: 眼镜蛇
   parent: [ BaseWeaponPistol, BaseSyndicateContraband ]
   id: WeaponPistolCobra
-  description: Integrally suppressed semi-automatic pistol used by the Syndicate, firing caseless subsonic rounds. Favored by any agent who likes to keep things quiet and leave no evidence behind. Feeds from .25 pistol magazines.
+  description: 综合抑制型半自动手枪，由辛迪加组织使用，发射无壳亚音速子弹。深受偏爱安静行事且不留痕迹的特工青睐。使用.25口径手枪弹匣供弹。
   components:
   - type: Sprite
     sprite: Objects/Weapons/Guns/Pistols/cobra.rsi
@@ -167,7 +167,7 @@
   - type: ItemSlots
     slots:
       gun_magazine:
-        name: Magazine
+        name: 杂志
         startingItem: MagazinePistolCaselessRifle
         insertSound: /Audio/Weapons/Guns/MagIn/pistol_magin.ogg
         ejectSound: /Audio/Weapons/Guns/MagOut/pistol_magout.ogg
@@ -177,7 +177,7 @@
             - MagazinePistolCaselessRifle
         whitelistFailPopup: gun-magazine-whitelist-fail
       gun_chamber:
-        name: Chamber
+        name: 腔室
         startingItem: CartridgeCaselessRifle
         priority: 1
         whitelist:
@@ -191,10 +191,10 @@
     price: 1500
 
 - type: entity
-  name: mk 58
+  name: mk58
   parent: [BaseWeaponPistol, BaseSecurityContraband]
   id: WeaponPistolMk58
-  description: Designed by Nanotrasen’s Small Arms Division, the Mk58 is a conventional semi-automatic pistol with a simple recoil-operated action and excellent reliability. The standard sidearm of Nanotrasen’s station security and emergency response teams. Feeds from .35 pistol magazines.
+  description: 由纳诺特拉森轻武器部门设计的Mk58是一款传统型半自动手枪，采用简单的后坐式操作机制，具有卓越的可靠性。作为纳诺特拉森空间站安防与应急响应团队的标准配枪，该武器使用.35口径手枪弹匣供弹。
   components:
   - type: Sprite
     sprite: Objects/Weapons/Guns/Pistols/mk58.rsi
@@ -220,7 +220,7 @@
   name: N1984
   parent: [BaseWeaponPistol, BaseSecurityContraband]
   id: WeaponPistolN1984
-  description: An exceptionally powerful ‘hand cannon’ designed as part of Nanotrasen's BFG initiative. Chambered in .45, the lord’s caliber, it is generally considered too unwieldy for standard use but has become something of a status symbol among Nanotrasen officials. Feeds from .45 pistol magazines.
+  description: 作为纳星BFG计划组成部分设计的特制强力“手炮”。采用.45口径——天选之径，虽因难以操控而被认为不适于常规作战，却逐渐成为纳星官员的身份象征。使用.45手枪弹匣供弹。
   components:
   - type: Sprite
     sprite: Objects/Weapons/Guns/Pistols/N1984.rsi
@@ -244,7 +244,7 @@
   - type: ItemSlots
     slots:
       gun_magazine:
-        name: Magazine
+        name: 杂志
         startingItem: MagazineMagnum
         insertSound: /Audio/Weapons/Guns/MagIn/pistol_magin.ogg
         ejectSound: /Audio/Weapons/Guns/MagOut/pistol_magout.ogg
@@ -254,7 +254,7 @@
             - MagazineMagnum
         whitelistFailPopup: gun-magazine-whitelist-fail
       gun_chamber:
-        name: Chamber
+        name: 腔室
         startingItem: CartridgeMagnum
         priority: 1
         whitelist:

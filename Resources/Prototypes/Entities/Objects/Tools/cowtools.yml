@@ -1,8 +1,8 @@
 - type: entity
-  name: haycutters
+  name: 干草切割机
   parent: BaseItem
   id: Haycutters
-  description: This kills the wire. Moo!
+  description: 这下电线就报废了。哞！
   components:
   - type: Tag
     tags:
@@ -26,10 +26,10 @@
     sprite: Objects/Tools/Cowtools/haycutters.rsi
 
 - type: entity
-  name: moodriver
+  name: 情绪河
   parent: BaseItem
   id: Moodriver
-  description: Turn to use. Moo!
+  description: 转向使用。哞！
   components:
   - type: Sprite
     sprite: Objects/Tools/Cowtools/moodriver.rsi
@@ -49,10 +49,10 @@
     speedModifier: 0.05
 
 - type: entity
-  name: wronch
+  name: 错物
   parent: BaseItem
   id: Wronch
-  description: Wronch thing. Moo!
+  description: 错物。哞！
   components:
   - type: Sprite
     sprite: Objects/Tools/Cowtools/wronch.rsi
@@ -72,10 +72,10 @@
     speedModifier: 0.05
 
 - type: entity
-  name: cowbar
+  name: 牛栏
   parent: BaseItem
   id: Cowbar
-  description: Cow your problems away. Moo!
+  description: 将烦恼统统牛走。哞！
   components:
   - type: Sprite
     sprite: Objects/Tools/Cowtools/cowbar.rsi
@@ -97,10 +97,10 @@
     speedModifier: 0.05
 
 - type: entity
-  name: mooltitool
+  name: 哞尔特工具
   parent: BaseItem
   id: Mooltitool
-  description: An crude tool to copy, store, and send electrical pulses and signals through wires and machines. Moo!
+  description: 一种通过电线和机器复制、存储和发送电脉冲信号的简陋工具。哞！
   components:
   - type: Sprite
     sprite: Objects/Tools/Cowtools/mooltitool.rsi
@@ -115,10 +115,10 @@
       - Multitool
 
 - type: entity
-  name: cowelding tool
+  name: 牛焊工具
   parent: Welder
   id: Cowelder
-  description: "Melts anything as long as it's fueled, don't forget your eye protection! Moo!"
+  description: 只要燃料充足，它能熔化一切，别忘了戴好护目镜！哞！
   components:
   - type: Sprite
     sprite: Objects/Tools/Cowtools/cowelder.rsi
@@ -129,10 +129,10 @@
     speedModifier: 0.05
 
 - type: entity
-  name: milkalyzer
+  name: 奶析仪
   parent: BaseItem
   id: Milkalyzer
-  description: A hand-held environmental scanner which reports current gas levels. Moo!
+  description: 手持式环境扫描仪，可报告当前气体水平。哞！
   components:
   - type: Sprite
     sprite: Objects/Tools/Cowtools/milkalyzer.rsi
@@ -151,10 +151,10 @@
   - type: Appearance
 
 - type: entity
-  name: cow toolbox
+  name: 奶牛工具箱
   parent: ToolboxBase
   id: CowToolbox
-  description: A weirdly shaped box, stocked with... tools?
+  description: 一个形状怪异的箱子，里面装满了……工具？
   components:
   - type: Sprite
     sprite: Objects/Tools/Cowtools/cow_toolbox.rsi
@@ -168,7 +168,7 @@
 
 - type: entity
   id: CowToolboxFilled
-  name: cow toolbox
+  name: 牛工具箱
   suffix: Filled
   parent: CowToolbox
   components:

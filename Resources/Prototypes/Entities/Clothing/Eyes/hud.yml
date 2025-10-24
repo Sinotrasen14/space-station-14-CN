@@ -19,8 +19,8 @@
 - type: entity
   parent: ClothingEyesBase
   id: ClothingEyesHudDiagnostic
-  name: diagnostic hud
-  description: A heads-up display capable of analyzing the integrity and status of robotics and exosuits. Made out of see-borg-ium.
+  name: 诊断平视显示器
+  description: 一种能够分析机器人和外骨骼完整性与状态的平视显示器，由可视博格合金制成。
   components:
   - type: Sprite
     sprite: Clothing/Eyes/Hud/diag.rsi
@@ -35,8 +35,8 @@
 - type: entity
   parent: [ClothingEyesBase, ShowMedicalIcons]
   id: ClothingEyesHudMedical
-  name: medical hud
-  description: A heads-up display that scans the humanoids in view and provides accurate data about their health status.
+  name: 医疗平视显示器
+  description: 一款扫描视野内人形目标并提供其健康状况准确数据的医疗平视显示器。
   components:
   - type: Sprite
     sprite: Clothing/Eyes/Hud/med.rsi
@@ -51,8 +51,8 @@
 - type: entity
   parent: [ClothingEyesBase, ShowSecurityIcons, BaseSecurityContraband]
   id: ClothingEyesHudSecurity
-  name: security hud
-  description: A heads-up display that scans the humanoids in view and provides accurate data about their ID status and security records.
+  name: 安全平视显示器
+  description: 一款能够扫描视野内人形目标并提供其身份状态与安全记录精准数据的安全平视显示器。
   components:
   - type: Sprite
     sprite: Clothing/Eyes/Hud/sec.rsi
@@ -67,8 +67,8 @@
 - type: entity
   parent: [ClothingEyesBase, BaseCommandContraband]
   id: ClothingEyesHudCommand
-  name: administration hud
-  description: A heads-up display that scans the humanoids in view and provides accurate data about their ID status.
+  name: 管理平视显示器
+  description: 一种能够扫描视野内人形目标并提供其身份状态准确数据的管理平头显示器。
   components:
   - type: Sprite
     sprite: Clothing/Eyes/Hud/command.rsi
@@ -83,8 +83,8 @@
 - type: entity
   parent: ClothingEyesBase
   id: ClothingEyesHudBeer
-  name: beer goggles
-  description: A pair of sunHud outfitted with apparatus to scan reagents, as well as providing an innate understanding of liquid viscosity while in motion.
+  name: 啤酒眼镜
+  description: 一副配备有扫描试剂装置的太阳镜，同时能在运动时提供对液体粘度的天生理解。
   components:
   - type: Sprite
     sprite: Clothing/Eyes/Hud/beergoggles.rsi
@@ -102,8 +102,8 @@
 - type: entity
   parent: ClothingEyesBase
   id: ClothingEyesHudFriedOnion
-  name: fried onion goggles
-  description: Filler
+  name: 炸洋葱护目镜
+  description: 填充物
   components:
   - type: Sprite
     sprite: Clothing/Eyes/Hud/friedonion.rsi
@@ -126,8 +126,8 @@
 - type: entity
   parent: ClothingEyesBase
   id: ClothingEyesHudOnionBeer
-  name: thungerst goggles
-  description: Filler
+  name: 充气护目镜
+  description: 填充物
   components:
   - type: Sprite
     sprite: Clothing/Eyes/Hud/onionbeer.rsi
@@ -139,8 +139,8 @@
 - type: entity
   parent: [ClothingEyesBase, ShowMedicalIcons]
   id: ClothingEyesHudMedOnion
-  name: medonion hud
-  description: Filler
+  name: 美多尼恩 hud
+  description: 填充物
   components:
   - type: Sprite
     sprite: Clothing/Eyes/Hud/medonion.rsi
@@ -151,8 +151,8 @@
 - type: entity
   parent: [ClothingEyesBase, ShowMedicalIcons]
   id: ClothingEyesHudMedOnionBeer
-  name: medthungerst hud
-  description: Filler
+  name: 饥饿的哈德
+  description: 填充物
   components:
   - type: Sprite
     sprite: Clothing/Eyes/Hud/medonionbeer.rsi
@@ -164,8 +164,8 @@
 - type: entity
   parent: [ClothingEyesBase, ShowSecurityIcons, ShowMedicalIcons, BaseSecurityCommandContraband]
   id: ClothingEyesHudMedSec
-  name: medsec hud
-  description: An eye display that looks like a mixture of medical and security huds.
+  name: 医疗安保平视显示器
+  description: 一款看起来像是医疗和安保平视显示器混合体的眼部显示设备。
   components:
   - type: Sprite
     sprite: Clothing/Eyes/Hud/medsec.rsi
@@ -178,8 +178,8 @@
 - type: entity
   parent: [ClothingEyesBase, ShowSecurityIcons, ShowMedicalIcons]
   id: ClothingEyesHudMultiversal
-  name: multiversal hud
-  description: Filler
+  name: 多元宇宙平视显示器
+  description: 填充物
   components:
   - type: Sprite
     sprite: Clothing/Eyes/Hud/medsecengi.rsi
@@ -194,8 +194,8 @@
 - type: entity
   parent: [ClothingEyesBase, ShowSecurityIcons, ShowMedicalIcons]
   id: ClothingEyesHudOmni
-  name: omni hud
-  description: Filler
+  name: 全息平视显示器
+  description: 填充物
   components:
   - type: Sprite
     sprite: Clothing/Eyes/Hud/omni.rsi
@@ -212,8 +212,8 @@
 - type: entity
   parent: [ClothingEyesBase, ShowSecurityIcons, BaseSyndicateContraband]
   id: ClothingEyesHudSyndicate
-  name: syndicate visor
-  description: The syndicate's professional head-up display, designed for better detection of humanoids and their subsequent elimination.
+  name: 辛迪加护目镜
+  description: 辛迪加的专业平视显示器，旨在更好地探测人形目标并随后予以清除。
   components:
   - type: Sprite
     sprite: Clothing/Eyes/Hud/synd.rsi
@@ -228,8 +228,8 @@
 - type: entity
   parent: [ClothingEyesBase, ShowSecurityIcons, BaseSyndicateContraband]
   id: ClothingEyesHudSyndicateAgent
-  name: syndicate medical visor
-  description: The Syndicate Corpsman's professional heads-up display, designed for quick diagnosis of their team's status.
+  name: 辛迪加医疗护目镜
+  description: 辛迪加医护兵的专业平视显示器，旨在快速诊断团队状态。
   components:
   - type: Sprite
     sprite: Clothing/Eyes/Hud/syndagent.rsi
@@ -250,8 +250,8 @@
 - type: entity
   parent: [ClothingEyesHudMedical, ClothingHeadEyeBaseFlippable]
   id: ClothingEyesEyepatchHudMedical
-  name: medical hud eyepatch
-  description: A heads-up display that scans the humanoids in view and provides accurate data about their health status. For true patriots.
+  name: 医疗全息显示眼罩
+  description: 一款能够扫描视野内人形生物并提供其健康状况准确数据的头戴式显示设备。献给真正的爱国者。
   components:
   - type: Sprite
     sprite: Clothing/Eyes/Hud/medpatch.rsi
@@ -266,13 +266,13 @@
 - type: entity
   parent: [ClothingEyesEyepatchHudMedical, ClothingHeadEyeBaseFlipped]
   id: ClothingEyesEyepatchHudMedicalFlipped
-  name: medical hud eyepatch
+  name: 医疗平视显示器眼罩
 
 - type: entity
   parent: [ClothingEyesHudSecurity, ClothingHeadEyeBaseFlippable]
   id: ClothingEyesEyepatchHudSecurity
-  name: security hud eyepatch
-  description: A heads-up display that scans the humanoids in view and provides accurate data about their ID status and security records. For true patriots.
+  name: 安保平视显示器眼罩
+  description: 一款扫描视野内人形目标并提供其身份状态与安保记录的精准数据的平视显示器。献给真正的爱国者。
   components:
   - type: Sprite
     sprite: Clothing/Eyes/Hud/secpatch.rsi
@@ -287,13 +287,13 @@
 - type: entity
   parent: [ClothingEyesEyepatchHudSecurity,  ClothingHeadEyeBaseFlipped]
   id: ClothingEyesEyepatchHudSecurityFlipped
-  name: security hud eyepatch
+  name: 安全平视显示器眼罩
 
 - type: entity
   parent: [ClothingEyesHudBeer, ClothingHeadEyeBaseFlippable]
   id: ClothingEyesEyepatchHudBeer
-  name: beer hud eyepatch
-  description: A pair of sunHud outfitted with apparatus to scan reagents, as well as providing an innate understanding of liquid viscosity while in motion. For true patriots.
+  name: 啤酒护目镜眼罩
+  description: 一副配备扫描试剂装置的太阳镜，可在运动中提供对液体粘度的天生理解。献给真正的爱国者。
   components:
   - type: Sprite
     sprite: Clothing/Eyes/Hud/beerpatch.rsi
@@ -303,13 +303,13 @@
 - type: entity
   parent: [ClothingEyesEyepatchHudBeer, ClothingHeadEyeBaseFlipped]
   id: ClothingEyesEyepatchHudBeerFlipped
-  name: beer hud eyepatch
+  name: 啤酒 前视显示器 眼罩
 
 - type: entity
   parent: [ClothingEyesHudDiagnostic, ClothingHeadEyeBaseFlippable]
   id: ClothingEyesEyepatchHudDiag
-  name: diagnostic hud eyepatch
-  description: A heads-up display capable of analyzing the integrity and status of robotics and exosuits. Made out of see-borg-ium.
+  name: 诊断平视显示眼罩
+  description: 一款能够分析机器人和外骨骼完整性与状态的平视显示器。采用赛博格材质制成。
   components:
   - type: Sprite
     sprite: Clothing/Eyes/Hud/diagpatch.rsi
@@ -319,4 +319,4 @@
 - type: entity
   parent: [ClothingEyesEyepatchHudDiag, ClothingHeadEyeBaseFlipped]
   id: ClothingEyesEyepatchHudDiagFlipped
-  name: diagnostic hud eyepatch
+  name: 诊断平视显示器眼罩

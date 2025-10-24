@@ -74,10 +74,10 @@
     temperature: 700
 
 - type: entity
-  name: energy sword
+  name: 能量剑
   parent: [BaseMeleeWeaponEnergy, BaseSyndicateContraband]
   id: EnergySword
-  description: A very loud & dangerous sword with a beam made of pure, concentrated plasma. Cuts through unarmored targets like butter.
+  description: 一把极其响亮且危险的长剑，其光束由纯粹浓缩的等离子体构成。切割无护甲目标如同热刀切黄油般轻易。
   components:
   - type: Sprite
     sprite: Objects/Weapons/Melee/e_sword.rsi
@@ -94,10 +94,10 @@
     price: 2500
 
 - type: entity
-  name: energy dagger
+  name: 能量匕首
   parent: [BaseMeleeWeaponEnergy, BaseSyndicateContraband]
   id: EnergyDaggerLoud
-  description: A not as loud and dangerous dagger with a beam made of pure, concentrated plasma. This one is completely undisguised.
+  description: 一把不那么响亮和危险的匕首，其光束由纯净、浓缩的等离子体构成。这把匕首完全不加掩饰。
   components:
   - type: ItemToggle
     soundActivate:
@@ -158,11 +158,11 @@
     netsync: false
 
 - type: entity
-  name: pen
+  name: 钢笔
   parent: [BaseMeleeWeaponEnergy, SelectableLock]
   id: EnergyDagger
   suffix: E-Dagger
-  description: 'A dark ink pen.'
+  description: 一支深色墨水的钢笔。
   components:
   - type: ItemToggle
     soundActivate:
@@ -239,9 +239,9 @@
 - type: entity
   parent: [BaseItem, BaseSyndicateContraband]
   id: EnergyDaggerBox
-  name: e-dagger box
+  name: 电子匕首盒
   suffix: E-Dagger
-  description: A small box containing an e-dagger. Packaging disintegrates when opened, leaving no evidence behind.
+  description: 一个装有电子匕首的小盒子。包装在打开时分解，不留痕迹。
   components:
   - type: Item
     size: Tiny
@@ -255,10 +255,10 @@
       path: /Audio/Effects/unwrap.ogg
 
 - type: entity
-  name: energy cutlass
+  name: 能量弯刀
   parent: [BaseMeleeWeaponEnergy, BaseMajorContraband]
   id: EnergyCutlass
-  description: An exotic energy weapon.
+  description: 一把奇特的外星能量武器。
   components:
   - type: ItemToggleMeleeWeapon
     activatedDamage:
@@ -279,10 +279,10 @@
     sprite: Objects/Weapons/Melee/e_cutlass.rsi
 
 - type: entity
-  name: double-bladed energy sword
+  name: 双刃能量剑
   parent: [BaseMeleeWeaponEnergy, BaseSyndicateContraband]
   id: EnergySwordDouble
-  description: Syndicate Command Interns thought that having one blade on the energy sword was not enough. This can be stored in pockets.
+  description: 辛迪加指挥部的实习生们认为能量剑只有单刃还不够。这个可以存放在口袋里。
   components:
   - type: ItemToggle
     onUse: false # wielding events control it instead
@@ -347,8 +347,8 @@
 - type: entity
   parent: EnergySwordDouble
   id: HyperEutacticBlade
-  name: hypereutactic-blade
-  description: A supermassive weapon envisioned to cleave the very fabric of space and time itself in twain, the hypereutactic blade dynamically flash-forges a hypereutactic crystaline nanostructure capable of passing through most known forms of matter like a hot knife through butter.
+  name: 超配分 blade
+  description: 超配分刀锋是一种旨在斩裂时空结构的巨型武器，它能动态闪铸出超配分晶体纳米结构，这种结构可像热刀切黄油般穿透绝大多数已知物质形态。
   components:
   - type: MeleeWeapon
     wideAnimationRotation: 180
@@ -402,13 +402,13 @@
   parent: EnergySword
   id: CyborgEnergySword
   suffix: For Borgs
-  description: A very loud & dangerous sword with a beam made of pure, concentrated plasma. Specially designed for syndicate cyborgs.
+  description: 一把极其响亮且危险的剑，其光束由纯净浓缩的等离子体构成，专为联合企业的生化机器人设计。
 
 - type: entity
   parent: EnergySwordDouble
   id: CyborgEnergySwordDouble # why is this invalid if ID is BorgEnergySwordDouble
   suffix: One-Handed, For Borgs
-  description: Syndicate Command Interns thought that having one blade on the energy sword was not enough. Specially designed for syndicate cyborgs.
+  description: 辛迪加指挥部的实习生们认为能量剑上只有一片刀刃还不够。专为辛迪加改造人设计。
   components: # could add energy-draining like the L6C
   - type: Wieldable
     freeHandsRequired: 0 # because borg has no off-hand to wield with.  Without this, it will be unable to activate the esword

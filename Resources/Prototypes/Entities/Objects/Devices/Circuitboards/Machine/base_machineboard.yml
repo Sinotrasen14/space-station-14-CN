@@ -1,7 +1,7 @@
 - type: entity
   id: BaseMachineCircuitboard
   parent: BaseItem
-  name: machine board
+  name: 机板
   abstract: true
   suffix: Machine Board
   components:

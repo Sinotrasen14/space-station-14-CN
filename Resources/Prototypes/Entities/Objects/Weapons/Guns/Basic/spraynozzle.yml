@@ -1,8 +1,8 @@
 - type: entity
   id: WeaponSprayNozzle
   parent: BaseItem
-  name: spray nozzle
-  description: A high-powered spray nozzle used in conjunction with a backpack-mounted water tank.
+  name: 喷雾嘴
+  description: 一种与背包式水箱配套使用的高功率喷雾嘴。
   components:
   - type: Tag
     tags:

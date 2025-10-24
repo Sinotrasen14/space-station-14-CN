@@ -1,8 +1,8 @@
 - type: entity
-  name: coordinates disk
+  name: 坐标盘
   parent: BaseItem
   id: CoordinatesDisk
-  description: A disk containing the coordinates to a location in space. Necessary for any FTL-traversing vessel to reach their destination. Fits inside shuttle consoles.
+  description: 一个包含空间坐标位置的圆盘，是任何进行超光速航行的飞船抵达目的地所必需的部件，可装入穿梭机控制台内。
   components:
   - type: Sprite
     sprite: Objects/Misc/cd.rsi

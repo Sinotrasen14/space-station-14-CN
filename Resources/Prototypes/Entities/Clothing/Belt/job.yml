@@ -83,8 +83,8 @@
 - type: entity
   parent: BaseClothingBeltEngineering
   id: ClothingBeltUtility
-  name: utility belt
-  description: Can hold various things.
+  name: 多功能腰带
+  description: 可容纳多种物品。
   components:
   - type: Sprite
     sprite: Clothing/Belt/utility.rsi
@@ -98,8 +98,8 @@
 - type: entity
   parent: BaseClothingBeltEngineering
   id: ClothingBeltChiefEngineer
-  name: chief engineer's toolbelt
-  description: Holds tools, looks snazzy.
+  name: 总工程师的工具带
+  description: 收纳工具，外观时尚。
   components:
   - type: Sprite
     sprite: Clothing/Belt/ce.rsi
@@ -114,8 +114,8 @@
 - type: entity
   parent: ClothingBeltStorageBase
   id: ClothingBeltJanitor
-  name: janibelt
-  description: A belt used to hold most janitorial supplies.
+  name: 保洁腰带
+  description: 用于存放大部分保洁用品的腰带。
   components:
   - type: Sprite
     sprite: Clothing/Belt/janitor.rsi
@@ -160,8 +160,8 @@
 - type: entity
   parent: ClothingBeltStorageBase
   id: ClothingBeltMedical
-  name: medical belt
-  description: Can hold various medical equipment.
+  name: 医疗腰带
+  description: 可容纳各种医疗设备。
   components:
   - type: Sprite
     sprite: Clothing/Belt/medical.rsi
@@ -226,8 +226,8 @@
 - type: entity
   parent: ClothingBeltMedical
   id: ClothingBeltMedicalEMT
-  name: EMT belt
-  description: Perfect for holding various equipment for medical emergencies.
+  name: EMT腰带
+  description: 非常适合在医疗急救时固定各种设备。
   components:
   - type: Sprite
     sprite: Clothing/Belt/emt.rsi
@@ -237,8 +237,8 @@
 - type: entity
   parent: ClothingBeltStorageBase
   id: ClothingBeltPlant
-  name: botanical belt
-  description: A belt used to hold most hydroponics supplies. Suprisingly, not green.
+  name: 植物腰带
+  description: 一条用于容纳大多数水培用品的腰带。令人惊讶的是，它并不是绿色的。
   components:
   - type: Sprite
     sprite: Clothing/Belt/plant.rsi
@@ -294,8 +294,8 @@
 - type: entity
   parent: ClothingBeltStorageBase
   id: ClothingBeltChef
-  name: chef belt
-  description: A belt used to hold kitchen knives and condiments for quick access.
+  name: 厨师腰带
+  description: 一条用于快速取用厨房刀具和调味品的腰带。
   components:
   - type: Sprite
     sprite: Clothing/Belt/chef.rsi
@@ -371,8 +371,8 @@
 - type: entity
   parent: [ClothingBeltStorageBase, ContentsExplosionResistanceBase, BaseSecurityContraband]
   id: ClothingBeltSecurity
-  name: security belt
-  description: Can hold security gear like handcuffs and flashes.
+  name: 安全腰带
+  description: 可容纳手铐和闪光弹等安全装备。
   components:
   - type: Sprite
     sprite: Clothing/Belt/security.rsi

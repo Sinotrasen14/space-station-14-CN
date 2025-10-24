@@ -1,5 +1,5 @@
 ﻿- type: entity
-  name: hover entity
+  name: 悬停实体
   id: hoverentity
   categories: [ HideSpawnMenu ]
   components:

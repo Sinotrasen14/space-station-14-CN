@@ -1,7 +1,7 @@
 - type: entity
   parent: [MobObserverBase, InventoryBase]
   id: AdminObserver
-  name: admin observer
+  name: 管理员观察员
   categories: [ HideSpawnMenu ]
   components:
   - type: ContentEye
@@ -124,8 +124,8 @@
 - type: entity
   parent: BaseAGhostAction
   id: ActionAGhostShowSolar
-  name: Solar Control Interface
-  description: View a Solar Control Interface.
+  name: 太阳能控制界面
+  description: 查看太阳能控制界面。
   components:
   - type: InstantAction
     event: !type:ToggleIntrinsicUIEvent { key: enum.SolarControlConsoleUiKey.Key }
@@ -133,8 +133,8 @@
 - type: entity
   parent: BaseAGhostAction
   id: ActionAGhostShowCommunications
-  name: Communications Interface
-  description: View a Communications Interface.
+  name: 通信接口
+  description: 查看通信接口。
   components:
   - type: Action
     icon: { sprite: Interface/Actions/actions_ai.rsi, state: comms_console }
@@ -147,8 +147,8 @@
 - type: entity
   parent: BaseAGhostAction
   id: ActionAGhostShowRadar
-  name: Mass Scanner Interface
-  description: View a Mass Scanner Interface.
+  name: 质量扫描仪界面
+  description: 查看质量扫描仪界面。
   components:
   - type: Action
     icon: { sprite: Interface/Actions/actions_ai.rsi, state: mass_scanner }
@@ -161,8 +161,8 @@
 - type: entity
   parent: BaseAGhostAction
   id: ActionAGhostShowCargo
-  name: Cargo Ordering Interface
-  description: View a Cargo Ordering Interface.
+  name: 货物订购界面
+  description: 查看货物订购界面。
   components:
   - type: InstantAction
     event: !type:ToggleIntrinsicUIEvent { key: enum.CargoConsoleUiKey.Orders }
@@ -170,8 +170,8 @@
 - type: entity
   parent: BaseAGhostAction
   id: ActionAGhostShowCrewMonitoring
-  name: Crew Monitoring Interface
-  description: View a Crew Monitoring Interface.
+  name: 机组监控界面
+  description: 查看机组监控界面。
   components:
   - type: Action
     icon: { sprite: Interface/Actions/actions_ai.rsi, state: crew_monitor }
@@ -184,8 +184,8 @@
 - type: entity
   parent: BaseAGhostAction
   id: ActionAGhostShowStationRecords
-  name: Station Records Interface
-  description: View a Station Records Interface.
+  name: 站点记录界面
+  description: 查看站点记录界面。
   components:
   - type: Action
     icon: { sprite: Interface/Actions/actions_ai.rsi, state: station_records }

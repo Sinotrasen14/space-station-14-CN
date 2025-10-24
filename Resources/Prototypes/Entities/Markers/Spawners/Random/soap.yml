@@ -1,6 +1,6 @@
 - type: entity
   id: RandomSoap
-  name: random soap spawner
+  name: 随机肥皂生成器
   parent: MarkerBase
   components:
   - type: Sprite

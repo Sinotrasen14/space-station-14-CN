@@ -1,8 +1,8 @@
 - type: entity
   parent: BaseItem
   id: GeigerCounter
-  name: Geiger counter
-  description: A handheld device used for detecting and measuring radiation pulses.
+  name: 盖革计数器
+  description: 一种用于检测和测量辐射脉冲的手持设备。
   components:
   - type: Sprite
     sprite: Objects/Tools/geiger.rsi

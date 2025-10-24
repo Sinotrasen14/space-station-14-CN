@@ -1,7 +1,7 @@
 - type: entity
   parent: MarkerBase
   id: PottedPlantRandom
-  name: random potted plant spawner
+  name: 随机盆栽生成器
   components:
   - type: Sprite
     layers:
@@ -41,7 +41,7 @@
 - type: entity
   parent: MarkerBase
   id: PottedPlantRandomPlastic
-  name: random plastic potted plant spawner
+  name: 随机塑料盆栽植物生成器
   components:
   - type: Sprite
     layers:

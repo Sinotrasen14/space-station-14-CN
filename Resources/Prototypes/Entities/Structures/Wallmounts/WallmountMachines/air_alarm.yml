@@ -1,8 +1,8 @@
 - type: entity
   parent: BaseWallmountMachine
   id: AirAlarm
-  name: air alarm
-  description: An air alarm. Alarms... air?
+  name: 空袭警报
+  description: 空袭警报。警报...空袭？
   components:
   - type: StationAiWhitelist
   - type: Electrified
@@ -113,8 +113,8 @@
 - type: entity
   parent: BaseWallmountMetallic
   id: AirAlarmAssembly
-  name: air alarm assembly
-  description: An air alarm. Doesn't look like it'll be alarming air any time soon.
+  name: 空气警报器总成
+  description: 一个空气警报器。看起来它不会很快对空气发出警报了。
   components:
   - type: Sprite
     sprite: Structures/Wallmounts/air_monitors.rsi
@@ -156,7 +156,7 @@
 - type: entity
   id: AirAlarmXeno
   parent: AirAlarm
-  description: An alien air alarm. Hopefully they didn't breathe poison.
+  description: 一场异星空袭警报。但愿他们没吸入毒气。
   components:
   - type: Sprite
     sprite: Structures/Wallmounts/air_monitors_xeno.rsi
@@ -169,7 +169,7 @@
 - type: entity
   id: AirAlarmAssemblyXeno
   parent: AirAlarmAssembly
-  description: An alien air alarm. Why are the wires pulsating?...
+  description: 一场异星空气警报。为何电线在搏动？……
   components:
   - type: Sprite
     sprite: Structures/Wallmounts/air_monitors_xeno.rsi

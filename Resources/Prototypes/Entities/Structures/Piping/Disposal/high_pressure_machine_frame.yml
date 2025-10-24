@@ -1,7 +1,7 @@
 ﻿- type: entity
   id: DisposalMachineFrame
-  name: high pressure machine frame
-  description: A machine frame made to withstand the amount of pressure used in the station's disposal system.
+  name: 高压机架
+  description: 一种设计用于承受工作站处置系统所施压力的机架。
   placement:
     mode: SnapgridCenter
   components:

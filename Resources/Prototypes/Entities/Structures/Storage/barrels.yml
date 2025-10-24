@@ -2,8 +2,8 @@
   parent: [ StorageTank ]
   id: BaseBarrelChem
   abstract: true
-  name: chemical barrel
-  description: A small metal drum. How tropical.
+  name: 化学桶
+  description: 一个小金属桶。多么热带风情。
   components:
   - type: Sprite
     sprite: Structures/Storage/barrels.rsi
@@ -55,8 +55,8 @@
   parent: BaseBarrelChem
   id: BaseBarrelChemRadioactive
   abstract: true
-  name: radioactive barrel
-  description: It seems to be leaking a bit. I don't think you'd want to be around this for long.
+  name: 放射性桶
+  description: 它好像有点泄漏。我觉得你不想在这附近待太久。
   components:
   - type: Sprite
     state: radbarrel
@@ -189,7 +189,7 @@
   parent: BaseBarrelChem
   id: BarrelChemFilledLube
   suffix: Lube
-  description: Slippery...
+  description: 滑溜溜的...
   components:
   - type: Sprite
     state: silicatebarrel

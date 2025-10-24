@@ -1,8 +1,8 @@
 - type: entity
-  name: proto-kinetic accelerator
+  name: 原动能加速器
   id: WeaponProtoKineticAccelerator
   parent: [WeaponProtoKineticAcceleratorBase, BaseCargoContraband]
-  description: Fires low-damage kinetic bolts at a short range.
+  description: 发射低伤害的动能弹，射程较短。
   components:
   - type: Sprite
     sprite: Objects/Weapons/Guns/Basic/kinetic_accelerator.rsi

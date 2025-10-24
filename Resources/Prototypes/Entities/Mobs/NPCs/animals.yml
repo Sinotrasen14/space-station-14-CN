@@ -1,8 +1,8 @@
 - type: entity
-  name: bat
+  name: 蝙蝠
   parent: [ SimpleMobBase, FlyingMobBase, MobCombat ]
   id: MobBat
-  description: Some cultures find them terrifying, others crunchy on the teeth.
+  description: 有些文化觉得它们可怕，有些文化则觉得它们嚼起来嘎嘣脆。
   components:
   - type: MovementSpeedModifier
     baseWalkSpeed : 3
@@ -80,10 +80,10 @@
     - VimPilot
 
 - type: entity
-  name: bee
+  name: 蜜蜂
   parent: [ SimpleMobBase, FlyingMobBase ]
   id: MobBee
-  description: Nice to have, but you can't build a civilization on a foundation of honey alone.
+  description: 拥有固然美好，但仅靠蜂蜜的甘甜无法构筑文明的基石。
   components:
   - type: CombatMode
   - type: MovementSpeedModifier
@@ -164,11 +164,11 @@
         recursive: false
 
 - type: entity
-  name: bee
+  name: 蜜蜂
   suffix: Angry
   parent: [ MobBee, MobCombat ]
   id: MobAngryBee
-  description: How nice a bee. Oh no, it looks angry and wants my pizza.
+  description: 多好的一只蜜蜂。哦不，它看起来生气了，还想要我的披萨。
   components:
   - type: CombatMode
   - type: MeleeWeapon
@@ -192,10 +192,10 @@
 
 
 - type: entity
-  name: chicken
+  name: 鸡
   parent: SimpleMobBase
   id: MobChicken
-  description: Comes before an egg, and IS a dinosaur!
+  description: 先有鸡，后有蛋，鸡就是恐龙！
   components:
   - type: Sprite
     drawdepth: Mobs
@@ -342,10 +342,10 @@
     lifetime: 21
 
 - type: entity
-  name: cockroach
+  name: 蟑螂
   parent: SimpleMobBase
   id: MobCockroach
-  description: This station is just crawling with bugs.
+  description: 这个站点到处都是虫子。
   components:
   - type: Sprite
     drawdepth: SmallMobs
@@ -443,11 +443,11 @@
         Piercing: 0
 
 - type: entity
-  name: glockroach
+  name: 蟑螂
   parent: MobCockroach
   suffix: Admeme
   id: MobGlockroach
-  description: This station is just crawling with bu- OH GOD THAT COCKROACH HAS A GUN!!!
+  description: 这个站点简直到处都是小强——天哪！那只蟑螂有枪！！！
   components:
   - type: Sprite
     layers:
@@ -475,17 +475,17 @@
     - id: FoodMeatSlime
 
 - type: entity
-  name: mothroach
+  name: 蛾螂
   parent: MobCockroach
   id: MobMothroach
-  description: This is the adorable by-product of multiple attempts at genetically mixing mothpeople with cockroaches.
+  description: 这是多次尝试将蛾族人与蟑螂进行基因混合后产生的可爱副产品。
   components:
   - type: GhostRole
     makeSentient: true
     allowSpeech: true
     allowMovement: true
-    name: ghost-role-information-mothroach-name
-    description: ghost-role-information-mothroach-description
+    name: 蛾螂
+    description: 鬼魂角色信息-蛾螂描述
     rules: ghost-role-information-freeagent-rules
     mindRoles:
     - MindRoleGhostRoleFreeAgentHarmless
@@ -645,10 +645,10 @@
 # The white duck is more akin to a pekin or call duck.
 
 - type: entity
-  name: mallard duck #Quack
+  name: 绿头鸭 #嘎嘎
   parent: SimpleMobBase
   id: MobDuckMallard
-  description: An adorable mallard duck, it's fluffy and soft!
+  description: 一只可爱的绿头鸭，毛茸茸的，软乎乎的！
   components:
   - type: Sprite
     drawdepth: Mobs
@@ -718,10 +718,10 @@
     - Passive
 
 - type: entity
-  name: white duck #Quack
+  name: 白色小鸭 #嘎嘎
   parent: MobDuckMallard
   id: MobDuckWhite
-  description: An adorable white duck, it's fluffy and soft!
+  description: 一只可爱的白色小鸭，毛茸茸的，摸起来很柔软！
   components:
   - type: Sprite
     layers:
@@ -737,10 +737,10 @@
         Base: dead-1
 
 - type: entity
-  name: brown duck #Quack
+  name: 棕色鸭子 #嘎嘎
   parent: MobDuckMallard
   id: MobDuckBrown
-  description: An adorable brown duck, it's fluffy and soft!
+  description: 一只可爱的棕色鸭子，毛茸茸的，非常柔软！
   components:
   - type: Sprite
     layers:
@@ -773,10 +773,10 @@
       lifetime: 21
 
 - type: entity
-  name: butterfly
+  name: 蝴蝶
   parent: [ SimpleMobBase, FlyingMobBase ]
   id: MobButterfly
-  description: Despite popular misconceptions, it's not actually made of butter.
+  description: 尽管存在普遍的误解，但它实际上并非由黄油制成。
   components:
   - type: MovementSpeedModifier
     baseWalkSpeed : 3
@@ -848,10 +848,10 @@
   - type: ZombieImmune
 
 - type: entity
-  name: cow
+  name: 牛
   parent: SimpleMobBase
   id: MobCow
-  description: Moo.
+  description: 哞。
   components:
   - type: Sprite
     drawdepth: Mobs
@@ -933,10 +933,10 @@
     - FoodRecipes
 
 - type: entity
-  name: crab
+  name: 蟹
   parent: SimpleMobBase
   id: MobCrab
-  description: A folk legend goes around that his claw snaps spacemen out of existence over distasteful remarks. Be polite and tolerant for your own safety.
+  description: 民间流传着一个传说，他的巨钳能将口出恶言的太空人瞬间抹除。为了自身安全，请务必保持礼貌与宽容。
   components:
   - type: Sprite
     drawdepth: Mobs
@@ -1001,10 +1001,10 @@
     prototype: AnimalHemocyanin
 
 - type: entity
-  name: goat
+  name: 山羊
   parent: SimpleMobBase
   id: MobGoat
-  description: Her spine consists of long sharp segments, no wonder she is so grumpy.
+  description: 她的脊柱由长而尖锐的骨节组成，难怪她脾气这么暴躁。
   components:
   - type: Sprite
     drawdepth: Mobs
@@ -1105,10 +1105,10 @@
 
 # Note that we gotta make this bitch vomit someday when you feed it anthrax or sumthin. Needs to be a small item thief too and aggressive if attacked.
 - type: entity
-  name: goose
+  name: 鹅
   parent: SimpleMobBase
   id: MobGoose
-  description: Its stomach and mind are an enigma beyond human comprehension.
+  description: 它的胃与心思，是凡人无法理解的谜。
   components:
   - type: Sprite
     drawdepth: Mobs
@@ -1153,10 +1153,10 @@
     - Passive
 
 - type: entity
-  name: gorilla
+  name: 大猩猩
   parent: [ SimpleMobBase, MobCombat ]
   id: MobGorilla
-  description: Smashes, roars, looks cool. Don't stand near one.
+  description: 捶胸咆哮，霸气十足。切勿靠近。
   components:
   - type: Sprite
     drawdepth: Mobs
@@ -1230,13 +1230,13 @@
       250: Dead
 
 - type: entity
-  name: kangaroo
+  name: 袋鼠
   parent:
   - SimpleMobBase
   - MobCombat
   - StripableInventoryBase
   id: MobKangaroo
-  description: A large marsupial herbivore. It has powerful hind legs, with nails that resemble long claws.
+  description: 一种大型有袋类食草动物。它后腿强健有力，指甲形似长爪。
   components:
   - type: MovementSpeedModifier
     baseWalkSpeed: 3.5
@@ -1282,8 +1282,8 @@
     - FootstepSound
   - type: GhostRole
     prob: 0.25
-    name: ghost-role-information-kangaroo-name
-    description: ghost-role-information-kangaroo-description
+    name: 袋鼠
+    description: 幽灵角色信息-袋鼠-描述
     rules: ghost-role-information-nonantagonist-rules
   - type: GhostTakeoverAvailable
   - type: Vocal
@@ -1314,7 +1314,7 @@
       task: SimpleHostileCompound
 
 - type: entity
-  name: boxing kangaroo
+  name: 拳击袋鼠
   parent: MobKangaroo
   id: MobBoxingKangaroo
   components:
@@ -1325,10 +1325,10 @@
     - SimpleHostile
 
 - type: entity
-  name: genetic ancestor
+  name: 基因祖先
   id: MobBaseAncestor
   parent: [SimpleMobBase, StripableInventoryBase]
-  description: The genetic bipedal ancestor of... Uh... Something. Yeah, there's definitely something on the station that descended from whatever this is.
+  description: 这个双足基因祖先的...呃...某种生物。没错，空间站上肯定存在着由这玩意儿演化而来的某种后代。
   abstract: true
   components:
   - type: CombatMode
@@ -1445,10 +1445,10 @@
 
 
 - type: entity
-  name: monkey
+  name: 猴子
   id: MobMonkey
   parent: MobBaseAncestor
-  description: New church of neo-darwinists actually believe that EVERY animal evolved from a monkey. Tastes like pork, and killing them is both fun and relaxing.
+  description: 新达尔文主义者的新教会竟然相信所有动物都是从猴子进化而来的。它们的肉尝起来像猪肉，而且猎杀它们既有趣又让人放松。
   components:
   - type: NameIdentifier
     group: Monkey
@@ -1462,8 +1462,8 @@
   - type: GhostRole
     prob: 0.05
     makeSentient: true
-    name: ghost-role-information-monkey-name
-    description: ghost-role-information-monkey-description
+    name: 猴子
+    description: 幽灵角色信息-猴子-描述
     rules: ghost-role-information-nonantagonist-rules
   - type: GhostTakeoverAvailable
   - type: Clumsy
@@ -1481,10 +1481,10 @@
 
 
 - type: entity
-  name: monkey
+  name: 猴子
   id: MobBaseSyndicateMonkey
   parent: MobBaseAncestor
-  description: New church of neo-darwinists actually believe that EVERY animal evolved from a monkey. Tastes like pork, and killing them is both fun and relaxing.
+  description: 新达尔文主义者的新教会竟然认为所有动物都是从猴子进化而来的。它们的肉尝起来像猪肉，而且猎杀它们既有趣又让人放松。
   suffix: syndicate base
   components:
   - type: NameIdentifier
@@ -1501,8 +1501,8 @@
   - type: GhostRole
     prob: 0.05
     makeSentient: true
-    name: ghost-role-information-monkey-name
-    description: ghost-role-information-monkey-description
+    name: 猴子
+    description: 幽灵角色信息-猴子-描述
     rules: ghost-role-information-syndicate-reinforcement-rules
     mindRoles:
     # This is for syndicate monkeys that randomly gain sentience, thus have no summoner to team with
@@ -1530,10 +1530,10 @@
   - type: NukeOperative
 
 - type: entity
-  name: kobold
+  name: 狗头人
   id: MobBaseKobold
   parent: MobBaseAncestor
-  description: Cousins to the sentient race of lizard people, kobolds blend in with their natural habitat and are as nasty as monkeys; ready to pull out your hair and stab you to death.
+  description: 作为蜥蜴人种族的近亲，狗头人能完美融入自然栖息地，其凶残程度堪比猿猴——它们会扯光你的头发，将你刺死。
   abstract: true
   components:
   - type: NameIdentifier
@@ -1638,15 +1638,15 @@
   - type: GhostRole
     prob: 0.05
     makeSentient: true
-    name: ghost-role-information-kobold-name
-    description: ghost-role-information-kobold-description
+    name: 鬼魂角色信息-狗头人名称
+    description: 鬼魂角色信息-狗头人描述
     rules: ghost-role-information-nonantagonist-rules
 
 - type: entity
-  name: kobold
+  name: 狗头人
   id: MobKobold
   parent: MobBaseKobold
-  description: Cousins to the sentient race of lizard people, kobolds blend in with their natural habitat and are as nasty as monkeys; ready to pull out your hair and stab you to death.
+  description: 作为蜥蜴人种族的近亲，狗头人能完美融入自然栖息地，其凶残程度堪比猿猴——随时准备扯光你的头发并将你刺死。
   components:
   - type: Clumsy
     gunShootFailDamage:
@@ -1694,19 +1694,19 @@
   - type: NukeOperative
 
 - type: entity
-  name: guidebook monkey
+  name: 指南猴
   parent: MobMonkey
   categories: [ HideSpawnMenu ]
   id: MobGuidebookMonkey
-  description: A hopefully helpful monkey whose only purpose in life is for you to click on. Does this count as having a monkey give you a tutorial?
+  description: 一只希望能帮上忙的猴子，它活着的唯一目的就是让你点击。这算不算让猴子给你做教程呢？
   components:
     - type: GuidebookControlsTest
 
 - type: entity
-  name: mouse
+  name: 老鼠
   parent: SimpleMobBase
   id: MobMouse
-  description: Squeak!
+  description: 吱吱！
   components:
   - type: Body
     prototype: Mouse
@@ -1714,8 +1714,8 @@
     makeSentient: true
     allowSpeech: true
     allowMovement: true
-    name: ghost-role-information-mouse-name
-    description: ghost-role-information-mouse-description
+    name: 幽灵角色信息-老鼠名称
+    description: 幽灵角色信息-老鼠描述
     rules: ghost-role-information-freeagent-rules
     mindRoles:
     - MindRoleGhostRoleFreeAgentHarmless
@@ -1890,8 +1890,8 @@
   suffix: Dead
   save: false
   id: MobMouseDead
-  name: mouse
-  description: Squeak!
+  name: 老鼠
+  description: 吱吱！
   components:
   - type: Damageable
     damage:
@@ -1976,14 +1976,14 @@
     heldPrefix: 2
 
 - type: entity
-  name: cancer mouse
-  description: Toxic. Squeak!
+  name: 癌鼠
+  description: 剧毒。吱！
   parent: MobMouse
   id: MobMouseCancer
   components:
   - type: GhostRole
-    name: ghost-role-information-cancer-mouse-name
-    description: ghost-role-information-cancer-mouse-description
+    name: 幽灵角色信息-癌变鼠名称
+    description: 幽灵角色信息-癌变鼠描述
     rules: ghost-role-information-freeagent-rules
     mindRoles:
     - MindRoleGhostRoleFreeAgent
@@ -2017,10 +2017,10 @@
     damageModifierSet: Zombie
 
 - type: entity
-  name: lizard #Weh
+  name: 蜥蜴 #韦赫
   parent: SimpleMobBase
   id: MobLizard
-  description: A harmless dragon.
+  description: 一条无害的龙。
   components:
   - type: MovementSpeedModifier
     baseWalkSpeed: 2
@@ -2073,10 +2073,10 @@
 
 
 - type: entity
-  name: slug
+  name: 鼻涕虫
   parent: SimpleMobBase
   id: MobSlug
-  description: And they called this a lizard?
+  description: 他们管这个叫蜥蜴？
   components:
   - type: MovementSpeedModifier
     baseWalkSpeed : 2
@@ -2120,10 +2120,10 @@
     bloodMaxVolume: 50
 
 - type: entity
-  name: frog
+  name: 青蛙
   parent: SimpleMobBase
   id: MobFrog
-  description: Hop hop hop. Lookin' moist.
+  description: 蹦蹦跳跳。看起来真水润。
   components:
   - type: MovementSpeedModifier
     baseWalkSpeed: 3
@@ -2191,9 +2191,9 @@
 - type: entity
   parent: [ SimpleMobBase, FlyingMobBase ]
   id: MobParrotBase
-  name: parrot
+  name: 鹦鹉
   abstract: true
-  description: Infiltrates your domain, spies on you, and somehow still a cool pet.
+  description: 潜入你的领地，暗中监视你，却依然是个酷炫的宠物。
   components:
   - type: MovementSpeedModifier
     baseWalkSpeed : 2.5
@@ -2273,10 +2273,10 @@
   - type: ParrotAccent # regular parrots have a parrotaccent. Polly is special and does not
 
 - type: entity
-  name: penguin
+  name: 企鹅
   parent: SimpleMobBase
   id: MobPenguin
-  description: Their lives are constant pain due to their inner-body knees.
+  description: 它们的生活因体内的膝盖而充满痛苦。
   components:
   - type: Sprite
     drawdepth: Mobs
@@ -2335,10 +2335,10 @@
 
 # TODO: Make grenade penguin voice activated like the rest of the stealth items.
 - type: entity
-  name: grenade penguin
+  name: 手雷企鹅
   parent: [ MobPenguin, MobCombat, BaseSyndicateContraband ]
   id: MobGrenadePenguin
-  description: A small penguin with a grenade strapped around its neck. Harvested by the Syndicate from icy shit-hole planets.
+  description: 一只脖子上挂着手雷的小企鹅，由辛迪加从冰冷的屎坑星球上捕获。
   components:
   - type: MovementSpeedModifier
     baseWalkSpeed: 3
@@ -2411,10 +2411,10 @@
 
   # I have included a snake_hiss.ogg sound file so if you want to use that be my guest
 - type: entity
-  name: snake
+  name: 蛇
   parent: SimpleMobBase
   id: MobSnake
-  description: Hissss! Bites aren't poisonous.
+  description: 嘶——！咬人没有毒。
   components:
   - type: Sprite
     drawdepth: Mobs
@@ -2564,8 +2564,8 @@
       task: SimpleHostileCompound
   - type: GhostRole
     makeSentient: true
-    name: ghost-role-information-giant-spider-name
-    description: ghost-role-information-giant-spider-description
+    name: 巨型蜘蛛
+    description: 幽灵角色信息-巨型蜘蛛-描述
     rules: ghost-role-information-giant-spider-rules
     mindRoles:
     - MindRoleGhostRoleTeamAntagonist
@@ -2574,10 +2574,10 @@
   - type: GhostTakeoverAvailable
 
 - type: entity
-  name: tarantula
+  name: 狼蛛
   parent: MobSpiderBase
   id: MobGiantSpider
-  description: Widely recognized to be the literal worst thing in existence.
+  description: 被公认为世上最糟糕的存在。
   components:
   - type: Sprite
     drawdepth: Mobs
@@ -2617,10 +2617,10 @@
   id: MobGiantSpiderAngry
 
 - type: entity
-  name: clown spider
+  name: 小丑蜘蛛
   parent: MobSpiderAngryBase
   id: MobClownSpider
-  description: Combines the two most terrifying things in existence, spiders and clowns.
+  description: 结合了世上最恐怖的两种事物：蜘蛛和小丑。
   components:
     - type: Sprite
       drawdepth: Mobs
@@ -2665,10 +2665,10 @@
       bloodReagent: Laughter
 
 - type: entity
-  name: wizard spider
+  name: 巫师蜘蛛
   parent: MobGiantSpider
   id: MobGiantSpiderWizard
-  description: This spider looks a little magical
+  description: 这只蜘蛛看起来有点神奇
   suffix: Wizard
   components:
   - type: Accentless
@@ -2677,10 +2677,10 @@
       accent: xeno  #let this wizard speak
 
 - type: entity
-  name: possum
+  name: 负鼠
   parent: [SimpleMobBase, StripableInventoryBase]
   id: MobPossum
-  description: '"O Possum! My Possum!" -- Walt Whitman, 1865'
+  description: 负鼠啊！我的负鼠！ ——沃尔特·惠特曼，1865年
   components:
   - type: Sprite
     drawdepth: Mobs
@@ -2729,7 +2729,7 @@
     - VimPilot
 
 - type: entity
-  name: possum
+  name: 负鼠
   parent: MobPossum
   suffix: Old sprite
   id: MobPossumOld
@@ -2750,10 +2750,10 @@
         Base: possum_dead_old
 
 - type: entity
-  name: raccoon
+  name: 浣熊
   parent: [SimpleMobBase, StripableInventoryBase]
   id: MobRaccoon
-  description: Trash panda!
+  description: 垃圾熊猫！
   components:
   - type: Sprite
     drawdepth: Mobs
@@ -2803,10 +2803,10 @@
     - VimPilot
 
 - type: entity
-  name: fox
+  name: 狐狸
   parent: [SimpleMobBase, StripableInventoryBase]
   id: MobFox
-  description: They're a fox.
+  description: 他们是狐狸。
   components:
   - type: Sprite
     drawdepth: Mobs
@@ -2885,8 +2885,8 @@
   abstract: true
   parent: [SimpleMobBase, StripableInventoryBase]
   id: MobCorgiBase
-  name: corgi
-  description: Finally, a space corgi!
+  name: 柯基犬
+  description: 终于有只太空柯基了！
   components:
   - type: Sprite
     drawdepth: Mobs
@@ -2948,10 +2948,10 @@
     - VimPilot
 
 - type: entity
-  name: corrupted corgi
+  name: 堕落柯基
   parent: [ MobCorgi, MobCombat ]
   id: MobCorgiNarsi
-  description: Ian! No!
+  description: 伊恩！不要！
   components:
   - type: Sprite
     drawdepth: Mobs
@@ -3009,10 +3009,10 @@
         Heat : 1 #per second, scales with temperature & other constants
 
 - type: entity
-  name: corgi puppy
+  name: 柯基幼犬
   parent: MobCorgi
   id: MobCorgiPuppy
-  description: A little corgi! Aww...
+  description: 一只小柯基！哇……
   components:
   - type: Sprite
     drawdepth: Mobs
@@ -3036,10 +3036,10 @@
       gender: epicene
 
 - type: entity
-  name: cat
+  name: 猫
   parent: [SimpleMobBase, StripableInventoryBase]
   id: MobCat
-  description: Feline pet, very funny.
+  description: 猫科宠物，非常有趣。
   components:
   - type: Sprite
     drawdepth: Mobs
@@ -3108,10 +3108,10 @@
     baseSprintSpeed: 4
 
 - type: entity
-  name: calico cat
+  name: 三花猫
   id: MobCatCalico
   parent: MobCat
-  description: Feline pet, very funny.
+  description: 猫咪宠物，非常有趣。
   components:
   - type: Sprite
     layers:
@@ -3127,10 +3127,10 @@
         Base: cat2_dead
 
 - type: entity
-  name: syndicat
+  name: 辛迪加
   id: MobCatSyndy
   parent: MobCatSpace
-  description: Explosive kitten.
+  description: 爆炸小猫。
   components:
   - type: Sprite
     layers:
@@ -3146,9 +3146,9 @@
         Base: syndicat_dead
   - type: GhostRole
     prob: 1
-    name: ghost-role-information-SyndiCat-name
+    name: 幽灵角色信息-辛迪猫名称
     allowMovement: true
-    description: ghost-role-information-SyndiCat-description
+    description: 幽灵角色信息-辛迪猫描述
     rules: ghost-role-information-SyndiCat-rules
     mindRoles:
     - MindRoleGhostRoleTeamAntagonist
@@ -3180,10 +3180,10 @@
         Structural: 15
 
 - type: entity
-  name: space cat
+  name: 太空猫
   id: MobCatSpace
   parent: MobCat
-  description: Feline pet, prepared for the worst.
+  description: 准备好应对最坏情况的猫咪宠物。
   components:
   - type: Sprite
     layers:
@@ -3218,10 +3218,10 @@
     minSaturation: 5.0
 
 - type: entity
-  name: caracal cat
+  name: 狞猫
   id: MobCatCaracal
   parent: MobCat
-  description: Hilarious.
+  description: 笑死人了。
   components:
   - type: Sprite
     sprite: Mobs/Pets/caracal.rsi
@@ -3238,10 +3238,10 @@
         Base: caracal_dead
 
 - type: entity
-  name: kitten
+  name: 小猫
   parent: MobCat
   id: MobCatKitten
-  description: Small and fluffy.
+  description: 小而毛茸茸的。
   components:
   - type: Sprite
     layers:
@@ -3271,10 +3271,10 @@
       25: Dead
 
 - type: entity
-  name: sloth
+  name: 树懒
   parent: [SimpleMobBase, StripableInventoryBase]
   id: MobSloth
-  description: Very slow animal. For people with low energy.
+  description: 行动非常缓慢的动物。适合精力不足的人。
   components:
   - type: MovementSpeedModifier
     baseWalkSpeed : 0.5
@@ -3328,10 +3328,10 @@
     - VimPilot
 
 - type: entity
-  name: ferret
+  name: 雪貂
   parent: [SimpleMobBase, StripableInventoryBase]
   id: MobFerret
-  description: Just a silly little guy!
+  description: 只是个傻乎乎的小家伙！
   components:
   - type: Sprite
     drawdepth: Mobs
@@ -3382,17 +3382,17 @@
     - VimPilot
 
 - type: entity
-  name: hamster
+  name: 仓鼠
   parent: [ SimpleMobBase, MobCombat, StripableInventoryBase]
   id: MobHamster
-  description: A cute, fluffy, robust hamster.
+  description: 一只可爱、毛茸茸、健壮的仓鼠。
   components:
   - type: GhostRole
     makeSentient: true
     allowSpeech: true
     allowMovement: true
-    name: ghost-role-information-hamster-name
-    description: ghost-role-information-hamster-description
+    name: 幽灵角色信息仓鼠名称
+    description: 幽灵角色信息仓鼠描述
     rules: ghost-role-information-nonantagonist-rules
   - type: GhostTakeoverAvailable
   - type: Speech
@@ -3534,10 +3534,10 @@
         recursive: false
 
 - type: entity
-  name: pig
+  name: 猪
   parent: [SimpleMobBase, StripableInventoryBase]
   id: MobPig
-  description: Oink.
+  description: 哼唧。
   components:
   - type: Sprite
     drawdepth: Mobs
@@ -3605,10 +3605,10 @@
       task: RuminantCompound
 
 - type: entity
-  name: diona nymph
+  name: 迪奥娜仙女
   parent: [SimpleMobBase, StripableInventoryBase]
   id: MobDionaNymph
-  description: It's like a cat, only.... branch-ier.
+  description: 它像只猫，只是……树枝更多些。
   components:
   - type: Sprite
     drawdepth: Mobs
@@ -3694,10 +3694,10 @@
     accent: nymph
 
 - type: entity
-  name: reindeer buck
+  name: 驯鹿公鹿
   parent: [ SimpleMobBase, MobCombat ]
   id: MobReindeerBuck
-  description: You think it can pull a sleigh?
+  description: 你觉得它能拉雪橇吗？
   components:
   - type: Sprite
     drawdepth: Mobs
@@ -3756,7 +3756,7 @@
     needsHands: false
 
 - type: entity
-  name: reindeer doe
+  name: 驯鹿母鹿
   parent: MobReindeerBuck
   id: MobReindeerDoe
   components:
@@ -3790,8 +3790,8 @@
 - type: entity
   parent: MobCorgiBase
   id: MobCorgiSmart
-  name: smart corgi
-  description: An unusually smart dog.
+  name: 聪明的柯基
+  description: 一只异常聪明的狗。
   components:
   # Use corgi sprite, need to add handcuff layer
   - type: Sprite

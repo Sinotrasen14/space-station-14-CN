@@ -1,6 +1,6 @@
 - type: entity
   id: BaseMagazineShotgun
-  name: ammo drum (.50 shells)
+  name: 弹药鼓（.50口径子弹）
   parent: [ BaseItem, BaseSecurityContraband ]
   abstract: true
   components:
@@ -44,7 +44,7 @@
 
 - type: entity
   id: MagazineShotgunEmpty
-  name: ammo drum (.50 shells any)
+  name: 弹药鼓（适用任何.50口径子弹）
   suffix: empty
   parent: BaseMagazineShotgun
   components:
@@ -53,7 +53,7 @@
 
 - type: entity
   id: MagazineShotgun
-  name: ammo drum (.50 pellet)
+  name: 弹药鼓（.50口径弹丸）
   parent: BaseMagazineShotgun
   components:
   - type: BallisticAmmoProvider
@@ -77,7 +77,7 @@
 
 - type: entity
   id: MagazineShotgunBeanbag
-  name: ammo drum (.50 beanbags)
+  name: 弹药鼓（.50豆袋弹）
   parent: BaseMagazineShotgun
   components:
   - type: BallisticAmmoProvider
@@ -101,7 +101,7 @@
 
 - type: entity
   id: MagazineShotgunSlug
-  name: ammo drum (.50 slug)
+  name: 弹药鼓（.50子弹）
   parent: BaseMagazineShotgun
   components:
   - type: BallisticAmmoProvider
@@ -125,7 +125,7 @@
 
 - type: entity
   id: MagazineShotgunIncendiary
-  name: ammo drum (.50 incendiary)
+  name: 弹药鼓（.50燃烧弹）
   parent: BaseMagazineShotgun
   components:
   - type: BallisticAmmoProvider

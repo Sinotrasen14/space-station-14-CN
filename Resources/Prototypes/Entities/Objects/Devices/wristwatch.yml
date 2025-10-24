@@ -1,8 +1,8 @@
 - type: entity
   id: Wristwatch
   parent: BaseItem
-  name: wristwatch
-  description: A cheap watch for telling time. How much did you waste playing Space Station 14?
+  name: 手表
+  description: 一块用于看时间的廉价手表。你在玩《Space Station 14》时浪费了多少时间？
   components:
   - type: Sprite
     sprite: Objects/Devices/wristwatch.rsi
@@ -45,8 +45,8 @@
 - type: entity
   id: WristwatchGold
   parent: Wristwatch
-  name: gold watch
-  description: A fancy watch worth more than your kidney. It was owned by the notorious Syndicate mobster Vunibaldo "200 Pound Horse Meat Grinder" Frediani.
+  name: 金表
+  description: 一块比你的肾还值钱的华丽金表。它曾属于恶名昭彰的辛迪加黑帮成员冯尼巴尔多·"两百磅马肉绞碎机"·弗雷迪亚尼。
   components:
   - type: Sprite
     sprite: Objects/Devices/goldwatch.rsi

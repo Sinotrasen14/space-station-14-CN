@@ -1,8 +1,8 @@
 - type: entity
   id: CargoMailTeleporter
   parent: [ BaseMachinePowered, ConstructibleMachine ]
-  name: mail teleporter
-  description: Periodically teleports in mail to deliver across the station.
+  name: 邮件传送器
+  description: 定期传送邮件以在空间站内递送。
   components:
   - type: Fixtures
     fixtures:

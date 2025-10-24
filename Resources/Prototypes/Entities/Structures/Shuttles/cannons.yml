@@ -3,7 +3,7 @@
 - type: entity
   id: ShuttleGunBase
   parent: BaseStructure
-  name: shittle gun
+  name: 屎特尔枪
   abstract: true
   components:
   - type: Appearance
@@ -41,8 +41,8 @@
 - type: entity
   id: ShuttleGunSvalinnMachineGun
   parent: [ ShuttleGunBase, ConstructibleMachine]
-  name: LSE-400c "Svalinn machine gun"
-  description: Basic stationary laser unit. Effective against live targets and electronics. Uses regular power cells to fire, and has an extremely high rate of fire.
+  name: LSE-400c"斯瓦林机枪"
+  description: 基础固定式激光单元。对生物目标与电子设备均具杀伤效能，使用常规能量电池供能，并具备极高的射速。
   categories: [ DoNotMap ]
   components:
   - type: Sprite
@@ -85,7 +85,7 @@
   - type: ItemSlots
     slots:
       cell_slot:
-        name: Magazine
+        name: 杂志
         insertSound: /Audio/Weapons/Guns/MagIn/batrifle_magin.ogg
         ejectSound: /Audio/Weapons/Guns/MagOut/batrifle_magout.ogg
         whitelist:
@@ -99,8 +99,8 @@
 - type: entity
   id: ShuttleGunPerforator
   parent: [ ShuttleGunBase, ConstructibleMachine]
-  name: LSE-1200c "Perforator"
-  description: Advanced stationary laser unit. Annihilates electronics and is extremely dangerous to health! Uses the power cage to fire.
+  name: LSE-1200c "穿孔机"
+  description: 高级固定式激光单元。可摧毁电子设备，对健康极度危险！使用动力笼进行发射。
   categories: [ DoNotMap ]
   components:
   - type: Sprite
@@ -142,7 +142,7 @@
   - type: ItemSlots
     slots:
       cell_slot:
-        name: Magazine
+        name: 杂志
         insertSound: /Audio/Weapons/Guns/MagIn/batrifle_magin.ogg
         ejectSound: /Audio/Weapons/Guns/MagOut/batrifle_magout.ogg
         whitelist:
@@ -159,8 +159,8 @@
 - type: entity
   id: ShuttleGunFriendship
   parent: [ShuttleGunBase, ConstructibleMachine]
-  name: EXP-320g "Friendship"
-  description: A small stationary grenade launcher that holds 2 grenades.
+  name: EXP-320g "友谊"榴弹发射器
+  description: 小型固定式榴弹发射器，可容纳2枚榴弹。
   categories: [ DoNotMap ]
   components:
   - type: Sprite
@@ -213,8 +213,8 @@
 - type: entity
   id: ShuttleGunDuster
   parent: [ShuttleGunBase, ConstructibleMachine]
-  name: EXP-2100g "Duster"
-  description: A powerful stationary grenade launcher. A cartridge is required for use.
+  name: EXP-2100g "除尘者"
+  description: 一把强力的固定式榴弹发射器，使用时需要装填弹匣。
   categories: [ DoNotMap ]
   components:
   - type: Sprite
@@ -258,7 +258,7 @@
   - type: ItemSlots
     slots:
       gun_magazine:
-        name: Magazine
+        name: 杂志
         priority: 2
         whitelist:
           tags:
@@ -274,8 +274,8 @@
 - type: entity
   id: ShuttleGunPirateCannon
   parent: ShuttleGunBase
-  name: pirate ship cannon
-  description: Kaboom!
+  name: 海盗船大炮
+  description: 轰！
   components:
   - type: ContainerContainer
     containers:
@@ -311,8 +311,8 @@
 - type: entity
   id: ShuttleGunKinetic
   parent: [ ShuttleGunBase, ConstructibleMachine]
-  name: PTK-800 "Matter Dematerializer"
-  description: Salvage stationary mining turret. Gradually accumulates charges on its own, extremely effective for asteroid excavation.
+  name: PTK-800 "物质解构器"
+  description: 打捞用固定采矿炮塔。可自行逐渐积累充能，对小行星开采极为有效。
   categories: [ DoNotMap ]
   components:
   - type: Sprite
@@ -364,8 +364,8 @@
 - type: entity
   parent: ShuttleGunBase
   id: ShuttleGunKineticOld
-  name: exomorphic dematerializer
-  description: An ancient ship gun, utilizing biomechanical systems to store and release energy. While unique in its design, it has been rendered obsolete due to its inferior charging and firing speed compared to mechanical constructions.
+  name: 外化分解器
+  description: 一门古代舰炮，利用生物机械系统储存与释放能量。虽设计独特，但因充能与击发速度均逊于机械结构，现已遭淘汰。
   components:
   - type: Sprite
     sprite: Objects/Weapons/Guns/Shuttles/xeno.rsi

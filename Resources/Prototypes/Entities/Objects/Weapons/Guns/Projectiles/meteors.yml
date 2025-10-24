@@ -1,7 +1,7 @@
 - type: entity
   id: BaseMeteor
-  name: meteor
-  description: You prefer them when they're burning up in the atmosphere.
+  name: 流星
+  description: 你更喜欢它们在大气中燃烧的样子。
   abstract: true
   components:
   - type: Sprite
@@ -50,8 +50,8 @@
 - type: entity
   parent: BaseMeteor
   id: MeteorSpaceDust
-  name: space dust
-  description: Makes a station sneeze.
+  name: 太空尘埃
+  description: 让空间站打了个喷嚏。
   components:
   - type: Sprite
     state: space_dust
@@ -195,8 +195,8 @@
 - type: entity
   parent: BaseMeteor
   id: MeteorUrist
-  name: Urist McMeteor
-  description: As a successful member of society with a stable unflinching psyche and limitless drive, natural affinity for finance and domination, you have been selected, no, you have been effortlessly guided by divine (biological) trauma towards this moment. The gates of destiny fling open, and once again you're left standing on pulsating nothingness. A strobing headache of the soul.
+  name: 乌里斯特·麦克流星
+  description: 作为一名拥有稳定坚定心智与无限驱动力、对金融与支配具有天然亲和力的社会成功人士，你被选中了——不，你早已被神圣（生物性）创伤毫不费力地引导至此刻。命运之门轰然洞开，你再度立于脉动的虚无之上。那是灵魂频闪的剧痛。
   suffix: Meteor
   components:
   - type: Sprite
@@ -236,8 +236,8 @@
 - type: entity
   parent: BaseMeteor
   id: MeteorCow
-  name: Cosmic cow
-  description: Moo-ving at relativistic speeds!
+  name: 宇宙神牛
+  description: 以相对论速度移动！
   suffix: Meteor
   components:
   - type: Sprite
@@ -278,8 +278,8 @@
 - type: entity
   parent: BaseMeteor
   id: MeteorClown
-  name: Honksteroid
-  description: The final honkening!
+  name: 轰天固醇
+  description: 最后的轰天时刻！
   suffix: Meteor
   components:
   - type: Sprite
@@ -323,8 +323,8 @@
 - type: entity
   parent: BaseMeteor
   id: MeteorPotato
-  name: Space potato
-  description: A starchy threat from the depths of the space. Contains 200% of your daily sodium intake!
+  name: 太空土豆
+  description: 来自太空深处的淀粉威胁。含有每日建议钠摄入量的200%！
   components:
   - type: Sprite
     state: potato

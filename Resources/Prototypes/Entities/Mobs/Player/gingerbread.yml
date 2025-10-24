@@ -1,6 +1,6 @@
 - type: entity
   save: false
-  name: Urist McCookie
+  name: 乌里斯特·麦库基
   parent: BaseMobGingerbread
   id: MobGingerbread
   components:
@@ -13,13 +13,13 @@
           Asphyxiation: -1.0
 
 - type: entity
-  name: gingerbread man
+  name: 姜饼人
   id: MobGingerbreadAI
   parent: [ MobGingerbread, MobCombat]
   components:
   - type: GhostRole
-    name: ghost-role-information-gingerbread-name
-    description: ghost-role-information-gingerbread-description
+    name: 鬼魂角色信息-姜饼人名称
+    description: 鬼魂角色信息-姜饼人描述
     rules: ghost-role-information-nonantagonist-rules
   - type: GhostTakeoverAvailable
   - type: NPCRetaliation

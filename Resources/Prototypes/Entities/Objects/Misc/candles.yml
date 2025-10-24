@@ -1,8 +1,8 @@
 - type: entity
-  name: candle
+  name: 蜡烛
   parent: BaseItem
   id: Candle
-  description: A thin wick threaded through fat.
+  description: 一根细芯穿过肥厚的蜡体。
   components:
     - type: Tag
       tags:
@@ -62,7 +62,7 @@
           acts: [ "Destruction" ]
 
 - type: entity
-  name: red candle
+  name: 红烛
   parent: Candle
   id: CandleRed
   components:
@@ -80,7 +80,7 @@
         color: "#a12349"
 
 - type: entity
-  name: blue candle
+  name: 蓝蜡烛
   parent: Candle
   id: CandleBlue
   components:
@@ -98,7 +98,7 @@
         color: "#425d7d"
 
 - type: entity
-  name: black candle
+  name: 黑蜡烛
   parent: Candle
   id: CandleBlack
   components:
@@ -116,7 +116,7 @@
         color: "#1b1724"
 
 - type: entity
-  name: green candle
+  name: 绿蜡烛
   parent: Candle
   id: CandleGreen
   components:
@@ -134,7 +134,7 @@
         color: "#5d997e"
 
 - type: entity
-  name: purple candle
+  name: 紫色蜡烛
   parent: Candle
   id: CandlePurple
   components:
@@ -153,7 +153,7 @@
 
 
 - type: entity
-  name: small candle
+  name: 小蜡烛
   parent: Candle
   id: CandleSmall
   components:
@@ -178,7 +178,7 @@
           acts: [ "Destruction" ]
 
 - type: entity
-  name: small red candle
+  name: 小红蜡烛
   parent: CandleSmall
   id: CandleRedSmall
   components:
@@ -196,7 +196,7 @@
         color: "#a12349"
 
 - type: entity
-  name: small blue candle
+  name: 小蓝蜡烛
   parent: CandleSmall
   id: CandleBlueSmall
   components:
@@ -214,7 +214,7 @@
         color: "#425d7d"
 
 - type: entity
-  name: small black candle
+  name: 小黑蜡烛
   parent: CandleSmall
   id: CandleBlackSmall
   components:
@@ -232,7 +232,7 @@
         color: "#1b1724"
 
 - type: entity
-  name: small green candle
+  name: 小绿蜡烛
   parent: CandleSmall
   id: CandleGreenSmall
   components:
@@ -250,7 +250,7 @@
         color: "#5d997e"
 
 - type: entity
-  name: small purple candle
+  name: 小紫蜡烛
   parent: CandleSmall
   id: CandlePurpleSmall
   components:
@@ -270,8 +270,8 @@
 #Purely decorative candles for mappers. Do not have any functionality.
 
 - type: entity
-  name: magic candle
-  description: It's either magic or high tech, but this candle never goes out. On the other hand, its flame is quite cold.
+  name: 魔法蜡烛
+  description: 这要么是魔法，要么是高科技，但这支蜡烛永远不会熄灭。不过它的火焰相当冰冷。
   parent: BaseItem
   suffix: Decorative
   id: CandleInfinite
@@ -290,7 +290,7 @@
     power: 10
 
 - type: entity
-  name: magic red candle
+  name: 魔法红蜡烛
   parent: CandleInfinite
   id: CandleRedInfinite
   components:
@@ -310,7 +310,7 @@
         color: "#a12349"
 
 - type: entity
-  name: magic blue candle
+  name: 魔法蓝蜡烛
   parent: CandleInfinite
   id: CandleBlueInfinite
   components:
@@ -330,7 +330,7 @@
         color: "#425d7d"
 
 - type: entity
-  name: magic black candle
+  name: 魔法黑蜡烛
   parent: CandleInfinite
   id: CandleBlackInfinite
   components:
@@ -350,7 +350,7 @@
         color: "#1b1724"
 
 - type: entity
-  name: magic green candle
+  name: 魔法绿蜡烛
   parent: CandleInfinite
   id: CandleGreenInfinite
   components:
@@ -370,7 +370,7 @@
         color: "#5d997e"
 
 - type: entity
-  name: magic purple candle
+  name: 魔法紫蜡烛
   parent: CandleInfinite
   id: CandlePurpleInfinite
   components:
@@ -390,7 +390,7 @@
         color: "#984aa1"
 
 - type: entity
-  name: small magic red candle
+  name: 小红魔法蜡烛
   parent: CandleInfinite
   id: CandleRedSmallInfinite
   components:
@@ -410,7 +410,7 @@
         color: "#a12349"
 
 - type: entity
-  name: small magic blue candle
+  name: 小魔法蓝蜡烛
   parent: CandleInfinite
   id: CandleBlueSmallInfinite
   components:
@@ -430,7 +430,7 @@
         color: "#425d7d"
 
 - type: entity
-  name: small magic black candle
+  name: 小型魔法黑蜡烛
   parent: CandleInfinite
   id: CandleBlackSmallInfinite
   components:
@@ -450,7 +450,7 @@
         color: "#1b1724"
 
 - type: entity
-  name: small magic green candle
+  name: 小号魔法绿色蜡烛
   parent: CandleInfinite
   id: CandleGreenSmallInfinite
   components:
@@ -470,7 +470,7 @@
         color: "#5d997e"
 
 - type: entity
-  name: small magic purple candle
+  name: 小巧魔法紫色蜡烛
   parent: CandleInfinite
   id: CandlePurpleSmallInfinite
   components:

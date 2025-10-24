@@ -1,7 +1,7 @@
 - type: entity
   id: SolarPanelBasePhysSprite
   categories: [ HideSpawnMenu ]
-  name: solar panel
+  name: 太阳能电池板
   placement:
     mode: SnapgridCenter
   components:
@@ -13,9 +13,6 @@
   - type: InteractionOutline
   - type: Transform
     anchored: true
-  - type: Damageable
-    damageContainer: StructuralInorganic
-    damageModifierSet: Metallic
   - type: Physics
     bodyType: Static
   - type: Fixtures
@@ -60,8 +57,8 @@
 - type: entity
   id: SolarPanelPlasma
   parent: SolarPanelBasePhysSprite
-  name: solar panel plasma
-  description: A few sheets of plasma glass that generate electricity when hit by photons.
+  name: 太阳能等离子板
+  description: 几块能在受到光子照射时发电的等离子玻璃板。
   components:
   - type: PowerSupplier
     supplyRampTolerance: 500
@@ -71,6 +68,9 @@
   - type: Sprite
     sprite: Structures/Power/Generation/solar_panel.rsi
     state: solar_panel_plasma
+  - type: Damageable
+    damageContainer: Inorganic
+    damageModifierSet: Metallic
   - type: Destructible
     thresholds:
     - trigger: # Excess damage, don't spawn entities
@@ -100,8 +100,8 @@
 - type: entity
   id: SolarPanelUranium
   parent: SolarPanelBasePhysSprite
-  name: solar panel uranium
-  description: A few sheets of uranium glass that generate electricity when hit by photons.
+  name: 铀玻璃太阳能板
+  description: 几片受到光子撞击时能发电的铀玻璃。
   components:
   - type: PowerSupplier
     supplyRampTolerance: 500
@@ -111,6 +111,9 @@
   - type: Sprite
     sprite: Structures/Power/Generation/solar_panel.rsi
     state: solar_panel_uranium
+  - type: Damageable
+    damageContainer: Inorganic
+    damageModifierSet: Metallic
   - type: Destructible
     thresholds:
     - trigger: # Excess damage, don't spawn entities
@@ -140,13 +143,16 @@
 - type: entity
   id: SolarPanel
   parent: SolarPanelBasePhysSprite
-  name: solar panel
-  description: A few sheets of glass that generate electricity when hit by photons.
+  name: 太阳能板
+  description: 几片受到光子撞击就能发电的玻璃板。
   components:
   - type: PowerSupplier
     supplyRampTolerance: 500
     supplyRampRate: 500
   - type: SolarPanel
+  - type: Damageable
+    damageContainer: StructuralInorganic
+    damageModifierSet: Metallic
   - type: Destructible
     thresholds:
     - trigger: # Excess damage, don't spawn entities
@@ -177,12 +183,15 @@
 - type: entity
   id: SolarPanelBroken
   parent: SolarPanelBasePhysSprite
-  name: solar panel
-  description: A broken solar panel.
+  name: 太阳能电池板
+  description: 一块破损的太阳能电池板。
   suffix: Broken
   components:
   - type: Sprite
     state: solar_panel_glass_broken
+  - type: Damageable
+    damageContainer: StructuralInorganic
+    damageModifierSet: Metallic
   - type: Destructible
     thresholds:
     - trigger: # Excess damage, don't spawn entities
@@ -215,12 +224,15 @@
 - type: entity
   id: SolarPanelPlasmaBroken
   parent: SolarPanelBasePhysSprite
-  name: plasma solar panel
-  description: A broken plasma solar panel.
+  name: 等离子体太阳能板
+  description: 一块损坏的等离子体太阳能板。
   suffix: Broken
   components:
   - type: Sprite
     state: solar_panel_plasma_broken
+  - type: Damageable
+    damageContainer: Inorganic
+    damageModifierSet: Metallic
   - type: Destructible
     thresholds:
     - trigger: # Excess damage, don't spawn entities
@@ -253,12 +265,15 @@
 - type: entity
   id: SolarPanelUraniumBroken
   parent: SolarPanelBasePhysSprite
-  name: uranium solar panel
-  description: A broken uranium solar panel.
+  name: 铀太阳能板
+  description: 一块破损的铀太阳能板。
   suffix: Broken
   components:
   - type: Sprite
     state: solar_panel_uranium_broken
+  - type: Damageable
+    damageContainer: Inorganic
+    damageModifierSet: Metallic
   - type: Destructible
     thresholds:
     - trigger: # Excess damage, don't spawn entities
@@ -290,8 +305,8 @@
 
 - type: entity
   id: SolarAssembly
-  name: solar assembly
-  description: A solar assembly. Anchor to a wire to start building a solar panel.
+  name: 太阳能组件
+  description: 一个太阳能组件。将其固定到线缆上，开始建造太阳能板。
   placement:
     mode: SnapgridCenter
   components:
@@ -346,8 +361,8 @@
 
 - type: entity
   id: SolarTracker
-  name: solar tracker
-  description: A solar tracker. Tracks the nearest star.
+  name: 太阳能跟踪器
+  description: 太阳能跟踪器。追踪最近的恒星。
   placement:
     mode: SnapgridCenter
   components:

@@ -1,9 +1,9 @@
 - type: entity
   id: ChemDispenserEmpty
-  name: chemical dispenser
+  name: 化学品分配器
   suffix: Empty
   parent: ReagentDispenserBase
-  description: An industrial grade chemical dispenser.
+  description: 工业级化学品分配器。
   components:
   - type: Sprite
     sprite: Structures/dispensers.rsi

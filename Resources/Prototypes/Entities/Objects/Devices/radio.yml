@@ -1,6 +1,6 @@
 - type: entity
-  name: handheld radio
-  description: A handy handheld radio.
+  name: 手持收音机
+  description: 一款方便的手持收音机。
   parent: BaseItem
   id: RadioHandheld
   components:
@@ -26,8 +26,8 @@
     - Radio
 
 - type: entity
-  name: security radio
-  description: A handy security radio.
+  name: 安全对讲机
+  description: 一款方便的安全对讲机。
   parent: [ RadioHandheld, BaseSecurityContraband ]
   id: RadioHandheldSecurity
   components:

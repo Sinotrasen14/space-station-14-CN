@@ -114,8 +114,8 @@
 - type: entity
   parent: MobSiliconBase
   id: MobFireBot
-  name: firebot
-  description: A little fire extinguishing bot. He looks rather anxious.
+  name: 消防机器人
+  description: 一个小小的消防机器人。他看起来相当焦虑。
   components:
   - type: Sprite
     sprite: Mobs/Silicon/Bots/firebot.rsi
@@ -162,8 +162,8 @@
 - type: entity
   parent: MobSiliconBase
   id: MobHonkBot
-  name: honkbot
-  description: Horrifying.
+  name: 按喇叭机器人
+  description: 吓人。
   components:
   - type: SpamEmitSound
     minInterval: 2
@@ -206,8 +206,8 @@
     node: bot
   - type: GhostRole
     makeSentient: true
-    name: ghost-role-information-honkbot-name
-    description: ghost-role-information-honkbot-description
+    name: 幽灵角色信息-鸣叫机器人名称
+    description: 幽灵角色信息-鸣叫机器人描述
     rules: ghost-role-information-freeagent-rules
     mindRoles:
     - MindRoleGhostRoleFreeAgentHarmless
@@ -225,8 +225,8 @@
 - type: entity
   parent: MobHonkBot
   id: MobJonkBot
-  name: jonkbot
-  description: Horrifying.
+  name: 琼克博特
+  description: 太可怕了。
   components:
   - type: SpamEmitSound
     sound:
@@ -240,8 +240,8 @@
     node: bot
   - type: GhostRole
     makeSentient: true
-    name: ghost-role-information-jonkbot-name
-    description: ghost-role-information-jonkbot-description
+    name: 乔恩科博特
+    description: 幽灵角色信息-乔恩科博特-描述
     rules: ghost-role-information-freeagent-rules
     mindRoles:
     - MindRoleGhostRoleFreeAgentHarmless
@@ -266,8 +266,8 @@
 - type: entity
   parent: MobSiliconBase
   id: MobCleanBot
-  name: cleanbot
-  description: The creep of automation now threatening space janitors.
+  name: 清洁机器人
+  description: 自动化蔓延之势正威胁着太空清洁工。
   components:
   - type: Sprite
     sprite: Mobs/Silicon/Bots/cleanbot.rsi
@@ -314,8 +314,8 @@
   - ShowMedicalIcons
   - StripableInventoryBase
   id: MobMedibot
-  name: medibot
-  description: No substitute for a doctor, but better than nothing.
+  name: 医疗机器人
+  description: 虽不能替代医生，但总比没有强。
   components:
   - type: Medibot
     treatments:
@@ -364,8 +364,8 @@
   - MobSiliconBase
   - StripableInventoryBase
   id: MobMimeBot
-  name: mimebot
-  description: Why not give the mimebot a friendly wave?
+  name: 哑剧机器人
+  description: 为什么不给哑剧机器人一个友好的挥手呢？
   components:
   - type: Sprite
     sprite: Mobs/Silicon/Bots/mimebot.rsi
@@ -376,8 +376,8 @@
     node: bot
   - type: GhostRole
     makeSentient: true
-    name: ghost-role-information-mimebot-name
-    description: ghost-role-information-mimebot-description
+    name: 幽灵角色信息模仿机器人名称
+    description: 幽灵角色信息模仿机器人描述
     rules: ghost-role-information-freeagent-rules
     mindRoles:
     - MindRoleGhostRoleFreeAgentHarmless
@@ -393,8 +393,8 @@
 - type: entity
   parent: MobSiliconBase
   id: MobSupplyBot
-  name: supplybot
-  description: Delivers cargo!
+  name: 补给机器人
+  description: 运送货物！
   components:
   - type: Sprite
     sprite: Mobs/Silicon/Bots/supplybot.rsi
@@ -410,8 +410,8 @@
         state: supplybot
   - type: GhostRole
     makeSentient: true
-    name: ghost-role-information-supplybot-name
-    description: ghost-role-information-supplybot-description
+    name: 幽灵角色信息补给机器人名称
+    description: 幽灵角色信息补给机器人描述
     rules: ghost-role-information-nonantagonist-rules
     raffle:
       settings: default
@@ -464,8 +464,8 @@
 - type: entity
   parent: [ MobSiliconBase, MobCombat ]
   id: MobHugBot
-  name: hugbot
-  description: Awww, who needs a hug?
+  name: 抱抱机器人
+  description: 哇，谁需要抱抱呀？
   components:
   - type: Sprite
     sprite: Mobs/Silicon/Bots/hugbot.rsi

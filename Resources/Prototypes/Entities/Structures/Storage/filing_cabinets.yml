@@ -41,7 +41,7 @@
 - type: entity
   parent: [ BaseStructureDynamic, BaseBagOpenClose ]
   id: BaseFilingCabinet
-  description: A cabinet for all your filing needs.
+  description: 一个满足您所有文件存储需求的柜子。
   suffix: Empty
   abstract: true
   components:
@@ -108,7 +108,7 @@
     graph: FilingCabinet
 
 - type: entity
-  name: filing cabinet
+  name: 文件柜
   parent: BaseFilingCabinet
   id: filingCabinet
   components:
@@ -122,7 +122,7 @@
     node: filingCabinet
 
 - type: entity
-  name: tall cabinet
+  name: 高柜
   parent: BaseFilingCabinet
   id: filingCabinetTall
   components:
@@ -136,10 +136,10 @@
     node: tallCabinet
 
 - type: entity
-  name: chest drawer
+  name: 抽屉柜
   parent: BaseFilingCabinet
   id: filingCabinetDrawer
-  description: A small drawer for all your filing needs, Now with wheels!
+  description: 一个满足您所有归档需求的小抽屉柜，现在带轮子了！
   components:
   - type: Sprite
     state: chestdrawer

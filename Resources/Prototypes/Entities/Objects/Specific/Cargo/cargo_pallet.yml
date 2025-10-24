@@ -1,8 +1,8 @@
 - type: entity
   id: BaseCargoPallet
   parent: BaseStructure
-  name: cargo pallet
-  description: Common fixture of logistics and cargo. Subtle reminder where crates go during transport to avoid bruised shins.
+  name: 货物托盘
+  description: 物流与货物运输中的常见装置。巧妙提示运输过程中板条箱的放置位置，以免撞伤小腿。
   abstract: true
   components:
   - type: InteractionOutline
@@ -61,8 +61,8 @@
 
 - type: entity
   id: CargoPalletSell
-  name: cargo selling pallet
-  description: Designates valid items to sell. Made of plastitanium to discourage pesky vandals.
+  name: 货物销售托盘
+  description: 指定可供销售的有效物品。采用铂钛合金制成，以防讨厌的破坏者损毁。
   parent: BaseCargoPallet
   components:
   - type: CargoPallet
@@ -78,8 +78,8 @@
 
 - type: entity
   id: CargoPalletBuy
-  name: cargo buying pallet
-  description: Designates where orders will appear when purchased. Made of plastitanium to discourage pesky vandals.
+  name: 货物采购托盘
+  description: 指定订单购买后的展示位置。采用塑钛合金材质，有效防范恶意破坏行为。
   parent: BaseCargoPallet
   components:
   - type: CargoPallet

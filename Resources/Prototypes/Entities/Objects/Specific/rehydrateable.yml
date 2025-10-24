@@ -42,7 +42,7 @@
 - type: entity
   parent: RehydratableItem
   id: RehydratableAnimalCube
-  description: Just add water!
+  description: 只需加水即可！
   abstract: true
   components:
   - type: Sprite
@@ -71,7 +71,7 @@
 - type: entity
   parent: RehydratableAnimalCube
   id: MonkeyCube
-  name: monkey cube
+  name: 猴子方块
   components:
   - type: Rehydratable
     possibleSpawns:
@@ -84,7 +84,7 @@
 - type: entity
   parent: RehydratableAnimalCube
   id: KoboldCube
-  name: kobold cube
+  name: 科博德立方体
   components:
   - type: Rehydratable
     possibleSpawns:
@@ -93,7 +93,7 @@
 - type: entity
   parent: RehydratableAnimalCube
   id: CowCube
-  name: cow cube
+  name: 牛立方
   components:
   - type: Rehydratable
     possibleSpawns:
@@ -102,7 +102,7 @@
 - type: entity
   parent: RehydratableAnimalCube
   id: GoatCube
-  name: goat cube
+  name: 山羊魔方
   components:
   - type: Rehydratable
     possibleSpawns:
@@ -111,7 +111,7 @@
 - type: entity
   parent: RehydratableAnimalCube
   id: MothroachCube
-  name: mothroach cube
+  name: 蛾螂立方体
   components:
   - type: Rehydratable
     possibleSpawns:
@@ -120,7 +120,7 @@
 - type: entity
   parent: RehydratableAnimalCube
   id: MoproachCube
-  name: moproach cube
+  name: 接近立方体
   components:
   - type: Rehydratable
     possibleSpawns:
@@ -129,7 +129,7 @@
 - type: entity
   parent: RehydratableAnimalCube
   id: MouseCube
-  name: mouse cube
+  name: 鼠标魔方
   components:
   - type: Rehydratable
     possibleSpawns:
@@ -138,8 +138,8 @@
 - type: entity
   parent: RehydratableAnimalCube
   id: CockroachCube
-  name: cockroach cube
-  description: Just add wa- OH GOD!
+  name: 蟑螂方块
+  description: 只要加上瓦——哦天啊！
   components:
   - type: Rehydratable
     possibleSpawns:
@@ -148,8 +148,8 @@
 - type: entity
   parent: RehydratableAnimalCube
   id: SpaceCarpCube
-  name: carp cube
-  description: Just add water! At your own risk.
+  name: 鲤鱼方块
+  description: 只需加水！风险自负。
   components:
   - type: SolutionContainerManager
     solutions:
@@ -169,8 +169,8 @@
 - type: entity
   parent: RehydratableAnimalCube
   id: SpaceTickCube
-  name: tick cube
-  description: Just add water! At your own risk.
+  name: 滴答方块
+  description: 只需加水！风险自负。
   components:
   - type: Rehydratable
     possibleSpawns:
@@ -179,8 +179,8 @@
 - type: entity
   parent: RehydratableAnimalCube
   id: AbominationCube
-  name: abomination cube
-  description: Just add blood!
+  name: 憎恨立方体
+  description: 只需加入鲜血！
   components:
   - type: Reactive
     reactions:
@@ -200,8 +200,8 @@
 - type: entity
   parent: [PlushieCarp, RehydratableItem, BaseSyndicateContraband]
   id: DehydratedSpaceCarp
-  name: dehydrated space carp
-  description: Looks like a plush toy carp, but just add water and it becomes a real-life space carp!
+  name: 脱水太空鲤鱼
+  description: 看起来像一条毛绒鲤鱼玩具，但只要加水，它就会变成一条活生生的太空鲤鱼！
   components:
   - type: SolutionContainerManager
     solutions:
@@ -259,8 +259,8 @@
 - type: entity
   parent: RehydratableItem
   id: MopBucketCube
-  name: mop bucket cube
-  description: Just add water! And then more water!
+  name: 拖把桶方块
+  description: 只需加水！然后再加更多水！
   components:
   - type: Sprite
     sprite: Objects/Specific/Janitorial/janitorial.rsi

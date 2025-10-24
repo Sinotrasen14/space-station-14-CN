@@ -1,10 +1,10 @@
 # To be implemented: see #9072
 
 - type: entity
-  name: staff of healing
+  name: 治愈法杖
   parent: WeaponStaffBase
   id: WeaponStaffHealing
-  description: You don't foresee having to use this in your quest for carnage too often.
+  description: 你在追求杀戮的过程中应该不会经常用到这个。
   components:
   - type: Sprite
     layers:
@@ -21,10 +21,10 @@
   - type: PacifismAllowedGun
 
 - type: entity
-  name: staff of entrance
+  name: 入口之杖
   parent: WeaponStaffBase
   id: WeaponStaffPolymorphDoor
-  description: For when you need a get-away route.
+  description: 当你需要一条逃生路线时。
   components:
   - type: Sprite
     layers:

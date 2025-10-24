@@ -1,8 +1,8 @@
 ﻿- type: entity
   id: Airlock
   parent: BaseStructure
-  name: airlock
-  description: It opens, it closes, and maybe crushes you.
+  name: 气闸
+  description: 它开启，它关闭，也许还会把你压扁。
   components:
   - type: Anchorable
     flags:
@@ -197,7 +197,7 @@
 - type: entity
   id: AirlockGlass
   parent: Airlock
-  name: glass airlock
+  name: 玻璃气闸
   components:
   - type: MeleeSound
     soundGroups:

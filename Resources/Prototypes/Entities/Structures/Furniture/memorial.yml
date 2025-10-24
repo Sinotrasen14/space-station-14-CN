@@ -1,8 +1,8 @@
 - type: entity
   id: Memorial
   parent: BaseStructure
-  name: memorial
-  description: Commemorating something.
+  name: 纪念物
+  description: 纪念某事物。
   components:
   - type: Sprite
     sprite: Structures/Furniture/Memorials/generic_memorial.rsi
@@ -32,8 +32,8 @@
 - type: entity
   id: SS13Memorial
   parent: BaseStructure
-  name: tomb of the unknown employee
-  description: |
+  name: 无名员工的坟墓
+  description: 无名员工的坟墓
     Here rests an unknown employee
     Unknown by name or rank
     Whose acts will not be forgotten
@@ -48,7 +48,7 @@
 - type: entity
   parent: Memorial
   id: Monolith
-  name: monolith
+  name: 单体
   description: |
     Holy shit modern art.
     I bet it's worth a fortune.

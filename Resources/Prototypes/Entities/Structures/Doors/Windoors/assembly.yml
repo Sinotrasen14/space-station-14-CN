@@ -1,7 +1,7 @@
 - type: entity
   id: WindoorAssembly
-  name: windoor assembly
-  description: It opens, it closes, and you can see through it!
+  name: 门窗组合件
+  description: 它能打开，能关上，你还能看穿它！
   parent: BaseStructure
   components:
   - type: InteractionOutline
@@ -51,8 +51,8 @@
 
 - type: entity
   id: WindoorAssemblySecure
-  name: secure windoor assembly
-  description: It opens, it closes, and you can see through it! This one looks tough.
+  name: 安全防风门窗组件
+  description: 它能开，能关，还能透视！这个看起来挺结实的。
   parent: WindoorAssembly
   components:
   - type: Sprite
@@ -79,8 +79,8 @@
 
 - type: entity
   id: WindoorAssemblyClockwork
-  name: clockwork windoor assembly
-  description: It opens, it closes, and you can see through it! This one looks tough.
+  name: 发条式风门组件
+  description: 它开启，它关闭，而且你能看透它！这个看起来挺结实。
   parent: WindoorAssembly
   components:
   - type: Sprite
@@ -107,8 +107,8 @@
 #plasma windoor assemblies
 - type: entity
   id: WindoorAssemblyPlasma
-  name: plasma windoor assembly
-  description: It opens, it closes, and you can see through it! This one looks purp-, no, pink. Wait...
+  name: 等离子风门组件
+  description: 它打开，它关闭，而且你能看穿它！这个看起来是紫——不，是粉色。等等...
   parent: WindoorAssembly
   components:
   - type: Sprite
@@ -137,8 +137,8 @@
 
 - type: entity
   id: WindoorAssemblySecurePlasma
-  name: secure plasma windoor assembly
-  description: It opens, it closes, and you can see through it! This one looks strong and pin-, no, purple. Hold on...
+  name: 安全等离子风门组件
+  description: 它打开，它关闭，而且你能看穿它！这个看起来结实又别——不，是紫色的。等一下...
   parent: WindoorAssembly
   components:
   - type: Sprite
@@ -169,8 +169,8 @@
 #uranium windoor assemblies
 - type: entity
   id: WindoorAssemblyUranium
-  name: uranium windoor assembly
-  description: It opens, it closes, and you can see through it! This one looks sickly green...
+  name: 铀制窗门组件
+  description: 它打开，它关闭，而且你能看穿它！这个看起来是病态的绿色……
   parent: WindoorAssembly
   components:
   - type: Sprite
@@ -199,8 +199,8 @@
 
 - type: entity
   id: WindoorAssemblySecureUranium
-  name: secure uranium windoor assembly
-  description: It opens, it closes, and you can see through it! This one looks strong and radioactive-lime-green!
+  name: 安全铀制风门组件
+  description: 它开合自如，还能透视！这个看起来坚固耐用，还带着放射性石灰绿的光泽！
   parent: WindoorAssembly
   components:
   - type: Sprite

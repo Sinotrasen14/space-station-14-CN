@@ -1,8 +1,8 @@
 - type: entity
   parent: BaseDeltaPressureGlass
   id: InflatableWall
-  name: inflatable barricade
-  description: An inflated membrane. Activate to deflate. Do not puncture.
+  name: 充气式路障
+  description: 充气膜结构。激活以放气。请勿刺穿。
   components:
   - type: Clickable
   - type: InteractionOutline
@@ -43,9 +43,9 @@
 
 - type: entity
   id: InflatableDoor
-  name: inflatable door
+  name: 充气门
   parent: [BaseMaterialDoor, BaseDeltaPressureGlass]
-  description: An inflated membrane. Activate to deflate. Now with a door. Do not puncture.
+  description: 充气膜结构。激活即可放气。现配有门。请勿刺穿。
   components:
   - type: Clickable
   - type: InteractionOutline

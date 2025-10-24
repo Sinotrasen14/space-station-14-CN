@@ -1,8 +1,8 @@
 - type: entity
   parent: ClothingBeltStorageBase
   id: ClothingBeltStorageWaistbag
-  name: leather waist bag
-  description: A leather waist bag meant for carrying small items.
+  name: 皮革腰包
+  description: 一款用于携带小物件的皮革腰包。
   components:
   - type: Sprite
     sprite: Clothing/Belt/waistbag_leather.rsi

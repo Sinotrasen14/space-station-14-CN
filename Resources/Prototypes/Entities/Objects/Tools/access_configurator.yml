@@ -1,8 +1,8 @@
 - type: entity
   parent: BaseItem
   id: AccessConfigurator
-  name: access configurator
-  description: Used to modify the access level requirements for airlocks and other lockable devices.
+  name: 访问配置器
+  description: 用于修改气闸门及其他可锁定设备的访问级别要求。
   components:
     - type: EmitSoundOnLand
       sound:
@@ -51,7 +51,7 @@
       - GenpopEnter
       - GenpopLeave
       privilegedIdSlot:
-        name: id-card-console-privileged-id
+        name: ID卡控制台特权身份
         ejectSound: /Audio/Machines/id_swipe.ogg
         insertSound: /Audio/Weapons/Guns/MagIn/batrifle_magin.ogg
         ejectOnBreak: true
@@ -80,9 +80,9 @@
 - type: entity
   parent: AccessConfigurator
   id: AccessConfiguratorUniversal
-  name: universal access configurator
+  name: 通用访问配置器
   suffix: Admin
-  description: A modified access configurator used only by the mythical Administrator.
+  description: 仅供神话管理员使用的修改版访问配置器。
   components:
   - type: Sprite
     sprite: Objects/Tools/universal_access_configurator.rsi
@@ -132,7 +132,7 @@
     - GenpopEnter
     - GenpopLeave
     privilegedIdSlot:
-      name: id-card-console-privileged-id
+      name: ID卡控制台特权身份
       startingItem: UniversalIDCard
       ejectSound: /Audio/Machines/id_swipe.ogg
       insertSound: /Audio/Weapons/Guns/MagIn/batrifle_magin.ogg

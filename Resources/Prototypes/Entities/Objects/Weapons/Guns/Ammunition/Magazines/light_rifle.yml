@@ -1,7 +1,7 @@
 # Empty mags
 - type: entity
   id: BaseMagazineLightRifle
-  name: "magazine (.30 rifle)"
+  name: 杂志（0.30英寸步枪）
   parent: [ BaseItem, BaseSecurityContraband ]
   abstract: true
   components:
@@ -36,9 +36,9 @@
 # Magazines
 - type: entity
   id: MagazineLightRifleBox
-  name: "L6 SAW magazine box (.30 rifle)"
+  name: L6轻机枪弹匣箱（.30步枪）
   parent: BaseMagazineLightRifle
-  description: Box containing a 100-round belt of linked .30 rifle rounds, used by light machine guns such as the L6. Intended to hold general-purpose kinetic ammunition.
+  description: 该箱内装有一条100发串联的.30步枪弹链，供L6等轻机枪使用，用于存放通用动能弹药。
   components:
   - type: Tag
     tags:
@@ -57,9 +57,9 @@
 
 - type: entity
   id: MagazineLightRifle
-  name: "magazine (.30 rifle)"
+  name: 弹匣（0.30英寸步枪）
   parent: BaseMagazineLightRifle
-  description: Curved 30-round double stack magazine for combat rifles. Intended to hold general-purpose kinetic ammunition.
+  description: 用于战斗步枪的30发弧形双排弹匣，旨在容纳通用动能弹药。
   components:
   - type: BallisticAmmoProvider
     proto: CartridgeLightRifle
@@ -78,10 +78,10 @@
 
 - type: entity
   id: MagazineLightRifleEmpty
-  name: "magazine (.30 rifle any)"
+  name: 弹匣（适用于任何.30口径步枪）
   suffix: empty
   parent: MagazineLightRifle
-  description: Curved 30-round double stack magazine for combat rifles.
+  description: 用于战斗步枪的30发弧形双排弹匣。
   components:
   - type: BallisticAmmoProvider
     proto: null
@@ -100,9 +100,9 @@
 
 - type: entity
   id: MagazineLightRiflePractice
-  name: "magazine (.30 rifle practice)"
+  name: 弹匣（0.30英寸步枪练习用）
   parent: BaseMagazineLightRifle
-  description: Curved 30-round double stack magazine for combat rifles. Intended to hold non-harmful chalk ammunition.
+  description: 用于战斗步枪的30发弧形双排弹匣，适用于无害粉笔弹药。
   components:
   - type: BallisticAmmoProvider
     proto: CartridgeLightRiflePractice
@@ -127,9 +127,9 @@
 
 - type: entity
   id: MagazineLightRifleUranium
-  name: "magazine (.30 rifle uranium)"
+  name: 弹匣（.30步枪铀弹）
   parent: BaseMagazineLightRifle
-  description: Curved 30-round double stack magazine for combat rifles. Intended to hold exotic uranium-core ammunition.
+  description: 用于战斗步枪的30发弧形双排弹匣，旨在容纳特殊的铀芯弹药。
   components:
   - type: BallisticAmmoProvider
     proto: CartridgeLightRifleUranium
@@ -154,9 +154,9 @@
 
 - type: entity
   id: MagazineLightRifleIncendiary
-  name: "magazine (.30 rifle incendiary)"
+  name: 弹匣（0.30英寸步枪燃烧弹）
   parent: MagazineLightRifle
-  description: Curved 30-round double stack magazine for combat rifles. Intended to hold self-igniting incendiary ammunition.
+  description: 用于战斗步枪的30发弧形双排弹匣，可装填自燃式燃烧弹药。
   components:
   - type: BallisticAmmoProvider
     proto: CartridgeLightRifleIncendiary

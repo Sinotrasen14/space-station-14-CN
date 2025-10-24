@@ -3,8 +3,8 @@
   parent: BaseWallmount
   id: ShelfBase
   abstract: true
-  name: shelf
-  description: A strange place to place, well, anything really. You feel like you shouldn't be seeing this.
+  name: 架子
+  description: 一个奇怪的摆放位置，嗯，放什么都不太对劲。你觉得眼前所见本不该存在。
   components:
   - type: Sprite
     drawdepth: WallMountedItems
@@ -41,8 +41,8 @@
   abstract: true
   id: ShelfBaseReinforced
   parent: ShelfBase
-  name: reinforced shelf
-  description: It looks as strong as reality itself.
+  name: 加固架
+  description: 它看起来如同现实本身一样坚固。
   components:
   - type: Lock
   - type: LockedStorage
@@ -71,8 +71,8 @@
 - type: entity
   id: ShelfWood
   parent: ShelfBase
-  name: wooden shelf
-  description: A convenient place to place, well, anything really.
+  name: 木架
+  description: 一个方便放置，嗯，任何东西的地方。
   components:
   - type: Destructible
     thresholds:
@@ -110,8 +110,8 @@
 - type: entity
   id: ShelfMetal
   parent: ShelfBase
-  name: metal shelf
-  description: A sturdy place to place, well, anything really.
+  name: 金属架
+  description: 一个稳固的放置处，嗯，实际上什么都能放。
   components:
   - type: Sprite
     sprite: Structures/Storage/Shelfs/metal.rsi
@@ -151,8 +151,8 @@
 - type: entity
   id: ShelfGlass
   parent: ShelfBase
-  name: glass shelf
-  description: A fragile place to place, well, anything really.
+  name: 玻璃架
+  description: 一个脆弱的地方，用来放置，嗯，任何东西都可以。
   components:
   - type: Sprite
     sprite: Structures/Storage/Shelfs/glass.rsi
@@ -193,8 +193,8 @@
 - type: entity
   id: ShelfRWood
   parent: ShelfBaseReinforced
-  name: sturdy wood shelf
-  description: A safe place to put your favorite bottle of whiskey.
+  name: 结实的木架
+  description: 放置您最喜爱的威士忌的安全之所。
   components:
   - type: Sprite
     sprite: Structures/Storage/Shelfs/wood.rsi
@@ -239,8 +239,8 @@
 - type: entity
   id: ShelfRMetal
   parent: ShelfBaseReinforced
-  name: sturdy metal shelf
-  description: A strong & shiny place to keep all your vials safe.
+  name: 坚固的金属架子
+  description: 一个坚固闪亮的地方，妥善保管您的所有小瓶。
   components:
   - type: Sprite
     sprite: Structures/Storage/Shelfs/metal.rsi
@@ -282,8 +282,8 @@
 - type: entity
   id: ShelfRGlass
   parent: ShelfBaseReinforced
-  name: sturdy glass shelf
-  description: Crystal clear reinforced glass doors to show off all your fancy bottles you definitely didn't sell a co-worker's favorite mothroach for.
+  name: 坚固的玻璃搁板
+  description: 晶莹剔透的强化玻璃门，用来展示你那些 fancy 的瓶子——你绝对没有为了它们卖掉同事最爱的摩托甲虫。
   components:
   - type: Sprite
     sprite: Structures/Storage/Shelfs/glass.rsi
@@ -326,8 +326,8 @@
 - type: entity
   id: ShelfBar
   parent: ShelfBase
-  name: bar shelf
-  description: Made out of the finest synthetic wood for all alcohol holding needs.
+  name: 吧台架
+  description: 采用最优质的合成木制成，满足所有酒类存放需求。
   components:
   - type: Sprite
     sprite: Structures/Storage/Shelfs/Departments/Service/bar.rsi
@@ -376,8 +376,8 @@
 - type: entity
   id: ShelfKitchen
   parent: ShelfBase
-  name: kitchen shelf
-  description: Holds knifes, spice, and everything nice!
+  name: 厨房搁板
+  description: 收纳刀具、香料和各种美好物品！
   components:
   - type: Sprite
     sprite: Structures/Storage/Shelfs/Departments/Service/kitchen.rsi
@@ -432,8 +432,8 @@
 - type: entity
   id: ShelfChemistry
   parent: ShelfBaseReinforced
-  name: chemical shelf
-  description: Keeps all your chemicals safe and out of the clow- er, public hands!
+  name: 化学品架
+  description: 将所有化学品安全存放，远离人群和公众接触！
   components:
   - type: Sprite
     sprite: Structures/Storage/Shelfs/Departments/Medical/chemistry.rsi

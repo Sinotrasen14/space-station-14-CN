@@ -2,8 +2,8 @@
   id: TableFrame
   # BaseStructure and not BaseTable, since these shouldn't be climbable/placeable.
   parent: BaseStructure
-  name: table frame
-  description: Pieces of metal that make the frame of a table.
+  name: 桌架
+  description: 构成桌架的金属部件。
   components:
   - type: Sprite
     sprite: Structures/Furniture/Tables/frame.rsi
@@ -58,8 +58,8 @@
 - type: entity
   id: CounterWoodFrame
   parent: BaseStructure
-  name: wooden counter frame
-  description: Pieces of wood that make the frame of a table.
+  name: 木制台面框架
+  description: 构成桌子框架的木块。
   components:
   - type: SpriteFade
   - type: Sprite
@@ -113,8 +113,8 @@
 - type: entity
   id: CounterMetalFrame
   parent: CounterWoodFrame
-  name: metal counter frame
-  description: Pieces of metal that make the frame of a table.
+  name: 金属桌架
+  description: 构成桌子框架的金属部件。
   components:
   - type: Sprite
     sprite: Structures/Furniture/Tables/frame.rsi
@@ -158,8 +158,8 @@
 - type: entity
   id: Table
   parent: TableBase
-  name: table
-  description: A square piece of metal standing on four metal legs.
+  name: 桌子
+  description: 一块方形金属板立在四条金属腿上。
   components:
   - type: Sprite
     sprite: Structures/Furniture/Tables/generic.rsi
@@ -202,8 +202,8 @@
 - type: entity
   id: TableReinforced
   parent: TableBase
-  name: reinforced table
-  description: A square piece of metal standing on four metal legs. Extra robust.
+  name: 加固桌
+  description: 一块方形金属板立在四条金属腿上。格外坚固。
   components:
   - type: Sprite
     sprite: Structures/Furniture/Tables/reinforced.rsi
@@ -249,8 +249,8 @@
 - type: entity
   id: TableGlass
   parent: TableBase
-  name: glass table
-  description: A square piece of glass, standing on four metal legs.
+  name: 玻璃桌
+  description: 一块方形玻璃，立在四条金属腿上。
   components:
   - type: Sprite
     sprite: Structures/Furniture/Tables/glass.rsi
@@ -303,8 +303,8 @@
 - type: entity
   id: TableCard
   parent: TableBase
-  name: cardboard table
-  description: Cardboard sheets wrapped around a metal table frame.
+  name: 纸板桌
+  description: 纸板包裹在金属桌架周围。
   components:
   - type: Sprite
     sprite: Structures/Furniture/Tables/card.rsi
@@ -358,8 +358,8 @@
 - type: entity
   id: TableReinforcedGlass
   parent: TableBase
-  name: reinforced glass table
-  description: A square piece of glass, standing on four metal legs. Extra robust.
+  name: 强化玻璃桌
+  description: 一块方形玻璃，立在四条金属腿上。格外坚固。
   components:
   - type: Sprite
     sprite: Structures/Furniture/Tables/r_glass.rsi
@@ -415,8 +415,8 @@
 - type: entity
   id: TablePlasmaGlass
   parent: TableBase
-  name: plasma glass table
-  description: A square piece of plasma glass, standing on four metal legs. Pretty!
+  name: 等离子玻璃桌
+  description: 一块方形等离子玻璃，立在四条金属腿上。真漂亮！
   components:
   - type: Sprite
     sprite: Structures/Furniture/Tables/plasma.rsi
@@ -472,8 +472,8 @@
 - type: entity
   id: TableBrass
   parent: TableBase
-  name: brass table
-  description: A shiny, corrosion resistant brass table. Steampunk!
+  name: 黄铜桌
+  description: 一张闪亮、耐腐蚀的黄铜桌。蒸汽朋克风格！
   components:
   - type: Sprite
     sprite: Structures/Furniture/Tables/brass.rsi
@@ -515,8 +515,8 @@
 - type: entity
   id: TableWood
   parent: TableBase
-  name: wood table
-  description: Do not apply fire to this. Rumour says it burns easily.
+  name: 木桌
+  description: 请勿对此物使用火源。据传它极易燃烧。
   components:
   - type: Sprite
     sprite: Structures/Furniture/Tables/wood.rsi
@@ -564,8 +564,8 @@
 - type: entity
   id: TableCarpet
   parent: TableBase
-  name: gambling table
-  description: Play em' cowboy.
+  name: 赌桌
+  description: 玩起来吧，牛仔。
   components:
   - type: Sprite
     sprite: Structures/Furniture/Tables/carpet.rsi
@@ -616,8 +616,8 @@
 - type: entity
   id: TableStone
   parent: TableBase
-  name: stone table
-  description: Literally the sturdiest thing you have ever seen.
+  name: 石桌
+  description: 这绝对是你见过最结实的东西。
   components:
   - type: Sprite
     sprite: Structures/Furniture/Tables/stone.rsi
@@ -643,8 +643,8 @@
 - type: entity
   id: TableWeb
   parent: TableBase
-  name: web table
-  description: Really smooth and surprisingly durable.
+  name: 网络表格
+  description: 非常顺滑且出奇地耐用。
   components:
   - type: Damageable
     damageModifierSet: Web
@@ -677,8 +677,8 @@
 - type: entity
   parent: TableBase
   id: TableXeno
-  name: xeno table
-  description: I wouldn't put the silverware on it.
+  name: 异形桌
+  description: 我不会把银餐具放在上面。
   components:
   - type: Sprite
     sprite: Structures/Furniture/Tables/xeno.rsi
@@ -708,8 +708,8 @@
   id: TableFancyBase
   abstract: true
   parent: TableBase
-  name: fancy table
-  description: Expensive and rich.
+  name: 昂贵的桌子
+  description: 昂贵而奢华。
   components:
   - type: Damageable
     damageModifierSet: Wood
@@ -896,8 +896,8 @@
 - type: entity
   id: TableDebug
   parent: TableBase
-  name: table
-  description: PUT ON THEM CODERSOCKS!!
+  name: 桌子
+  description: 穿上它们，程序员袜子！！
   suffix: DEBUG
   components:
   - type: Tag
@@ -921,8 +921,8 @@
 - type: entity
   id: TableCounterWood
   parent: CounterBase
-  name: wood counter
-  description: Do not apply fire to this. Rumour says it burns easily.
+  name: 木质柜台
+  description: 请勿对此物使用火源。据传它极易燃烧。
   components:
   - type: Sprite
     sprite: Structures/Furniture/Tables/counterwood.rsi
@@ -967,8 +967,8 @@
 - type: entity
   id: TableCounterMetal
   parent: CounterBase
-  name: metal counter
-  description: Looks like a good place to put a drink down.
+  name: 金属台面
+  description: 看起来是个放饮料的好地方。
   components:
   - type: Sprite
     sprite: Structures/Furniture/Tables/countermetal.rsi

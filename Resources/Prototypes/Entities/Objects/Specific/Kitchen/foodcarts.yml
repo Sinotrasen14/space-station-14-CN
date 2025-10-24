@@ -1,9 +1,9 @@
 - type: entity
-  name: food cart
+  name: 餐车
   id: FoodCartBase
   abstract: true
   parent: BaseStructureDynamic
-  description: A cart for food.
+  description: 一辆用于食物的推车。
   components:
     - type: Sprite
       netsync: false
@@ -67,10 +67,10 @@
     #      startingItem: PowerCellMedium
 
 - type: entity
-  name: hot food cart
+  name: 热食车
   id: FoodCartHot
   parent: FoodCartBase
-  description: Get out there and slang some dogs.
+  description: 快出去卖些热狗吧。
   components:
     - type: Sprite
       noRot: true
@@ -87,7 +87,7 @@
     - type: ItemSlots
       slots:
         coldsauce_slot:
-          name: foodcart-slot-component-slot-name-coldsauce
+          name: 食品车-插槽-组件-插槽-名称-冷酱
           insertSound: /Audio/Items/bottle_clunk.ogg
           ejectSound: /Audio/Items/bottle_clunk_2.ogg
           whitelist:
@@ -95,7 +95,7 @@
               - Coldsauce
           priority: 6
         hotsauce_slot:
-          name: foodcart-slot-component-slot-name-hotsauce
+          name: 食品车插槽组件插槽名称-辣酱
           insertSound: /Audio/Items/bottle_clunk.ogg
           ejectSound: /Audio/Items/bottle_clunk_2.ogg
           whitelist:
@@ -103,7 +103,7 @@
               - Hotsauce
           priority: 5
         bbqsauce_slot:
-          name: foodcart-slot-component-slot-name-bbqsauce
+          name: 食品车插槽组件插槽名称-烧烤酱
           insertSound: /Audio/Items/bottle_clunk.ogg
           ejectSound: /Audio/Items/bottle_clunk_2.ogg
           whitelist:
@@ -111,7 +111,7 @@
               - BBQsauce
           priority: 4
         ketchup_slot:
-          name: foodcart-slot-component-slot-name-ketchup
+          name: 食品车插槽组件插槽名称-番茄酱
           insertSound: /Audio/Items/bottle_clunk.ogg
           ejectSound: /Audio/Items/bottle_clunk_2.ogg
           whitelist:
@@ -147,10 +147,10 @@
         ketchup_slot: !type:ContainerSlot {}
 
 - type: entity
-  name: cold food cart
+  name: 冷食车
   id: FoodCartCold
   parent: FoodCartBase
-  description: It's the Ice Cream Man! It's the Ice Cream Man!
+  description: 冰淇淋车来了！冰淇淋车来了！
   components:
     - type: Sprite
       noRot: true

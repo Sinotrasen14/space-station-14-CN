@@ -1,8 +1,8 @@
 - type: entity
   id: MysteryFigureBoxTrash
   parent: BaseItem
-  name: unfolded cardboard box
-  description: A small, unfolded cardboard toy box.
+  name: 展开的纸板箱
+  description: 一个未展开的小纸板玩具盒。
   components:
   - type: PhysicalComposition
     materialComposition:
@@ -18,8 +18,8 @@
 - type: entity
   parent: PresentRandom
   id: MysteryFigureBox
-  name: mystery spacemen minifigure box
-  description: A box containing a mystery minifigure. The side of the box depicts a few blacked-out 'rare' figures, including one with a large, non-humanoid shilouette.
+  name: 神秘太空人迷你人偶盒
+  description: 一个内含神秘迷你人偶的盒子。盒子侧面描绘了几个被涂黑的“稀有”人偶，其中有一个轮廓庞大、非人形的身影。
   components:
   - type: Sprite
     sprite: Objects/Fun/figurines.rsi
@@ -143,9 +143,9 @@
 - type: entity
   parent: BaseItem
   id: MysteryLighterBox
-  name: Novelty lighter mystery box
+  name: 新奇打火机神秘盒
   suffix: Filled
-  description: A box of discontinued promotional lighters, many of which have since been declared "contraband".
+  description: 一盒已停产的促销打火机，其中许多现已被列为"违禁品"。
   components:
   - type: Sprite
     sprite: Objects/Fun/figurines.rsi

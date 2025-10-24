@@ -2,7 +2,7 @@
   id: Incorporeal
   save: false
   abstract: true
-  description: Mobs without physical bodies
+  description: 没有物理形态的暴徒
   components:
   - type: Sprite
     noRot: true
@@ -35,8 +35,8 @@
   - BaseMob
   id: MobObserverBase
   abstract: true
-  name: observer
-  description: Boo!
+  name: 观察者
+  description: 嘘！
   categories: [ HideSpawnMenu ]
   components:
   - type: Sprite
@@ -82,8 +82,8 @@
 - type: entity
   parent: BaseMentalAction
   id: ActionGhostBoo
-  name: Boo!
-  description: Scare your crew members because of boredom!
+  name: 嘘！
+  description: 无聊了就吓唬一下你的船员吧！
   components:
   - type: Action
     icon: Interface/Actions/scream.png
@@ -96,8 +96,8 @@
 - type: entity
   parent: BaseMentalAction
   id: ActionToggleLighting
-  name: Toggle Lighting
-  description: Toggle light rendering to better observe dark areas.
+  name: 切换照明
+  description: 切换灯光渲染以更好地观察暗部区域。
   components:
   - type: Action
     icon: Interface/VerbIcons/light.svg.192dpi.png
@@ -108,8 +108,8 @@
 - type: entity
   parent: BaseMentalAction
   id: ActionToggleFov
-  name: Toggle FoV
-  description: Toggles field-of-view in order to see what players see.
+  name: 切换视野
+  description: 切换视野以查看玩家所见内容。
   components:
   - type: Action
     icon: Interface/VerbIcons/vv.svg.192dpi.png
@@ -120,8 +120,8 @@
 - type: entity
   parent: BaseMentalAction
   id: ActionToggleGhosts
-  name: Toggle Ghosts
-  description: Toggle the visibility of other ghosts.
+  name: 切换幽灵可见性
+  description: 切换其他幽灵的可见性。
   components:
   - type: Action
     icon: { sprite: Mobs/Ghosts/ghost_human.rsi, state: icon }
@@ -132,8 +132,8 @@
 - type: entity
   parent: BaseMentalAction
   id: ActionToggleGhostHearing
-  name: Toggle Ghost Hearing
-  description: Toggle between hearing all messages and hearing only radio & nearby messages.
+  name: 切换幽灵听觉模式
+  description: 在听取所有消息与仅听取无线电及附近消息之间切换。
   components:
   - type: Action
     icon:

@@ -1,8 +1,8 @@
 - type: entity
   parent: BaseItem
   id: CandyBowl
-  name: "candy bowl"
-  description: Grab as much as you can fit in your pockets!
+  name: 糖果碗
+  description: 能装多少就装多少，把口袋塞满！
   components:
   - type: Sprite
     sprite: Objects/Misc/candy_bowl.rsi

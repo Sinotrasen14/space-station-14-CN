@@ -1,6 +1,6 @@
 - type: entity
   id: BaseMagazineMagnum
-  name: pistol magazine (.45 magnum)
+  name: 手枪弹匣（.45马格南）
   parent: [ BaseMagazinePistol, BaseSecurityContraband ]
   abstract: true
   components:
@@ -16,10 +16,10 @@
 
 - type: entity
   id: MagazineMagnumEmpty
-  name: pistol magazine (.45 magnum any)
+  name: 手枪弹匣（任何.45马格南型号）
   suffix: empty
   parent: BaseMagazineMagnum
-  description: 7-round single stack pistol magazine.
+  description: 7发单排手枪弹匣。
   components:
   - type: BallisticAmmoProvider
     proto: null
@@ -38,9 +38,9 @@
 
 - type: entity
   id: MagazineMagnum
-  name: pistol magazine (.45 magnum)
+  name: 手枪弹匣（.45马格努姆）
   parent: BaseMagazineMagnum
-  description: 7-round single stack pistol magazine. Intended to hold general-purpose kinetic ammunition.
+  description: 7发单排手枪弹匣，用于装填通用动能弹药。
   components:
   - type: BallisticAmmoProvider
     proto: CartridgeMagnum
@@ -59,9 +59,9 @@
 
 - type: entity
   id: MagazineMagnumPractice
-  name: pistol magazine (.45 magnum practice)
+  name: 手枪弹匣（.45马格努姆练习弹）
   parent: BaseMagazineMagnum
-  description: 7-round single stack pistol magazine. Intended to hold non-harmful chalk ammunition.
+  description: 7发单排手枪弹匣，用于装填无害粉笔弹药。
   components:
   - type: BallisticAmmoProvider
     proto: CartridgeMagnumPractice
@@ -86,9 +86,9 @@
 
 - type: entity
   id: MagazineMagnumUranium
-  name: pistol magazine (.45 magnum uranium)
+  name: 手枪弹匣（.45马格南铀弹）
   parent: BaseMagazineMagnum
-  description: 7-round single stack pistol magazine. Intended to hold exotic uranium-core ammunition.
+  description: 7发单排手枪弹匣，用于装填特制铀芯弹药。
   components:
   - type: BallisticAmmoProvider
     proto: CartridgeMagnumUranium
@@ -113,9 +113,9 @@
 
 - type: entity
   id: MagazineMagnumAP
-  name: pistol magazine (.45 magnum armor-piercing)
+  name: 手枪弹匣（.45马格南穿甲弹）
   parent: BaseMagazineMagnum
-  description: 7-round single stack pistol magazine. Intended to hold rare armor-piercing ammunition.
+  description: 7发单排手枪弹匣，用于装填稀有的穿甲弹药。
   components:
   - type: BallisticAmmoProvider
     proto: CartridgeMagnumAP

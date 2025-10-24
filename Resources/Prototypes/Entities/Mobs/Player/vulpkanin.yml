@@ -1,5 +1,5 @@
 - type: entity
   save: false
-  name: Urist McBark
+  name: 乌里斯特·麦克巴克
   parent: BaseMobVulpkanin
   id: MobVulpkanin

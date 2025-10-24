@@ -1,7 +1,7 @@
 - type: entity
   id: ShadowBasaltOne
-  name: shadowstone
-  description: Glowing cracks in reality. It's probably fine.
+  name: 影石
+  description: 现实中的发光裂缝。可能没什么问题。
   placement:
     mode: SnapgridCenter
   components:

@@ -1,9 +1,9 @@
 - type: entity
   parent: BaseItem
   id: BedsheetBase
-  name: BedsheetBase
+  name: 床单基料
   abstract: true
-  description: A surprisingly soft linen bedsheet.
+  description: 一条出奇柔软的亚麻床单。
   placement:
     mode: SnapgridCenter
     snap:
@@ -27,7 +27,7 @@
 - type: entity
   id: BedsheetBlack
   parent: BedsheetBase
-  name: black bedsheet
+  name: 黑色床单
   components:
   - type: Sprite
     state: sheetblack
@@ -37,7 +37,7 @@
 - type: entity
   id: BedsheetBlue
   parent: BedsheetBase
-  name: blue bedsheet
+  name: 蓝色床单
   components:
   - type: Sprite
     state: sheetblue
@@ -47,7 +47,7 @@
 - type: entity
   id: BedsheetBrown
   parent: BedsheetBase
-  name: brown bedsheet
+  name: 棕色床单
   components:
   - type: Sprite
     state: sheetbrown
@@ -57,8 +57,8 @@
 - type: entity
   id: BedsheetCaptain
   parent: BedsheetBase
-  name: captain's bedsheet
-  description: It has a Nanotrasen symbol on it, and was woven with a revolutionary new kind of thread guaranteed to have 0.01% permeability for most non-chemical substances, popular among most modern captains.
+  name: 船长的床单
+  description: 上面印有纳诺特拉森的标志，采用革命性新型纱线编织而成，确保对大多数非化学物质具有0.01%的渗透率，深受现代船长的青睐。
   components:
   - type: Sprite
     state: sheetcaptain
@@ -70,8 +70,8 @@
 - type: entity
   id: BedsheetCE
   parent: BedsheetBase
-  name: CE's bedsheet
-  description: It's decorated with a wrench emblem. It's highly reflective and stain resistant, so you don't need to worry about ruining it with oil.
+  name: CE的床单
+  description: 它装饰有扳手徽章，具有高反射性和防污性，因此您无需担心油污会损坏它。
   components:
   - type: Sprite
     state: sheetce
@@ -83,8 +83,8 @@
 - type: entity
   id: BedsheetCentcom
   parent: BedsheetBase
-  name: CentComm bedsheet
-  description: Woven with advanced nanothread for warmth as well as being very decorated, essential for all officials.
+  name: 中央委员会床单
+  description: 采用先进纳米线编织而成，既保暖又极具装饰性，是所有官员的必备之选。
   components:
   - type: Sprite
     state: sheetcentcom
@@ -96,8 +96,8 @@
 - type: entity
   id: BedsheetClown
   parent: BedsheetBase
-  name: clown's bedsheet
-  description: A rainbow blanket with a clown mask woven in. It smells faintly of bananas.
+  name: 小丑的床单
+  description: 一条织有小丑面具的彩虹色毯子，散发着淡淡的香蕉气息。
   components:
   - type: Sprite
     state: sheetclown
@@ -107,8 +107,8 @@
 - type: entity
   id: BedsheetCMO
   parent: BedsheetBase
-  name: CMO's bedsheet
-  description: It's a sterilized blanket that has a cross emblem. There's some cat fur on it, likely from Runtime.
+  name: CMO的床单
+  description: 这是一条消毒过的毯子，上面有十字标志，还沾着些猫毛，很可能是Runtime掉的。
   components:
   - type: Sprite
     state: sheetcmo
@@ -120,8 +120,8 @@
 - type: entity
   id: BedsheetCosmos
   parent: BedsheetBase
-  name: cosmos bedsheet
-  description: Made from the dreams of those who wonder at the stars.
+  name: 宇宙床单
+  description: 由那些对星辰充满好奇者的梦想编织而成。
   components:
   - type: Sprite
     state: sheetcosmos
@@ -131,8 +131,8 @@
 - type: entity
   id: BedsheetCult
   parent: BedsheetBase
-  name: cult bedsheet
-  description: You might dream of Nar'Sie if you sleep with this. It seems rather tattered and glows of an eldritch presence.
+  name: 邪教徒床单
+  description: 若你与此物共眠，或许会梦见纳茜。它看起来相当破旧，并散发着诡异的光芒。
   components:
   - type: Sprite
     state: sheetcult
@@ -142,7 +142,7 @@
 - type: entity
   id: BedsheetGreen
   parent: BedsheetBase
-  name: green bedsheet
+  name: 绿色床单
   components:
   - type: Sprite
     state: sheetgreen
@@ -152,7 +152,7 @@
 - type: entity
   id: BedsheetGrey
   parent: BedsheetBase
-  name: grey bedsheet
+  name: 灰色床单
   components:
   - type: Sprite
     state: sheetgrey
@@ -162,8 +162,8 @@
 - type: entity
   id: BedsheetHOP
   parent: BedsheetBase
-  name: HOP's bedsheet
-  description: It's decorated with a key emblem. For those rare moments when you can rest and cuddle with Ian without someone screaming for you over the radio.
+  name: HOP的床单
+  description: 它饰有钥匙徽章。这是为了那些难得的时刻，当你可以休息并与伊恩相拥，而没有人通过无线电呼叫你。
   components:
   - type: Sprite
     state: sheethop
@@ -175,8 +175,8 @@
 - type: entity
   id: BedsheetHOS
   parent: BedsheetBase
-  name: HOS's bedsheet
-  description: It's decorated with a shield emblem. While crime doesn't sleep, you do, but you are still THE LAW!
+  name: HOS的床单
+  description: 它饰有盾徽。犯罪永不眠，而你虽需安睡，却依然是法律的化身！
   components:
   - type: Sprite
     state: sheethos
@@ -188,7 +188,7 @@
 - type: entity
   id: BedsheetIan
   parent: BedsheetBase
-  name: Ian's bedsheet
+  name: 伊恩的床单
   components:
   - type: Sprite
     state: sheetian
@@ -198,8 +198,8 @@
 - type: entity
   id: BedsheetMedical
   parent: BedsheetBase
-  name: medical bedsheet
-  description: It's a sterilized blanket commonly used in the Medbay. Sterilization is voided if a virologist is present onboard the station.
+  name: 医用床单
+  description: 这是医疗科常用的灭菌床单。若空间站上有病毒学家存在，则灭菌效果失效。
   components:
   - type: Sprite
     state: sheetmedical
@@ -209,8 +209,8 @@
 - type: entity
   id: BedsheetMime
   parent: BedsheetBase
-  name: mime's bedsheet
-  description: A very soothing striped blanket.  All the noise just seems to fade out when you're under the covers in this.
+  name: 默剧演员的床单
+  description: 一条令人倍感安心的条纹毯。当你盖着它蜷缩在被窝里时，所有喧嚣仿佛都会渐渐消散。
   components:
   - type: Sprite
     state: sheetmime
@@ -220,8 +220,8 @@
 - type: entity
   id: BedsheetNT
   parent: BedsheetBase
-  name: NT bedsheet
-  description: It has the Nanotrasen logo on it and an aura of duty.
+  name: NT床单
+  description: 上面印有纳诺创森的标识，散发着一种责任感。
   components:
   - type: Sprite
     state: sheetNT
@@ -231,7 +231,7 @@
 - type: entity
   id: BedsheetOrange
   parent: BedsheetBase
-  name: orange bedsheet
+  name: 橙色床单
   components:
   - type: Sprite
     state: sheetorange
@@ -241,7 +241,7 @@
 - type: entity
   id: BedsheetPurple
   parent: BedsheetBase
-  name: purple bedsheet
+  name: 紫色床单
   components:
   - type: Sprite
     state: sheetpurple
@@ -251,7 +251,7 @@
 - type: entity
   id: BedsheetQM
   parent: BedsheetBase
-  name: QM's bedsheet
+  name: QM的床单
   components:
   - type: Sprite
     state: sheetqm
@@ -263,7 +263,7 @@
 - type: entity
   id: BedsheetRainbow
   parent: BedsheetBase
-  name: rainbow bedsheet
+  name: 彩虹床单
   components:
   - type: Sprite
     state: sheetrainbow
@@ -273,8 +273,8 @@
 - type: entity
   id: BedsheetRD
   parent: BedsheetBase
-  name: RD's bedsheet
-  description: It appears to have a beaker emblem, and is made out of fire-resistant material, although it probably won't protect you in the event of fires you're familiar with every day.
+  name: RD的床单
+  description: 它似乎带有一个烧杯图案，并且采用防火材料制成——尽管在面对日常生活中常见的火灾时，它可能无法提供有效保护。
   components:
   - type: Sprite
     state: sheetrd
@@ -286,8 +286,8 @@
 - type: entity
   id: BedsheetBrigmedic
   parent: BedsheetBase
-  name: brigmedic's bedsheet
-  description: Not worse than cotton.
+  name: brigmedic的床单
+  description: 不逊于棉质。
   components:
   - type: Sprite
     state: sheetbrigmedic
@@ -297,7 +297,7 @@
 - type: entity
   id: BedsheetRed
   parent: BedsheetBase
-  name: red bedsheet
+  name: 红色床单
   components:
   - type: Sprite
     state: sheetred
@@ -307,8 +307,8 @@
 - type: entity
   id: BedsheetSyndie
   parent: [ BedsheetBase, BaseSyndicateContraband ]
-  name: syndicate bedsheet
-  description: It has a syndicate emblem and it has an aura of evil.
+  name: 辛迪加床单
+  description: 它有一个辛迪加徽章，并且散发着邪恶的气息。
   components:
   - type: Sprite
     state: sheetsyndie
@@ -318,7 +318,7 @@
 - type: entity
   id: BedsheetUSA
   parent: BedsheetBase
-  name: USA bedsheet
+  name: 美国床单
   components:
   - type: Sprite
     state: sheetUSA
@@ -328,7 +328,7 @@
 - type: entity
   id: BedsheetWhite
   parent: BedsheetBase
-  name: white bedsheet
+  name: 白色床单
   components:
   - type: Butcherable
     spawned:
@@ -342,8 +342,8 @@
 - type: entity
   id: BedsheetWiz
   parent: BedsheetBase
-  name: wizard's bedsheet
-  description: A special fabric enchanted with magic so you can have an enchanted night. It even glows!
+  name: 巫师的魔法床单
+  description: 一种注入魔法的特殊织物，让你拥有迷人的夜晚。它甚至会发光！
   components:
   - type: Sprite
     state: sheetwiz
@@ -353,7 +353,7 @@
 - type: entity
   id: BedsheetYellow
   parent: BedsheetBase
-  name: yellow bedsheet
+  name: 黄色床单
   components:
   - type: Sprite
     state: sheetyellow

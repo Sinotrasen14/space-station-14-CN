@@ -1,7 +1,7 @@
 - type: entity
   parent: BaseStructure
   id: BaseWeaponTurret
-  name: turret
+  name: 炮塔
   abstract: true
   components:
   - type: Clickable
@@ -80,8 +80,8 @@
 - type: entity
   parent: BaseWeaponTurret
   id: BaseWeaponBallisticTurret
-  description: A ballistic machine gun auto-turret.
-  name: ballistic turret
+  description: 一座弹道机枪自动炮塔。
+  name: 弹道炮塔
   abstract: true
   components:
   - type: ContainerContainer
@@ -101,8 +101,8 @@
 - type: entity
   parent: BaseWeaponTurret
   id: BaseWeaponEnergyTurret
-  name: laser turret
-  description: An auto-turret armed with a heavy laser. Its weapon will recharge while connected to an active power grid.
+  name: 激光炮塔
+  description: 一门装备重型激光器的自动炮塔。其武器在接入有效电网时将会自动充能。
   abstract: true
   components:
   - type: Sprite

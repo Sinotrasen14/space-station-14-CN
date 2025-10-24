@@ -14,7 +14,7 @@
 - type: entity
   parent: SpeechStatusEffectBase
   id: StatusEffectStutter
-  name: stutter
+  name: 口吃
   components:
   - type: StutteringAccent
 
@@ -22,7 +22,7 @@
 - type: entity
   parent: SpeechStatusEffectBase
   id: StatusEffectSlurred
-  name: slurred
+  name: 含糊不清
   components:
   - type: SlurredAccent
 
@@ -30,6 +30,6 @@
 - type: entity
   parent: SpeechStatusEffectBase
   id: StatusEffectScrambled
-  name: scrambled
+  name: 炒熟的
   components:
   - type: ScrambledAccent

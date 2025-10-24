@@ -1,6 +1,6 @@
 - type: entity
-  name: particles
-  description: Accelerated particles.
+  name: 粒子
+  description: 加速粒子。
   id: ParticlesProjectile
   parent: BaseBullet
   categories: [ HideSpawnMenu ]
@@ -52,8 +52,8 @@
       - Power
 
 - type: entity
-  name: anti particles
-  description: Accelerated negative particles.
+  name: 反粒子
+  description: 加速的负粒子。
   id: AntiParticlesProjectile
   parent: ParticlesProjectile
   categories: [ HideSpawnMenu ]

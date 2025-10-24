@@ -4,8 +4,8 @@
 - type: entity
   parent: ClothingOuterStorageBase
   id: ClothingOuterVestHazard
-  name: hi-viz vest
-  description: A high-visibility vest used in work zones.
+  name: 高可见性背心
+  description: 一件用于工作区域的高可见性背心。
   components:
   - type: Sprite
     sprite: Clothing/OuterClothing/Vests/hazard.rsi
@@ -42,8 +42,8 @@
 - type: entity
   parent: ClothingOuterBase
   id: ClothingOuterVest
-  name: vest
-  description: A thick vest with a rubbery, water-resistant shell.
+  name: 背心
+  description: 一件厚实的背心，带有橡胶质感且防水的表层。
   components:
   - type: Sprite
     sprite: Clothing/OuterClothing/Vests/vest.rsi
@@ -54,8 +54,8 @@
 - type: entity
   parent: [ClothingOuterBase, AllowSuitStorageClothingGasTanks]
   id: ClothingOuterVestTank
-  name: tank harness
-  description: A simple harness that can hold a gas tank.
+  name: 油箱固定带
+  description: 一种可以固定油箱的简单固定带。
   components:
   - type: Sprite
     sprite: Clothing/OuterClothing/Vests/tankharness.rsi

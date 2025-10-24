@@ -1,8 +1,8 @@
 - type: entity
-  name: base shield
+  name: 基础护盾
   parent: BaseItem
   id: BaseShield
-  description: A shield!
+  description: 一个护盾！
   abstract: true
   components:
     - type: Sprite
@@ -63,10 +63,10 @@
 #Security Shields
 
 - type: entity
-  name: riot shield
+  name: 防暴盾牌
   parent: [ BaseShield, BaseSecurityContraband ]
   id: RiotShield
-  description: A large tower shield. Good for controlling crowds.
+  description: 一面大型塔盾，适于控制人群。
   components:
     - type: StaticPrice
       price: 90
@@ -84,10 +84,10 @@
           Slash: 1
 
 - type: entity
-  name: laser shield
+  name: 激光护盾
   parent: [ BaseShield, BaseSecurityContraband ]
   id: RiotLaserShield
-  description: A shield built for withstanding lasers, but not much else.
+  description: 专为抵御激光而打造的护盾，但除此之外作用有限。
   components:
     - type: Sprite
       state: riot_laser-icon
@@ -104,10 +104,10 @@
           Heat: 1
 
 - type: entity
-  name: ballistic shield
+  name: 防弹盾牌
   parent: [ BaseShield, BaseSecurityContraband ]
   id: RiotBulletShield
-  description: A shield built for protecting against ballistics, but not much else.
+  description: 专为抵御子弹而打造的盾牌，除此之外别无他用。
   components:
     - type: Sprite
       state: riot_bullet-icon
@@ -126,10 +126,10 @@
 #Craftable shields
 
 - type: entity
-  name: wooden buckler
+  name: 木制小圆盾
   parent: BaseShield
   id: WoodenBuckler
-  description: A small round wooden makeshift shield.
+  description: 一个临时制作的小圆木盾。
   components:
     - type: Sprite
       state: buckler-icon
@@ -181,10 +181,10 @@
       price: 150
 
 - type: entity
-  name: cardboard shield
+  name: 纸板盾牌
   parent: BaseShield
   id: CardShield
-  description: A shield made of cardboard. Won't protect you from much.
+  description: 纸板制成的盾牌。保护作用有限。
   components:
     - type: Sprite
       state: cardshield-icon
@@ -233,10 +233,10 @@
       price: 20
 
 - type: entity
-  name: makeshift shield
+  name: 临时凑合的盾牌
   parent: BaseShield
   id: MakeshiftShield
-  description: A rundown looking shield, not good for much.
+  description: 一面破旧不堪的盾牌，派不上多大用场。
   components:
     - type: Sprite
       state: makeshift-icon
@@ -287,10 +287,10 @@
                   max: 2
 
 - type: entity
-  name: web shield
+  name: 网盾
   parent: BaseShield
   id: WebShield
-  description: A stringy shield. It's weak, and doesn't seem to do well against heat.
+  description: 一个网状的盾牌。它很脆弱，似乎不太耐热。
   components:
     - type: Sprite
       sprite: Objects/Weapons/Melee/web-shield.rsi
@@ -342,10 +342,10 @@
 #Magic/Cult Shields (give these to wizard for now)
 
 - type: entity
-  name: clockwork shield
+  name: 发条护盾
   parent: BaseShield
   id: ClockworkShield
-  description: Ratvar oyrffrf lbh jvgu uvf cebgrpgvba.
+  description: 拉特瓦尔用他的保护笼罩着你。
   components:
     - type: Sprite
       state: ratvarian-icon
@@ -371,10 +371,10 @@
       #Have it break into brass when clock cult is in
 
 - type: entity
-  name: mirror shield
+  name: 镜盾
   parent: [ BaseShield, BaseMagicalContraband ]
   id: MirrorShield
-  description: Eerily glows red... you hear the geometer whispering
+  description: 诡异地泛着红光……你听见几何学者在低语。
   components:
     - type: Sprite
       state: mirror-icon
@@ -419,10 +419,10 @@
                   max: 5
 
 - type: entity
-  name: energy shield
+  name: 能量护盾
   parent: [BaseItem, BaseSyndicateContraband]
   id: EnergyShield
-  description: Exotic energy shield, when folded, can even fit in your pocket.
+  description: 异星能量护盾，折叠后甚至能装进口袋。
   components:
     - type: ItemToggle
       soundActivate:
@@ -518,10 +518,10 @@
       price: 350
 
 - type: entity
-  name: broken energy shield
+  name: 能量护盾已损坏
   parent: BaseItem
   id: BrokenEnergyShield
-  description: Something inside is burned out, it is no longer functional.
+  description: 内部有东西烧坏了，它已经无法正常运作。
   components:
     - type: Sprite
       sprite: Objects/Weapons/Melee/e_shield.rsi
@@ -532,10 +532,10 @@
       heldPrefix: eshield
 
 - type: entity
-  name: telescopic shield
+  name: 伸缩盾
   parent: BaseShield
   id: TelescopicShield
-  description: An advanced riot shield made of lightweight materials that collapses for easy storage.
+  description: 一种由轻质材料制成的高级防暴盾，可折叠便于存储。
   components:
     - type: ItemToggle
       soundActivate:

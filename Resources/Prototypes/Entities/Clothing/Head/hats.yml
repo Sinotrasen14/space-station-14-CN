@@ -1,8 +1,8 @@
 - type: entity
   parent: ClothingHeadBase
   id: ClothingHeadHatBeaverHat
-  name: beaver hat
-  description: "\"Gentlemen?\""
+  name: 海狸皮帽
+  description: "先生们？"
   components:
   - type: Sprite
     sprite: Clothing/Head/Hats/beaver_hat.rsi
@@ -12,8 +12,8 @@
 - type: entity
   parent: ClothingHeadBase
   id: ClothingHeadHatBeret
-  name: beret
-  description: An artist's favorite headwear.
+  name: 贝雷帽
+  description: 艺术家的最爱头饰。
   components:
   - type: Sprite
     sprite: Clothing/Head/Hats/beret.rsi
@@ -31,8 +31,8 @@
 - type: entity
   parent: ClothingHeadBase
   id: ClothingHeadHatBeretFrench
-  name: french beret
-  description: A French beret. "Vive la France!"
+  name: 法国贝雷帽
+  description: 一顶法国贝雷帽。"法兰西万岁！"
   components:
   - type: Sprite
     sprite: Clothing/Head/Hats/beret_french.rsi
@@ -51,8 +51,8 @@
 - type: entity
   parent: ClothingHeadBase
   id: ClothingHeadHatBeretSecurity
-  name: security beret
-  description: A beret with the security department's insignia. For officers that are more inclined towards style than safety.
+  name: 安保贝雷帽
+  description: 一顶带有安保部门徽章的贝雷帽。专为那些更注重风格而非安全性的警官设计。
   components:
   - type: Sprite
     sprite: Clothing/Head/Hats/beret_security.rsi
@@ -70,8 +70,8 @@
 - type: entity
   parent: ClothingHeadBase
   id: ClothingHeadHatSecurityTrooper
-  name: trooper hat
-  description: A campaign hat for the Nanotrasen Troopers. It's supposed to come with a case, too...
+  name: 骑兵帽
+  description: 纳米传讯部队专用行军帽。按理说还该配个收纳盒的……
   components:
   - type: Sprite
     sprite: Clothing/Head/Hats/security_trooper_hat.rsi
@@ -85,8 +85,8 @@
 - type: entity
   parent: ClothingHeadBase
   id: ClothingHeadHatCasa
-  name: casa
-  description: Cone-shaped hat.
+  name: 卡萨
+  description: 锥形帽。
   components:
     - type: Sprite
       sprite: Clothing/Head/Hats/casa.rsi
@@ -100,8 +100,8 @@
 - type: entity
   parent: ClothingHeadBase
   id: ClothingHeadHatBeretRND
-  name: scientific beret
-  description: A beret for real scientists.
+  name: 科学贝雷帽
+  description: 专为真正科学家打造的贝雷帽。
   components:
   - type: Sprite
     sprite: Clothing/Head/Hats/beret_rnd.rsi
@@ -119,8 +119,8 @@
 - type: entity
   parent: ClothingHeadBase
   id: ClothingHeadHatBeretEngineering
-  name: engineering beret
-  description: A beret with the engineering department's insignia. For engineers that are more inclined towards style than safety.
+  name: 工程贝雷帽
+  description: 一顶带有工程部门徽章的贝雷帽。专为那些更注重风格而非安全性的工程师设计。
   components:
   - type: Sprite
     sprite: Clothing/Head/Hats/beret_engineering.rsi
@@ -138,8 +138,8 @@
 - type: entity
   parent: ClothingHeadBase
   id: ClothingHeadHatBeretQM
-  name: quartermaster's beret
-  description: A beret with the cargo department's insignia.
+  name: 军需官的贝雷帽
+  description: 一顶带有货运部门徽章的贝雷帽。
   components:
   - type: Sprite
     sprite: Clothing/Head/Hats/beret_qm.rsi
@@ -157,8 +157,8 @@
 - type: entity
   parent: ClothingHeadBase
   id: ClothingHeadHatBeretHoS
-  name: head of security's beret
-  description: A black beret with a commander's rank emblem. For officers that are more inclined towards style than safety.
+  name: 安保主管的贝雷帽
+  description: 一顶带有指挥官军衔标志的黑色贝雷帽。专为那些更注重风格而非安全性的军官设计。
   components:
   - type: Sprite
     sprite: Clothing/Head/Hats/beret_hos.rsi
@@ -176,8 +176,8 @@
 - type: entity
   parent: ClothingHeadBase
   id: ClothingHeadHatBeretWarden
-  name: warden's beret
-  description: A corporate-blue beret with a warden's rank emblem. For officers that are more inclined towards style than safety.
+  name: 典狱长的贝雷帽
+  description: 一顶带有典狱长官阶徽记的公司蓝贝雷帽。专为那些更注重风格而非安全的军官设计。
   components:
   - type: Sprite
     sprite: Clothing/Head/Hats/beret_warden.rsi
@@ -191,8 +191,8 @@
 - type: entity
   parent: ClothingHeadBase
   id: ClothingHeadHatBeretSeniorPhysician
-  name: physician beret
-  description: Donning the colours of medical and chemistry, physicians are the pride of this department!
+  name: 医师贝雷帽
+  description: 身着医学与化学的色彩，医师们是本部门的骄傲！
   components:
   - type: Sprite
     sprite: Clothing/Head/Hats/beret_physician.rsi
@@ -206,8 +206,8 @@
 - type: entity
   parent: ClothingHeadBase
   id: ClothingHeadHatBeretBrigmedic
-  name: brigmedical beret
-  description: A white beret for brigmedics.
+  name: 旅医贝雷帽
+  description: 旅医白色贝雷帽。
   components:
   - type: Sprite
     sprite: Clothing/Head/Hats/beret_brigmedic.rsi
@@ -221,8 +221,8 @@
 - type: entity
   parent: [ ClothingHeadBase ]
   id: ClothingHeadHatBeretMerc
-  name: mercenary beret
-  description: An olive beret with a badge depicting a jackal on a rock.
+  name: 雇佣兵贝雷帽
+  description: 一顶橄榄色贝雷帽，帽徽图案是岩石上的豺狼。
   components:
   - type: Sprite
     sprite: Clothing/Head/Hats/beret_merc.rsi
@@ -236,8 +236,8 @@
 - type: entity
   parent: ClothingHeadBase
   id: ClothingHeadHatBeretCommand
-  name: command beret
-  description: A beret with the Nanotrasen logo. It has an aura of authority.
+  name: 指挥贝雷帽
+  description: 一顶印有纳诺特拉森标志的贝雷帽，散发着权威的气息。
   components:
   - type: Sprite
     sprite: Clothing/Head/Hats/beret_command.rsi
@@ -254,8 +254,8 @@
 - type: entity
   parent: ClothingHeadBase
   id: ClothingHeadHatBowlerHat
-  name: bowler hat
-  description: A stylish bowler hat.
+  name: 圆顶礼帽
+  description: 一顶时尚的圆顶礼帽。
   components:
   - type: Sprite
     sprite: Clothing/Head/Hats/bowler_hat.rsi
@@ -269,8 +269,8 @@
 - type: entity
   parent: [ClothingHeadBase, BaseCommandContraband]
   id: ClothingHeadHatCaptain
-  name: captain's hardhat
-  description: Feels good being the king.
+  name: 船长的安全帽
+  description: 当国王的感觉真好。
   components:
   - type: Sprite
     sprite: Clothing/Head/Hats/captain.rsi
@@ -288,8 +288,8 @@
 - type: entity
   parent: ClothingHeadBase
   id: ClothingHeadHatCardborg
-  name: cardborg helmet
-  description: A hat made out of a box.
+  name: 纸箱头盔
+  description: 用纸箱做成的帽子。
   components:
   - type: Sprite
     sprite: Clothing/Head/Hats/cardborg_h.rsi
@@ -303,8 +303,8 @@
 - type: entity
   parent: [ ClothingHeadBase, BaseCentcommContraband ]
   id: ClothingHeadHatCentcom
-  name: CentComm brand hat
-  description: Feels good being the king's boss.
+  name: CentComm品牌帽子
+  description: 当国王的老板感觉真好。
   components:
   - type: Sprite
     sprite: Clothing/Head/Hats/centcom.rsi
@@ -318,8 +318,8 @@
 - type: entity
   parent: ClothingHeadBase
   id: ClothingHeadHatChef
-  name: chef's hat
-  description: A hat used by chefs to keep their hair out of your food. Judging by the food in the mess, they don't work.
+  name: 厨师帽
+  description: 厨师用来防止头发掉进你食物里的帽子。但从食堂的饭菜来看，这帽子并不管用。
   components:
   - type: Sprite
     sprite: Clothing/Head/Hats/chefhat.rsi
@@ -351,8 +351,8 @@
 - type: entity
   parent: ClothingHeadBase
   id: ClothingHeadHatFedoraBrown
-  name: brown fedora
-  description: A brown fedora.
+  name: 棕色软呢帽
+  description: 一顶棕色软呢帽。
   components:
   - type: Sprite
     sprite: Clothing/Head/Hats/brownfedora.rsi
@@ -370,8 +370,8 @@
 - type: entity
   parent: ClothingHeadBase
   id: ClothingHeadHatFedoraGrey
-  name: grey fedora
-  description: A grey fedora.
+  name: 灰色软呢帽
+  description: 一顶灰色软呢帽。
   components:
   - type: Sprite
     sprite: Clothing/Head/Hats/greyfedora.rsi
@@ -385,8 +385,8 @@
 - type: entity
   parent: ClothingHeadBase
   id: ClothingHeadHatFez
-  name: fez
-  description: A red fez.
+  name: 菲斯帽
+  description: 一顶红色菲斯帽。
   components:
   - type: Sprite
     sprite: Clothing/Head/Hats/fez.rsi
@@ -400,8 +400,8 @@
 - type: entity
   parent: [ClothingHeadBase, BaseCommandContraband]
   id: ClothingHeadHatHopcap
-  name: head of personnel's cap
-  description: A stylish cap worn by the Head of Personnel. Shows paperwork who's in charge.
+  name: 人事主管的帽子
+  description: 人事主管佩戴的时尚帽子，向文书工作宣示谁才是掌权者。
   components:
   - type: Sprite
     sprite: Clothing/Head/Hats/hopcap.rsi
@@ -419,8 +419,8 @@
 - type: entity
   parent: [ClothingHeadBase, BaseCommandContraband]
   id: ClothingHeadHatHoshat
-  name: head of security cap
-  description: A stylish cap worn by the Head of Security. Shows the officers who's in charge.
+  name: 保安队长的帽子
+  description: 保安队长佩戴的时尚帽子，彰显其统领地位。
   components:
   - type: Sprite
     sprite: Clothing/Head/Hats/hoshat.rsi
@@ -438,8 +438,8 @@
 - type: entity
   parent: ClothingHeadBase
   id: ClothingHeadHatOutlawHat
-  name: outlaw's hat
-  description: A hat that makes you look like you carry a notched pistol, numbered one and nineteen more.
+  name: 亡命之徒的帽子
+  description: 一顶让你看起来像是带着刻痕手枪的帽子，上面标记着一和另外十九个数字。
   components:
   - type: Sprite
     sprite: Clothing/Head/Hats/outlawhat.rsi
@@ -455,8 +455,8 @@
 - type: entity
   parent: ClothingHeadBase
   id: ClothingHeadHatWitch1
-  name: witch hat
-  description: A witch hat.
+  name: 女巫帽
+  description: 一顶女巫帽。
   components:
   - type: Sprite
     sprite: Clothing/Head/Hats/witchhat.rsi
@@ -470,8 +470,8 @@
 - type: entity
   parent: ClothingHeadBase
   id: ClothingHeadHatPaper
-  name: paper hat
-  description: A hat made of paper.
+  name: 纸帽子
+  description: 一顶用纸做的帽子。
   components:
   - type: Sprite
     sprite: Clothing/Head/Hats/paper.rsi
@@ -485,8 +485,8 @@
 - type: entity
   parent: ClothingHeadBase
   id: ClothingHeadHatPirate
-  name: pirate hat
-  description: "\"Yo ho ho and a bottle of rum!\""
+  name: 海盗帽
+  description: "哟呵呵，再来一瓶朗姆酒！"
   components:
   - type: Sprite
     sprite: Clothing/Head/Hats/pirate.rsi
@@ -500,8 +500,8 @@
 - type: entity
   parent: ClothingHeadBase
   id: ClothingHeadHatPlaguedoctor
-  name: plague doctor hat
-  description: These were once used by plague doctors.
+  name: 瘟疫医生帽
+  description: 这些曾被瘟疫医生所使用。
   components:
   - type: Sprite
     sprite: Clothing/Head/Hats/plaguedoctor.rsi
@@ -521,8 +521,8 @@
 - type: entity
   parent: ClothingHeadHatWizardBase
   id: ClothingHeadHatRedwizard
-  name: red wizard hat
-  description: A strange-looking red hat that most certainly belongs to a powerful magic-user.
+  name: 红色巫师帽
+  description: 一顶造型奇特的红色帽子，显然属于某位强大的魔法师。
   components:
   - type: Sprite
     sprite: Clothing/Head/Hats/redwizard.rsi
@@ -538,8 +538,8 @@
 - type: entity
   parent: [ClothingHeadBase, BaseFoldable]
   id: ClothingHeadHatSantahat
-  name: santa hat
-  description: A festive hat worn by Santa Claus. Now with a foldable beard.
+  name: 圣诞帽
+  description: 一顶圣诞老人佩戴的节日帽。现配有可折叠的胡须。
   components:
   - type: Clothing
     sprite: Clothing/Head/Hats/santahat.rsi
@@ -571,8 +571,8 @@
 - type: entity
   parent: ClothingHeadBase
   id: ClothingHeadHatSombrero
-  name: sombrero
-  description: "\"Perfect for Space Mexico, si?\""
+  name: 墨西哥草帽
+  description: "最适合太空墨西哥了，对吧？"
   components:
   - type: Sprite
     sprite: Clothing/Head/Hats/sombrero.rsi
@@ -588,8 +588,8 @@
 - type: entity
   parent: ClothingHeadBase
   id: ClothingHeadHatSurgcapBlue
-  name: surgical cap
-  description: A blue cap surgeons wear during operations. Keeps their hair from tickling your internal organs.
+  name: 手术帽
+  description: 外科医生在手术时戴的蓝色帽子，防止他们的头发碰到你的内脏。
   components:
   - type: Sprite
     sprite: Clothing/Head/Hats/surgcap_blue.rsi
@@ -610,8 +610,8 @@
 - type: entity
   parent: ClothingHeadBase
   id: ClothingHeadHatSurgcapGreen
-  name: surgical cap
-  description: A green cap surgeons wear during operations. Keeps their hair from tickling your internal organs.
+  name: 手术帽
+  description: 手术时医生戴的绿色帽子，防止他们的头发碰到你的内脏。
   components:
   - type: Sprite
     sprite: Clothing/Head/Hats/surgcap_green.rsi
@@ -626,8 +626,8 @@
 - type: entity
   parent: ClothingHeadBase
   id: ClothingHeadHatSurgcapPurple
-  name: surgical cap
-  description: A purple cap surgeons wear during operations. Keeps their hair from tickling your internal organs.
+  name: 手术帽
+  description: 手术中外科医生佩戴的紫色帽子，防止他们的头发触碰到你的内脏。
   components:
   - type: Sprite
     sprite: Clothing/Head/Hats/surgcap_purple.rsi
@@ -642,8 +642,8 @@
 - type: entity
   parent: ClothingHeadBase
   id: ClothingHeadHatTophat
-  name: tophat
-  description: A stylish black tophat.
+  name: 高顶礼帽
+  description: 一顶时尚的黑色高顶礼帽。
   components:
   - type: Sprite
     sprite: Clothing/Head/Hats/tophat.rsi
@@ -661,8 +661,8 @@
 - type: entity
   parent: [ClothingHeadBase, BaseFoldable]
   id: ClothingHeadHatUshanka
-  name: ushanka
-  description: "\"Perfect for winter in Siberia, da?\""
+  name: 乌什卡帽
+  description: "西伯利亚的冬天戴这个再合适不过了，对吧？"
   components:
   - type: Clothing
     sprite: Clothing/Head/Hats/ushanka.rsi
@@ -686,8 +686,8 @@
 - type: entity
   parent: ClothingHeadBase
   id: ClothingHeadHatCanadaBeanie
-  name: beanie
-  description: Red, white and snug. It radiates a homely feeling, if your home happens to be chilly and filled with coffeehouses.
+  name: 豆豆帽
+  description: 红白相间，温暖舒适。它散发着家的感觉——如果你的家恰巧微凉且飘满咖啡馆香气。
   components:
   - type: Sprite
     sprite: Clothing/Head/Hats/beanie.rsi
@@ -724,8 +724,8 @@
 - type: entity
   parent: ClothingHeadHatWizardBase
   id: ClothingHeadHatVioletwizard
-  name: violet wizard hat
-  description: A strange-looking violet hat that most certainly belongs to a powerful magic-user.
+  name: 紫色巫师帽
+  description: 一顶造型奇特的紫色帽子，显然属于某位强大的魔法师。
   components:
   - type: Sprite
     sprite: Clothing/Head/Hats/violetwizard.rsi
@@ -741,8 +741,8 @@
 - type: entity
   parent: ClothingHeadBase
   id: ClothingHeadHatWarden
-  name: warden's cap
-  description: This hat emphasizes that you are THE LAW.
+  name: 狱警帽
+  description: 这顶帽子彰显着你即是法律的化身。
   components:
   - type: Sprite
     sprite: Clothing/Head/Hats/warden.rsi
@@ -758,8 +758,8 @@
 - type: entity
   parent: ClothingHeadBase
   id: ClothingHeadHatWitch
-  name: witch hat
-  description: A witch hat.
+  name: 女巫帽
+  description: 一顶女巫帽。
   components:
   - type: WizardClothes #Yes this will count
   - type: Sprite
@@ -780,8 +780,8 @@
 - type: entity
   parent: ClothingHeadBase
   id: ClothingHeadHatWizardFake
-  name: fake wizard hat
-  description: It has "WIZZARD" written across it in garish sequins. Comes with a cool beard.
+  name: 假巫师帽
+  description: 帽子上用俗气的亮片绣着“巫师”字样，还附带一款超酷的假胡子。
   components:
   - type: Sprite
     sprite: Clothing/Head/Hats/wizard_fake.rsi
@@ -803,8 +803,8 @@
 - type: entity
   parent: ClothingHeadHatWizardBase
   id: ClothingHeadHatWizard
-  name: wizard hat
-  description: A strange-looking blue hat that most certainly belongs to a powerful magic-user.
+  name: 巫师帽
+  description: 一顶造型奇特的蓝色帽子，显然属于某位强大的魔法师。
   components:
   - type: Sprite
     sprite: Clothing/Head/Hats/wizardhat.rsi
@@ -822,8 +822,8 @@
 - type: entity
   parent: ClothingHeadBase
   id: ClothingHeadHatXmasCrown
-  name: xmas crown
-  description: "\"Happy Christmas!\""
+  name: 圣诞帽
+  description: "圣诞快乐！"
   components:
   - type: Sprite
     sprite: Clothing/Head/Hats/xmascrown.rsi
@@ -833,8 +833,8 @@
 - type: entity
   parent: ClothingHeadBase
   id: ClothingHeadHatTrucker
-  name: trucker hat
-  description: Formerly Chuck's, this hat is yours now.
+  name: 卡车司机帽
+  description: 这顶曾是查克的帽子，现在归你了。
   components:
   - type: Sprite
     sprite: Clothing/Head/Hats/truckershat.rsi
@@ -844,8 +844,8 @@
 - type: entity
   parent: [ ClothingHeadBase, BaseSyndicateContraband ]
   id: ClothingHeadPyjamaSyndicateBlack
-  name: syndicate black pyjama hat
-  description: For keeping that traitor head of yours warm.
+  name: 辛迪加黑色睡衣帽
+  description: 为了让你那颗叛徒的脑袋暖和点。
   components:
   - type: Sprite
     sprite: Clothing/Head/Hats/pyjamasyndicateblack.rsi
@@ -860,8 +860,8 @@
 - type: entity
   parent: [ ClothingHeadBase, BaseSyndicateContraband ]
   id: ClothingHeadPyjamaSyndicatePink
-  name: syndicate pink pyjama hat
-  description: For keeping that traitor head of yours warm.
+  name: 辛迪加粉色睡衣帽
+  description: 为了让你那颗叛徒脑袋暖和点。
   components:
   - type: Sprite
     sprite: Clothing/Head/Hats/pyjamasyndicatepink.rsi
@@ -876,8 +876,8 @@
 - type: entity
   parent: [ ClothingHeadBase, BaseSyndicateContraband ]
   id: ClothingHeadPyjamaSyndicateRed
-  name: syndicate red pyjama hat
-  description: For keeping that traitor head of yours warm.
+  name: 辛迪加红色睡衣帽
+  description: 为了让你那颗叛徒脑袋暖和点。
   components:
   - type: Sprite
     sprite: Clothing/Head/Hats/pyjamasyndicatered.rsi
@@ -892,8 +892,8 @@
 - type: entity
   parent: ClothingHeadBase
   id: ClothingHeadPaperSack
-  name: papersack hat
-  description: A paper sack with crude holes cut out for eyes. Useful for hiding one's identity and/or ugliness.
+  name: 纸袋帽
+  description: 一只纸袋，粗糙地挖出两个洞作眼睛，可用于隐藏身份和/或丑陋容貌。
   components:
   - type: Sprite
     sprite: Clothing/Head/Hats/papersack.rsi
@@ -909,8 +909,8 @@
 - type: entity
   parent: ClothingHeadBase
   id: ClothingHeadPaperSackSmile
-  name: smiling papersack hat
-  description: A paper sack with crude holes cut out for eyes and a sketchy smile drawn on the front. Not creepy at all.
+  name: 微笑纸袋帽
+  description: 一个纸袋，上面粗糙地挖了两个洞作眼睛，正面画着潦草的笑容。一点也不吓人。
   components:
   - type: Sprite
     sprite: Clothing/Head/Hats/papersacksmile.rsi
@@ -926,8 +926,8 @@
 - type: entity
   parent: ClothingHeadBase
   id: ClothingHeadFishCap
-  name: fishing cap
-  description: "\"Women fear me. Fish fear me. Men turn their eyes away from me. As I walk no beast dares make a sound in my presence. I am alone on this barren Earth.\""
+  name: 钓鱼帽
+  description: "女人怕我。鱼也怕我。男人见我都要移开视线。我行走时，野兽不敢在我面前发出声响。在这荒芜的世界上，我独身一人。"
   components:
   - type: Sprite
     sprite: Clothing/Head/Hats/fishcap.rsi
@@ -937,8 +937,8 @@
 - type: entity
   parent: ClothingHeadBase
   id: ClothingHeadWehcellentCap
-  name: wehcellent cap
-  description: "\"It was a net hat! Tiders wear them all the time! It's got airholes in the back to keep a cross-breeze going and everything!\""
+  name: wehcellent帽子
+  description: “那是一顶网眼帽！潮汐族们总戴着它们！帽子后面还有透气孔，能保持空气流通，一切都考虑得很周到！”
   components:
   - type: Sprite
     sprite: Clothing/Head/Hats/wehcellentcap.rsi
@@ -948,8 +948,8 @@
 - type: entity
   parent: ClothingHeadBase
   id: ClothingHeadNurseHat
-  name: nurse hat
-  description: Somehow I feel I'm not supposed to leave this place.
+  name: 护士帽
+  description: 不知为何，我觉得自己不该离开这个地方。
   components:
   - type: Sprite
     sprite: Clothing/Head/Hats/nursehat.rsi
@@ -965,8 +965,8 @@
 - type: entity
   parent: ClothingHeadBase
   id: ClothingHeadRastaHat
-  name: rasta hat
-  description: Right near da beach, boyee.
+  name: 拉斯特法里帽
+  description: 就在海滩边上呢，老弟。
   components:
   - type: Sprite
     sprite: Clothing/Head/Hats/rasta.rsi
@@ -981,8 +981,8 @@
 - type: entity
   parent: ClothingHeadBase
   id: ClothingHeadSafari
-  name: safari hat
-  description: Keeps the sun out of your eyes. Makes you a target for the locals.
+  name: 狩猎帽
+  description: 遮阳护目，却让你成为当地人的醒目目标。
   components:
   - type: Sprite
     sprite: Clothing/Head/Hats/safarihat.rsi
@@ -992,8 +992,8 @@
 - type: entity
   parent: ClothingHeadBase
   id: ClothingHeadHatJester
-  name: jester hat
-  description: A hat with bells, to add some merriness to your head.
+  name: 小丑帽
+  description: 一顶带铃铛的帽子，为你的头顶增添欢愉。
   components:
     - type: Sprite
       sprite: Clothing/Head/Hats/jester.rsi
@@ -1017,8 +1017,8 @@
 - type: entity
   parent: [ClothingHeadBase, BaseCommandContraband]
   id: ClothingHeadHatBeretCmo
-  name: chief medical officer's beret
-  description: A turquoise beret with a cross on the front. The sight of it calms you down and makes it clear that you will be cured.
+  name: 首席医务官的贝雷帽
+  description: 一顶前端饰有十字架的青蓝色贝雷帽。看见它便能让你平静下来，并确信自己终将痊愈。
   components:
   - type: Sprite
     sprite: Clothing/Head/Hats/beret_cmo.rsi
@@ -1036,8 +1036,8 @@
 - type: entity
   parent: ClothingHeadBase
   id: ClothingHeadHatPirateTricord
-  name: pirate hat
-  description: "\"Yo ho ho and a bottle of rum!\""
+  name: 海盗帽
+  description: "哟呵呵，再来一瓶朗姆酒！"
   components:
   - type: Sprite
     sprite: Clothing/Head/Hats/piratetricord.rsi
@@ -1047,8 +1047,8 @@
 - type: entity
   parent: ClothingHeadBase
   id: ClothingHeadHatWatermelon
-  name: watermelon helmet
-  description: A carelessly cut half of a watermelon, gutted from the inside, to be worn as a helmet. It can soften the blow to the head.
+  name: 西瓜头盔
+  description: 一个随意切开的半只西瓜，内瓤已被掏空，可当作头盔佩戴。它能缓解头部受到的撞击。
   components:
   - type: Sprite
     sprite: Clothing/Head/Hats/melon.rsi
@@ -1062,8 +1062,8 @@
 - type: entity
   parent: ClothingHeadBase
   id: ClothingHeadHatHolyWatermelon
-  name: watermelon halo
-  description: Holy moly.
+  name: 西瓜光环
+  description: 我的天哪。
   components:
   - type: Sprite
     sprite: Clothing/Head/Hats/holyhatmelon.rsi
@@ -1077,8 +1077,8 @@
 - type: entity
   parent: [ClothingHeadBase, BaseSyndicateContraband]
   id: ClothingHeadHatSyndie
-  name: syndicate hat
-  description: A souvenir hat from "Syndieland", their production has already been closed.
+  name: 辛迪加纪念帽
+  description: 来自"辛迪加乐园"的纪念帽，该产品现已停产。
   components:
   - type: Sprite
     sprite: Clothing/Head/Hats/syndiecap.rsi
@@ -1088,8 +1088,8 @@
 - type: entity
   parent: ClothingHeadBase
   id: ClothingHeadHatSyndieMAA
-  name: master at arms hat
-  description: Master at arms hat, looks intimidating, I doubt that you will like to communicate with its owner...
+  name: 海军陆战队军帽
+  description: 海军陆战队军帽，外形威严慑人，恐怕你不会想与它的主人打交道……
   components:
   - type: Sprite
     sprite: Clothing/Head/Hats/syndiecap_maa.rsi
@@ -1099,8 +1099,8 @@
 - type: entity
   parent: ClothingHeadBase
   id: ClothingHeadHatTacticalMaidHeadband
-  name: tactical maid headband
-  description: A red headband - don't imagine yourself a Rambo and don't pick up a few machine guns.
+  name: 战术女仆头带
+  description: 红色头带——别把自己想象成兰博，也别捡起几把机枪。
   components:
   - type: Sprite
     sprite: Clothing/Head/Hats/tacticalmaidheadband.rsi
@@ -1110,8 +1110,8 @@
 - type: entity
   parent: ClothingHeadBase
   id: ClothingHeadHatHetmanHat
-  name: hetman hat
-  description: From the Zaporozhian Sich with love.
+  name: 酋长帽
+  description: 来自扎波罗热塞契的爱。
   components:
   - type: Sprite
     sprite: Clothing/Head/Hats/hetman_hat.rsi
@@ -1121,8 +1121,8 @@
 - type: entity
   parent: ClothingHeadBase
   id: ClothingHeadHatMagician
-  name: magician's tophat
-  description: A magician's top hat.
+  name: 魔术师的礼帽
+  description: 一顶魔术师的礼帽。
   components:
   - type: Icon
     sprite: Clothing/Head/Hats/magician.rsi
@@ -1158,8 +1158,8 @@
 - type: entity
   parent: ClothingHeadBase
   id: ClothingHeadHatCapcap
-  name: cap cap
-  description: A grand, stylish cap worn by the Captain. Shows the station who's in charge.
+  name: 帽子 帽子
+  description: 一顶船长佩戴的华丽时尚帽子，彰显掌权者的地位。
   components:
   - type: Sprite
     sprite: Clothing/Head/Hats/capcap.rsi
@@ -1183,8 +1183,8 @@
 - type: entity
   parent: [ ClothingHeadBase, BaseCentcommContraband ]
   id: ClothingHeadHatCentcomcap
-  name: CentComm cap
-  description: An extravagant, stylish cap worn by CentComm officials. Shows the Captain who's in charge.
+  name: 中央司令部帽子
+  description: 中央司令部官员佩戴的奢华时尚帽子，彰显舰长的统御地位。
   components:
   - type: Sprite
     sprite: Clothing/Head/Hats/comcap.rsi
@@ -1204,8 +1204,8 @@
 - type: entity
   parent: ClothingHeadBase
   id: ClothingHeadHatGladiator
-  name: gladiator helmet
-  description: Protects the head from harsh ash winds and toy spears.
+  name: 角斗士头盔
+  description: 保护头部免受猛烈灰烬之风与玩具长矛的侵袭。
   components:
   - type: Sprite
     sprite: Clothing/Head/Hats/gladiator.rsi
@@ -1220,8 +1220,8 @@
 - type: entity
   parent: ClothingHeadBase
   id: ClothingHeadHatPartyRed
-  name: red party hat
-  description: Spread a joy!
+  name: 红色派对帽
+  description: 传播欢乐！
   components:
   - type: Sprite
     sprite: Clothing/Head/Hats/party_red.rsi
@@ -1237,7 +1237,7 @@
 - type: entity
   parent: ClothingHeadHatPartyRed
   id: ClothingHeadHatPartyYellow
-  name: yellow party hat
+  name: 黄色派对帽
   components:
   - type: Sprite
     sprite: Clothing/Head/Hats/party_yellow.rsi
@@ -1253,7 +1253,7 @@
 - type: entity
   parent: ClothingHeadHatPartyRed
   id: ClothingHeadHatPartyGreen
-  name: green party hat
+  name: 绿色派对帽
   components:
   - type: Sprite
     sprite: Clothing/Head/Hats/party_green.rsi
@@ -1269,7 +1269,7 @@
 - type: entity
   parent: ClothingHeadHatPartyRed
   id: ClothingHeadHatPartyBlue
-  name: blue party hat
+  name: 蓝色派对帽
   components:
   - type: Sprite
     sprite: Clothing/Head/Hats/party_blue.rsi
@@ -1285,8 +1285,8 @@
 - type: entity
   parent: ClothingHeadHatPartyRed
   id: ClothingHeadHatPartyWaterCup
-  name: water cup party hat
-  description: Not as fulfilling as you had hoped...
+  name: 水杯派对帽
+  description: 不如你期望的那样令人满意……
   components:
   - type: Sprite
     sprite: Clothing/Head/Hats/party_water_cup.rsi
@@ -1302,8 +1302,8 @@
 - type: entity
   parent: ClothingHeadBase
   id: ClothingHeadHatGreyFlatcap
-  name: grey flatcap
-  description: Fashionable for both the working class and old man Jenkins.
+  name: 灰色平顶帽
+  description: 既适合工人阶级，也适合老詹金斯先生的时尚之选。
   components:
   - type: Tag
     tags:
@@ -1316,8 +1316,8 @@
 - type: entity
   parent: ClothingHeadBase
   id: ClothingHeadHatBrownFlatcap
-  name: brown flatcap
-  description: "\"Stupid clown! You made me look bad!\""
+  name: 棕色平顶帽
+  description: "蠢货小丑！你让我丢尽了脸！"
   components:
   - type: Tag
     tags:
@@ -1330,8 +1330,8 @@
 - type: entity
   parent: ClothingHeadBase
   id: ClothingHeadHatCowboyBrown
-  name: brown cowboy hat
-  description: "\"This hat ain't big enough for the two of us.\""
+  name: 棕色牛仔帽
+  description: "这顶帽子可容不下咱们俩。"
   components:
     - type: Sprite
       sprite: Clothing/Head/Hats/cowboyhatbrown.rsi
@@ -1350,7 +1350,7 @@
 - type: entity
   parent: ClothingHeadHatCowboyBrown
   id: ClothingHeadHatCowboyBlack
-  name: black cowboy hat
+  name: 黑色牛仔帽
   components:
     - type: Sprite
       sprite: Clothing/Head/Hats/cowboyhatblack.rsi
@@ -1366,7 +1366,7 @@
 - type: entity
   parent: ClothingHeadHatCowboyBrown
   id: ClothingHeadHatCowboyGrey
-  name: grey cowboy hat
+  name: 灰色牛仔帽
   components:
     - type: Sprite
       sprite: Clothing/Head/Hats/cowboyhatgrey.rsi
@@ -1382,7 +1382,7 @@
 - type: entity
   parent: ClothingHeadHatCowboyBrown
   id: ClothingHeadHatCowboyRed
-  name: red cowboy hat
+  name: 红色牛仔帽
   components:
     - type: Sprite
       sprite: Clothing/Head/Hats/cowboyhatred.rsi
@@ -1398,7 +1398,7 @@
 - type: entity
   parent: ClothingHeadHatCowboyBrown
   id: ClothingHeadHatCowboyWhite
-  name: white cowboy hat
+  name: 白色牛仔帽
   components:
     - type: Sprite
       sprite: Clothing/Head/Hats/cowboyhatwhite.rsi
@@ -1414,7 +1414,7 @@
 - type: entity
   parent: ClothingHeadHatCowboyBrown
   id: ClothingHeadHatCowboyBountyHunter
-  name: bounty hunter cowboy hat
+  name: 赏金猎人牛仔帽
   components:
     - type: Sprite
       sprite: Clothing/Head/Hats/cowboyhatbountyhunter.rsi
@@ -1430,8 +1430,8 @@
 - type: entity
   parent: ClothingHeadBase
   id: ClothingHeadHatStrawHat
-  name: straw hat
-  description: A fancy hat for hot days! Not recommended to wear near fires.
+  name: 草帽
+  description: 一顶适合炎热天气的时尚草帽！不建议在火源附近佩戴。
   components:
   - type: Sprite
     sprite: Clothing/Head/Hats/straw_hat.rsi
@@ -1476,8 +1476,8 @@
 - type: entity
   parent: ClothingHeadBase
   id: ClothingHeadHatBeretMedic
-  name: medical beret
-  description: A sterile white beret.
+  name: 医用贝雷帽
+  description: 一顶无菌白色贝雷帽。
   components:
   - type: Sprite
     sprite: Clothing/Head/Hats/beret_medic.rsi
@@ -1491,8 +1491,8 @@
 - type: entity
   parent: ClothingHeadBase
   id: ClothingHeadHatSolidHeadband
-  name: solid headband
-  description: "\"You'll feel like you're Invisible while wearing this! (DISCLAIMER: DOES NOT ACTUALLY MAKE THE WEARER INVISIBLE)\""
+  name: 实心头带
+  description: “戴上它，你会感觉自己像隐形人！（免责声明：实际并不会让佩戴者真正隐形）”
   components:
   - type: Sprite
     sprite: Clothing/Head/Hats/solidheadband.rsi
@@ -1506,8 +1506,8 @@
 - type: entity
   parent: ClothingHeadBase
   id: ClothingHeadPropellerHat
-  name: propeller hat
-  description: You're the bestest boy.
+  name: 螺旋桨帽
+  description: 你是最棒的男孩。
   components:
   - type: Sprite
     sprite: Clothing/Head/Hats/propellerhat.rsi

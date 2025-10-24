@@ -1,8 +1,8 @@
 - type: entity
   id: CigarCase
   parent: [ BaseStorageItem, BaseBagOpenClose ]
-  name: cigar case
-  description: A case for holding your cigars when you are not smoking them.
+  name: 雪茄盒
+  description: 一个用于在你不抽雪茄时存放雪茄的盒子。
   components:
   - type: Sprite
     sprite: Objects/Consumable/Smokeables/Cigars/case.rsi
@@ -66,8 +66,8 @@
 - type: entity
   id: CigarGoldCase
   parent: CigarCase
-  name: premium cigar case
-  description: "A case of premium Havanian cigars. You'll only see heads with these."
+  name: 高级雪茄盒
+  description: 一盒高级哈瓦那雪茄。只有重要人物才配享用这些。
   components:
   - type: StorageFill
     contents:

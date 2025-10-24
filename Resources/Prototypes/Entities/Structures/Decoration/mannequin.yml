@@ -1,8 +1,8 @@
 - type: entity
   id: Mannequin
   parent: [BaseStructureDynamic, StripableInventoryBase]
-  name: mannequin
-  description: It can wear any clothing with style.
+  name: 人体模型
+  description: 它可以驾驭任何款式的服装。
   components:
   - type: Appearance
   - type: Sprite

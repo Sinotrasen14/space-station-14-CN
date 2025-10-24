@@ -1,12 +1,12 @@
 - type: entity
-  name: moproach
+  name: 蛾螂
   parent: MobMothroach
   id: MobMoproach
-  description: This little mothroach has mopshoes on its feet! How adorable!
+  description: 这只小蛾螂脚上穿着摩普鞋！真可爱！
   components:
   - type: GhostRole
-    name: ghost-role-information-moproach-name
-    description: ghost-role-information-moproach-description
+    name: 鬼魂角色信息-莫普洛奇-名称
+    description: 鬼魂角色信息-莫普洛奇-描述
   - type: Sprite
     sprite: Mobs/Animals/mothroach/moproach.rsi
   - type: Clothing

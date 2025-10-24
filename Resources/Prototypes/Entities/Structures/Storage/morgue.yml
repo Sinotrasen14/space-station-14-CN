@@ -1,7 +1,7 @@
 - type: entity
   id: Morgue
-  name: morgue
-  description: Used to store bodies until someone fetches them. Includes a high-tech alert system for false-positives!
+  name: 停尸房
+  description: 用于存放尸体直至有人认领。包含一套高科技误报警报系统！
   placement:
     mode: SnapgridCenter
   components:
@@ -76,8 +76,8 @@
 
 - type: entity
   id: Crematorium
-  name: crematorium
-  description: A human incinerator. Works well on barbecue nights.
+  name: 焚尸炉
+  description: 一台人体焚化炉。烧烤之夜表现尤佳。
   placement:
     mode: SnapgridCenter
   components:

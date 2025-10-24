@@ -1,8 +1,8 @@
 - type: entity
   parent: BaseBoardEntity
   id: BackgammonBoard
-  name: backgammon board
-  description: Old fashioned game of dice and pieces.
+  name: 西洋双陆棋棋盘
+  description: 老式骰子与棋子游戏。
   components:
   - type: Sprite
     sprite: Objects/Fun/Tabletop/backgammon.rsi
@@ -16,7 +16,7 @@
 
 - type: entity
   id: BackgammonBoardTabletop
-  name: backgammon
+  name: 双陆棋
   parent: BaseBoardTabletop
   categories: [ HideSpawnMenu ]
   components:

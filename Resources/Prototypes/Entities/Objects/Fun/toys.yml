@@ -16,7 +16,7 @@
   - type: ToolOpenable
     openToolQualityNeeded: Slicing
     closeToolQualityNeeded: Slicing # Should probably be stitching or something if that gets added
-    name: secret-stash-plushie
+    name: 秘密藏匿毛绒玩具
   - type: ContainerContainer
     containers:
       stash: !type:ContainerSlot {}
@@ -53,8 +53,8 @@
 - type: entity
   parent: BaseRubberToy
   id: ToyRubberDuck
-  name: rubber ducky
-  description: Not carried here by ocean currents.
+  name: 橡皮鸭
+  description: 并非由洋流带到此处。
   components:
   - type: Sprite
     sprite: Objects/Fun/ducky.rsi
@@ -88,8 +88,8 @@
 - type: entity
   parent: BaseRubberToy
   id: RubberChicken
-  name: rubber chicken
-  description: A stress inducing parody of nature's most delectable avian.
+  name: 橡胶鸡
+  description: 对自然界最美味禽类的戏仿，令人倍感压力。
   components:
   - type: Sprite
     sprite: Objects/Fun/rubber_chicken.rsi
@@ -131,8 +131,8 @@
 - type: entity
   parent: BaseItem
   id: BaseFigurineCheapo
-  name: figurine
-  description: A small miniature.
+  name: 小雕像
+  description: 一个小型雕像。
   abstract: true
   components:
   - type: PhysicalComposition
@@ -147,8 +147,8 @@
 - type: entity
   parent: BaseFigurineCheapo
   id: ToyAi
-  name: AI toy
-  description: A scaled-down toy AI core.
+  name: AI玩具
+  description: 一个缩小版的玩具AI核心。
   components:
   - type: Sprite
     sprite: Objects/Fun/AI.rsi
@@ -166,8 +166,8 @@
 - type: entity
   parent: BaseFigurineCheapo
   id: ToyNuke
-  name: nuke toy
-  description: A plastic model of a Nuclear Fission Explosive. No uranium included... probably.
+  name: 核弹玩具
+  description: 一个核裂变爆炸装置的塑料模型。不含铀元素……大概吧。
   components:
   - type: Sprite
     sprite: Objects/Fun/toy_nuke.rsi
@@ -208,8 +208,8 @@
 - type: entity
   parent: BasePlushie
   id: ToyIan
-  name: ian toy
-  description: Unable to eat, but just as fluffy as the real guy!
+  name: 伊恩玩具
+  description: 吃不了东西，但和本尊一样毛茸茸！
   components:
   - type: Sprite
     sprite: Objects/Fun/toy_ian.rsi
@@ -266,8 +266,8 @@
 - type: entity
   parent: FoamWeaponBase
   id: FoamCrossbow
-  name: foam crossbow
-  description: Aiming this at Security may get you filled with lead.
+  name: 泡沫弩
+  description: 把这玩意儿对准安保人员可能会让你吃枪子儿。
   components:
   - type: Sprite
     sprite: Objects/Fun/Foam/foam_crossbow.rsi
@@ -297,8 +297,8 @@
 - type: entity
   parent: BaseItem
   id: ToyGunBase
-  name: ToyGunBase
-  description: A rooty tooty point and shooty.
+  name: 玩具枪基座
+  description: 一把根深蒂固的指指射射玩具。
   abstract: true
   components:
   - type: Sprite
@@ -306,8 +306,8 @@
 - type: entity
   parent: ToyGunBase
   id: RevolverCapGun
-  name: cap gun
-  description: Looks almost like the real thing! Ages 8 and up.
+  name: 玩具枪
+  description: 看起来几乎和真的一样！适合8岁及以上儿童。
   components:
   - type: Sprite
     sprite: Objects/Fun/capgun.rsi
@@ -352,9 +352,9 @@
 - type: entity
   parent: RevolverCapGun
   id: RevolverCapGunFake
-  name: cap gun
+  name: 玩具枪
   suffix: Fake
-  description: Looks almost like the real thing! Ages 8 and up.
+  description: 看起来几乎和真的一样！适合8岁及以上儿童。
   components:
   - type: RevolverAmmoProvider
     whitelist:
@@ -368,8 +368,8 @@
 - type: entity
   parent: BaseItem
   id: FoamBlade
-  name: foamblade
-  description: It says "Sternside Changs number 1 fan" on it.
+  name: 泡沫之刃
+  description: 上面写着"斯特恩赛德·张的头号粉丝"。
   components:
   - type: Sprite
     sprite: Objects/Fun/Foam/foam_blade.rsi
@@ -392,8 +392,8 @@
 - type: entity
   parent: BaseItem
   id: Basketball
-  name: basketball
-  description: Where dah courts at?
+  name: 篮球
+  description: 球场搁哪儿呢？
   components:
   - type: Sprite
     sprite: Objects/Fun/Balls/basketball.rsi
@@ -424,8 +424,8 @@
 - type: entity
   parent: BaseItem
   id: Football
-  name: football
-  description: Otherwise known as a handegg.
+  name: 橄榄球
+  description: 也被称为手蛋。
   components:
   - type: Sprite
     sprite: Objects/Fun/Balls/football.rsi
@@ -454,8 +454,8 @@
 - type: entity
   parent: BaseItem
   id: TennisBall
-  name: tennis ball
-  description: A fuzzy orb of endless betrayal.
+  name: 网球
+  description: 一颗毛茸茸的圆球，充满无尽的背叛。
   components:
   - type: Sprite
     sprite: Objects/Fun/Balls/tennisball.rsi
@@ -495,8 +495,8 @@
 - type: entity
   parent: BaseItem
   id: BeachBall
-  name: beach ball
-  description: The simple beach ball is one of Nanotrasen's most popular products. 'Why do we make beach balls? Because we can! (TM)' - Nanotrasen
+  name: 沙滩球
+  description: 这款简易沙滩球是纳诺特拉森最受欢迎的产品之一。“我们为何生产沙滩球？因为我们能！（TM）”——纳诺特拉森
   components:
   - type: Sprite
     sprite: Objects/Fun/Balls/beach_ball.rsi
@@ -528,8 +528,8 @@
 - type: entity
   parent: BaseItem
   id: BalloonSyn
-  name: syndie balloon
-  description: Handed out to the bravest souls who survived the "atomic twister" ride at Syndieland.
+  name: 辛迪气球
+  description: 在辛迪乐园经历了“原子旋风”项目并幸存下来的最勇敢者们才能获得此奖励。
   components:
   - type: Sprite
     sprite: Objects/Fun/Balloons/syndicate.rsi
@@ -548,8 +548,8 @@
 - type: entity
   parent: BaseItem
   id: BalloonNT
-  name: nanotrasen balloon
-  description: Specially designed to inflict maximum psychological damage to Syndicate operatives.
+  name: 纳米传讯气球
+  description: 专为对辛迪加特工造成最大心理打击而设计。
   components:
   - type: Sprite
     sprite: Objects/Fun/Balloons/nanotrasen.rsi
@@ -566,8 +566,8 @@
 - type: entity
   parent: BaseItem
   id: BalloonCorgi
-  name: corgi balloon
-  description: Just like owning a real dog - but a lot floatier.
+  name: 柯基气球
+  description: 就像拥有一只真正的柯基犬——只是飘浮感更强。
   components:
   - type: Sprite
     sprite: Objects/Fun/Balloons/corgi.rsi
@@ -584,8 +584,8 @@
 - type: entity
   parent: BaseItem
   id: SingularityToy
-  name: singuloth-brand toy
-  description: Mass-produced by a sadistic corporate conglomerate!
+  name: 辛格洛思品牌玩具
+  description: 由一家虐待狂企业集团大规模生产！
   components:
   - type: Sprite
     sprite: Objects/Fun/toy_singularity.rsi
@@ -609,8 +609,8 @@
 - type: entity
   parent: BaseItem
   id: TeslaToy
-  name: Teddy Tesla
-  description: The favorite toy of the great engineer Nikola Tesla.
+  name: 泰迪·特斯拉
+  description: 伟大工程师尼古拉·特斯拉最喜爱的玩具。
   components:
   - type: Sprite
     sprite: Structures/Power/Generation/Tesla/energy_miniball.rsi
@@ -643,8 +643,8 @@
 - type: entity
   parent: [ BaseItem, BaseMagicalContraband ]
   id: PonderingOrb
-  name: pondering orb
-  description: Ponderous, man... Really ponderous.
+  name: 沉思球体
+  description: 沉重啊，老兄...真是沉重。
   components:
   - type: Sprite
     sprite: Objects/Fun/pondering_orb.rsi
@@ -663,8 +663,8 @@
 - type: entity
   parent: PonderingOrb
   id: PonderingOrbWizard
-  name: pondering orb
-  description: Ponderous, man... Really ponderous. Magically shows the station's camera network.
+  name: 沉思之球
+  description: 沉重啊，伙计...真是沉重。它能神奇地显示空间站的摄像头网络。
   suffix: Wizard
   components:
   - type: ActivatableUI
@@ -685,8 +685,8 @@
 - type: entity
   parent: BaseItem
   id: ToySword
-  name: toy sword
-  description: New Sandy-Cat plastic sword! Comes with realistic sound and full color! Looks almost like the real thing!
+  name: 玩具剑
+  description: 全新珊迪猫塑料玩具剑！配备逼真音效和全彩设计！外观几乎与真品无异！
   components:
   - type: Sprite
     sprite: Objects/Weapons/Melee/e_sword.rsi
@@ -754,8 +754,8 @@
 - type: entity
   parent: BasePlushie
   id: ToyAmongPequeno
-  name: among pequeño
-  description: Sus!
+  name: 在佩克尼奥之中
+  description: 可疑！
   components:
   - type: Sprite
     sprite: Objects/Fun/pequeno.rsi
@@ -791,8 +791,8 @@
 - type: entity
   parent: BaseItem
   id: FoamCutlass
-  name: foam cutlass
-  description: Cosplay as a pirate and force your friends to walk the plank.
+  name: 泡沫弯刀
+  description: 扮演海盗，逼你的朋友走跳板。
   components:
   - type: Sprite
     sprite: Objects/Weapons/Melee/cutlass.rsi
@@ -815,8 +815,8 @@
 - type: entity
   parent: BaseItem
   id: CardSword
-  name: cardboard sword
-  description: A cardboard tube fashioned into the shape of a sword.
+  name: 纸板剑
+  description: 一个被塑造成剑的形状的纸板管。
   components:
   - type: Sprite
     sprite: Objects/Fun/card_sword.rsi
@@ -853,8 +853,8 @@
 - type: entity
   parent: BaseItem
   id: ClownRecorder
-  name: clown recorder
-  description: When you just can't get those laughs coming the natural way!
+  name: 小丑录音机
+  description: 当你就是没法自然地引来那些笑声时！
   components:
   - type: Sprite
     sprite: Objects/Fun/clownrecorder.rsi
@@ -884,8 +884,8 @@
 - type: entity
   parent: BaseItem
   id: ToyHammer
-  name: rubber hammer
-  description: A brightly colored hammer made of rubber.
+  name: 橡胶锤
+  description: 一把色彩鲜艳的橡胶制成的锤子。
   components:
   - type: Sprite
     sprite: Objects/Fun/rubber_hammer.rsi
@@ -921,8 +921,8 @@
 - type: entity
   parent: BaseItem
   id: WhoopieCushion
-  name: whoopie cushion
-  description: A practical joke device involving flatulence humour.
+  name: 放屁垫
+  description: 一种涉及放屁幽默的恶作剧装置。
   components:
   - type: Sprite
     sprite: Objects/Fun/whoopie.rsi
@@ -998,10 +998,10 @@
         - ItemMask
 
 - type: entity
-  name: banana
+  name: 香蕉
   parent: FoodProduceBase
   id: PlasticBanana
-  description: A plastic banana.
+  description: 一个塑料香蕉。
   suffix: Plastic
   components:
   - type: Sprite
@@ -1023,8 +1023,8 @@
 - type: entity
   parent: DrinkBase
   id: CrazyGlue
-  name: crazy glue
-  description:  A bottle of crazy glue manufactured by Honk! Co.
+  name: 强力胶
+  description: 一瓶由Honk!公司生产的强力胶。
   components:
   - type: Sprite
     sprite: Objects/Fun/glue.rsi
@@ -1062,8 +1062,8 @@
 - type: entity
   parent: BaseItem
   id: NewtonCradle
-  name: newton cradle
-  description: A device bored paper pushers use to remind themselves that time did not stop yet. Contains gravity.
+  name: 牛顿摆
+  description: 一件无聊的文职人员用来提醒自己时间并未停止的装置。内含重力。
   components:
   - type: Sprite
     sprite: Objects/Fun/newton_cradle.rsi

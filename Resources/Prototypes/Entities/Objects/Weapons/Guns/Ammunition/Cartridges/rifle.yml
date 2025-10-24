@@ -1,6 +1,6 @@
 - type: entity
   id: BaseCartridgeRifle
-  name: cartridge (.20 rifle)
+  name: 子弹（0.20英寸步枪）
   parent: [ BaseCartridge, BaseSecurityContraband ]
   abstract: true
   components:
@@ -19,18 +19,18 @@
 
 - type: entity
   id: CartridgeRifle
-  name: cartridge (.20 rifle)
+  name: 弹药（.20步枪）
   parent: BaseCartridgeRifle
-  description: A modern intermediate cartridge for combat rifles. Standard kinetic ammunition is common and useful in most situations.
+  description: 一种用于战斗步枪的现代中间型弹药。标准动能弹药在多数情况下既常见又实用。
   components:
   - type: CartridgeAmmo
     proto: BulletRifle
 
 - type: entity
   id: CartridgeRiflePractice
-  name: cartridge (.20 rifle practice)
+  name: 子弹（0.20英寸步枪练习弹）
   parent: BaseCartridgeRifle
-  description: A modern intermediate cartridge for combat rifles. Chalk ammunition is generally non-harmful, used for practice.
+  description: 现代战斗步枪用的中等威力子弹。粉笔训练弹通常无害，用于练习。
   components:
   - type: CartridgeAmmo
     proto: BulletRiflePractice
@@ -44,9 +44,9 @@
 
 - type: entity
   id: CartridgeRifleIncendiary
-  name: cartridge (.20 rifle incendiary)
+  name: 子弹（.20口径步枪燃烧弹）
   parent: BaseCartridgeRifle
-  description: A modern intermediate cartridge for combat rifles. Incendiary ammunition contains a self-igniting compound that sets the target ablaze.
+  description: 一种现代战斗步枪用的中口径子弹。燃烧弹内含自燃化合物，可使目标物起火燃烧。
   components:
   - type: CartridgeAmmo
     proto: BulletRifleIncendiary
@@ -60,9 +60,9 @@
 
 - type: entity
   id: CartridgeRifleUranium
-  name: cartridge (.20 rifle uranium)
+  name: 子弹（.20口径步枪铀弹）
   parent: BaseCartridgeRifle
-  description: A modern intermediate cartridge for combat rifles. Uranium ammunition replaces the lead core of the bullet with fissile material, irradiating the target from the inside.
+  description: 一种现代战斗步枪用的中型铀弹。这种铀弹药以裂变材料替代铅质弹芯，能从内部对目标造成辐射伤害。
   components:
   - type: CartridgeAmmo
     proto: BulletRifleUranium

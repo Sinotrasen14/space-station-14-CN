@@ -1,8 +1,8 @@
 - type: entity
-  name: BaseWeaponRevolver
+  name: 基础武器左轮手枪
   parent: BaseItem
   id: BaseWeaponRevolver
-  description: A rooty tooty point and shooty.
+  description: 一把根深蒂固指哪打哪的射击利器。
   abstract: true
   components:
   - type: Sprite
@@ -52,10 +52,10 @@
     price: 500
 
 - type: entity
-  name: Deckard
+  name: 德卡
   parent: [BaseWeaponRevolver, BaseSecurityCommandContraband]
   id: WeaponRevolverDeckard
-  description: A beautifully machined, custom-built revolver. Used when there is no time for the Voight-Kampff test. Loads 5 rounds of .45 magnum.
+  description: 一把工艺精美、定制打造的左轮手枪。在无暇进行沃伊特-坎普夫测试时使用。可装载5发.45马格南子弹。
   components:
   - type: Sprite
     sprite: Objects/Weapons/Guns/Revolvers/deckard.rsi
@@ -80,10 +80,10 @@
     price: 1500
 
 - type: entity
-  name: Inspector
+  name: 警探
   parent: [BaseWeaponRevolver, BaseSecurityContraband]
   id: WeaponRevolverInspector
-  description: A double-action revolver manufactured by various companies. It is readily available on the civilian market, making it a popular choice among private investigators. You feel lucky just holding it. Loads 6 rounds of .45 magnum.
+  description: 一把由多家公司制造的双动左轮手枪。它在民用市场上很容易买到，因此成为私人侦探的热门选择。光是握着它就让你感到幸运。可装载6发.45马格南子弹。
   components:
   - type: Sprite
     sprite: Objects/Weapons/Guns/Revolvers/inspector.rsi
@@ -99,10 +99,10 @@
     stealGroup: OfficerHandgun
 
 - type: entity
-  name: Mateba
+  name: 马特巴
   parent: [BaseWeaponRevolver, BaseMajorContraband]
   id: WeaponRevolverMateba
-  description: A modern revolver used by Nanotrasen’s elite, near mythical ‘Death Squad’ task force. Its unique trigger action and barrel placement enable a high fire rate with minimal muzzle flip. Many have looked down this barrel, but few have lived to tell of it. Loads 6 rounds of .45 magnum.
+  description: 一把由纳星精英、近乎神话的“死亡小队”特种部队使用的现代左轮手枪。其独特的扳机动作与枪管布局，在实现高射速的同时将枪口上跳幅度降至最低。无数人曾凝视过这根枪管，但鲜有人能活着讲述这段经历。可装填六发.45马格南子弹。
   components:
   - type: Sprite
     sprite: Objects/Weapons/Guns/Revolvers/mateba.rsi
@@ -124,10 +124,10 @@
     proto: CartridgeMagnumAP
 
 - type: entity
-  name: Python
+  name: 巨蟒
   parent: [BaseWeaponRevolver, BaseSyndicateContraband]
   id: WeaponRevolverPython
-  description: A powerful double-action revolver manufactured by the Syndicate. Loud and flashy, perfect for any agent looking to make a statement. Loads 6 rounds of .45 magnum.
+  description: 由辛迪加制造的一款强力双动左轮手枪。响亮夺目，非常适合想要彰显个性的特工。可装填6发.45马格南子弹。
   components:
   - type: Sprite
     sprite: Objects/Weapons/Guns/Revolvers/python.rsi
@@ -161,10 +161,10 @@
 
 
 - type: entity
-  name: pirate revolver
+  name: 海盗左轮手枪
   parent: [BaseWeaponRevolver, BaseMajorContraband]
   id: WeaponRevolverPirate
-  description: A crude single-action revolver handmade by a space pirate. Old and covered in rust, it somehow still works. Loads 5 rounds of .45 magnum.
+  description: 一把由太空海盗手工制作的粗糙单动左轮手枪。虽然老旧且布满锈迹，但不知为何仍能正常使用。可装填五发.45马格南子弹。
   components:
   - type: Sprite
     sprite: Objects/Weapons/Guns/Revolvers/pirate_revolver.rsi

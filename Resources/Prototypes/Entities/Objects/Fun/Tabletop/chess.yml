@@ -2,8 +2,8 @@
 - type: entity
   parent: BaseBoardEntity
   id: ChessBoard
-  name: chessboard
-  description: A chessboard. Pieces included!
+  name: 棋盘
+  description: 一个棋盘。包含棋子！
   components:
   - type: Sprite
     sprite: Objects/Fun/Tabletop/chessboard.rsi
@@ -18,7 +18,7 @@
 # Chessboard tabletop item (item only visible in tabletop game)
 - type: entity
   id: ChessBoardTabletop
-  name: chessboard
+  name: 棋盘
   parent: BaseBoardTabletop
   categories: [ HideSpawnMenu ]
   components:
@@ -29,7 +29,7 @@
 # White pieces
 - type: entity
   id: WhiteKing
-  name: white king
+  name: 白王
   parent: BaseTabletopPiece
   components:
   - type: Sprite
@@ -38,7 +38,7 @@
 
 - type: entity
   id: WhiteQueen
-  name: white queen
+  name: 白皇后
   parent: BaseTabletopPiece
   components:
     - type: Sprite
@@ -47,7 +47,7 @@
 
 - type: entity
   id: WhiteRook
-  name: white rook
+  name: 白车
   parent: BaseTabletopPiece
   components:
     - type: Sprite
@@ -56,7 +56,7 @@
 
 - type: entity
   id: WhiteBishop
-  name: white bishop
+  name: 白主教
   parent: BaseTabletopPiece
   components:
     - type: Sprite
@@ -65,7 +65,7 @@
 
 - type: entity
   id: WhiteKnight
-  name: white knight
+  name: 白衣骑士
   parent: BaseTabletopPiece
   components:
     - type: Sprite
@@ -74,7 +74,7 @@
 
 - type: entity
   id: WhitePawn
-  name: white pawn
+  name: 白兵
   parent: BaseTabletopPiece
   components:
     - type: Sprite
@@ -84,7 +84,7 @@
 # Black pieces
 - type: entity
   id: BlackKing
-  name: black king
+  name: 黑王
   parent: BaseTabletopPiece
   components:
     - type: Sprite
@@ -93,7 +93,7 @@
 
 - type: entity
   id: BlackQueen
-  name: black queen
+  name: 黑皇后
   parent: BaseTabletopPiece
   components:
     - type: Sprite
@@ -102,7 +102,7 @@
 
 - type: entity
   id: BlackRook
-  name: black rook
+  name: 黑车
   parent: BaseTabletopPiece
   components:
     - type: Sprite
@@ -111,7 +111,7 @@
 
 - type: entity
   id: BlackBishop
-  name: black bishop
+  name: 黑象
   parent: BaseTabletopPiece
   components:
     - type: Sprite
@@ -120,7 +120,7 @@
 
 - type: entity
   id: BlackKnight
-  name: black knight
+  name: 黑骑士
   parent: BaseTabletopPiece
   components:
     - type: Sprite
@@ -129,7 +129,7 @@
 
 - type: entity
   id: BlackPawn
-  name: black pawn
+  name: 黑兵
   parent: BaseTabletopPiece
   components:
     - type: Sprite

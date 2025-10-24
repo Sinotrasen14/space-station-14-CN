@@ -1,7 +1,7 @@
 - type: entity
   parent: MarkerBase
   id: SpawnMobGingerbreadAI
-  name: gingerbread man Spawner
+  name: 姜饼人生成器
   suffix: Ghostrole
   components:
   - type: Sprite

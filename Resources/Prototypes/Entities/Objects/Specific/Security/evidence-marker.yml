@@ -2,8 +2,8 @@
   abstract: true
   parent: BaseItem
   id: EvidenceMarker
-  name: evidence marker
-  description: A numbered yellow marker, useful for labeling evidence on a crime scene.
+  name: 证据标记
+  description: 一个带编号的黄色标记物，可用于在犯罪现场标注证据。
   components:
   - type: Sprite
     sprite: Objects/Specific/Detective/evidence_marker.rsi
@@ -75,10 +75,10 @@
     state: nine
 
 - type: entity
-  name: evidence marker box
+  name: 证物标记盒
   parent: BoxCardboard
   id: BoxEvidenceMarkers
-  description: A pack of numbered yellow markers, useful for labeling evidence on a crime scene.
+  description: 一套带编号的黄色标记贴，适用于罪案现场的证据标注。
   components:
     - type: Item
       shape:

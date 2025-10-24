@@ -1,8 +1,8 @@
 - type: entity
   parent: BaseItem
   id: DeskBell
-  name: desk bell
-  description: The cornerstone of any customer service job. You feel an unending urge to ring it.
+  name: 桌铃
+  description: 任何客服工作的基石。你会有一种按捺不住想要敲响它的冲动。
   components:
   - type: Sprite
     sprite: Objects/Misc/desk_bell.rsi

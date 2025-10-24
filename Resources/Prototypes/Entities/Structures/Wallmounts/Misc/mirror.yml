@@ -1,8 +1,8 @@
 ﻿- type: entity
   parent: BaseWallmountGlass
   id: Mirror
-  name: mirror
-  description: 'Mirror mirror on the wall , who''s the most robust of them all?'
+  name: 镜子
+  description: 墙上的镜子啊镜子，谁是他们中最强大的？
   placement:
     mode: SnapgridCenter
   components:

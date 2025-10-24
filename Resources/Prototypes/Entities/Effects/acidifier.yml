@@ -1,7 +1,7 @@
 ﻿- type: entity
   id: Acidifier
-  name: acid
-  description: Melts you into a puddle of yuck!
+  name: 酸
+  description: 把你融成一滩恶心玩意儿！
   components:
   - type: Transform
     anchored: True

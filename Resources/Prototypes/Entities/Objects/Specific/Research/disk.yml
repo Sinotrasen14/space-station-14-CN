@@ -1,8 +1,8 @@
 - type: entity
   parent: BaseItem
   id: ResearchDisk
-  name: research point disk (1000)
-  description: A disk for the R&D server containing 1000 points.
+  name: 研发点数盘（1000点）
+  description: 研发服务器用点数盘，内含1000点。
   components:
   - type: Sprite
     sprite: Objects/Specific/Research/researchdisk.rsi
@@ -15,8 +15,8 @@
 - type: entity
   parent: ResearchDisk
   id: ResearchDisk5000
-  name: research point disk (5000)
-  description: A disk for the R&D server containing 5000 points.
+  name: 研发点数盘（5000点）
+  description: 研发服务器用点数盘，内含5000点。
   components:
   - type: ResearchDisk
     points: 5000
@@ -24,8 +24,8 @@
 - type: entity
   parent: ResearchDisk
   id: ResearchDisk10000
-  name: research point disk (10000)
-  description: A disk for the R&D server containing 10000 points.
+  name: 研发点数盘（10000）
+  description: 一个用于研发服务器的点数盘，内含10000点。
   components:
   - type: ResearchDisk
     points: 10000
@@ -33,10 +33,10 @@
 - type: entity
   parent: ResearchDisk
   id: ResearchDiskDebug
-  name: research point disk
+  name: 研发点数盘
   suffix: DEBUG, DO NOT MAP
   categories: [ DoNotMap ]
-  description: A disk for the R&D server containing all the points you could ever need.
+  description: 一个用于研发服务器的点数盘，包含您可能需要的所有点数。
   components:
   - type: ResearchDisk
     unlockAllTech: true
@@ -44,8 +44,8 @@
 - type: entity
   parent: BaseItem
   id: TechnologyDisk
-  name: technology disk
-  description: A disk for the R&D server containing research technology.
+  name: 技术磁盘
+  description: 用于研发服务器的技术磁盘，内含研究技术。
   components:
   - type: Sprite
     sprite: Objects/Misc/module.rsi

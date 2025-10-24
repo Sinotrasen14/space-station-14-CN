@@ -1,8 +1,8 @@
 - type: entity
   parent: ClothingScarfBase
   id: ClothingNeckScarfStripedRed
-  name: striped red scarf
-  description: A stylish striped red scarf. The perfect winter accessory for those with a keen fashion sense, and those who just can't handle a cold breeze on their necks.
+  name: 条纹红围巾
+  description: 一条时尚的条纹红围巾。既是时尚弄潮儿的冬日臻品，也为畏寒脖颈带来贴心守护。
   components:
   - type: Sprite
     sprite: Clothing/Neck/Scarfs/red.rsi
@@ -12,8 +12,8 @@
 - type: entity
   parent: ClothingScarfBase
   id: ClothingNeckScarfStripedBlue
-  name: striped blue scarf
-  description: A stylish striped blue scarf. The perfect winter accessory for those with a keen fashion sense, and those who just can't handle a cold breeze on their necks.
+  name: 蓝色条纹围巾
+  description: 一条时尚的蓝色条纹围巾。这款冬日完美配饰，既适合对时尚嗅觉敏锐的人群，也眷顾那些无法忍受寒风侵袭脖颈的佩戴者。
   components:
   - type: Sprite
     sprite: Clothing/Neck/Scarfs/blue.rsi
@@ -23,8 +23,8 @@
 - type: entity
   parent: ClothingScarfBase
   id: ClothingNeckScarfStripedGreen
-  name: striped green scarf
-  description: A stylish striped green scarf. The perfect winter accessory for those with a keen fashion sense, and those who just can't handle a cold breeze on their necks.
+  name: 条纹绿围巾
+  description: 一条时尚的绿色条纹围巾。既是时尚嗅觉敏锐人士的完美冬季配饰，也能为畏寒脖颈抵御寒风侵袭。
   components:
   - type: Sprite
     sprite: Clothing/Neck/Scarfs/green.rsi
@@ -34,8 +34,8 @@
 - type: entity
   parent: ClothingScarfBase
   id: ClothingNeckScarfStripedBlack
-  name: striped black scarf
-  description: A stylish striped black scarf. The perfect winter accessory for those with a keen fashion sense, and those who just can't handle a cold breeze on their necks.
+  name: 条纹黑围巾
+  description: 一条时尚的条纹黑围巾。既是时尚嗅觉敏锐者的完美冬季配饰，也为不喜寒风侵袭脖颈的人们带来温暖守护。
   components:
     - type: Sprite
       sprite: Clothing/Neck/Scarfs/black.rsi
@@ -45,8 +45,8 @@
 - type: entity
   parent: ClothingScarfBase
   id: ClothingNeckScarfStripedBrown
-  name: striped brown scarf
-  description: A stylish striped brown scarf. The perfect winter accessory for those with a keen fashion sense, and those who just can't handle a cold breeze on their necks.
+  name: 条纹棕色围巾
+  description: 一条时尚的条纹棕色围巾。不仅是时尚达人的完美冬季配饰，更是为那些无法忍受寒风侵袭脖颈的人们贴心打造。
   components:
     - type: Sprite
       sprite: Clothing/Neck/Scarfs/brown.rsi
@@ -56,8 +56,8 @@
 - type: entity
   parent: ClothingScarfBase
   id: ClothingNeckScarfStripedLightBlue
-  name: striped light blue scarf
-  description: A stylish striped light blue scarf. The perfect winter accessory for those with a keen fashion sense, and those who just can't handle a cold breeze on their necks.
+  name: 条纹浅蓝色围巾
+  description: 一条时尚的条纹浅蓝色围巾。既是时尚嗅觉敏锐人士的完美冬季配饰，也能为畏惧颈间寒风吹拂的人们带来温暖守护。
   components:
     - type: Sprite
       sprite: Clothing/Neck/Scarfs/lightblue.rsi
@@ -67,8 +67,8 @@
 - type: entity
   parent: ClothingScarfBase
   id: ClothingNeckScarfStripedOrange
-  name: striped orange scarf
-  description: A stylish striped orange scarf. The perfect winter accessory for those with a keen fashion sense, and those who just can't handle a cold breeze on their necks.
+  name: 条纹橙色围巾
+  description: 一条时尚的条纹橙色围巾。既是时尚嗅觉敏锐人士的完美冬季配饰，也能为畏寒脖颈抵御冷风侵袭。
   components:
     - type: Sprite
       sprite: Clothing/Neck/Scarfs/orange.rsi
@@ -78,8 +78,8 @@
 - type: entity
   parent: ClothingScarfBase
   id: ClothingNeckScarfStripedPurple
-  name: striped purple scarf
-  description: A stylish striped purple scarf. The perfect winter accessory for those with a keen fashion sense, and those who just can't handle a cold breeze on their necks.
+  name: 条纹紫色围巾
+  description: 一条时尚的条纹紫色围巾。这款冬日完美配饰，既适合对时尚嗅觉敏锐的潮人，也呵护畏寒脖颈的畏寒一族。
   components:
     - type: Sprite
       sprite: Clothing/Neck/Scarfs/purple.rsi
@@ -89,8 +89,8 @@
 - type: entity
   parent: [ ClothingScarfBase, BaseSyndicateContraband ]
   id: ClothingNeckScarfStripedSyndieGreen
-  name: striped syndicate green scarf
-  description: A stylish striped syndicate green scarf. The perfect winter accessory for those with a keen fashion sense, and those who are in the mood to steal something.
+  name: 条纹联合绿色围巾
+  description: 一条时尚的条纹联合绿色围巾。这款冬季配饰完美契合时尚嗅觉敏锐的人群，以及那些萌生窃物心绪之人。
   components:
     - type: Sprite
       sprite: Clothing/Neck/Scarfs/syndiegreen.rsi
@@ -102,8 +102,8 @@
 - type: entity
   parent: [ ClothingScarfBase, BaseSyndicateContraband ]
   id: ClothingNeckScarfStripedSyndieRed
-  name: striped syndicate red scarf
-  description: A stylish striped syndicate red scarf. The perfect winter accessory for those with a keen fashion sense, and those who are in the mood to steal something.
+  name: 条纹辛迪加红色围巾
+  description: 一条时尚的条纹辛迪加红色围巾。这款冬季配饰完美契合时尚嗅觉敏锐的人群，亦适合那些萌生窃物雅兴的雅贼。
   components:
     - type: Sprite
       sprite: Clothing/Neck/Scarfs/syndiered.rsi
@@ -115,8 +115,8 @@
 - type: entity
   parent: [ ClothingScarfBase, BaseCentcommContraband ]
   id: ClothingNeckScarfStripedCentcom
-  name: striped CentComm scarf
-  description: A stylish striped centcomm colored scarf. The perfect winter accessory for those with a keen fashion sense, and those who need to do paperwork in the cold.
+  name: 条纹中央司令部围巾
+  description: 一条时尚的条纹中央司令部配色围巾。既是时尚嗅觉敏锐者的完美冬季配饰，也适合需要在寒风中处理文书工作的人群。
   components:
     - type: Sprite
       sprite: Clothing/Neck/Scarfs/centcom.rsi
@@ -126,8 +126,8 @@
 - type: entity
   parent: ClothingScarfBase
   id: ClothingNeckScarfStripedZebra
-  name: zebra scarf
-  description: A striped scarf, a mandatory accessory for artists.
+  name: 斑马纹围巾
+  description: 条纹围巾，艺术家的必备配饰。
   components:
   - type: Sprite
     sprite: Clothing/Neck/Scarfs/zebra.rsi
@@ -138,8 +138,8 @@
 - type: entity
   parent: ClothingScarfBase
   id: ClothingNeckScarfStripedAce
-  name: striped asexual scarf
-  description: A stylish striped asexual scarf. The perfect winter accessory for those with a keen fashion sense, and those who just can't handle a cold breeze on their necks.
+  name: 条纹无性别围巾
+  description: 一条时尚的条纹无性别围巾。既是时尚嗅觉敏锐人士的完美冬季配饰，也能为不堪寒风侵袭的脖颈提供贴心呵护。
   components:
   - type: Sprite
     sprite: Clothing/Neck/Scarfs/PrideScarfs/ace.rsi
@@ -149,8 +149,8 @@
 - type: entity
   parent: ClothingScarfBase
   id: ClothingNeckScarfStripedAro
-  name: striped aromantic scarf
-  description: A stylish striped aromantic scarf. The perfect winter accessory for those with a keen fashion sense, and those who just can't handle a cold breeze on their necks.
+  name: 条纹无爱围巾
+  description: 一条时尚的条纹无爱围巾。这款冬日配饰堪称时尚达人的完美选择，尤其适合无法忍受寒风侵袭脖颈的人群。
   components:
   - type: Sprite
     sprite: Clothing/Neck/Scarfs/PrideScarfs/aro.rsi
@@ -160,8 +160,8 @@
 - type: entity
   parent: ClothingScarfBase
   id: ClothingNeckScarfStripedAroace
-  name: striped aroace scarf
-  description: A stylish striped aroace scarf. The perfect winter accessory for those with a keen fashion sense, and those who just can't handle a cold breeze on their necks.
+  name: 条纹aroace围巾
+  description: 一条时尚的条纹aroace围巾。这款冬季配饰堪称时尚达人的完美选择，同样适合那些无法忍受寒风侵袭脖颈的人群。
   components:
   - type: Sprite
     sprite: Clothing/Neck/Scarfs/PrideScarfs/aroace.rsi
@@ -171,8 +171,8 @@
 - type: entity
   parent: ClothingScarfBase
   id: ClothingNeckScarfStripedBiSexual
-  name: striped bisexual scarf
-  description: A stylish striped bisexual scarf. The perfect winter accessory for those with a keen fashion sense, and those who just can't handle a cold breeze on their necks.
+  name: 条纹双性恋围巾
+  description: 一条时尚的条纹双性恋围巾。既是时尚嗅觉敏锐人士的完美冬季配饰，也能为不喜寒风侵袭脖颈的人们带来温暖守护。
   components:
   - type: Sprite
     sprite: Clothing/Neck/Scarfs/PrideScarfs/bi.rsi
@@ -182,8 +182,8 @@
 - type: entity
   parent: ClothingScarfBase
   id: ClothingNeckScarfStripedGay
-  name: striped gay scarf
-  description: A stylish striped gay scarf. The perfect winter accessory for those with a keen fashion sense, and those who just can't handle a cold breeze on their necks.
+  name: 条纹时尚围巾
+  description: 一条时尚的条纹围巾。这款冬日完美配饰，既迎合时尚达人的审美追求，也能为畏寒脖颈抵御冷风侵袭。
   components:
   - type: Sprite
     sprite: Clothing/Neck/Scarfs/PrideScarfs/gay.rsi
@@ -193,8 +193,8 @@
 - type: entity
   parent: ClothingScarfBase
   id: ClothingNeckScarfStripedInter
-  name: striped intersex scarf
-  description: A stylish striped intersex scarf. The perfect winter accessory for those with a keen fashion sense, and those who just can't handle a cold breeze on their necks.
+  name: 条纹中性围巾
+  description: 一条时尚的条纹中性围巾。这款冬日配饰堪称时尚达人的完美选择，亦是为颈部畏寒者量身打造的保暖佳品。
   components:
   - type: Sprite
     sprite: Clothing/Neck/Scarfs/PrideScarfs/inter.rsi
@@ -204,8 +204,8 @@
 - type: entity
   parent: ClothingScarfBase
   id: ClothingNeckScarfStripedLesbian
-  name: striped lesbian scarf
-  description: A stylish striped lesbian scarf. The perfect winter accessory for those with a keen fashion sense, and those who just can't handle a cold breeze on their necks.
+  name: 条纹女同围巾
+  description: 一条时尚的条纹女同围巾，既是时尚嗅觉敏锐人士的完美冬季配饰，也为那些无法忍受寒风侵袭脖颈的人们提供温暖守护。
   components:
   - type: Sprite
     sprite: Clothing/Neck/Scarfs/PrideScarfs/lesbian.rsi
@@ -215,8 +215,8 @@
 - type: entity
   parent: ClothingScarfBase
   id: ClothingNeckScarfStripedPan
-  name: striped pan scarf
-  description: A stylish striped pan scarf. The perfect winter accessory for those with a keen fashion sense, and those who just can't handle a cold breeze on their necks.
+  name: 条纹平底锅围巾
+  description: 一条时尚的条纹平底锅围巾。这款冬日配饰堪称时尚达人的完美选择，亦是为脖颈畏寒者量身打造的保暖佳品。
   components:
   - type: Sprite
     sprite: Clothing/Neck/Scarfs/PrideScarfs/pan.rsi
@@ -226,8 +226,8 @@
 - type: entity
   parent: ClothingScarfBase
   id: ClothingNeckScarfStripedNonBinary
-  name: striped non-binary scarf
-  description: A stylish striped non-binary scarf. The perfect winter accessory for those with a keen fashion sense, and those who just can't handle a cold breeze on their necks.
+  name: 条纹非二元围巾
+  description: 一条时尚的条纹非二元围巾。这款冬日配饰堪称时尚达人的完美选择，亦是为颈部畏寒者量身打造的保暖佳品。
   components:
   - type: Sprite
     sprite: Clothing/Neck/Scarfs/PrideScarfs/non.rsi
@@ -237,8 +237,8 @@
 - type: entity
   parent: ClothingScarfBase
   id: ClothingNeckScarfStripedRainbow
-  name: rainbow scarf
-  description: A stylish rainbow scarf. The perfect winter accessory for those with a keen fashion sense, and those who just can't handle a cold breeze on their necks.
+  name: 彩虹围巾
+  description: 一条时尚的彩虹围巾。既是时尚达人的冬日必备配饰，也为不喜寒风侵颈的人们带来温暖守护。
   components:
   - type: Sprite
     sprite: Clothing/Neck/Scarfs/PrideScarfs/rainbow.rsi
@@ -248,8 +248,8 @@
 - type: entity
   parent: ClothingScarfBase
   id: ClothingNeckScarfStripedTrans
-  name: striped trans scarf
-  description: A stylish striped trans scarf. The perfect winter accessory for those with a keen fashion sense, and those who just can't handle a cold breeze on their necks.
+  name: 条纹跨性别围巾
+  description: 一条时尚的条纹跨性别围巾。这款冬季配饰堪称时尚达人的完美选择，亦是为那些无法忍受寒风侵袭脖颈的人们准备的贴心之物。
   components:
   - type: Sprite
     sprite: Clothing/Neck/Scarfs/PrideScarfs/trans.rsi
@@ -259,8 +259,8 @@
 - type: entity
   parent: ClothingScarfBase
   id: ClothingNeckScarfStripedLesbianLong
-  name: long bacon
-  description: Long bacon! Perfect for sharing with your girlfriend!
+  name: 长条培根
+  description: 长条培根！非常适合与女朋友分享！
   components:
   - type: Sprite
     sprite: Clothing/Neck/Scarfs/PrideScarfs/lesbian-long.rsi

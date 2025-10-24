@@ -1,8 +1,8 @@
 - type: entity
   parent: BaseItem
   id: DefaultStationBeacon
-  name: station beacon
-  description: A small device that transmits information to station maps. Can be configured.
+  name: 站点信标
+  description: 一种可向站点地图传输信息的小型设备。可进行配置。
   placement:
     mode: SnapgridCenter
   suffix: General
@@ -99,8 +99,8 @@
 - type: entity
   parent: BaseItem
   id: StationBeaconPart
-  name: station beacon flatpack
-  description: A flatpack used for constructing a station beacon.
+  name: 站标信标平板包装
+  description: 用于建造站标信标的平板包装。
   components:
   - type: Item
     size: Small

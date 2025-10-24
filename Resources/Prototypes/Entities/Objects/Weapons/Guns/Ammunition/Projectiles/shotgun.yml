@@ -1,6 +1,6 @@
 - type: entity
   id: PelletShotgunSlug
-  name: pellet (.50 slug)
+  name: 弹丸（.50独头弹）
   categories: [ HideSpawnMenu ]
   parent: BaseBullet
   components:
@@ -16,7 +16,7 @@
 
 - type: entity
   id: PelletShotgunBeanbag
-  name: beanbag (.50)
+  name: 豆袋（0.50口径）
   categories: [ HideSpawnMenu ]
   parent: BaseBullet
   components:
@@ -32,7 +32,7 @@
 
 - type: entity
   id: PelletShotgun
-  name: pellet (.50)
+  name: 颗粒弹（.50口径）
   categories: [ HideSpawnMenu ]
   parent: BaseBullet
   components:
@@ -58,7 +58,7 @@
 
 - type: entity
   id: PelletShotgunIncendiary
-  name: pellet (.50 incendiary)
+  name: 子弹（0.50英寸燃烧弹）
   categories: [ HideSpawnMenu ]
   parent: BaseBulletIncendiary
   components:
@@ -85,7 +85,7 @@
 
 - type: entity
   id: PelletShotgunPractice
-  name: pellet (.50 practice)
+  name: 颗粒弹（.50练习弹）
   categories: [ HideSpawnMenu ]
   parent: BaseBulletPractice
   components:
@@ -109,7 +109,7 @@
 
 - type: entity
   id: PelletShotgunImprovised
-  name: improvised pellet
+  name: 临时制作的颗粒
   categories: [ HideSpawnMenu ]
   parent: BaseBullet
   components:
@@ -134,7 +134,7 @@
 
 - type: entity
   id: PelletShotgunTranquilizer
-  name: pellet (.50 tranquilizer)
+  name: 弹丸（.50 镇静剂）
   categories: [ HideSpawnMenu ]
   parent: BaseBulletPractice
   components:
@@ -155,7 +155,7 @@
 
 - type: entity
   id: PelletShotgunFlare
-  name: pellet (.50 flare)
+  name: 颗粒（0.50照明弹）
   categories: [ HideSpawnMenu ]
   components:
   - type: Physics
@@ -202,7 +202,7 @@
 
 - type: entity
   id: PelletShotgunUranium
-  name: pellet (.50 uranium)
+  name: 颗粒（.50铀）
   categories: [ HideSpawnMenu ]
   parent: BaseBullet
   components:
@@ -227,7 +227,7 @@
 
 - type: entity
   id: PelletGrapeshot #tally fucking ho
-  name: grapeshot pellet
+  name: 葡萄弹丸
   categories: [ HideSpawnMenu ]
   parent: BaseBullet
   components:
@@ -255,7 +255,7 @@
 
 - type: entity
   id: PelletGlass
-  name: glass shard
+  name: 玻璃碎片
   parent: BaseBullet
   categories: [ HideSpawnMenu ]
   components:

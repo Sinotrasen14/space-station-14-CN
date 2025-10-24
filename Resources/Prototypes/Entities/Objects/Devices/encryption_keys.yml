@@ -2,8 +2,8 @@
   abstract: true
   parent: BaseItem
   id: EncryptionKey
-  name: encryption key
-  description: A small cypher chip for headsets.
+  name: 加密密钥
+  description: 用于耳机的小型加密芯片。
   components:
   - type: EncryptionKey
   - type: Item
@@ -14,8 +14,8 @@
 - type: entity
   parent: EncryptionKey
   id: EncryptionKeyCommon
-  name: common encryption key
-  description: An encryption key used by anyone.
+  name: 通用加密密钥
+  description: 任何人都可以使用的加密密钥。
   components:
   - type: EncryptionKey
     channels:
@@ -32,8 +32,8 @@
 - type: entity
   parent: [ EncryptionKey, BaseCargoContraband ]
   id: EncryptionKeyCargo
-  name: cargo encryption key
-  description: An encryption key used by supply employees.
+  name: 货物加密密钥
+  description: 供运人员使用的加密密钥。
   components:
   - type: EncryptionKey
     channels:
@@ -50,8 +50,8 @@
 - type: entity
   parent: [ EncryptionKey, BaseCentcommContraband ]
   id: EncryptionKeyCentCom
-  name: central command encryption key
-  description: An encryption key used by captain's bosses.
+  name: 中央指挥部加密密钥
+  description: 上校上司使用的加密密钥。
   components:
   - type: EncryptionKey
     channels:
@@ -65,8 +65,8 @@
 - type: entity
   parent: [ EncryptionKey, BaseCentcommCommandContraband ]
   id: EncryptionKeyStationMaster
-  name: station master encryption key
-  description: An encryption key used by station's bosses.
+  name: 站长加密密钥
+  description: 站长使用的加密密钥。
   components:
   - type: EncryptionKey
     channels:
@@ -87,8 +87,8 @@
 - type: entity
   parent: [ EncryptionKey, BaseCommandContraband ]
   id: EncryptionKeyCommand
-  name: command encryption key
-  description: An encryption key used by crew's bosses.
+  name: 指令加密密钥
+  description: 船员头目使用的加密密钥。
   components:
   - type: EncryptionKey
     channels:
@@ -105,8 +105,8 @@
 - type: entity
   parent: [ EncryptionKey, BaseEngineeringContraband ]
   id: EncryptionKeyEngineering
-  name: engineering encryption key
-  description: An encryption key used by the engineers.
+  name: 工程加密密钥
+  description: 工程师使用的加密密钥。
   components:
   - type: EncryptionKey
     channels:
@@ -123,8 +123,8 @@
 - type: entity
   parent: [ EncryptionKey, BaseMedicalContraband ]
   id: EncryptionKeyMedical
-  name: medical encryption key
-  description: An encryption key used by those who save lives.
+  name: 医疗加密密钥
+  description: 拯救生命者所用的加密密钥。
   components:
   - type: EncryptionKey
     channels:
@@ -141,8 +141,8 @@
 - type: entity
   parent: [ EncryptionKey, BaseMedicalScienceContraband ]
   id: EncryptionKeyMedicalScience
-  name: med-sci encryption key
-  description: An encryption key used by someone who hasn't decided which side to take.
+  name: 医学科学加密密钥
+  description: 一个尚未决定立场的人所使用的加密密钥。
   components:
   - type: EncryptionKey
     channels:
@@ -157,8 +157,8 @@
 - type: entity
   parent: [ EncryptionKey, BaseScienceContraband ]
   id: EncryptionKeyScience
-  name: science encryption key
-  description: An encryption key used by scientists. Maybe it is plasmaproof?
+  name: 科学加密密钥
+  description: 科学家使用的加密密钥。也许它是等离子防护的？
   components:
   - type: EncryptionKey
     channels:
@@ -175,8 +175,8 @@
 - type: entity
   parent: [ EncryptionKey, BaseScienceContraband ]
   id: EncryptionKeyRobo
-  name: robotech encryption key
-  description: An encryption key used by robototech engineers. Maybe it has a LAH-6000 on it?
+  name: 机器人技术加密密钥
+  description: 机器人技术工程师使用的加密密钥。也许上面有个LAH-6000？
   components:
   - type: EncryptionKey
     channels:
@@ -190,8 +190,8 @@
 - type: entity
   parent: [ EncryptionKey, BaseSecurityLawyerContraband ]
   id: EncryptionKeySecurity
-  name: security encryption key
-  description: An encryption key used by security.
+  name: 安全加密密钥
+  description: 安全使用的加密密钥。
   components:
   - type: EncryptionKey
     channels:
@@ -208,8 +208,8 @@
 - type: entity
   parent: [ EncryptionKey, BaseCivilianContraband ]
   id: EncryptionKeyService
-  name: service encryption key
-  description: An encryption key used by the service staff, tasked with keeping the station full, happy and clean.
+  name: 服务加密密钥
+  description: 服务人员使用的加密密钥，负责维持站点充盈、愉悦与整洁。
   components:
   - type: EncryptionKey
     channels:
@@ -226,8 +226,8 @@
 - type: entity
   parent: [ EncryptionKey, BaseSyndicateContraband ]
   id: EncryptionKeySyndie
-  name: blood-red encryption key
-  description: An encryption key used by... wait... Who is the owner of this chip?
+  name: 血红色的加密密钥
+  description: 一把加密密钥，被……等等……这枚芯片的主人是谁？
   components:
   - type: EncryptionKey
     channels:
@@ -243,8 +243,8 @@
 - type: entity
   parent: [ EncryptionKey, BaseSiliconScienceContraband ]
   id: EncryptionKeyBinary
-  name: binary translator key
-  description: An encryption key that translates binary signals used by silicons.
+  name: 二进制翻译密钥
+  description: 一种用于转换硅片所使用的二进制信号的加密密钥。
   components:
   - type: EncryptionKey
     channels:
@@ -258,8 +258,8 @@
 - type: entity
   parent: [ EncryptionKey, BaseSyndicateContraband ]
   id: EncryptionKeyBinarySyndicate
-  name: binary translator key
-  description: A syndicate encryption key that translates binary signals used by silicons.
+  name: 二进制翻译密钥
+  description: 一种联合加密密钥，用于转换硅基元件使用的二进制信号。
   components:
   - type: EncryptionKey
     channels:
@@ -275,8 +275,8 @@
 - type: entity
   parent: EncryptionKey
   id: EncryptionKeyFreelance
-  name: freelancer encryption key
-  description: An encryption key used by freelancers, who may or may not have an affiliation. It looks like it's worn out.
+  name: 自由职业者加密密钥
+  description: 自由职业者使用的加密密钥，无论是否隶属某个组织，看起来已经磨损了。
   components:
     - type: EncryptionKey
       channels:

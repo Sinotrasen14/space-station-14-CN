@@ -1,8 +1,8 @@
 - type: entity
   id: SmokingPipe
   parent: BaseSmokingPipe
-  name: pipe
-  description: Just like grandpappy used to smoke.
+  name: 烟斗
+  description: 就像爷爷以前常抽的那样。
   components:
   - type: Sprite
     sprite: Objects/Consumable/Smokeables/Pipes/pipe.rsi
@@ -21,9 +21,9 @@
 - type: entity
   id: SmokingPipeFilledTobacco
   parent: SmokingPipe
-  name: pipe
+  name: 烟斗
   suffix: Tobacco
-  description: Just like grandpappy used to smoke.
+  description: 就像爷爷以前常抽的那样。
   components:
   - type: ContainerContainer
     containers:
@@ -31,7 +31,7 @@
   - type: ItemSlots
   - type: SmokingPipe
     bowl_slot:
-      name: smoking-pipe-slot-component-slot-name-bowl
+      name: 烟斗槽组件槽位名称碗
       startingItem: GroundTobacco
       whitelist:
         tags:
@@ -44,9 +44,9 @@
 - type: entity
   id: SmokingPipeFilledCannabis
   parent: SmokingPipe
-  name: pipe
+  name: 烟斗
   suffix: Cannabis
-  description: Just like grandpappy used to smoke.
+  description: 就像爷爷以前常抽的那样。
   components:
   - type: ContainerContainer
     containers:
@@ -54,7 +54,7 @@
   - type: ItemSlots
   - type: SmokingPipe
     bowl_slot:
-      name: smoking-pipe-slot-component-slot-name-bowl
+      name: 烟斗槽组件槽位名称碗
       startingItem: GroundCannabis
       whitelist:
         tags:
@@ -67,9 +67,9 @@
 - type: entity
   id: SmokingPipeFilledCannabisRainbow
   parent: SmokingPipe
-  name: pipe
+  name: 烟斗
   suffix: Rainbow Cannabis
-  description: Just like grandpappy used to smoke.
+  description: 就像爷爷以前常抽的那样。
   components:
   - type: ContainerContainer
     containers:
@@ -77,7 +77,7 @@
   - type: ItemSlots
   - type: SmokingPipe
     bowl_slot:
-      name: smoking-pipe-slot-component-slot-name-bowl
+      name: 烟斗槽组件槽名称碗
       startingItem: GroundCannabisRainbow
       whitelist:
         tags:

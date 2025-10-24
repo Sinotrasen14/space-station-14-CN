@@ -2,8 +2,8 @@
   abstract: true
   parent: BaseStructureDynamic
   id: GasCanister
-  name: gas canister
-  description: A canister that can contain any type of gas. It can be attached to connector ports using a wrench.
+  name: 储气罐
+  description: 可容纳任何类型气体的储气罐。可使用扳手将其连接到接口端口。
   components:
     - type: Animateable
     - type: InteractionOutline
@@ -100,7 +100,7 @@
     - type: GasPortable
     - type: GasCanister
       gasTankSlot:
-        name: comp-gas-canister-slot-name-gas-tank
+        name: 压缩气罐槽位名称-气罐
         ejectOnBreak: true
         whitelist:
           components:
@@ -120,7 +120,7 @@
 - type: entity
   parent: GasCanister
   id: StorageCanister
-  name: storage canister
+  name: 存储罐
   components:
     - type: Sprite
       layers:
@@ -158,8 +158,8 @@
 - type: entity
   parent: GasCanister
   id: AirCanister
-  name: air canister
-  description: A canister that can contain any type of gas. This one is supposed to contain air mixture. It can be attached to connector ports using a wrench.
+  name: 空气罐
+  description: 可容纳任何类型气体的罐体。此罐体应用以储存空气混合物，可使用扳手将其连接到接口端口。
   components:
   - type: Sprite
     layers:
@@ -198,8 +198,8 @@
 - type: entity
   parent: GasCanister
   id: OxygenCanister
-  name: oxygen canister
-  description: A canister that can contain any type of gas. This one is supposed to contain oxygen. It can be attached to connector ports using a wrench.
+  name: 氧气罐
+  description: 可容纳任何类型气体的罐体。此罐体应用于储存氧气，可使用扳手将其连接到接口端口。
   components:
   - type: Sprite
     layers:
@@ -237,8 +237,8 @@
 - type: entity
   id: LiquidOxygenCanister
   parent: OxygenCanister
-  name: liquid oxygen canister
-  description: A canister that can contain any type of gas. This one is supposed to contain liquid oxygen. It can be attached to connector ports using a wrench.
+  name: 液氧罐
+  description: 可容纳任何类型气体的罐体。此罐应用于储存液氧，可使用扳手将其连接到接口端口。
   components:
   - type: GasCanister
     gasMixture:
@@ -252,8 +252,8 @@
 - type: entity
   parent: GasCanister
   id: NitrogenCanister
-  name: nitrogen canister
-  description: A canister that can contain any type of gas. This one is supposed to contain nitrogen. It can be attached to connector ports using a wrench.
+  name: 氮气罐
+  description: 可容纳任何类型气体的罐体。此罐应用于储存氮气，可使用扳手将其连接到接口端口。
   components:
     - type: Sprite
       layers:
@@ -291,8 +291,8 @@
 - type: entity
   id: LiquidNitrogenCanister
   parent: NitrogenCanister
-  name: liquid nitrogen canister
-  description: A canister that can contain any type of gas. This one is supposed to contain liquid nitrogen. It can be attached to connector ports using a wrench.
+  name: 液氮罐
+  description: 可容纳任何类型气体的罐体。此罐应用于储存液氮，可使用扳手将其连接到接口端口。
   components:
   - type: GasCanister
     gasMixture:
@@ -306,8 +306,8 @@
 - type: entity
   parent: GasCanister
   id: CarbonDioxideCanister
-  name: carbon dioxide canister
-  description: A canister that can contain any type of gas. This one is supposed to contain carbon dioxide. It can be attached to connector ports using a wrench.
+  name: 二氧化碳罐
+  description: 可容纳任何类型气体的罐体。此罐体应用于储存二氧化碳，可通过扳手连接至接口端口。
   components:
     - type: Sprite
       layers:
@@ -347,8 +347,8 @@
 - type: entity
   id: LiquidCarbonDioxideCanister
   parent: CarbonDioxideCanister
-  name: liquid carbon dioxide canister
-  description: A canister that can contain any type of gas. This one is supposed to contain liquid carbon dioxide. It can be attached to connector ports using a wrench.
+  name: 液态二氧化碳罐
+  description: 可容纳任何类型气体的罐体。此罐应用于储存液态二氧化碳，可使用扳手将其连接到接口端口。
   components:
   - type: GasCanister
     gasMixture:
@@ -362,8 +362,8 @@
 - type: entity
   parent: GasCanister
   id: PlasmaCanister
-  name: plasma canister
-  description: A canister that can contain any type of gas. This one is supposed to contain plasma. It can be attached to connector ports using a wrench.
+  name: 等离子体罐
+  description: 一个能容纳任何类型气体的罐体。这个应该用来装等离子体。可以用扳手将其连接到接口端口。
   components:
     - type: Sprite
       layers:
@@ -403,8 +403,8 @@
 - type: entity
   parent: GasCanister
   id: TritiumCanister
-  name: tritium canister
-  description: A canister that can contain any type of gas. This one is supposed to contain tritium. It can be attached to connector ports using a wrench.
+  name: 氚气罐
+  description: 可容纳任何类型气体的罐体。此罐应用于储存氚气，可使用扳手将其连接到接口端口。
   components:
     - type: Sprite
       layers:
@@ -444,8 +444,8 @@
 - type: entity
   parent: GasCanister
   id: WaterVaporCanister
-  name: water vapor canister
-  description: A canister that can contain any type of gas. This one is supposed to contain water vapor. It can be attached to connector ports using a wrench.
+  name: 水蒸气罐
+  description: 一个可容纳任何类型气体的罐体。此罐体设计用于储存水蒸气，可通过扳手连接至接口端口。
   components:
     - type: Sprite
       layers:
@@ -483,8 +483,8 @@
 - type: entity
   parent: GasCanister
   id: AmmoniaCanister
-  name: ammonia canister
-  description: A canister that can contain any type of gas. This one is supposed to contain ammonia. It can be attached to connector ports using a wrench.
+  name: 氨气罐
+  description: 可容纳任何类型气体的罐体。此罐应用于储存氨气，可使用扳手将其连接到接口端口。
   components:
     - type: Sprite
       layers:
@@ -524,8 +524,8 @@
 - type: entity
   parent: GasCanister
   id: NitrousOxideCanister
-  name: nitrous oxide canister
-  description: A canister that can contain any type of gas. This one is supposed to contain nitrous oxide. It can be attached to connector ports using a wrench.
+  name: 一氧化二氮罐
+  description: 可容纳任何类型气体的罐体。此罐应盛装一氧化二氮，可使用扳手将其连接到接口端口。
   components:
     - type: Sprite
       layers:
@@ -565,8 +565,8 @@
 - type: entity
   parent: GasCanister
   id: FrezonCanister
-  name: frezon canister
-  description: A canister that can contain any type of gas. This one is supposed to contain frezon. It can be attached to connector ports using a wrench.
+  name: 弗利昂罐
+  description: 一个可容纳任何类型气体的罐体。这个应该装有弗利昂。可以使用扳手将其连接到接口端口。
   components:
   - type: Sprite
     layers:
@@ -608,8 +608,8 @@
 - type: entity
   parent: BaseStructureDynamic
   id: GasCanisterBrokenBase
-  name: broken gas canister
-  description: A broken gas canister. Not useless yet, as it can be salvaged for high quality materials.
+  name: 破损的气罐
+  description: 一个破损的气罐。并非毫无用处，因为它可以被回收利用以获取高质量的材料。
   components:
     - type: Destructible
       thresholds:
@@ -718,7 +718,7 @@
 - type: entity
   parent: GasCanisterBrokenBase
   id: WaterVaporCanisterBroken
-  name: broken water vapor canister
+  name: 破裂的水蒸气罐
   categories: [ HideSpawnMenu ]
   components:
     - type: Sprite

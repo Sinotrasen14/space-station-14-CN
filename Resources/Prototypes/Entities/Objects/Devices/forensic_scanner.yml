@@ -1,8 +1,8 @@
 - type: entity
-  name: forensic scanner
+  name: 法医扫描仪
   parent: [ BaseItem, BaseSecurityContraband ]
   id: ForensicScanner
-  description: A handheld device that can scan objects for fingerprints and fibers.
+  description: 一款可以扫描物体以获取指纹和纤维的手持设备。
   components:
   - type: Sprite
     sprite: Objects/Devices/forensic_scanner.rsi
@@ -31,10 +31,10 @@
     stealGroup: ForensicScanner
 
 - type: entity
-  name: forensic scanner report
+  name: 法医扫描报告
   parent: Paper
   id: ForensicReportPaper
-  description: Circumstantial evidence, at best.
+  description: 充其量只是间接证据。
   components:
   - type: Sprite
     sprite: Objects/Misc/bureaucracy.rsi
@@ -61,8 +61,8 @@
 - type: entity
   parent: ForensicReportPaper
   id: PaperAccessLogs
-  name: access logs
-  description: A printout from the detective's trusty LogProbe.
+  name: 访问日志
+  description: 一份来自侦探信赖的LogProbe的打印输出。
   components:
   - type: PaperVisuals
     headerImagePath: null

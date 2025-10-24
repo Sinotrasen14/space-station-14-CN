@@ -1,8 +1,8 @@
 - type: entity
-  name: arm blade
+  name: 臂刃
   parent: BaseItem
   id: ArmBlade
-  description: A grotesque blade made out of bone and flesh that can pry open doors and cleaves through people as a hot knife through butter.
+  description: 一把由骨头和血肉制成的怪诞刀刃，能撬开门扉，斩切人体如同热刀切黄油般轻易。
   components:
   - type: Sharp
   - type: Execution

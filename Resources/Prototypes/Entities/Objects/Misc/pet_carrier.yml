@@ -1,7 +1,7 @@
 - type: entity
   id: PetCarrier
-  name: pet carrier
-  description: Allows large animals to be carried comfortably. It smells vaguely of toilet water and explosives.
+  name: 宠物运输箱
+  description: 可容纳大型动物，让其舒适待在其中。隐约散发着厕所水和炸药的气味。
   parent: BaseStructureDynamic
   components:
   - type: Sprite

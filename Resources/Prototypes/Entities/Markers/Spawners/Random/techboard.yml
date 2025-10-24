@@ -1,6 +1,6 @@
 ﻿- type: entity
   id: RandomBoard
-  name: random board spawner
+  name: 随机板生成器
   parent: MarkerBase
   components:
   - type: Sprite

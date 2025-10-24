@@ -1,8 +1,8 @@
 - type: entity
   parent: BaseItem
   id: DoorRemoteDefault
-  name: door remote
-  description: A gadget which can open and bolt doors remotely.
+  name: 门遥控器
+  description: 一种可以远程开关和锁闭门的装置。
   abstract: true
   components:
   - type: Sprite
@@ -11,36 +11,13 @@
     storedRotation: -90
   - type: Access
   - type: DoorRemote
-    options:
-    - mode: OpenClose
-      tooltip: door-remote-open-close-text
-      icon:
-        sprite: /Textures/Structures/Doors/Airlocks/Standard/basic.rsi
-        state: assembly
-    - mode: ToggleBolts
-      tooltip: door-remote-toggle-bolt-text
-      icon:
-        sprite: /Textures/Interface/Actions/actions_ai.rsi
-        state: bolt_door
-    - mode: ToggleEmergencyAccess
-      tooltip: door-remote-emergency-access-text
-      icon:
-        sprite: /Textures/Interface/Actions/actions_ai.rsi
-        state: emergency_on
   - type: StealTarget
     stealGroup: DoorRemote
-  - type: ActivatableUI
-    inHandsOnly: true
-    key: enum.DoorRemoteUiKey.Key
-  - type: UserInterface
-    interfaces:
-      enum.DoorRemoteUiKey.Key:
-        type: DoorRemoteBoundUserInterface
 
 - type: entity
   parent: [DoorRemoteDefault, BaseCommandContraband]
   id: DoorRemoteCommand
-  name: command door remote
+  name: 车门遥控器
   components:
   - type: Sprite
     layers:
@@ -57,8 +34,8 @@
 - type: entity
   parent: [DoorRemoteDefault, BaseCommandContraband]
   id: DoorRemoteCustom
-  name: custom door remote
-  description: A gadget which can open and bolt doors remotely. This advanced variant does not have built-in access, instead inheriting the ID access of the user.
+  name: 定制门禁遥控器
+  description: 一种能够远程开门和锁门的小装置。这款高级版本没有内置访问权限，而是继承了用户的身份识别访问权限。
   components:
   - type: Sprite
     layers:
@@ -74,7 +51,7 @@
 - type: entity
   parent: [DoorRemoteDefault, BaseCommandContraband]
   id: DoorRemoteSecurity
-  name: security door remote
+  name: 安全门遥控器
   components:
   - type: Sprite
     layers:
@@ -90,7 +67,7 @@
 - type: entity
   parent: [DoorRemoteDefault, BaseSecurityCommandContraband]
   id: DoorRemoteArmory
-  name: armory door remote
+  name: 军械库门遥控器
   components:
   - type: Sprite
     layers:
@@ -106,7 +83,7 @@
 - type: entity
   parent: [DoorRemoteDefault, BaseCommandContraband]
   id: DoorRemoteService
-  name: service door remote
+  name: 服务门遥控器
   components:
   - type: Sprite
     layers:
@@ -122,7 +99,7 @@
 - type: entity
   parent: [DoorRemoteDefault, BaseCommandContraband]
   id: DoorRemoteResearch
-  name: research door remote
+  name: 研究门遥控
   components:
   - type: Sprite
     layers:
@@ -138,7 +115,7 @@
 - type: entity
   parent: [DoorRemoteDefault, BaseCommandContraband]
   id: DoorRemoteCargo
-  name: cargo door remote
+  name: 货舱门遥控器
   components:
   - type: Sprite
     layers:
@@ -154,7 +131,7 @@
 - type: entity
   parent: [DoorRemoteDefault, BaseCommandContraband]
   id: DoorRemoteMedical
-  name: medical door remote
+  name: 医用门遥控器
   components:
   - type: Sprite
     layers:
@@ -170,7 +147,7 @@
 - type: entity
   parent: [DoorRemoteDefault, BaseCommandContraband]
   id: DoorRemoteEngineering
-  name: engineering door remote
+  name: 工程门遥控器
   components:
   - type: Sprite
     layers:
@@ -186,7 +163,7 @@
 - type: entity
   parent: [DoorRemoteDefault, BaseCommandContraband]
   id: DoorRemoteAll
-  name: super door remote
+  name: 超级门遥控器
   suffix: Admeme
   components:
   - type: Sprite
@@ -211,7 +188,7 @@
 - type: entity
   parent: [ DoorRemoteDefault, BaseXenoborgContraband ]
   id: DoorRemoteXenoborg
-  name: xenoborg door remote
+  name: 异生遥控门禁
   components:
   - type: Sprite
     layers:

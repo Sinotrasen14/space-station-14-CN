@@ -1,8 +1,8 @@
 - type: entity
   parent: ClothingUniformBase
   id: ClothingUniformJumpsuitDeathSquad
-  name: death squad uniform
-  description: Advanced armored jumpsuit used by special forces in special operations.
+  name: 死亡小队制服
+  description: 特种部队在特殊行动中使用的高级装甲连体服。
   components:
   - type: Sprite
     sprite: Clothing/Uniforms/Jumpsuit/deathsquad.rsi
@@ -12,8 +12,8 @@
 - type: entity
   parent: ClothingUniformBase
   id: ClothingUniformJumpsuitAncient
-  name: ancient jumpsuit
-  description: A terribly ragged and frayed grey jumpsuit. It looks like it hasn't been washed in over a decade.
+  name: 破旧的连体衣
+  description: 一件破烂不堪的灰色连体衣，看上去已经超过十年没有清洗过了。
   components:
   - type: Sprite
     sprite: Clothing/Uniforms/Jumpsuit/ancient.rsi
@@ -23,8 +23,8 @@
 - type: entity
   parent: [ClothingUniformBase, ClothingUniformFoldableBase]
   id: ClothingUniformJumpsuitBartender
-  name: bartender's uniform
-  description: A nice and tidy uniform. Shame about the bar though.
+  name: 酒保制服
+  description: 一件整洁漂亮的制服。可惜酒吧却不怎么样。
   components:
   - type: Sprite
     sprite: Clothing/Uniforms/Jumpsuit/bartender.rsi
@@ -32,8 +32,8 @@
 - type: entity
   parent: ClothingUniformBase
   id: ClothingUniformJumpsuitJacketMonkey
-  name: bartender's jacket monkey
-  description: A decent jacket, for a decent monkey.
+  name: 酒保的夹克猴子
+  description: 一件体面的夹克，配得上体面的猴子。
   components:
   - type: Sprite
     sprite: Clothing/Uniforms/Jumpsuit/punpun.rsi
@@ -47,8 +47,8 @@
 - type: entity
   parent: ClothingUniformBase
   id: ClothingUniformJumpsuitBartenderPurple
-  name: purple bartender's uniform
-  description: A special purple outfit to serve drinks.
+  name: 紫色调酒师制服
+  description: 一套用于提供饮品的特殊紫色制服。
   components:
   - type: Sprite
     sprite: Clothing/Uniforms/Jumpsuit/bartender_purple.rsi
@@ -58,8 +58,8 @@
 - type: entity
   parent: [ClothingUniformBase, BaseCommandContraband]
   id: ClothingUniformJumpsuitCaptain
-  name: captain's jumpsuit
-  description: It's a blue jumpsuit with some gold markings denoting the rank of "Captain".
+  name: 船长的连体服
+  description: 这是一件蓝色的连体服，带有金色徽记，标示着“船长”军衔。
   components:
   - type: Sprite
     sprite: Clothing/Uniforms/Jumpsuit/captain.rsi
@@ -69,8 +69,8 @@
 - type: entity
   parent: [ClothingUniformBase, ClothingUniformFoldableBase]
   id: ClothingUniformJumpsuitCargo
-  name: cargo tech jumpsuit
-  description: A sturdy jumpsuit, issued to members of the Cargo department.
+  name: 货物技术连体服
+  description: 一件结实的连体服，配发给货物部门的成员。
   components:
   - type: Sprite
     sprite: Clothing/Uniforms/Jumpsuit/cargotech.rsi
@@ -78,8 +78,8 @@
 - type: entity
   parent: [ClothingUniformBase, ClothingUniformFoldableBase]
   id: ClothingUniformJumpsuitSalvageSpecialist
-  name: salvage specialist's jumpsuit
-  description: It's a snappy jumpsuit with a sturdy set of overalls. It's very dirty.
+  name: 抢救专家的连体服
+  description: 这是一套时髦的连体服，配有结实的工装裤。衣服非常脏。
   components:
   - type: Sprite
     sprite: Clothing/Uniforms/Jumpsuit/salvage.rsi
@@ -87,8 +87,8 @@
 - type: entity
   parent: [ClothingUniformBase, BaseCommandContraband, ClothingUniformFoldableBase]
   id: ClothingUniformJumpsuitChiefEngineer
-  name: chief engineer's jumpsuit
-  description: It's a high visibility jumpsuit given to those engineers insane enough to achieve the rank of Chief Engineer.
+  name: 首席工程师连体服
+  description: 这是一件高能见度连体服，授予那些疯狂到足以获得首席工程师头衔的工程师们。
   components:
   - type: Sprite
     sprite: Clothing/Uniforms/Jumpsuit/ce.rsi
@@ -96,8 +96,8 @@
 - type: entity
   parent: [ClothingUniformBase, BaseCommandContraband]
   id: ClothingUniformJumpsuitChiefEngineerTurtle
-  name: chief engineer's turtleneck
-  description: A yellow turtleneck designed specifically for work in conditions of the engineering department.
+  name: 总工程师的高领毛衣
+  description: 一件专为工程部工作环境设计的黄色高领毛衣。
   components:
   - type: Sprite
     sprite: Clothing/Uniforms/Jumpsuit/ce_turtle.rsi
@@ -107,8 +107,8 @@
 - type: entity
   parent: ClothingUniformBase
   id: ClothingUniformJumpsuitChaplain
-  name: chaplain's jumpsuit
-  description: It's a black jumpsuit, often worn by religious folk.
+  name: 随军牧师的连体裤
+  description: 这是一件黑色的连体裤，通常由宗教人士穿着。
   components:
     - type: Sprite
       sprite: Clothing/Uniforms/Jumpsuit/chaplain.rsi
@@ -118,8 +118,8 @@
 - type: entity
   parent: [ ClothingUniformBase, BaseCentcommContraband ]
   id: ClothingUniformJumpsuitCentcomAgent
-  name: CentComm agent's jumpsuit
-  description: A suit worn by CentComm's legal team. Smells of burnt coffee.
+  name: CentComm特工的连体服
+  description: CentComm法律团队穿着的西装。散发着烧焦咖啡的气味。
   components:
   - type: Sprite
     sprite: Clothing/Uniforms/Jumpsuit/centcom_agent.rsi
@@ -129,8 +129,8 @@
 - type: entity
   parent: [ ClothingUniformBase, BaseCentcommContraband ]
   id: ClothingUniformJumpsuitCentcomOfficial
-  name: CentComm official's jumpsuit
-  description: It's a jumpsuit worn by CentComm's officials.
+  name: CentComm官员的连体服
+  description: 这是CentComm官员所穿的连体服。
   components:
   - type: Sprite
     sprite: Clothing/Uniforms/Jumpsuit/centcom_official.rsi
@@ -140,8 +140,8 @@
 - type: entity
   parent: [ ClothingUniformBase, BaseCentcommContraband ]
   id: ClothingUniformJumpsuitCentcomOfficer
-  name: CentComm officer's jumpsuit
-  description: It's a jumpsuit worn by CentComm Officers.
+  name: CentComm官员的连体服
+  description: 这是中央指挥部官员穿的连体服。
   components:
   - type: Sprite
     sprite: Clothing/Uniforms/Jumpsuit/centcom_officer.rsi
@@ -151,8 +151,8 @@
 - type: entity
   parent: ClothingUniformBase
   id: ClothingUniformJumpsuitChef
-  name: chef uniform
-  description: Can't cook without this.
+  name: 厨师制服
+  description: 没有这个可没法下厨。
   components:
   - type: Sprite
     sprite: Clothing/Uniforms/Jumpsuit/chef.rsi
@@ -162,8 +162,8 @@
 - type: entity
   parent: [ClothingUniformBase, ClothingUniformFoldableBase]
   id: ClothingUniformJumpsuitChemistry
-  name: chemistry jumpsuit
-  description: There's some odd stains on this jumpsuit. Hm.
+  name: 化学连体服
+  description: 这件连体服上有些奇怪的污渍。嗯。
   components:
   - type: Sprite
     sprite: Clothing/Uniforms/Jumpsuit/chemistry.rsi
@@ -171,8 +171,8 @@
 - type: entity
   parent: ClothingUniformBase
   id: ClothingUniformJumpsuitVirology
-  name: virology jumpsuit
-  description: It's made of a special fiber that gives special protection against biohazards. It has a virologist rank stripe on it.
+  name: 病毒学防护服
+  description: 它采用特殊纤维制成，能提供针对生物危害的特殊防护，并带有病毒学专家等级条纹标识。
   components:
   - type: Sprite
     sprite: Clothing/Uniforms/Jumpsuit/virology.rsi
@@ -182,8 +182,8 @@
 - type: entity
   parent: ClothingUniformBase
   id: ClothingUniformJumpsuitGenetics
-  name: genetics jumpsuit
-  description: It's made of a special fiber that gives special protection against biohazards. It has a geneticist rank stripe on it.
+  name: 遗传学连体衣
+  description: 它由特殊纤维制成，能提供针对生物危害的特殊防护，并带有遗传学家等级条纹。
   components:
   - type: Sprite
     sprite: Clothing/Uniforms/Jumpsuit/genetics.rsi
@@ -193,8 +193,8 @@
 - type: entity
   parent: ClothingUniformBase
   id: ClothingUniformJumpsuitClown
-  name: clown suit
-  description: HONK!
+  name: 小丑服
+  description: 按喇叭！
   components:
   - type: Sprite
     sprite: Clothing/Uniforms/Jumpsuit/clown.rsi
@@ -208,7 +208,7 @@
 - type: entity
   parent: ClothingUniformJumpsuitClown
   id: ClothingUniformJumpsuitClownBanana
-  name: banana clown suit
+  name: 香蕉小丑服
   components:
   - type: Sprite
     sprite: Clothing/Uniforms/Jumpsuit/clown_banana.rsi
@@ -225,8 +225,8 @@
 - type: entity
   parent: ClothingUniformBase
   id: ClothingUniformJumpsuitJester
-  name: jester suit
-  description: A jolly dress, well suited to entertain your master, nuncle.
+  name: 小丑服
+  description: 一件欢快的衣裳，最适合逗您开心了，叔叔。
   components:
   - type: Sprite
     sprite: Clothing/Uniforms/Jumpsuit/jester.rsi
@@ -245,8 +245,8 @@
 - type: entity
   parent: [ClothingUniformBase, BaseCommandContraband, ClothingUniformFoldableBase]
   id: ClothingUniformJumpsuitCMO
-  name: chief medical officer's jumpsuit
-  description: It's a jumpsuit worn by those with the experience to be Chief Medical Officer. It provides minor biological protection.
+  name: 首席医务官的连体服
+  description: 这是一件由具备首席医务官经验者穿着的连体服，能提供基础的生物防护。
   components:
   - type: Sprite
     sprite: Clothing/Uniforms/Jumpsuit/cmo.rsi
@@ -254,8 +254,8 @@
 - type: entity
   parent: [ClothingUniformBase, BaseCommandContraband]
   id: ClothingUniformJumpsuitCMOTurtle
-  name: chief medical officer's turtleneck jumpsuit
-  description: It's a turtleneck worn by those with the experience to be Chief Medical Officer. It provides minor biological protection.
+  name: 首席医务官的高领连体衣
+  description: 这是拥有首席医务官资历者所穿的高领连体衣，能提供轻微的生物防护。
   components:
   - type: Sprite
     sprite: Clothing/Uniforms/Jumpsuit/cmo_turtle.rsi
@@ -265,8 +265,8 @@
 - type: entity
   parent: ClothingUniformBase
   id: ClothingUniformJumpsuitDetective
-  name: hard-worn suit
-  description: Someone who wears this means business.
+  name: 饱经风霜的西装
+  description: 穿这身行头的人可不是好惹的。
   components:
     - type: Sprite
       sprite: Clothing/Uniforms/Jumpsuit/detective.rsi
@@ -276,8 +276,8 @@
 - type: entity
   parent: ClothingUniformBase
   id: ClothingUniformJumpsuitDetectiveGrey
-  name: noir suit
-  description: A hard-boiled private investigator's grey suit, complete with tie clip.
+  name: 黑色西装
+  description: 一位硬汉派私家侦探的灰色西装，配以领带夹。
   components:
     - type: Sprite
       sprite: Clothing/Uniforms/Jumpsuit/detective_grey.rsi
@@ -287,8 +287,8 @@
 - type: entity
   parent: [ClothingUniformBase, ClothingUniformFoldableBase]
   id: ClothingUniformJumpsuitEngineering
-  name: engineering jumpsuit
-  description: If this suit was non-conductive, maybe engineers would actually do their damn job.
+  name: 工程连体服
+  description: 如果这件连体服不导电，工程师们或许还真能把他们的活儿干好。
   components:
   - type: Sprite
     sprite: Clothing/Uniforms/Jumpsuit/engineering.rsi
@@ -296,8 +296,8 @@
 - type: entity
   parent: [ClothingUniformBase, ClothingUniformFoldableBase]
   id: ClothingUniformJumpsuitEngineeringHazard
-  name: hazard jumpsuit
-  description: Woven in a grungy, warm orange. Lets others around you know that you really mean business when it comes to work.
+  name: 危险连体裤
+  description: 采用邋遢而温暖的橙色编织而成，让你周围的同事明白，对待工作你绝对是认真的。
   components:
   - type: Sprite
     sprite: Clothing/Uniforms/Jumpsuit/engineering_hazard.rsi
@@ -305,8 +305,8 @@
 - type: entity
   parent: [ClothingUniformBase, BaseCommandContraband, ClothingUniformFoldableBase]
   id: ClothingUniformJumpsuitHoP
-  name: head of personnel's jumpsuit
-  description: Rather bland and inoffensive. Perfect for vanishing off the face of the universe.
+  name: 人事主管的连体工作服
+  description: 相当平淡且无害，非常适合从宇宙中消失。
   components:
   - type: Sprite
     sprite: Clothing/Uniforms/Jumpsuit/hop.rsi
@@ -314,8 +314,8 @@
 - type: entity
   parent: [ClothingUniformBase, BaseCommandContraband]
   id: ClothingUniformJumpsuitHoS
-  name: head of security's jumpsuit
-  description: It's bright red and rather crisp, much like security's victims tend to be.
+  name: 保安主管的连体裤
+  description: 它颜色鲜红且相当干脆，很像保安手下的受害者们那样。
   components:
   - type: Sprite
     sprite: Clothing/Uniforms/Jumpsuit/hos.rsi
@@ -337,8 +337,8 @@
 - type: entity
   parent: [ClothingUniformBase, BaseCommandContraband]
   id: ClothingUniformJumpsuitHoSAlt
-  name: head of security's turtleneck
-  description: It's a turtleneck worn by those strong and disciplined enough to achieve the position of Head of Security.
+  name: 安保主管的高领毛衣
+  description: 这是一件高领毛衣，只有那些意志坚定、纪律严明，足以胜任安保主管职位的人才会穿着。
   components:
   - type: Sprite
     sprite: Clothing/Uniforms/Jumpsuit/hos_alt.rsi
@@ -348,8 +348,8 @@
 - type: entity
   parent: [ClothingUniformBase, BaseCommandContraband]
   id: ClothingUniformJumpsuitHoSBlue
-  name: head of security's blue jumpsuit
-  description: A blue jumpsuit of Head of Security.
+  name: 安保主管的蓝色连体服
+  description: 安保主管的蓝色连体服。
   components:
   - type: Sprite
     sprite: Clothing/Uniforms/Jumpsuit/hos_blue.rsi
@@ -359,8 +359,8 @@
 - type: entity
   parent: [ClothingUniformBase, BaseCommandContraband]
   id: ClothingUniformJumpsuitHoSGrey
-  name: head of security's grey jumpsuit
-  description: A grey jumpsuit of Head of Security, which make him look somewhat like a passenger.
+  name: 安保主管的灰色连体服
+  description: 安保主管的灰色连体服，让他看起来有点像乘客。
   components:
   - type: Sprite
     sprite: Clothing/Uniforms/Jumpsuit/hos_grey.rsi
@@ -370,8 +370,8 @@
 - type: entity
   parent: [ClothingUniformBase, BaseCommandContraband]
   id: ClothingUniformJumpsuitHoSParadeMale
-  name: head of security's parade uniform
-  description: A male head of security's luxury-wear, for special occasions.
+  name: 安保主管的阅兵礼服
+  description: 安保主管在特殊场合穿着的奢华礼服。
   components:
   - type: Sprite
     sprite: Clothing/Uniforms/Jumpsuit/hos_parade.rsi
@@ -381,8 +381,8 @@
 - type: entity
   parent: [ ClothingUniformBase, BaseCommandContraband ]
   id: ClothingUniformJumpsuitCommandGeneric
-  name: command jumpsuit
-  description: A generic Command-colored jumpsuit not associated with any particular department.
+  name: 指挥连体服
+  description: 一件通用的指挥色连体服，不与任何特定部门关联。
   components:
   - type: Sprite
     sprite: Clothing/Uniforms/Jumpsuit/commandgeneric.rsi
@@ -392,8 +392,8 @@
 - type: entity
   parent: [ClothingUniformBase, ClothingUniformFoldableBase]
   id: ClothingUniformJumpsuitHydroponics
-  name: hydroponics jumpsuit
-  description: Has a strong earthy smell to it. Hopefully it's merely dirty as opposed to soiled.
+  name: 水培防护服
+  description: 有股很重的泥土味。希望只是弄脏了，而不是被污染了。
   components:
   - type: Sprite
     sprite: Clothing/Uniforms/Jumpsuit/hydro.rsi
@@ -401,8 +401,8 @@
 - type: entity
   parent: [ClothingUniformBase, ClothingUniformFoldableBase]
   id: ClothingUniformJumpsuitJanitor
-  name: janitor jumpsuit
-  description: The jumpsuit for the poor sop with a mop.
+  name: 看门人连体裤
+  description: 看门人连体裤。
   components:
   - type: Sprite
     sprite: Clothing/Uniforms/Jumpsuit/janitor.rsi
@@ -410,8 +410,8 @@
 - type: entity
   parent: ClothingUniformBase
   id: ClothingUniformJumpsuitKimono
-  name: kimono
-  description: Traditional chinese clothing.
+  name: 和服
+  description: 中国传统服饰。
   components:
   - type: Sprite
     sprite: Clothing/Uniforms/Jumpsuit/kimono.rsi
@@ -421,8 +421,8 @@
 - type: entity
   parent: [ClothingUniformBase, ClothingUniformFoldableBase]
   id: ClothingUniformJumpsuitMedicalDoctor
-  name: medical doctor jumpsuit
-  description: It's made of a special fiber that provides minor protection against biohazards. It has a cross on the chest denoting that the wearer is trained medical personnel.
+  name: 医用连体防护服
+  description: 它采用特殊纤维制成，能对生物危害提供基础防护。胸前印有十字标识，表明穿戴者受过专业医疗培训。
   components:
   - type: Sprite
     sprite: Clothing/Uniforms/Jumpsuit/medical.rsi
@@ -430,7 +430,7 @@
 - type: entity
   parent: ClothingUniformBase
   id: ClothingUniformJumpsuitMime
-  name: mime suit
+  name: 哑光西装
   description: ...
   components:
   - type: Sprite
@@ -441,8 +441,8 @@
 - type: entity
   parent: ClothingUniformBase
   id: ClothingUniformJumpsuitParamedic
-  name: paramedic jumpsuit
-  description: It's got a plus on it, that's a good thing right?
+  name: 护理人员连体服
+  description: 上面有个加号，这是好事，对吧？
   components:
   - type: Sprite
     sprite: Clothing/Uniforms/Jumpsuit/paramedic.rsi
@@ -452,8 +452,8 @@
 - type: entity
   parent: ClothingUniformBase
   id: ClothingUniformJumpsuitBrigmedic
-  name: brigmedic jumpsuit
-  description: This uniform is issued to qualified personnel who have been trained. No one cares that the training took half a day.
+  name: 旅医连体服
+  description: 该制服仅授予完成培训的合格人员。无人介意培训仅耗时半日。
   components:
   - type: Sprite
     sprite: Clothing/Uniforms/Jumpsuit/brigmedic.rsi
@@ -463,8 +463,8 @@
 - type: entity
   parent: ClothingUniformBase
   id: ClothingUniformJumpsuitPrisoner
-  name: prisoner jumpsuit
-  description: A jumpsuit used for prisoners. It has suit sensors automatically enabled at all times.
+  name: 囚犯连体衣
+  description: 一种用于囚犯的连体衣。其内置的囚服传感器始终保持自动启用状态。
   components:
   - type: Sprite
     sprite: Clothing/Uniforms/Jumpsuit/color.rsi
@@ -503,8 +503,8 @@
 - type: entity
   parent: [ClothingUniformBase, BaseCommandContraband]
   id: ClothingUniformJumpsuitQM
-  name: quartermaster's jumpsuit
-  description: 'What can brown do for you?'
+  name: 军需官的连体裤
+  description: '棕色能为你做什么？'
   components:
   - type: Sprite
     sprite: Clothing/Uniforms/Jumpsuit/qm.rsi
@@ -514,8 +514,8 @@
 - type: entity
   parent: [ClothingUniformBase, BaseCommandContraband]
   id: ClothingUniformJumpsuitQMTurtleneck
-  name: quartermasters's turtleneck
-  description: A sharp turtleneck made for the hardy work environment of supply.
+  name: 军需官的高领衫
+  description: 一件为艰苦的补给工作环境量身打造的挺括高领衫。
   components:
     - type: Sprite
       sprite: Clothing/Uniforms/Jumpsuit/qmturtle.rsi
@@ -525,8 +525,8 @@
 - type: entity
   parent: [ClothingUniformBase, BaseCommandContraband]
   id: ClothingUniformJumpsuitQMFormal
-  name: quartermasters's formal suit
-  description: Inspired by the quartermasters of military's past, the perfect outfit for supplying a formal occasion.
+  name: 军需官的正式套装
+  description: 受昔日军队军需官的启发，为正式场合提供完美着装。
   components:
     - type: Sprite
       sprite: Clothing/Uniforms/Jumpsuit/qmformal.rsi
@@ -536,8 +536,8 @@
 - type: entity
   parent: [ClothingUniformBase, BaseCommandContraband]
   id: ClothingUniformJumpsuitResearchDirector
-  name: research director's turtleneck
-  description: It's a turtleneck worn by those with the know-how to achieve the position of Research Director. Its fabric provides minor protection from biological contaminants.
+  name: 首席科学家的高领毛衣
+  description: 这是首席科学家们穿的高领毛衣，其面料能提供对生物污染物的轻微防护。
   components:
   - type: Sprite
     sprite: Clothing/Uniforms/Jumpsuit/rnd.rsi
@@ -547,8 +547,8 @@
 - type: entity
   parent: [ClothingUniformBase, ClothingUniformFoldableBase]
   id: ClothingUniformJumpsuitScientist
-  name: scientist jumpsuit
-  description: It's made of a special fiber that increases perceived intelligence and decreases personal ethics. It has markings that denote the wearer as a scientist.
+  name: 科学家连体服
+  description: 它由一种特殊纤维制成，能提升穿着者的感知智力并削弱个人道德准则。服装上带有标识，表明穿着者的科学家身份。
   components:
   - type: Sprite
     sprite: Clothing/Uniforms/Jumpsuit/scientist.rsi
@@ -556,8 +556,8 @@
 - type: entity
   parent: ClothingUniformBase
   id: ClothingUniformJumpsuitScientistFormal
-  name: scientist's formal jumpsuit
-  description: A uniform for sophisticated scientists, best worn with its matching tie.
+  name: 科学家正装连体裤
+  description: 一套精致的科学家制服，最好搭配同款领带穿着。
   components:
   - type: Sprite
     sprite: Clothing/Uniforms/Jumpsuit/scientist_formal.rsi
@@ -567,8 +567,8 @@
 - type: entity
   parent: [ClothingUniformBase, ClothingUniformFoldableBase]
   id: ClothingUniformJumpsuitRoboticist
-  name: roboticist jumpsuit
-  description: It's a slimming black with reinforced seams; great for industrial work.
+  name: 机器人专家连体裤
+  description: 这是一款修身黑色连体裤，带有加固缝线，非常适合工业作业。
   components:
   - type: Sprite
     sprite: Clothing/Uniforms/Jumpsuit/roboticist.rsi
@@ -576,8 +576,8 @@
 - type: entity
   parent: [ClothingUniformBase, BaseSecurityContraband, ClothingUniformFoldableBase]
   id: ClothingUniformJumpsuitSec
-  name: security jumpsuit
-  description: A jumpsuit made of strong material, providing robust protection.
+  name: 安全连体服
+  description: 采用坚固材料制成的连体服，提供可靠防护。
   components:
   - type: Sprite
     sprite: Clothing/Uniforms/Jumpsuit/security.rsi
@@ -597,8 +597,8 @@
 - type: entity
   parent: ClothingUniformBase
   id: ClothingUniformJumpsuitSecBlue
-  name: blue shirt and tie
-  description: I'm a little busy right now, Calhoun.
+  name: 蓝衬衫和领带
+  description: 我现在有点忙，卡尔霍恩。
   components:
   - type: Sprite
     sprite: Clothing/Uniforms/Jumpsuit/security_blue.rsi
@@ -608,8 +608,8 @@
 - type: entity
   parent: [ClothingUniformBase, BaseSecurityContraband]
   id: ClothingUniformJumpsuitSecGrey
-  name: grey security jumpsuit
-  description: A tactical relic of years past before Nanotrasen decided it was cheaper to dye the suits red instead of washing out the blood.
+  name: 灰色安保连体服
+  description: 一件战术遗物，源自纳米传讯公司当年发现把制服染红比洗掉血迹更便宜之前的岁月。
   components:
   - type: Sprite
     sprite: Clothing/Uniforms/Jumpsuit/security_grey.rsi
@@ -619,8 +619,8 @@
 - type: entity
   parent: [ClothingUniformBase, BaseSecurityContraband]
   id: ClothingUniformSecurityTrooper
-  name: trooper uniform
-  description: A formal uniform issued to the Nanotrasen Troopers, usually it comes with a car.
+  name: 部队制服
+  description: 纳米传讯部队正式配发的制服，通常随车配备。
   components:
   - type: Sprite
     sprite: Clothing/Uniforms/Jumpsuit/security_trooper.rsi
@@ -630,8 +630,8 @@
 - type: entity
   parent: [ClothingUniformBase, BaseSecurityContraband]
   id: ClothingUniformJumpsuitWarden
-  name: warden's uniform
-  description: A formal security suit for officers complete with Nanotrasen belt buckle.
+  name: 警卫队长的制服
+  description: 一套供军官使用的正式安保制服，配有纳诺特拉森腰带扣。
   components:
   - type: Sprite
     sprite: Clothing/Uniforms/Jumpsuit/warden.rsi
@@ -653,8 +653,8 @@
 - type: entity
   parent: ClothingUniformBase
   id: ClothingUniformOveralls
-  name: overalls
-  description: Great for working outdoors.
+  name: 工装裤
+  description: 非常适合户外工作。
   components:
   - type: Sprite
     sprite: Clothing/Uniforms/Jumpsuit/overalls.rsi
@@ -664,8 +664,8 @@
 - type: entity
   parent: ClothingUniformBase
   id: ClothingUniformJumpsuitLibrarian
-  name: librarian jumpsuit
-  description: A cosy green jumper fit for a curator of books.
+  name: 图书管理员连体裤
+  description: 一件适合图书管理员的舒适绿色连体裤。
   components:
   - type: Sprite
     sprite: Clothing/Uniforms/Jumpsuit/librarian.rsi
@@ -675,8 +675,8 @@
 - type: entity
   parent: ClothingUniformBase
   id: ClothingUniformJumpsuitCurator
-  name: sensible suit
-  description: It's sensible. Too sensible...
+  name: 得体的西装
+  description: 这很得体。太得体了……
   components:
   - type: Sprite
     sprite: Clothing/Uniforms/Jumpsuit/curator.rsi
@@ -686,8 +686,8 @@
 - type: entity
   parent: ClothingUniformBase
   id: ClothingUniformJumpsuitLawyerRed
-  name: red lawyer suit
-  description: A flashy red suit worn by lawyers and show-offs.
+  name: 红色律师装
+  description: 律师和爱炫耀者所穿的艳丽红色西装。
   components:
   - type: Sprite
     sprite: Clothing/Uniforms/Jumpsuit/lawyerred.rsi
@@ -697,8 +697,8 @@
 - type: entity
   parent: ClothingUniformBase
   id: ClothingUniformJumpsuitLawyerBlue
-  name: blue lawyer suit
-  description: A flashy blue suit worn by lawyers and show-offs.
+  name: 蓝色律师装
+  description: 律师和爱炫耀者所穿的浮夸蓝色西装。
   components:
   - type: Sprite
     sprite: Clothing/Uniforms/Jumpsuit/lawyerblue.rsi
@@ -708,8 +708,8 @@
 - type: entity
   parent: ClothingUniformBase
   id: ClothingUniformJumpsuitLawyerBlack
-  name: black lawyer suit
-  description: A subtle black suit worn by lawyers and gangsters.
+  name: 黑色律师西装
+  description: 律师和黑帮成员穿着的精致黑色西装。
   components:
   - type: Sprite
     sprite: Clothing/Uniforms/Jumpsuit/lawyerblack.rsi
@@ -719,8 +719,8 @@
 - type: entity
   parent: ClothingUniformBase
   id: ClothingUniformJumpsuitLawyerPurple
-  name: purple lawyer suit
-  description: A stylish purple piece worn by lawyers and show people.
+  name: 紫色律师套装
+  description: 律师和演艺人士穿着的时尚紫色套装。
   components:
   - type: Sprite
     sprite: Clothing/Uniforms/Jumpsuit/lawyerpurple.rsi
@@ -730,8 +730,8 @@
 - type: entity
   parent: ClothingUniformBase
   id: ClothingUniformJumpsuitLawyerGood
-  name: good lawyer's suit
-  description: A tacky suit perfect for a CRIMINAL lawyer!
+  name: 好律师的西装
+  description: 一件俗气的西装，非常适合刑事律师！
   components:
     - type: Sprite
       sprite: Clothing/Uniforms/Jumpsuit/lawyergood.rsi
@@ -741,8 +741,8 @@
 - type: entity
   parent: [UnsensoredClothingUniformBase, BaseSyndicateContraband]
   id: ClothingUniformJumpsuitPyjamaSyndicateBlack
-  name: black syndicate pyjamas
-  description: For those long nights in perma.
+  name: 黑色集团睡衣
+  description: 适合在永世中度过漫漫长夜。
   components:
   - type: Sprite
     sprite: Clothing/Uniforms/Jumpsuit/pyjamasyndicateblack.rsi
@@ -752,8 +752,8 @@
 - type: entity
   parent: [UnsensoredClothingUniformBase, BaseSyndicateContraband]
   id: ClothingUniformJumpsuitPyjamaSyndicatePink
-  name: pink syndicate pyjamas
-  description: For those long nights in perma.
+  name: 粉色集团睡衣
+  description: 适合在永暮中度过漫漫长夜。
   components:
   - type: Sprite
     sprite: Clothing/Uniforms/Jumpsuit/pyjamasyndicatepink.rsi
@@ -763,8 +763,8 @@
 - type: entity
   parent: [UnsensoredClothingUniformBase, BaseSyndicateContraband]
   id: ClothingUniformJumpsuitPyjamaSyndicateRed
-  name: red syndicate pyjamas
-  description: For those long nights in perma.
+  name: 红色联盟睡衣
+  description: 适用于永久冻土区的漫漫长夜。
   components:
   - type: Sprite
     sprite: Clothing/Uniforms/Jumpsuit/pyjamasyndicatered.rsi
@@ -774,8 +774,8 @@
 - type: entity
   parent: ClothingUniformBase
   id: ClothingUniformJumpsuitNanotrasen
-  name: nanotrasen jumpsuit
-  description: A stately blue jumpsuit to represent NanoTrasen.
+  name: 纳米特拉森连体衣
+  description: 一件代表纳米特拉森的庄重蓝色连体衣。
   components:
   - type: Sprite
     sprite: Clothing/Uniforms/Jumpsuit/nanotrasen.rsi
@@ -785,8 +785,8 @@
 - type: entity
   parent: [ClothingUniformBase, BaseCommandContraband]
   id: ClothingUniformJumpsuitCapFormal
-  name: captain's formal suit
-  description: A suit for special occasions.
+  name: 船长的正装
+  description: 一套用于特殊场合的正装。
   components:
   - type: Sprite
     sprite: Clothing/Uniforms/Jumpsuit/capformal.rsi
@@ -796,8 +796,8 @@
 - type: entity
   parent: ClothingUniformBase
   id: ClothingUniformJumpsuitCentcomFormal
-  name: central command formal suit
-  description: A suit for special occasions.
+  name: 中央指挥礼服
+  description: 一套用于特殊场合的礼服。
   components:
   - type: Sprite
     sprite: Clothing/Uniforms/Jumpsuit/centcomformal.rsi
@@ -807,8 +807,8 @@
 - type: entity
   parent: [ClothingUniformBase, BaseCommandContraband]
   id: ClothingUniformJumpsuitHosFormal
-  name: hos's formal suit
-  description: A suit for special occasions.
+  name: 霍斯的正装
+  description: 一套适合特殊场合的正装。
   components:
   - type: Sprite
     sprite: Clothing/Uniforms/Jumpsuit/hosformal.rsi
@@ -818,8 +818,8 @@
 - type: entity
   parent: [UnsensoredClothingUniformBase, BaseSyndicateContraband]
   id: ClothingUniformJumpsuitOperative
-  name: operative jumpsuit
-  description: Uniform for elite syndicate operatives performing tactical operations in deep space.
+  name: 特工连体服
+  description: 专为在深空执行战术行动的精英特工设计的连体服。
   components:
   - type: Sprite
     sprite: Clothing/Uniforms/Jumpsuit/operative.rsi
@@ -831,8 +831,8 @@
 - type: entity
   parent: ClothingUniformBase
   id: ClothingUniformJumpsuitTacticool
-  name: tacticool jumpsuit
-  description: Uniform for subpar operative LARPers performing tactical insulated glove theft in deep space.
+  name: 战术酷炫连体服
+  description: 为在深空执行战术绝缘手套盗窃行动的不入流实境角色扮演者设计的连体服。
   components:
     - type: Sprite
       sprite: Clothing/Uniforms/Jumpsuit/tacticool.rsi
@@ -846,8 +846,8 @@
 - type: entity
   parent: [ ClothingUniformBase ]
   id: ClothingUniformJumpsuitMercenary
-  name: mercenary jumpsuit
-  description: Clothing for real mercenaries who have gone through fire, water and the jungle of planets flooded with dangerous monsters or targets for which a reward has been assigned.
+  name: 雇佣兵连体服
+  description: 为历经战火洗礼、穿越遍布危险怪物或悬赏目标的异星丛林之真正雇佣兵所打造的连体作战服。
   components:
   - type: Sprite
     sprite: Clothing/Uniforms/Jumpsuit/mercenary.rsi
@@ -857,8 +857,8 @@
 - type: entity
   parent: UnsensoredClothingUniformBase
   id: ClothingUniformJumpsuitNinja
-  name: ninja jumpsuit
-  description: Comfortable ninja suit, for convenience when relaxing and when you need to practice.
+  name: 忍者连体衣
+  description: 舒适的忍者连体衣，休闲放松与训练习武时皆宜。
   components:
   - type: Sprite
     sprite: Clothing/Uniforms/Jumpsuit/ninja.rsi
@@ -868,8 +868,8 @@
 - type: entity
   parent: [ClothingUniformBase, ClothingUniformFoldableBase]
   id: ClothingUniformJumpsuitAtmos
-  name: atmospheric technician jumpsuit
-  description: I am at work. I can't leave work. Work is breathing. I am testing air quality.
+  name: 大气技术员连体服
+  description: 我在工作。我不能离开工作。工作就是呼吸。我正在检测空气质量。
   components:
   - type: Sprite
     sprite: Clothing/Uniforms/Jumpsuit/atmos.rsi
@@ -877,8 +877,8 @@
 - type: entity
   parent: [ClothingUniformBase, ClothingUniformFoldableBase]
   id: ClothingUniformJumpsuitAtmosCasual
-  name: atmospheric technician's casual jumpsuit
-  description: Might as well relax with a job as easy as yours.
+  name: 大气技术员的休闲连体服
+  description: 既然你的工作这么轻松，不如放松一下。
   components:
   - type: Sprite
     sprite: Clothing/Uniforms/Jumpsuit/atmos_casual.rsi
@@ -886,8 +886,8 @@
 - type: entity
   parent: ClothingUniformBase
   id: ClothingUniformJumpsuitPsychologist
-  name: psychologist suit
-  description: I don't lose things. I place things in locations which later elude me.
+  name: 心理学家套装
+  description: 我不会丢东西，只是把东西放在后来想不起来的地方。
   components:
   - type: Sprite
     sprite: Clothing/Uniforms/Jumpsuit/psychologist.rsi
@@ -897,8 +897,8 @@
 - type: entity
   parent: ClothingUniformBase
   id: ClothingUniformJumpsuitReporter
-  name: reporter suit
-  description: A good reporter remains a skeptic all their life.
+  name: 记者装
+  description: 一名优秀的记者终生都保持怀疑态度。
   components:
   - type: Sprite
     sprite: Clothing/Uniforms/Jumpsuit/reporter.rsi
@@ -908,8 +908,8 @@
 - type: entity
   parent: ClothingUniformBase
   id: ClothingUniformJumpsuitSafari
-  name: safari suit
-  description: Perfect for a jungle excursion.
+  name: 狩猎装
+  description: 非常适合丛林远足。
   components:
   - type: Sprite
     sprite: Clothing/Uniforms/Jumpsuit/safari.rsi
@@ -919,8 +919,8 @@
 - type: entity
   parent: ClothingUniformBase
   id: ClothingUniformJumpsuitJournalist
-  name: journalist suit
-  description: If journalism is good, it is controversial, by nature.
+  name: 记者装
+  description: 如果新闻做得好，它本身就具有争议性。
   components:
   - type: Sprite
     sprite: Clothing/Uniforms/Jumpsuit/journalist.rsi
@@ -930,8 +930,8 @@
 - type: entity
   parent: ClothingUniformBase
   id: ClothingUniformJumpsuitMonasticRobeDark
-  name: dark monastic robe
-  description: It's a dark robe, often worn by religious folk.
+  name: 深色僧袍
+  description: 这是一件深色长袍，常由宗教人士穿着。
   components:
     - type: Sprite
       sprite: Clothing/Uniforms/Jumpsuit/monastic_robe_dark.rsi
@@ -941,8 +941,8 @@
 - type: entity
   parent: ClothingUniformBase
   id: ClothingUniformJumpsuitMonasticRobeLight
-  name: light monastic robe
-  description: It's a light robe, often worn by religious folk.
+  name: 浅色僧袍
+  description: 这是一件浅色僧袍，通常由宗教人士穿着。
   components:
     - type: Sprite
       sprite: Clothing/Uniforms/Jumpsuit/monastic_robe_light.rsi
@@ -952,8 +952,8 @@
 - type: entity
   parent: ClothingUniformBase
   id: ClothingUniformJumpsuitMusician
-  name: musician's tuxedo
-  description: A fancy tuxedo for the musically inclined.  Perfect for any lounge act!
+  name: 音乐家燕尾服
+  description: 一件专为音乐爱好者设计的精美燕尾服，适合任何休闲演出场合！
   components:
   - type: Sprite
     sprite: Clothing/Uniforms/Jumpsuit/musician.rsi
@@ -963,8 +963,8 @@
 - type: entity
   parent: [ BaseCentcommContraband, ClothingUniformBase ]
   id: ClothingUniformJumpsuitERTChaplain
-  name: ERT chaplain uniform
-  description: A special suit made for Central Command's elite chaplain corps.
+  name: ERT牧师制服
+  description: 一套为中央司令部精英牧师团特制的制服。
   components:
   - type: Sprite
     sprite: Clothing/Uniforms/Jumpsuit/ert_chaplain.rsi
@@ -974,8 +974,8 @@
 - type: entity
   parent: [ BaseCentcommContraband, ClothingUniformBase ]
   id: ClothingUniformJumpsuitERTEngineer
-  name: ERT engineering uniform
-  description: A special suit made for the elite engineers under CentComm.
+  name: ERT工程制服
+  description: 一套为中央司令部精英工程师特制的制服。
   components:
   - type: Sprite
     sprite: Clothing/Uniforms/Jumpsuit/ert_engineer.rsi
@@ -985,8 +985,8 @@
 - type: entity
   parent: [ BaseCentcommContraband, ClothingUniformBase ]
   id: ClothingUniformJumpsuitERTJanitor
-  name: ERT janitorial uniform
-  description: A special suit made for the elite janitors under CentComm.
+  name: ERT清洁工制服
+  description: 专为中央司令部旗下精英清洁工打造的特制制服。
   components:
   - type: Sprite
     sprite: Clothing/Uniforms/Jumpsuit/ert_janitor.rsi
@@ -996,8 +996,8 @@
 - type: entity
   parent: [ BaseCentcommContraband, ClothingUniformBase ]
   id: ClothingUniformJumpsuitERTLeader
-  name: ERT leader uniform
-  description: A special suit made for the best of the elites under CentComm.
+  name: ERT领队制服
+  description: 这套特殊制服专为CentComm旗下精英中的佼佼者而制。
   components:
   - type: Sprite
     sprite: Clothing/Uniforms/Jumpsuit/ert_leader.rsi
@@ -1007,8 +1007,8 @@
 - type: entity
   parent: [ BaseCentcommContraband, ClothingUniformBase ]
   id: ClothingUniformJumpsuitERTMedic
-  name: ERT medical uniform
-  description: A special suit made for the elite medics under CentComm.
+  name: ERT医疗制服
+  description: 专为中央司令部精英医疗兵打造的特殊制服。
   components:
   - type: Sprite
     sprite: Clothing/Uniforms/Jumpsuit/ert_medic.rsi
@@ -1018,8 +1018,8 @@
 - type: entity
   parent: [ BaseCentcommContraband, ClothingUniformBase ]
   id: ClothingUniformJumpsuitERTSecurity
-  name: ERT security uniform
-  description: A special suit made for the elite security under CentComm.
+  name: ERT安保制服
+  description: 一套为中央司令部精英安保人员特制的制服。
   components:
   - type: Sprite
     sprite: Clothing/Uniforms/Jumpsuit/ert_security.rsi
@@ -1029,9 +1029,9 @@
 - type: entity
   parent: ClothingUniformJumpsuitClown
   id: ClothingUniformJumpsuitCluwne
-  name: cluwne suit
+  name: 小丑服
   suffix: Unremoveable
-  description: Cursed cluwne suit.
+  description: 被诅咒的小丑服。
   components:
   - type: Sprite
     sprite: Clothing/Uniforms/Jumpsuit/cluwne.rsi
@@ -1042,8 +1042,8 @@
 - type: entity
   parent: ClothingUniformBase
   id: ClothingUniformJumpsuitDameDane
-  name: yakuza outfit
-  description: Baka mitai...
+  name: 如龙装扮
+  description: 笨蛋...
   components:
   - type: Sprite
     sprite: Clothing/Uniforms/Jumpsuit/damedaneoutfit.rsi
@@ -1053,8 +1053,8 @@
 - type: entity
   parent: ClothingUniformBase
   id: ClothingUniformJumpsuitPirate
-  name: pirate slops
-  description: A pirate variation of a space sailor's jumpsuit.
+  name: 海盗宽松裤
+  description: 太空水手连体服的海盗变种。
   components:
   - type: Sprite
     sprite: Clothing/Uniforms/Jumpsuit/pirate.rsi
@@ -1066,8 +1066,8 @@
 - type: entity
   parent: ClothingUniformBase
   id: ClothingUniformJumpsuitCossack
-  name: cossack suit
-  description: The good old pants and brigantine.
+  name: 哥萨克套装
+  description: 那条好旧的裤子和布里干汀外套。
   components:
   - type: Sprite
     sprite: Clothing/Uniforms/Jumpsuit/cossack.rsi
@@ -1077,8 +1077,8 @@
 - type: entity
   parent: ClothingUniformBase
   id: ClothingUniformJumpsuitHawaiBlack
-  name: black hawaiian shirt
-  description: Black as a starry night.
+  name: 黑色夏威夷衬衫
+  description: 黑如繁星之夜。
   components:
   - type: Sprite
     sprite: Clothing/Uniforms/Jumpsuit/hawaiblack.rsi
@@ -1088,8 +1088,8 @@
 - type: entity
   parent: ClothingUniformBase
   id: ClothingUniformJumpsuitHawaiBlue
-  name: blue hawaiian shirt
-  description: Blue as a huge ocean.
+  name: 蓝色夏威夷衬衫
+  description: 蓝如浩瀚海洋。
   components:
   - type: Sprite
     sprite: Clothing/Uniforms/Jumpsuit/hawaiblue.rsi
@@ -1099,8 +1099,8 @@
 - type: entity
   parent: ClothingUniformBase
   id: ClothingUniformJumpsuitHawaiRed
-  name: red hawaiian shirt
-  description: Red as a juicy watermelons.
+  name: 红色夏威夷衬衫
+  description: 红润如多汁的西瓜。
   components:
   - type: Sprite
     sprite: Clothing/Uniforms/Jumpsuit/hawaired.rsi
@@ -1110,8 +1110,8 @@
 - type: entity
   parent: ClothingUniformBase
   id: ClothingUniformJumpsuitHawaiYellow
-  name: yellow hawaiian shirt
-  description: Yellow as a bright sun.
+  name: 黄色夏威夷衬衫
+  description: 黄如明亮的太阳。
   components:
   - type: Sprite
     sprite: Clothing/Uniforms/Jumpsuit/hawaiyellow.rsi
@@ -1121,8 +1121,8 @@
 - type: entity
   parent: [ClothingUniformBase, BaseSyndicateContraband]
   id: ClothingUniformJumpsuitSyndieFormal
-  name: syndicate formal suit
-  description: "The syndicate's uniform is made in an elegant style, it's even a pity to do dirty tricks in this."
+  name: 辛迪加正装
+  description: 辛迪加的正装设计优雅，穿着它去做卑鄙勾当都让人觉得可惜。
   components:
   - type: Sprite
     sprite: Clothing/Uniforms/Jumpsuit/syndieformal.rsi
@@ -1132,8 +1132,8 @@
 - type: entity
   parent: ClothingUniformBase
   id: ClothingUniformJumpsuitFlannel
-  name: flannel jumpsuit
-  description: Smells like someones been grillin'.
+  name: 法兰绒连体衣
+  description: 闻起来像是有人在烧烤。
   components:
     - type: Sprite
       sprite: Clothing/Uniforms/Jumpsuit/flannel.rsi
@@ -1143,8 +1143,8 @@
 - type: entity
   parent: ClothingUniformBase
   id: ClothingUniformJumpsuitSeniorEngineer
-  name: senior engineer jumpsuit
-  description: A sign of skill and prestige within the engineering department.
+  name: 高级工程师连体服
+  description: 工程部门技能与声望的象征。
   components:
   - type: Sprite
     sprite: Clothing/Uniforms/Jumpsuit/senior_engineer.rsi
@@ -1154,8 +1154,8 @@
 - type: entity
   parent: ClothingUniformBase
   id: ClothingUniformJumpsuitSeniorResearcher
-  name: senior researcher jumpsuit
-  description: A sign of skill and prestige within the science department.
+  name: 高级研究员连体服
+  description: 科学部门中技能与声望的象征。
   components:
   - type: Sprite
     sprite: Clothing/Uniforms/Jumpsuit/senior_researcher.rsi
@@ -1165,8 +1165,8 @@
 - type: entity
   parent: ClothingUniformBase
   id: ClothingUniformJumpsuitSeniorPhysician
-  name: senior physician jumpsuit
-  description: A sign of skill and prestige within the medical department.
+  name: 资深医师连体服
+  description: 医疗部门中技艺与声望的象征。
   components:
   - type: Sprite
     sprite: Clothing/Uniforms/Jumpsuit/senior_physician.rsi
@@ -1176,8 +1176,8 @@
 - type: entity
   parent: [ClothingUniformBase, BaseSecurityContraband]
   id: ClothingUniformJumpsuitSeniorOfficer
-  name: senior officer jumpsuit
-  description: A sign of skill and prestige within the security department.
+  name: 高级官员连体服
+  description: 安保部门技能与威望的象征。
   components:
   - type: Sprite
     sprite: Clothing/Uniforms/Jumpsuit/senior_officer.rsi
@@ -1187,8 +1187,8 @@
 - type: entity
   parent: ClothingUniformBase
   id: ClothingUniformJumpsuitWeb
-  name: web jumpsuit
-  description: Makes it clear that you are one with the webs.
+  name: 连体网衣
+  description: 表明你与网络世界融为一体。
   components:
   - type: Sprite
     sprite: Clothing/Uniforms/Jumpsuit/web.rsi
@@ -1218,8 +1218,8 @@
 - type: entity
   parent: ClothingUniformBase
   id: ClothingUniformJumpsuitLoungewear
-  name: loungewear
-  description: A long stretch of fabric that wraps around your body for comfort.
+  name: 休闲服
+  description: 一条舒适裹身的长幅布料。
   components:
   - type: Sprite
     sprite: Clothing/Uniforms/Jumpsuit/loungewear.rsi
@@ -1229,8 +1229,8 @@
 - type: entity
   parent: ClothingUniformBase
   id: ClothingUniformJumpsuitGladiator
-  name: gladiator uniform
-  description: Made for true gladiators (or Ash Walkers).
+  name: 角斗士制服
+  description: 专为真正的角斗士（或灰烬行者）打造。
   components:
   - type: Sprite
     sprite: Clothing/Uniforms/Jumpsuit/gladiator.rsi
@@ -1240,8 +1240,8 @@
 - type: entity
   parent: ClothingUniformBase
   id: ClothingUniformJumpsuitCasualBlue
-  name: casual blue jumpsuit
-  description: A loose worn blue shirt with a grey pants, perfect for someone looking to relax.
+  name: 休闲蓝色连体裤
+  description: 一件宽松的蓝色衬衫搭配灰色长裤，非常适合想要放松的人。
   components:
   - type: Sprite
     sprite: Clothing/Uniforms/Jumpsuit/casual.rsi
@@ -1270,8 +1270,8 @@
 - type: entity
   parent: ClothingUniformBase
   id: ClothingUniformJumpsuitCasualPurple
-  name: casual purple jumpsuit
-  description: A loose worn purple shirt with a grey pants, perfect for someone looking to relax.
+  name: 休闲紫色连体裤
+  description: 一件宽松的紫色上衣搭配灰色长裤，非常适合想要放松的人。
   components:
   - type: Sprite
     sprite: Clothing/Uniforms/Jumpsuit/casual.rsi
@@ -1300,8 +1300,8 @@
 - type: entity
   parent: ClothingUniformBase
   id: ClothingUniformJumpsuitCasualRed
-  name: casual red jumpsuit
-  description: A loose worn red shirt with a grey pants, perfect for someone looking to relax.
+  name: 休闲红色连体裤
+  description: 一件宽松的红色上衣搭配灰色长裤，非常适合想要放松的人。
   components:
   - type: Sprite
     sprite: Clothing/Uniforms/Jumpsuit/casual.rsi
@@ -1330,8 +1330,8 @@
 - type: entity
   parent: ClothingUniformBase
   id: ClothingUniformJumpsuitCasualGreen
-  name: casual green jumpsuit
-  description: A loose worn green shirt with a grey pants, perfect for someone looking to relax.
+  name: 休闲绿色连体裤
+  description: 一件宽松的绿色上衣搭配灰色长裤，非常适合想要放松身心的人。
   components:
   - type: Sprite
     sprite: Clothing/Uniforms/Jumpsuit/casual.rsi
@@ -1360,8 +1360,8 @@
 - type: entity
   parent: ClothingUniformBase
   id: ClothingUniformJumpsuitFamilyGuy
-  name: familiar garbs
-  description: Makes you remember the time you did something funny.
+  name: 熟悉的装束
+  description: 让你想起自己做过某件趣事的时光。
   components:
   - type: Sprite
     sprite: Clothing/Uniforms/Jumpsuit/familiar_garbs.rsi

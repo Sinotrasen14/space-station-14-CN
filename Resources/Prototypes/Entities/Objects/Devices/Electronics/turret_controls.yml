@@ -2,8 +2,8 @@
   abstract: true
   parent: BaseElectronics
   id: WeaponEnergyTurretStationControlPanelElectronicsBase 
-  name: sentry turret control panel electronics
-  description: An electronics board used in a sentry turret control panel.
+  name: 哨兵炮塔控制面板电子设备
+  description: 用于哨兵炮塔控制面板的电子板。
   components:
   - type: Sprite
     sprite: Objects/Misc/module.rsi

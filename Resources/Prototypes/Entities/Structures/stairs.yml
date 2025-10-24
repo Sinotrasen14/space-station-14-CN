@@ -1,8 +1,8 @@
 - type: entity
   id: Stairs
-  name: stairs
+  name: 楼梯
   suffix: Steel
-  description: The greatest invention since rocket-propelled grenades.
+  description: 火箭推进式榴弹问世以来的最伟大发明。
   placement:
     mode: SnapgridCenter
   components:

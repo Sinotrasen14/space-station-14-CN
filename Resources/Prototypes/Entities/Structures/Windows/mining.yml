@@ -1,6 +1,6 @@
 - type: entity
   id: MiningWindow
-  name: mining window
+  name: 采矿窗口
   parent: WindowRCDResistant
   components:
   - type: Sprite

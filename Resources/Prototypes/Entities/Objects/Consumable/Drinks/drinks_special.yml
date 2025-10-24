@@ -1,8 +1,8 @@
 - type: entity
   parent: [DrinkBaseMaterialGlass, DrinkBase, DrinkVisualsFillOverlay]
   id: DrinkShotGlass
-  name: shot glass
-  description: Perfect for slamming down onto the table angrily.
+  name: 小酒杯
+  description: 非常适合生气时重重地摔在桌子上。
   components:
   - type: SolutionContainerManager
     solutions:
@@ -24,8 +24,8 @@
 - type: entity
   parent: [DrinkBaseMaterialMetal, DrinkBase]
   id: DrinkIceBucket
-  name: ice bucket
-  description: A special bucket of refreshy ice. Prohibited use for challenge with the same name!
+  name: 冰桶
+  description: 一桶特殊的清爽冰块。禁止用于同名挑战！
   components:
   - type: SolutionContainerManager
     solutions:
@@ -43,8 +43,8 @@
 - type: entity
   parent: [DrinkBaseMaterialPorcelain, DrinkBase]
   id: DrinkTeapot
-  name: teapot  # short and stout
-  description: An elegant teapot. It simply oozes class.
+  name: 茶壶
+  description: 一把优雅的茶壶，尽显高贵气质。
   components:
   - type: SolutionContainerManager
     solutions:
@@ -63,7 +63,7 @@
 - type: entity
   parent: BaseStorageItem
   id: DrinkCanPack
-  name: 6pack
+  name: 六块腹肌
   components:
   - type: Sprite
     sprite: Objects/Misc/6pack.rsi
@@ -112,8 +112,8 @@
 - type: entity
   parent: [DrinkBaseMaterialStrongMetal, DrinkBase]
   id: DrinkShaker
-  name: shaker
-  description: The trusty mixing buddy of the bartender.
+  name: 调酒器
+  description: 调酒师可靠的调酒伙伴。
   components:
   - type: SolutionContainerManager
     solutions:
@@ -140,8 +140,8 @@
 - type: entity
   parent: DrinkShaker
   id: DrinkShakerGold
-  name: golden shaker
-  description: A gold-plated shaker given as a token of appreciation for years of service. It doesn't make the drinks taste any different.
+  name: 金色摇酒器
+  description: 一个镀金摇酒器，作为对多年服务的感激之情的象征。它并不会让饮料的味道有任何不同。
   components:
   - type: Sprite
     sprite: Objects/Consumable/Drinks/shaker_gold.rsi
@@ -155,8 +155,8 @@
 - type: entity
   parent: [DrinkBaseMaterialMetal, DrinkBase]
   id: DrinkJigger
-  name: jigger
-  description: Like a shaker, but smaller. Used to control the amount of ingredients.
+  name: 量酒器
+  description: 像调酒器，但更小。用于控制配料量。
   components:
   - type: SolutionContainerManager
     solutions:
@@ -181,8 +181,8 @@
 - type: entity
   parent: [DrinkBaseMaterialStrongMetal, DrinkBase, DrinkVisualsFill]
   id: Pitcher
-  name: metal pitcher
-  description: A stainless steel insulated pitcher. Everyone's best friend in the morning.
+  name: 金属水壶
+  description: 不锈钢保温水壶。每个人清晨的最佳伙伴。
   components:
   - type: SolutionContainerManager
     solutions:
@@ -202,7 +202,7 @@
   abstract: true
   parent: [DrinkBaseMaterialGlass, DrinkBase]
   id: DrinkShakeBase
-  description: ''
+  description: 
   components:
   - type: ExaminableSolution
     solution: drink
@@ -215,7 +215,7 @@
 - type: entity
   parent: DrinkShakeBase
   id: DrinkShakeBlue
-  name: blue milkshake
+  name: 蓝色奶昔
   components:
   - type: Sprite
     sprite: Objects/Consumable/Drinks/shake-blue.rsi
@@ -223,7 +223,7 @@
 - type: entity
   parent: DrinkShakeBase
   id: DrinkShakeEmpty
-  name: shakeempty
+  name: 摇空
   components:
   - type: Sprite
     sprite: Objects/Consumable/Drinks/shake-empty.rsi
@@ -231,7 +231,7 @@
 - type: entity
   parent: DrinkShakeBase
   id: DrinkShakeMeat
-  name: meat shake
+  name: 肉泥
   components:
   - type: Sprite
     sprite: Objects/Consumable/Drinks/shake-meat.rsi
@@ -239,7 +239,7 @@
 - type: entity
   parent: DrinkShakeBase
   id: DrinkShakeRobo
-  name: robo shake
+  name: 机器人摇动
   components:
   - type: Sprite
     sprite: Objects/Consumable/Drinks/shake-robo.rsi
@@ -247,7 +247,7 @@
 - type: entity
   parent: DrinkShakeBase
   id: DrinkShakeWhite
-  name: white shake
+  name: 白摇
   components:
   - type: Sprite
     sprite: Objects/Consumable/Drinks/shake-white.rsi

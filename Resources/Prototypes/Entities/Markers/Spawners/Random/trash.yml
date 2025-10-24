@@ -27,7 +27,7 @@
       - id: FoodBowlBigTrash
 
 - type: entity
-  name: Trash Spawner
+  name: 垃圾生成器
   id: RandomSpawner
   parent: MarkerBase
   suffix: 50

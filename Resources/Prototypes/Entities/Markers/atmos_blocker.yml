@@ -1,7 +1,7 @@
 - type: entity
-  name: Atmos Fix Vacuum Marker
+  name: 大气固定真空标记
   id: AtmosFixBlockerMarker
-  description: "Vacuum, T20C"
+  description: 真空，T20C
   parent: MarkerBase
   components:
     - type: Sprite
@@ -16,9 +16,9 @@
       mode: 1
 
 - type: entity
-  name: Atmos Fix Oxygen Marker
+  name: 大气固定氧气标记
   id: AtmosFixOxygenMarker
-  description: "Oxygen @ gas miner pressure, T20C"
+  description: 氧气 @ 气体采集器压力，温度20℃
   parent: MarkerBase
   components:
     - type: Sprite
@@ -33,9 +33,9 @@
       mode: 2
 
 - type: entity
-  name: Atmos Fix Nitrogen Marker
+  name: 大气固定氮标记
   id: AtmosFixNitrogenMarker
-  description: "Nitrogen @ gas miner pressure, T20C"
+  description: 氮气 @ 气体采集器压力，温度20℃
   parent: MarkerBase
   components:
     - type: Sprite
@@ -50,9 +50,9 @@
       mode: 3
 
 - type: entity
-  name: Atmos Fix Plasma Marker
+  name: 大气固定等离子标记
   id: AtmosFixPlasmaMarker
-  description: "Plasma @ gas miner pressure, T20C"
+  description: 等离子体 @ 气体采集器压力，温度20℃
   parent: MarkerBase
   components:
     - type: Sprite
@@ -67,9 +67,9 @@
       mode: 4
 
 - type: entity
-  name: Atmos Fix Instant Plasmafire Marker
+  name: 大气固定等离子火标笔
   id: AtmosFixInstantPlasmaFireMarker
-  description: "INSTANT PLASMAFIRE"
+  description: 瞬发等离子火
   parent: MarkerBase
   components:
     - type: Sprite
@@ -84,9 +84,9 @@
       mode: 5
 
 - type: entity
-  name: Atmos Fix Freezer Marker
+  name: 大气固定冷冻标记
   id: AtmosFixFreezerMarker
-  description: "Change air temp to 235K, for freezer with a bit of wiggle room to get set up."
+  description: 将空气温度调整为235K，为冷冻柜留出少许调节空间以便设置。
   parent: MarkerBase
   components:
     - type: Sprite
@@ -104,7 +104,7 @@
   parent: AtmosFixNitrogenMarker
   id: AtmosFixVoxMarker
   suffix: Vox Atmosphere
-  description: "Nitrogen @ 101 kPa, 20C"
+  description: 氮气 @ 101千帕，20摄氏度
   components:
   - type: AtmosFixMarker
     mode: 7
@@ -112,8 +112,8 @@
 - type: entity
   parent: MarkerBase
   id: AtmosFixAirMarker
-  name: Atmos Fix Air Marker
-  description: "Oxygen (21%) and nitrogen (79%) @ gas miner pressure, T20C"
+  name: 大气固定空气标记
+  description: 氧气（21%）与氮气（79%）@ 气体采集器压力，温度20℃
   components:
   - type: Sprite
     layers:

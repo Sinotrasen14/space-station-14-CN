@@ -43,7 +43,7 @@
   parent: FoodCakeBase
   id: FoodCakeSliceBase
   abstract: true
-  description: Just a slice of cake, it is enough for everyone.
+  description: 只是一片蛋糕，就足够每个人享用了。
   components:
   - type: FlavorProfile
     flavors:
@@ -68,10 +68,10 @@
 # Custom Cake Example
 
 - type: entity
-  name: blueberry cake
+  name: 蓝莓蛋糕
   parent: FoodCakeBase
   id: FoodCakeBlueberry
-  description: Stains your teeth.
+  description: 会弄脏牙齿。
   components:
   - type: Sprite
     layers:
@@ -96,10 +96,10 @@
         color: blue
 
 - type: entity
-  name: blueberry slice
+  name: 蓝莓切片
   parent: FoodCakeSliceBase
   id: FoodCakeBlueberrySlice
-  description: Stains your teeth.
+  description: 会弄脏你的牙齿。
   components:
   - type: Sprite
     layers:
@@ -125,10 +125,10 @@
 # Cake
 
 - type: entity
-  name: cake
+  name: 蛋糕
   parent: FoodCakeBase
   id: FoodCakePlain
-  description: A plain cake, not a lie.
+  description: 一个普通的蛋糕，并非谎言。
   components:
   - type: Sprite
     state: plain
@@ -149,7 +149,7 @@
 # Added in type lines above
 
 - type: entity
-  name: slice of cake
+  name: 一块蛋糕
   parent: FoodCakeSliceBase
   id: FoodCakePlainSlice
   components:
@@ -169,10 +169,10 @@
 # Tastes like sweetness, cake.
 
 - type: entity
-  name: carrot cake
+  name: 胡萝卜蛋糕
   parent: FoodCakeBase
   id: FoodCakeCarrot
-  description: A favorite desert of a certain wascally wabbit.
+  description: 某只狡猾小兔子最爱的甜点。
   components:
   - type: Sprite
     state: carrot
@@ -207,10 +207,10 @@
         color: "#ffbd2f"
 
 - type: entity
-  name: slice of carrot cake
+  name: 一片胡萝卜蛋糕
   parent: FoodCakeSliceBase
   id: FoodCakeCarrotSlice
-  description: Carrotty slice of carrot cake. Carrots are good for your eyes!
+  description: 一片胡萝卜蛋糕。胡萝卜对眼睛有益！
   components:
   - type: Sprite
     state: carrot-slice
@@ -246,10 +246,10 @@
 # Tastes like sweetness, cake, carrot.
 
 - type: entity
-  name: brain cake
+  name: 脑蛋糕
   parent: FoodCakeBase
   id: FoodCakeBrain
-  description: A squishy cake-thing.
+  description: 一个软乎乎的蛋糕状物体。
   components:
   - type: Sprite
     state: brain
@@ -273,10 +273,10 @@
         color: "#ff5b7a"
 
 - type: entity
-  name: slice of brain cake
+  name: 一片脑蛋糕
   parent: FoodCakeSliceBase
   id: FoodCakeBrainSlice
-  description: Lemme tell you something about prions. THEY'RE DELICIOUS.
+  description: 让我告诉你关于朊病毒的事。它们可美味了。
   components:
   - type: Sprite
     state: brain-slice
@@ -300,10 +300,10 @@
 # Tastes like sweetness, cake, brains.
 
 - type: entity
-  name: cheese cake
+  name: 芝士蛋糕
   parent: FoodCakeBase
   id: FoodCakeCheese
-  description: DANGEROUSLY cheesy.
+  description: 危险诱人的芝士风味。
   components:
   - type: Sprite
     state: cheese
@@ -321,10 +321,10 @@
         color: "#ffffff"
 
 - type: entity
-  name: slice of cheese cake
+  name: 一片芝士蛋糕
   parent: FoodCakeSliceBase
   id: FoodCakeCheeseSlice
-  description: Slice of pure cheestisfaction.
+  description: 一片纯粹的芝士满足。
   components:
   - type: Sprite
     state: cheese-slice
@@ -341,10 +341,10 @@
 # Tastes like sweetness, cream cheese.
 
 - type: entity
-  name: orange cake
+  name: 橙子蛋糕
   parent: FoodCakeBase
   id: FoodCakeOrange
-  description: A cake with added orange.
+  description: 添加了橙子的蛋糕。
   components:
   - type: Sprite
     layers:
@@ -369,7 +369,7 @@
         color: "#ff9900"
 
 - type: entity
-  name: slice of orange cake
+  name: 一片橙子蛋糕
   parent: FoodCakeSliceBase
   id: FoodCakeOrangeSlice
   components:
@@ -396,10 +396,10 @@
 # Tastes like sweetness, cake, oranges.
 
 - type: entity
-  name: lime cake
+  name: 青柠蛋糕
   parent: FoodCakeBase
   id: FoodCakeLime
-  description: A cake with added lime.
+  description: 添加了青柠的蛋糕。
   components:
   - type: Sprite
     layers:
@@ -424,7 +424,7 @@
         color: "#00ff00"
 
 - type: entity
-  name: slice of lime cake
+  name: 青柠蛋糕切片
   parent: FoodCakeSliceBase
   id: FoodCakeLimeSlice
   components:
@@ -451,10 +451,10 @@
 # Tastes like sweetness, cake, limes.
 
 - type: entity
-  name: lemon cake
+  name: 柠檬蛋糕
   parent: FoodCakeBase
   id: FoodCakeLemon
-  description: A cake with added lemon.
+  description: 添加了柠檬的蛋糕。
   components:
   - type: Sprite
     layers:
@@ -479,7 +479,7 @@
         color: "#ffff00"
 
 - type: entity
-  name: slice of lemon cake
+  name: 一片柠檬蛋糕
   parent: FoodCakeSliceBase
   id: FoodCakeLemonSlice
   components:
@@ -506,10 +506,10 @@
 # Tastes like sweetness, cake, lemons.
 
 - type: entity
-  name: lemoon cake
+  name: 月球蛋糕
   parent: FoodCakeBase
   id: FoodCakeLemoon
-  description: A cake that represents the moon of earth.
+  description: 代表地球月亮的蛋糕。
   components:
   - type: Sprite
     state: lemoon
@@ -538,10 +538,10 @@
     heldPrefix: lemoon
 
 - type: entity
-  name: shard of lemoon cake
+  name: 柠檬月饼碎片
   parent: FoodCakeSliceBase
   id: FoodCakeLemoonSlice
-  description: A shard of moon, has the smell of milk.
+  description: 一片月亮的碎片，散发着牛奶的香气。
   components:
   - type: Sprite
     state: lemoon-slice
@@ -579,10 +579,10 @@
         color: "#fffead"
 
 - type: entity
-  name: chocolate cake
+  name: 巧克力蛋糕
   parent: FoodCakeBase
   id: FoodCakeChocolate
-  description: A cake with added chocolate.
+  description: 添加了巧克力的蛋糕。
   components:
   - type: Sprite
     layers:
@@ -611,7 +611,7 @@
         color: "#ba672e"
 
 - type: entity
-  name: slice of chocolate cake
+  name: 一片巧克力蛋糕
   parent: FoodCakeSliceBase
   id: FoodCakeChocolateSlice
   components:
@@ -641,10 +641,10 @@
 # Tastes like sweetness, cake, chocolate.
 
 - type: entity
-  name: apple cake
+  name: 苹果蛋糕
   parent: FoodCakeBase
   id: FoodCakeApple
-  description: A cake centred with apple.
+  description: 以苹果为核心的蛋糕。
   components:
   - type: Sprite
     layers:
@@ -669,10 +669,10 @@
         color: "#ff4300"
 
 - type: entity
-  name: slice of apple cake
+  name: 一片苹果蛋糕
   parent: FoodCakeSliceBase
   id: FoodCakeAppleSlice
-  description: A slice of heavenly cake.
+  description: 一片宛如天堂的蛋糕。
   components:
   - type: Sprite
     layers:
@@ -698,10 +698,10 @@
 # Tastes like sweetness, cake, slime.
 
 - type: entity
-  name: slime cake
+  name: 史莱姆蛋糕
   parent: FoodCakeBase
   id: FoodCakeSlime
-  description: A cake made of slimes. Probably not electrified.
+  description: 一块用史莱姆制成的蛋糕。应该没有通电。
   components:
   - type: Sprite
     state: slime
@@ -725,10 +725,10 @@
         color: "#00ffff"
 
 - type: entity
-  name: slice of slime cake
+  name: 一片史莱姆蛋糕
   parent: FoodCakeSliceBase
   id: FoodCakeSlimeSlice
-  description: A slice of slime cake.
+  description: 一片史莱姆蛋糕。
   components:
   - type: Sprite
     state: slime-slice
@@ -752,10 +752,10 @@
 # Tastes like sweetness, cake, slime.
 
 - type: entity
-  name: pumpkin-spice cake
+  name: 南瓜香料蛋糕
   parent: FoodCakeBase
   id: FoodCakePumpkin
-  description: A hollow cake with real pumpkin.
+  description: 一款用真南瓜制作的中空蛋糕。
   components:
   - type: Sprite
     state: pumpkinspice
@@ -786,10 +786,10 @@
         color: "#ffffff"
 
 - type: entity
-  name: slice of pumpkin-spice cake
+  name: 一片南瓜香料蛋糕
   parent: FoodCakeSliceBase
   id: FoodCakePumpkinSlice
-  description: A spicy slice of pumpkin goodness.
+  description: 一片香辣美味的南瓜蛋糕。
   components:
   - type: Sprite
     state: pumpkinspice-slice
@@ -820,10 +820,10 @@
 # Tastes like sweetness, cake, pumpkin.
 
 - type: entity
-  name: christmas cake
+  name: 圣诞蛋糕
   parent: FoodCakeBase
   id: FoodCakeChristmas
-  description: A cake made of christmas.
+  description: 一款由圣诞元素制成的蛋糕。
   components:
   - type: Sprite
     state: christmas
@@ -843,7 +843,7 @@
         color: "#ab5012"
 
 - type: entity
-  name: slice of christmas cake
+  name: 一片圣诞蛋糕
   parent: FoodCakeSliceBase
   id: FoodCakeChristmasSlice
   components:
@@ -865,10 +865,10 @@
 # Tastes like sweetness, cake, christmas.
 
 - type: entity
-  name: birthday cake
+  name: 生日蛋糕
   parent: FoodCakeBase
   id: FoodCakeBirthday
-  description: Happy Birthday little clown...
+  description: 生日快乐小丑……
   components:
   - type: Sprite
     state: birthday
@@ -878,10 +878,10 @@
     heldPrefix: birthday
 
 - type: entity
-  name: slice of birthday cake
+  name: 一块生日蛋糕
   parent: FoodCakeSliceBase
   id: FoodCakeBirthdaySlice
-  description: A slice of your birthday.
+  description: 一片你的生日时光。
   components:
   - type: Sprite
     state: birthday-slice
@@ -890,10 +890,10 @@
 # Tastes like sweetness, cake, christmas.
 
 - type: entity
-  name: vanilla cake
+  name: 香草蛋糕
   parent: FoodCakeBase
   id: FoodCakeVanilla
-  description: A vanilla frosted cake.
+  description: 一个撒了香草糖霜的蛋糕。
   components:
   - type: Sprite
     state: vanilla
@@ -914,10 +914,10 @@
     heldPrefix: vanilla
 
 - type: entity
-  name: slice of vanilla cake
+  name: 一片香草蛋糕
   parent: FoodCakeSliceBase
   id: FoodCakeVanillaSlice
-  description: A slice of vanilla frosted cake.
+  description: 一片撒了香草糖霜的蛋糕。
   components:
   - type: Sprite
     state: vanilla-slice
@@ -943,10 +943,10 @@
 # Tastes like sweetness, cake, vanilla.
 
 - type: entity
-  name: clown cake
+  name: 小丑蛋糕
   parent: FoodCakeBase
   id: FoodCakeClown
-  description: A funny cake with a clown face on it.
+  description: 一个有趣的蛋糕，上面画着小丑的脸。
   components:
   - type: Sprite
     state: clown
@@ -967,10 +967,10 @@
     heldPrefix: clown
 
 - type: entity
-  name: slice of clown cake
+  name: 一片小丑蛋糕
   parent: FoodCakeSliceBase
   id: FoodCakeClownSlice
-  description: A slice of bad jokes, and silly props.
+  description: 一片糟糕的笑话，加上傻气的道具。
   components:
   - type: Sprite
     state: clown-slice
@@ -990,10 +990,10 @@
 # Tastes like sweetness, cake, clown.
 
 - type: entity
-  name: spaceman's cake
+  name: 宇航员蛋糕
   parent: FoodCakeBase
   id: FoodCakeSpaceman
-  description: A spaceman's trumpet frosted cake.
+  description: 宇航员喇叭糖霜蛋糕。
   components:
   - type: Sprite
     state: trumpet
@@ -1014,10 +1014,10 @@
     heldPrefix: trumpet
 
 - type: entity
-  name: slice of spaceman's cake
+  name: 一片宇航员蛋糕
   parent: FoodCakeSliceBase
   id: FoodCakeSpacemanSlice
-  description: A spaceman's trumpet frosted cake.
+  description: 宇航员喇叭糖霜蛋糕。
   components:
   - type: Sprite
     state: trumpet-slice
@@ -1037,10 +1037,10 @@
 # Tastes like sweetness, cake, jam.
 
 - type: entity
-  name: cak
+  name: 蛋糕
   id: MobCatCake
   parent: EdibleBase
-  description: It's a cake. It's a cat. It's a cak.
+  description: 这是一个蛋糕。这是一只猫。这是一个蛋糕。
   components:
   - type: FlavorProfile
     flavors:
@@ -1090,9 +1090,9 @@
     - HEAD
   - type: GhostRole
     prob: 1
-    name: ghost-role-information-Cak-name
+    name: 幽灵角色信息-Cak-名称
     allowMovement: true
-    description: ghost-role-information-Cak-description
+    description: 幽灵角色信息-Cak-描述
     rules: ghost-role-information-nonantagonist-rules
     raffle:
       settings: short
@@ -1128,10 +1128,10 @@
 # I can't figure out where to put this. It kind of acts like a cake I guess?
 
 - type: entity
-  name: suppermatter
+  name: 超物质
   parent: FoodCakeBase
   id: FoodCakeSuppermatter
-  description: Extremely dense and powerful food.
+  description: 极其浓稠且能量强大的食物。
   components:
   - type: Sprite
     state: suppermatter
@@ -1158,10 +1158,10 @@
     energy: 1.4
 
 - type: entity
-  name: suppermatter shard
+  name: 超物质碎片
   parent: FoodCakeSliceBase
   id: FoodCakeSuppermatterSlice
-  description: A single portion of power.
+  description: 一份力量。
   components:
   - type: Sprite
     state: suppermatter-shard
@@ -1191,10 +1191,10 @@
     heldPrefix: suppermatter-shard
 
 - type: entity
-  name: cotton cake
+  name: 棉花蛋糕
   parent: FoodCakeBase
   id: FoodCakeCotton
-  description: A cake with a fiber frosting and a wad of cotton on top.
+  description: 一款带有纤维糖霜和顶部有一团棉花的蛋糕。
   components:
   - type: Sprite
     state: cotton
@@ -1219,10 +1219,10 @@
     heldPrefix: cotton
 
 - type: entity
-  name: slice of cotton cake
+  name: 一片棉花蛋糕
   parent: FoodCakeSliceBase
   id: FoodCakeCottonSlice
-  description: A slice of cotton cake. You can just lick the frosting, it's fine.
+  description: 一片棉花蛋糕。你可以只舔糖霜，没关系的。
   components:
   - type: Sprite
     state: cotton-slice
@@ -1248,10 +1248,10 @@
 # Motivating
 
 - type: entity
-  name: berry delight
+  name: 浆果之悦
   parent: FoodCakeBase
   id: FoodCakeBerryDelight
-  description: This is a cake that is approaching.
+  description: 这是一个正在靠近的蛋糕。
   components:
   - type: Sprite
     state: berry_delight
@@ -1289,10 +1289,10 @@
         color: red
 
 - type: entity
-  name: berry delight slice
+  name: 莓果乐享切片
   parent: FoodCakeSliceBase
   id: FoodCakeBerryDelightSlice
-  description: Put a fork in, your hunger in isolation.
+  description: 插上叉子，告别独处时的饥饿。
   components:
   - type: Sprite
     state: berry_delight_slice

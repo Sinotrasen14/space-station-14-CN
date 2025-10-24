@@ -1,9 +1,9 @@
 - type: entity
-  name: basic
+  name: 基本的
   id: MobSpaceBasic
   parent: SimpleSpaceMobBase
   abstract: true
-  description: It looks friendly. Why don't you give it a hug?
+  description: 它看起来很友好，你为什么不抱抱它呢？
   components:
   - type: HTN
     rootTask:
@@ -69,10 +69,10 @@
     speechVerb: LargeMob
 
 - type: entity
-  name: space bear
+  name: 太空熊
   id: MobBearSpace
   parent: MobSpaceBasic
-  description: It looks friendly. Why don't you give it a hug?
+  description: 它看起来很友好，为什么不给它一个拥抱呢？
   components:
   - type: Sprite
     drawdepth: Mobs
@@ -119,10 +119,10 @@
   - type: SalvageMobRestrictions
 
 - type: entity
-  name: space kangaroo
+  name: 太空袋鼠
   id: MobKangarooSpace
   parent: [MobSpaceBasic, StripableInventoryBase]
-  description: It looks friendly. Why don't you give it a hug?
+  description: 它看起来很友好，何不给它一个拥抱呢？
   components:
   - type: Sprite
     drawdepth: Mobs
@@ -181,10 +181,10 @@
   - type: SalvageMobRestrictions
 
 - type: entity
-  name: space spider
+  name: 太空蜘蛛
   id: MobSpiderSpace
   parent: MobSpaceBasic
-  description: It's so glowing, it looks dangerous.
+  description: 它闪闪发光，看起来好危险。
   components:
   - type: Sprite
     drawdepth: Mobs
@@ -279,10 +279,10 @@
   - type: SalvageMobRestrictions
 
 - type: entity
-  name: space cobra
+  name: 太空眼镜蛇
   id: MobCobraSpace
   parent: MobSpaceBasic
-  description: Long fangs and a glowing hood, and the alluring look begs to come closer.
+  description: 长牙与发光兜帽，诱人神态引人靠近。
   components:
     - type: Sprite
       drawdepth: Mobs
@@ -378,8 +378,8 @@
 - type: entity
   parent: SimpleSpaceMobBase
   id: MobSnail
-  name: snail
-  description: Revolting unless you're french.
+  name: 蜗牛
+  description: 除非你是法国人，否则真恶心。
   components:
   - type: Body
     prototype: Mouse
@@ -387,8 +387,8 @@
     makeSentient: true
     allowSpeech: false
     allowMovement: true
-    name: ghost-role-information-snail-name
-    description: ghost-role-information-snail-description
+    name: 幽灵角色信息蜗牛名称
+    description: 幽灵角色信息蜗牛描述
     rules: ghost-role-information-freeagent-rules
     mindRoles:
     - MindRoleGhostRoleFreeAgentHarmless
@@ -547,8 +547,8 @@
   suffix: Speed
   components:
   - type: GhostRole
-    name: ghost-role-information-snailspeed-name
-    description: ghost-role-information-snailspeed-description
+    name: 蜗速
+    description: 幽灵角色信息-蜗速-描述
     rules: ghost-role-information-freeagent-rules
   - type: Sprite
     layers:
@@ -571,13 +571,13 @@
 - type: entity
   parent: MobSnail
   id: MobSnailMoth
-  name: Snoth
+  name: 鼻涕虫
   components:
   - type: Body
     prototype: Mothroach
   - type: GhostRole
-    name: ghost-role-information-snoth-name
-    description: ghost-role-information-snoth-description
+    name: 斯诺斯之名
+    description: 幽灵角色信息-斯诺斯描述
     rules: ghost-role-information-freeagent-rules
   - type: Sprite
     layers:

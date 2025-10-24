@@ -1,7 +1,7 @@
 - type: entity
   parent: MarkerBase
   id: SpawnMobAdultSlimesBlue
-  name: Slimes Spawner Blue
+  name: 史莱姆刷怪笼蓝图
   components:
   - type: Sprite
     layers:
@@ -14,7 +14,7 @@
 - type: entity
   parent: MarkerBase
   id: SpawnMobAdultSlimesBlueAngry
-  name: Slimes Spawner Blue Angry
+  name: 史莱姆生成器 蓝色 愤怒
   components:
   - type: Sprite
     layers:
@@ -27,7 +27,7 @@
 - type: entity
   parent: MarkerBase
   id: SpawnMobAdultSlimesGreen
-  name: Slimes Spawner Green
+  name: 绿色史莱姆刷怪箱
   components:
   - type: Sprite
     layers:
@@ -40,7 +40,7 @@
 - type: entity
   parent: MarkerBase
   id: SpawnMobAdultSlimesGreenAngry
-  name: Slimes Spawner Green Angry
+  name: 绿色愤怒史莱姆生成器
   components:
   - type: Sprite
     layers:
@@ -53,7 +53,7 @@
 - type: entity
   parent: MarkerBase
   id: SpawnMobAdultSlimesYellow
-  name: Slimes Spawner Yellow
+  name: 黄色史莱姆刷怪箱
   components:
   - type: Sprite
     layers:
@@ -66,7 +66,7 @@
 - type: entity
   parent: MarkerBase
   id: SpawnMobAdultSlimesYellowAngry
-  name: Slimes Spawner Yellow Angry
+  name: 黄色愤怒史莱姆生成器
   components:
   - type: Sprite
     layers:

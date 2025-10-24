@@ -1,8 +1,8 @@
 - type: entity
   id: Jukebox
-  name: jukebox
+  name: 点唱机
   parent: [ BaseMachinePowered, ConstructibleMachine ]
-  description: A machine capable of playing a wide variety of tunes. Enjoyment not guaranteed.
+  description: 一台能够播放各种曲调的机器。不保证带来愉悦体验。
   components:
   - type: StationAiWhitelist
   - type: Sprite

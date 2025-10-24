@@ -165,7 +165,7 @@
   - type: DnaSubstanceTrace
 
 - type: entity
-  name: beaker
+  name: 烧杯
   parent: BaseBeaker
   description: Used to contain a moderate amount of chemicals and solutions.
   id: Beaker
@@ -199,9 +199,9 @@
           Quantity: 50
 
 - type: entity
-  name: large beaker
+  name: 大烧杯
   parent: BaseBeaker
-  description: Used to contain a large amount of chemicals or solutions.
+  description: 用于盛装大量化学品或溶液。
   id: LargeBeaker
   components:
   - type: Spillable
@@ -233,9 +233,9 @@
     price: 20
 
 - type: entity
-  name: cryostasis beaker
+  name: 低温储存烧杯
   parent: BaseBeakerMetallic
-  description: Used to contain chemicals or solutions without reactions.
+  description: 用于盛装化学品或溶液而不发生反应。
   id: CryostasisBeaker
   components:
   - type: Spillable
@@ -253,9 +253,9 @@
         canReact: false
 
 - type: entity
-  name: bluespace beaker
+  name: 蓝空烧杯
   parent: BaseBeakerMetallic
-  description: Powered by experimental bluespace technology.
+  description: 由实验性蓝空技术驱动。
   id: BluespaceBeaker
   components:
   - type: Spillable
@@ -272,9 +272,9 @@
         maxVol: 1000
 
 - type: entity
-  name: dropper
+  name: 滴管
   parent: BaseItem
-  description: Used to transfer small amounts of chemical solution between containers.
+  description: 用于在不同容器间转移少量化学溶液。
   id: Dropper
   components:
   - type: Sprite
@@ -328,8 +328,8 @@
 - type: entity
   parent: Dropper
   id: BorgDropper
-  name: hydraulic pipette
-  description: State-of-the-art hydraulic dropper built for cyborgs. It features a higher capacity than hand-powered droppers, able to hold 15 units of liquid.
+  name: 液压移液器
+  description: 专为生化人打造的尖端液压移液器。其容量高于手动移液器，可容纳15单位液体。
   components:
   - type: Sprite
     sprite: Objects/Specific/Chemistry/dropper.rsi
@@ -346,9 +346,9 @@
     sprite: Objects/Specific/Chemistry/dropper.rsi
 
 - type: entity
-  name: syringe
+  name: 注射器
   parent: BaseItem
-  description: Used to draw blood samples from mobs, or to inject them with reagents.
+  description: 用于从动物身上抽取血样，或向其注射试剂。
   id: BaseSyringe
   abstract: true
   components:
@@ -405,9 +405,9 @@
     - Trash
 
 - type: entity
-  name: mini syringe
+  name: 微型注射器
   parent: Syringe
-  description: A regular syringe, reshaped to fit inside of a gun.
+  description: 普通注射器，经过重塑以适应枪械内部。
   id: MiniSyringe
   components:
   - type: Sprite
@@ -487,8 +487,8 @@
 - type: entity
   id: SyringeBluespace
   parent: BaseSyringe
-  name: bluespace syringe
-  description: Injecting with advanced bluespace technology.
+  name: 蓝空注射器
+  description: 采用先进的蓝空技术进行注射。
   components:
   - type: Sprite
     layers:
@@ -518,8 +518,8 @@
 - type: entity
   id: SyringeCryostasis
   parent: BaseSyringe
-  name: cryostasis syringe
-  description: A syringe used to contain chemicals or solutions without reactions.
+  name: 低温休眠注射器
+  description: 用于盛装化学品或溶液而不发生反应的注射器。
   components:
   - type: Sprite
     layers:
@@ -548,10 +548,10 @@
     - Trash
 
 - type: entity
-  name: pill
+  name: 药丸
   parent: BaseItem
   id: Pill
-  description: It's not a suppository.
+  description: 这不是栓剂。
   components:
   - type: Sprite
     sprite: Objects/Specific/Chemistry/pills.rsi
@@ -597,10 +597,10 @@
     - Pill
 
 - type: entity
-  name: pill canister
+  name: 药丸罐
   id: PillCanister
   parent: BaseStorageItem
-  description: Holds up to 10 pills.
+  description: 最多可容纳10粒药丸。
   components:
   - type: Item
     size: Tiny

@@ -1,8 +1,8 @@
 - type: entity
   parent: BaseItem
   id: WeaponMeleeNeedle
-  name: official security anti-inflatable armament
-  description: A specialty weapon used in the destruction of unique syndicate morale-boosting equipment.
+  name: 官方安保防充气装备
+  description: 一种专门用于摧毁独特集团士气提升装备的特种武器。
   components:
   - type: Sprite
     sprite: Objects/Weapons/Melee/needle.rsi

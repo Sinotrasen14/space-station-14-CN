@@ -3,7 +3,7 @@
 - type: entity
   id: SignalButtonExt1
   parent: SignalButton
-  name: exterior button 1
+  name: 外部按钮1
   suffix: Autolink, Ext1
   components:
     - type: AutoLinkTransmitter
@@ -12,7 +12,7 @@
 - type: entity
   id: SignalButtonExt2
   parent: SignalButton
-  name: exterior button 2
+  name: 外部按钮2
   suffix: Autolink, Ext2
   components:
     - type: AutoLinkTransmitter
@@ -21,7 +21,7 @@
 - type: entity
   id: SignalButtonExt3
   parent: SignalButton
-  name: exterior button 3
+  name: 外部按钮3
   suffix: Autolink, Ext3
   components:
     - type: AutoLinkTransmitter
@@ -30,7 +30,7 @@
 - type: entity
   id: SignalButtonBridge
   parent: SignalButton
-  name: bridge windows button
+  name: 桥接窗口按钮
   suffix: Autolink, Bridge
   components:
     - type: AutoLinkTransmitter
@@ -39,7 +39,7 @@
 - type: entity
   id: SignalButtonWindows
   parent: SignalButton
-  name: exterior windows button
+  name: 外部车窗按钮
   suffix: Autolink, Windows
   components:
     - type: AutoLinkTransmitter

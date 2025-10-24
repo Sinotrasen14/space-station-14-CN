@@ -1,7 +1,7 @@
 - type: entity
   parent: MarkerBase
   id: RandomPosterAny
-  name: random poster spawner
+  name: 随机海报生成器
   components:
   - type: Sprite
     layers:
@@ -21,7 +21,7 @@
 - type: entity
   parent: MarkerBase
   id: RandomPosterContraband
-  name: random contraband poster spawner
+  name: 随机违禁品海报生成器
   components:
   - type: Sprite
     layers:
@@ -100,7 +100,7 @@
 - type: entity
   parent: MarkerBase
   id: RandomPosterLegit
-  name: random legit poster spawner
+  name: 随机合法海报生成器
   components:
   - type: Sprite
     layers:

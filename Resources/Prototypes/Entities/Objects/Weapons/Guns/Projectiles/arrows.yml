@@ -63,8 +63,8 @@
 - type: entity
   parent: BaseArrow
   id: ArrowRegular
-  name: arrow
-  description: You can feel the power of the steppe within you.
+  name: 箭
+  description: 你能感受到体内的草原力量。
   components:
   - type: Sprite
     layers:
@@ -84,8 +84,8 @@
 - type: entity
   parent: BaseArrow
   id: ArrowImprovised
-  name: glass shard arrow
-  description: The greyshirt's preferred projectile.
+  name: 玻璃碎片箭
+  description: 灰衫人偏爱的投射物。
   components:
   - type: Sprite
     sprite: Objects/Weapons/Guns/Projectiles/arrows.rsi
@@ -110,8 +110,8 @@
 - type: entity
   parent: BaseArrow
   id: ArrowImprovisedPlasma
-  name: plasma glass shard arrow
-  description: The greyshirt's preferred projectile. Now with extra lethality!
+  name: 等离子玻璃碎片箭
+  description: 灰衫军偏爱的投射物。如今杀伤力更胜以往！
   components:
   - type: Sprite
     sprite: Objects/Weapons/Guns/Projectiles/arrows.rsi
@@ -136,8 +136,8 @@
 - type: entity
   parent: BaseArrow
   id: ArrowImprovisedUranium
-  name: uranium glass shard arrow
-  description: The greyshirt's preferred projectile. Now with added radiation!
+  name: 铀玻璃碎片箭
+  description: 灰衫军偏爱的投射物。现在额外附赠辐射效果！
   components:
   - type: Sprite
     sprite: Objects/Weapons/Guns/Projectiles/arrows.rsi
@@ -163,8 +163,8 @@
 - type: entity
   parent: BaseArrow
   id: ArrowImprovisedCarp
-  name: carp tooth arrow
-  description: The salvager's preferred arrow. Kill your enemies with the teeth of their families.
+  name: 鲤鱼牙箭
+  description: 拾荒者偏好的箭矢。用敌人亲属的牙齿置其于死地。
   components:
   - type: Sprite
     sprite: Objects/Weapons/Guns/Projectiles/arrows.rsi
@@ -189,8 +189,8 @@
 - type: entity
   parent: BaseArrow
   id: ArrowCard
-  name: cardboard arrow
-  description: Careful, you'll poke an eye out!
+  name: 纸板箭头
+  description: 小心，你会把眼睛戳出来的！
   components:
   - type: Sprite
     sprite: Objects/Weapons/Guns/Projectiles/arrows.rsi

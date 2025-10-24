@@ -1,8 +1,8 @@
 - type: entity
   parent: BaseItem
   id: Holoprojector
-  name: holographic sign projector
-  description: A handy-dandy holographic projector that displays a janitorial sign.
+  name: 全息标志投影仪
+  description: 一个方便好用的全息投影仪，可显示保洁标志。
   components:
   - type: Item
     storedRotation: -90
@@ -16,7 +16,7 @@
   - type: ItemSlots
     slots:
       cell_slot:
-        name: power-cell-slot-component-slot-name-default
+        name: 动力电池插槽-组件插槽名称-默认
         startingItem: PowerCellMedium
   - type: Sprite
     sprite: Objects/Devices/Holoprojectors/custodial.rsi
@@ -33,21 +33,21 @@
   - type: ItemSlots
     slots:
       cell_slot:
-        name: power-cell-slot-component-slot-name-default
+        name: 动力电池插槽组件默认插槽名称
 
 - type: entity
   parent: Holoprojector
   id: HoloprojectorBorg
   suffix: borg
-  name: holosign projector
-  description: A modified holographic sign projector for use in custodial cyborgs. Automatically self-charges.
+  name: 全息标志投影仪
+  description: 一款改进的全息标志投影仪，适用于监管型半机械人。可自动充电。
   components:
   - type: HolosignProjector
     chargeUse: 240
   - type: ItemSlots
     slots:
       cell_slot:
-        name: power-cell-slot-component-slot-name-default
+        name: 动力电池插槽-组件插槽名称-默认
         startingItem: PowerCellMicroreactor
         disableEject: true
         swap: false
@@ -55,8 +55,8 @@
 - type: entity
   parent: Holoprojector
   id: HoloprojectorClownBorg
-  name: holopeel projector
-  description: A holopeel projector that creates a slippery, hard light banana peel. It recharges, so that the fun never ends!
+  name: 全息香蕉皮投影仪
+  description: 全息香蕉皮投影仪能制造出滑溜溜的硬光香蕉皮。它还能反复充电，让乐趣永不停歇！
   suffix: borg
   components:
   - type: HolosignProjector
@@ -68,7 +68,7 @@
   - type: ItemSlots
     slots:
       cell_slot:
-        name: power-cell-slot-component-slot-name-default
+        name: 动力电池插槽-组件插槽名称-默认
         startingItem: PowerCellMicroreactor
         disableEject: true
         swap: false
@@ -76,8 +76,8 @@
 - type: entity
   parent: Holoprojector
   id: HolofanProjector
-  name: holofan projector
-  description: Stop suicidal passengers from killing everyone during atmos emergencies.
+  name: 全息风扇投影仪
+  description: 阻止有自杀倾向的乘客在大气紧急状况下拖累全机人员。
   components:
   - type: HolosignProjector
     signProto: HoloFan
@@ -104,18 +104,18 @@
   - type: ItemSlots
     slots:
       cell_slot:
-        name: power-cell-slot-component-slot-name-default
+        name: 动力电池槽组件默认槽位名称
 
 - type: entity
   parent: HolofanProjector
   id: HolofanProjectorBorg
-  name: integrated holofan
-  description: Stops idiots from causing more crew harm during atmospheric emergencies. Installed directly into an engineering cyborg, it recharges over time.
+  name: 集成式全息风扇
+  description: 在大气紧急情况下，防止因人为失误造成更多船员伤害。直接安装于工程改造的机械体中，可随时间自动充能。
   components:
   - type: ItemSlots
     slots:
       cell_slot:
-        name: power-cell-slot-component-slot-name-default
+        name: 动力电池槽组件默认槽位名称
         startingItem: PowerCellMicroreactor
         disableEject: true
         swap: false
@@ -123,8 +123,8 @@
 - type: entity
   parent: Holoprojector
   id: HoloprojectorField
-  name: force field projector
-  description: Creates an impassable forcefield that won't let anything through. Close proximity may or may not cause cancer.
+  name: 力场投射器
+  description: 生成一道无法逾越的力场屏障，任何物体都无法穿透。近距离接触可能诱发癌症（亦可能无害）。
   components:
     - type: HolosignProjector
       signProto: HolosignForcefield
@@ -146,13 +146,13 @@
   - type: ItemSlots
     slots:
       cell_slot:
-        name: power-cell-slot-component-slot-name-default
+        name: 动力电池插槽-组件插槽名称-默认
 
 - type: entity
   parent: Holoprojector
   id: HoloprojectorSecurity
-  name: holobarrier projector
-  description: Creates a solid but fragile holographic barrier.
+  name: 全息屏障投影仪
+  description: 生成一道坚固但易碎的全息屏障。
   components:
     - type: HolosignProjector
       signProto: HolosignSecurity
@@ -175,4 +175,4 @@
   - type: ItemSlots
     slots:
       cell_slot:
-        name: power-cell-slot-component-slot-name-default
+        name: 动力电池插槽-组件插槽名称-默认

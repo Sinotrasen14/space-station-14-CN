@@ -1,7 +1,7 @@
 ﻿- type: entity
   parent: BaseItem
   id: BaseComputerCircuitboard
-  name: computer board
+  name: 电脑主板
   abstract: true
   components:
     - type: ComputerBoard
@@ -22,8 +22,8 @@
 - type: entity
   parent: BaseComputerCircuitboard
   id: AlertsComputerCircuitboard
-  name: atmospheric alerts computer board
-  description: A computer printed circuit board for an atmospheric alerts computer.
+  name: 大气警报计算机板
+  description: 用于大气警报计算机的电脑印刷电路板。
   components:
     - type: Sprite
       state: cpu_engineering
@@ -33,8 +33,8 @@
 - type: entity
   parent: BaseComputerCircuitboard
   id: AtmosMonitoringComputerCircuitboard
-  name: atmospheric network monitor board
-  description: A computer printed circuit board for an atmospheric network monitor.
+  name: 大气网络监测器板
+  description: 用于大气网络监测器的计算机印刷电路板。
   components:
     - type: Sprite
       state: cpu_engineering
@@ -44,8 +44,8 @@
 - type: entity
   parent: BaseComputerCircuitboard
   id: PowerComputerCircuitboard
-  name: power monitoring computer board
-  description: A computer printed circuit board for a power monitoring computer.
+  name: 电源监控计算机板
+  description: 电源监控计算机用计算机印刷电路板。
   components:
     - type: Sprite
       state: cpu_engineering
@@ -55,8 +55,8 @@
 - type: entity
   parent: BaseComputerCircuitboard
   id: MedicalRecordsComputerCircuitboard
-  name: medical records computer board
-  description: A computer printed circuit board for a medical records computer.
+  name: 病历计算机板
+  description: 用于病历计算机的计算机印刷电路板。
   components:
     - type: Sprite
       state: cpu_medical
@@ -66,8 +66,8 @@
 - type: entity
   parent: BaseComputerCircuitboard
   id: CriminalRecordsComputerCircuitboard
-  name: criminal records computer board
-  description: A computer printed circuit board for a criminal records computer.
+  name: 犯罪记录计算机板
+  description: 用于犯罪记录计算机的计算机印刷电路板。
   components:
     - type: Sprite
       state: cpu_security
@@ -77,8 +77,8 @@
 - type: entity
   parent: BaseComputerCircuitboard
   id: StationRecordsComputerCircuitboard
-  name: station records computer board
-  description: A computer printed circuit board for a station records computer.
+  name: 车站记录计算机板
+  description: 车站记录计算机用计算机印刷电路板。
   components:
     - type: Sprite
       state: cpu_command
@@ -88,8 +88,8 @@
 - type: entity
   parent: BaseComputerCircuitboard
   id: CargoRequestComputerCircuitboard
-  name: cargo request computer board
-  description: A computer printed circuit board for a cargo request computer.
+  name: 货物请求计算机板
+  description: 用于货物请求计算机的计算机印刷电路板。
   components:
     - type: Sprite
       state: cpu_supply
@@ -101,8 +101,8 @@
 - type: entity
   parent: BaseComputerCircuitboard
   id: CargoRequestEngineeringComputerCircuitboard
-  name: engineering request computer board
-  description: A computer printed circuit board for an engineering request computer.
+  name: 工程请求计算机板
+  description: 用于工程请求计算机的计算机印刷电路板。
   components:
   - type: Sprite
     state: cpu_engineering
@@ -114,8 +114,8 @@
 - type: entity
   parent: BaseComputerCircuitboard
   id: CargoRequestMedicalComputerCircuitboard
-  name: medical request computer board
-  description: A computer printed circuit board for a medical request computer.
+  name: 医疗请求计算机板
+  description: 用于医疗请求计算机的印刷电路板。
   components:
   - type: Sprite
     state: cpu_medical
@@ -127,8 +127,8 @@
 - type: entity
   parent: BaseComputerCircuitboard
   id: CargoRequestScienceComputerCircuitboard
-  name: science request computer board
-  description: A computer printed circuit board for a science request computer.
+  name: 科学请求计算机板
+  description: 用于科学请求计算机的电脑印刷电路板。
   components:
   - type: Sprite
     state: cpu_science
@@ -140,8 +140,8 @@
 - type: entity
   parent: BaseComputerCircuitboard
   id: CargoRequestSecurityComputerCircuitboard
-  name: security request computer board
-  description: A computer printed circuit board for a security request computer.
+  name: 安全请求计算机板
+  description: 用于安全请求计算机的计算机印刷电路板。
   components:
   - type: Sprite
     state: cpu_security
@@ -153,8 +153,8 @@
 - type: entity
   parent: BaseComputerCircuitboard
   id: CargoRequestServiceComputerCircuitboard
-  name: service request computer board
-  description: A computer printed circuit board for a service request computer.
+  name: 服务请求计算机板
+  description: 用于服务请求计算机的电脑印刷电路板。
   components:
   - type: Sprite
     state: cpu_service
@@ -166,8 +166,8 @@
 - type: entity
   parent: BaseComputerCircuitboard
   id: FundingAllocationComputerCircuitboard
-  name: funding allocation computer board
-  description: A computer printed circuit board for a funding allocation card console.
+  name: 资金分配计算机板
+  description: 用于资金分配卡控制台的计算机印刷电路板。
   components:
   - type: Sprite
     state: cpu_command
@@ -179,8 +179,8 @@
 - type: entity
   parent: BaseComputerCircuitboard
   id: CargoSaleComputerCircuitboard
-  name: cargo sale computer board
-  description: A computer printed circuit board for a cargo sale computer.
+  name: 货物销售计算机板
+  description: 用于货物销售计算机的计算机印刷电路板。
   components:
     - type: Sprite
       state: cpu_supply
@@ -190,8 +190,8 @@
 - type: entity
   id: CargoBountyComputerCircuitboard
   parent: BaseComputerCircuitboard
-  name: cargo bounty computer board
-  description: A computer printed circuit board for a cargo bounty computer.
+  name: 货单赏金计算机板
+  description: 用于货单赏金计算机的电脑印刷电路板。
   components:
   - type: Sprite
     state: cpu_supply
@@ -202,8 +202,8 @@
 - type: entity
   parent: BaseComputerCircuitboard
   id: SalvageJobBoardComputerCircuitboard
-  name: salvage job board computer board
-  description: A computer printed circuit board for a salvage job board computer.
+  name: 打捞作业板计算机板
+  description: 用于打捞作业板计算机的计算机印刷电路板。
   components:
   - type: Sprite
     state: cpu_supply
@@ -213,8 +213,8 @@
 - type: entity
   parent: BaseComputerCircuitboard
   id: SalvageExpeditionsComputerCircuitboard
-  name: salvage expeditions computer board
-  description: A computer printed circuit board for a salvage expeditions computer.
+  name: 打捞探险计算机板
+  description: 用于打捞探险计算机的计算机印刷电路板。
   components:
     - type: Sprite
       state: cpu_supply
@@ -226,8 +226,8 @@
 - type: entity
   parent: BaseComputerCircuitboard
   id: CargoShuttleConsoleCircuitboard
-  name: cargo shuttle console board
-  description: A computer printed circuit board for a cargo shuttle console.
+  name: 货船控制台电路板
+  description: 货船控制台电路板用计算机印刷电路板。
   components:
   - type: Sprite
     state: cpu_supply
@@ -239,8 +239,8 @@
 - type: entity
   parent: BaseComputerCircuitboard
   id: SurveillanceCameraMonitorCircuitboard
-  name: surveillance camera monitor board
-  description: A computer printed circuit board for a surveillance camera monitor.
+  name: 监控摄像头监视器电路板
+  description: 用于监控摄像头监视器的计算机印刷电路板。
   components:
   - type: Sprite
     state: cpu_security
@@ -253,8 +253,8 @@
 - type: entity
   parent: BaseComputerCircuitboard
   id: SurveillanceWirelessCameraMonitorCircuitboard
-  name: surveillance wireless camera monitor board
-  description: A computer printed circuit board for a surveillance wireless camera monitor.
+  name: 监控无线摄像头监视器板
+  description: 用于监控无线摄像头监视器的计算机印刷电路板。
   components:
   - type: Sprite
     state: cpu_service
@@ -264,8 +264,8 @@
 - type: entity
   parent: BaseComputerCircuitboard
   id: XenoborgCameraMonitorCircuitboard
-  name: xenoborg camera monitor board
-  description: A computer printed circuit board for a xenoborg camera monitor.
+  name: 异生体摄像头监视器板
+  description: 用于异生体摄像头监视器的计算机印刷电路板。
   components:
   - type: Sprite
     state: cpu_science
@@ -275,8 +275,8 @@
 - type: entity
   parent: BaseComputerCircuitboard
   id: ComputerTelevisionCircuitboard
-  name: television board
-  description: A computer printed circuit board for a television.
+  name: 电视板
+  description: 用于电视的计算机印刷电路板。
   components:
     - type: ComputerBoard
       prototype: ComputerTelevision
@@ -287,8 +287,8 @@
 - type: entity
   parent: BaseComputerCircuitboard
   id: ResearchComputerCircuitboard
-  name: R&D computer board
-  description: A computer printed circuit board for a R&D console.
+  name: 研发计算机板
+  description: 用于研发控制台的计算机印刷电路板。
   components:
     - type: Sprite
       state: cpu_science
@@ -298,8 +298,8 @@
 - type: entity
   parent: BaseComputerCircuitboard
   id: AnalysisComputerCircuitboard
-  name: analysis computer board
-  description: A computer printed circuit board for an analysis console.
+  name: 分析计算机板
+  description: 用于分析控制台的计算机印刷电路板。
   components:
     - type: Sprite
       state: cpu_science
@@ -309,8 +309,8 @@
 - type: entity
   parent: BaseComputerCircuitboard
   id: TechDiskComputerCircuitboard
-  name: tech disk terminal board
-  description: A computer printed circuit board for a technology disk terminal.
+  name: 技术磁盘终端板
+  description: 用于技术磁盘终端的计算机印刷电路板。
   components:
   - type: Sprite
     state: cpu_science
@@ -320,8 +320,8 @@
 - type: entity
   parent: BaseComputerCircuitboard
   id: CrewMonitoringComputerCircuitboard
-  name: crew monitoring computer board
-  description: A computer printed circuit board for a crew monitoring console.
+  name: 机组监控计算机板
+  description: 用于机组监控台的计算器印制电路板。
   components:
   - type: Sprite
     state: cpu_medical
@@ -331,8 +331,8 @@
 - type: entity
   parent: [BaseComputerCircuitboard, BaseCommandContraband]
   id: IDComputerCircuitboard
-  name: ID card computer board
-  description: A computer printed circuit board for an ID card console.
+  name: ID卡电脑板
+  description: 用于ID卡控制台的电脑印刷电路板。
   components:
     - type: Sprite
       state: cpu_command
@@ -347,8 +347,8 @@
 - type: entity
   parent: BaseComputerCircuitboard
   id: BodyScannerComputerCircuitboard
-  name: body scanner computer board
-  description: A computer printed circuit board for a body scanner console.
+  name: 人体扫描仪计算机板
+  description: 人体扫描仪控制台用计算机印刷电路板。
   components:
     - type: Sprite
       state: cpu_medical
@@ -358,8 +358,8 @@
 - type: entity
   parent: [ BaseComputerCircuitboard, BaseCommandContraband ]
   id: CommsComputerCircuitboard
-  name: communications computer board
-  description: A computer printed circuit board for a communications console.
+  name: 通信计算机板
+  description: 用于通信控制台的计算机印刷电路板。
   components:
     - type: Sprite
       state: cpu_command
@@ -369,8 +369,8 @@
 - type: entity
   parent: [ BaseComputerCircuitboard, BaseSyndicateContraband ]
   id: SyndicateCommsComputerCircuitboard
-  name: syndicate communications computer board
-  description: A computer printed circuit board for a syndicate communications console.
+  name: 辛迪加通信计算机板
+  description: 用于辛迪加通信控制台的计算机印刷电路板。
   components:
   - type: Sprite
     state: cpu_syndicate
@@ -380,8 +380,8 @@
 - type: entity
   parent: [ BaseComputerCircuitboard, BaseSyndicateContraband ]
   id: WizardCommsComputerCircuitboard
-  name: wizard communications computer board
-  description: A computer printed circuit board for a wizard communications console.
+  name: 巫师通讯计算机板
+  description: 巫师通讯控制台的计算机印刷电路板。
   components:
   - type: Sprite
     state: cpu_wizard
@@ -391,8 +391,8 @@
 - type: entity
   parent: [ BaseComputerCircuitboard, BaseCentcommContraband ]
   id: CentcommCommsComputerCircuitboard
-  name: central command communications computer board
-  description: A computer printed circuit board for a central command communications console.
+  name: 中央指挥通信计算机板
+  description: 中央指挥通信控制台用计算机印刷电路板。
   components:
   - type: Sprite
     state: cpu_centcomm
@@ -402,7 +402,7 @@
 - type: entity
   parent: BaseComputerCircuitboard
   id: RadarConsoleCircuitboard
-  name: mass scanner computer board
+  name: 质量扫描仪计算机板
   components:
   - type: Sprite
     state: cpu_supply
@@ -412,8 +412,8 @@
 - type: entity
   parent: BaseComputerCircuitboard
   id: SolarControlComputerCircuitboard
-  name: solar control computer board
-  description: A computer printed circuit board for a solar control console.
+  name: 太阳能控制计算机板
+  description: 太阳能控制台用计算机印刷电路板。
   components:
     - type: Sprite
       state: cpu_engineering
@@ -423,8 +423,8 @@
 - type: entity
   parent: BaseComputerCircuitboard
   id: SpaceVillainArcadeComputerCircuitboard
-  name: space villain arcade board
-  description: A computer printed circuit board for a space villain arcade cabinet.
+  name: 太空反派街机板
+  description: 太空反派街机柜用计算机印刷电路板。
   components:
     - type: ComputerBoard
       prototype: SpaceVillainArcade
@@ -432,8 +432,8 @@
 - type: entity
   parent: BaseComputerCircuitboard
   id: BlockGameArcadeComputerCircuitboard
-  name: block game arcade board
-  description: A computer printed circuit board for a block game arcade cabinet.
+  name: 方块游戏街机板
+  description: 用于方块游戏街机柜的计算机印刷电路板。
   components:
     - type: ComputerBoard
       prototype: BlockGameArcade
@@ -441,8 +441,8 @@
 - type: entity
   parent: BaseComputerCircuitboard
   id: ParticleAcceleratorComputerCircuitboard
-  name: PA control box computer board
-  description: A computer printed circuit board for a particle accelerator control box.
+  name: PA控制箱计算机板
+  description: 用于粒子加速器控制箱的计算机印刷电路板。
   components:
     - type: Sprite
       state: cpu_engineering
@@ -452,8 +452,8 @@
 - type: entity
   parent: BaseComputerCircuitboard
   id: ShuttleConsoleCircuitboard
-  name: shuttle console board
-  description: A computer printed circuit board for a shuttle console.
+  name: 穿梭控制台板
+  description: 用于穿梭控制台的计算机印刷电路板。
   components:
   - type: Sprite
     state: cpu_supply
@@ -463,8 +463,8 @@
 - type: entity
   parent: [ BaseComputerCircuitboard, BaseSyndicateContraband ]
   id: SyndicateShuttleConsoleCircuitboard
-  name: syndicate shuttle console board
-  description: A computer printed circuit board for a syndicate shuttle console.
+  name: 辛迪加穿梭控制台电路板
+  description: 用于辛迪加穿梭控制台的计算机印刷电路板。
   components:
   - type: Sprite
     state: cpu_syndicate
@@ -474,8 +474,8 @@
 - type: entity
   parent: BaseComputerCircuitboard
   id: CloningConsoleComputerCircuitboard
-  name: cloning console computer board
-  description: A computer printed circuit board for a cloning console.
+  name: 克隆控制台计算机板
+  description: 克隆控制台计算机用印刷电路板。
   components:
     - type: Sprite
       state: cpu_medical
@@ -485,8 +485,8 @@
 - type: entity
   parent: BaseComputerCircuitboard
   id: ComputerIFFCircuitboard
-  name: IFF console board
-  description: Allows you to control the IFF characteristics of this vessel.
+  name: IFF控制台面板
+  description: 允许您控制该舰船的IFF特性。
   components:
     - type: Sprite
       state: cpu_command
@@ -496,8 +496,8 @@
 - type: entity
   parent: [ BaseComputerCircuitboard, BaseSyndicateContraband ]
   id: ComputerIFFSyndicateCircuitboard
-  name: syndicate IFF console board
-  description: Allows you to control the IFF and stealth characteristics of this vessel.
+  name: 辛迪加敌我识别控制台板
+  description: 允许您控制本舰的敌我识别与隐身特性。
   components:
   - type: Sprite
     state: cpu_syndicate
@@ -507,8 +507,8 @@
 - type: entity
   parent: BaseComputerCircuitboard
   id: ComputerMassMediaCircuitboard
-  name: news manager console board
-  description: Write your message to the world!
+  name: 新闻管理器控制台面板
+  description: 向世界发出你的讯息！
   components:
     - type: Sprite
       state: cpu_service
@@ -520,8 +520,8 @@
 - type: entity
   parent: BaseComputerCircuitboard
   id: SensorConsoleCircuitboard
-  name: sensor monitoring console board
-  description: A computer printed circuit board for a sensor monitoring console.
+  name: 传感器监控台板
+  description: 传感器监控台板用计算机印刷电路板。
   components:
     - type: Sprite
       state: cpu_engineering
@@ -531,8 +531,8 @@
 - type: entity
   parent: BaseComputerCircuitboard
   id: RoboticsConsoleCircuitboard
-  name: robotics control console board
-  description: A computer printed circuit board for a robotics control console.
+  name: 机器人控制台板
+  description: 用于机器人控制台的计算机印刷电路板。
   components:
     - type: Sprite
       state: cpu_science
@@ -542,8 +542,8 @@
 - type: entity
   parent: BaseComputerCircuitboard
   id: ComputerXenoborgsControlCircuitboard
-  name: xenoborg control console board
-  description: A computer printed circuit board for a xenoborg control console.
+  name: 异生体控制台电路板
+  description: 异生体控制台电路板是一种用于异生体控制台的计算机印刷电路板。
   components:
     - type: Sprite
       state: cpu_science
@@ -553,8 +553,8 @@
 - type: entity
   parent: BaseComputerCircuitboard
   id: StationAiUploadCircuitboard
-  name: AI upload console board
-  description: A computer printed circuit board for an AI upload console.
+  name: AI上传控制台板
+  description: 用于人工智能上传控制台的计算机印刷电路板。
   components:
     - type: Sprite
       state: cpu_science
@@ -564,8 +564,8 @@
 - type: entity
   parent: BaseComputerCircuitboard
   id: StationAiFixerCircuitboard
-  name: AI restoration console board
-  description: A computer printed circuit board for an AI restoration console console.
+  name: AI修复控制台板
+  description: 用于AI修复控制台的计算机印刷电路板。
   components:
     - type: Sprite
       state: cpu_science

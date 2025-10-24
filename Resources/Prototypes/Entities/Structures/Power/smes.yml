@@ -3,8 +3,8 @@
   abstract: true
   id: BaseSMES
   parent: [ BaseMachine, ConstructibleMachine ]
-  name: SMES
-  description: A high-capacity superconducting magnetic energy storage (SMES) unit.
+  name: 超导磁储能装置
+  description: 一台大容量超导磁储能装置。
   placement:
     mode: SnapgridCenter
   components:
@@ -134,8 +134,8 @@
   parent: BaseSMES
   id: SMESAdvanced
   suffix: Advanced, 16MJ
-  name: advanced SMES
-  description: An even-higher-capacity superconducting magnetic energy storage (SMES) unit.
+  name: 先进的超导磁储能装置
+  description: 一个容量更高的超导磁储能装置。
   components:
   - type: Sprite
     sprite: Structures/Power/smes.rsi

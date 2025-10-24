@@ -49,8 +49,8 @@
 - type: entity
   parent: [DrinkBaseMaterialPlastic, DrinkCartonSmallBaseFull]
   id: DrinkJuiceLimeCarton
-  name: lime juice
-  description: Sweet-sour goodness.
+  name: 青柠汁
+  description: 酸甜可口。
   components:
   - type: SolutionContainerManager
     solutions:
@@ -64,8 +64,8 @@
 - type: entity
   parent: DrinkCartonSmallBaseFull
   id: DrinkJuiceOrangeCarton
-  name: orange juice
-  description: Full of vitamins and deliciousness!
+  name: 橙汁
+  description: 富含维生素，美味可口！
   components:
   - type: SolutionContainerManager
     solutions:
@@ -79,8 +79,8 @@
 - type: entity
   parent: DrinkCartonSmallBaseFull
   id: DrinkJuiceTomatoCarton
-  name: tomato juice
-  description: Well, at least it LOOKS like tomato juice. You can't tell with all that redness.
+  name: 番茄汁
+  description: 好吧，至少它看起来像番茄汁。那一大片红色让人难以分辨。
   components:
   - type: SolutionContainerManager
     solutions:
@@ -94,8 +94,8 @@
 - type: entity
   parent: DrinkCartonSmallBaseFull
   id: DrinkCoconutWaterCarton
-  name: coconut water
-  description: It's the inside of the coconut that counts.
+  name: 椰子水
+  description: 内在的才是精华。
   components:
   - type: SolutionContainerManager
     solutions:
@@ -109,8 +109,8 @@
 - type: entity
   parent: DrinkCartonSmallBaseFull
   id: DrinkCreamCarton
-  name: milk cream
-  description: It's cream. Made from milk. What else did you think you'd find in there?
+  name: 牛奶奶油
+  description: 这是奶油。用牛奶制成的。你还以为里面会有什么呢？
   components:
   - type: SolutionContainerManager
     solutions:
@@ -124,8 +124,8 @@
 - type: entity
   parent: [DrinkBaseMaterialPlastic, DrinkCartonSmallBaseFull]
   id: DrinkJuiceLemonCarton
-  name: lemon juice
-  description: First it's sour, then it's still sour.
+  name: 柠檬汁
+  description: 先是酸的，然后还是酸的。
   components:
   - type: SolutionContainerManager
     solutions:
@@ -139,8 +139,8 @@
 - type: entity
   parent: DrinkCartonSmallBaseFull
   id: DrinkJuicePineappleCarton
-  name: pineapple juice
-  description: Tastes like a tropical vacation far from space.
+  name: 菠萝汁
+  description: 尝起来像是远离太空的热带假期。
   components:
   - type: SolutionContainerManager
     solutions:
@@ -156,8 +156,8 @@
 - type: entity
   parent: [DrinkBaseMaterialPlastic, DrinkCartonBaseFull] # Looks like a plastic jug, fight me
   id: DrinkMilkCarton
-  name: milk
-  description: An opaque white liquid produced by the mammary glands of mammals.
+  name: 牛奶
+  description: 由哺乳动物乳腺产生的不透明白色液体。
   components:
   - type: SolutionContainerManager
     solutions:
@@ -171,8 +171,8 @@
 - type: entity
   parent: DrinkCartonBaseFull
   id: DrinkSoyMilkCarton
-  name: soy milk
-  description: White and nutritious soy goodness!
+  name: 豆浆
+  description: 洁白营养的豆浆精华！
   components:
   - type: SolutionContainerManager
     solutions:
@@ -186,8 +186,8 @@
 - type: entity
   parent: [DrinkBaseMaterialPlastic, DrinkCartonBaseFull]
   id: DrinkOatMilkCarton
-  name: oat milk
-  description: It's oat milk. Tan and nutritious goodness!
+  name: 燕麦奶
+  description: 这是燕麦奶。棕褐色且营养丰富的美味！
   components:
   - type: SolutionContainerManager
     solutions:
@@ -203,8 +203,8 @@
 - type: entity
   parent: [DrinkBaseMaterialPlastic, DrinkCartonBaseXtraLargeFull]
   id: DrinkJuiceLimeCartonXL
-  name: lime juice XL
-  description: Sweet-sour goodness.
+  name: 青柠汁 XL
+  description: 酸甜可口。
   components:
   - type: SolutionContainerManager
     solutions:
@@ -221,8 +221,8 @@
 - type: entity
   parent: DrinkCartonBaseXtraLargeFull
   id: DrinkJuiceOrangeCartonXL
-  name: orange juice XL
-  description: Full of vitamins and deliciousness!
+  name: 橙汁 XL
+  description: 富含维生素，美味可口！
   components:
   - type: SolutionContainerManager
     solutions:
@@ -239,8 +239,8 @@
 - type: entity
   parent: DrinkCartonBaseXtraLargeFull
   id: DrinkCreamCartonXL
-  name: milk cream XL
-  description: It's cream. Made from milk. What else did you think you'd find in there?
+  name: 牛奶奶油 XL
+  description: 这是奶油。用牛奶制成的。你还以为里面会有什么呢？
   components:
   - type: SolutionContainerManager
     solutions:

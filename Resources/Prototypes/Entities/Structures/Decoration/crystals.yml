@@ -2,8 +2,8 @@
   id: CrystalGreen
   parent: BaseStructure
   suffix: green
-  name: crystal
-  description: A crystaline solid.
+  name: 晶体
+  description: 一种结晶固体。
   components:
     - type: Sprite
       sprite: Structures/Decoration/crystal.rsi

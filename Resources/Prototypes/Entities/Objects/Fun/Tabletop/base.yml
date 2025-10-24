@@ -1,9 +1,9 @@
 - type: entity
   parent: BaseItem
   id: BaseBoardEntity # Board item
-  name: board
+  name: 板子
   abstract: true
-  description: A blank board.
+  description: 一块空白的板子。
   components:
     - type: TabletopGame
       size: 256, 256
@@ -29,7 +29,7 @@
 
 - type: entity
   id: BaseBoardTabletop
-  name: baseboard
+  name: 踢脚线
   abstract: true
   categories: [ HideSpawnMenu ]
   components:

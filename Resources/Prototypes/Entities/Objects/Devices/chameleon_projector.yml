@@ -1,8 +1,8 @@
 - type: entity
   parent: [BaseItem, BaseSyndicateContraband]
   id: ChameleonProjector
-  name: chameleon projector
-  description: Holoparasite technology used to create a hard-light replica of any object around you. Disguise is destroyed when picked up or deactivated.
+  name: 变色龙投影仪
+  description: 全息寄生技术用于生成周围任意物体的硬光复制品。拾取或停用时伪装会被破坏。
   components:
   - type: Sprite
     sprite: /Textures/Objects/Devices/chameleon_projector.rsi
@@ -32,7 +32,7 @@
 - type: entity
   categories: [ HideSpawnMenu ]
   id: ChameleonDisguise
-  name: Urist McKleiner
+  name: 乌里斯特·麦克克莱纳
   components:
   # this and the name/desc get replaced, this is just placeholder incase something goes wrong
   - type: Sprite
@@ -49,8 +49,8 @@
 - type: entity
   parent: BaseAction
   id: ActionDisguiseNoRot
-  name: Toggle Rotation
-  description: Use this to prevent your disguise from rotating, making it easier to hide in some scenarios.
+  name: 切换旋转
+  description: 使用此功能可防止伪装物旋转，使其在某些场景下更易于隐藏。
   components:
   - type: Action
     icon: Interface/VerbIcons/refresh.svg.192dpi.png
@@ -61,8 +61,8 @@
 - type: entity
   parent: BaseAction
   id: ActionDisguiseAnchor
-  name: Toggle Anchored
-  description: For many objects you will want to be anchored to not be completely obvious.
+  name: 切换锚定
+  description: 对于许多对象，你会希望锚定不那么明显。
   components:
   - type: Action
     icon:

@@ -1,8 +1,8 @@
 ﻿- type: entity
-  name: gas analyzer
+  name: 气体分析仪
   parent: BaseItem
   id: GasAnalyzer
-  description: A hand-held environmental scanner which reports current gas levels.
+  description: 一款手持式环境扫描仪，可报告当前气体水平。
   components:
   - type: Sprite
     sprite: Objects/Specific/Atmos/gasanalyzer.rsi

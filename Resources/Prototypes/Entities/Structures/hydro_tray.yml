@@ -1,8 +1,8 @@
 - type: entity
-  name: hydroponics tray
+  name: 水培托盘
   parent: [ hydroponicsSoil, SmallConstructibleMachine]
   id: hydroponicsTray
-  description: An interstellar-grade space farmplot allowing for rapid growth and selective breeding of crops. Just... keep in mind the space weeds.
+  description: 一个星际级太空农场，可快速种植和选育作物。只是……要当心太空杂草。
   components:
   - type: Fixtures
     fixtures:

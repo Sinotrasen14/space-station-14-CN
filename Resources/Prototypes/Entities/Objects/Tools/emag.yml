@@ -2,8 +2,8 @@
   parent: [BaseItem, BaseSyndicateContraband]
   id: EmagUnlimited
   suffix: Unlimited
-  name: cryptographic sequencer
-  description: The all-in-one hacking solution. Friend of any syndicate. The iconic EMAG.
+  name: 密码序列器
+  description: 一体化黑客解决方案。任何组织的得力助手。标志性的EMAG。
   components:
   - type: Emag
   - type: Sprite

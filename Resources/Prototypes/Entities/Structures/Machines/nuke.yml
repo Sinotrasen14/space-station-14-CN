@@ -1,8 +1,8 @@
 - type: entity
   parent: [BaseStructure, StructureWheeled, BaseMajorContraband]
   id: NuclearBomb
-  name: nuclear fission explosive
-  description: You probably shouldn't stick around to see if this is armed.
+  name: 核裂变爆炸物
+  description: 你最好别留在这儿确认这东西是否处于待发状态。
   components:
   - type: Transform
     anchored: true
@@ -80,7 +80,7 @@
     intensitySlope: 5
     totalIntensity: 5000000
     diskSlot:
-      name: nuke-slot-component-slot-name-disk
+      name: 核弹插槽组件插槽名称磁盘
       insertSound:
         path: /Audio/Machines/terminal_insert_disc.ogg
       ejectSound:
@@ -131,9 +131,9 @@
 - type: entity
   parent: StorageTank
   id: NuclearBombKeg
-  name: nuclear fission explosive
+  name: 核裂变爆炸物
   suffix: keg
-  description: You probably shouldn't stick around to see if this is armed. It has a tap on the side.
+  description: 你最好别留在这儿确认它是否处于待发状态。侧面已经装有引信。
   components:
   - type: Transform
     anchored: false

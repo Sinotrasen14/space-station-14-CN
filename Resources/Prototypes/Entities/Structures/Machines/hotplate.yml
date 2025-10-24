@@ -28,8 +28,8 @@
 - type: entity
   parent: BaseHeaterMachine
   id: ChemistryHotplate
-  name: hotplate
-  description: "The descendent of the microwaves, our newest invention in beaker heating technology: the hotplate!"
+  name: 加热板
+  description: 微波炉的后代，我们烧杯加热技术的最新发明：加热板！
   components:
   - type: Sprite
     sprite: Structures/Machines/hotplate.rsi

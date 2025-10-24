@@ -1,6 +1,6 @@
 - type: entity
   id: RandomWoodenSupport
-  name: wooden support spawner
+  name: 木质支撑生成器
   parent: MarkerBase
   components:
   - type: Sprite
@@ -18,7 +18,7 @@
 
 - type: entity
   id: RandomWoodenWall
-  name: wooden wall spawner
+  name: 木墙刷怪箱
   parent: MarkerBase
   components:
   - type: Sprite
@@ -34,7 +34,7 @@
 
 - type: entity
   id: RandomStalagmiteOrCrystal
-  name: stalagmite or crystal spawner
+  name: 石笋或水晶刷怪笼
   parent: MarkerBase
   components:
   - type: Sprite
@@ -52,7 +52,7 @@
 
 - type: entity
   id: RandomBrownStalagmite
-  name: brown stalagmite spawner
+  name: 棕色石笋生成器
   parent: MarkerBase
   components:
   - type: Sprite
@@ -68,7 +68,7 @@
 
 - type: entity
   id: RandomGreyStalagmite
-  name: grey stalagmite spawner
+  name: 灰色石笋生成器
   parent: MarkerBase
   components:
   - type: Sprite

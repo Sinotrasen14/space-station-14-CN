@@ -1,6 +1,6 @@
 - type: entity
   save: false
-  name: Urist McWeb
+  name: 乌里斯特·麦克韦布
   parent: BaseMobArachnid
   id: MobArachnid
   components:

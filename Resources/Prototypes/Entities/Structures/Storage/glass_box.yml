@@ -29,8 +29,8 @@
 - type: entity
   parent: [BaseGlassBox, BaseItemCabinetGlass]
   id: GlassBox
-  name: glass box
-  description: A sturdy showcase for an expensive exhibit.
+  name: 玻璃展柜
+  description: 为贵重展品打造的坚固玻璃展柜。
   abstract: true # TODO: Temporarily abstract. Remove it after item scaling in cabinets is implemented.
   components:
   - type: Sprite
@@ -163,8 +163,8 @@
 - type: entity
   parent: BaseGlassBox
   id: GlassBoxFrame
-  name: glass box frame
-  description: A glassless sturdy showcase for an expensive exhibit.
+  name: 玻璃盒框
+  description: 一个无玻璃的坚固展示盒，用于陈列昂贵展品。
   suffix: Frame
   components:
   - type: Sprite
@@ -205,8 +205,8 @@
 - type: entity
   parent: GlassBoxFrame
   id: GlassBoxBroken
-  name: broken glass box
-  description: A broken showcase for a stolen expensive exhibit.
+  name: 碎玻璃盒
+  description: 被窃昂贵展品的破碎展示柜。
   suffix: Broken
   components:
   - type: Sprite

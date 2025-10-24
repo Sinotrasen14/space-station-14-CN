@@ -1,8 +1,8 @@
 - type: entity
   id: PortableScrubber
   parent: [BaseMachinePowered, SmallConstructibleMachine, StructureWheeled]
-  name: portable scrubber
-  description: It scrubs, portably!
+  name: 便携式洗涤器
+  description: 它便携地擦洗！
   components:
   - type: Transform
     anchored: false
@@ -102,8 +102,8 @@
 - type: entity
   id: SpaceHeater
   parent: [BaseMachinePowered, ConstructibleMachine]
-  name: space heater
-  description: A bluespace technology device that alters local temperature. Commonly referred to as a "Space Heater".
+  name: 太空加热器
+  description: 采用蓝空技术的设备，可调节局部温度。通常被称为“太空加热器”。
   suffix: Unanchored
   components:
   - type: StationAiWhitelist

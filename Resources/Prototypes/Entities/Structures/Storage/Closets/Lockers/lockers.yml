@@ -1,8 +1,8 @@
 - type: entity
   id: LockerBooze
   parent: LockerBase
-  name: booze storage
-  description: This is where the bartender keeps the booze.
+  name: 酒类储藏处
+  description: 这是调酒师存放酒水的地方。
   components:
   - type: Appearance
   - type: EntityStorageVisuals
@@ -24,7 +24,7 @@
 - type: entity
   id: LockerSteel
   parent: LockerBaseSecure
-  name: secure closet
+  name: 安全壁橱
   components:
   - type: Appearance
   - type: EntityStorageVisuals
@@ -36,7 +36,7 @@
 - type: entity
   id: LockerQuarterMaster
   parent: LockerBaseSecure
-  name: quartermaster's locker
+  name: 军需官的储物柜
   components:
   - type: Appearance
   - type: EntityStorageVisuals
@@ -49,8 +49,8 @@
 - type: entity
   id: LockerSalvageSpecialist
   parent: LockerBase
-  name: salvage specialist's equipment
-  description: Nevermind the pickaxe.
+  name: 打捞专家的装备
+  description: 别管镐子了。
   components:
   - type: Appearance
   - type: EntityStorageVisuals
@@ -64,7 +64,7 @@
 - type: entity
   id: LockerCaptain
   parent: LockerBaseSecure
-  name: captain's locker
+  name: 船长储物柜
   components:
   - type: Appearance
   - type: EntityStorageVisuals
@@ -77,7 +77,7 @@
 - type: entity
   id: LockerHeadOfPersonnel
   parent: LockerBaseSecure
-  name: head of personnel's locker
+  name: 人事主管的储物柜
   components:
   - type: Appearance
   - type: EntityStorageVisuals
@@ -91,7 +91,7 @@
 - type: entity
   id: LockerChiefEngineer
   parent: LockerBaseSecure
-  name: chief engineer's locker
+  name: 总工程师储物柜
   components:
   - type: Appearance
   - type: EntityStorageVisuals
@@ -105,7 +105,7 @@
 - type: entity
   id: LockerElectricalSupplies
   parent: LockerBase
-  name: electrical supplies locker
+  name: 电器用品柜
   components:
   - type: Appearance
   - type: EntityStorageVisuals
@@ -119,7 +119,7 @@
 - type: entity
   id: LockerWeldingSupplies
   parent: LockerBase
-  name: welding supplies locker
+  name: 焊接用品储物柜
   components:
   - type: Appearance
   - type: EntityStorageVisuals
@@ -133,7 +133,7 @@
 - type: entity
   id: LockerAtmospherics
   parent: LockerBase
-  name: atmospheric technician's locker
+  name: 大气技术员的储物柜
   components:
   - type: Appearance
   - type: EntityStorageVisuals
@@ -147,7 +147,7 @@
 - type: entity
   id: LockerEngineer
   parent: LockerBase
-  name: engineer's locker
+  name: 工程师储物柜
   components:
   - type: Appearance
   - type: EntityStorageVisuals
@@ -161,8 +161,8 @@
 - type: entity
   parent: LockerBase
   id: LockerEvacRepair
-  name: emergency shuttle emergency locker
-  description: It's emergencies all the way down.
+  name: 紧急班车紧急储物柜
+  description: 这完全就是紧急状况套着紧急状况。
   components:
   - type: Appearance
   - type: EntityStorageVisuals
@@ -176,7 +176,7 @@
 - type: entity
   id: LockerFreezerBase
   parent: LockerBase
-  name: freezer
+  name: 冷冻柜
   suffix: No Access
   components:
   - type: Appearance
@@ -198,7 +198,7 @@
 - type: entity
   id: LockerFreezer
   parent: LockerFreezerBase
-  name: freezer
+  name: 冷冻柜
   suffix: Kitchen, Locked
   components:
   - type: AccessReader
@@ -208,7 +208,7 @@
 - type: entity
   id: LockerBotanist
   parent: LockerBase
-  name: botanist's locker
+  name: 植物学家的储物柜
   components:
   - type: Appearance
   - type: EntityStorageVisuals
@@ -222,8 +222,8 @@
 - type: entity
   id: LockerMedicine
   parent: LockerBase
-  name: medicine locker
-  description: Filled to the brim with medical junk.
+  name: 医药柜
+  description: 医药柜里塞满了医疗垃圾。
   components:
   - type: Appearance
   - type: EntityStorageVisuals
@@ -237,7 +237,7 @@
 - type: entity
   id: LockerMedical
   parent: LockerBase
-  name: medical doctor's locker
+  name: 医生的储物柜
   components:
   - type: Appearance
   - type: EntityStorageVisuals
@@ -251,7 +251,7 @@
 - type: entity
   id: LockerParamedic
   parent: LockerBase
-  name: paramedic's locker
+  name: 护理员的储物柜
   components:
   - type: Appearance
   - type: EntityStorageVisuals
@@ -266,7 +266,7 @@
 - type: entity
   id: LockerChemistry
   parent: LockerBase
-  name: chemical locker
+  name: 化学品储存柜
   components:
   - type: Appearance
   - type: EntityStorageVisuals
@@ -280,7 +280,7 @@
 - type: entity
   id: LockerChiefMedicalOfficer
   parent: LockerBaseSecure
-  name: chief medical officer's locker
+  name: 首席医疗官的储物柜
   components:
   - type: Appearance
   - type: EntityStorageVisuals
@@ -294,7 +294,7 @@
 - type: entity
   id: LockerResearchDirector
   parent: LockerBase
-  name: research director's locker
+  name: 首席科学家的储物柜
   components:
   - type: Appearance
   - type: EntityStorageVisuals
@@ -307,7 +307,7 @@
 - type: entity
   id: LockerScientist
   parent: LockerBase
-  name: scientist's locker
+  name: 科学家的储物柜
   components:
   - type: Appearance
   - type: EntityStorageVisuals
@@ -321,7 +321,7 @@
 - type: entity
   id: LockerHeadOfSecurity
   parent: LockerBaseSecure
-  name: head of security's locker
+  name: 安保主管的储物柜
   components:
   - type: Appearance
   - type: EntityStorageVisuals
@@ -335,7 +335,7 @@
 - type: entity
   id: LockerWarden
   parent: LockerBaseSecure
-  name: warden's locker
+  name: 看守人的储物柜
   components:
   - type: Appearance
   - type: EntityStorageVisuals
@@ -349,7 +349,7 @@
 - type: entity
   id: LockerBrigmedic
   parent: LockerBaseSecure
-  name: brigmedic locker
+  name: 布里格梅迪克储物柜
   components:
   - type: Appearance
   - type: EntityStorageVisuals
@@ -363,7 +363,7 @@
 - type: entity
   id: LockerSecurity
   parent: LockerBaseSecure
-  name: security officer's locker
+  name: 安保人员的储物柜
   components:
   - type: Appearance
   - type: EntityStorageVisuals
@@ -376,7 +376,7 @@
 - type: entity
   id: GunSafe
   parent: LockerBaseSecure
-  name: gun safe
+  name: 枪柜
   components:
   - type: Appearance
   - type: EntityStorageVisuals
@@ -429,8 +429,8 @@
 - type: entity
   parent: [ GenpopBase , LockerBaseSecure ]
   id: LockerPrisoner
-  name: prisoner closet
-  description: It's a secure locker for an inmate's personal belongings during their time in prison.
+  name: 犯人储物柜
+  description: 这是一个用于存放犯人在监狱期间个人物品的安全储物柜。
   suffix: 1
   components:
   - type: Fixtures
@@ -515,8 +515,8 @@
 - type: entity
   id: LockerDetective
   parent: LockerBooze
-  name: detective's cabinet
-  description: Usually cold and empty... like your heart.
+  name: 侦探的柜子
+  description: 通常冰冷而空荡……就像你的心一样。
   components:
   - type: AccessReader
     access: [["Detective"]]
@@ -524,8 +524,8 @@
 - type: entity
   id: LockerEvidence
   parent: LockerSecurity
-  name: evidence locker
-  description: To store bags of bullet casings and detainee belongings.
+  name: 证物柜
+  description: 用于存放弹壳袋和拘留者物品。
   components:
   - type: AccessReader
     access: [["Security"]]
@@ -533,9 +533,9 @@
 # Syndicate
 - type: entity
   id: LockerSyndicatePersonal
-  name: armory closet
+  name: 军械储藏柜
   parent: LockerBaseSecure
-  description: It's a personal storage unit for operative gear.
+  description: 这是一个用于存放行动装备的个人储物单元。
   components:
   - type: Appearance
   - type: EntityStorageVisuals
@@ -546,10 +546,10 @@
 # Bluespace
 - type: entity
   id: LockerBluespaceStation
-  name: bluespace locker
+  name: 蓝空储物柜
   suffix: once to station
   parent: LockerSyndicatePersonal
-  description: Advanced locker technology.
+  description: 先进的储物柜技术。
   components:
     - type: ArrivalsBlacklist
     - type: BluespaceLocker
@@ -573,7 +573,7 @@
 # Clown
 - type: entity
   id: LockerClown
-  name: clown locker
+  name: 小丑储物柜
   parent: LockerBaseSecure
   components:
   - type: Appearance
@@ -587,7 +587,7 @@
 # Mime
 - type: entity
   id: LockerMime
-  name: mime locker
+  name: 哑剧储物柜
   parent: LockerBaseSecure
   components:
   - type: Appearance
@@ -601,7 +601,7 @@
 # Representative
 - type: entity
   id: LockerRepresentative
-  name: representative locker
+  name: 代表储物柜
   parent: LockerBaseSecure
   components:
   - type: Appearance

@@ -16,8 +16,8 @@
 - type: entity
   id: MechEquipmentGrabber
   parent: BaseMechEquipment
-  name: hydraulic clamp
-  description: Gives the mech the ability to grab things and drag them around.
+  name: 液压夹具
+  description: 赋予机械装置抓取物体并四处拖拽的能力。
   components:
   - type: Sprite
     state: mecha_clamp
@@ -38,8 +38,8 @@
 - type: entity
   id: MechEquipmentGrabberSmall
   parent: BaseMechEquipment
-  name: small hydraulic clamp
-  description: Gives the mech the ability to grab things and drag them around.
+  name: 小型液压夹具
+  description: 赋予机械装置抓取物体并四处拖拽的能力。
   components:
   - type: Sprite
     state: mecha_clamp_small
@@ -66,8 +66,8 @@
 - type: entity
   id: MechEquipmentHorn
   parent: BaseMechEquipment
-  name: mech horn
-  description: An enhanced bike horn that plays a hilarious array of sounds for the enjoyment of the crew. HONK!
+  name: 机械喇叭
+  description: 一款增强型自行车喇叭，能播放一系列滑稽音效为骑行队伍增添乐趣。嘀嘀！
   components:
   - type: Sprite
     # TODO: use own sprite

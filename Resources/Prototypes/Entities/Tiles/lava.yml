@@ -1,7 +1,7 @@
 - type: entity
   id: FloorLavaEntity
-  name: lava
-  description: Don't jump in. It's not worth it, no matter how funny it is.
+  name: 熔岩
+  description: 别跳进去。不管有多好玩，都不值得。
   placement:
     mode: SnapgridCenter
     snap:

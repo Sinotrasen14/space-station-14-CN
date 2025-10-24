@@ -31,8 +31,8 @@
 - type: entity
   parent: GasBinaryBase
   id: GasPressurePump
-  name: gas pump
-  description: A pump that moves gas by pressure.
+  name: 气泵
+  description: 一种通过压力来输送气体的泵。
   placement:
     mode: AlignAtmosPipeLayers
   components:
@@ -95,8 +95,8 @@
 - type: entity
   parent: GasBinaryBase
   id: GasVolumePump
-  name: volumetric gas pump
-  description: A pump that moves gas by volume.
+  name: 容积式气体泵
+  description: 一种通过体积来输送气体的泵。
   placement:
     mode: AlignAtmosPipeLayers
   components:
@@ -168,8 +168,8 @@
 - type: entity
   parent: GasBinaryBase
   id: GasPressureRegulator
-  name: inlet pressure regulator
-  description: A valve that releases gas when the inlet pressure exceeds a certain threshold.
+  name: 入口压力调节器
+  description: 当入口压力超过一定阈值时释放气体的阀门。
   placement:
     mode: AlignAtmosPipeLayers
   components:
@@ -229,8 +229,8 @@
 - type: entity
   parent: GasBinaryBase
   id: GasPassiveGate
-  name: passive gate
-  description: A one-way air valve that does not require power.
+  name: 被动门
+  description: 无需电源的单向气阀。
   placement:
     mode: AlignAtmosPipeLayers
   components:
@@ -271,8 +271,8 @@
 - type: entity
   parent: GasBinaryBase
   id: GasValve
-  name: manual valve
-  description: A pipe with a valve that can be used to disable the flow of gas through it.
+  name: 手动阀门
+  description: 带有阀门的管道，可用于切断气体流动。
   placement:
     mode: AlignAtmosPipeLayers
   components:
@@ -332,8 +332,8 @@
 - type: entity
   parent: GasBinaryBase
   id: SignalControlledValve
-  name: signal valve
-  description: A pipe with a valve that can be controlled with signals.
+  name: 信号阀
+  description: 带有可通过信号控制的阀门的管道。
   placement:
     mode: AlignAtmosPipeLayers
   components:
@@ -404,8 +404,8 @@
 - type: entity
   parent: GasBinaryBase
   id: GasPort
-  name: connector port
-  description: For connecting portable devices related to atmospherics control.
+  name: 连接器端口
+  description: 用于连接与大气控制相关的便携设备。
   placement:
     mode: SnapgridCenter
   components:
@@ -443,8 +443,8 @@
 - type: entity
   parent: GasVentPump
   id: GasDualPortVentPump
-  name: dual-port air vent
-  description: Has a valve and a pump attached to it. There are two ports, one is an input for releasing air, the other is an output when siphoning.
+  name: 双端口排气口
+  description: 带有一个阀门和一个泵。有两个端口，一个是释放空气的输入口，另一个是虹吸时的输出口。
   placement:
     mode: SnapgridCenter
   components:
@@ -509,20 +509,17 @@
 - type: entity
   parent: [ BaseMachine, ConstructibleMachine ]
   id: GasRecycler
-  name: gas recycler
-  description: Recycles carbon dioxide and nitrous oxide. Heater and compressor not included.
+  name: 气体回收器
+  description: 回收二氧化碳和一氧化二氮。加热器和压缩机不包含在内。
   placement:
     mode: SnapgridCenter
   components:
   - type: Sprite
     sprite: Structures/Machines/gasrecycler.rsi
-    snapCardinals: true
-    granularLayersRendering: true
     layers:
     - sprite: Structures/Piping/Atmospherics/pipe.rsi
       state: pipeBinaryConnectors
       map: [ "enum.PipeVisualLayers.Pipe" ]
-      renderingStrategy: Default
     - state: running
     - state: unlit
       shader: unshaded
@@ -578,18 +575,12 @@
     board: GasRecyclerMachineCircuitboard
   - type: AtmosMonitoringConsoleDevice
     navMapBlip: GasValve
-  - type: Transform
-    noRot: false
-  - type: GuideHelp
-    guides:
-    - GasRecycling
-  - type: TegCirculator
 
 - type: entity
   parent: GasBinaryBase
   id: HeatExchanger
-  name: radiator
-  description: Transfers heat between the pipe and its surroundings.
+  name: 散热器
+  description: 在管道与其周围环境之间传递热量。
   placement:
     mode: SnapgridCenter
   components:

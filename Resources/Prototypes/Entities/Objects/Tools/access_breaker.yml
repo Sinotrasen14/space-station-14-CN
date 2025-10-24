@@ -2,8 +2,8 @@
   parent: [BaseItem, BaseSyndicateContraband]
   id: AccessBreakerUnlimited
   suffix: Unlimited
-  name: authentication disruptor
-  description: A hacked access configurator, specialized to unlock and erase access from digital locks.
+  name: 认证干扰器
+  description: 一台被入侵的访问配置器，专门用于解锁并清除数字门禁的访问权限。
   components:
   - type: Emag
     emagImmuneTag: AccessBreakerImmune

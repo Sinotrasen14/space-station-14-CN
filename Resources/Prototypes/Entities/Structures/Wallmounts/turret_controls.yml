@@ -1,7 +1,7 @@
 - type: entity
   id: WeaponEnergyTurretControlPanelFrame
-  name: sentry turret control panel assembly
-  description: An incomplete wall-mounted assembly for a sentry turret control panel.
+  name: 哨兵炮塔控制面板组件
+  description: 一个不完整的壁挂式哨兵炮塔控制面板组件。
   categories: [ HideSpawnMenu ]
   components:
   - type: Sprite
@@ -50,8 +50,8 @@
   abstract: true
   parent: WeaponEnergyTurretControlPanelFrame
   id: WeaponEnergyTurretStationControlPanelBase
-  name: sentry turret control panel
-  description: A wall-mounted interface for remotely configuring the operational parameters of linked sentry turrets.
+  name: 哨塔炮台控制面板
+  description: 用于远程配置已连接哨塔炮台运行参数的壁挂式界面。
   components:
   - type: Appearance
   - type: Sprite

@@ -3,8 +3,8 @@
 - type: entity
   id: WeldingFuelTank
   parent: [StorageTank, StructureWheeled]
-  name: fuel tank
-  description: A fuel tank. It's used to store high amounts of fuel.
+  name: 燃油箱
+  description: 燃油箱。它用于储存大量燃料。
   suffix: Empty
   components:
   - type: StaticPrice
@@ -49,8 +49,8 @@
 - type: entity
   parent: [StorageTankBig, WeldingFuelTank] # StorageTankBig must come first, or else the desnity won't get inherited.
   id: WeldingFuelTankHighCapacity
-  name: high-capacity fuel tank
-  description: A highly pressurized fuel tank made to hold gargantuan amounts of welding fuel.
+  name: 大容量燃料箱
+  description: 一个高压燃料箱，用于储存巨量的焊接燃料。
   suffix: Full
   components:
   - type: StaticPrice
@@ -81,8 +81,8 @@
 - type: entity
   id: WaterTank
   parent: [StorageTank, StructureWheeled]
-  name: water tank
-  description: A water tank. It's used to store high amounts of water.
+  name: 水箱
+  description: 一个水箱。它用于储存大量的水。
   suffix: Empty
   components:
   - type: StaticPrice
@@ -116,8 +116,8 @@
 - type: entity
   parent: StorageTank
   id: WaterCooler
-  name: water cooler
-  description: Seems like a good place to stand and waste time. It has a stock of paper cups on the side.
+  name: 饮水机
+  description: 这地方看起来很适合站着消磨时间。旁边还备有纸杯。
   components:
   - type: Sprite
     sprite: Structures/Storage/tanks.rsi
@@ -165,8 +165,8 @@
 - type: entity
   parent: [StorageTankBig, WaterTank]
   id: WaterTankHighCapacity
-  name: high-capacity water tank
-  description: A highly pressurized water tank made to hold gargantuan amounts of water.
+  name: 高容量水箱
+  description: 一个用于储存巨量水的高压水箱。
   suffix: Full
   components:
   - type: StaticPrice

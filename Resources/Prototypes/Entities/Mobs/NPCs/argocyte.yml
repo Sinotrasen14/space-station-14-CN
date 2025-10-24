@@ -3,7 +3,7 @@
   parent: [ BaseSimpleMob, MobCombat ]
   id: BaseMobArgocyte
   suffix: AI
-  description: A dangerous alien found on the wrong side of planets, known for their propensity for munching on ruins.
+  description: 一个在行星错误一侧发现的危险外星生物，以嗜好啃噬废墟而闻名。
   abstract: true
   components:
   - type: NpcFactionMember
@@ -54,8 +54,8 @@
 - type: entity
   parent: BaseMobArgocyte
   id: MobArgocyteSlurva
-  name: slurva
-  description: A pathetic creature, incapable of doing much.
+  name: 斯拉瓦
+  description: 一个可悲的家伙，成不了什么大事。
   components:
   - type: Sprite
     layers:
@@ -89,7 +89,7 @@
 - type: entity
   parent: BaseMobArgocyte
   id: MobArgocyteBarrier
-  name: barrier
+  name: 障碍
   components:
   - type: Sprite
     layers:
@@ -131,8 +131,8 @@
 - type: entity
   parent: BaseMobArgocyte
   id: MobArgocyteSkitter
-  name: skitter
-  description: A devious little alien... Make sure they don't run off with your rations!
+  name: 鬼鬼祟祟
+  description: 一只鬼鬼祟祟的小外星人……千万别让它偷走你的口粮！
   components:
   - type: Sprite
     layers:
@@ -171,8 +171,8 @@
 - type: entity
   parent: BaseMobArgocyte
   id: MobArgocyteSwiper
-  name: swiper
-  description: Where did that stack of steel go?
+  name: 滑动块
+  description: 那堆钢材去哪儿了？
   components:
   - type: Sprite
     layers:
@@ -198,7 +198,7 @@
 - type: entity
   parent: BaseMobArgocyte
   id: MobArgocyteMolder
-  name: molder
+  name: 模具工
   components:
   - type: Sprite
     layers:
@@ -225,7 +225,7 @@
 - type: entity
   parent: BaseMobArgocyte
   id: MobArgocytePouncer
-  name: pouncer
+  name: 猛扑者
   components:
   - type: Sprite
     layers:
@@ -254,7 +254,7 @@
 - type: entity
   parent: BaseMobArgocyte
   id: MobArgocyteGlider
-  name: glider
+  name: 滑翔机
   components:
   - type: Sprite
     layers:
@@ -286,7 +286,7 @@
 - type: entity
   parent: BaseMobArgocyte
   id: MobArgocyteHarvester
-  name: harvester
+  name: 收割机
   components:
   - type: Sprite
     layers:
@@ -316,8 +316,8 @@
 - type: entity
   parent: BaseMobArgocyte
   id: MobArgocyteCrawler
-  name: crawler
-  description: Deadly, pack-animals that maul unsuspecting travelers.
+  name: 爬行者
+  description: 致命群居生物，会袭击毫无防备的旅人。
   components:
   - type: Sprite
     layers:
@@ -350,7 +350,7 @@
 - type: entity
   parent: BaseMobArgocyte
   id: MobArgocyteEnforcer
-  name: enforcer
+  name: 执行者
   components:
   - type: Sprite
     layers:
@@ -383,7 +383,7 @@
 - type: entity
   parent: BaseMobArgocyte
   id: MobArgocyteFounder
-  name: founder
+  name: 创始人
   components:
   - type: Sprite
     sprite: Mobs/Aliens/Argocyte/argocyte_large.rsi
@@ -429,7 +429,7 @@
 - type: entity
   parent: BaseMobArgocyte
   id: MobArgocyteLeviathing
-  name: leviathing
+  name: 利维坦
   components:
   - type: Sprite
     sprite: Mobs/Aliens/Argocyte/argocyte_large.rsi

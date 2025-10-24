@@ -1,6 +1,6 @@
 - type: entity
-  name: pinpointer
-  description: A handheld tracking device. While typically far more capable, this one has been configured to lock onto certain signals. Keep upright to retain accuracy.
+  name: 探针
+  description: 手持追踪装置。虽然通常功能更为强大，但此设备已被设定为锁定特定信号。请保持直立以确保精度。
   parent: BaseItem
   id: PinpointerBase
   abstract: true
@@ -53,7 +53,7 @@
   - type: AnimationPlayer
 
 - type: entity
-  name: pinpointer
+  name: 精确定位器
   id: PinpointerNuclear
   parent: [ PinpointerBase, BaseCommandContraband ]
   components:
@@ -62,8 +62,8 @@
     targetName: nuclear authentication disk
 
 - type: entity
-  name: syndicate pinpointer
-  description: Produced specifically for nuclear operative missions, get that disk!
+  name: 辛迪加定位器
+  description: 专为核行动任务打造，务必夺取磁盘！
   id: PinpointerSyndicateNuclear
   parent: [ PinpointerBase, BaseSyndicateContraband ]
   components:
@@ -96,8 +96,8 @@
     targetName: nuclear authentication disk
 
 - type: entity
-  name: universal pinpointer
-  description: A handheld tracking device that locks onto any physical entity while off. Keep upright to retain accuracy.
+  name: 通用定位器
+  description: 手持追踪设备，关闭时可锁定任何物理实体。保持直立以确保准确性。
   id: PinpointerUniversal
   parent: PinpointerBase
   components:
@@ -131,8 +131,8 @@
 
 - type: entity
   parent: PinpointerBase
-  name: station pinpointer
-  description: A handheld tracking device that leads to the direction of any nearby station.
+  name: 站点定位器
+  description: 手持式追踪设备，可指引附近任意站点的方向。
   id: PinpointerStation
   suffix: Station
   components:
@@ -167,9 +167,9 @@
 - type: entity
   parent: [ PinpointerBase, BaseXenoborgContraband ]
   id: PinpointerMothership
-  name: core pinpointer
+  name: 核心定位器
   suffix: Mothership
-  description: A handheld tracking device that leads to the direction of the Mothership core.
+  description: 手持追踪装置，可引导至母舰核心的方向。
   components:
   - type: Sprite
     layers:

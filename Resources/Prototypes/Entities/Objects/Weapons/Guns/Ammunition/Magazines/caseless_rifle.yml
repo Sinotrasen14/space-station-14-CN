@@ -1,6 +1,6 @@
 - type: entity
   id: BaseMagazineCaselessRifle
-  name: "magazine (.25 caseless)"
+  name: 杂志（0.25无弹壳）
   parent: [ BaseItem, BaseSecurityContraband ]
   abstract: true
   components:
@@ -34,7 +34,7 @@
 
 - type: entity
   id: BaseMagazinePistolCaselessRifle
-  name: "pistol magazine (.25 caseless)"
+  name: 手枪弹匣（.25无壳弹）
   parent: BaseMagazineCaselessRifle
   abstract: true
   components:
@@ -64,9 +64,9 @@
 
 - type: entity
   id: MagazinePistolCaselessRifle
-  name: "pistol magazine (.25 caseless)"
+  name: 手枪弹匣（.25无壳弹）
   parent: BaseMagazinePistolCaselessRifle
-  description: 10-round magazine for the Cobra pistol. Intended to hold general-purpose kinetic ammunition.
+  description: 眼镜蛇手枪的10发弹匣，用于装填通用动能弹药。
   components:
   - type: BallisticAmmoProvider
     proto: CartridgeCaselessRifle
@@ -92,9 +92,9 @@
 
 - type: entity
   id: MagazinePistolCaselessRiflePractice
-  name: "pistol magazine (.25 caseless practice)"
+  name: 手枪弹匣（0.25英寸无壳练习弹）
   parent: BaseMagazinePistolCaselessRifle
-  description: 10-round magazine for the Cobra pistol. Intended to hold non-harmful chalk ammunition.
+  description: 眼镜蛇手枪10发弹匣，专用于填装无害粉笔训练弹。
   components:
   - type: BallisticAmmoProvider
     proto: CartridgeCaselessRiflePractice
@@ -125,7 +125,7 @@
 
 - type: entity
   id: MagazineCaselessRifle
-  name: "magazine (.25 caseless)"
+  name: 杂志（0.25无弹壳）
   parent: BaseMagazineCaselessRifle
   components:
   - type: BallisticAmmoProvider
@@ -145,7 +145,7 @@
 
 - type: entity
   id: MagazineCaselessRiflePractice
-  name: "magazine (.25 caseless practice)"
+  name: 杂志（0.25无弹壳练习弹）
   parent: BaseMagazineCaselessRifle
   components:
   - type: BallisticAmmoProvider

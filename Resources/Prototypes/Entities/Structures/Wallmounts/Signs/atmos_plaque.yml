@@ -1,7 +1,7 @@
 ﻿- type: entity
   parent: MarkerBase
   id: PlaqueAtmos
-  name: atmos plaque spawner
+  name: 大气斑块生成器
   suffix: Spawner
   components:
   - type: Sprite
@@ -27,8 +27,8 @@
 - type: entity
   parent: BaseSign
   id: PlaqueAtmosFEA
-  name: FEA Atmospherics Division plaque
-  description: This plaque commemorates the fall of the Atmos FEA division. For all the charred, dizzy, and brittle men who have died in its hands.
+  name: FEA大气分部铭牌
+  description: 此牌匾纪念FEA大气分部的陷落。献给所有在其手中逝去的焦灼、眩晕与脆弱之人。
   categories: [ HideSpawnMenu ]
   components:
   - type: Sprite
@@ -37,23 +37,23 @@
 - type: entity
   parent: PlaqueAtmosFEA
   id: PlaqueAtmosLINDA
-  name: LINDA Atmospherics Division plaque
-  description: This plaque commemorates the fall of the Atmos LINDA division. For all the charred, dizzy, and brittle men who have died in its hands.
+  name: LINDA大气压分部铭牌
+  description: 这块铭牌纪念大气压LINDA分部的陨落。献给所有在其手中逝去的焦灼、眩晕与脆裂之人。
   categories: [ HideSpawnMenu ]
 
 - type: entity
   parent: PlaqueAtmosFEA
   id: PlaqueAtmosZAS
-  name: ZAS Atmospherics Division plaque
-  description: This plaque commemorates the fall of the Atmos ZAS division. For all the charred, dizzy, and brittle men who have died in its hands.
+  name: ZAS大气处理部铭牌
+  description: 这块铭牌纪念着ZAS大气处理部的陨落。献给所有在其手中逝去的焦灼、眩晕与脆裂之人。
   categories: [ HideSpawnMenu ]
 
 # If you get the ZUM plaque it means your round will be blessed with good engineering luck.
 - type: entity
   parent: PlaqueAtmosFEA
   id: PlaqueAtmosZUM
-  name: ZUM Atmospherics Division plaque
-  description: This plaque commemorates the rise of the Atmos ZUM division. May they carry the torch that the Atmos ZAS, LINDA and FEA divisions left behind.
+  name: ZUM大气层研究部铭牌
+  description: 此铭牌纪念ZUM大气层研究部的成立。愿他们继承ZAS、LINDA与FEA大气层研究部未竟的使命。
   categories: [ HideSpawnMenu ]
   components:
   - type: Sprite

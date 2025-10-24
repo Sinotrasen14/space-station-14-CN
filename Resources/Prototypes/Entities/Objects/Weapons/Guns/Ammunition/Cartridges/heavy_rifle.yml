@@ -1,6 +1,6 @@
 - type: entity
   id: BaseCartridgeHeavyRifle
-  name: cartridge (.10 rifle)
+  name: 子弹（0.10英寸步枪）
   parent: [ BaseCartridge, BaseSecurityContraband ]
   abstract: true
   components:
@@ -21,7 +21,7 @@
 
 - type: entity
   id: CartridgeMinigun
-  name: cartridge (.10 rifle)
+  name: 子弹（0.10英寸步枪）
   parent: BaseCartridgeHeavyRifle
   components:
   - type: CartridgeAmmo

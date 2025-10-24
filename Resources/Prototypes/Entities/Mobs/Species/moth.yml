@@ -1,6 +1,6 @@
 - type: entity
   save: false
-  name: Urist McFluff
+  name: 乌里斯特·麦克弗拉夫
   parent: BaseMobSpeciesOrganic
   id: BaseMobMoth
   abstract: true

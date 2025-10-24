@@ -2,7 +2,7 @@
   abstract: true
   parent: BaseItem
   id: ShardBase
-  description: It's a shard of some unknown material.
+  description: 这是一块某种未知材质的碎片。
   components:
   - type: Sharp
   - type: Execution
@@ -84,8 +84,8 @@
 - type: entity
   parent: ShardBase
   id: ShardGlass
-  name: glass shard
-  description: A small piece of glass.
+  name: 玻璃碎片
+  description: 一小片玻璃。
   components:
   - type: Sprite
     color: "#bbeeff"
@@ -115,8 +115,8 @@
 - type: entity
   parent: ShardBase
   id: ShardGlassReinforced
-  name: reinforced glass shard
-  description: A small piece of reinforced glass.
+  name: 强化玻璃碎片
+  description: 一小块强化玻璃。
   components:
   - type: Sprite
     color: "#96cdef"
@@ -151,8 +151,8 @@
 - type: entity
   parent: ShardBase
   id: ShardGlassPlasma
-  name: plasma glass shard
-  description: A small piece of plasma glass.
+  name: 等离子玻璃碎片
+  description: 一小块等离子玻璃。
   components:
   - type: Sprite
     color: "#FF72E7"
@@ -189,8 +189,8 @@
 - type: entity
   parent: ShardBase
   id: ShardGlassUranium
-  name: uranium glass shard
-  description: A small piece of uranium glass.
+  name: 铀玻璃碎片
+  description: 一小块铀玻璃碎片。
   components:
   - type: Sprite
     color: "#8eff7a"
@@ -229,8 +229,8 @@
 - type: entity
   parent: ShardBase
   id: ShardGlassClockwork
-  name: clockwork glass shard
-  description: A small piece of brass-infused glass.
+  name: 发条玻璃碎片
+  description: 一小块掺入黄铜的玻璃。
   components:
   - type: Sprite
     color: "#e0aa36"

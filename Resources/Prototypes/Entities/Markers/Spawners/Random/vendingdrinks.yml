@@ -1,6 +1,6 @@
 - type: entity
   id: RandomVendingDrinks
-  name: random vending machine spawner
+  name: 随机售货机生成器
   suffix: Drinks
   parent: MarkerBase
   components:

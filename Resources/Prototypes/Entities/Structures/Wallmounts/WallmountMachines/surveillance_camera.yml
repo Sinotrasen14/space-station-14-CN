@@ -1,8 +1,8 @@
 - type: entity
   abstract: true
   id: SurveillanceCameraBase
-  name: camera
-  description: A surveillance camera. It's watching you. Kinda.
+  name: 摄像头
+  description: 一个监控摄像头。它在看着你。算是吧。
   components:
   - type: Physics
     bodyType: Static
@@ -102,7 +102,7 @@
 - type: entity
   parent: SurveillanceCameraBase
   id: SurveillanceCameraConstructed
-  name: camera
+  name: 相机
   suffix: Constructed
   components:
     - type: DeviceNetwork
@@ -122,7 +122,7 @@
 - type: entity
   parent: SurveillanceCameraBase
   id: SurveillanceCameraEngineering
-  name: camera
+  name: 相机
   suffix: Engineering
   components:
   - type: DeviceNetwork
@@ -135,7 +135,7 @@
 - type: entity
   parent: SurveillanceCameraBase
   id: SurveillanceCameraSecurity
-  name: camera
+  name: 相机
   suffix: Security
   components:
   - type: DeviceNetwork
@@ -148,7 +148,7 @@
 - type: entity
   parent: SurveillanceCameraBase
   id: SurveillanceCameraScience
-  name: camera
+  name: 相机
   suffix: Science
   components:
   - type: DeviceNetwork
@@ -161,7 +161,7 @@
 - type: entity
   parent: SurveillanceCameraBase
   id: SurveillanceCameraSupply
-  name: camera
+  name: 相机
   suffix: Supply
   components:
   - type: DeviceNetwork
@@ -174,7 +174,7 @@
 - type: entity
   parent: SurveillanceCameraBase
   id: SurveillanceCameraCommand
-  name: camera
+  name: 相机
   suffix: Command
   components:
   - type: DeviceNetwork
@@ -187,7 +187,7 @@
 - type: entity
   parent: SurveillanceCameraBase
   id: SurveillanceCameraService
-  name: camera
+  name: 相机
   suffix: Service
   components:
   - type: DeviceNetwork
@@ -200,7 +200,7 @@
 - type: entity
   parent: SurveillanceCameraBase
   id: SurveillanceCameraMedical
-  name: camera
+  name: 相机
   suffix: Medical
   components:
   - type: DeviceNetwork
@@ -213,7 +213,7 @@
 - type: entity
   parent: SurveillanceCameraBase
   id: SurveillanceCameraGeneral
-  name: camera
+  name: 相机
   suffix: General
   components:
   - type: DeviceNetwork
@@ -225,8 +225,8 @@
 
 - type: entity
   id: SurveillanceCameraAssembly
-  name: camera
-  description: A surveillance camera. Doesn't seem to be watching anybody any time soon. Probably.
+  name: 摄像头
+  description: 一个监控摄像头。看来暂时不会监视任何人。大概吧。
   components:
     - type: Clickable
     - type: InteractionOutline

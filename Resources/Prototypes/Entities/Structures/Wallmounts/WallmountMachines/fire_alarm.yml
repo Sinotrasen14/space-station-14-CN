@@ -1,8 +1,8 @@
 - type: entity
   parent: BaseWallmountMachine
   id: FireAlarm
-  name: fire alarm
-  description: A fire alarm. Spicy!
+  name: 火警报警器
+  description: 火警报警器。辣！
   components:
   - type: LightningTarget
     priority: 0
@@ -111,8 +111,8 @@
 - type: entity
   parent: BaseWallmountMetallic
   id: FireAlarmAssembly
-  name: fire alarm assembly
-  description: A fire alarm assembly. Very mild.
+  name: 火灾报警装置
+  description: 火灾报警装置。非常轻微。
   components:
   - type: Sprite
     sprite: Structures/Wallmounts/air_monitors.rsi
@@ -152,7 +152,7 @@
 - type: entity
   id: FireAlarmXeno
   parent: FireAlarm
-  description: An alien fire alarm. Works just the same!
+  description: 外星人火警报警器。功能完全一样！
   components:
   - type: Sprite
     sprite: Structures/Wallmounts/air_monitors_xeno.rsi
@@ -160,7 +160,7 @@
 - type: entity
   id: FireAlarmAssemblyXeno
   parent: FireAlarmAssembly
-  description: An alien fire alarm assembly. Good luck with the wires.
+  description: 一个外星火警报警装置。祝你在接线方面好运。
   components:
   - type: Sprite
     sprite: Structures/Wallmounts/air_monitors_xeno.rsi

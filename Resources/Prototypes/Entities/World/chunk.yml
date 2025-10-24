@@ -1,8 +1,8 @@
 ﻿- type: entity
   id: WorldChunk
   parent: MarkerBase
-  name: world chunk
-  description: |
+  name: 世界区块
+  description: 世界区块 |
     It's rude to stare.
     It's also a bit odd you're looking at the abstract representation of the grid of reality.
   categories: [ HideSpawnMenu ]

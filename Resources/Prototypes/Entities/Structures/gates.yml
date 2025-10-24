@@ -1,8 +1,8 @@
 - type: entity
   parent: BaseItem
   id: LogicEmptyCircuit
-  name: empty circuit
-  description: Something seems to be missing.
+  name: 空电路
+  description: 好像少了点什么。
   components:
   - type: Sprite
     drawdepth: ThinPipe
@@ -29,8 +29,8 @@
 - type: entity
   parent: BaseLogicItem
   id: LogicGateOr
-  name: logic gate
-  description: A logic gate with two inputs and one output. Technicians can change its mode of operation using a screwdriver.
+  name: 逻辑门
+  description: 一个带有两个输入端和一个输出端的逻辑门。技术人员可以使用螺丝刀改变其工作模式。
   suffix: Or
   components:
   - type: Sprite
@@ -203,8 +203,8 @@
 - type: entity
   parent: BaseLogicItem
   id: EdgeDetector
-  name: edge detector
-  description: Splits rising and falling edges into unique pulses and detects how edgy you are.
+  name: 边缘检测器
+  description: 将上升沿和下降沿分割为独立脉冲，并检测你的边缘程度。
   components:
   - type: Sprite
     layers:
@@ -227,8 +227,8 @@
 - type: entity
   parent: BaseLogicItem
   id: PowerSensor
-  name: power sensor
-  description: Generates signals in response to powernet changes. Can be cycled between cable voltages.
+  name: 电源传感器
+  description: 响应电网变化生成信号。可在电缆电压间循环切换。
   components:
   - type: Sprite
     layers:
@@ -274,8 +274,8 @@
 - type: entity
   parent: BaseLogicItem
   id: MemoryCell
-  name: memory cell
-  description: A D-Latch circuit that stores a signal which can be changed depending on input and enable ports.
+  name: 存储单元
+  description: 一个存储信号的可锁存电路，该信号能根据输入和使能端口进行改变。
   components:
   - type: Sprite
     layers:

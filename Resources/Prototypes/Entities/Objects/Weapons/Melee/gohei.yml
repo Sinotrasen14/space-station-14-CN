@@ -1,8 +1,8 @@
 ﻿- type: entity
-  name: gohei
+  name: 御币
   parent: BaseItem
   id: Gohei
-  description: A wooden stick with white streamers at the end. Originally used by shrine maidens to purify things. Now used by the station's weeaboos.
+  description: 末端系有白色纸带的木棍。原为神社巫女用以净物之具，现被车站御宅族们使用。
   components:
   - type: Sprite
     sprite: Objects/Weapons/Melee/gohei.rsi

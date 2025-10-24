@@ -2,8 +2,8 @@
 - type: entity
   parent: ClothingHeadEVAHelmetBase
   id: ClothingHeadHelmetEVA
-  name: EVA helmet
-  description: An old-but-gold helmet designed for extravehicular activites. Infamous for making security officers paranoid.
+  name: 舱外活动头盔
+  description: 一款经典耐用的舱外活动头盔，因令安保人员疑神疑鬼而声名远扬。
   components:
   - type: Sprite
     sprite: Clothing/Head/Helmets/eva.rsi
@@ -19,8 +19,8 @@
 - type: entity
   parent: ClothingHeadEVAHelmetBase
   id: ClothingHeadHelmetEVALarge
-  name: EVA helmet
-  description: An old-but-gold helmet designed for extravehicular activites.
+  name: 舱外活动头盔
+  description: 一款专为舱外活动设计的经典头盔。
   components:
   - type: Sprite
     sprite: Clothing/Head/Helmets/eva_large.rsi
@@ -36,8 +36,8 @@
 - type: entity
   parent: [ ClothingHeadEVAHelmetBase, BaseSyndicateContraband ]
   id: ClothingHeadHelmetSyndicate
-  name: syndicate EVA helmet
-  description: A simple, stylish EVA helmet. Designed for maximum humble space-badassery.
+  name: 辛迪加舱外活动头盔
+  description: 一款简约时尚的舱外活动头盔。专为极致低调的太空硬核风范而设计。
   components:
   - type: Sprite
     sprite: Clothing/Head/Helmets/eva_syndicate.rsi
@@ -50,8 +50,8 @@
 - type: entity
   parent: ClothingHeadEVAHelmetBase
   id: ClothingHeadHelmetCosmonaut
-  name: cosmonaut helmet
-  description: Ancient design, but advanced manufacturing. #Description here originally started with " A deceptively well armored space helmet." Potentially had armor values in SS13 that weren't brought over?
+  name: 宇航员头盔
+  description: 古老设计，却拥有先进制造工艺。#此处原描述以“看似轻巧却具备卓越防护的宇航头盔”开头。或许在《SS13》中曾存在未被沿用的护甲数值？
   components:
   - type: Sprite
     sprite: Clothing/Head/Helmets/cosmonaut.rsi
@@ -62,8 +62,8 @@
 - type: entity
   parent: ClothingHeadEVAHelmetBase
   id: ClothingHeadHelmetAncient
-  name: NTSRA void helmet
-  description: An ancient space helmet, designed by the NTSRA branch of CentComm.
+  name: NTSRA虚空头盔
+  description: 一款古老的太空头盔，由中央司令部NTSRA分部设计。
   components:
   - type: Sprite
     sprite: Clothing/Head/Helmets/ancientvoidsuit.rsi
@@ -74,8 +74,8 @@
 - type: entity
   parent: [ ClothingHeadSuitWithLightBase, ClothingHeadEVAHelmetBase ] #Despite acting like a hardsuit helmet, since it inherits from EVA Helmet, it goes here.
   id: ClothingHeadHelmetVoidParamed
-  name: paramedic void helmet
-  description: A void helmet made for paramedics.
+  name: 急救人员用防护头盔
+  description: 为急救人员制作的防护头盔。
   categories: [ HideSpawnMenu ]
   components:
   - type: Sprite

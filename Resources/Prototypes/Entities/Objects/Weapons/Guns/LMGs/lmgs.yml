@@ -1,8 +1,8 @@
 - type: entity
-  name: BaseWeaponLightMachineGun
+  name: 基础武器轻机枪
   parent: BaseItem
   id: BaseWeaponLightMachineGun
-  description: A rooty tooty point and shooty.
+  description: 一把突突突的指哪打哪枪。
   abstract: true
   components:
   - type: Sprite
@@ -41,7 +41,7 @@
   - type: ItemSlots
     slots:
       gun_magazine:
-        name: Magazine
+        name: 杂志
         startingItem: MagazineLightRifleBox
         insertSound: /Audio/Weapons/Guns/MagIn/batrifle_magin.ogg
         ejectSound: /Audio/Weapons/Guns/MagOut/batrifle_magout.ogg
@@ -50,7 +50,7 @@
           tags:
             - MagazineLightRifleBox
       gun_chamber:
-        name: Chamber
+        name: 腔室
         startingItem: CartridgeLightRifle
         priority: 1
         whitelist:
@@ -66,10 +66,10 @@
     delay: 1
 
 - type: entity
-  name: L6 SAW
+  name: L6班用自动武器
   id: WeaponLightMachineGunL6
   parent: [BaseWeaponLightMachineGun, BaseSyndicateContraband]
-  description: Developed by Waffle Corp, the L6 Squad Automatic Weapon is a deadly light machine gun often used by the Gorlex Marauders. Although bulky and cumbersome, its heavy barrel and high ammo capacity make it perfect for suppressing combatants with a hail of bullets. Feeds from .30 ammo belts.
+  description: 由Waffle公司开发的L6班用自动武器是戈勒克斯掠夺者常用的一款致命轻机枪。虽然体积笨重、携带不便，但其重型枪管和高载弹量特性使其成为用弹雨压制战斗人员的完美选择。使用0.30口径子弹带进行供弹。
   components:
   - type: Sprite
     sprite: Objects/Weapons/Guns/LMGs/l6.rsi
@@ -87,10 +87,10 @@
     price: 10000
 
 - type: entity
-  name: L6C ROW
+  name: L6C 行
   id: WeaponLightMachineGunL6C
   parent: BaseItem
-  description: A L6 SAW for use by cyborgs. Creates .30 rifle ammo on the fly from an internal ammo fabricator, which slowly self-charges.
+  description: 一款供生化人使用的L6 SAW。通过内置的弹药制造器实时生成.30口径步枪弹药，该制造器可缓慢自动充能。
   components:
     - type: Gun
       minAngle: 4

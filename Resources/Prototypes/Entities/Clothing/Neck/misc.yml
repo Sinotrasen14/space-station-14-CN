@@ -1,8 +1,8 @@
 - type: entity
   parent: Clothing
   id: ClothingNeckStethoscope
-  name: stethoscope
-  description: An outdated medical apparatus for listening to the sounds of the human body. It also makes you look like you know what you're doing.
+  name: 听诊器
+  description: 一种过时的用于听诊人体声音的医疗器具。它还能让你看起来像模像样。
   components:
   - type: Item
     size: Small
@@ -19,7 +19,7 @@
 - type: entity
   parent: BaseAction
   id: ActionStethoscope
-  name: Listen with stethoscope
+  name: 听诊器听诊
   components:
   - type: Action
     icon:
@@ -35,8 +35,8 @@
 - type: entity
   parent: ClothingNeckBase
   id: ClothingNeckBling
-  name: bling
-  description: Damn, it feels good to be a gangster.
+  name: 亮闪闪
+  description: 妈的，当个黑帮感觉真爽。
   components:
   - type: Sprite
     sprite: Clothing/Neck/Misc/bling.rsi
@@ -48,8 +48,8 @@
 - type: entity
   parent: ClothingNeckBase
   id: ClothingNeckLawyerbadge
-  name: lawyer badge
-  description: A badge to show that the owner is a 'legitimate' lawyer who passed the NT bar exam required to practice law.
+  name: 律师徽章
+  description: 一枚用于表明持有者是通过了执业所需NT律师资格考试的“正规”律师的徽章。
   components:
   - type: Sprite
     sprite: Clothing/Neck/Misc/lawyerbadge.rsi
@@ -61,8 +61,8 @@
 - type: entity
   parent: ClothingNeckBase
   id: Dinkystar
-  name: star sticker
-  description: A dinky lil star for only the hardest working security officers! It's not even sticky anymore.
+  name: 星星贴纸
+  description: 一枚小巧的星星贴纸，专为最辛勤的安全官员准备！它现在甚至都不粘了。
   components:
   - type: Sprite
     sprite: Clothing/Neck/Misc/dinkystar.rsi

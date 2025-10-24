@@ -1,8 +1,8 @@
 - type: entity
-  name: green glowstick
+  name: 绿色荧光棒
   parent: BaseItem
   id: GlowstickBase
-  description: Useful for raves and emergencies.
+  description: 适用于狂欢派对和紧急情况。
   components:
     - type: SpaceGarbage
     - type: ExpendableLight
@@ -63,7 +63,7 @@
       - Trash
 
 - type: entity
-  name: red glowstick
+  name: 红色荧光棒
   parent: GlowstickBase
   id: GlowstickRed
   components:
@@ -74,7 +74,7 @@
       color: "#FF0000"
 
 - type: entity
-  name: purple glowstick
+  name: 紫色荧光棒
   parent: GlowstickBase
   id: GlowstickPurple
   components:
@@ -85,7 +85,7 @@
       color: "#FF00FF"
 
 - type: entity
-  name: yellow glowstick
+  name: 黄色荧光棒
   parent: GlowstickBase
   id: GlowstickYellow
   components:
@@ -96,7 +96,7 @@
       color: "#FFFF00"
 
 - type: entity
-  name: blue glowstick
+  name: 蓝色荧光棒
   parent: GlowstickBase
   id: GlowstickBlue
   components:
@@ -110,7 +110,7 @@
 # THE FOLLOWING ARE ALL DUMMY ENTITIES USED TO TEST THE LIGHT BEHAVIOUR SYSTEM
 # ----------------------------------------------------------------------------
 - type: entity
-  name: light pulse test
+  name: 光脉冲测试
   parent: BaseItem
   id: LightBehaviourTest1
   categories: [ HideSpawnMenu ]
@@ -141,7 +141,7 @@
           enabled: true
 
 - type: entity
-  name: color cycle test
+  name: 颜色循环测试
   parent: BaseItem
   id: LightBehaviourTest2
   categories: [ HideSpawnMenu ]
@@ -173,7 +173,7 @@
             - green
 
 - type: entity
-  name: multi-behaviour light test
+  name: 多行为灯光测试
   parent: BaseItem
   id: LightBehaviourTest3
   categories: [ HideSpawnMenu ]
@@ -213,7 +213,7 @@
             - green
 
 - type: entity
-  name: light fade in test
+  name: 灯光淡入测试
   parent: BaseItem
   id: LightBehaviourTest4
   categories: [ HideSpawnMenu ]
@@ -244,7 +244,7 @@
           enabled: true
 
 - type: entity
-  name: light pulse radius test
+  name: 光脉冲半径测试
   parent: BaseItem
   id: LightBehaviourTest5
   categories: [ HideSpawnMenu ]
@@ -275,7 +275,7 @@
           enabled: true
 
 - type: entity
-  name: light randomize radius test
+  name: 光线随机半径测试
   parent: BaseItem
   id: LightBehaviourTest6
   categories: [ HideSpawnMenu ]

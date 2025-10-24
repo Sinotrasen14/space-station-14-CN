@@ -1,8 +1,8 @@
 - type: entity
-  name: nuclear authentication disk
+  name: 核认证盘
   parent: [BaseItem, BaseGrandTheftContraband]
   id: NukeDisk
-  description: A nuclear auth disk, capable of arming a nuke if used along with a code. Note from nanotrasen reads "THIS IS YOUR MOST IMPORTANT POSESSION, SECURE DAT FUKKEN DISK!"
+  description: 核认证盘，若与密码一同使用即可为核弹解锁。纳米特拉森的备注写道：“此乃汝最为重要之物，务必护好这该死的盘！”
   components:
   - type: NukeDisk
   - type: SpecialRespawn
@@ -28,11 +28,11 @@
     stealGroup: NukeDisk
 
 - type: entity
-  name: nuclear authentication disk
+  name: 核认证盘
   parent: [BaseItem, BaseGrandTheftContraband]
   id: NukeDiskFake
   suffix: Fake
-  description: A nuclear auth disk, capable of arming a nuke if used along with a code. Note from nanotrasen reads "THIS IS YOUR MOST IMPORTANT POSESSION, SECURE DAT FUKKEN DISK!"
+  description: 核认证盘，若与密码一同使用即可为核弹解锁。纳米特拉森的备注写道：“此乃汝最为重要之物，务必护好这该死的盘！”
   components:
   - type: Sprite
     sprite: Objects/Misc/nukedisk.rsi

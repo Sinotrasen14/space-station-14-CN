@@ -1,6 +1,6 @@
 - type: entity
   save: false
-  name: Urist McHands The Dwarf
+  name: 乌里斯特·麦克汉兹 这位矮人
   parent: BaseMobSpeciesOrganic
   id: BaseMobDwarf
   abstract: true

@@ -1,8 +1,8 @@
 ﻿- type: entity
   parent: BaseItem
   id: AppraisalTool
-  name: appraisal tool
-  description: A beancounter's best friend, with a quantum connection to the galactic market and the ability to appraise even the toughest items. It will also tell you if a crate contains a completed bounty.
+  name: 估价工具
+  description: 精算师的最佳伙伴，拥有连接银河市场的量子通道，能够评估最棘手的物品。它还会告诉你板条箱内是否装有已完成的赏金。
   components:
   - type: Sprite
     sprite: Objects/Tools/appraisal-tool.rsi

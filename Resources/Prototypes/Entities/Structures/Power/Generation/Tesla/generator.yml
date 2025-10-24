@@ -1,8 +1,8 @@
 - type: entity
   id: TeslaGenerator
-  name: tesla generator
+  name: 特斯拉发电机
   parent: BaseStructureDynamic
-  description: An Odd Device which produces a powerful Tesla ball when set up. Comes with a temporary shutdown containment failsafe.
+  description: 一个奇特装置，设置完成后能产生强大的特斯拉能量球。配备临时关闭安全防护系统。
   components:
   - type: Sprite
     noRot: true

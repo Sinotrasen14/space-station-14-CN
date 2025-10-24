@@ -1,8 +1,8 @@
 - type: entity
   parent: ParticleAcceleratorFinishedPart
   id: ParticleAcceleratorEndCap
-  name: PA end-cap
-  description: Formally known as the Alpha Particle Generation Array. This is where Alpha particles are generated from [REDACTED].
+  name: PA端盖
+  description: 正式名称为阿尔法粒子生成阵列。这里是阿尔法粒子从[已编辑]生成的地方。
   components:
   - type: Sprite
     sprite: Structures/Power/Generation/PA/end_cap.rsi
@@ -19,9 +19,9 @@
 - type: entity
   parent: ParticleAcceleratorUnfinishedBase
   id: ParticleAcceleratorEndCapUnfinished
-  name: PA end-cap
+  name: PA端盖
   suffix: Unfinished
-  description: Formally known as the Alpha Particle Generation Array. This is where Alpha particles are generated from [REDACTED]. It looks unfinished.
+  description: 正式名称为阿尔法粒子生成阵列。此处是阿尔法粒子从[已编辑]中生成的地方。它看起来尚未完工。
   components:
   - type: Sprite
     sprite: Structures/Power/Generation/PA/end_cap.rsi

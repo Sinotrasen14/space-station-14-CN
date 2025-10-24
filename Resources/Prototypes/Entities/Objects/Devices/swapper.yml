@@ -1,8 +1,8 @@
 - type: entity
   parent: BaseItem
   id: DeviceQuantumSpinInverter
-  name: quantum spin inverter
-  description: An experimental device that is able to swap the locations of two entities by switching their particles' spin values. Must be linked to another device to function.
+  name: 量子自旋反转器
+  description: 一种实验装置，能够通过切换粒子自旋值来交换两个实体的位置。必须连接另一台设备才能运行。
   components:
   - type: Sprite
     sprite: Objects/Devices/swapper.rsi

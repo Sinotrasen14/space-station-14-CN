@@ -1,6 +1,6 @@
 - type: entity
   id: BaseCartridgeCaselessRifle
-  name: cartridge (.25 caseless)
+  name: 弹匣（0.25无壳弹）
   parent: [ BaseCartridge, BaseSecurityContraband ]
   abstract: true
   components:
@@ -22,18 +22,18 @@
 
 - type: entity
   id: CartridgeCaselessRifle
-  name: cartridge (.25 caseless)
+  name: 子弹（.25无壳弹）
   parent: BaseCartridgeCaselessRifle
-  description: A small caliber utilizing caseless technology, omitting conventional brass casing in favor of hardened propellant. Standard kinetic ammunition is common and useful in most situations.
+  description: 采用无壳技术的小口径子弹，省略传统黄铜弹壳而采用硬化发射药。标准动能弹药在多数情况下既常见又实用。
   components:
   - type: CartridgeAmmo
     proto: BulletCaselessRifle
 
 - type: entity
   id: CartridgeCaselessRiflePractice
-  name: cartridge (.25 caseless practice)
+  name: 子弹（0.25无壳练习弹）
   parent: BaseCartridgeCaselessRifle
-  description: A small caliber utilizing caseless technology, omitting conventional brass casing in favor of hardened propellant. Chalk ammunition is generally non-harmful, used for practice.
+  description: 一种采用无壳技术的小口径弹药，以硬化发射药取代传统黄铜弹壳。粉笔训练弹通常无害，适用于练习用途。
   components:
   - type: CartridgeAmmo
     proto: BulletCaselessRiflePractice

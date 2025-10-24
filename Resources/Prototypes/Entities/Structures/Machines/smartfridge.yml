@@ -1,8 +1,8 @@
 ﻿- type: entity
   parent: [BaseStructureDynamic, ConstructibleMachine]
   id: SmartFridge
-  name: SmartFridge
-  description: A refrigerated storage unit for keeping items cold and fresh.
+  name: 智能冰箱
+  description: 一种用于保持物品冷藏和新鲜的冷藏储存单元。
   components:
   - type: StationAiWhitelist
   - type: Vocalizer

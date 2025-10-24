@@ -31,8 +31,8 @@
 - type: entity
   parent: BaseKnife
   id: KitchenKnife
-  name: kitchen knife
-  description: A general purpose Chef's Knife made by Asters Merchant Guild. Guaranteed to stay sharp for years to come..
+  name: 厨刀
+  description: 一把由阿斯特斯商会打造的多用途厨刀，确保在未来数年内始终保持锋利。
   components:
   - type: Tag
     tags:
@@ -51,10 +51,10 @@
     - FoodRecipes
 
 - type: entity
-  name: butcher's cleaver
+  name: 屠夫的切肉刀
   parent: BaseKnife
   id: ButchCleaver
-  description: A huge blade used for chopping and chopping up meat. This includes clowns and clown-by-products.
+  description: 一把用于砍剁肉类的巨大刀刃。这包括小丑以及小丑副产品。
   components:
   - type: Tag
     tags:
@@ -78,10 +78,10 @@
     - FoodRecipes
 
 - type: entity
-  name: combat knife
+  name: 战斗刀
   parent: [BaseKnife, BaseSecurityContraband]
   id: CombatKnife
-  description: A deadly knife intended for melee confrontations.
+  description: 一把用于近战搏斗的致命刀具。
   components:
   - type: Tag
     tags:
@@ -130,10 +130,10 @@
         friction: 0.2
 
 - type: entity
-  name: survival knife
+  name: 求生刀
   parent: [BaseSecurityCargoContraband, CombatKnife]
   id: SurvivalKnife
-  description: Weapon of first and last resort for combatting space carp.
+  description: 对抗太空鲤鱼的初阶与终阶武器。
   components:
   - type: Sprite
     sprite: Objects/Weapons/Melee/survival_knife.rsi
@@ -145,10 +145,10 @@
       sprite: Objects/Weapons/Melee/survival_knife.rsi
 
 - type: entity
-  name: kukri knife
+  name: 库克力弯刀
   parent: [BaseSecurityCargoContraband, CombatKnife]
   id: KukriKnife
-  description: Professionals have standards. Be polite. Be efficient. Have a plan to kill everyone you meet.
+  description: 专业人士得有标准。讲礼貌。有效率。有计划地干掉你遇到的每一个人。
   components:
   - type: Sprite
     sprite: Objects/Weapons/Melee/kukri_knife.rsi
@@ -165,8 +165,8 @@
 - type: entity
   parent: [ClothingHeadHatGreyFlatcap, BaseMinorContraband]
   id: BladedFlatcapGrey
-  name: grey flatcap
-  description: Fashionable for both the working class and old man Jenkins. It has glass shards hidden in the brim.
+  name: 灰色鸭舌帽
+  description: 既适合工人阶级，也适合老詹金斯先生的时尚单品。帽檐中暗藏玻璃碎片。
   suffix: Bladed
   components:
   - type: Construction
@@ -191,8 +191,8 @@
 - type: entity
   parent: BladedFlatcapGrey
   id: BladedFlatcapBrown
-  name: brown flatcap
-  description: "\"Stupid clown! You made me look bad!\" It has glass shards hidden in the brim."
+  name: 棕色平顶帽
+  description: 蠢货小丑！你让我丢尽了脸！这顶帽子的帽檐里藏有玻璃碎片。
   components:
   - type: Construction
     graph: BladedFlatcapBrown
@@ -202,10 +202,10 @@
     sprite: Clothing/Head/Hats/brownflatcap.rsi
 
 - type: entity
-  name: shiv
+  name: 玻璃片匕首
   parent: [BaseKnife, BaseMinorContraband]
   id: Shiv
-  description: A crude weapon fashioned from a piece of cloth and a glass shard.
+  description: 由布片与玻璃碎片粗糙制成的简易武器。
   components:
   - type: Tag
     tags:
@@ -229,10 +229,10 @@
     malus: 0.225
 
 - type: entity
-  name: reinforced shiv
+  name: 强化玻璃片
   parent: Shiv
   id: ReinforcedShiv
-  description: A crude weapon fashioned from a piece of cloth and a reinforced glass shard.
+  description: 由一块布料和强化玻璃片粗制滥造而成的武器。
   components:
   - type: Construction
     graph: ReinforcedShiv
@@ -248,10 +248,10 @@
     sprite: Objects/Weapons/Melee/reinforced_shiv.rsi
 
 - type: entity
-  name: plasma shiv
+  name: 等离子玻璃片
   parent: Shiv
   id: PlasmaShiv
-  description: A crude weapon fashioned from a piece of cloth and a plasma glass shard.
+  description: 由一块布和一片等离子玻璃碎片粗制滥造而成的武器。
   components:
   - type: Construction
     graph: PlasmaShiv
@@ -267,10 +267,10 @@
     sprite: Objects/Weapons/Melee/plasma_shiv.rsi
 
 - type: entity
-  name: uranium shiv
+  name: 铀玻璃片匕首
   parent: Shiv
   id: UraniumShiv
-  description: A crude weapon fashioned from a piece of cloth and a uranium glass shard. Violates the geneva convention!
+  description: 用布条和铀玻璃片粗制滥造的武器。这违反日内瓦公约！
   components:
   - type: Construction
     graph: UraniumShiv
@@ -287,10 +287,10 @@
     sprite: Objects/Weapons/Melee/uranium_shiv.rsi
 
 - type: entity
-  name: throwing knife
+  name: 飞刀
   parent: [BaseKnife, BaseSyndicateContraband]
   id: ThrowingKnife
-  description: This blood-red knife is very aerodynamic and easy to throw, but good luck trying to fight someone hand-to-hand.
+  description: 这把血红色的飞刀空气动力学性能极佳，易于投掷，但要想用它进行近身格斗——那就祝你好运了。
   components:
   - type: Tag
     tags:
@@ -338,10 +338,10 @@
         friction: 0.2
 
 - type: entity
-  name: utility knife
+  name: 美工刀
   parent: BaseItem
   id: UtilityKnife
-  description: A knife with a retractable, tiny blade. Useful as a box cutter and letter opener, among other things.
+  description: 一种带有可伸缩小刀片的刀具。可用作开箱刀和拆信刀等多种用途。
   components:
   - type: Appearance
   - type: ComponentToggler

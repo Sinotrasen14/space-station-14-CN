@@ -1,7 +1,7 @@
 - type: entity
   parent: MarkerBase
   id: RandomCableHVSpawner
-  name: HV power cable spawner
+  name: 高压电缆敷设机
   suffix: 50%
   components:
   - type: Sprite
@@ -19,7 +19,7 @@
 - type: entity
   parent: MarkerBase
   id: RandomCableMVSpawner
-  name: MV power cable spawner
+  name: 中压电力电缆敷设机
   suffix: 50%
   components:
   - type: Sprite
@@ -43,7 +43,7 @@
 - type: entity
   parent: MarkerBase
   id: RandomCableApcExtensionSpawner
-  name: LV power cable spawner
+  name: LV电力电缆生成器
   suffix: 50%
   components:
   - type: Sprite

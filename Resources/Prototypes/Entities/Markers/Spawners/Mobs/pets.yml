@@ -1,7 +1,7 @@
 - type: entity
   parent: MarkerBase
   id: SpawnMobAlexander
-  name: Alexander Spawner
+  name: 亚历山大·生成器
   suffix: Chef Pet
   components:
   - type: Sprite
@@ -15,7 +15,7 @@
 - type: entity
   parent: MarkerBase
   id: SpawnMobBandito
-  name: Bandito Spawner
+  name: 匪徒生成器
   suffix: RD Pet
   components:
   - type: Sprite
@@ -29,7 +29,7 @@
 - type: entity
   parent: MarkerBase
   id: SpawnMobCat
-  name: Random Cat Spawner
+  name: 随机猫咪生成器
   suffix: CMO Pet
   components:
   - type: Sprite
@@ -46,7 +46,7 @@
 - type: entity
   parent: MarkerBase
   id: SpawnMobCatBingus
-  name: Bingus Spawner
+  name: 宾格斯生成器
   suffix: CMO Pet
   components:
   - type: Sprite
@@ -60,7 +60,7 @@
 - type: entity
   parent: MarkerBase
   id: SpawnMobCatException
-  name: Exception Spawner
+  name: 异常生成器
   suffix: CMO Pet
   components:
   - type: Sprite
@@ -74,7 +74,7 @@
 - type: entity
   parent: MarkerBase
   id: SpawnMobCatFloppa
-  name: Floppa Spawner
+  name: 弗洛帕生成器
   suffix: CMO Pet
   components:
   - type: Sprite
@@ -88,7 +88,7 @@
 - type: entity
   parent: MarkerBase
   id: SpawnMobCatRuntime
-  name: Runtime Spawner
+  name: 运行时生成器
   suffix: CMO Pet
   components:
   - type: Sprite
@@ -102,7 +102,7 @@
 - type: entity
   parent: MarkerBase
   id: SpawnMobCorgi
-  name: Corgi Spawner
+  name: 柯基生成器
   suffix: HoP Pet
   components:
   - type: Sprite
@@ -119,7 +119,7 @@
 - type: entity
   parent: MarkerBase
   id: SpawnMobCorgiMouse
-  name: Dev Mouse Spawner
+  name: 开发鼠标生成器
   suffix: Dev Map Pet, Admeme
   components:
   - type: Sprite
@@ -133,7 +133,7 @@
 - type: entity
   parent: MarkerBase
   id: SpawnMobCrabAtmos
-  name: Tropico Spawner
+  name: 特罗皮科生成器
   suffix: Atmos Pet
   components:
   - type: Sprite
@@ -147,7 +147,7 @@
 - type: entity
   parent: MarkerBase
   id: SpawnMobFoxRenault
-  name: Fox Renault Spawner
+  name: 福克斯雷诺孵化器
   suffix: Captain Pet
   components:
   - type: Sprite
@@ -161,7 +161,7 @@
 - type: entity
   parent: MarkerBase
   id: SpawnMobMcGriff
-  name:  McGriff Spawner
+  name: 麦格里夫产卵器
   suffix: Warden Pet
   components:
   - type: Sprite
@@ -175,7 +175,7 @@
 - type: entity
   parent: MarkerBase
   id: SpawnMobHamsterHamlet
-  name: Hamster Hamlet Spawner
+  name: 仓鼠哈姆雷特生成器
   suffix: Bridge Pet (crate)
   components:
   - type: Sprite
@@ -191,7 +191,7 @@
 - type: entity
   parent: MarkerBase
   id: SpawnMobKangarooWillow
-  name: Willow Spawner
+  name: 柳树生成器
   suffix: Boxer Pet
   components:
   - type: Sprite
@@ -206,7 +206,7 @@
 - type: entity
   parent: MarkerBase
   id: SpawnMobMonkeyPunpun
-  name: Pun Pun Spawner
+  name: 砰砰刷怪笼
   suffix: Bartender Pet
   components:
   - type: Sprite
@@ -221,7 +221,7 @@
 - type: entity
   parent: MarkerBase
   id: SpawnMobPollyParrot
-  name: Polly the parrot Spawner
+  name: 波利鹦鹉生成器
   suffix: CE Pet
   components:
   - type: Sprite
@@ -236,7 +236,7 @@
 - type: entity
   parent: MarkerBase
   id: SpawnMobPossumMorty
-  name: Possum Morty Spawner
+  name: 负鼠莫蒂生成器
   suffix: Morgue Pet
   components:
   - type: Sprite
@@ -250,7 +250,7 @@
 - type: entity
   parent: MarkerBase
   id: SpawnMobRaccoonMorticia
-  name: Raccoon Morticia Spawner
+  name: 浣熊莫蒂西亚生成器
   suffix: QM Pet
   components:
   - type: Sprite
@@ -264,7 +264,7 @@
 - type: entity
   parent: MarkerBase
   id: SpawnMobShiva
-  name: Shiva Spawner
+  name: 湿婆孵化器
   suffix: Security Pet
   components:
   - type: Sprite
@@ -279,7 +279,7 @@
 - type: entity
   parent: MarkerBase
   id: SpawnMobSlothPaperwork
-  name: Sloth Paperwork Spawner
+  name: 树懒文书生成器
   suffix: Librarian Pet
   components:
   - type: Sprite
@@ -293,7 +293,7 @@
 - type: entity
   parent: MarkerBase
   id: SpawnMobSmile
-  name: Smile Spawner
+  name: 微笑生成器
   suffix: Science Pet
   components:
   - type: Sprite
@@ -307,7 +307,7 @@
 - type: entity
   parent: MarkerBase
   id: SpawnMobWalter
-  name: Walter Spawner
+  name: 沃尔特·生成器
   suffix: Chemistry Pet
   components:
   - type: Sprite

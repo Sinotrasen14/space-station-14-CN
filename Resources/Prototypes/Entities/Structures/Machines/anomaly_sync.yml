@@ -1,8 +1,8 @@
 - type: entity
   id: MachineAnomalySynchronizer
   parent: [ BaseMachinePowered, ConstructibleMachine ]
-  name: anomaly synchronizer
-  description: A sophisticated device that reads changes in anomalous waves, and converts them into energy signals.
+  name: 异常同步器
+  description: 一种精密设备，能读取异常波的波动变化，并将其转化为能量信号。
   components:
   - type: AnomalySynchronizer
   - type: Machine

@@ -1,8 +1,8 @@
 - type: entity
-  name: BaseWeaponRifle
+  name: 基础武器步枪
   parent: [BaseItem, BaseGunWieldable]
   id: BaseWeaponRifle
-  description: A rooty tooty point and shooty.
+  description: 一把精准瞄准、即指即射的步枪。
   abstract: true
   components:
   - type: Sprite
@@ -31,7 +31,7 @@
   - type: ItemSlots
     slots:
       gun_magazine:
-        name: Magazine
+        name: 杂志
         startingItem: MagazineLightRifle
         insertSound: /Audio/Weapons/Guns/MagIn/batrifle_magin.ogg
         ejectSound: /Audio/Weapons/Guns/MagOut/batrifle_magout.ogg
@@ -41,7 +41,7 @@
             - MagazineLightRifle
         whitelistFailPopup: gun-magazine-whitelist-fail
       gun_chamber:
-        name: Chamber
+        name: 腔室
         startingItem: CartridgeLightRifle
         priority: 1
         whitelist:
@@ -55,10 +55,10 @@
     price: 500
 
 - type: entity
-  name: AKMS
+  name: AKMS突击步枪
   parent: [BaseWeaponRifle, BaseSecurityContraband]
   id: WeaponRifleAk
-  description: A somewhat battered combat rifle of a design originating from old Earth. Favored by criminals, militias, and terrorists due to its famed reliability and easy-to-manufacture design. Feeds from .30 rifle magazines.
+  description: 一把有些破旧的战斗步枪，设计源自古老的地球。因其著名的可靠性和易于制造的特点而受到罪犯、民兵和恐怖分子的青睐。使用.30口径步枪弹匣供弹。
   components:
   - type: Sprite
     sprite: Objects/Weapons/Guns/Rifles/ak.rsi
@@ -76,7 +76,7 @@
   - type: ItemSlots
     slots:
       gun_magazine:
-        name: Magazine
+        name: 杂志
         startingItem: MagazineLightRifle
         insertSound: /Audio/Weapons/Guns/MagIn/ltrifle_magin.ogg
         ejectSound: /Audio/Weapons/Guns/MagOut/ltrifle_magout.ogg
@@ -86,7 +86,7 @@
             - MagazineLightRifle
         whitelistFailPopup: gun-magazine-whitelist-fail
       gun_chamber:
-        name: Chamber
+        name: 腔室
         startingItem: CartridgeLightRifle
         priority: 1
         whitelist:
@@ -106,7 +106,7 @@
   name: M90 GL
   parent: [BaseWeaponRifle, BaseSyndicateContraband]
   id: WeaponRifleM90GrenadeLauncher
-  description: "An older bullpup carbine model, with an attached underbarrel grenade launcher.\nFeeds from .20 rifle magazines."
+  description: 一款较老的无托卡宾枪型号，配备下挂式榴弹发射器。\n使用.20口径步枪弹匣供弹。
   components:
   - type: Sprite
     sprite: Objects/Weapons/Guns/Rifles/carbine.rsi
@@ -120,7 +120,7 @@
   - type: ItemSlots
     slots:
       gun_magazine:
-        name: Magazine
+        name: 杂志
         startingItem: MagazineRifle
         insertSound: /Audio/Weapons/Guns/MagIn/batrifle_magin.ogg
         ejectSound: /Audio/Weapons/Guns/MagOut/batrifle_magout.ogg
@@ -130,7 +130,7 @@
             - MagazineRifle
         whitelistFailPopup: gun-magazine-whitelist-fail
       gun_chamber:
-        name: Chamber
+        name: 腔室
         startingItem: CartridgeRifle
         priority: 1
         whitelist:
@@ -147,10 +147,10 @@
   - type: Appearance
 
 - type: entity
-  name: Lecter
+  name: 莱克特
   parent: [BaseWeaponRifle, BaseSecurityContraband]
   id: WeaponRifleLecter
-  description: "Popular gas-operated combat rifle used heavily by Nanotrasen and SolGov. Operating in semi or fully automatic, its accuracy, stopping power, and reliability make it excel in all manner of environments.\nFeeds from .20 rifle magazines."
+  description: 莱克特是一款采用气动操作的主流战斗步枪，被纳星贸易公司与太阳政府广泛使用。该步枪支持半自动与全自动射击模式，凭借其卓越的精准度、强大制止力与可靠性能，在各种作战环境中均表现优异。使用.20口径步枪弹匣供弹。
   components:
   - type: Sprite
     sprite: Objects/Weapons/Guns/Rifles/lecter.rsi
@@ -167,7 +167,7 @@
   - type: ItemSlots
     slots:
       gun_magazine:
-        name: Magazine
+        name: 杂志
         startingItem: MagazineRifle
         insertSound: /Audio/Weapons/Guns/MagIn/ltrifle_magin.ogg
         ejectSound: /Audio/Weapons/Guns/MagOut/ltrifle_magout.ogg
@@ -177,7 +177,7 @@
             - MagazineRifle
         whitelistFailPopup: gun-magazine-whitelist-fail
       gun_chamber:
-        name: Chamber
+        name: 腔室
         startingItem: CartridgeRifle
         priority: 1
         whitelist:
@@ -221,10 +221,10 @@
     - FullAuto
   
 - type: entity
-  name: Estoc DMR
+  name: 埃斯托克精确射手步枪
   parent: [BaseWeaponRifle, BaseSyndicateContraband]
   id: WeaponRifleEstoc
-  description: "A designated marksman rifle firing in 3-round bursts. The Estoc was designed as the Lecter’s long-range counterpart, equipped with an extended 20-inch barrel and telescopic sight.\nFeeds from .20 rifle magazines."
+  description: 一把以3发点射进行射击的精确射手步枪。埃斯托克作为莱克特的远程版本被设计出来，配备了20英寸的长枪管与 telescopic sight。\n使用.20口径步枪弹匣供弹。
   components:
   - type: Sprite
     sprite: Objects/Weapons/Guns/Rifles/estoc.rsi
@@ -255,7 +255,7 @@
   - type: ItemSlots
     slots:
       gun_magazine:
-        name: Magazine
+        name: 杂志
         startingItem: MagazineRifle
         insertSound: /Audio/Weapons/Guns/MagIn/ltrifle_magin.ogg
         ejectSound: /Audio/Weapons/Guns/MagOut/ltrifle_magout.ogg
@@ -265,7 +265,7 @@
           - MagazineRifle
         whitelistFailPopup: gun-magazine-whitelist-fail
       gun_chamber:
-        name: Chamber
+        name: 腔室
         startingItem: CartridgeRifle
         priority: 1
         whitelist:
@@ -289,10 +289,10 @@
   - type: Appearance
 
 - type: entity
-  name: Foam Force Astro Ace
+  name: 泡沫神鹰 太空王牌
   parent: [BaseWeaponShotgun, BaseGunWieldable]
   id: WeaponRifleFoam
-  description: A premium foam rifle of the highest quality. Its plastic feels rugged, and its mechanisms sturdy.
+  description: 一把最高品质的优质泡沫步枪。它的塑料感坚固，机械结构结实。
   components:
   - type: Sprite
     sprite: Objects/Fun/Foam/foam_rifle.rsi

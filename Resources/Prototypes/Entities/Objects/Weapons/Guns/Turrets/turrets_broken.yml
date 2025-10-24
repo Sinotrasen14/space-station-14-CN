@@ -1,8 +1,8 @@
 - type: entity
   parent: BaseStructure
   id: WeaponTurretSyndicateBroken
-  name: ballistic turret (broken)
-  description: A ballistic machine gun auto-turret.
+  name: 弹道炮塔（已损坏）
+  description: 一座弹道机枪自动炮塔。
   components:
   - type: Clickable
   - type: InteractionOutline

@@ -1,8 +1,8 @@
 - type: entity
-  name: pickaxe
+  name: 镐
   parent: BaseItem
   id: Pickaxe
-  description: Notched to perfection, for jamming it into rocks.
+  description: 完美开槽，便于嵌入岩石。
   components:
   - type: Tag
     tags:
@@ -41,10 +41,10 @@
       Wood: 100
 
 - type: entity
-  name: mining drill
+  name: 采矿钻机
   parent: BaseItem
   id: MiningDrill
-  description: Powerful tool used to quickly drill through rocks.
+  description: 用于快速钻穿岩石的强大工具。
   components:
   - type: Item
     storedRotation: -90
@@ -68,10 +68,10 @@
         Structural: 15
 
 - type: entity
-  name: diamond tipped mining drill
+  name: 金刚石钻头采矿钻机
   parent: MiningDrill
   id: MiningDrillDiamond
-  description: A significantly more efficient mining drill tipped with diamond.
+  description: 一款效率显著更高的金刚石钻头采矿钻机。
   components:
   - type: Sprite
     sprite: Objects/Tools/handdrilldiamond.rsi
@@ -94,8 +94,8 @@
   abstract: true
   parent: BaseItem
   id: BaseWeaponCrusher # Crusher? But I...
-  name: crusher
-  description: An early design of the proto-kinetic accelerator.
+  name: 破碎者
+  description: 原型动能加速器的早期设计。
   components:
   - type: Sharp
   - type: Execution
@@ -170,8 +170,8 @@
 - type: entity
   parent: [ BaseKnife, BaseWeaponCrusher, BaseSecurityCargoContraband]
   id: WeaponCrusherDagger
-  name: crusher dagger
-  description: A scaled down version of a proto-kinetic crusher. Uses kinetic energy to vibrate the blade at high speeds.
+  name: 粉碎者匕首
+  description: 原型动能粉碎机的缩小版，利用动能驱动刀刃高速振动。
   components:
   - type: Sprite
     sprite: Objects/Weapons/Melee/crusher_dagger.rsi
@@ -215,8 +215,8 @@
 - type: entity
   parent: [ WeaponCrusher, BaseSecurityCargoContraband]
   id: WeaponCrusherGlaive
-  name: crusher glaive
-  description: An early design of the proto-kinetic accelerator, in glaive form. Provides better healing in exchange for less charged damage.
+  name: 粉碎者战刃
+  description: 原型动能加速器的早期设计，采用战刃形态。以降低充能伤害为代价，提供更佳的治疗效果。
   components:
   - type: Sprite
     sprite: Objects/Weapons/Melee/crusher_glaive.rsi

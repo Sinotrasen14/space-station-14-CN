@@ -15,10 +15,10 @@
 # Cautery
 
 - type: entity
-  name: cautery
+  name: 烧灼器
   id: Cautery
   parent: BaseToolSurgery
-  description: A surgical tool used to cauterize open wounds.
+  description: 一种用于烧灼开放性伤口的外科手术工具。
   components:
   - type: Sprite
     sprite: Objects/Specific/Medical/Surgery/cautery.rsi
@@ -36,10 +36,10 @@
 # Drill
 
 - type: entity
-  name: drill
+  name: 钻头
   id: Drill
   parent: BaseToolSurgery
-  description: A surgical drill for making holes into hard material.
+  description: 一种用于在硬质材料上钻孔的外科钻头。
   components:
   - type: Sprite
     sprite: Objects/Specific/Medical/Surgery/drill.rsi
@@ -61,10 +61,10 @@
 # Scalpel
 
 - type: entity
-  name: scalpel
+  name: 手术刀
   id: Scalpel
   parent: BaseToolSurgery
-  description: A surgical tool used to make incisions into flesh.
+  description: 一种用于在肉体上切口的 surgical tool。
   components:
   - type: Sharp
     butcherDelayModifier: 1.5 # Butchering with a scalpel, regardless of the type, will take 50% longer
@@ -92,10 +92,10 @@
       path: /Audio/Weapons/bladeslice.ogg
 
 - type: entity
-  name: shiv
+  name: 玻璃匕首
   id: ScalpelShiv
   parent: Scalpel
-  description: A pointy piece of glass, abraded to an edge and wrapped in tape for a handle. # Could become a decent tool or weapon with right tool mods.
+  description: 一块尖利的玻璃片，经过打磨出刃口，并用胶带缠绕成柄。# 若配上合适的工具改装，或可成为称手的工具或武器。
   components:
   - type: Sprite
     state: shiv
@@ -103,10 +103,10 @@
     heldPrefix: shiv
 
 - type: entity
-  name: advanced scalpel
+  name: 高级手术刀
   id: ScalpelAdvanced
   parent: Scalpel
-  description: Made of more expensive materials, sharper and generally more reliable.
+  description: 采用更昂贵的材料制成，更锋利且整体更可靠。
   components:
   - type: Sprite
     state: advanced
@@ -118,10 +118,10 @@
         Slash: 12
 
 - type: entity
-  name: laser scalpel
+  name: 激光手术刀
   id: ScalpelLaser
   parent: Scalpel
-  description: A scalpel which uses a directed laser to slice instead of a blade, for more precise surgery while also cauterizing as it cuts.
+  description: 一种使用定向激光而非刀片进行切割的手术刀，可在实现更精确手术的同时，在切割过程中进行烧灼止血。
   components:
   - type: Sprite
     state: laser
@@ -131,10 +131,10 @@
 # Scissors
 
 - type: entity
-  name: retractor
+  name: 牵开器
   id: Retractor
   parent: BaseToolSurgery
-  description: A surgical tool used to hold open incisions.
+  description: 一种用于保持切口张开的外科手术工具。
   components:
   - type: Sprite
     sprite: Objects/Specific/Medical/Surgery/scissors.rsi
@@ -144,10 +144,10 @@
     storedRotation: 90
 
 - type: entity
-  name: hemostat
+  name: 止血钳
   id: Hemostat
   parent: Retractor
-  description: A surgical tool used to compress blood vessels to prevent bleeding.
+  description: 一种用于压迫血管以防止出血的外科手术工具。
   components:
   - type: Sprite
     state: hemostat
@@ -164,10 +164,10 @@
 # Saws
 
 - type: entity
-  name: metal saw
+  name: 金属锯
   id: Saw
   parent: BaseToolSurgery
-  description: For cutting wood and other objects to pieces. Or sawing bones, in case of emergency.
+  description: 用于将木材及其他物体切割成片。或在紧急情况下锯断骨头。
   components:
   - type: Sharp
   - type: Utensil
@@ -186,10 +186,10 @@
 # No melee for regular saw because have you ever seen someone use a band saw as a weapon? It's dumb.
 
 - type: entity
-  name: choppa
+  name: 砍刀
   id: SawImprov
   parent: Saw
-  description: A wicked serrated blade made of whatever nasty sharp things you could find. # It would make a pretty decent weapon, given there are more space for some tool mods too.
+  description: 一把邪恶的锯齿状刀刃，由你能找到的各种骇人利器等材料制成。# 考虑到还能加装更多工具模组，这把武器应该会相当趁手。
   components:
   - type: Sprite
     state: improv
@@ -206,10 +206,10 @@
     speedModifier: 0.5
 
 - type: entity
-  name: circular saw
+  name: 圆锯
   id: SawElectric
   parent: Saw
-  description: For heavy duty cutting.
+  description: 适用于重型切割。
   components:
   - type: Sprite
     state: electric
@@ -225,10 +225,10 @@
     speedModifier: 1.5
 
 - type: entity
-  name: advanced circular saw
+  name: 先进圆锯
   id: SawAdvanced
   parent: [ SawElectric, BaseSyndicateContraband ]
-  description: Interdyne's state-of-the-art surgical saw. Guaranteed to stay spotless and sterile, no matter how messy the job.
+  description: Interdyne先进的圆锯。无论手术多么复杂，都能确保一尘不染、无菌操作。
   components:
   - type: Sprite
     state: advanced

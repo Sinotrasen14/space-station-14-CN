@@ -1,8 +1,8 @@
 - type: entity
-  name: ore bag of holding
+  name: 矿石次元袋
   id: OreBagOfHolding
   parent: OreBag
-  description: A robust bag of holding for salvage billionaires and rich miners alike to carry large amounts of ore. Magnetises any nearby ores when attached to a belt.
+  description: 坚固实用的矿石次元袋，专为资源大亨与富裕矿工设计，可承载大量矿石。系于腰间时能磁化附近所有矿石。
   components:
   - type: MagnetPickup
     range: 2

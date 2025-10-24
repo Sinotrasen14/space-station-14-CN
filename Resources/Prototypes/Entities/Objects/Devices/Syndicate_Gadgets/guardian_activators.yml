@@ -1,8 +1,8 @@
 - type: entity
-  name: holoparasite injector
+  name: 全息寄生体注射器
   id: HoloparasiteInjector
   parent: [BaseItem, BaseSyndicateContraband]
-  description: A complex artwork of handheld machinery allowing the user to host a holoparasite guardian.
+  description: 一件复杂的手持机械艺术品，允许使用者寄宿全息寄生体守护者。
   components:
   - type: Sprite
     sprite: Objects/Specific/Medical/hypospray.rsi
@@ -11,19 +11,19 @@
     guardianProto: MobHoloparasiteGuardian
 
 - type: entity
-  name: holoclown injector
+  name: 全息小丑注射器
   parent: HoloparasiteInjector
   id: HoloClownInjector
-  description: A complex artwork of handheld machinery allowing the user to host a holoclown guardian.
+  description: 一件复杂的手持机械艺术品，允许使用者召唤全息小丑守护者。
   components:
   - type: GuardianCreator
     guardianProto: MobHoloClownGuardian
 
 - type: entity
-  name: magical lamp
+  name: 神灯
   id: MagicalLamp
   parent: BaseItem
-  description: The wizard federation had to cut costs after the jinn merchandise scandal somehow.
+  description: 巫师联合会在精灵商品丑闻后不得不设法削减开支。
   components:
   - type: Sprite
     sprite: Objects/Misc/Lights/lamp.rsi
@@ -33,10 +33,10 @@
     guardianProto: MobIfritGuardian
 
 - type: entity
-  name: holoparasite box
+  name: 全寄生体注射器盒
   parent: [BoxCardboard, BaseSyndicateContraband]
   id: BoxHoloparasite
-  description: A box containing a holoparasite injector.
+  description: 一个装有全寄生体注射器的盒子。
   components:
   - type: StorageFill
     contents:
@@ -49,10 +49,10 @@
       - state: holo
 
 - type: entity
-  name: holoclown box
+  name: 全息小丑盒
   parent: [BoxCardboard, BaseSyndicateContraband]
   id: BoxHoloclown
-  description: A box containing a holoclown injector.
+  description: 一个装有全息小丑注射器的盒子。
   components:
   - type: StorageFill
     contents:

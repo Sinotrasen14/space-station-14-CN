@@ -1,8 +1,8 @@
 - type: entity
   id: BoozeDispenserEmpty
-  name: booze dispenser
+  name: 酒类饮品分配器
   suffix: Empty
-  description: A booze dispenser with a single slot for a container to be filled.
+  description: 一种带有单个插槽的酒精饮料分配器，用于填充容器。
   parent: ReagentDispenserBase
   components:
   - type: Rotatable

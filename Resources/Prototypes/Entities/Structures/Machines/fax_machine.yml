@@ -1,8 +1,8 @@
 - type: entity
   parent: BaseMachinePowered
   id: FaxMachineBase
-  name: long range fax machine
-  description: Bluespace technologies on the application of bureaucracy.
+  name: 远程传真机
+  description: Bluespace技术在官僚体系中的应用。
   components:
   - type: Sprite
     sprite: Structures/Machines/fax_machine.rsi
@@ -76,7 +76,7 @@
 - type: entity
   parent: FaxMachineBase
   id: FaxMachineCentcom
-  name: CentComm long range fax machine
+  name: 中央通讯远程传真机
   suffix: CentCom
   components:
   - type: Sprite
@@ -85,13 +85,13 @@
         map: [ "base" ]
         color: "#bfe3ff"
   - type: FaxMachine
-    name: "Central Command"
+    name: 中央司令部
     notifyAdmins: true
 
 - type: entity
   parent: FaxMachineBase
   id: FaxMachineSyndie
-  name: syndicate long range fax machine
+  name: 联合长距离传真机
   suffix: Syndicate
   components:
   - type: Sprite
@@ -100,7 +100,7 @@
         map: [ "base" ]
         color: "#a3a3a3"
   - type: FaxMachine
-    name: "ERR*?*%!"
+    name: 错误*?*%！
     responsePings: false
     notifyAdmins: true
   - type: Emagged
@@ -109,11 +109,11 @@
 - type: entity
   parent: FaxMachineBase
   id: FaxMachineCaptain
-  name: captain long range fax machine
+  name: 船长远程传真机
   suffix: NukeCodes
   components:
     - type: FaxMachine
-      name: "Captain's Office"
+      name: 船长办公室
       receiveNukeCodes: true
     - type: StealTarget
       stealGroup: FaxMachineCaptain

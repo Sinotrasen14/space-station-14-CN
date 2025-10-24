@@ -53,8 +53,8 @@
 - type: entity
   id: WeaponWaterPistol
   parent: WeaponWaterGunBase
-  name: water pistol
-  description: The dinkiest of water-based weaponry. You swear the trigger doesn't do anything.
+  name: 水枪
+  description: 最袖珍的水系武器。你发誓这扳机根本毫无用处。
   components:
   - type: Item
     shape:
@@ -75,8 +75,8 @@
 - type: entity
   id: WeaponWaterBlaster
   parent: WeaponWaterGunBase
-  name: water blaster
-  description: With this bad boy, you'll be the coolest kid at the summer barbecue.
+  name: 水枪
+  description: 有了这把酷炫的水枪，你就是夏日烧烤派对上最拉风的孩子。
   components:
   - type: Gun
     cameraRecoilScalar: 0 #no recoil
@@ -114,8 +114,8 @@
 - type: entity
   id: WeaponWaterBlasterSuper
   parent: WeaponWaterGunBase
-  name: super water blaster
-  description: No! No! Not in the eyes!
+  name: 超级水枪
+  description: 不！不！别射眼睛！
   components:
   - type: Gun
     cameraRecoilScalar: 0 #no recoil

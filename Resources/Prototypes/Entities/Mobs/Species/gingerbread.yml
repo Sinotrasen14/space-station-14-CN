@@ -1,6 +1,6 @@
 - type: entity
   save: false
-  name: Urist McCookie
+  name: 乌里斯特·麦库基
   parent: BaseMobSpeciesOrganic
   id: BaseMobGingerbread
   abstract: true

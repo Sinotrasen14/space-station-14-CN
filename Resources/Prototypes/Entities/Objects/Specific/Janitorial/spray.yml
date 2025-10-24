@@ -1,9 +1,9 @@
 - type: entity
-  name: spray bottle
+  name: 喷雾瓶
   id: SprayBottle
   parent: BaseItem
   suffix: Empty
-  description: A spray bottle with an unscrewable top.
+  description: 一个顶部可拧开的喷雾瓶。
   components:
   - type: Edible
     edible: Drink
@@ -49,11 +49,11 @@
     exactVolume: true
 
 - type: entity
-  name: mega spray bottle
+  name: 超大喷壶
   id: MegaSprayBottle
   parent: SprayBottle
   suffix: Empty
-  description: A huge spray bottle, capable of unrivaled janitorial power.
+  description: 一个巨大的喷壶，拥有无与伦比的清洁能力。
   components:
   - type: Sprite
     sprite: Objects/Specific/Janitorial/janitorial.rsi
@@ -71,7 +71,7 @@
       path: /Audio/Effects/spray2.ogg
 
 - type: entity
-  name: spray bottle
+  name: 喷雾瓶
   id: SprayBottleWater
   suffix: Filled
   parent: SprayBottle
@@ -88,8 +88,8 @@
           Quantity: 100
 
 - type: entity
-  name: space cleaner
-  description: BLAM!-brand non-foaming space cleaner!
+  name: 太空清洁剂
+  description: BLAM!牌无泡沫太空清洁剂！
   id: SprayBottleSpaceCleaner
   parent: SprayBottle
   suffix: ""
@@ -108,9 +108,9 @@
 - type: entity
   parent: SprayBottle
   id: BorgSprayBottle
-  name: internal spray jet
+  name: 内部喷射嘴
   suffix: Filled
-  description: A pressurized vessel for spraying reagents, installed directly into a custodial cyborg. Typically filled with space cleaner for dealing with those nasty spills.
+  description: 用于喷洒试剂的加压容器，直接安装于监管型生化人体内。通常装满太空清洁剂，用于处理那些讨厌的溢出物。
   components:
   - type: SolutionContainerManager
     solutions:
@@ -123,9 +123,9 @@
 - type: entity
   parent: MegaSprayBottle
   id: BorgMegaSprayBottle
-  name: adv. internal spray jet
+  name: 内部喷雾嘴
   suffix: Filled
-  description: An upgraded version of the integrated spray bottle, installed directly into a custodial cyborg. Typically filled with space cleaner for dealing with those nasty spills.
+  description: 集成喷雾瓶的升级版本，直接安装于保洁机器人内部。通常装载太空清洁剂，用于处理顽固污渍。
   components:
   - type: SolutionContainerManager
     solutions:
@@ -138,7 +138,7 @@
 # Vapor
 - type: entity
   id: Vapor
-  name: "vapor"
+  name: 蒸汽
   categories: [ HideSpawnMenu ]
   components:
   - type: SolutionContainerManager

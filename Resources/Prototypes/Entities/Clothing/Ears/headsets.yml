@@ -2,8 +2,8 @@
   abstract: true
   parent: Clothing
   id: ClothingHeadset
-  name: headset
-  description: An updated, modular intercom that fits over the head. Takes encryption keys.
+  name: 耳机
+  description: 一款升级版模块化对讲机，采用头戴式设计。可配置加密密钥。
   components:
   - type: ContainerContainer
     containers:
@@ -30,7 +30,7 @@
 - type: entity
   parent: ClothingHeadset
   id: ClothingHeadsetGrey
-  name: passenger headset
+  name: 乘客耳机
   components:
   - type: Sprite
     sprite: Clothing/Ears/Headsets/base.rsi
@@ -38,8 +38,8 @@
 - type: entity
   parent: ClothingHeadset
   id: ClothingHeadsetCargo
-  name: cargo headset
-  description: A headset used by supply employees.
+  name: 货物耳机
+  description: 供料员工使用的耳机。
   components:
   - type: ContainerFill
     containers:
@@ -54,8 +54,8 @@
 - type: entity
   parent: ClothingHeadsetCargo
   id: ClothingHeadsetMining
-  name: mining headset
-  description: Headset used by shaft miners.
+  name: 矿用头戴式耳机
+  description: 竖井矿工使用的头戴式耳机。
   components:
   - type: Sprite
     sprite: Clothing/Ears/Headsets/mining.rsi
@@ -65,8 +65,8 @@
 - type: entity
   parent: [ClothingHeadsetCargo, BaseCommandContraband]
   id: ClothingHeadsetQM
-  name: qm headset
-  description: A headset used by the quartermaster.
+  name: 军需官耳机
+  description: 军需官使用的耳机。
   components:
   - type: ContainerFill
     containers:
@@ -78,8 +78,8 @@
 - type: entity
   parent: [ ClothingHeadset, BaseCentcommContraband ]
   id: ClothingHeadsetCentCom
-  name: CentComm headset
-  description: A headset used by the upper echelons of Nanotrasen.
+  name: 中央司令部耳机
+  description: 纳米传讯高层使用的耳机。
   components:
   - type: ContainerFill
     containers:
@@ -94,8 +94,8 @@
 - type: entity
   parent: [ClothingHeadset, BaseCommandContraband]
   id: ClothingHeadsetCommand
-  name: command headset
-  description: A headset with a commanding channel.
+  name: 指挥耳机
+  description: 带指挥频道的耳机。
   components:
   - type: ContainerFill
     containers:
@@ -109,8 +109,8 @@
 - type: entity
   parent: ClothingHeadset
   id: ClothingHeadsetEngineering
-  name: engineering headset
-  description: A headset for engineers to chat while the station burns around them.
+  name: 工程耳机
+  description: 一副供工程师们在站点燃烧时聊天的耳机。
   components:
   - type: ContainerFill
     containers:
@@ -125,8 +125,8 @@
 - type: entity
   parent: [ClothingHeadsetEngineering, BaseCommandContraband]
   id: ClothingHeadsetCE
-  name: ce headset
-  description: A headset for the chief engineer to ignore all emergency calls on.
+  name: 首席工程师头戴式耳机
+  description: 一副供首席工程师忽略所有紧急呼叫的头戴式耳机。
   components:
   - type: ContainerFill
     containers:
@@ -138,8 +138,8 @@
 - type: entity
   parent: ClothingHeadset
   id: ClothingHeadsetMedical
-  name: medical headset
-  description: A headset for the trained staff of the medbay.
+  name: 医用耳机
+  description: 供医务室训练有素的工作人员使用的耳机。
   components:
   - type: ContainerFill
     containers:
@@ -154,8 +154,8 @@
 - type: entity
   parent: [ClothingHeadsetMedical, BaseCommandContraband]
   id: ClothingHeadsetCMO
-  name: cmo headset
-  description: A headset used by the CMO.
+  name: 首席营销官耳机
+  description: 首席营销官使用的耳机。
   components:
   - type: ContainerFill
     containers:
@@ -167,8 +167,8 @@
 - type: entity
   parent: ClothingHeadset
   id: ClothingHeadsetScience
-  name: science headset
-  description: A sciency headset. Like usual.
+  name: 科学耳机
+  description: 一副科学耳机。一如既往。
   components:
   - type: ContainerFill
     containers:
@@ -183,8 +183,8 @@
 - type: entity
   parent: ClothingHeadsetScience
   id: ClothingHeadsetMedicalScience
-  name: medical research headset
-  description: A headset that is a result of the mating between medical and science.
+  name: 医学研究耳机
+  description: 一款医学与科学相结合的耳机。
   components:
   - type: ContainerFill
     containers:
@@ -199,8 +199,8 @@
 - type: entity
   parent: ClothingHeadsetScience
   id: ClothingHeadsetRobotics
-  name: robotics headset
-  description: Made specifically for the roboticists, who cannot decide between departments.
+  name: 机器人耳机
+  description: 专为那些在部门间犹豫不决的机器人专家打造。
   components:
   - type: ContainerFill
     containers:
@@ -215,8 +215,8 @@
 - type: entity
   parent: [ClothingHeadsetScience, BaseCommandContraband]
   id: ClothingHeadsetRD
-  name: rd headset
-  description: Lamarr used to love chewing on this...
+  name: 首席科学家耳机
+  description: 拉玛尔过去很喜欢啃这个……
   components:
   - type: ContainerFill
     containers:
@@ -228,8 +228,8 @@
 - type: entity
   parent: [ClothingHeadset, BaseSecurityLawyerContraband]
   id: ClothingHeadsetSecurity
-  name: security headset
-  description: This is used by your elite security force.
+  name: 安保耳机
+  description: 您的精英安保部队使用此款耳机。
   components:
   - type: ContainerFill
     containers:
@@ -244,8 +244,8 @@
 - type: entity
   parent: [ClothingHeadset, BaseSecurityContraband]
   id: ClothingHeadsetBrigmedic
-  name: brigmedic headset
-  description: A headset that helps to hear the death cries.
+  name: brigmedic耳机
+  description: 一副助你聆听死亡哀嚎的耳机。
   components:
   - type: ContainerFill
     containers:
@@ -261,8 +261,8 @@
 - type: entity
   parent: ClothingHeadset
   id: ClothingHeadsetService
-  name: service headset
-  description: Headset used by the service staff, tasked with keeping the station full, happy and clean.
+  name: 服务耳机
+  description: 服务人员使用的耳机，负责确保站点物资充足、氛围愉悦且环境整洁。
   components:
   - type: ContainerFill
     containers:
@@ -277,8 +277,8 @@
 - type: entity
   parent: ClothingHeadset
   id: ClothingHeadsetFreelance
-  name: freelancer headset
-  description: This is used by a roaming group of freelancers.
+  name: 自由职业者耳机
+  description: 这是一款由自由职业者流动团队使用的耳机。
   components:
     - type: ContainerFill
       containers:
@@ -292,8 +292,8 @@
 - type: entity
   parent: [ClothingHeadset, BaseMagicalContraband]
   id: ClothingHeadsetWizard
-  name: wizard headset
-  description: A headset used by the dreaded space wizards.
+  name: 巫师耳机
+  description: 太空巫师使用的耳机。
   components:
     - type: ContainerFill
       containers:
@@ -307,8 +307,8 @@
 - type: entity
   parent: [ClothingHeadset, BaseMajorContraband]
   id: ClothingHeadsetNinja
-  name: green headset
-  description: Who could refuse to wear this stylish black and green headset?
+  name: 绿色耳机
+  description: 谁能拒绝佩戴这款时尚的黑绿配色耳机呢？
   components:
   - type: Sprite
     sprite: Clothing/Ears/Headsets/ninja.rsi

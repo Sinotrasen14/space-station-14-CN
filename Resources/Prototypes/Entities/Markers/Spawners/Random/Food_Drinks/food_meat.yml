@@ -1,7 +1,7 @@
 #Spawners
 - type: entity
   id: RandomMeat
-  name: random meat spawner
+  name: 随机肉类生成器
   parent: MarkerBase
   placement:
     mode: PlaceFree

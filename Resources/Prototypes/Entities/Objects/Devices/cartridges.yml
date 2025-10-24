@@ -1,8 +1,8 @@
 ﻿- type: entity
   parent: BaseItem
   id: NotekeeperCartridge
-  name: notekeeper cartridge
-  description: A program for keeping notes.
+  name: 笔记卡带
+  description: 用于记录笔记的程序。
   components:
   - type: Sprite
     sprite: Objects/Devices/cartridge.rsi
@@ -20,8 +20,8 @@
 - type: entity
   parent: BaseItem
   id: NanoTaskCartridge
-  name: NanoTask cartridge
-  description: A program that allows you to keep a list of tasks to do.
+  name: NanoTask任务盒
+  description: 一个让你可以记录待办任务清单的程序。
   components:
   - type: Sprite
     sprite: Objects/Devices/cartridge.rsi
@@ -38,8 +38,8 @@
 - type: entity
   parent: BaseItem
   id: NewsReaderCartridge
-  name: news cartridge
-  description: A program for reading news.
+  name: 新闻卡带
+  description: 一款用于阅读新闻的程序。
   components:
   - type: Sprite
     sprite: Objects/Devices/cartridge.rsi
@@ -56,8 +56,8 @@
 - type: entity
   parent: BaseItem
   id: CrewManifestCartridge
-  name: crew manifest cartridge
-  description: A program for listing your fellow crewmembers.
+  name: 船员名单卡带
+  description: 一款用于列出你同船船员名单的程序。
   components:
     - type: Sprite
       sprite: Objects/Devices/cartridge.rsi
@@ -74,8 +74,8 @@
 - type: entity
   parent: BaseItem
   id: NetProbeCartridge
-  name: NetProbe cartridge
-  description: A program for getting the address and frequency of network devices.
+  name: NetProbe 卡带
+  description: 用于获取网络设备地址和频率的程序。
   components:
     - type: Sprite
       sprite: Objects/Devices/cartridge.rsi
@@ -92,8 +92,8 @@
 - type: entity
   parent: BaseItem
   id: LogProbeCartridge
-  name: LogProbe cartridge
-  description: A program for getting access logs from devices.
+  name: LogProbe 墨盒
+  description: 用于从设备获取访问日志的程序。
   components:
     - type: Sprite
       sprite: Objects/Devices/cartridge.rsi
@@ -116,8 +116,8 @@
 - type: entity
   parent: BaseItem
   id: WantedListCartridge
-  name: Wanted list cartridge
-  description: A program to get a list of wanted persons.
+  name: 通缉名单盒
+  description: 获取通缉人员名单的程序。
   components:
   - type: Sprite
     sprite: Objects/Devices/cartridge.rsi
@@ -139,8 +139,8 @@
 - type: entity
   parent: BaseItem
   id: MedTekCartridge
-  name: MedTek cartridge
-  description: A program that provides medical diagnostic tools.
+  name: MedTek试剂盒
+  description: 提供医疗诊断工具的程序。
   components:
     - type: Sprite
       sprite: Objects/Devices/cartridge.rsi
@@ -158,8 +158,8 @@
 - type: entity
   parent: BaseItem
   id: AstroNavCartridge
-  name: AstroNav cartridge
-  description: A program for navigation that provides GPS coordinates.
+  name: AstroNav 导航卡带
+  description: 一款用于导航的程序，可提供GPS坐标。
   components:
     - type: Sprite
       sprite: Objects/Devices/cartridge.rsi

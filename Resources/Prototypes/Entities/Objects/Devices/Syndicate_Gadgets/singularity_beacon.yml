@@ -1,8 +1,8 @@
 - type: entity
   id: SingularityBeacon
   parent: [BaseMachinePowered, BaseSyndicateContraband]
-  name: singularity beacon
-  description: A syndicate device that attracts the singularity. If it's loose and you're seeing this, run.
+  name: 奇点信标
+  description: 奇点信标：一种能够吸引奇异点的联合装置。若其松动且你正见此警示，速逃。
   components:
   - type: Sprite
     sprite: Objects/Devices/singularity_beacon.rsi

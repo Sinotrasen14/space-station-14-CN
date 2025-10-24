@@ -1,8 +1,8 @@
 - type: entity
   abstract: true
   id: ArcadeBase
-  description: An arcade cabinet.
-  name: arcade
+  description: 一台街机游戏机。
+  name: 街机
   parent: BaseComputer
   components:
   - type: ApcPowerReceiver
@@ -56,7 +56,7 @@
 
 - type: entity
   id: SpaceVillainArcade
-  name: space villain arcade
+  name: 太空恶棍街机
   parent: ArcadeBase
   components:
   - type: Sprite
@@ -192,8 +192,8 @@
 
 - type: entity
   id: BlockGameArcade
-  description: An arcade cabinet with a strangely familiar game.
-  name: NT block game
+  description: 一台街机，载着一款莫名熟悉的游戏。
+  name: NT方块游戏
   parent: ArcadeBase
   components:
   - type: Sprite

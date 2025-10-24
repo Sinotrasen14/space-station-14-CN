@@ -1,8 +1,8 @@
 - type: entity
   id: BannerBase
   parent: BaseStructureDynamic
-  name: base banner
-  description: It's the concept of a banner, you shouldn't be seeing this.
+  name: 基础横幅
+  description: 这是一个横幅的概念，你不应该看到这个。
   abstract: true
   components:
   - type: Sprite
@@ -40,8 +40,8 @@
 - type: entity
   id: BannerNanotrasen
   parent: BannerBase
-  name: nanotrasen banner
-  description: A banner displaying the Nanotrasen logo. It looks rather cheap.
+  name: 纳米传讯横幅
+  description: 一面展示着纳米传讯公司标志的横幅。它看起来相当廉价。
   components:
   - type: Sprite
     sprite: Structures/Decoration/banner.rsi
@@ -50,8 +50,8 @@
 - type: entity
   id: BannerCargo
   parent: BannerBase
-  name: cargo banner
-  description: A banner displaying the colors of the cargo department. Not. Cargonia.
+  name: 货物横幅
+  description: 一面展示货运部门颜色的横幅。并非。货运王国。
   components:
   - type: Sprite
     sprite: Structures/Decoration/banner.rsi
@@ -60,8 +60,8 @@
 - type: entity
   id: BannerEngineering
   parent: BannerBase
-  name: engineering banner
-  description: A banner displaying the colors of the engineering department. Scrungularty.
+  name: 工程部横幅
+  description: 展示工程部色彩的横幅。Scrungularty。
   components:
   - type: Sprite
     sprite: Structures/Decoration/banner.rsi
@@ -70,8 +70,8 @@
 - type: entity
   id: BannerMedical
   parent: BannerBase
-  name: medical banner
-  description: A banner displaying the colors of the medical department. How sterile.
+  name: 医疗横幅
+  description: 展示医疗部门色彩的横幅。真是消过毒的感觉。
   components:
   - type: Sprite
     sprite: Structures/Decoration/banner.rsi
@@ -80,8 +80,8 @@
 - type: entity
   id: BannerRevolution
   parent: BannerBase
-  name: revolution banner
-  description: A banner displaying revolution. Viva!
+  name: 革命横幅
+  description: 展示革命的横幅。万岁！
   components:
   - type: Sprite
     sprite: Structures/Decoration/banner.rsi
@@ -90,8 +90,8 @@
 - type: entity
   id: BannerSyndicate
   parent: BannerBase
-  name: syndicate banner
-  description: A banner from which, according to the syndicate, you should feel hatred for NT.
+  name: 辛迪加横幅
+  description: 据辛迪加称，你应通过这面旗帜对NT产生憎恶。
   components:
   - type: Sprite
     sprite: Structures/Decoration/banner.rsi
@@ -100,8 +100,8 @@
 - type: entity
   id: BannerScience
   parent: BannerBase
-  name: science banner
-  description: A banner displaying the colors of the science department. Where science has no bounds, and regulations are rarely followed.
+  name: 科学横幅
+  description: 一面展示科学部门色彩的横幅。在这里科学没有边界，规则鲜被遵循。
   components:
   - type: Sprite
     sprite: Structures/Decoration/banner.rsi
@@ -110,8 +110,8 @@
 - type: entity
   id: BannerSecurity
   parent: BannerBase
-  name: security banner
-  description: A banner displaying the colors of the security department. You're surprised it's not vandalised.
+  name: 安全横幅
+  description: 一幅展示安保部门配色的横幅。你惊讶于它居然没被破坏。
   components:
   - type: Sprite
     sprite: Structures/Decoration/banner.rsi
@@ -120,8 +120,8 @@
 - type: entity
   id: BannerBlue
   parent: BannerBase
-  name: blue banner
-  description: A banner displaying the color blue. Dabudidabudai.
+  name: 蓝色横幅
+  description: 一条显示蓝色的横幅。哒不嘀哒不哒。
   components:
   - type: Sprite
     sprite: Structures/Decoration/banner.rsi
@@ -130,8 +130,8 @@
 - type: entity
   id: BannerRed
   parent: BannerBase
-  name: red banner
-  description: A banner displaying the color red. The edgy one.
+  name: 红色横幅
+  description: 一面展示红色的横幅。那个前卫的。
   components:
   - type: Sprite
     sprite: Structures/Decoration/banner.rsi
@@ -140,8 +140,8 @@
 - type: entity
   id: BannerYellow
   parent: BannerBase
-  name: yellow banner
-  description: A banner displaying the color yellow. Reminds you of ducks and lemon stands.
+  name: 黄色横幅
+  description: 一条展示黄色的横幅。让你想起鸭子和柠檬摊。
   components:
   - type: Sprite
     sprite: Structures/Decoration/banner.rsi
@@ -150,8 +150,8 @@
 - type: entity
   id: BannerGreen
   parent: BannerBase
-  name: green banner
-  description: A banner displaying the color green. Grass, leaves, guacamole.
+  name: 绿色横幅
+  description: 一条显示绿色的横幅。草地、树叶、鳄梨酱。
   components:
   - type: Sprite
     sprite: Structures/Decoration/banner.rsi

@@ -38,8 +38,8 @@
 - type: entity
   parent: BaseSign
   id: PosterBroken
-  name: broken poster
-  description: "You can't make out anything from the poster's original print. It's ruined."
+  name: 破损的海报
+  description: 海报上的原始印刷内容已经无法辨认，完全损毁了。
   components:
   - type: Sprite
     drawdepth: WallTops
@@ -61,8 +61,8 @@
 - type: entity
   parent: PosterBase
   id: PosterContrabandFreeTonto
-  name: "Free Tonto"
-  description: "A salvaged shred of a much larger flag, colors bled together and faded from age."
+  name: 解放唐托
+  description: "一面巨大旗帜的残片，色泽因岁月而褪色交融。"
   components:
   - type: Sprite
     state: poster1_contraband
@@ -70,8 +70,8 @@
 - type: entity
   parent: PosterBase
   id: PosterContrabandAtmosiaDeclarationIndependence
-  name: "Atmosia Declaration of Independence"
-  description: "A relic of a failed rebellion."
+  name: 阿特莫西亚独立宣言
+  description: "一场失败叛乱的遗迹。"
   components:
   - type: Sprite
     state: poster2_contraband
@@ -79,8 +79,8 @@
 - type: entity
   parent: PosterBase
   id: PosterContrabandFunPolice
-  name: "Fun Police"
-  description: "A poster condemning the station's security forces."
+  name: "趣味警察"
+  description: 一张谴责车站安保力量的海报。
   components:
   - type: Sprite
     state: poster3_contraband
@@ -88,8 +88,8 @@
 - type: entity
   parent: PosterBase
   id: PosterContrabandRealExomorph
-  name: "Real! Exomorph"
-  description: "A conspiratorial poster about dangerous alien lifeforms."
+  name: 真实！外星异形
+  description: 一张关于危险外星生命体的阴谋论海报。
   components:
   - type: Sprite
     state: poster4_contraband
@@ -97,8 +97,8 @@
 - type: entity
   parent: PosterBase
   id: PosterContrabandSyndicateRecruitment
-  name: "Syndicate Recruitment"
-  description: "See the galaxy! Shatter corrupt megacorporations! Join today!"
+  name: 辛迪加招募
+  description: 探索银河！粉碎腐败的巨型企业！立即加入！
   components:
   - type: Sprite
     state: poster5_contraband
@@ -106,8 +106,8 @@
 - type: entity
   parent: PosterBase
   id: PosterContrabandClown
-  name: "Clown"
-  description: "Honk."
+  name: 小丑
+  description: "噗。"
   components:
   - type: Sprite
     state: poster6_contraband
@@ -115,8 +115,8 @@
 - type: entity
   parent: PosterBase
   id: PosterContrabandSmoke
-  name: "Smoke"
-  description: "A poster advertising a rival corporate brand of cigarettes."
+  name: 吸
+  description: 一张宣传竞争对手公司品牌香烟的海报。
   components:
   - type: Sprite
     state: poster7_contraband
@@ -124,8 +124,8 @@
 - type: entity
   parent: PosterBase
   id: PosterContrabandGreyTide
-  name: "Grey Tide"
-  description: "A rebellious poster symbolizing passenger solidarity."
+  name: 灰色浪潮
+  description: "一张象征乘客团结的反叛海报。"
   components:
   - type: Sprite
     state: poster8_contraband
@@ -133,8 +133,8 @@
 - type: entity
   parent: PosterBase
   id: PosterContrabandMissingGloves
-  name: "Missing Gloves"
-  description: "This poster references the uproar that followed Nanotrasen's financial cuts toward insulated-glove purchases."
+  name: "不见的手套"
+  description: 这张海报暗指了纳米传森削减绝缘手套采购预算所引发的轩然大波。
   components:
   - type: Sprite
     state: poster9_contraband
@@ -142,8 +142,8 @@
 - type: entity
   parent: PosterBase
   id: PosterContrabandHackingGuide
-  name: "Hacking Guide"
-  description: "This poster details the internal workings of the common Nanotrasen airlock. Sadly, it appears out of date."
+  name: "骇入指南"
+  description: 这张海报详细介绍了常见纳诺特拉森气闸门的内部构造。可惜看起来已经过时了。
   components:
   - type: Sprite
     state: poster10_contraband
@@ -151,8 +151,8 @@
 - type: entity
   parent: PosterBase
   id: PosterContrabandRIPBadger
-  name: "RIP Badger"
-  description: "This seditious poster references Nanotrasen's genocide of a space station full of badgers."
+  name: 獾群安息
+  description: "这张煽动性海报暗指纳米传讯对满空间站的獾群实施的种族灭绝。"
   components:
   - type: Sprite
     state: poster11_contraband
@@ -160,8 +160,8 @@
 - type: entity
   parent: PosterBase
   id: PosterContrabandAmbrosiaVulgaris
-  name: "Ambrosia Vulgaris"
-  description: "This poster is lookin' pretty trippy man."
+  name: 普通美食
+  description: 这张海报看起来相当迷幻啊，老兄。
   components:
   - type: Sprite
     state: poster12_contraband
@@ -169,8 +169,8 @@
 - type: entity
   parent: PosterBase
   id: PosterContrabandDonutCorp
-  name: "Donut Corp."
-  description: "This poster is an unauthorized advertisement for Donut Corp."
+  name: 甜甜圈公司
+  description: 这张海报是甜甜圈公司未经授权的广告。
   components:
   - type: Sprite
     state: poster13_contraband
@@ -178,8 +178,8 @@
 - type: entity
   parent: PosterBase
   id: PosterContrabandEAT
-  name: "EAT."
-  description: "This poster promotes rank gluttony."
+  name: 吃。
+  description: 这张海报宣扬了贪食的恶习。
   components:
   - type: Sprite
     state: poster14_contraband
@@ -187,8 +187,8 @@
 - type: entity
   parent: PosterBase
   id: PosterContrabandTools
-  name: "Tools"
-  description: "This poster looks like an advertisement for tools, but is in fact a subliminal jab at the tools at CentComm."
+  name: 工具
+  description: 这张海报看似是工具广告，实则是暗中讽刺中央指挥部的"工具们"。
   components:
   - type: Sprite
     state: poster15_contraband
@@ -196,8 +196,8 @@
 - type: entity
   parent: PosterBase
   id: PosterContrabandPower
-  name: "Power"
-  description: "A poster that positions the seat of power outside Nanotrasen."
+  name: 权力
+  description: "一张将权力宝座置于纳诺特拉森之外的海报。"
   components:
   - type: Sprite
     state: poster16_contraband
@@ -205,8 +205,8 @@
 - type: entity
   parent: PosterBase
   id: PosterContrabandSpaceCube
-  name: "Space Cube"
-  description: "Ignorant of Nature's Harmonic 6 Side Space Cube Creation, the Spacemen are Dumb, Educated Singularity Stupid and Evil."
+  name: 空间立方体
+  description: "对自然和谐六面空间立方体造物一无所知，太空人是愚昧的，受过奇点教育的愚蠢且邪恶。"
   components:
   - type: Sprite
     state: poster17_contraband
@@ -214,8 +214,8 @@
 - type: entity
   parent: PosterBase
   id: PosterContrabandCommunistState
-  name: "Communist State"
-  description: "All hail the Communist party!"
+  name: 共产主义国家
+  description: 共产党万岁！
   components:
   - type: Sprite
     state: poster18_contraband
@@ -223,8 +223,8 @@
 - type: entity
   parent: PosterBase
   id: PosterContrabandLamarr
-  name: "Lamarr"
-  description: "This poster depicts Lamarr. Probably made by a traitorous Research Director."
+  name: 拉玛尔
+  description: 这张海报描绘的是拉玛尔。很可能出自某个叛变的研究主管之手。
   components:
   - type: Sprite
     state: poster19_contraband
@@ -232,8 +232,8 @@
 - type: entity
   parent: PosterBase
   id: PosterContrabandBorgFancy
-  name: "Borg Fancy"
-  description: "Being fancy can be for any borg, just need a suit."
+  name: 博格风尚
+  description: 博格风尚，每个博格都能拥有，只需一套西装。
   components:
   - type: Sprite
     state: poster20_contraband
@@ -241,8 +241,8 @@
 - type: entity
   parent: PosterBase
   id: PosterContrabandBorgFancyv2
-  name: "Borg Fancy v2"
-  description: "Borg Fancy, Now only taking the most fancy."
+  name: 博格范西 v2
+  description: 博格范西，现在只追求最华丽的。
   components:
   - type: Sprite
     state: poster21_contraband
@@ -250,8 +250,8 @@
 - type: entity
   parent: PosterBase
   id: PosterContrabandKosmicheskayaStantsiya
-  name: "Kosmicheskaya Stantsiya 13 Does Not Exist"
-  description: "A poster mocking CentComm's denial of the existence of the derelict station near Space Station 13."
+  name: 科斯米切斯卡亚站13号并不存在
+  description: 一张嘲讽中央司令部否认13号空间站附近存在废弃空间站的海报。
   components:
   - type: Sprite
     state: poster22_contraband
@@ -259,8 +259,8 @@
 - type: entity
   parent: PosterBase
   id: PosterContrabandRebelsUnite
-  name: "Rebels Unite"
-  description: "A poster urging the viewer to rebel against Nanotrasen."
+  name: 反抗者联合起来
+  description: 一张呼吁观众反抗纳诺特拉森的海报。
   components:
   - type: Sprite
     state: poster23_contraband
@@ -268,8 +268,8 @@
 - type: entity
   parent: PosterBase
   id: PosterContrabandC20r
-  name: "C-20r"
-  description: "A poster advertising the Scarborough Arms C-20r."
+  name: C-20r型
+  description: 一张宣传斯卡伯勒阿姆斯C-20r型枪支的海报。
   components:
   - type: Sprite
     state: poster24_contraband
@@ -277,8 +277,8 @@
 - type: entity
   parent: PosterBase
   id: PosterContrabandHaveaPuff
-  name: "Have a Puff"
-  description: "Who cares about lung cancer when you're high as a kite?"
+  name: 吞云吐雾
+  description: "腾云驾雾时，谁还在乎肺癌呢？"
   components:
   - type: Sprite
     state: poster25_contraband
@@ -286,8 +286,8 @@
 - type: entity
   parent: PosterBase
   id: PosterContrabandRevolver
-  name: "Revolver"
-  description: "Because seven shots are all you need."
+  name: 左轮手枪
+  description: 因为七发子弹就足够了。
   components:
   - type: Sprite
     state: poster26_contraband
@@ -295,8 +295,8 @@
 - type: entity
   parent: PosterBase
   id: PosterContrabandDDayPromo
-  name: "D-Day Promo"
-  description: "A promotional poster for some rapper."
+  name: "D-Day宣传海报"
+  description: 某说唱歌手的宣传海报。
   components:
   - type: Sprite
     state: poster27_contraband
@@ -304,8 +304,8 @@
 - type: entity
   parent: PosterBase
   id: PosterContrabandSyndicatePistol
-  name: "Syndicate Pistol"
-  description: "A poster advertising syndicate pistols as being 'classy as fuck'. It's covered in faded gang tags."
+  name: 辛迪加手枪
+  description: 一张宣传辛迪加手枪的海报，上面写着"酷毙了"。海报表面布满了褪色的帮派涂鸦标记。
   components:
   - type: Sprite
     state: poster28_contraband
@@ -313,8 +313,8 @@
 - type: entity
   parent: PosterBase
   id: PosterContrabandEnergySwords
-  name: "Energy Swords"
-  description: "All the colors of the bloody murder rainbow."
+  name: 能量剑
+  description: 血腥谋杀彩虹的所有颜色。
   components:
   - type: Sprite
     state: poster29_contraband
@@ -322,8 +322,8 @@
 - type: entity
   parent: PosterBase
   id: PosterContrabandRedRum
-  name: "Red Rum"
-  description: "Looking at this poster makes you want to kill."
+  name: 红朗姆酒
+  description: 看着这张海报就让人心生杀意。
   components:
   - type: Sprite
     state: poster30_contraband
@@ -331,8 +331,8 @@
 - type: entity
   parent: PosterBase
   id: PosterContrabandCC64KAd
-  name: "CC 64K Ad"
-  description: "The latest portable computer from Comrade Computing, with a whole 64kB of ram!"
+  name: CC 64K 广告
+  description: "同志计算公司最新推出的便携式计算机，拥有整整64kB内存！"
   components:
   - type: Sprite
     state: poster31_contraband
@@ -340,8 +340,8 @@
 - type: entity
   parent: PosterBase
   id: PosterContrabandPunchShit
-  name: "Punch Shit"
-  description: "Fight things for no reason, like a man!"
+  name: 无缘无故找茬，像个爷们儿！
+  description: 无缘无故找茬，像个爷们儿！
   components:
   - type: Sprite
     state: poster32_contraband
@@ -349,8 +349,8 @@
 - type: entity
   parent: PosterBase
   id: PosterContrabandTheGriffin
-  name: "The Griffin"
-  description: "The Griffin commands you to be the worst you can be. Will you?"
+  name: 狮鹫
+  description: "狮鹫命令你展现出最糟糕的一面。你愿意吗？"
   components:
   - type: Sprite
     state: poster33_contraband
@@ -358,8 +358,8 @@
 - type: entity
   parent: PosterBase
   id: PosterContrabandFreeDrone
-  name: "Free Drone"
-  description: "This poster commemorates the bravery of the rogue drone; once exiled, and then ultimately destroyed by CentComm."
+  name: 自由无人机
+  description: 这张海报纪念了自由无人机的英勇无畏；它曾遭流放，最终被中央司令部摧毁。
   components:
   - type: Sprite
     state: poster35_contraband
@@ -367,8 +367,8 @@
 - type: entity
   parent: PosterBase
   id: PosterContrabandRouny
-  name: "Have You Seen Him?"
-  description: "An old poster for a missing alien. Where did he run off to?"
+  name: 你见过他吗？
+  description: 一张寻找失踪外星人的旧海报。他跑到哪里去了？
   components:
   - type: Sprite
     state: poster36_contraband
@@ -376,8 +376,8 @@
 - type: entity
   parent: PosterBase
   id: PosterContrabandRobustSoftdrinks
-  name: "Robust Softdrinks"
-  description: "Robust Softdrinks: More robust than a toolbox to the head!"
+  name: 强健软饮
+  description: 强健软饮：比砸向脑袋的工具箱更坚不可摧！
   components:
   - type: Sprite
     state: poster37_contraband
@@ -385,8 +385,8 @@
 - type: entity
   parent: PosterBase
   id: PosterContrabandShamblersJuice
-  name: "Shambler's Juice"
-  description: "~Shake me up some of that Shambler's Juice!~"
+  name: 颤栗者之饮
+  description: "~给我来点颤栗者之饮，摇匀点！~"
   components:
   - type: Sprite
     state: poster38_contraband
@@ -394,8 +394,8 @@
 - type: entity
   parent: PosterBase
   id: PosterContrabandPwrGame
-  name: "Pwr Game"
-  description: "The POWER that gamers CRAVE! In partnership with Vlad's Salad."
+  name: 能量游戏
+  description: 玩家所渴望的能量！与Vlad's Salad联合呈现。
   components:
   - type: Sprite
     state: poster39_contraband
@@ -403,8 +403,8 @@
 - type: entity
   parent: PosterBase
   id: PosterContrabandSunkist
-  name: "Sun-kist"
-  description: "Drink the stars!"
+  name: 阳光之吻
+  description: "畅饮星光！"
   components:
   - type: Sprite
     state: poster40_contraband
@@ -412,8 +412,8 @@
 - type: entity
   parent: PosterBase
   id: PosterContrabandSpaceCola
-  name: "Space Cola"
-  description: "Your favorite cola, in space."
+  name: 太空可乐
+  description: 您最爱的可乐，畅享太空之旅。
   components:
   - type: Sprite
     state: poster41_contraband
@@ -421,8 +421,8 @@
 - type: entity
   parent: PosterBase
   id: PosterContrabandSpaceUp
-  name: "Space-Up!"
-  description: "Sucked out into space by the FLAVOR!"
+  name: 太空汽水！
+  description: "被风味吸到太空去！"
   components:
   - type: Sprite
     state: poster42_contraband
@@ -430,8 +430,8 @@
 - type: entity
   parent: PosterBase
   id: PosterContrabandKudzu
-  name: "Kudzu"
-  description: "A poster advertising a movie about plants. How dangerous could they possibly be?"
+  name: 野葛
+  description: "一张宣传关于植物的电影海报。它们能有多危险呢？"
   components:
   - type: Sprite
     state: poster43_contraband
@@ -439,8 +439,8 @@
 - type: entity
   parent: PosterBase
   id: PosterContrabandMaskedMen
-  name: "Masked Men"
-  description: "A poster advertising a movie about some masked men."
+  name: 蒙面人
+  description: 一张关于蒙面人的电影宣传海报。
   components:
   - type: Sprite
     state: poster44_contraband
@@ -448,8 +448,8 @@
 - type: entity
   parent: PosterBase
   id: PosterContrabandUnreadableAnnouncement
-  name: "Unreadable Announcement"
-  description: "A poster announcing something by someone, oddly enough they seem to have forgotten making it readable."
+  name: 无法阅读的公告
+  description: 一张由某人发布的公告海报，奇怪的是他们似乎忘了让它变得可读。
   components:
   - type: Sprite
     state: poster45_contraband
@@ -457,8 +457,8 @@
 - type: entity
   parent: PosterBase
   id: PosterContrabandFreeSyndicateEncryptionKey
-  name: "Free Syndicate Encryption Key"
-  description: "A poster about traitors begging for more."
+  name: 免费辛迪加加密密钥
+  description: 一张关于叛徒乞求更多的海报。
   components:
   - type: Sprite
     state: poster46_contraband
@@ -466,8 +466,8 @@
 - type: entity
   parent: PosterBase
   id: PosterContrabandBountyHunters
-  name: "Bounty Hunters"
-  description: "A poster advertising bounty hunting services. \"I hear you got a problem.\""
+  name: 赏金猎人
+  description: 一张悬赏猎人服务的宣传海报。"听说你遇到了麻烦。"
   components:
   - type: Sprite
     state: poster47_contraband
@@ -475,8 +475,8 @@
 - type: entity
   parent: PosterBase
   id: PosterContrabandTheBigGasTruth
-  name: "The Big Gas Giant Truth"
-  description: "Don't believe everything you see on a poster, patriots. All the lizards at central command don't want to answer this SIMPLE QUESTION: WHERE IS THE GAS MINER MINING FROM, CENTCOMM?"
+  name: 大气巨星的真相
+  description: 爱国者们，不要相信海报上看到的一切。中央指挥部的所有蜥蜴都不愿回答这个简单的问题：气体矿工到底是从哪里开采的，中央指挥部？
   components:
   - type: Sprite
     state: poster48_contraband
@@ -484,8 +484,8 @@
 - type: entity
   parent: PosterBase
   id: PosterContrabandWehWatches
-  name: "Weh Watches"
-  description: "A poster depicting a loveable green lizard."
+  name: 威赫手表
+  description: 一张描绘可爱绿色蜥蜴的海报。
   components:
   - type: Sprite
     state: poster50_contraband
@@ -493,8 +493,8 @@
 - type: entity
   parent: PosterBase
   id: PosterContrabandVoteWeh
-  name: "Vote Weh"
-  description: "A stylish, sleek, and well illustrated poster for a \"Weh\"nderful new progressive candidate coming this election season."
+  name: 投票给韦
+  description: 一张时尚、简约且插图精美的海报，宣传一位"韦"妙的新进步候选人，即将在这个选举季登场。
   components:
   - type: Sprite
     state: poster51_contraband
@@ -503,8 +503,8 @@
 - type: entity
   parent: PosterBase
   id: PosterContrabandBeachStarYamamoto
-  name: "Beach Star Yamamoto!"
-  description: "A wall scroll depicting an old swimming anime with girls in small swim suits. You feel more weebish the longer you look at it."
+  name: "山本海滩之星！"
+  description: 一幅描绘老旧游泳题材动漫的挂轴，画中少女身着清凉泳装。凝视愈久，愈觉宅气四溢。
   components:
   - type: Sprite
     state: poster52_contraband
@@ -512,8 +512,8 @@
 - type: entity
   parent: PosterBase
   id: PosterContrabandHighEffectEngineering
-  name: "High Effect Engineering"
-  description: "There are 3 shards and a singularity.  The shards are singing.  The engineers are crying."
+  name: 高效应工程
+  description: 这里有3个碎片和一个奇点。碎片在歌唱。工程师们在哭泣。
   components:
   - type: Sprite
     state: poster53_contraband
@@ -521,8 +521,8 @@
 - type: entity
   parent: PosterBase
   id: PosterContrabandNuclearDeviceInformational
-  name: "Nuclear Device Informational"
-  description: "This poster depicts an image of an old style nuclear explosive device, as well as some helpful information on what to do if one has been set. It suggests lying on the floor and crying."
+  name: 核装置信息指南
+  description: 这张海报展示了一幅老式核爆炸装置的图像，并提供了一些应对核爆的有用建议，包括趴在地板上并放声哭泣。
   components:
   - type: Sprite
     state: poster54_contraband
@@ -530,8 +530,8 @@
 - type: entity
   parent: PosterBase
   id: PosterContrabandRise
-  name: "Rise Up"
-  description: "A poster depicting a grey shirted man holding a crowbar with the word Rise written below it."
+  name: 奋起
+  description: 一张海报，画着一名穿灰色衬衫的男子手持撬棍，下方写着"奋起"二字。
   components:
   - type: Sprite
     state: poster55_contraband
@@ -539,8 +539,8 @@
 - type: entity
   parent: PosterBase
   id: PosterContrabandRevolt
-  name: "Revolt"
-  description: "Revolutionist propaganda, manufactured by the Syndicate."
+  name: "造反"
+  description: "革命者的宣传，由辛迪加制造。"
   components:
   - type: Sprite
     state: poster56_contraband
@@ -548,8 +548,8 @@
 - type: entity
   parent: PosterBase
   id: PosterContrabandMoth
-  name: "Syndie Moth - Nuclear Operation"
-  description: "A Syndicate-commissioned poster that uses Syndie Moth™ to tell the viewer to keep the nuclear authentication disk unsecured. \"Peace was never an option!\" No good employee would listen to this nonsense."
+  name: 辛迪蛾——核行动
+  description: 一份辛迪加委托制作的海报，运用了“辛迪蛾™”形象，告诉观众不必妥善保管核认证磁盘。“和平从来就不是选项！”没有哪个好员工会听信这种胡言乱语。
   components:
     - type: Sprite
       state: poster57_contraband
@@ -557,8 +557,8 @@
 - type: entity
   parent: PosterBase
   id: PosterContrabandCybersun600
-  name: "Cybersun: 600 Years Commemorative Poster"
-  description: "An artistic poster commemorating 600 years of continual business for Cybersun Industries."
+  name: 赛博阳光：600周年纪念海报
+  description: 一张纪念赛博阳光工业持续运营600周年的艺术海报。
   components:
     - type: Sprite
       state: poster58_contraband
@@ -566,8 +566,8 @@
 - type: entity
   parent: PosterBase
   id: PosterContrabandDonk
-  name: "DONK CO. BRAND MICROWAVEABLE FOOD"
-  description: "DONK CO. BRAND MICROWAVABLE FOOD: MADE BY STARVING COLLEGE STUDENTS, FOR STARVING COLLEGE STUDENTS."
+  name: DONK CO. 品牌微波食品
+  description: DONK CO. 品牌微波食品：由饥饿大学生制作，为饥饿大学生而生。
   components:
     - type: Sprite
       state: poster59_contraband
@@ -575,8 +575,8 @@
 - type: entity
   parent: PosterBase
   id: PosterContrabandEnlistGorlex
-  name: "Enlist"
-  description: "Enlist with the Gorlex Marauders today! See the galaxy, kill corpos, get paid!"
+  name: 入伍
+  description: "今天就加入戈尔列克斯掠夺者！遨游银河，消灭企业狗，领取丰厚报酬！"
   components:
     - type: Sprite
       state: poster60_contraband
@@ -584,8 +584,8 @@
 - type: entity
   parent: PosterBase
   id: PosterContrabandInterdyne
-  name: "Interdyne Pharmaceutics: For the Health of Humankind"
-  description: "An advertisement for Interdyne Pharmaceutics' GeneClean clinics. 'Become the master of your own body!'"
+  name: Interdyne制药：为人类健康护航
+  description: Interdyne制药基因清洁诊所广告："做自己身体的主人！"
   components:
     - type: Sprite
       state: poster61_contraband
@@ -593,8 +593,8 @@
 - type: entity
   parent: PosterBase
   id: PosterContrabandWaffleCorp
-  name: "Make Mine a Waffle Corp: Fine Rifles, Economic Prices"
-  description: "An old advertisement for Waffle Corp rifles. 'Better weapons, lower prices!'"
+  name: 我的选择是华夫公司：精良步枪，实惠价格
+  description: 华夫公司旧式步枪广告。"精良武器，实惠价格！"
   components:
     - type: Sprite
       state: poster62_contraband
@@ -602,8 +602,8 @@
 - type: entity
   parent: PosterBase
   id: PosterContrabandMissingSpacepen
-  name: "Missing Spacepen"
-  description: "This poster depicts something you will never find."
+  name: 失踪的太空笔
+  description: 这张海报描绘了你永远也找不到的东西。
   components:
     - type: Sprite
       state: poster63_contraband
@@ -611,8 +611,8 @@
 - type: entity
   parent: PosterBase
   id: PosterContrabandExoAcid
-  name: "Exomorph Warning: Acid Spit!"
-  description: "This poster warns you about an exomorph's acidic spit. Not that such exomorphs are real... Right?"
+  name: 外来异形警告：酸性唾液！
+  description: 这张海报警告你当心外来异形的酸性唾液。不过这种异形应该不是真实存在的...对吧？
   components:
   - type: Sprite
     state: poster64_contraband
@@ -620,8 +620,8 @@
 - type: entity
   parent: PosterBase
   id: PosterContrabandExoRun
-  name: "Exomorph Warning: Run Away!"
-  description: "This poster warns you about an athletic exomorph capable of dragging away anyone who gets caught; so don't get caught!"
+  name: 外来异形警告：快逃！
+  description: 这张海报警告你：存在一种强健的外来异形，能拖走任何被抓住的人——千万别被抓住！
   components:
   - type: Sprite
     state: poster65_contraband
@@ -629,8 +629,8 @@
 - type: entity
   parent: PosterBase
   id: PosterContrabandExoChomp
-  name: "Exomorph Warning: Dangerous Bites!"
-  description: "This poster warns you about the lethal bites exomorphs can have. Don't become an alien snack!"
+  name: 外来异形警告：当心致命噬咬！
+  description: 这张海报警示您当心外来异形的致命噬咬。切勿成为外星生物的点心！
   components:
   - type: Sprite
     state: poster66_contraband
@@ -639,8 +639,8 @@
 - type: entity
   parent: PosterBase
   id: PosterLegitHereForYourSafety
-  name: "Here For Your Safety"
-  description: "A poster glorifying the station's security force."
+  name: "为您的安全在此"
+  description: 一张颂扬车站安保力量的海报。
   components:
   - type: Sprite
     state: poster1_legit
@@ -648,8 +648,8 @@
 - type: entity
   parent: PosterBase
   id: PosterLegitNanotrasenLogo
-  name: "Nanotrasen Logo"
-  description: "A poster depicting the Nanotrasen logo."
+  name: 纳米传讯标志
+  description: 一张描绘纳米传讯标志的海报。
   components:
   - type: Sprite
     state: poster2_legit
@@ -657,8 +657,8 @@
 - type: entity
   parent: PosterBase
   id: PosterLegitCleanliness
-  name: "Cleanliness"
-  description: "A poster warning of the dangers of poor hygiene."
+  name: 洁净
+  description: 一张警示卫生不良危险的海报。
   components:
   - type: Sprite
     state: poster3_legit
@@ -666,8 +666,8 @@
 - type: entity
   parent: PosterBase
   id: PosterLegitHelpOthers
-  name: "Help Others"
-  description: "A poster encouraging you to help fellow crewmembers."
+  name: 帮助他人
+  description: 一张鼓励你帮助其他船员的宣传海报。
   components:
   - type: Sprite
     state: poster4_legit
@@ -675,8 +675,8 @@
 - type: entity
   parent: PosterBase
   id: PosterLegitBuild
-  name: "Build"
-  description: "A poster glorifying the engineering team."
+  name: 建设
+  description: 一张颂扬工程团队的海报。
   components:
   - type: Sprite
     state: poster5_legit
@@ -684,8 +684,8 @@
 - type: entity
   parent: PosterBase
   id: PosterLegitBlessThisSpess
-  name: "Bless This Spess"
-  description: "A poster blessing this area."
+  name: 祝福这片区域
+  description: 一张祝福这片区域的海报。
   components:
   - type: Sprite
     state: poster6_legit
@@ -693,8 +693,8 @@
 - type: entity
   parent: PosterBase
   id: PosterLegitScience
-  name: "Science"
-  description: "A poster depicting an atom."
+  name: 科学
+  description: 一张描绘原子的海报。
   components:
   - type: Sprite
     state: poster7_legit
@@ -702,8 +702,8 @@
 - type: entity
   parent: PosterBase
   id: PosterLegitIan
-  name: "Ian"
-  description: "Arf arf. Yap."
+  name: 伊恩
+  description: "汪汪。嗷嗷。"
   components:
   - type: Sprite
     state: poster8_legit
@@ -711,8 +711,8 @@
 - type: entity
   parent: PosterBase
   id: PosterLegitObey
-  name: "Obey"
-  description: "A poster instructing the viewer to obey authority."
+  name: 遵命
+  description: 一张指示观众服从权威的海报。
   components:
   - type: Sprite
     state: poster9_legit
@@ -720,8 +720,8 @@
 - type: entity
   parent: PosterBase
   id: PosterLegitWalk
-  name: "Walk"
-  description: "A poster instructing the viewer to walk instead of running."
+  name: 行走
+  description: 一张指示观众行走而非奔跑的海报。
   components:
   - type: Sprite
     state: poster10_legit
@@ -729,8 +729,8 @@
 - type: entity
   parent: PosterBase
   id: PosterLegitStateLaws
-  name: "State Laws"
-  description: "A poster instructing cyborgs to state their laws."
+  name: 陈述法则
+  description: 一张指示生化机器人陈述其法则的海报。
   components:
   - type: Sprite
     state: poster11_legit
@@ -738,8 +738,8 @@
 - type: entity
   parent: PosterBase
   id: PosterLegitLoveIan
-  name: "Love Ian"
-  description: "Ian is love, Ian is life."
+  name: 爱伊恩
+  description: 爱伊恩是爱，爱伊恩是生命。
   components:
   - type: Sprite
     state: poster12_legit
@@ -747,8 +747,8 @@
 - type: entity
   parent: PosterBase
   id: PosterLegitSpaceCops
-  name: "Space Cops."
-  description: "A poster advertising the television show Space Cops."
+  name: 太空警察
+  description: 一张宣传电视剧《太空警察》的海报。
   components:
   - type: Sprite
     state: poster13_legit
@@ -756,8 +756,8 @@
 - type: entity
   parent: PosterBase
   id: PosterLegitUeNo
-  name: "Ue No."
-  description: "This thing is all in Japanese."
+  name: 上野。
+  description: 这东西全是日文的。
   components:
   - type: Sprite
     state: poster14_legit
@@ -765,8 +765,8 @@
 - type: entity
   parent: PosterBase
   id: PosterLegitGetYourLEGS
-  name: "Get Your LEGS"
-  description: "LEGS: Leadership, Experience, Genius, Subordination."
+  name: 掌握你的LEGS
+  description: LEGS：领导力、经验、才华与服从。
   components:
   - type: Sprite
     state: poster15_legit
@@ -774,8 +774,8 @@
 - type: entity
   parent: PosterBase
   id: PosterLegitDoNotQuestion
-  name: "Do Not Question"
-  description: "A poster instructing the viewer not to ask about things they aren't meant to know."
+  name: 请勿追问
+  description: 一张告诫观众不要追问不应知晓之事的海报。
   components:
   - type: Sprite
     state: poster16_legit
@@ -783,8 +783,8 @@
 - type: entity
   parent: PosterBase
   id: PosterLegitWorkForAFuture
-  name: "Work For A Future"
-  description: " A poster encouraging you to work for your future."
+  name: 为未来而奋斗
+  description: 一张鼓励你为未来奋斗的海报。
   components:
   - type: Sprite
     state: poster17_legit
@@ -792,8 +792,8 @@
 - type: entity
   parent: PosterBase
   id: PosterLegitSoftCapPopArt
-  name: "Soft Cap Pop Art"
-  description: "A poster reprint of some cheap pop art."
+  name: 软顶流行艺术
+  description: "一幅廉价流行艺术海报的再版。"
   components:
   - type: Sprite
     state: poster18_legit
@@ -801,8 +801,8 @@
 - type: entity
   parent: PosterBase
   id: PosterLegitSafetyInternals
-  name: "Safety: Internals"
-  description: "A poster instructing the viewer to wear internals in the rare environments where there is no oxygen or the air has been rendered toxic."
+  name: 安全须知：佩戴内部呼吸装置
+  description: 一张指示观众在罕见无氧或空气有毒环境中佩戴内部呼吸装置的海报。
   components:
   - type: Sprite
     state: poster19_legit
@@ -810,8 +810,8 @@
 - type: entity
   parent: PosterBase
   id: PosterLegitSafetyEyeProtection
-  name: "Safety: Eye Protection"
-  description: "A poster instructing the viewer to wear eye protection when dealing with chemicals, smoke, or bright lights."
+  name: 安全：眼部防护
+  description: 一张指示观众在处理化学品、烟雾或强光时佩戴眼部防护装置的海报。
   components:
   - type: Sprite
     state: poster20_legit
@@ -819,8 +819,8 @@
 - type: entity
   parent: PosterBase
   id: PosterLegitSafetyReport
-  name: "Safety: Report"
-  description: "A poster instructing the viewer to report suspicious activity to the security force."
+  name: 安全：举报
+  description: 一张指示观众向安全部队举报可疑活动的海报。
   components:
   - type: Sprite
     state: poster21_legit
@@ -828,8 +828,8 @@
 - type: entity
   parent: PosterBase
   id: PosterLegitReportCrimes
-  name: "Report Crimes"
-  description: "A poster encouraging the swift reporting of crime or seditious behavior to station security."
+  name: 举报犯罪行为
+  description: 一张鼓励迅速向车站保安举报犯罪或煽动行为的海报。
   components:
   - type: Sprite
     state: poster22_legit
@@ -837,8 +837,8 @@
 - type: entity
   parent: PosterBase
   id: PosterLegitIonRifle
-  name: "Ion Rifle"
-  description: "A poster displaying an Ion Rifle."
+  name: 离子步枪
+  description: 一张展示离子步枪的海报。
   components:
   - type: Sprite
     state: poster23_legit
@@ -846,8 +846,8 @@
 - type: entity
   parent: PosterBase
   id: PosterLegitFoamForceAd
-  name: "Foam Force Ad"
-  description: "Foam Force, it's Foam or be Foamed!"
+  name: 泡沫力量广告
+  description: 泡沫力量，要么泡沫，要么被泡沫！
   components:
   - type: Sprite
     state: poster24_legit
@@ -855,8 +855,8 @@
 - type: entity
   parent: PosterBase
   id: PosterLegitCohibaRobustoAd
-  name: "Cohiba Robusto Ad"
-  description: "Cohiba Robusto, the classy cigar."
+  name: 高希霸罗布图雪茄广告
+  description: 高希霸罗布图雪茄，品味之选。
   components:
   - type: Sprite
     state: poster25_legit
@@ -864,8 +864,8 @@
 - type: entity
   parent: PosterBase
   id: PosterLegit50thAnniversaryVintageReprint
-  name: "50th Anniversary Vintage Reprint"
-  description: "A reprint of a poster from 2505, commemorating the 50th Anniversary of Nanoposters Manufacturing, a subsidiary of Nanotrasen."
+  name: 五十周年纪念复刻版
+  description: 2505年海报再版，纪念纳米海报制造公司（纳星子公司）成立五十周年。
   components:
   - type: Sprite
     state: poster26_legit
@@ -873,8 +873,8 @@
 - type: entity
   parent: PosterBase
   id: PosterLegitFruitBowl
-  name: "Fruit Bowl"
-  description: " Simple, yet awe-inspiring."
+  name: 果盘
+  description: 简约，却震撼人心。
   components:
   - type: Sprite
     state: poster27_legit
@@ -882,8 +882,8 @@
 - type: entity
   parent: PosterBase
   id: PosterLegitPDAAd
-  name: "PDA Ad"
-  description: "A poster advertising the latest PDA from Nanotrasen suppliers."
+  name: PDA广告
+  description: "一张宣传南otransen供应商最新PDA的海报。"
   components:
   - type: Sprite
     state: poster28_legit
@@ -891,8 +891,8 @@
 - type: entity
   parent: PosterBase
   id: PosterLegitEnlist
-  name: "Enlist"
-  description: "Enlist in the Nanotrasen Deathsquadron reserves today!"
+  name: 入伍
+  description: 立即加入纳诺特拉森死亡中队预备役！
   components:
   - type: Sprite
     state: poster29_legit
@@ -900,8 +900,8 @@
 - type: entity
   parent: PosterBase
   id: PosterLegitNanomichiAd
-  name: "Nanomichi Ad"
-  description: " A poster advertising Nanomichi brand audio cassettes."
+  name: Nanomichi广告
+  description: 一张宣传Nanomichi品牌录音带的海报。
   components:
   - type: Sprite
     state: poster30_legit
@@ -909,8 +909,8 @@
 - type: entity
   parent: PosterBase
   id: PosterLegit12Gauge
-  name: "12 gauge"
-  description: "A poster boasting about the superiority of 12 gauge shotgun shells."
+  name: 12号径
+  description: 一张吹嘘12号径霰弹枪弹优越性的海报。
   components:
   - type: Sprite
     state: poster31_legit
@@ -918,8 +918,8 @@
 - type: entity
   parent: PosterBase
   id: PosterLegitHighClassMartini
-  name: "High-Class Martini"
-  description: "I told you to shake it, no stirring."
+  name: 高级马提尼
+  description: 我告诉过你要摇晃，不要搅拌。
   components:
   - type: Sprite
     state: poster32_legit
@@ -927,8 +927,8 @@
 - type: entity
   parent: PosterBase
   id: PosterLegitTheOwl
-  name: "The Owl"
-  description: "The Owl would do his best to protect the station. Will you?"
+  name: 猫头鹰
+  description: 猫头鹰会尽全力保护车站。你会吗？
   components:
   - type: Sprite
     state: poster33_legit
@@ -936,8 +936,8 @@
 - type: entity
   parent: PosterBase
   id: PosterLegitNoERP
-  name: "No ERP"
-  description: "This poster reminds the crew that Eroticism and Pornography are banned on Nanotrasen stations."
+  name: 禁止情色扮演
+  description: 这张海报提醒船员，情色与色情内容在纳米特拉森空间站上是明令禁止的。
   components:
   - type: Sprite
     state: poster34_legit
@@ -945,8 +945,8 @@
 - type: entity
   parent: PosterBase
   id: PosterLegitCarbonDioxide
-  name: "Carbon Dioxide"
-  description: "This informational poster teaches the viewer what carbon dioxide is."
+  name: 二氧化碳
+  description: 这张信息海报向观众介绍了二氧化碳是什么。
   components:
   - type: Sprite
     state: poster35_legit
@@ -954,8 +954,8 @@
 - type: entity
   parent: PosterBase
   id: PosterLegitDickGumshue
-  name: "Dick Gumshue"
-  description: "A poster advertising the escapades of Dick Gumshue, mouse detective. Encouraging crew to bring the might of justice down upon wire saboteurs."
+  name: 迪克·胶鞋
+  description: 一张宣传老鼠侦探迪克·胶鞋冒险事迹的海报，激励船员们以正义之力打击电线破坏者。
   components:
   - type: Sprite
     state: poster36_legit
@@ -963,8 +963,8 @@
 - type: entity
   parent: PosterBase
   id: PosterLegitThereIsNoGasGiant
-  name: "There Is No Gas Giant"
-  description: "Nanotrasen has issued posters, like this one, to all stations reminding them that rumours of a gas giant are false."
+  name: "没有气态巨星"
+  description: Nanotrasen已向所有空间站发放了此类海报，提醒员工关于气态巨星的传言实属谣言。
   components:
   - type: Sprite
     state: poster37_legit
@@ -972,8 +972,8 @@
 - type: entity
   parent: PosterBase
   id: PosterLegitJustAWeekAway
-  name: "Just a Week Away..."
-  description: A poster advertising a long delayed project, it still claims it to be 'just a week away...'
+  name: "仅剩一周之遥……"
+  description: 一张宣传拖延已久项目的海报，上面仍声称其“仅剩一周之遥……”。
   components:
   - type: Sprite
     state: poster38_legit
@@ -981,8 +981,8 @@
 - type: entity
   parent: PosterBase
   id: PosterLegitSecWatch
-  name: "Sec is Watching You"
-  description: "A poster reminding you that security is watching your every move."
+  name: 安保正在注视着你
+  description: 一张提醒你安保正注视着你一举一动的海报。
   components:
   - type: Sprite
     state: poster39_legit
@@ -990,8 +990,8 @@
 - type: entity
   parent: PosterBase
   id: PosterLegitAnatomyPoster
-  name: "Anatomy of a spessman"
-  description: "A poster showing the bits and bobs that makes you... you!"
+  name: 太空员解剖图
+  description: 一张展示构成你之所以为你的零部件的海报！
   components:
   - type: Sprite
     state: poster40_legit
@@ -999,8 +999,8 @@
 - type: entity
   parent: PosterBase
   id: PosterLegitMime
-  name: "Mime Postmodern"
-  description: "A postmodern depiction of a mime, superb!"
+  name: 后现代默剧
+  description: "一幅后现代风格的默剧演员画像，太棒了！"
   components:
   - type: Sprite
     state: poster41_legit
@@ -1008,8 +1008,8 @@
 - type: entity
   parent: PosterBase
   id: PosterLegitCarpMount
-  name: "Wall-mounted Carp"
-  description: "Carpe diem!"
+  name: 墙挂鲤鱼
+  description: 及时行乐！
   components:
   - type: Sprite
     state: poster42_legit
@@ -1017,8 +1017,8 @@
 - type: entity
   parent: PosterBase
   id: PosterLegitSafetyMothDelam
-  name: "Safety Moth - Delamination Safety Precautions"
-  description: "This informational poster uses Safety Moth™ to tell the viewer to hide in lockers when the Supermatter Crystal has delaminated, to prevent hallucinations. Evacuating might be a better strategy."
+  name: 安全飞蛾 - 分层安全预防措施
+  description: 这张宣传海报通过安全飞蛾™形象告知观众：当超物质晶体出现分层时应躲进储物柜，以防产生幻觉。不过撤离现场或许是更佳策略。
   components:
     - type: Sprite
       state: poster43_legit
@@ -1026,8 +1026,8 @@
 - type: entity
   parent: PosterBase
   id: PosterLegitSafetyMothEpi
-  name: "Safety Moth - Epinephrine"
-  description: "This informational poster uses Safety Moth™ to inform the viewer to help injured/deceased crewmen with their epinephrine injectors. \"Prevent organ rot with this one simple trick!\""
+  name: 安全飞蛾 - 肾上腺素
+  description: 本宣传海报采用安全飞蛾™形象，告知观众应使用肾上腺素注射器救助受伤/死亡的船员。"这个简单妙招能防止器官腐烂！"
   components:
     - type: Sprite
       state: poster44_legit
@@ -1035,8 +1035,8 @@
 - type: entity
   parent: PosterBase
   id: PosterLegitSafetyMothPiping
-  name: "Safety Moth - Piping"
-  description: "This informational poster uses Safety Moth™ to tell atmospheric technicians correct types of piping to be used. \"Pipes, not Pumps! Proper pipe placement prevents poor performance!\""
+  name: 安全飞蛾 - 管道规范
+  description: 本信息图采用安全飞蛾™形象，向大气处理技术人员说明应使用的正确管道类型。"管道优先，泵浦靠边！规范布管方能杜绝后患！"
   components:
     - type: Sprite
       state: poster45_legit
@@ -1044,8 +1044,8 @@
 - type: entity
   parent: PosterBase
   id: PosterLegitSafetyMothMeth
-  name: "Safety Moth - Methamphetamine"
-  description: "This informational poster uses Safety Moth™ to tell the viewer to seek CMO approval before cooking methamphetamine. \"Stay close to the target temperature, and never go over!\" ...You shouldn't ever be making this."
+  name: 安全飞蛾 - 甲基苯丙胺
+  description: 这张宣传海报通过安全飞蛾™的形象，告知观众在制作甲基苯丙胺前需获得首席医疗官批准。"请始终保持在目标温度附近，切勿超过！"...你根本不该制作这种东西。
   components:
     - type: Sprite
       state: poster46_legit
@@ -1053,8 +1053,8 @@
 - type: entity
   parent: PosterBase
   id: PosterLegitSafetyMothHardhat
-  name: "Safety Moth - Hardhats"
-  description: "This informational poster uses Safety Moth™ to tell the viewer to wear hardhats in cautious areas. \"It's like a lamp for your head!\""
+  name: 安全飞蛾 - 安全帽
+  description: 这张宣传海报运用安全飞蛾™形象，提醒人们在警戒区域务必佩戴安全帽。"这就像为您头部准备的指路明灯！"
   components:
     - type: Sprite
       state: poster47_legit
@@ -1062,8 +1062,8 @@
 - type: entity
   parent: PosterBase
   id: PosterLegitVacation
-  name: "Nanotrasen Corporate Perks: Vacation"
-  description: "This informational poster provides information on some of the prizes available via the NT Corporate Perks program, including a two-week vacation for two on the resort world Idyllus."
+  name: 纳米传讯企业福利：度假之旅
+  description: 这张信息海报介绍了通过纳米传讯企业福利计划可获取的部分奖品，包括在伊甸园度假世界为两人提供的两周假期。
   components:
     - type: Sprite
       state: poster48_legit
@@ -1071,8 +1071,8 @@
 - type: entity
   parent: PosterBase
   id: PosterLegitPeriodicTable
-  name: "Periodic Table of the Elements"
-  description: "A periodic table of the elements, from Hydrogen to Oganesson, and everything inbetween."
+  name: 元素周期表
+  description: 一张元素周期表，从氢到鿫，以及其间的一切元素。
   components:
     - type: Sprite
       state: poster49_legit
@@ -1080,8 +1080,8 @@
 - type: entity
   parent: PosterBase
   id: PosterLegitRenault
-  name: "Renault Poster"
-  description: "Yap."
+  name: 雷诺海报
+  description: "是的。"
   components:
     - type: Sprite
       state: poster50_legit
@@ -1089,8 +1089,8 @@
 - type: entity
   parent: PosterBase
   id: PosterLegitNTTGC
-  name: "Nanotrasen Tactical Game Cards"
-  description: "An advertisement for Nanotrasen's TCG cards: BUY MORE CARDS."
+  name: Nanotrasen战术游戏卡牌
+  description: 一则Nanotrasen战术游戏卡牌的广告：购买更多卡牌。
   components:
     - type: Sprite
       state: poster51_legit
@@ -1098,8 +1098,8 @@
 - type: entity
   parent: PosterBase
   id: PosterLegitSafetyMothSSD
-  name: "Safety Moth - Space Sleep Disorder"
-  description: "This informational poster uses Safety Moth™ to tell the viewer about Space Sleep Disorder (SSD), a condition where the person stops reacting to things. \"Treat SSD crew with care! They might wake up at any time!\""
+  name: 安全飞蛾 - 太空睡眠障碍
+  description: 这张信息海报通过安全飞蛾™向观众介绍了太空睡眠障碍（SSD）——一种使人停止对外界事物产生反应的状态。“请小心对待患有SSD的船员！他们可能随时会醒来！”
   components:
   - type: Sprite
     state: poster52_legit
@@ -1107,8 +1107,8 @@
 - type: entity
   parent: PosterBase
   id: PosterLegitOppenhopper
-  name: "Oppenhopper"
-  description: "A poster for a long-forgotten movie. It follows a group of tenacious greenhorns from the Grasshopper Sector as they defend against onslaughts of the infamous Nuclear Operatives. The tagline reads: \"Nuke Ops will continue until robustness improves.\""
+  name: 奥本蝗伯
+  description: 一张被遗忘已久的电影海报。讲述了蚱蜢区一群顽强的菜鸟，如何抵御臭名昭著的核行动特工接连不断的猛攻。标语写道："核行动将持续进行，直至稳健性提升。"
   components:
   - type: Sprite
     state: poster53_legit
@@ -1116,8 +1116,8 @@
 - type: entity
   parent: PosterBase
   id: PosterLegitTyrone
-  name: "Tyrone's Guide to Space"
-  description: "A poster advertising online schooling about space. The classes listed seem to cover things from the basic usage of station equipment to complicated subjects like creating pipebombs or covering entire hallways in spacelube. A disclaimer reads \"It's never THAT bad, and at the end you might even get a tortilla.\""
+  name: 《泰隆的太空指南》
+  description: 一张宣传太空主题在线课程的海报。所列课程内容从空间站设备的基本使用，到制作管状炸弹或用太空润滑剂覆盖整个走廊等复杂课题。免责声明写道："情况从没那么糟，学完课程你说不定还能得到一张墨西哥薄饼。"
   components:
   - type: Sprite
     state: poster54_legit
@@ -1125,8 +1125,8 @@
 - type: entity
   parent: PosterBase
   id: PosterLegitHelio
-  name: Helio Logistics ad
-  description: "A poster advertising Helio Logistics and their adorable mascot. The slogan reads 'Come rain or shine, we deliver on time.'"
+  name: Helio Logistics 广告
+  description: 一张宣传Helio Logistics及其可爱吉祥物的海报。标语写着："无论晴雨，准时送达"。
   components:
   - type: Sprite
     state: poster55_legit
@@ -1134,8 +1134,8 @@
 - type: entity
   parent: PosterBase
   id: PosterLegitBotanyFear
-  name: "Fear of hydroponics"
-  description: "Think three times before opening the airlock to hydroponics, a red threat might be hiding there."
+  name: 对水培舱的恐惧
+  description: 打开通往水培舱的气密门前三思，红色威胁可能就潜伏在那里。
   components:
   - type: Sprite
     state: poster56_legit
@@ -1145,8 +1145,8 @@
 - type: entity
   parent: PosterBase
   id: PosterMapBagel
-  name: "Bagel Map"
-  description: "A map of Bagel Station."
+  name: 贝果地图
+  description: 贝果车站的地图。
   components:
   - type: Sprite
     state: bagelmap
@@ -1154,8 +1154,8 @@
 - type: entity
   parent: PosterBase
   id: PosterMapDelta
-  name: "Delta Map"
-  description: "A map of Delta Station."
+  name: 三角洲地图
+  description: 三角洲地图。
   components:
   - type: Sprite
     state: deltamap
@@ -1163,8 +1163,8 @@
 - type: entity
   parent: PosterBase
   id: PosterMapMarathon
-  name: "Marathon Map"
-  description: "A map of Marathon Station."
+  name: 马拉松站地图
+  description: 马拉松站的地图。
   components:
   - type: Sprite
     state: marathonmap
@@ -1172,8 +1172,8 @@
 - type: entity
   parent: PosterBase
   id: PosterMapMoose
-  name: "Moose Map"
-  description: "A map of Moose Station."
+  name: 驼鹿地图
+  description: 驼鹿站的地图。
   components:
   - type: Sprite
     state: moosemap
@@ -1181,8 +1181,8 @@
 - type: entity
   parent: PosterBase
   id: PosterMapPacked
-  name: "Packed Map"
-  description: "A map of Packed Station."
+  name: 打包地图
+  description: 打包站的地图。
   components:
   - type: Sprite
     state: packedmap
@@ -1190,8 +1190,8 @@
 - type: entity
   parent: PosterBase
   id: PosterMapPillar
-  name: "Pillar Map"
-  description: "A map of NSS Pillar."
+  name: 支柱地图
+  description: NSS支柱地图。
   components:
   - type: Sprite
     state: pillarmap
@@ -1199,8 +1199,8 @@
 - type: entity
   parent: PosterBase
   id: PosterMapSaltern
-  name: "Saltern Map"
-  description: "A map of Saltern Station."
+  name: 盐场站地图
+  description: 盐场站地图。
   components:
   - type: Sprite
     state: salternmap
@@ -1208,8 +1208,8 @@
 - type: entity
   parent: PosterBase
   id: PosterMapSplit
-  name: "Split Station Map"
-  description: "A map of Split Station."
+  name: 斯普利特车站地图
+  description: 斯普利特车站地图。
   components:
   - type: Sprite
     state: splitmap
@@ -1217,8 +1217,8 @@
 - type: entity
   parent: PosterBase
   id: PosterMapLighthouse
-  name: "Lighthouse Map"
-  description: "A map of Lighthouse."
+  name: 灯塔地图
+  description: 一张灯塔地图。
   components:
   - type: Sprite
     state: lighthousemap
@@ -1226,8 +1226,8 @@
 - type: entity
   parent: PosterBase
   id: PosterMapWaystation
-  name: "Waystation Map"
-  description: "A map of Waystation... wait isn't this packed upside down?"
+  name: 驿站地图
+  description: 驿站地图……等等，这个是不是上下颠倒了？
   components:
   - type: Sprite
     state: waystationmap
@@ -1235,8 +1235,8 @@
 - type: entity
   parent: PosterBase
   id: PosterMapOrigin
-  name: "origin map"
-  description: "A map of Origin Station."
+  name: 始发站地图
+  description: 始发站地图。
   components:
   - type: Sprite
     state: originmap

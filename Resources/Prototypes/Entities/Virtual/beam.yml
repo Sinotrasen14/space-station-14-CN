@@ -1,7 +1,7 @@
 ﻿# Special entity used to keep track of beams from the BeamComponent and what targets they collided with
 - type: entity
   id: VirtualBeamEntityController
-  name: BEAM ENTITY YOU SHOULD NOT SEE THIS
+  name: 你不应看到此光束实体
   categories: [ HideSpawnMenu ]
   components:
     - type: Beam

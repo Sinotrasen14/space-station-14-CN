@@ -1,6 +1,6 @@
 - type: entity
   id: RandomFoodBreakfast
-  name: random food spawner
+  name: 随机食物生成器
   suffix: Meal
   parent: MarkerBase
   placement:

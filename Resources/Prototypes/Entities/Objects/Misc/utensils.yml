@@ -32,8 +32,8 @@
 - type: entity
   parent: UtensilBase
   id: Fork
-  name: fork
-  description: An eating utensil, perfect for stabbing.
+  name: 叉子
+  description: 一种餐具，非常适合用来戳刺食物。
   components:
   - type: Tag
     tags:
@@ -54,8 +54,8 @@
 - type: entity
   parent: UtensilBasePlastic
   id: ForkPlastic
-  name: plastic fork
-  description: An eating utensil, perfect for stabbing.
+  name: 塑料叉子
+  description: 一种餐具，非常适合用来戳刺。
   components:
   - type: Sprite
     state: plastic_fork
@@ -66,8 +66,8 @@
 - type: entity
   parent: UtensilBase
   id: Spoon
-  name: spoon
-  description: There is no spoon.
+  name: 勺子
+  description: 勺子是不存在的。
   components:
   - type: Tag
     tags:
@@ -96,8 +96,8 @@
 - type: entity
   parent: UtensilBasePlastic
   id: SpoonPlastic
-  name: plastic spoon
-  description: There is no spoon.
+  name: 塑料勺
+  description: 勺子不存在。
   components:
   - type: Sprite
     state: plastic_spoon
@@ -117,8 +117,8 @@
 - type: entity
   parent: UtensilBasePlastic
   id: KnifePlastic
-  name: plastic knife
-  description: That's not a knife. This is a knife.
+  name: 塑料刀
+  description: 那不是刀。这才是刀。
   components:
   - type: Sprite
     state: plastic_knife
@@ -134,8 +134,8 @@
 - type: entity
   parent: UtensilBase
   id: BarSpoon
-  name: bar spoon
-  description: Your personal helper to mix drinks and changes lives.
+  name: 吧勺
+  description: 吧勺，您调配饮品、改变生活的个人助手。
   components:
   - type: Tag
     tags:

@@ -1,8 +1,8 @@
 - type: entity
-  name: improvised pneumatic cannon
+  name: 简易气动炮
   parent: [BaseStorageItem, BaseMinorContraband]
   id: WeaponImprovisedPneumaticCannon
-  description: Improvised using nothing but a pipe, some zipties, and a pneumatic cannon. Doesn't accept tanks without enough gas.
+  description: 仅用一根管子、几条扎带和一个气动炮临时拼凑而成。不接受气体不足的储气罐。
   components:
   - type: Sprite
     sprite: Objects/Weapons/Guns/Cannons/pneumatic_cannon.rsi
@@ -48,7 +48,7 @@
   - type: ItemSlots
     slots:
       gas_tank:
-        name: pneumatic-cannon-component-itemslot-name
+        name: 气动加农炮组件物品槽名称
         whitelist:
           components:
           - GasTank
@@ -63,10 +63,10 @@
       gas_tank: !type:ContainerSlot
 
 - type: entity
-  name: pie cannon
+  name: 奶油派炮
   parent: BaseStorageItem
   id: LauncherCreamPie
-  description: Load cream pie for optimal results.
+  description: 为达到最佳效果，请装载奶油派。
   components:
   - type: Sprite
     sprite: Objects/Weapons/Guns/Cannons/pie_cannon.rsi
@@ -105,10 +105,10 @@
         ents: []
 
 - type: entity
-  name: experimental pie cannon
+  name: 实验性派炮
   parent: BaseWeaponBattery
   id: BorgLauncherCreamPie
-  description: Deliver a generous portion of cream directly to the crew! Automatically bakes pies over time.
+  description: 为船员们送上分量十足的奶油！自动定时烘烤馅饼。
   components:
   - type: Sprite
     sprite: Objects/Weapons/Guns/Cannons/pie_cannon.rsi
@@ -139,10 +139,10 @@
     size: Normal
 
 - type: entity
-  name: syringe gun
+  name: 注射枪
   parent: BaseStorageItem
   id: LauncherSyringe
-  description: Load full of poisoned syringes for optimal fun.
+  description: 装满毒药注射器，尽享极致乐趣。
   components:
   - type: Sprite
     sprite: Objects/Weapons/Guns/Cannons/syringe_gun.rsi

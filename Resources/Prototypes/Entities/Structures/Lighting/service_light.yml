@@ -1,8 +1,8 @@
 - type: entity
   parent: Poweredlight
   id: JanitorServiceLight
-  name: janitorial service light
-  description: A wall-mounted janitorial sign. If the light is blinking, a janitor's service is required.
+  name: 保洁服务灯
+  description: 壁挂式保洁服务灯。灯光闪烁时，表示需要保洁服务。
   components:
   - type: Sprite
     sprite: Structures/Wallmounts/service_light.rsi

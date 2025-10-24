@@ -1,7 +1,7 @@
 - type: entity
   parent: MarkerBase
   id: SpawnMobBee
-  name: Bee Spawner
+  name: 蜜蜂刷怪箱
   components:
   - type: Sprite
     layers:
@@ -15,7 +15,7 @@
 - type: entity
   parent: MarkerBase
   id: SpawnMobButterfly
-  name: Butterfly Spawner
+  name: 蝴蝶生成器
   components:
   - type: Sprite
     layers:
@@ -29,7 +29,7 @@
 - type: entity
   parent: MarkerBase
   id: SpawnMobCatGeneric
-  name: Generic Cat Spawner
+  name: 通用猫生成器
   components:
   - type: Sprite
     layers:
@@ -48,7 +48,7 @@
 - type: entity
   parent: MarkerBase
   id: SpawnMobCatKitten
-  name: Kitten Spawner
+  name: 小猫生成器
   components:
   - type: Sprite
     layers:
@@ -61,7 +61,7 @@
 - type: entity
   parent: MarkerBase
   id: SpawnMobCatSpace
-  name: Space Cat Spawner
+  name: 太空猫生成器
   components:
   - type: Sprite
     layers:
@@ -74,7 +74,7 @@
 - type: entity
   parent: MarkerBase
   id: SpawnMobCockroach
-  name: Cockroach Spawner
+  name: 蟑螂生成器
   components:
   - type: Sprite
     layers:
@@ -89,7 +89,7 @@
 - type: entity
   parent: MarkerBase
   id: SpawnMobMoproach
-  name: Moproach Spawner
+  name: Moproach 孵化器
   components:
   - type: Sprite
     layers:
@@ -104,7 +104,7 @@
 - type: entity
   parent: MarkerBase
   id: SpawnMobCow
-  name: Cow Spawner
+  name: 奶牛刷怪箱
   components:
   - type: Sprite
     layers:
@@ -118,7 +118,7 @@
 - type: entity
   parent: MarkerBase
   id: SpawnMobCrab
-  name: Crab Spawner
+  name: 螃蟹产卵者
   components:
   - type: Sprite
     layers:
@@ -132,7 +132,7 @@
 - type: entity
   parent: MarkerBase
   id: SpawnMobFrog
-  name: Frog Spawner
+  name: 青蛙产卵器
   components:
   - type: Sprite
     layers:
@@ -146,7 +146,7 @@
 - type: entity
   parent: MarkerBase
   id: SpawnMobGoat
-  name: Goat Spawner
+  name: 山羊刷怪箱
   components:
   - type: Sprite
     layers:
@@ -160,7 +160,7 @@
 - type: entity
   parent: MarkerBase
   id: SpawnMobGorilla
-  name: Gorilla Spawner
+  name: 大猩猩生成器
   components:
   - type: Sprite
     layers:
@@ -174,7 +174,7 @@
 - type: entity
   parent: MarkerBase
   id: SpawnMobLizard
-  name: Lizard Spawner
+  name: 蜥蜴生成器
   components:
   - type: Sprite
     layers:
@@ -188,7 +188,7 @@
 - type: entity
   parent: MarkerBase
   id: SpawnMobMonkey
-  name: Monkey Spawner
+  name: 猴子生成器
   components:
   - type: Sprite
     layers:
@@ -202,7 +202,7 @@
 - type: entity
   parent: MarkerBase
   id: SpawnMobMouse
-  name: Mouse Spawner
+  name: 鼠标生成器
   components:
   - type: Sprite
     layers:
@@ -219,7 +219,7 @@
 - type: entity
   parent: MarkerBase
   id: SpawnMobParrot
-  name: Parrot Spawner
+  name: 鹦鹉生成器
   components:
   - type: Sprite
     layers:
@@ -233,7 +233,7 @@
 - type: entity
   parent: MarkerBase
   id: SpawnMobPenguin
-  name: Penguin Spawner
+  name: 企鹅刷怪笼
   components:
   - type: Sprite
     layers:
@@ -247,7 +247,7 @@
 - type: entity
   parent: MarkerBase
   id: SpawnMobReindeerBuck
-  name: Reindeer Buck Spawner
+  name: 驯鹿雄鹿刷怪笼
   components:
   - type: Sprite
     layers:
@@ -261,7 +261,7 @@
 - type: entity
   parent: MarkerBase
   id: SpawnMobReindeerDoe
-  name: Reindeer Doe Spawner
+  name: 驯鹿雌鹿生成器
   components:
   - type: Sprite
     layers:
@@ -275,7 +275,7 @@
 - type: entity
   parent: MarkerBase
   id: SpawnMobSlug
-  name: Slug Spawner
+  name: 蛞蝓生成器
   components:
   - type: Sprite
     layers:

@@ -2,8 +2,8 @@
   abstract: true
   parent: [ DisposalUnitBase, SeatBase ]
   id: BaseToilet
-  name: toilet
-  description: The HT-451, a torque rotation-based, waste disposal unit for small matter. This one seems remarkably clean.
+  name: 抽水马桶
+  description: HT-451是一款基于扭矩旋转原理的小型废物处理装置。这个看起来异常洁净。
   components:
   - type: Sprite
     sprite: Structures/Furniture/toilet.rsi
@@ -68,7 +68,7 @@
   - type: ToolOpenable
     openToolQualityNeeded: Prying
     closeToolQualityNeeded: Prying
-    name: secret-stash-toilet
+    name: 秘密藏匿马桶
   - type: Drain
     autoDrain: false
   - type: StaticPrice
@@ -119,8 +119,8 @@
 - type: entity
   parent: BaseToilet
   id: ToiletEmpty
-  name: toilet
-  description: The HT-451, a torque rotation-based, waste disposal unit for small matter. This one seems remarkably clean.
+  name: 抽水马桶
+  description: HT-451是一款基于扭矩旋转原理的小型废物处理装置。这个看起来异常洁净。
   suffix: Empty
   components:
   - type: Construction
@@ -129,6 +129,7 @@
 
 # so theres not actually any way to replenish the gastrotoxin / gold in these.
 # I wouldn't add it to the solutionregeneration comp because that doesn't make a lot of sense imo.
+# I guess we just need to add shitting?
 - type: entity
   parent: ToiletEmpty
   id: ToiletDirtyWater
@@ -147,34 +148,10 @@
           Quantity: 20
 
 - type: entity
-  parent: ToiletEmpty
-  id: ToiletFilled
-  suffix: Empty, Random Cistern Loot
-  components:
-  - type: EntityTableContainerFill
-    containers:
-      stash: !type:NestedSelector
-        tableId: ToiletCisternLoot
-        rolls: !type:RangeNumberSelector
-          range: 0, 1
-
-- type: entity
-  parent: ToiletDirtyWater
-  id: ToiletDirtyWaterFilled
-  suffix: Dirty Water, Random Cistern Loot
-  components:
-  - type: EntityTableContainerFill
-    containers:
-      stash: !type:NestedSelector
-        tableId: ToiletCisternLoot
-        rolls: !type:RangeNumberSelector
-          range: 0, 1
-
-- type: entity
   parent: BaseToilet
   id: ToiletGoldenEmpty
-  name: golden toilet
-  description: The HT-451G is the gold version of the device. It says on the side that it is made of the purest Mercurian gold and a real leather seat.
+  name: 金色马桶
+  description: HT-451G是该设备的金色版本，侧面标注采用最纯净的水星黄金打造，并配有真皮座圈。
   suffix: Empty
   components:
   - type: Sprite

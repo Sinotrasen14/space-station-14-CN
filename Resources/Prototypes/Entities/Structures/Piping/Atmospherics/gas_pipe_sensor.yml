@@ -1,8 +1,8 @@
 - type: entity
   parent: [AirSensorBase, GasBinaryBase]
   id: GasPipeSensor
-  name: gas pipe sensor
-  description: Reports on the status of the gas in the attached pipe network.
+  name: 燃气管传感器
+  description: 报告所连接管网中的燃气状态。
   placement:
     mode: AlignAtmosPipeLayers
   components:

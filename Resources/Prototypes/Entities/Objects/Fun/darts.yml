@@ -1,6 +1,6 @@
 - type: entity
-  name: dart
-  description: Light throwing dart for playing darts. Don't get in the eye!
+  name: 飞镖
+  description: 用于玩飞镖游戏的轻型投掷飞镖。小心别扎到眼睛！
   parent: BaseItem
   id: Dart
   components:
@@ -130,10 +130,10 @@
     maxTransferAmount: 7
 
 - type: entity
-  name: dartboard
+  name: 镖盘
   id: TargetDarts
   parent: BaseStructureDynamic
-  description: A target for playing darts.
+  description: 玩飞镖用的靶子。
   components:
   - type: Sprite
     sprite: Objects/Fun/Darts/target.rsi
@@ -193,9 +193,9 @@
 - type: entity
   parent: [ BaseItem, BaseSyndicateContraband ]
   id: HypoDartBox
-  name: hypodart box
+  name: hypodart盒
   suffix: HypoDart
-  description: A small box containing a hypodart. Packaging disintegrates when opened, leaving no evidence behind.
+  description: 内含一枚hypodart的小盒。包装在开启时自动分解，不留痕迹。
   components:
   - type: Sprite
     sprite: Objects/Fun/Darts/dartbox.rsi

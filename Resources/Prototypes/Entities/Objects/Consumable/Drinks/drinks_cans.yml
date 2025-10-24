@@ -41,8 +41,8 @@
 - type: entity
   parent: DrinkCanBaseFull
   id: DrinkColaCan
-  name: Space Cola can
-  description: A sweet, carbonated soft drink.
+  name: 太空可乐罐
+  description: 一种甜味的碳酸软饮料。
   components:
   - type: SolutionContainerManager
     solutions:
@@ -81,8 +81,8 @@
 - type: entity
   parent: DrinkCanBaseFull
   id: DrinkIcedTeaCan
-  name: iced tea can
-  description: A refreshing can of iced tea.
+  name: 冰茶罐
+  description: 一罐清爽的冰茶。
   components:
   - type: SolutionContainerManager
     solutions:
@@ -100,8 +100,8 @@
 - type: entity
   parent: DrinkCanBaseFull
   id: DrinkLemonLimeCan
-  name: Smite can
-  description: You wanted ORANGE. It gave you Lemon-Lime.
+  name: 斯迈特可以
+  description: 你想要的是橙子味。它却给了你柠檬青柠味。
   components:
   - type: SolutionContainerManager
     solutions:
@@ -119,8 +119,8 @@
 - type: entity
   parent: DrinkCanBaseFull
   id: DrinkLemonLimeCranberryCan
-  name: Smite Cranberry can
-  description: Y'all want a Smite Cranberry? Beloved by administrators everywhere. Drink in moderation. A limited run for the holidays!
+  name: Smite Cranberry 易拉罐
+  description: 想来罐Smite Cranberry吗？这可是各地管理员的心头好。适量饮用，节日限定款哦！
   components:
   - type: SolutionContainerManager
     solutions:
@@ -171,8 +171,8 @@
 - type: entity
   parent: DrinkCanBaseFull
   id: DrinkGrapeCan
-  name: grape soda can
-  description: Sweetened drink with a grape flavor and a deep purple color.
+  name: 葡萄苏打罐
+  description: 一款带有葡萄风味和深紫色的甜味饮品。
   components:
   - type: SolutionContainerManager
     solutions:
@@ -190,8 +190,8 @@
 - type: entity
   parent: DrinkCanBaseFull
   id: DrinkRootBeerCan
-  name: root beer can
-  description: Some of that tasty root beer goodness, now in a portable can!
+  name: 根啤罐
+  description: 一些美味的根啤精华，现已推出便携罐装版！
   components:
   - type: SolutionContainerManager
     solutions:
@@ -213,8 +213,8 @@
 - type: entity
   parent: DrinkCanBaseFull
   id: DrinkSodaWaterCan
-  name: soda water can
-  description: Soda water. Why not make a scotch and soda?
+  name: 苏打水可以
+  description: 苏打水。为什么不调一杯苏格兰苏打呢？
   components:
   - type: SolutionContainerManager
     solutions:
@@ -232,8 +232,8 @@
 - type: entity
   parent: DrinkCanBaseFull
   id: DrinkSpaceMountainWindCan
-  name: Space Solar Wind can
-  description: Blows right through you like a solar wind.
+  name: 太空太阳风可以
+  description: 它像太阳风一样穿透你。
   components:
   - type: SolutionContainerManager
     solutions:
@@ -251,8 +251,8 @@
 - type: entity
   parent: DrinkCanBaseFull
   id: DrinkSpaceUpCan
-  name: Space-Up can
-  description: Tastes like a hull breach in your mouth.
+  name: 太空汽水可以
+  description: 尝起来就像船舱破洞般在口中炸裂。
   components:
   - type: SolutionContainerManager
     solutions:
@@ -270,8 +270,8 @@
 - type: entity
   parent: DrinkCanBaseFull
   id: DrinkSolDryCan
-  name: Sol Dry can
-  description: Sweet ginger soda from outer space!
+  name: 索尔干姜汽水
+  description: 来自外太空的甜姜汽水！
   components:
   - type: SolutionContainerManager
     solutions:
@@ -289,8 +289,8 @@
 - type: entity
   parent: DrinkCanBaseFull
   id: DrinkStarkistCan
-  name: Starkist can
-  description: The taste of a star in liquid form. And, a bit of tuna...?
+  name: Starkist 罐头
+  description: 液态的星辰滋味。以及，些许金枪鱼...？
   components:
   - type: SolutionContainerManager
     solutions:
@@ -308,8 +308,8 @@
 - type: entity
   parent: DrinkCanBaseFull
   id: DrinkTonicWaterCan
-  name: tonic water can
-  description: Quinine tastes funny, but at least it'll keep that Space Malaria away.
+  name: 奎宁水可以
+  description: 奎宁的味道有点怪，但至少它能防止太空疟疾。
   components:
   - type: SolutionContainerManager
     solutions:
@@ -327,8 +327,8 @@
 - type: entity
   parent: DrinkCanBaseFull
   id: DrinkFourteenLokoCan
-  name: Fourteen Loko can
-  description: The MBO has advised crew members that consumption of Fourteen Loko may result in seizures, blindness, drunkeness, or even death. Please Drink Responsibly.
+  name: 十四洛克饮料
+  description: MBO已告知船员，饮用十四洛克饮料可能导致癫痫、失明、醉酒甚至死亡。请理性饮酒。
   components:
   - type: SolutionContainerManager
     solutions:
@@ -346,8 +346,8 @@
 - type: entity
   parent: DrinkCanBaseFull
   id: DrinkChangelingStingCan
-  name: Changeling Sting can
-  description: You take a tiny sip and feel a burning sensation...
+  name: 幻形灵之刺
+  description: 你小啜一口，感到一阵灼烧感...
   components:
   - type: SolutionContainerManager
     solutions:
@@ -365,8 +365,8 @@
 - type: entity
   parent: DrinkCanBaseFull
   id: DrinkDrGibbCan
-  name: Dr. Gibb can
-  description: A delicious blend of 42 different flavours.
+  name: 吉布博士可以
+  description: 42种不同风味的美妙融合。
   components:
   - type: SolutionContainerManager
     solutions:
@@ -384,8 +384,8 @@
 - type: entity
   parent: DrinkCanBaseFull
   id: DrinkNukieCan
-  name: Blood-red Brew can
-  description: A home-brewed drink made from the crazed minds at the Syndicate. Not recommended by doctors.
+  name: 血红色酿造
+  description: 一种由辛迪加疯狂头脑们自制的饮品。医生不推荐饮用。
   components:
   - type: SolutionContainerManager
     solutions:
@@ -407,8 +407,8 @@
 - type: entity
   parent: DrinkCanBaseFull
   id: DrinkEnergyDrinkCan
-  name: Red Bool can
-  description: A can of Red Bool, with enough caffeine to kill a horse.
+  name: 红牛罐
+  description: 一罐红牛，所含的咖啡因足以致命。
   components:
   - type: SolutionContainerManager
     solutions:
@@ -426,8 +426,8 @@
 - type: entity
   parent: DrinkCanBaseFull
   id: DrinkShamblersJuiceCan
-  name: Shambler's Juice can
-  description: ~Shake me up some of that Shambler's Juice!~
+  name: 山姆勒果汁可以
+  description: ~快给我来点山姆勒果汁！~
   components:
   - type: SolutionContainerManager
     solutions:
@@ -445,8 +445,8 @@
 - type: entity
   parent: DrinkCanBaseFull
   id: DrinkPwrGameCan
-  name: PWR Game can
-  description: The only drink with the PWR that true gamers crave. When a gamer talks about gamerfuel, this is what they're literally referring to.
+  name: PWR 游戏能量饮料
+  description: 唯一蕴含玩家真正渴求的PWR能量饮料。当玩家提及"游戏燃料"时，这杯饮品便是他们字面意义上的所指。
   components:
   - type: SolutionContainerManager
     solutions:
@@ -464,8 +464,8 @@
 - type: entity
   parent: DrinkCanBaseFull
   id: DrinkBeerCan
-  name: beer can
-  description: Small joy, big taste, no worries!
+  name: 啤酒罐
+  description: 小快乐，大滋味，无忧虑！
   components:
   - type: SolutionContainerManager
     solutions:
@@ -487,8 +487,8 @@
 - type: entity
   parent: DrinkCanBaseFull
   id: DrinkWineCan
-  name: wine can
-  description: Your way to forgetting all worries and having fun!
+  name: 酒能
+  description: 忘却所有烦恼、尽享欢乐的捷径！
   components:
   - type: SolutionContainerManager
     solutions:

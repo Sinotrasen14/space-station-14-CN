@@ -1,5 +1,5 @@
 - type: entity
-  name: random altar spawner
+  name: 随机祭坛生成器
   id: AltarSpawner
   parent: MarkerBase
   components:
@@ -20,7 +20,7 @@
       offset: 0.0
 
 - type: entity
-  name: random convert-altar spawner
+  name: 随机转换祭坛生成器
   id: ConvertAltarSpawner
   parent: MarkerBase
   components:
@@ -43,7 +43,7 @@
       offset: 0.0
 
 - type: entity
-  name: random cult-altar spawner
+  name: 随机祭坛生成器
   id: CultAltarSpawner
   parent: MarkerBase
   components:

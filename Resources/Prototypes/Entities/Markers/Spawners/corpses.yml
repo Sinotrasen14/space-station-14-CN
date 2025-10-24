@@ -1,5 +1,5 @@
 - type: entity
-  name: Human Corpse Spawner
+  name: 人类尸体生成器
   id: SalvageHumanCorpseSpawner
   parent: MarkerBase
   components:
@@ -12,7 +12,7 @@
       - SalvageHumanCorpse
 
 - type: entity
-  name: Random Service Corpse Spawner
+  name: 随机服务尸体生成器
   id: RandomServiceCorpseSpawner
   parent: SalvageHumanCorpseSpawner
   components:
@@ -25,7 +25,7 @@
       - MobRandomServiceCorpse
 
 - type: entity
-  name: Random Engineer Corpse Spawner
+  name: 随机工程师尸体生成器
   id: RandomEngineerCorpseSpawner
   parent: SalvageHumanCorpseSpawner
   components:
@@ -38,7 +38,7 @@
       - MobRandomEngineerCorpse
 
 - type: entity
-  name: Random Cargo Corpse Spawner
+  name: 随机货物尸体生成器
   id: RandomCargoCorpseSpawner
   parent: SalvageHumanCorpseSpawner
   components:
@@ -51,7 +51,7 @@
       - MobRandomCargoCorpse
 
 - type: entity
-  name: Random Medic Corpse Spawner
+  name: 随机医疗兵尸体生成器
   id: RandomMedicCorpseSpawner
   parent: SalvageHumanCorpseSpawner
   components:
@@ -64,7 +64,7 @@
       - MobRandomMedicCorpse
 
 - type: entity
-  name: Random Science Corpse Spawner
+  name: 随机科学尸体生成器
   id: RandomScienceCorpseSpawner
   parent: SalvageHumanCorpseSpawner
   components:
@@ -77,7 +77,7 @@
       - MobRandomScienceCorpse
 
 - type: entity
-  name: Random Security Corpse Spawner
+  name: 随机安全尸体生成器
   id: RandomSecurityCorpseSpawner
   parent: SalvageHumanCorpseSpawner
   components:
@@ -90,7 +90,7 @@
       - MobRandomSecurityCorpse
 
 - type: entity
-  name: Random Command Corpse Spawner
+  name: 随机指令尸体生成器
   id: RandomCommandCorpseSpawner
   parent: SalvageHumanCorpseSpawner
   components:

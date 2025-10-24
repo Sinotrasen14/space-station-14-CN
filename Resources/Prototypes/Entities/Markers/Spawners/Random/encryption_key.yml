@@ -1,6 +1,6 @@
 # Intentionally does not include channels like syndicate comms or binary, since these getting in to the hands of random people can cause a round to derail.
 - type: entity
-  name: random encryption key spawner
+  name: 随机加密密钥生成器
   id: LootSpawnerEncryptionKey
   parent: MarkerBase
   components:

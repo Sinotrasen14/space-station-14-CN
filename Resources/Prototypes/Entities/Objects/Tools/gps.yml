@@ -1,8 +1,8 @@
 - type: entity
-  name: global positioning system
+  name: 全球定位系统
   parent: BaseItem
   id: HandheldGPSBasic
-  description: Helping lost spacemen find their way through the planets since 2016.
+  description: 自2016年起，帮助迷航宇航员在星际间找到归途。
   components:
   - type: Sprite
     sprite: Objects/Devices/gps.rsi
@@ -21,7 +21,7 @@
     - GPS
 
 - type: entity #why does this exist? Well, "global positioning system" is too long to fit in the cyborg's hand slot.
-  name: integrated GPS
+  name: 集成GPS
   parent: HandheldGPSBasic
   id: BorgHandheldGPSBasic
-  description: A miniaturized Global Positioning System for use in cyborg units.
+  description: 一种用于改造人单元的小型化全球定位系统。

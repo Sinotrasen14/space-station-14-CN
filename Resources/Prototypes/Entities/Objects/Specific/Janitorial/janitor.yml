@@ -1,8 +1,8 @@
 - type: entity
   parent: BaseItem
-  name: mop
+  name: 拖把
   id: MopItem
-  description: A mop that can't be stopped, viscera cleanup detail awaits.
+  description: 一把无法被阻挡的拖把，内脏清洁工作静待完成。
   components:
   - type: Sprite
     sprite: Objects/Specific/Janitorial/mop.rsi
@@ -59,9 +59,9 @@
 
 - type: entity
   parent: BaseItem
-  name: advanced mop
+  name: 高级拖把
   id: AdvMopItem
-  description: Motorized mop that has a bigger reservoir and quickly replaces reagents inside with water. Automatic Clown Countermeasure not included.
+  description: 带更大容量的水箱并能快速用水替换内部试剂的电动拖把。不含自动小丑对策功能。
   components:
     - type: Sprite
       sprite: Objects/Specific/Janitorial/advmop.rsi
@@ -123,10 +123,10 @@
     - type: DnaSubstanceTrace
 
 - type: entity
-  name: wet floor sign
+  name: 小心地滑标识
   id: WetFloorSign
   parent: ClothingOuterBase
-  description: Caution! Wet Floor!
+  description: 小心！地滑！
   components:
   - type: Sprite
     sprite: Objects/Specific/Janitorial/wet_floor_sign.rsi
@@ -208,10 +208,10 @@
     - WetFloorSign
 
 - type: entity
-  name: plunger
+  name: 活塞拔子
   id: Plunger
   parent: BaseItem
-  description: A plunger with a red plastic suction-cup and a wooden handle. Used to unclog drains.
+  description: 一个带有红色塑料吸盘和木质手柄的活塞拔子。用于疏通排水管道。
   components:
   - type: Tag
     tags:
@@ -273,10 +273,10 @@
       Wood: 100
 
 - type: entity
-  name: golden plunger
+  name: 金色通厕器
   id: GoldenPlunger
   parent: Plunger
-  description: A plunger with a plastic suction cup coated in a thin layer of gold given as a token of appreciation for years of service. Still used to unclog drains.
+  description: 一个带有塑料吸盘的通厕器，吸盘表面覆有薄金层，作为对多年服务的感谢赠礼。仍可用于疏通堵塞的排水管。
   components:
   - type: Tag # TODO change Plunger into a tool so we dont got to layer Tags like below.
     tags:
@@ -318,9 +318,9 @@
 
 - type: entity
   parent: BaseItem
-  name: damp rag
+  name: 湿抹布
   id: RagItem
-  description: For cleaning up messes, you suppose.
+  description: 用来清理脏东西的，我猜。
   components:
     - type: Sprite
       sprite: Objects/Specific/Janitorial/rag.rsi
@@ -369,8 +369,8 @@
 - type: entity
   parent: BaseItem
   id: WireBrush
-  name: wire brush
-  description: A bristly steel wire brush, perfect for scraping away even the toughest patches of rust.
+  name: 钢丝刷
+  description: 一把刚硬的钢丝刷，非常适合刮除最顽固的锈斑。
   components:
   - type: Sprite
     sprite: Objects/Specific/Janitorial/wirebrush.rsi

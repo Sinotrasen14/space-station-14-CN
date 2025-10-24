@@ -1,8 +1,8 @@
 - type: entity
-  name: wirecutter
+  name: 线切割机
   parent: BaseItem
   id: Wirecutter
-  description: This kills the wire.
+  description: 这会损坏电极丝。
   components:
   - type: EmitSoundOnLand
     sound:
@@ -45,10 +45,10 @@
     price: 30
 
 - type: entity
-  name: screwdriver
+  name: 螺丝刀
   parent: BaseItem
   id: Screwdriver
-  description: Industrial grade torque in a small screwdriving package.
+  description: 工业级扭矩，集成于小巧的螺丝刀机身中。
   components:
   - type: EmitSoundOnLand
     sound:
@@ -89,10 +89,10 @@
     price: 30
 
 - type: entity
-  name: wrench
+  name: 扳手
   parent: BaseItem
   id: Wrench
-  description: 'A common tool for assembly and disassembly. Remember: lefty latchy, righty removey.'
+  description: 装配和拆卸的常用工具。记住：左拧紧，右拧松。
   components:
   - type: EmitSoundOnLand
     sound:
@@ -131,10 +131,10 @@
     - Construction
 
 - type: entity
-  name: multitool
+  name: 多功能工具
   parent: BaseItem
   id: Multitool
-  description: An advanced tool to copy, store, and send electrical pulses and signals through wires and machines.
+  description: 一款通过电线与机器复制、存储和发送电脉冲信号的高级工具。
   components:
   - type: EmitSoundOnLand
     sound:
@@ -185,10 +185,10 @@
     - InspectingPower
 
 - type: entity
-  name: network configurator
+  name: 网络配置器
   parent: BaseItem
   id: NetworkConfigurator
-  description: A tool for linking devices together. Has two modes, a list mode for mass linking devices and a linking mode for advanced device linking.
+  description: 一种用于将设备连接在一起的工具。具有两种模式：列表模式用于批量连接设备，以及连接模式用于高级设备连接。
   components:
     - type: EmitSoundOnLand
       sound:
@@ -238,10 +238,10 @@
 #Power tools
 #Later on these should switch probably switch damage when changing the tool behavior.
 - type: entity
-  name: power drill
+  name: 电钻
   parent: BaseItem
   id: PowerDrill
-  description: A simple powered hand drill.
+  description: 一把简单的电动手钻。
   components:
   - type: Tag
     tags:
@@ -294,8 +294,8 @@
 - type: entity
   id: RCD
   parent: [ BaseItem, BaseEngineeringContraband ]
-  name: RCD
-  description: The rapid construction device can be used to quickly place and remove various station structures and fixtures. Requires compressed matter to function.
+  name: 快速建造装置
+  description: 快速建造装置可用于快速放置和移除各类空间站结构与设施，需消耗压缩物质方能运作。
   components:
   - type: RCD
     availablePrototypes:
@@ -355,8 +355,8 @@
 - type: entity
   id: RCDRecharging
   parent: RCD
-  name: experimental RCD
-  description: Cyborg-mounted Rapid Construction Device which creates compressed matter on the fly using an internal fabricator.
+  name: 实验性快速建造装置
+  description: 赛博格搭载式快速建造装置，利用内置制造器实时生成压缩物质。
   suffix: AutoRecharge
   components:
   - type: LimitedCharges
@@ -368,17 +368,17 @@
   id: RCDExperimental
   parent: RCD
   suffix: Admeme
-  name: experimental RCD
-  description: A bluespace-enhanced rapid construction device that passively generates its own compressed matter.
+  name: 实验性快速建造装置
+  description: 一种蓝空间增强型快速建造装置，能被动生成自压缩物质。
   components:
   - type: AutoRecharge
     rechargeDuration: 1
 
 - type: entity
-  name: compressed matter
+  name: 压缩物质
   parent: BaseItem
   id: RCDAmmo
-  description: A cartridge of raw matter compacted by bluespace technology. Used in rapid construction devices.
+  description: 一盒由蓝空技术压缩的原始物质，用于快速建造设备。
   components:
   - type: RCDAmmo
   - type: Sprite
@@ -395,10 +395,10 @@
     price: 60
 
 - type: entity
-  name: omnitool
+  name: 万能工具
   parent: BaseItem
   id: Omnitool
-  description: A drone's best friend.
+  description: 无人机的最佳伴侣。
   components:
   - type: Sprite
     sprite: Objects/Tools/omnitool.rsi
@@ -461,10 +461,10 @@
 
 #Other
 - type: entity
-  name: shovel
+  name: 铲子
   parent: BaseItem
   id: Shovel
-  description: A large tool for digging and moving dirt.
+  description: 一种用于挖掘和搬运泥土的大型工具。
   components:
   - type: Sprite
     sprite: Objects/Tools/shovel.rsi
@@ -490,8 +490,8 @@
 - type: entity
   parent: BaseItem
   id: RollingPin
-  name: rolling pin
-  description: A tool used to shape and flatten dough.
+  name: 擀面杖
+  description: 一种用于塑形和压平面团的工具。
   components:
   - type: Sprite
     sprite: Objects/Tools/rolling_pin.rsi

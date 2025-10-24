@@ -1,6 +1,6 @@
 - type: entity
   id: BaseMagazineRifle
-  name: "magazine (.20 rifle)"
+  name: 杂志（点20口径步枪）
   parent: [ BaseItem, BaseSecurityContraband ]
   abstract: true
   components:
@@ -33,9 +33,9 @@
 
 - type: entity
   id: MagazineRifle
-  name: "magazine (.20 rifle)"
+  name: 弹匣（.20步枪）
   parent: BaseMagazineRifle
-  description: 25-round double stack magazine for combat rifles. Intended to hold general-purpose kinetic ammunition.
+  description: 25发双排弹匣，适用于战斗步枪，旨在容纳通用动能弹药。
   components:
   - type: BallisticAmmoProvider
     proto: CartridgeRifle
@@ -54,10 +54,10 @@
 
 - type: entity
   id: MagazineRifleEmpty
-  name: "magazine (.20 rifle any)"
+  name: 弹匣（.20口径步枪通用）
   suffix: empty
   parent: MagazineRifle
-  description: 25-round double stack magazine for combat rifles.
+  description: 25发双排弹匣，适用于战斗步枪。
   components:
   - type: BallisticAmmoProvider
     proto: null
@@ -76,9 +76,9 @@
 
 - type: entity
   id: MagazineRifleIncendiary
-  name: "magazine (.20 rifle incendiary)"
+  name: 弹匣（.20口径步枪燃烧弹）
   parent: MagazineRifle
-  description: 25-round double stack magazine for combat rifles. Intended to hold self-igniting incendiary ammunition.
+  description: 25发双排弹匣，适用于战斗步枪，专用于装填自燃式燃烧弹药。
   components:
   - type: BallisticAmmoProvider
     proto: CartridgeRifleIncendiary
@@ -103,9 +103,9 @@
 
 - type: entity
   id: MagazineRiflePractice
-  name: "magazine (.20 rifle practice)"
+  name: 弹匣（.20步枪练习）
   parent: BaseMagazineRifle
-  description: 25-round double stack magazine for combat rifles. Intended to hold non-harmful chalk ammunition.
+  description: 25发双排弹匣，适用于战斗步枪，用于装填无害粉笔弹药。
   components:
   - type: BallisticAmmoProvider
     proto: CartridgeRiflePractice
@@ -130,9 +130,9 @@
 
 - type: entity
   id: MagazineRifleUranium
-  name: "magazine (.20 rifle uranium)"
+  name: 弹匣（.20口径步枪铀弹）
   parent: BaseMagazineRifle
-  description: 25-round double stack magazine for combat rifles. Intended to hold exotic uranium-core ammunition.
+  description: 25发双排弹匣，适用于战斗步枪，专为装载特制铀芯弹药设计。
   components:
   - type: BallisticAmmoProvider
     proto: CartridgeRifleUranium

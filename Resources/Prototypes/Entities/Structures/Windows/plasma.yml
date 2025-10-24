@@ -1,6 +1,6 @@
 - type: entity
   id: PlasmaWindow
-  name: plasma window
+  name: 等离子体窗
   parent: [BaseDeltaPressurePlasma, WindowRCDResistant]
   components:
   - type: Sprite
@@ -56,8 +56,8 @@
 - type: entity
   id: PlasmaWindowDirectional
   parent: [BaseDeltaPressurePlasmaQuarter, WindowDirectionalRCDResistant]
-  name: directional plasma window
-  description: Don't smudge up the glass down there.
+  name: 定向等离子体窗
+  description: 别把下面的玻璃弄脏了。
   placement:
     mode: SnapgridCenter
     snap:

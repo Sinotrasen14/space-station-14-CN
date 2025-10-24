@@ -1,7 +1,7 @@
 - type: entity
   parent: MarkerBase
   id: SpawnMobCarp
-  name: Space Carp Spawner
+  name: 太空鲤鱼生成器
   components:
   - type: Sprite
     layers:
@@ -15,7 +15,7 @@
 - type: entity
   parent: MarkerBase
   id: SpawnMobCarpHolo
-  name: Holocarp Spawner
+  name: 全果产孢体
   components:
   - type: Sprite
     layers:
@@ -29,7 +29,7 @@
 - type: entity
   parent: MarkerBase
   id: SpawnMobCarpMagic
-  name: Magicarp Spawner
+  name: 鲤鱼王生成器
   components:
   - type: Sprite
     layers:
@@ -43,7 +43,7 @@
 - type: entity
   parent: MarkerBase
   id: SpawnMobShark
-  name: Space Sharkminnow Spawner
+  name: 太空鲨鱼鱼苗生成器
   components:
   - type: Sprite
     layers:

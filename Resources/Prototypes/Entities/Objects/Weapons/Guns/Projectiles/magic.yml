@@ -1,7 +1,7 @@
 - type: entity
   id: ProjectileFireball
-  name: fireball
-  description: You better GITTAH WEIGH.
+  name: 火球
+  description: 你最好赶紧称一下。
   parent: BulletRocket
   categories: [ HideSpawnMenu ]
   components:
@@ -34,8 +34,8 @@
   categories: [ HideSpawnMenu ]
   parent: BaseBulletTrigger
   id: ProjectileDragonsBreath
-  name: dragon's breath
-  description: Try not to get toasted.
+  name: 龙息
+  description: 小心别被烤焦了。
   components:
   - type: PointLight
     color: "#E25822"
@@ -65,8 +65,8 @@
 
 - type: entity
   id: ProjectileAnomalyFireball
-  name: fireball
-  description: Hovering blob of flame.
+  name: 火球
+  description: 悬浮的火焰团。
   parent: ProjectileFireball
   categories: [ HideSpawnMenu ]
   components:
@@ -81,8 +81,8 @@
 
 - type: entity
   id: ProjectileLocker
-  name: cursed locker
-  description: A cursed magical locker! Can you resist?
+  name: 被诅咒的储物柜
+  description: 一个被诅咒的魔法储物柜！你能抵挡住诱惑吗？
   parent: ClosetSteelBase
   categories: [ HideSpawnMenu ]
   components:
@@ -185,8 +185,8 @@
 - type: entity
   id: ProjectilePolyboltCarp
   parent: ProjectilePolyboltBase
-  name: carp polybolt
-  description: Nooo, I don't wanna be fish!
+  name: 鲤鱼多螺栓
+  description: 不，我不想变成鱼！
   categories: [ HideSpawnMenu ]
   components:
   - type: PolymorphOnTrigger
@@ -199,8 +199,8 @@
 - type: entity
   id: ProjectilePolyboltMonkey
   parent: ProjectilePolyboltBase
-  name: monkey polybolt
-  description: Nooo, I don't wanna be monkey!
+  name: 猴子聚能螺栓
+  description: 不，我不想变成猴子！
   categories: [ HideSpawnMenu ]
   components:
   - type: PolymorphOnTrigger
@@ -213,8 +213,8 @@
 - type: entity
   id: ProjectilePolyboltDoor
   parent: ProjectilePolyboltBase
-  name: door polybolt
-  description: Nooo, I don't wanna be door!
+  name: 门用多螺栓
+  description: 不，我不想变成门！
   categories: [ HideSpawnMenu ]
   components:
   - type: Sprite
@@ -234,8 +234,8 @@
 
 - type: entity
   id: ProjectileHealingBolt
-  name: healing bolt
-  description: I COMMAND YOU TO LIVE!
+  name: 治愈之箭
+  description: 我命令你活下去！
   parent: BaseBullet
   categories: [ HideSpawnMenu ]
   components:
@@ -255,10 +255,10 @@
 
 - type: entity
   id: BulletInstakillMagic
-  name: magical lead cylinder
+  name: 神奇的铅制圆筒
   parent: BaseBullet
   categories: [ HideSpawnMenu ]
-  description: This looks familiar.
+  description: 这看起来很眼熟。
   components:
   - type: Projectile
     damage:
@@ -269,8 +269,8 @@
 - type: entity
   id: ProjectilePolyboltCluwne
   parent: ProjectilePolyboltBase
-  name: cluwne polybolt
-  description: KnoH KnoH!
+  name: 小丑聚合螺栓
+  description: KnoH KnoH！
   categories: [ HideSpawnMenu ]
   components:
   - type: PolymorphOnTrigger
@@ -283,8 +283,8 @@
 - type: entity
   id: ProjectileIcicle
   parent: BaseBullet
-  name: icicle
-  description: Brrrrr.
+  name: 冰柱
+  description: 好冷啊。
   categories: [ HideSpawnMenu ]
   components:
   - type: Sprite
@@ -299,8 +299,8 @@
 - type: entity
   parent: ProjectilePolyboltBase
   id: ProjectilePolyboltBread
-  name: bread polybolt
-  description: Nooo, I don't wanna be bread!
+  name: 面包多螺栓
+  description: 不，我不想变成面包！
   categories: [ HideSpawnMenu ]
   components:
   - type: PolymorphOnTrigger

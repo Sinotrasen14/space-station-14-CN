@@ -1,8 +1,8 @@
 - type: entity
-  name: rat king
+  name: 鼠王
   id: MobRatKing
   parent: [ SimpleMobBase, MobCombat ]
-  description: He's da rat. He make da roolz.
+  description: 他是鼠王。他定规矩。
   components:
   - type: CombatMode
   - type: MovementSpeedModifier
@@ -89,8 +89,8 @@
         Base: dead
   - type: GhostRole
     makeSentient: true
-    name: ghost-role-information-rat-king-name
-    description: ghost-role-information-rat-king-description
+    name: 鼠王
+    description: 幽灵角色信息-鼠王-描述
     rules: ghost-role-information-antagonist-rules
     mindRoles:
     - MindRoleGhostRoleSoloAntagonist
@@ -166,10 +166,10 @@
     - MinorAntagonists
 
 - type: entity
-  name: rat servant
+  name: 鼠仆
   id: MobRatServant
   parent: [ SimpleMobBase, MobCombat ]
-  description: He's da mini rat. He don't make da roolz.
+  description: 他是那只小老鼠。他不制定规则。
   categories: [ HideSpawnMenu ] #Must be configured to a King or the AI breaks.
   components:
   - type: CombatMode
@@ -321,8 +321,8 @@
 - type: entity
   parent: BaseAction
   id: ActionRatKingRaiseArmy
-  name: Raise Army
-  description: Spend some hunger to summon an allied rat to help defend you.
+  name: 召唤鼠群
+  description: 消耗一些饥饿值，召唤一只友方老鼠来协助防御。
   components:
   - type: Action
     useDelay: 4
@@ -335,8 +335,8 @@
 - type: entity
   parent: BaseAction
   id: ActionRatKingDomain
-  name: Rat King's Domain
-  description: Spend some hunger to release a cloud of ammonia into the air.
+  name: 鼠王领域
+  description: 消耗一些饥饿值，向空气中释放一团氨气。
   components:
   - type: Action
     useDelay: 6
@@ -349,8 +349,8 @@
 - type: entity
   parent: BaseAction
   id: ActionRatKingOrderStay
-  name: Stay
-  description: Command your army to stand in place.
+  name: 原地待命
+  description: 命令你的军队原地待命。
   components:
   - type: Action
     useDelay: 1
@@ -368,8 +368,8 @@
 - type: entity
   parent: BaseAction
   id: ActionRatKingOrderFollow
-  name: Follow
-  description: Command your army to follow you around.
+  name: 跟随
+  description: 命令你的军队跟随你。
   components:
   - type: Action
     useDelay: 1
@@ -387,8 +387,8 @@
 - type: entity
   parent: BaseAction
   id: ActionRatKingOrderCheeseEm
-  name: Cheese 'Em
-  description: Command your army to attack whoever you point at.
+  name: 干掉他们
+  description: 命令你的军队攻击你所指的任何目标。
   components:
   - type: Action
     useDelay: 1
@@ -406,8 +406,8 @@
 - type: entity
   parent: BaseAction
   id: ActionRatKingOrderLoose
-  name: Loose
-  description: Command your army to act at their own will.
+  name: 自由行动
+  description: 命令你的军队自由行动。
   components:
   - type: Action
     useDelay: 1

@@ -44,7 +44,7 @@
 - type: entity
   abstract: true
   id: MobOreCrab
-  name: ore crab
+  name: 矿石蟹
   parent: [ MobElementalBase, MobCombat ]
   components:
   - type: Sprite
@@ -72,7 +72,7 @@
 - type: entity
   parent: MobOreCrab
   id: MobQuartzCrab
-  description: An ore crab made from Quartz.
+  description: 一只由石英制成的矿石蟹。
   suffix: Quartz
   components:
   - type: Sprite
@@ -97,7 +97,7 @@
 - type: entity
   parent: MobOreCrab
   id: MobIronCrab
-  description: An ore crab made from iron.
+  description: 一只用铁制成的矿石蟹。
   suffix: Iron
   components:
   - type: Sprite
@@ -129,7 +129,7 @@
 - type: entity
   parent: MobOreCrab
   id: MobCoalCrab
-  description: An ore crab made from coal.
+  description: 一只用煤炭制成的矿石蟹。
   suffix: Coal
   components:
   - type: Sprite
@@ -161,7 +161,7 @@
 - type: entity
   parent: MobOreCrab
   id: MobUraniumCrab
-  description: An ore crab made from uranium.
+  description: 一只用铀制成的矿石蟹。
   suffix: Uranium
   components:
   - type: FactionException
@@ -197,7 +197,7 @@
 - type: entity
   parent: MobOreCrab
   id: MobBananiumCrab
-  description: An ore crab made from bananium.
+  description: 一只由香蕉矿制成的矿石蟹。
   suffix: Bananium
   components:
   - type: Sprite
@@ -253,7 +253,7 @@
 - type: entity
   parent: MobOreCrab
   id: MobSilverCrab
-  description: An ore crab made from silver.
+  description: 一只用银制成的矿石蟹。
   suffix: Silver
   components:
   - type: Sprite
@@ -282,7 +282,7 @@
 - type: entity
   parent: MobOreCrab
   id: MobGoldCrab
-  description: An ore crab made from gold.
+  description: 一只用黄金制成的矿石蟹。
   suffix: Gold
   components:
   - type: Sprite
@@ -309,15 +309,15 @@
         acts: [ "Destruction" ]
 
 - type: entity
-  name: reagent slime
+  name: 试剂粘液
   id: ReagentSlime
   suffix: Water
   parent: [ MobAdultSlimes, MobCombat ]
-  description: It consists of a liquid, and it wants to dissolve you in itself.
+  description: 它由一种液体构成，并试图将你溶解于其中。
   components:
   - type: GhostRole
     prob: 0
-    description: ghost-role-information-angry-slimes-description
+    description: 幽灵角色信息-愤怒史莱姆描述
     rules: ghost-role-information-angry-slimes-rules
     mindRoles:
     - MindRoleGhostRoleTeamAntagonist
@@ -386,7 +386,7 @@
     solution: bloodstream
 
 - type: entity
-  name: Reagent Slime Spawner
+  name: 试剂史莱姆生成器
   id: ReagentSlimeSpawner
   parent: MarkerBase
   components:

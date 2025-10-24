@@ -1,8 +1,8 @@
 - type: entity
-  name: fire extinguisher
+  name: 灭火器
   parent: BaseItem
   id: FireExtinguisher
-  description: It extinguishes fires.
+  description: 它能扑灭火焰。
   components:
   - type: Sprite
     sprite: Objects/Misc/fire_extinguisher.rsi
@@ -78,8 +78,8 @@
 - type: entity
   parent: FireExtinguisher
   id: BorgFireExtinguisher
-  name: maneuvering jet
-  description: Based on fire extinguisher technology, the maneuvering jet is... well yes, its just a bigger fire extinguisher.
+  name: 机动喷气装置
+  description: 基于灭火器技术，机动喷气装置...没错，它就是个更大的灭火器。
   components:
   - type: SolutionContainerManager
     solutions:
@@ -90,7 +90,7 @@
           Quantity: 200
 
 - type: entity
-  name: extinguisher spray
+  name: 灭火器喷雾
   id: ExtinguisherSpray
   parent: Vapor
   categories: [ HideSpawnMenu ]
@@ -108,10 +108,10 @@
     animationState: extinguish
 
 - type: entity
-  name: pocket fire extinguisher
+  name: 袖珍灭火器
   parent: FireExtinguisher
   id: FireExtinguisherMini
-  description: A light and compact fibreglass-framed model fire extinguisher. It holds less water than its bigger brother.
+  description: 一款轻巧紧凑的玻璃钢框架模型灭火器，其储水量比大型灭火器少。
   components:
   - type: Sprite
     sprite: Objects/Misc/fire_extinguisher_mini.rsi
@@ -144,8 +144,8 @@
 - type: entity
   parent: [ FireExtinguisher, BaseXenoborgContraband ]
   id: SelfRechargingFireExtinguisher
-  name: self-recharging fire extinguisher
-  description: It extinguishes fires. it slowly refills with water.
+  name: 自充式灭火器
+  description: 它能灭火，还会慢慢自动补充水。
   components:
   - type: SolutionRegeneration
     solution: spray

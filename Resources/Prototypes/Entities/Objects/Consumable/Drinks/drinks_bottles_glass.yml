@@ -75,8 +75,8 @@
 - type: entity
   parent: [DrinkVisualsAllFilled, DrinkBottleGlassBaseFull]
   id: DrinkAbsintheBottleFull
-  name: Jailbreaker Verte
-  description: One sip of this and you just know you're gonna have a good time.
+  name: 越狱者维特
+  description: 抿上一口，你就知道今晚必将尽兴。
   components:
   - type: SolutionContainerManager
     solutions:
@@ -92,8 +92,8 @@
 - type: entity
   parent: [DrinkVisualsAllFilled, DrinkBottleGlassBaseFull]
   id: DrinkBlueCuracaoBottleFull
-  name: Miss Blue Curaçao
-  description: A fruity, exceptionally azure drink. Does not allow the imbiber to use the fifth magic.
+  name: 蓝橙酒小姐
+  description: 一款果味浓郁、格外湛蓝的饮品。饮用者无法使用第五魔法。
   components:
   - type: SolutionContainerManager
     solutions:
@@ -116,8 +116,8 @@
 - type: entity
   parent: [DrinkVisualsOpenable, DrinkBottleGlassBaseFull]
   id: DrinkBottleOfNothingFull
-  name: bottle of nothing
-  description: A bottle filled with nothing.
+  name: 一瓶虚无
+  description: 一瓶虚无。
   components:
   - type: SolutionContainerManager
     solutions:
@@ -133,8 +133,8 @@
 - type: entity
   parent: [DrinkVisualsOpenable, DrinkBottleGlassBaseFull]
   id: DrinkChampagneBottleFull
-  name: champagne bottle
-  description: Only people devoid of imagination can't find an excuse for champagne.
+  name: 香槟酒瓶
+  description: 只有缺乏想象力的人才找不到喝香槟的借口。
   components:
   - type: SolutionContainerManager
     solutions:
@@ -154,8 +154,8 @@
 - type: entity
   parent: [DrinkVisualsAllFilled, DrinkBottleGlassBaseFull]
   id: DrinkCognacBottleFull
-  name: cognac bottle
-  description: A sweet and strongly alcoholic drink, made after numerous distillations and years of maturing. You might as well not scream 'SHITCURITY' this time.
+  name: 干邑酒瓶
+  description: 一种甜而烈性的酒，经过多次蒸馏和多年陈酿而成。这次你最好别再嚷嚷“狗屁安保”了。
   components:
   - type: SolutionContainerManager
     solutions:
@@ -171,8 +171,8 @@
 - type: entity
   parent: [DrinkVisualsAllFilled, DrinkBottleGlassBaseFull]
   id: DrinkGrenadineBottleFull
-  name: Briar Rose grenadine syrup bottle
-  description: Sweet and tangy, a bar syrup used to add color or flavor to drinks.
+  name: Briar Rose红石榴糖浆瓶
+  description: 甜中带酸，一种用于为饮品增添色泽或风味的酒吧糖浆。
   components:
   - type: SolutionContainerManager
     solutions:
@@ -195,8 +195,8 @@
 - type: entity
   parent: [DrinkVisualsAllFilled, DrinkBottleGlassBaseFull]
   id: DrinkGinBottleFull
-  name: Griffeater gin
-  description: A bottle of high quality gin, produced in the New London Space Station.
+  name: 格里菲特质金酒
+  description: 一瓶高品质的金酒，产自新伦敦空间站。
   components:
   - type: SolutionContainerManager
     solutions:
@@ -212,8 +212,8 @@
 - type: entity
   parent: [DrinkVisualsAllFilled, DrinkBottleGlassBaseFull]
   id: DrinkGildlagerBottleFull
-  name: Gildlager bottle
-  description: 100 proof cinnamon schnapps, made for alcoholic teen girls on spring break.
+  name: 镀金瓶
+  description: 100度肉桂烈酒，专为春假期间酗酒的少女们打造。
   components:
   - type: SolutionContainerManager
     solutions:
@@ -229,8 +229,8 @@
 - type: entity
   parent: [DrinkVisualsOpenable, DrinkBottleGlassBaseFull]
   id: DrinkCoffeeLiqueurBottleFull
-  name: coffee liqueur bottle
-  description: The great taste of coffee with none of the benifits.
+  name: 咖啡利口酒瓶
+  description: 咖啡的美味，却无其益处。
   components:
   - type: SolutionContainerManager
     solutions:
@@ -246,8 +246,8 @@
 - type: entity
   parent: [DrinkVisualsAllFilled, DrinkBottleGlassBaseFull]
   id: DrinkMelonLiquorBottleFull
-  name: Emeraldine melon liquor
-  description: A bottle of 46 proof Emeraldine melon liquor. Sweet and light.
+  name: 翡翠甜瓜利口酒
+  description: 一瓶46度的翡翠甜瓜利口酒，口感清甜淡雅。
   components:
   - type: SolutionContainerManager
     solutions:
@@ -270,8 +270,8 @@
 - type: entity
   parent: [DrinkVisualsAllFilled, DrinkBottleGlassBaseFull]
   id: DrinkPatronBottleFull
-  name: Wrapp Artiste Patrón bottle
-  description: Silver laced tequila, served in space night clubs across the galaxy.
+  name: 缠绕艺术家帕特龙瓶
+  description: 银色花纹龙舌兰酒，在银河系的太空夜总会中供应。
   components:
   - type: SolutionContainerManager
     solutions:
@@ -287,8 +287,8 @@
 - type: entity
   parent: [DrinkVisualsOpenable, DrinkBottleGlassBaseFull]
   id: DrinkPoisonWinebottleFull
-  name: Warlock's Velvet bottle
-  description: What a delightful packaging for a surely high quality wine! The vintage must be amazing!
+  name: 术士的丝绒酒瓶
+  description: 这包装真是太精美了，里面的葡萄酒肯定品质上乘！年份必然非同凡响！
   components:
   - type: SolutionContainerManager
     solutions:
@@ -306,8 +306,8 @@
 - type: entity
   parent: [DrinkVisualsAllFilled, DrinkBottleGlassBaseFull]
   id: DrinkRumBottleFull
-  name: Captain Pete's Cuban spiced rum
-  description: This isn't just rum, oh no. It's practically GRIFF in a bottle.
+  name: 彼得船长古巴香料朗姆酒
+  description: 这不仅仅是朗姆酒，远不止如此。它简直就是瓶中的狮鹫之力。
   components:
   - type: SolutionContainerManager
     solutions:
@@ -323,8 +323,8 @@
 - type: entity
   parent: [DrinkVisualsAllFilled, DrinkBottleGlassBaseFull]
   id: DrinkTequilaBottleFull
-  name: Caccavo Guaranteed Quality tequila bottle
-  description: Made from premium petroleum distillates, pure thalidomide and other fine quality ingredients!
+  name: Caccavo品质保证龙舌兰酒瓶
+  description: 采用优质石油馏分、纯萨力多胺及其他上等原料精制而成！
   components:
   - type: SolutionContainerManager
     solutions:
@@ -340,8 +340,8 @@
 - type: entity
   parent: [DrinkVisualsAllFilled, DrinkBottleGlassBaseFull]
   id: DrinkVermouthBottleFull
-  name: Goldeneye vermouth bottle
-  description: Sweet, sweet dryness!
+  name: 金眼味美思酒瓶
+  description: 甜美，甜美的干爽！
   components:
   - type: SolutionContainerManager
     solutions:
@@ -357,8 +357,8 @@
 - type: entity
   parent: [DrinkVisualsAllFilled, DrinkBottleGlassBaseFull]
   id: DrinkVodkaBottleFull
-  name: vodka bottle
-  description: Aah, vodka. Prime choice of drink AND fuel by Russians worldwide.
+  name: 伏特加酒瓶
+  description: 啊，伏特加。全世界俄罗斯人的首选饮品兼燃料。
   components:
   - type: SolutionContainerManager
     solutions:
@@ -374,8 +374,8 @@
 - type: entity
   parent: [DrinkVisualsAllFilled, DrinkBottleGlassBaseFull]
   id: DrinkWhiskeyBottleFull
-  name: Uncle Git's Special Reserve
-  description: A premium single-malt whiskey, gently matured inside the tunnels of a nuclear shelter. TUNNEL WHISKEY RULES.
+  name: 吉特大叔的特藏
+  description: 一款优质单一麦芽威士忌，于核掩体隧道内轻柔陈年。隧道威士忌法则。
   components:
   - type: SolutionContainerManager
     solutions:
@@ -391,8 +391,8 @@
 - type: entity
   parent: [DrinkVisualsOpenable, DrinkBottleGlassBaseFull]
   id: DrinkWineBottleFull
-  name: Doublebearded Bearded Special wine bottle
-  description: A faint aura of unease and asspainery surrounds the bottle.
+  name: 双髯特酿葡萄酒瓶
+  description: 一股微弱的不安与恼人氛围萦绕于瓶身。
   components:
   - type: SolutionContainerManager
     solutions:
@@ -414,8 +414,8 @@
 - type: entity
   parent: [DrinkVisualsAllFilled, DrinkBottleGlassBaseFull]
   id: DrinkBeerGrowler # todo Needs to be renamed DrinkBeerBottleFullGrowler
-  name: beer growler  # beer it is. coffee. beer? coff-ee? be-er? c-o... b-e
-  description: An alcoholic beverage made from malted grains, hops, yeast, and water. XL growler bottle.
+  name: 啤酒壶  # 啤酒没错。咖啡。啤酒？咖-啡？啤-酒？咖... 啤...
+  description: 一种由麦芽、啤酒花、酵母和水制成的酒精饮料。XL号啤酒壶。
   components:
   - type: SolutionContainerManager
     solutions:
@@ -440,8 +440,8 @@
 - type: entity
   parent: [DrinkVisualsAllFilled, DrinkBottleGlassBaseFull]
   id: DrinkAleBottleFullGrowler
-  name: Magm-Ale growler
-  description: A true dorf's drink of choice. XL growler bottle.
+  name: Magm-Ale 啤酒壶
+  description: 真正的矮人首选饮品。超大号啤酒壶。
   components:
   - type: SolutionContainerManager
     solutions:
@@ -465,8 +465,8 @@
 - type: entity
   parent: [DrinkVisualsAllFilled, DrinkBottleGlassSmallBaseFull]
   id: DrinkBeerBottleFull
-  name: beer bottle # beer it is. coffee. beer? coff-ee? be-er? c-o... b-e
-  description: An alcoholic beverage made from malted grains, hops, yeast, and water.
+  name: 啤酒瓶#是啤酒。咖啡。啤酒？咖啡？啤酒？咖……啡……？啤……酒……？
+  description: 一种由麦芽、啤酒花、酵母和水制成的酒精饮料。
   components:
   - type: SolutionContainerManager
     solutions:
@@ -489,8 +489,8 @@
 - type: entity
   parent: [DrinkVisualsAllFilled, DrinkBottleGlassSmallBaseFull]
   id: DrinkAleBottleFull
-  name: Magm-Ale bottle
-  description: A true dorf's drink of choice.
+  name: Magm-Ale酒瓶
+  description: 真正的矮人首选饮品。
   components:
   - type: SolutionContainerManager
     solutions:
@@ -510,8 +510,8 @@
 - type: entity
   parent: [DrinkVisualsOpenable, DrinkBottleGlassSmallBaseFull]
   id: DrinkSakeBottleFull
-  name: small sake bottle
-  description: The regret of the next morning seems to be nipping on the bottle too.
+  name: 小清酒瓶
+  description: 翌日清晨的悔意似乎也萦绕在酒瓶上。
   components:
   - type: SolutionContainerManager
     solutions:

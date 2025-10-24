@@ -2,7 +2,7 @@
   abstract: true
   parent: BaseItem
   id: MaterialBase
-  description: A raw material.
+  description: 原材料。
   components:
   - type: Sprite
     sprite: Objects/Materials/materials.rsi
@@ -26,7 +26,7 @@
 - type: entity
   parent: MaterialBase
   id: MaterialCardboard
-  name: cardboard
+  name: 硬纸板
   suffix: Full
   components:
   - type: Material
@@ -87,7 +87,7 @@
 - type: entity
   parent: MaterialBase
   id: MaterialCloth
-  name: cloth
+  name: 布
   suffix: Full
   components:
   - type: Healing
@@ -177,7 +177,7 @@
 - type: entity
   parent: MaterialBase
   id: MaterialDurathread
-  name: durathread
+  name: duravent 纤维
   suffix: Full
   components:
   - type: Stack
@@ -230,7 +230,7 @@
 - type: entity
   parent: MaterialBase
   id: MaterialWoodPlank
-  name: wood
+  name: 木头
   suffix: Full
   components:
   - type: Material
@@ -285,7 +285,7 @@
 - type: entity
   parent: MaterialBase
   id: MaterialBiomass
-  name: biomass
+  name: 生物质
   suffix: Full
   components:
   - type: Material
@@ -315,7 +315,7 @@
 - type: entity
   parent: MaterialBase
   id: MaterialHideBear
-  name: bear hide
+  name: 熊皮
   components:
   - type: Sprite
     sprite: Objects/Materials/materials.rsi
@@ -342,8 +342,8 @@
 - type: entity
   parent: MaterialBase
   id: MaterialHideCorgi
-  name: corgi hide
-  description: Luxury pelt used in only the most elite fashion. Rumors say this is found when a corgi is sent to the nice farm.
+  name: 柯基毛皮
+  description: 仅用于顶级时尚的奢华毛皮。传闻柯基被送往美好农场时便能寻得此物。
   components:
   - type: Sprite
     sprite: Objects/Materials/materials.rsi
@@ -362,7 +362,7 @@
 - type: entity
   parent: MaterialBase
   id: MaterialDiamond
-  name: refined diamond
+  name: 精炼钻石
   suffix: Full
   components:
   - type: Stack
@@ -408,7 +408,7 @@
 - type: entity
   parent: MaterialBase
   id: MaterialCotton
-  name: cotton
+  name: 棉花
   suffix: Full
   components:
   - type: Stack
@@ -467,7 +467,7 @@
 - type: entity
   parent: MaterialBase
   id: MaterialPyrotton
-  name: pyrotton
+  name: 皮罗顿
   suffix: Full
   components:
   - type: Stack
@@ -521,7 +521,7 @@
 - type: entity
   parent: MaterialBase
   id: MaterialBananium
-  name: bananium
+  name: 香蕉矿
   suffix: Full
   components:
   - type: Material
@@ -582,8 +582,8 @@
 - type: entity
   parent: MaterialBase
   id: MaterialWebSilk
-  name: silk
-  description: A webby material.
+  name: 丝绸
+  description: 一种网状材料。
   suffix: Full
   components:
   - type: PhysicalComposition
@@ -641,8 +641,8 @@
 - type: entity
   parent: MaterialBase
   id: MaterialToothSpaceCarp
-  name: space carp tooth
-  description: Pretty small but plenty nasty. You like them best when they're not sinking into you.
+  name: 太空鲤鱼的牙齿
+  description: 个头不大，却十分凶悍。它们没咬到你的时候最讨人喜欢。
   suffix: Full
   components:
   - type: Sprite
@@ -679,8 +679,8 @@
 - type: entity
   parent: [ MaterialBase, BaseKnife ]
   id: MaterialToothSharkminnow
-  name: sharkminnow tooth
-  description: Looks sharp. Sharp enough to poke someone's eye out. Holy fuck it's big.
+  name: 鲨鱼米诺鱼牙
+  description: 看起来很锋利。锋利到足以戳瞎别人的眼睛。卧槽，这东西真大。
   suffix: Full
   components:
   - type: MeleeWeapon
@@ -722,7 +722,7 @@
 - type: entity
   parent: MaterialBase
   id: MaterialBones
-  name: bones
+  name: 骨头
   suffix: Full
   components:
   - type: Stack
@@ -761,8 +761,8 @@
 - type: entity
   parent: MaterialBase
   id: MaterialGunpowder
-  name: gunpowder
-  description: An explosive compound.
+  name: 火药
+  description: 一种爆炸性化合物。
   components:
   - type: Stack
     stackType: Gunpowder
@@ -780,8 +780,8 @@
 - type: entity
   parent: MaterialBase
   id: MaterialGoliathHide
-  name: goliath hide plates
-  description: Pieces of a goliath's rocky hide, these might be able to make your suit a bit more durable to attack from the local fauna.
+  name: 歌利亚兽皮质甲片
+  description: 这些歌利亚兽的岩石皮质甲片，或许能让你的护甲对当地野生动物的攻击更具防护力。
   suffix: Full
   components:
   - type: Sprite

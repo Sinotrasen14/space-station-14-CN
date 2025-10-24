@@ -31,8 +31,8 @@
 - type: entity
   id: MobGoliath
   parent: [ BaseMobAsteroid, MobBloodstream ]
-  name: goliath
-  description: A massive beast that uses long tentacles to ensnare its prey, threatening them is not advised under any conditions.
+  name: 歌利亚
+  description: 一头利用长触须诱捕猎物的庞然巨兽，在任何情况下都不建议去威胁它。
   components:
   - type: Sprite
     sprite: Mobs/Aliens/Asteroid/goliath.rsi
@@ -97,8 +97,8 @@
 - type: entity
   parent: BaseAction
   id: ActionGoliathTentacle
-  name: "[color=red]Tentacle Slam[/color]"
-  description: Use your tentacles to grab and stun a target player!
+  name: "[color=red]触须猛击[/color]"
+  description: 用你的触须抓住并击晕目标玩家！
   components:
   - type: Action
     raiseOnUser: true
@@ -118,7 +118,7 @@
 
 - type: entity
   id: GoliathTentacle
-  name: tentacle
+  name: 触手
   components:
   - type: Transform
     anchored: True
@@ -153,7 +153,7 @@
 - type: entity
   id: BaseEffectGoliathTentacleSpawn
   categories: [ HideSpawnMenu ]
-  name: tentacle
+  name: 触手
   abstract: true
   components:
   - type: Transform
@@ -171,7 +171,7 @@
   id: EffectGoliathTentacleSpawn
   parent: BaseEffectGoliathTentacleSpawn
   categories: [ HideSpawnMenu ]
-  name: tentacle
+  name: 触手
   components:
     - type: Sprite
       state: goliath_tentacle_spawn
@@ -191,8 +191,8 @@
 - type: entity
   id: MobHivelord
   parent: [ BaseMobAsteroid, FlyingMobBase ]
-  name: hivelord
-  description: A truly alien creature, it is a mass of unknown organic material, constantly fluctuating. When attacking, pieces of it split off and attack in tandem with the original.
+  name: 蜂巢领主
+  description: 一个真正的外星生物，它是一团不断波动的未知有机物质。在发动攻击时，其躯体会分裂出碎片，与本体协同作战。
   components:
   - type: Sprite
     sprite: Mobs/Aliens/Asteroid/hivelord.rsi
@@ -251,8 +251,8 @@
 - type: entity
   id: MobHivelordBrood
   parent: [ BaseMobAsteroid, FlyingMobBase ]
-  name: hivelord brood
-  description: A fragment of the original hivelord, rallying behind its original. One isn't much of a threat, but...
+  name: 巢主虫群
+  description: 原初巢主的一块碎片，集结于其本尊麾下。单个碎片不足为惧，但……
   components:
   - type: Sprite
     sprite: Mobs/Aliens/Asteroid/hivelord.rsi
@@ -304,8 +304,8 @@
 - type: entity
   id: FoodHivelordRemains
   parent: FoodBase
-  name: hivelord remains
-  description: All that remains of a hivelord, it seems to be what allows it to break pieces of itself off without being hurt... its healing properties will soon become inert if not used quickly. Try not to think about what you're eating.
+  name: 巢主残骸
+  description: 巢主残骸仅存的遗骸，似乎是它能够撕裂自身碎片而不受伤的原因……其愈合特性若不及时利用便会迅速失效。别去细想自己正在吞食何物。
   components:
   - type: SolutionContainerManager
     solutions:
@@ -335,8 +335,8 @@
 - type: entity
   id: FoodHivelordRemainsInert
   parent: BaseItem
-  name: inert hivelord remains
-  description: All that remains of a hivelord... Now all is truly lost.
+  name: 惰性的蜂巢主宰残骸
+  description: 蜂巢主宰仅存的残骸……如今一切皆已湮灭。
   components:
   - type: Sprite
     sprite: Objects/Consumable/Food/rorocore.rsi
@@ -355,8 +355,8 @@
 - type: entity
   id: MobBasilisk
   parent: [ BaseMobAsteroid, MobBloodstream ]
-  name: basilisk
-  description: A territorial beast, covered in a thick shell that absorbs energy. Its stare causes victims to freeze from the inside.
+  name: 蛇怪
+  description: 领地意识极强的野兽，身披能吸收能量的厚重甲壳。它的凝视能让受害者从内部冻结。
   components:
   - type: Sprite
     sprite: Mobs/Aliens/Asteroid/basilisk.rsi

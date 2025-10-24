@@ -138,7 +138,7 @@
 # Spawners
 
 - type: entity
-  name: nuke ops loot spawner
+  name: 核弹行动战利品生成器
   id: NukeOpsLootSpawner
   parent: MarkerBase
   components:
@@ -154,7 +154,7 @@
     mode: AlignTileAny
 
 - type: entity
-  name: nuke ops weapon spawner
+  name: 核弹行动武器生成器
   id: NukeOpsWeaponSpawner
   parent: MarkerBase
   components:
@@ -171,7 +171,7 @@
     mode: AlignTileAny
 
 - type: entity
-  name: nuke ops brute medkit spawner
+  name: 核行动强效医疗包生成器
   id: NukeOpsMedkitBruteSpawner
   parent: MarkerBase
   components:
@@ -187,7 +187,7 @@
     mode: AlignTileAny
 
 - type: entity
-  name: nuke ops general medkit spawner
+  name: 核行动通用医疗包生成器
   id: NukeOpsMedkitSpawner
   parent: MarkerBase
   components:
@@ -205,7 +205,7 @@
     mode: AlignTileAny
 
 - type: entity
-  name: nuke ops grenade spawner
+  name: 核弹行动手榴弹生成器
   id: NukeOpsGrenadeSpawner
   parent: MarkerBase
   components:
@@ -224,7 +224,7 @@
     mode: AlignTileAny
 
 - type: entity
-  name: nuke ops ammo spawner
+  name: 核弹行动弹药生成器
   id: NukeOpsAmmoSpawner
   parent: MarkerBase
   components:

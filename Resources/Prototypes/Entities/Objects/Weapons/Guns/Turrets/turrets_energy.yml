@@ -2,8 +2,8 @@
   abstract: true
   parent: [BaseWeaponEnergyTurret, ConstructibleMachine]
   id: WeaponEnergyTurretStationBase
-  name: sentry turret
-  description: A high-tech autonomous weapons system designed to keep unauthorized personnel out of sensitive areas.
+  name: 哨戒炮
+  description: 一款高科技自主武器系统，旨在防止未经授权人员进入敏感区域。
   components:
   - type: Anchorable
     flags: 

@@ -31,7 +31,7 @@
 
 - type: entity
   id: RandomHumanoidSpawnerDeathSquad
-  name: Death Squad Agent
+  name: 死亡小队特工
   suffix: ERTRole, Death Squad
   components:
     - type: Sprite
@@ -50,8 +50,8 @@
   parent: EventHumanoidCentcomm
   components:
     - type: GhostRole
-      name: ghost-role-information-Death-Squad-name
-      description: ghost-role-information-Death-Squad-description
+      name: 死亡小队
+      description: 幽灵角色信息-死亡小队-描述
       rules: ghost-role-information-Death-Squad-rules
       raffle:
         settings: short
@@ -72,7 +72,7 @@
 
 - type: entity
   id: RandomHumanoidSpawnerERTLeader
-  name: ERT leader
+  name: ERT队长
   suffix: ERTRole, Basic
   components:
     - type: Sprite
@@ -91,8 +91,8 @@
   parent: EventHumanoidCentcomm
   components:
     - type: GhostRole
-      name: ghost-role-information-ert-leader-name
-      description: ghost-role-information-ert-leader-description
+      name: ERT队长
+      description: 幽灵角色信息-ERT队长-描述
       rules: ghost-role-information-nonantagonist-rules
       raffle:
         settings: short
@@ -109,7 +109,7 @@
 - type: entity
   id: RandomHumanoidSpawnerERTLeaderEVA
   parent: RandomHumanoidSpawnerERTLeader
-  name: ERT leader
+  name: ERT队长
   suffix: ERTRole, Armored EVA
   components:
     - type: Sprite
@@ -123,8 +123,8 @@
   parent: ERTLeader
   components:
     - type: GhostRole
-      name: ghost-role-information-ert-leader-name
-      description: ghost-role-information-ert-leader-description
+      name: ERT队长
+      description: 幽灵角色信息-ERT队长-描述
       rules: ghost-role-information-nonantagonist-rules
       raffle:
         settings: short
@@ -146,8 +146,8 @@
   parent: ERTLeaderEVA
   components:
     - type: GhostRole
-      name: ghost-role-information-ert-leader-name
-      description: ghost-role-information-ert-leader-description
+      name: ERT队长
+      description: 幽灵角色信息-ERT队长-描述
       rules: ghost-role-information-nonantagonist-rules
       raffle:
         settings: short
@@ -161,7 +161,7 @@
 - type: entity
   id: RandomHumanoidSpawnerERTChaplain
   parent: RandomHumanoidSpawnerERTLeader
-  name: ERT chaplain
+  name: ERT随军牧师
   suffix: ERTRole, Basic
   components:
     - type: Sprite
@@ -181,8 +181,8 @@
   components:
     - type: BibleUser
     - type: GhostRole
-      name: ghost-role-information-ert-chaplain-name
-      description: ghost-role-information-ert-chaplain-description
+      name: ERT随军牧师姓名
+      description: 幽灵角色信息-ERT随军牧师描述
       rules: ghost-role-information-nonantagonist-rules
       raffle:
         settings: short
@@ -199,7 +199,7 @@
 - type: entity
   id: RandomHumanoidSpawnerERTChaplainEVA
   parent: RandomHumanoidSpawnerERTChaplain
-  name: ERT chaplain
+  name: ERT随军牧师
   suffix: ERTRole, Enviro EVA
   components:
     - type: Sprite
@@ -213,8 +213,8 @@
   parent: ERTChaplain
   components:
     - type: GhostRole
-      name: ghost-role-information-ert-chaplain-name
-      description: ghost-role-information-ert-chaplain-description
+      name: ERT随军牧师姓名
+      description: 幽灵角色信息-ERT随军牧师描述
       rules: ghost-role-information-nonantagonist-rules
       raffle:
         settings: short
@@ -229,7 +229,7 @@
 - type: entity
   id: RandomHumanoidSpawnerERTJanitor
   parent: RandomHumanoidSpawnerERTLeader
-  name: ERT janitor
+  name: ERT清洁工
   suffix: ERTRole, Basic
   components:
     - type: Sprite
@@ -248,8 +248,8 @@
   parent: ERTLeader
   components:
     - type: GhostRole
-      name: ghost-role-information-ert-janitor-name
-      description: ghost-role-information-ert-janitor-description
+      name: 应急响应小队清洁工姓名
+      description: 幽灵角色信息-应急响应小队清洁工描述
       rules: ghost-role-information-nonantagonist-rules
       raffle:
         settings: short
@@ -266,7 +266,7 @@
 - type: entity
   id: RandomHumanoidSpawnerERTJanitorEVA
   parent: RandomHumanoidSpawnerERTJanitor
-  name: ERT janitor
+  name: ERT清洁工
   suffix: ERTRole, Enviro EVA
   components:
     - type: Sprite
@@ -280,8 +280,8 @@
   parent: ERTJanitor
   components:
     - type: GhostRole
-      name: ghost-role-information-ert-janitor-name
-      description: ghost-role-information-ert-janitor-description
+      name: ERT清洁工姓名
+      description: 幽灵角色信息-ERT清洁工描述
       rules: ghost-role-information-nonantagonist-rules
       raffle:
         settings: short
@@ -295,7 +295,7 @@
 - type: entity
   id: RandomHumanoidSpawnerERTEngineer
   parent: RandomHumanoidSpawnerERTLeader
-  name: ERT engineer
+  name: ERT工程师
   suffix: ERTRole, Basic
   components:
     - type: Sprite
@@ -314,8 +314,8 @@
   parent: ERTLeader
   components:
     - type: GhostRole
-      name: ghost-role-information-ert-engineer-name
-      description: ghost-role-information-ert-engineer-description
+      name: 幽灵角色信息-应急响应工程师姓名
+      description: 幽灵角色信息-应急响应工程师描述
       rules: ghost-role-information-nonantagonist-rules
       raffle:
         settings: short
@@ -332,7 +332,7 @@
 - type: entity
   id: RandomHumanoidSpawnerERTEngineerEVA
   parent: RandomHumanoidSpawnerERTEngineer
-  name: ERT engineer
+  name: ERT工程师
   suffix: ERTRole, Enviro EVA
   components:
     - type: Sprite
@@ -346,8 +346,8 @@
   parent: ERTEngineer
   components:
     - type: GhostRole
-      name: ghost-role-information-ert-engineer-name
-      description: ghost-role-information-ert-engineer-description
+      name: 幽灵角色信息-应急响应工程师-姓名
+      description: 幽灵角色信息-应急响应工程师-描述
       rules: ghost-role-information-nonantagonist-rules
       raffle:
         settings: short
@@ -361,7 +361,7 @@
 - type: entity
   id: RandomHumanoidSpawnerERTSecurity
   parent: RandomHumanoidSpawnerERTLeader
-  name: ERT security
+  name: ERT安全
   suffix: ERTRole, Basic
   components:
     - type: Sprite
@@ -380,8 +380,8 @@
   parent: ERTLeader
   components:
     - type: GhostRole
-      name: ghost-role-information-ert-security-name
-      description: ghost-role-information-ert-security-description
+      name: 幽灵角色信息-应急响应小队-安全名称
+      description: 幽灵角色信息-应急响应小队-安全描述
       rules: ghost-role-information-nonantagonist-rules
       raffle:
         settings: short
@@ -398,7 +398,7 @@
 - type: entity
   id: RandomHumanoidSpawnerERTSecurityEVA
   parent: RandomHumanoidSpawnerERTSecurity
-  name: ERT security
+  name: ERT安全
   suffix: ERTRole, Armored EVA
   components:
     - type: Sprite
@@ -412,8 +412,8 @@
   parent: ERTSecurity
   components:
     - type: GhostRole
-      name: ghost-role-information-ert-security-name
-      description: ghost-role-information-ert-security-description
+      name: 幽灵角色信息-应急响应小队-安全名称
+      description: 幽灵角色信息-应急响应小队-安全描述
       rules: ghost-role-information-nonantagonist-rules
       raffle:
         settings: short
@@ -435,8 +435,8 @@
   parent: ERTSecurityEVA
   components:
     - type: GhostRole
-      name: ghost-role-information-ert-security-name
-      description: ghost-role-information-ert-security-description
+      name: 幽灵角色信息-应急响应小队-安全名称
+      description: 幽灵角色信息-应急响应小队-安全描述
       rules: ghost-role-information-nonantagonist-rules
       raffle:
         settings: short
@@ -450,7 +450,7 @@
 - type: entity
   id: RandomHumanoidSpawnerERTMedical
   parent: RandomHumanoidSpawnerERTLeader
-  name: ERT medic
+  name: 急救医疗技术员
   suffix: ERTRole, Basic
   components:
     - type: Sprite
@@ -469,8 +469,8 @@
   parent: ERTLeader
   components:
     - type: GhostRole
-      name: ghost-role-information-ert-medical-name
-      description: ghost-role-information-ert-medical-description
+      name: 幽灵角色信息-ERT医疗名称
+      description: 幽灵角色信息-ERT医疗描述
       rules: ghost-role-information-nonantagonist-rules
       raffle:
         settings: short
@@ -487,7 +487,7 @@
 - type: entity
   id: RandomHumanoidSpawnerERTMedicalEVA
   parent: RandomHumanoidSpawnerERTMedical
-  name: ERT medic
+  name: 急诊医疗技术员
   suffix: ERTRole, Armored EVA
   components:
     - type: Sprite
@@ -501,8 +501,8 @@
   parent: ERTMedical
   components:
     - type: GhostRole
-      name: ghost-role-information-ert-medical-name
-      description: ghost-role-information-ert-medical-description
+      name: ghost-role-information-ert医疗名称
+      description: 幽灵角色信息-应急响应小组医疗描述
       rules: ghost-role-information-nonantagonist-rules
       raffle:
         settings: short
@@ -515,7 +515,7 @@
 
 - type: entity
   id: RandomHumanoidSpawnerCBURNUnit
-  name: CBURN Agent
+  name: CBURN代理
   suffix: ERTRole
   components:
     - type: Sprite
@@ -532,8 +532,8 @@
       prototypes: [CBURNGear]
       roleLoadout: [ RoleSurvivalEVA ]
     - type: GhostRole
-      name: ghost-role-information-cburn-agent-name
-      description: ghost-role-information-cburn-agent-description
+      name: CBURN特工代号
+      description: 幽灵角色信息-CBURN特工代号描述
       rules: ghost-role-information-nonantagonist-rules
       raffle:
         settings: short
@@ -547,7 +547,7 @@
 ## Central Command
 
 - type: entity
-  name: CentComm official
+  name: 中央司令部官员
   id: RandomHumanoidSpawnerCentcomOfficial
   components:
     - type: Sprite
@@ -561,8 +561,8 @@
   parent: EventHumanoidCentcomm
   components:
     - type: GhostRole
-      name: ghost-role-information-centcom-official-name
-      description: ghost-role-information-centcom-official-description
+      name: 中央司令部官员姓名
+      description: 中央司令部官员角色信息描述
       rules: ghost-role-information-nonantagonist-rules
       raffle:
         settings: default
@@ -575,7 +575,7 @@
 
 - type: entity
   id: RandomHumanoidSpawnerSyndicateAgent
-  name: syndicate agent
+  name: 辛迪加代理人
   components:
     - type: Sprite
       sprite: Mobs/Species/Human/parts.rsi
@@ -596,7 +596,7 @@
 
 - type: entity
   id: RandomHumanoidSpawnerNukeOp
-  name: Nuclear Operative
+  name: 核行动特工
   components:
     - type: Sprite
       sprite: Mobs/Species/Human/parts.rsi
@@ -613,7 +613,7 @@
 
 - type: entity
   id: RandomHumanoidSpawnerCluwne
-  name: Cluwne
+  name: 小丑
   suffix: spawns a cluwne
   components:
     - type: Sprite
@@ -633,8 +633,8 @@
   randomizeName: false
   components:
     - type: GhostRole
-      name: ghost-role-information-cluwne-name
-      description: ghost-role-information-cluwne-description
+      name: 小丑幽灵角色名称
+      description: 小丑幽灵角色描述
       rules: ghost-role-information-nonantagonist-rules
       raffle:
         settings: default

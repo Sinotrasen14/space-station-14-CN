@@ -1,5 +1,5 @@
 - type: entity
-  name: Toy Spawner
+  name: 玩具生成器
   id: ToySpawner
   parent: MarkerBase
   components:
@@ -38,7 +38,7 @@
       offset: 0.2
 
 - type: entity
-  name: Prize Figurine Spawner
+  name: 奖品雕像生成器
   id: FigureSpawner
   parent: MarkerBase
   components:
@@ -73,7 +73,7 @@
       offset: 0.2
 
 - type: entity
-  name: Spacemen Minifigure Spawner
+  name: 宇航员小人仔生成器
   suffix: Librarian only, map with care!
   id: SpacemenFigureSpawner
   parent: MarkerBase

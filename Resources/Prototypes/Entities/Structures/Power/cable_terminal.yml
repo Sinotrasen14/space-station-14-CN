@@ -1,7 +1,7 @@
 - type: entity
   id: CableTerminal
-  name: cable terminal
-  description: You see a small warning on the red cables in grungy black ink. "CONNECT RED TO BATTERY FOR CHARGE."
+  name: 电缆端子
+  description: 你在红色电缆上看到一行用脏污黑墨水写的小字警告："连接红色电缆至蓄电池进行充电"。
   placement:
     mode: SnapgridCenter
   components:

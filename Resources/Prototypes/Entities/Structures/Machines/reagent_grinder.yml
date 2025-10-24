@@ -1,8 +1,8 @@
 - type: entity
   id: KitchenReagentGrinder
   parent: [ BaseMachinePowered, SmallConstructibleMachine ]
-  name: reagent grinder
-  description: From BlenderTech. Will It Blend? Let's find out!
+  name: 试剂研磨机
+  description: 来自BlenderTech。它能研磨吗？我们一探究竟！
   suffix: grinder/juicer
   components:
   - type: ReagentGrinder
@@ -58,8 +58,8 @@
 - type: entity
   parent: Recycler #too different so different parent
   id: ReagentGrinderIndustrial
-  name: industrial reagent grinder
-  description: An industrial reagent grinder.
+  name: 工业试剂研磨机
+  description: 工业试剂研磨机。
   components:
   - type: SolutionContainerManager
     solutions:

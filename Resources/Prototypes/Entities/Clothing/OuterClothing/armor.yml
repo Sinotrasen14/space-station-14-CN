@@ -7,8 +7,8 @@
   abstract: true
   parent: [ClothingOuterBaseMedium, AllowSuitStorageClothing, BaseSecurityContraband]
   id: ClothingOuterArmorBase
-  name: armor vest
-  description: A standard Type I armored vest that provides decent protection against most types of damage.
+  name: 防弹背心
+  description: 标准I型防弹背心，能有效抵御多数类型的伤害。
   components:
   - type: Sprite
     sprite: Clothing/OuterClothing/Armor/security.rsi
@@ -38,9 +38,9 @@
 - type: entity
   parent: ClothingOuterArmorBasic
   id: ClothingOuterArmorBasicSlim
-  name: armor vest
+  name: 装甲背心
   suffix: slim
-  description: A slim Type I armored vest that provides decent protection against most types of damage.
+  description: 一件纤薄的一型装甲背心，能有效抵御多数类型的伤害。
   components:
   - type: Sprite
     sprite: Clothing/OuterClothing/Armor/security_slim.rsi
@@ -50,8 +50,8 @@
 - type: entity
   parent: ClothingOuterArmorBase
   id: ClothingOuterArmorBulletproof
-  name: bulletproof vest
-  description: A Type III heavy bulletproof vest that excels in protecting the wearer against traditional projectile weaponry and explosives to a minor extent.
+  name: 防弹背心
+  description: 一款III型重型防弹背心，在保护穿戴者免受传统抛射武器伤害方面表现卓越，并能在较小程度上防御爆炸物。
   components:
   - type: Sprite
     sprite: Clothing/OuterClothing/Armor/bulletproof.rsi
@@ -70,8 +70,8 @@
 - type: entity
   parent: ClothingOuterArmorBase
   id: ClothingOuterArmorReflective
-  name: reflective vest
-  description: An armored vest with advanced shielding to protect against energy weapons.
+  name: 反光背心
+  description: 一件带有先进防护层、能抵御能量武器的装甲背心。
   components:
   - type: Sprite
     sprite: Clothing/OuterClothing/Armor/armor_reflec.rsi
@@ -94,8 +94,8 @@
 - type: entity
   parent: [ClothingOuterArmorBase, BaseSecurityContraband]
   id: ClothingOuterVestDetective
-  name: detective's vest
-  description: A hard-boiled private investigator's armored vest.
+  name: 侦探的防弹背心
+  description: 一位硬汉派私家侦探的防弹背心。
   components:
   - type: Sprite
     sprite: Clothing/OuterClothing/Vests/detvest.rsi
@@ -126,8 +126,8 @@
 - type: entity
   parent: [ClothingOuterArmorBaseCarapace, BaseCommandContraband]
   id: ClothingOuterArmorCaptainCarapace
-  name: captain's carapace
-  description: An armored chestpiece that provides protection whilst still offering maximum mobility and flexibility. Issued only to the station's finest.
+  name: 上尉甲壳
+  description: 一件提供防护同时仍能提供最大机动性和灵活性的装甲胸甲。仅配发给空间站最优秀的成员。
   components:
   - type: Sprite
     sprite: Clothing/OuterClothing/Armor/captain_carapace.rsi
@@ -141,8 +141,8 @@
 - type: entity
   parent: [ClothingOuterArmorBaseCarapace, BaseCentcommContraband]
   id: ClothingOuterArmorCentcommCarapace
-  name: centcomm carapace
-  description: An armored chestpiece that provides protection whilst still offering maximum mobility and flexibility. Issued only to centcomm officials and agents.
+  name: 中央司令部甲壳
+  description: 一件装甲胸甲，在提供防护的同时仍能确保最大限度的机动性与灵活性。仅配发给中央司令部官员与特工。
   components:
   - type: Sprite
     sprite: Clothing/OuterClothing/Armor/centcomm_carapace.rsi
@@ -153,8 +153,8 @@
 - type: entity
   parent: [ClothingOuterStorageBase, AllowSuitStorageClothing, BaseSyndicateContraband]
   id: ClothingOuterVestWeb
-  name: web vest
-  description: A synthetic armor vest. This one has added webbing and ballistic plates.
+  name: 网织背心
+  description: 一件合成装甲背心。这件增加了网状织物和防弹板。
   components:
   - type: Sprite
     sprite: Clothing/OuterClothing/Vests/webvest.rsi
@@ -176,8 +176,8 @@
 - type: entity
   parent: [ClothingOuterStorageBase, AllowSuitStorageClothing, BaseSyndicateContraband]
   id: ClothingOuterVestWebElite
-  name: elite web vest
-  description: A synthetic armor vest. This one has added webbing and heat resistant fibers.
+  name: 精英网状背心
+  description: 一件合成装甲背心。这款增加了网状结构和耐热纤维。
   components:
   - type: Sprite
     sprite: Clothing/OuterClothing/Vests/elitevest.rsi
@@ -206,8 +206,8 @@
 - type: entity
   parent: [ BaseMajorContraband, ClothingOuterVestWeb] #web vest so it should have some pockets for ammo
   id: ClothingOuterVestWebMerc
-  name: mercenary web vest
-  description: A high-quality armored vest made from a hard synthetic material. It's surprisingly flexible and light, despite formidable armor plating.
+  name: 佣兵网眼背心
+  description: 一件由坚硬合成材料制成的高品质装甲背心。尽管拥有强大的装甲板，它却出奇地柔韧轻便。
   components:
   - type: Sprite
     sprite: Clothing/OuterClothing/Vests/mercwebvest.rsi
@@ -228,8 +228,8 @@
 - type: entity
   parent: [ClothingOuterBaseLarge, AllowSuitStorageClothing, BaseSyndicateContraband ]
   id: ClothingOuterArmorRaid
-  name: syndicate raid suit
-  description: A somewhat flexible and well-armored suit with a powerful shoulder mounted flashlight manufactured in the Gorlex Marauder's iconic blood-red color scheme, it does not protect its wearer from space.
+  name: 辛迪加突袭套装
+  description: 一套较为灵活且防护良好的装甲服，配有强大的肩载探照灯，采用戈莱克斯掠夺者标志性的血红色配色方案，它并不能保护穿戴者免受太空环境的伤害。
   components:
   - type: Sprite
     sprite: Clothing/OuterClothing/Armor/syndie-raid.rsi
@@ -308,8 +308,8 @@
 - type: entity
   parent: [ClothingOuterBaseLarge, AllowSuitStorageClothing, BaseSecurityContraband]
   id: ClothingOuterArmorRiot
-  name: riot suit
-  description: A suit of semi-flexible polycarbonate body armor with heavy padding to protect against melee attacks. Perfect for fighting delinquents around the station.
+  name: 防暴护甲
+  description: 一套半柔性聚碳酸酯防暴护甲，配备厚重衬垫，可有效抵御近战攻击。非常适合在车站周边对抗不法之徒。
   components:
   - type: Sprite
     sprite: Clothing/OuterClothing/Armor/riot.rsi
@@ -330,8 +330,8 @@
 - type: entity
   parent: [ ClothingOuterBaseLarge, BaseMajorContraband, AllowSuitStorageClothing ]
   id: ClothingOuterArmorCult
-  name: acolyte armor
-  description: An evil-looking piece of cult armor, made of bones.
+  name: 侍从铠甲
+  description: 一件外观邪恶、由骨头制成的邪教铠甲。
   components:
   - type: Sprite
     sprite: Clothing/OuterClothing/Armor/cult_armour.rsi
@@ -349,8 +349,8 @@
 - type: entity
   parent: [ClothingOuterBaseLarge, AllowSuitStorageClothing]
   id: ClothingOuterArmorHeavy
-  name: heavy armor suit
-  description: A heavily armored suit that protects against excessive damage.
+  name: 重装甲护服
+  description: 一套能够抵御过度伤害的重装甲护服。
   components:
   - type: Sprite
     sprite: Clothing/OuterClothing/Armor/heavy.rsi
@@ -372,8 +372,8 @@
 - type: entity
   parent: ClothingOuterArmorHeavy
   id: ClothingOuterArmorHeavyGreen
-  name: green heavy armor suit
-  description: A heavily armored suit with green accents that protects against excessive damage.
+  name: 绿色重型装甲服
+  description: 一套带有绿色点缀的重型装甲服，能有效防护过度伤害。
   components:
   - type: Sprite
     sprite: Clothing/OuterClothing/Armor/heavygreen.rsi
@@ -383,8 +383,8 @@
 - type: entity
   parent: ClothingOuterArmorHeavy
   id: ClothingOuterArmorHeavyRed
-  name: red heavy armor suit
-  description: A heavily armored suit with red accents that protects against excessive damage.
+  name: 红色重型装甲服
+  description: 一套带有红色点缀的重型装甲服，能有效防护过度伤害。
   components:
   - type: Sprite
     sprite: Clothing/OuterClothing/Armor/heavyred.rsi
@@ -394,8 +394,8 @@
 - type: entity
   parent: ClothingOuterArmorHeavy
   id: ClothingOuterArmorMagusblue
-  name: blue magus armor
-  description: An blue armored suit that provides good protection.
+  name: 蓝色法师护甲
+  description: 一件提供良好防护的蓝色装甲护服。
   components:
   - type: Sprite
     sprite: Clothing/OuterClothing/Armor/magusblue.rsi
@@ -405,8 +405,8 @@
 - type: entity
   parent: ClothingOuterArmorHeavy
   id: ClothingOuterArmorMagusred
-  name: red magus armor
-  description: A red armored suit that provides good protection.
+  name: 红色法师护甲
+  description: 一件提供良好防护的红色装甲服。
   components:
   - type: Sprite
     sprite: Clothing/OuterClothing/Armor/magusred.rsi
@@ -416,8 +416,8 @@
 - type: entity
   parent: [ ClothingOuterBaseLarge, BaseMajorContraband, AllowSuitStorageClothing ]
   id: ClothingOuterArmorChangeling
-  name: chitinous armor
-  description: Inflates the changeling's body into an all-consuming chitinous mass of armor.
+  name: 几丁质护甲
+  description: 将变形怪的身体膨胀成一副吞噬一切的几丁质护甲。
   components:
   - type: Sprite
     sprite: Clothing/OuterClothing/Armor/lingarmor.rsi
@@ -444,8 +444,8 @@
 - type: entity
   parent: [ ClothingOuterBaseLarge, BaseMajorContraband, AllowSuitStorageClothing ]
   id: ClothingOuterArmorBone
-  name: bone armor
-  description: Sits on you like a second skin.
+  name: 骨甲
+  description: 它如同第二层肌肤般贴合于你。
   components:
   - type: Sprite
     sprite: Clothing/OuterClothing/Armor/bone_armor.rsi
@@ -473,8 +473,8 @@
 - type: entity
   parent: [ ClothingOuterBaseLarge, BaseMajorContraband, AllowSuitStorageClothing ]
   id: ClothingOuterArmorPodWars
-  name: ironclad II armor
-  description: A repurposed suit of ironclad II armor, a relic of the pod wars.
+  name: 铁甲二代装甲
+  description: 一套改装过的铁甲二代装甲，波德战争时期的遗物。
   components:
   - type: Sprite
     sprite: Clothing/OuterClothing/Armor/podwars_armor.rsi
@@ -494,8 +494,8 @@
 - type: entity
   parent: ClothingOuterArmorBase
   id: CardArmour
-  name: cardboard armour
-  description: A medieval chestpiece built from cardboard.
+  name: 纸板盔甲
+  description: 由纸板制成的中世纪胸甲。
   components:
   - type: Sprite
     sprite: Clothing/OuterClothing/Armor/card_armour.rsi

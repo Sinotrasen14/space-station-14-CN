@@ -7,8 +7,8 @@
 - type: entity
   parent: [ BaseControllable, BaseMachinePowered ]
   id: MothershipCore
-  name: mothership core
-  description: A sentient machine that can produce Xenoborgs. Without this the Xenoborgs are doomed.
+  name: 母舰核心
+  description: 一种能生产异形机器人的有知觉机器。没有它，异形机器人就将灭亡。
   components:
   - type: Appearance
   - type: WiresVisuals
@@ -218,8 +218,8 @@
 - type: entity
   parent: BaseAGhostAction
   id: ActionXenoborgControlMonitor
-  name: Xenoborgs Control Console
-  description: View the Xenoborgs Control Console
+  name: 异生机械人控制台
+  description: 查看异生机械人控制台
   components:
   - type: Action
     icon: { sprite: Interface/Actions/actions_borg.rsi, state: xenoborg-basic-module }
@@ -232,8 +232,8 @@
 - type: entity
   parent: BaseAGhostAction
   id: ActionXenoborgCameraMonitor
-  name: Xenoborgs Camera Monitor
-  description: View the Xenoborgs Camera Monitor
+  name: 异生体摄像头监视器
+  description: 查看异生体摄像头监视器
   components:
   - type: Action
     icon: { sprite: Interface/Actions/actions_borg.rsi, state: xenoborg-eye-module }

@@ -1,8 +1,8 @@
 - type: entity
   parent: BaseItem
   id: TreasureDatadiskEncrypted
-  name: encrypted datadisk
-  description: An old data disk. Someone savvier than you could unencrypt it and learn something juicy. All you can do is sell it.
+  name: 加密数据盘
+  description: 一张旧数据盘。比你懂行的人或许能解密它，挖出些猛料。而你只能把它卖掉。
   components:
   - type: Sprite
     sprite: Objects/Misc/module.rsi
@@ -22,8 +22,8 @@
 - type: entity
   parent: BaseItem
   id: TreasureHardDiskDrive
-  name: hard disk drive
-  description: A disk drive designed for old Earth technology, circa 1980. There's probably some kind of collector who might want to get their paws on this.
+  name: 硬盘驱动器
+  description: 专为约1980年古地球技术设计的磁盘驱动器，说不定会有收藏家想把它收入囊中。
   components:
   - type: Sprite
     sprite: Objects/Misc/module.rsi
@@ -44,8 +44,8 @@
 - type: entity
   parent: BaseItem
   id: TreasureFlopDiskDrive
-  name: floppy disk drive
-  description: A drive for reading off info off of floppy disks. Shame that the only things stored on them nowadays are nuclear bomb operations.
+  name: 软盘驱动器
+  description: 一种用于读取软盘信息的驱动器。可惜如今存储其上的只剩核弹操作指令了。
   components:
   - type: Sprite
     sprite: Objects/Misc/module.rsi
@@ -59,8 +59,8 @@
 - type: entity
   parent: BaseItem
   id: TreasureCDDrive
-  name: CD drive
-  description: A piece of tech for reading data off of CDs. Nowadays that's not the most useful thing, unless you plan on flying somewhere.
+  name: 光驱
+  description: 一种用于从CD读取数据的技术。如今这已不是最实用的东西，除非你打算乘飞机去某个地方。
   components:
   - type: Sprite
     sprite: Objects/Misc/module.rsi
@@ -74,8 +74,8 @@
 - type: entity
   parent: BaseItem
   id: TreasureCPUSupercharged
-  name: supercharged CPU
-  description: Some kind of super alien space tech. Shame all the computers already come with CPUs nowadays.
+  name: 超级充电CPU
+  description: 某种超级外星太空科技。可惜如今所有电脑都自带CPU了。
   components:
   - type: Sprite
     sprite: Objects/Misc/module.rsi
@@ -89,8 +89,8 @@
 - type: entity
   parent: BaseItem
   id: TreasureSampleTube
-  name: sample tube
-  description: A glass tube with some sort of goop in it. Looks prone to breaking.
+  name: 样品管
+  description: 一根装着黏糊物质的玻璃管。看起来很容易破碎。
   components:
   - type: Sprite
     sprite: Objects/Misc/sample_tubes.rsi
@@ -142,8 +142,8 @@
 - type: entity
   parent: BaseItem
   id: TreasureCoinIron
-  name: coin
-  description: A flat bit of metal. If it was still in circulation, inflation would've made it worthless. Since it isn't, it's worth enough to keep in a book.
+  name: 硬币
+  description: 一枚扁平的金属片。若仍在流通，通胀早已使其一文不值。正因退出流通，才值得夹在书中珍藏。
   components:
   - type: Sprite
     sprite: Objects/Misc/coins.rsi

@@ -2,9 +2,9 @@
 - type: entity
   parent: BaseBoardEntity
   id: BaseBattlemap
-  name: battlemap
+  name: 战斗地图
   abstract: true
-  description: A battlemap for your epic dungeon exploring to begin, pieces not included!
+  description: 为你的史诗地牢探险准备的战斗地图，不含棋子！
   components:
     - type: Sprite
       sprite: Objects/Fun/Tabletop/grassbm.rsi
@@ -18,8 +18,8 @@
 - type: entity
   parent: BaseBattlemap
   id: GrassBattlemap
-  name: grass battlemap
-  description: A battlemap for your epic dungeon exploring to begin, pieces not included!
+  name: 草地战斗地图
+  description: 为你的史诗地牢探索开启一张战斗地图，配件不包括在内！
   components:
     - type: Sprite
       sprite: Objects/Fun/Tabletop/Battlemaps/grassbm.rsi
@@ -31,8 +31,8 @@
 - type: entity
   parent: BaseBattlemap
   id: MoonBattlemap
-  name: moon battlemap
-  description: A battlemap for your epic moon exploring to begin, pieces not included!
+  name: 月球战斗地图
+  description: 一张为你史诗级月球探险准备的战斗地图，配件不包括在内！
   components:
     - type: Sprite
       sprite: Objects/Fun/Tabletop/Battlemaps/moonbm.rsi
@@ -44,8 +44,8 @@
 - type: entity
   parent: BaseBattlemap
   id: SandBattlemap
-  name: sand battlemap
-  description: A battlemap for your epic beach episodes to begin, pieces not included!
+  name: 沙滩战斗地图
+  description: 为你的史诗级沙滩战役拉开序幕的战斗地图，配件不包括在内！
   components:
     - type: Sprite
       sprite: Objects/Fun/Tabletop/Battlemaps/sandbm.rsi
@@ -57,8 +57,8 @@
 - type: entity
   parent: BaseBattlemap
   id: SnowBattlemap
-  name: snow battlemap
-  description: A battlemap for your frigid exploring to begin, pieces not included! # if this isn't funny enough i can remove it
+  name: 雪地战斗地图
+  description: 为你的严寒探险准备的战斗地图，配件不含在内！#如果这不够有趣，我可以删掉它
   components:
     - type: Sprite
       sprite: Objects/Fun/Tabletop/Battlemaps/snowbm.rsi
@@ -70,8 +70,8 @@
 - type: entity
   parent: BaseBattlemap
   id: ShipBattlemap
-  name: ship battlemap
-  description: A battlemap for your epic space exploring to begin, pieces not included!
+  name: 飞船战斗地图
+  description: 为你的史诗级太空探索准备的飞船战斗地图，配件需另购！
   components:
     - type: Sprite
       sprite: Objects/Fun/Tabletop/Battlemaps/shipbm.rsi
@@ -85,7 +85,7 @@
 - type: entity
   parent: BaseBoardTabletop
   id: GrassBoardTabletop
-  name: grass battlemap
+  name: 草地战斗地图
   categories: [ HideSpawnMenu ]
   components:
   - type: Sprite
@@ -97,7 +97,7 @@
 - type: entity
   parent: BaseBoardTabletop
   id: MoonBoardTabletop
-  name: grass battlemap
+  name: 草地战斗地图
   categories: [ HideSpawnMenu ]
   components:
   - type: Sprite
@@ -107,7 +107,7 @@
 - type: entity
   parent: BaseBoardTabletop
   id: SandBoardTabletop
-  name: sand battlemap
+  name: 沙地战场地图
   categories: [ HideSpawnMenu ]
   components:
   - type: Sprite
@@ -117,7 +117,7 @@
 - type: entity
   parent: BaseBoardTabletop
   id: SnowBoardTabletop
-  name: snow battlemap
+  name: 雪地战场地图
   categories: [ HideSpawnMenu ]
   components:
   - type: Sprite
@@ -127,7 +127,7 @@
 - type: entity
   parent: BaseBoardTabletop
   id: ShipBoardTabletop
-  name: ship battlemap
+  name: 舰船战斗地图
   categories: [ HideSpawnMenu ]
   components:
   - type: Sprite

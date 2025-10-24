@@ -26,8 +26,8 @@
 - type: entity
   parent: BaseSqueezeBottle
   id: DrinkSpaceGlue
-  name: space glue tube
-  description: High performance glue intended for maintenance of extremely complex mechanical equipment. DON'T DRINK!
+  name: 太空胶管
+  description: 高性能胶水，专用于维护极其复杂的机械设备。请勿饮用！
   components:
   - type: Sprite
     sprite: Objects/Consumable/Drinks/glue-tube.rsi
@@ -46,8 +46,8 @@
 - type: entity
   parent: BaseSqueezeBottle
   id: DrinkSpaceLube
-  name: space lube tube
-  description: High performance lubricant intended for maintenance of extremely complex mechanical equipment.
+  name: 太空润滑管
+  description: 高性能润滑剂，专为维护极其复杂的机械设备而设计。
   components:
   - type: Sprite
     sprite: Objects/Consumable/Drinks/lube-tube.rsi
@@ -64,9 +64,9 @@
 - type: entity
   parent: BluespaceBeaker
   id: BottomlessLube
-  name: bottomless lube beaker
+  name: 无尽润滑烧杯
   suffix: DEBUG
-  description: This anomalous beaker infinitely produces space lube and as such is to be closely guarded such that it doesn't fall in the wrong hands.
+  description: 这个异常的烧杯能无限产出空间润滑剂，因此必须严加看守，以防落入恶人之手。
   components:
   - type: SolutionContainerManager
     solutions:
@@ -85,8 +85,8 @@
 - type: entity
   parent: [DrinkBaseMaterialGlass, DrinkBase]
   id: DrinkJarWhat
-  name: jar of something
-  description: You can't really tell what this is.
+  name: 一罐东西
+  description: 你不太能看出这是什么。
   components:
   - type: Sprite
     sprite: Objects/Consumable/Drinks/jar_what.rsi
@@ -146,8 +146,8 @@
 - type: entity
   parent: [DrinkVisualsAllFilled, DrinkBottleGlassSmallBaseFull]
   id: DrinkMopwataBottleRandom
-  name: delicious mopwata
-  description: A foggy brown bottle with a faded label depicting a mop. It comes full of murky... vintage.
+  name: 美味的拖把水
+  description: 一个雾蒙蒙的棕色瓶子，标签褪色，上面画着一把拖把。瓶子里装满了浑浊的... 陈年佳酿。
   components:
   - type: SolutionContainerManager
     solutions:

@@ -1,8 +1,8 @@
 - type: entity
   parent: BaseSign
   id: PaintingMonkey
-  name: monkey painting
-  description: Return to monky.
+  name: 猴子绘画
+  description: 回归猴道。
   components:
   - type: Sprite
     state: monkey_painting
@@ -19,8 +19,8 @@
 - type: entity
   parent: BaseSignDirectional
   id: SignDirectionalAtmos
-  name: atmos sign
-  description: A direction sign, pointing out which way the Atmospherics department is.
+  name: 大气部门指示牌
+  description: 指向大气部门方向的路标。
   components:
   - type: Sprite
     state: direction_atmos
@@ -28,8 +28,8 @@
 - type: entity
   parent: BaseSignDirectional
   id: SignDirectionalBar
-  name: bar sign
-  description: A direction sign, pointing out which way the bar is.
+  name: 酒吧指示牌
+  description: 一个指示牌，指向酒吧所在的方向。
   components:
   - type: Sprite
     state: direction_bar
@@ -37,8 +37,8 @@
 - type: entity
   parent: BaseSignDirectional
   id: SignDirectionalBridge
-  name: bridge sign
-  description: A direction sign, pointing out which way the Bridge is.
+  name: 桥牌指示牌
+  description: 方向指示牌，指向桥的方向。
   components:
   - type: Sprite
     state: direction_bridge
@@ -46,8 +46,8 @@
 - type: entity
   parent: BaseSignDirectional
   id: SignDirectionalBrig
-  name: brig sign
-  description: A direction sign, pointing out which way the Brig is.
+  name: 禁闭室指示牌
+  description: 一个指示牌，指向禁闭室的方向。
   components:
   - type: Sprite
     state: direction_brig
@@ -55,8 +55,8 @@
 - type: entity
   parent: BaseSignDirectional
   id: SignDirectionalChapel
-  name: chapel sign
-  description: A direction sign, pointing out which way the Chapel is.
+  name: 小教堂指示牌
+  description: 指向小教堂方向的路标。
   components:
   - type: Sprite
     state: direction_chapel
@@ -64,8 +64,8 @@
 - type: entity
   parent: BaseSignDirectional
   id: SignDirectionalChemistry
-  name: chemistry sign
-  description: A direction sign, pointing out which way the chemistry lab is.
+  name: 化学实验室指示牌
+  description: 一个指示牌，指向化学实验室的方向。
   components:
   - type: Sprite
     state: direction_chemistry
@@ -73,8 +73,8 @@
 - type: entity
   parent: BaseSignDirectional
   id: SignDirectionalCryo
-  name: cryo sign
-  description: A direction sign, pointing out the way to cryogenics.
+  name: 低温标志
+  description: 一个方向标志，指向通往低温学的路。
   components:
   - type: Sprite
     state: direction_cryo
@@ -82,8 +82,8 @@
 - type: entity
   parent: BaseSignDirectional
   id: SignDirectionalDorms
-  name: dorms sign
-  description: A direction sign, pointing out which way the Dorms are.
+  name: 宿舍指示牌
+  description: 方向指示牌，指向宿舍所在的方向。
   components:
   - type: Sprite
     state: direction_dorms
@@ -91,8 +91,8 @@
 - type: entity
   parent: BaseSignDirectional
   id: SignDirectionalEng
-  name: engineering sign
-  description: A direction sign, pointing out which way the Engineering department is.
+  name: 工程部门指示牌
+  description: 一个指示牌，指向工程部门的方向。
   components:
   - type: Sprite
     state: direction_eng
@@ -100,8 +100,8 @@
 - type: entity
   parent: BaseSignDirectional
   id: SignDirectionalEvac
-  name: evac sign
-  description: A direction sign, pointing out which way evac is.
+  name: 疏散标志
+  description: 方向标志，指示疏散方向。
   components:
   - type: Sprite
     layers:
@@ -117,8 +117,8 @@
 - type: entity
   parent: BaseSignDirectional
   id: SignDirectionalExam
-  name: exam sign
-  description: A direction sign, pointing out which way the examination room(s) are.
+  name: 考场指示牌
+  description: 方向指示牌，指向考场所在的方向。
   components:
   - type: Sprite
     state: direction_exam
@@ -126,8 +126,8 @@
 - type: entity
   parent: BaseSignDirectional
   id: SignDirectionalFood
-  name: food sign
-  description: A direction sign, pointing out which way the kitchen is.
+  name: 食物指示牌
+  description: 一个指示牌，指向厨房的方向。
   components:
   - type: Sprite
     state: direction_food
@@ -135,8 +135,8 @@
 - type: entity
   parent: BaseSignDirectional
   id: SignDirectionalGravity
-  name: gravity sign
-  description: A direction sign, pointing out which way the gravity generator is.
+  name: 重力标志
+  description: 一个方向标志，指向重力发生器的方向。
   components:
   - type: Sprite
     state: direction_gravity
@@ -144,8 +144,8 @@
 - type: entity
   parent: BaseSignDirectional
   id: SignDirectionalHop
-  name: hop sign
-  description: A direction sign, pointing out which way Head of Personnel's office is.
+  name: 人事主管办公室指示牌
+  description: 人事主管办公室方向指示牌。
   components:
   - type: Sprite
     state: direction_hop
@@ -153,8 +153,8 @@
 - type: entity
   parent: BaseSignDirectional
   id: SignDirectionalHydro
-  name: hydro sign
-  description: A direction sign, pointing out which way hydroponics is.
+  name: 水培标志
+  description: 一个指示牌，指向水培的方向。
   components:
   - type: Sprite
     state: direction_hydro
@@ -162,8 +162,8 @@
 - type: entity
   parent: BaseSignDirectional
   id: SignDirectionalIcu
-  name: icu sign
-  description: A direction sign, pointing out which way the ICU is.
+  name: 重症监护室指示牌
+  description: 指向重症监护室方向的方向指示牌。
   components:
   - type: Sprite
     state: direction_icu
@@ -171,8 +171,8 @@
 - type: entity
   parent: BaseSignDirectional
   id: SignDirectionalJanitor
-  name: janitor sign
-  description: A direction sign, pointing out which way the janitor's closet is.
+  name: 清洁工指示牌
+  description: 一个指示牌，指向清洁工具间的方向。
   components:
   - type: Sprite
     state: direction_janitor
@@ -180,8 +180,8 @@
 - type: entity
   parent: BaseSignDirectional
   id: SignDirectionalLibrary
-  name: library sign
-  description: A direction sign, pointing out which way the library is.
+  name: 图书馆指示牌
+  description: 一个指示牌，指向图书馆的方向。
   components:
   - type: Sprite
     state: direction_library
@@ -189,8 +189,8 @@
 - type: entity
   parent: BaseSignDirectional
   id: SignDirectionalMed
-  name: medical sign
-  description: A direction sign, pointing out which way the Medical department is.
+  name: 医疗指示牌
+  description: 指向医疗部门方向的方向指示牌。
   components:
   - type: Sprite
     state: direction_med
@@ -198,8 +198,8 @@
 - type: entity
   parent: BaseSignDirectional
   id: SignDirectionalSalvage
-  name: salvage sign
-  description: A direction sign, pointing out which way the Salvage department is.
+  name: 打捞部门指示牌
+  description: 一个方向指示牌，指向打捞部门所在的方向。
   components:
   - type: Sprite
     state: direction_salvage
@@ -207,8 +207,8 @@
 - type: entity
   parent: BaseSignDirectional
   id: SignDirectionalSci
-  name: science sign
-  description: A direction sign, pointing out which way the Science department is.
+  name: 科学系指示牌
+  description: 科学系方向指示牌，指明科学系所在的方向。
   components:
   - type: Sprite
     state: direction_sci
@@ -216,8 +216,8 @@
 - type: entity
   parent: BaseSignDirectional
   id: SignDirectionalSec
-  name: sec sign
-  description: A direction sign, pointing out which way Security is.
+  name: 安保标志
+  description: 一个指示标志，指向安保部门的方向。
   components:
   - type: Sprite
     state: direction_sec
@@ -225,8 +225,8 @@
 - type: entity
   parent: BaseSignDirectional
   id: SignDirectionalSolar
-  name: solars sign
-  description: A direction sign, pointing out which way solars are.
+  name: 太阳能标志
+  description: 一个方向标志，指示太阳能设备的方向。
   components:
   - type: Sprite
     state: direction_solar
@@ -234,8 +234,8 @@
 - type: entity
   parent: BaseSignDirectional
   id: SignDirectionalSupply
-  name: supply sign
-  description: A direction sign, pointing to some supplies.
+  name: 补给指示牌
+  description: 一个指向某些补给的方向指示牌。
   components:
   - type: Sprite
     state: direction_supply
@@ -243,8 +243,8 @@
 - type: entity
   parent: BaseSignDirectional
   id: SignDirectionalWash
-  name: washroom sign
-  description: A direction sign, pointing to the way to a washroom.
+  name: 洗手间指示牌
+  description: 方向指示牌，指向洗手间的方向。
   components:
   - type: Sprite
     state: direction_wash
@@ -252,8 +252,8 @@
 - type: entity
   parent: BaseSignDirectional
   id: SignDirectionalEscapePod
-  name: escape pods sign
-  description: A direction sign, pointing out the way to an escape pod dock.
+  name: 逃生舱指示牌
+  description: 一个指示牌，指向通往逃生舱码头的路。
   components:
   - type: Sprite
     state: direction_pods
@@ -263,8 +263,8 @@
 - type: entity
   parent: BaseSign
   id: SignAi
-  name: ai sign
-  description: A sign, indicating an AI is present.
+  name: 人工智能标志
+  description: 一个标志，表示人工智能的存在。
   components:
   - type: Sprite
     state: ai
@@ -272,8 +272,8 @@
 - type: entity
   parent: BaseSign
   id: SignAiUpload
-  name: ai upload sign
-  description: A sign, indicating an AI is present.
+  name: AI上传标志
+  description: 一个标志，表示有AI存在。
   components:
     - type: Sprite
       state: ai_upload
@@ -281,8 +281,8 @@
 - type: entity
   parent: BaseSign
   id: SignArcade
-  name: arcade sign
-  description: A sign indicating the arcade.
+  name: 街机招牌
+  description: 指示街机位置的招牌。
   components:
   - type: Sprite
     state: arcade
@@ -290,8 +290,8 @@
 - type: entity
   parent: BaseSign
   id: SignArmory
-  name: armory sign
-  description: A sign indicating the armory.
+  name: 军械库标志
+  description: 指向军械库的标志。
   components:
   - type: Sprite
     state: armory
@@ -299,8 +299,8 @@
 - type: entity
   parent: BaseSign
   id: SignArrivals
-  name: arrivals sign
-  description: A sign indicating where the Arrivals shuttle will dock.
+  name: 抵达指示牌
+  description: 指示接驳巴士停靠位置的标牌。
   components:
   - type: Sprite
     state: arrivals
@@ -308,8 +308,8 @@
 - type: entity
   parent: BaseSign
   id: SignToolStorage
-  name: tool storage sign
-  description: A sign indicating the tool storage room.
+  name: 工具存放处标识
+  description: 工具存放处的标识。
   components:
   - type: Sprite
     state: ass
@@ -317,8 +317,8 @@
 - type: entity
   parent: BaseSign
   id: SignAnomaly
-  name: xenoarcheology lab sign
-  description: A sign indicating the xenoarchaeology lab.
+  name: 异星考古实验室标识
+  description: 异星考古实验室的标识。
   components:
   - type: Sprite
     state: xenoarch
@@ -326,8 +326,8 @@
 - type: entity
   parent: BaseSign
   id: SignAnomaly2
-  name: anomaly lab sign
-  description: A sign indicating the anomalous research lab.
+  name: 异常实验室标志
+  description: 指示异常研究实验室的标志。
   components:
   - type: Sprite
     state: anomaly
@@ -335,8 +335,8 @@
 - type: entity
   parent: BaseSign
   id: SignAtmos
-  name: atmos sign
-  description: A sign indicating the atmospherics area.
+  name: 大气标志
+  description: 指示大气区域的标志。
   components:
   - type: Sprite
     state: atmos
@@ -344,8 +344,8 @@
 - type: entity
   parent: BaseSign
   id: SignBar
-  name: bar sign
-  description: A sign indicating the bar.
+  name: 酒吧标志
+  description: 指示酒吧的标志。
   components:
   - type: Sprite
     state: bar
@@ -353,8 +353,8 @@
 - type: entity
   parent: BaseSign
   id: SignBath
-  name: bathroom sign
-  description: A sign indicating the bathroom.
+  name: 浴室标志
+  description: 指示浴室的标志。
   components:
   - type: Sprite
     state: bath
@@ -362,8 +362,8 @@
 - type: entity
   parent: BaseSign
   id: SignKitchen
-  name: kitchen sign
-  description: The heart of the home. And disease.
+  name: 厨房标志
+  description: 家的核心。也是疾病的核心。
   components:
   - type: Sprite
     state: kitchen
@@ -371,8 +371,8 @@
 - type: entity
   parent: BaseSign
   id: SignTheater
-  name: theater sign
-  description: Would it even be Space Station without drama?
+  name: 剧院标志
+  description: 没有戏剧，还能算是空间站吗？
   components:
   - type: Sprite
     layers:
@@ -388,8 +388,8 @@
 - type: entity
   parent: BaseSign
   id: SignBarbershop
-  name: barbershop sign
-  description: A sign indicating the barbershop.
+  name: 理发店招牌
+  description: 一个指示理发店的标志。
   components:
   - type: Sprite
     state: barbershop
@@ -397,8 +397,8 @@
 - type: entity
   parent: BaseSign
   id: SignBio
-  name: bio sign
-  description: A sign indicating the biology lab.
+  name: 生物标志
+  description: 指向生物实验室的标志。
   components:
   - type: Sprite
     state: bio
@@ -406,8 +406,8 @@
 - type: entity
   parent: BaseSign
   id: SignBiohazard
-  name: biohazard sign
-  description: A sign indicating a biohazard.
+  name: 生物危害标志
+  description: 表示生物危害的标志。
   components:
   - type: Sprite
     state: biohazard
@@ -415,8 +415,8 @@
 - type: entity
   parent: BaseSign
   id: SignBridge
-  name: bridge sign
-  description: A sign indicating the bridge.
+  name: 桥梁标志
+  description: 指示桥梁的标志。
   components:
   - type: Sprite
     state: bridge
@@ -424,8 +424,8 @@
 - type: entity
   parent: BaseSign
   id: SignCanisters
-  name: canisters sign
-  description: A sign warning the viewer about pressurised canisters.
+  name: 罐体标志
+  description: 一个警示观看者注意加压罐体的标志。
   components:
   - type: Sprite
     state: canisters
@@ -433,8 +433,8 @@
 - type: entity
   parent: BaseSign
   id: SignCargo
-  name: cargo sign
-  description: A sign indicating the cargo area.
+  name: 货物标志
+  description: 货物区域的标志。
   components:
   - type: Sprite
     state: cargo
@@ -442,8 +442,8 @@
 - type: entity
   parent: BaseSign
   id: SignCargoDock
-  name: cargo dock sign
-  description: A sign indicating a cargo dock.
+  name: 货物码头标志
+  description: 一个指示货物码头的标志。
   components:
   - type: Sprite
     state: cargo_dock
@@ -451,8 +451,8 @@
 - type: entity
   parent: BaseSign
   id: SignChapel
-  name: chapel sign
-  description: A sign indicating the chapel.
+  name: 小教堂指示牌
+  description: 指示小教堂的标牌。
   components:
   - type: Sprite
     state: chapel
@@ -460,8 +460,8 @@
 - type: entity
   parent: BaseSign
   id: SignChem
-  name: chemistry sign
-  description: A sign indicating the chemistry lab.
+  name: 化学实验室标志
+  description: 化学实验室的标志。
   components:
   - type: Sprite
     state: chem
@@ -469,8 +469,8 @@
 - type: entity
   parent: BaseSign
   id: SignCloning
-  name: cloning sign
-  description: A sign indicating the cloning lab.
+  name: 克隆标志
+  description: 一个指示克隆实验室的标志。
   components:
   - type: Sprite
     state: cloning
@@ -478,8 +478,8 @@
 - type: entity
   parent: BaseSign
   id: SignConference
-  name: conference room sign
-  description: Where work happens.
+  name: 会议室标牌
+  description: 工作发生之地。
   components:
   - type: Sprite
     state: conference_room
@@ -487,8 +487,8 @@
 - type: entity
   parent: BaseSign
   id: SignCryo
-  name: cryosleep sign
-  description: Just like that? You're gonna chicken out?
+  name: 低温睡眠标志
+  description: 就这样？你要临阵退缩吗？
   components:
   - type: Sprite
     state: cryo
@@ -497,8 +497,8 @@
 - type: entity
   parent: BaseSign
   id: SignDisposalSpace
-  name: disposal sign
-  description: A sign indicating a disposal area.
+  name: 处置标志
+  description: 表示处置区域的标志。
   components:
   - type: Sprite
     state: deathsposal
@@ -506,8 +506,8 @@
 - type: entity
   parent: BaseSign
   id: SignDoors
-  name: doors sign
-  description: A sign indicating doors.
+  name: 门牌
+  description: 指示门的标牌。
   components:
   - type: Sprite
     state: doors
@@ -515,8 +515,8 @@
 - type: entity
   parent: BaseSign
   id: SignRestroom
-  name: restroom sign
-  description: A sign indicating where you go to... What do you do here again?
+  name: 洗手间指示牌
+  description: 指示洗手间位置的标牌... 这里是做什么用的来着？
   components:
   - type: Sprite
     state: restroom
@@ -524,8 +524,8 @@
 - type: entity
   parent: BaseSign
   id: SignMaterials
-  name: materials sign
-  description: An omen to the juicy vault of steel, glass, and plastic that lays before you.
+  name: 材料标识牌
+  description: 这是预示着你眼前钢铁、玻璃与塑料所构筑的丰饶宝库的征兆。
   components:
   - type: Sprite
     state: mats
@@ -533,8 +533,8 @@
 - type: entity
   parent: BaseSign
   id: SignEngine
-  name: power sign
-  description: Where the powa happens.
+  name: 电力标志
+  description: 电力发生之地。
   components:
   - type: Sprite
     state: engine
@@ -542,8 +542,8 @@
 - type: entity
   parent: BaseSign
   id: SignEngineering
-  name: engineering sign
-  description: A sign indicating the engineering area.
+  name: 工程标志
+  description: 指示工程区域的标志。
   components:
   - type: Sprite
     state: eng
@@ -551,8 +551,8 @@
 - type: entity
   parent: BaseSign
   id: SignEscapePods
-  name: escape pods sign
-  description: A sign indicating the escape pods.
+  name: 逃生舱指示牌
+  description: 指示逃生舱的标牌。
   components:
   - type: Sprite
     state: pods
@@ -560,8 +560,8 @@
 - type: entity
   parent: BaseSign
   id: SignEVA
-  name: EVA sign
-  description: A sign indicating an EVA area. EVA equipment may be required beyond this point.
+  name: EVA标识
+  description: 标识EVA区域的标志。此处之后可能需要EVA设备。
   components:
   - type: Sprite
     state: eva
@@ -569,8 +569,8 @@
 - type: entity
   parent: BaseSign
   id: SignElectrical
-  name: electrical sign
-  description: A sign indicating an electrical hazard.
+  name: 电气标志
+  description: 表示存在电气危险的标志。
   components:
   - type: Sprite
     state: electrical
@@ -578,8 +578,8 @@
 - type: entity
   parent: BaseSign
   id: SignExamroom
-  name: examination room sign
-  description: A sign indicating a medical examination room.
+  name: 检查室指示牌
+  description: 医疗检查室指示牌。
   components:
   - type: Sprite
     state: examroom
@@ -587,8 +587,8 @@
 - type: entity
   parent: BaseSign
   id: SignFire
-  name: fire sign
-  description: A sign indicating a fire hazard.
+  name: 火警标志
+  description: 表示存在火灾危险的标志。
   components:
   - type: Sprite
     state: fire
@@ -596,8 +596,8 @@
 - type: entity
   parent: BaseSign
   id: SignGravity
-  name: gravity sign
-  description: A sign indicating the gravity generator.
+  name: 重力标志
+  description: 指示重力发生器的标志。
   components:
   - type: Sprite
     state: gravi
@@ -605,8 +605,8 @@
 - type: entity
   parent: BaseSign
   id: SignHead
-  name: head sign
-  description: An official sign indicating the dwellings of a Nanotrasen-certified head of department.
+  name: 主管标牌
+  description: 一块标示纳米特拉森部门主管住所的官方标牌。
   components:
   - type: Sprite
     state: commander
@@ -614,8 +614,8 @@
 - type: entity
   parent: BaseSign
   id: SignHydro1
-  name: hydro sign
-  description: A sign indicating a hydroponics area.
+  name: 水培标志
+  description: 指示水培区域的标志。
   components:
   - type: Sprite
     state: hydro
@@ -623,8 +623,8 @@
 - type: entity
   parent: BaseSign
   id: SignInterrogation
-  name: interrogation sign
-  description: A sign indicating an interrogation room.
+  name: 审讯室标识
+  description: 审讯室标识
   components:
   - type: Sprite
     state: interrogation
@@ -632,8 +632,8 @@
 - type: entity
   parent: BaseSign
   id: SignJanitor
-  name: janitor sign
-  description: A sign labelling an area where the janitor works.
+  name: 清洁工标识
+  description: 标识清洁工工作区域的标牌。
   components:
   - type: Sprite
     state: janitor
@@ -641,8 +641,8 @@
 - type: entity
   parent: BaseSign
   id: SignLaundromat
-  name: laundromat sign
-  description: A sign indicating the laundromat.
+  name: 自助洗衣店招牌
+  description: 指示自助洗衣店的标志。
   components:
   - type: Sprite
     state: laundromat
@@ -650,8 +650,8 @@
 - type: entity
   parent: BaseSign
   id: SignLawyer
-  name: law sign
-  description: A sign indicating the presence of the (typically absent) rule of law.
+  name: 法律标志
+  description: 标志着（通常缺失的）法治存在的标识。
   components:
   - type: Sprite
     state: law
@@ -659,8 +659,8 @@
 - type: entity
   parent: BaseSign
   id: SignLibrary
-  name: library sign
-  description: A sign indicating the library.
+  name: 图书馆标识
+  description: 指示图书馆的标识。
   components:
   - type: Sprite
     state: biblio
@@ -668,8 +668,8 @@
 - type: entity
   parent: BaseSign
   id: SignMail
-  name: mail sign
-  description: A sign indicating mail.
+  name: 邮件标志
+  description: 一个表示邮件的标志。
   components:
   - type: Sprite
     state: mail
@@ -677,8 +677,8 @@
 - type: entity
   parent: BaseSign
   id: SignMedical
-  name: medbay sign
-  description: A sign indicating the medical bay.
+  name: 医疗舱标牌
+  description: 医疗舱标牌
   components:
   - type: Sprite
     state: medbay
@@ -686,8 +686,8 @@
 - type: entity
   parent: BaseSign
   id: SignMorgue
-  name: morgue sign
-  description: A sign indicating the morgue.
+  name: 停尸房指示牌
+  description: 停尸房指示牌。
   components:
   - type: Sprite
     state: morgue
@@ -695,8 +695,8 @@
 - type: entity
   parent: BaseSign
   id: SignNews
-  name: news sign
-  description: A sign indicating where the Reporter works.
+  name: 新闻标识
+  description: 指示记者工作区域的标识。
   components:
   - type: Sprite
     state: news
@@ -704,8 +704,8 @@
 - type: entity
   parent: BaseSign
   id: SignNosmoking
-  name: no smoking sign
-  description: A sign indicating that smoking is not allowed in the vicinity.
+  name: 禁止吸烟标志
+  description: 一个表示附近禁止吸烟的标志。
   components:
   - type: Sprite
     state: nosmoking
@@ -713,8 +713,8 @@
 - type: entity
   parent: BaseSign
   id: SignGenpop
-  name: genpop sign
-  description: A sign indicating the genpop prison.
+  name: 普通监区标识
+  description: 普通监区标识
   components:
   - type: Sprite
     state: genpop
@@ -722,8 +722,8 @@
 - type: entity
   parent: BaseSign
   id: SignPrison
-  name: prison sign
-  description: A sign indicating the prison.
+  name: 监狱标志
+  description: 一个指示监狱的标志。
   components:
   - type: Sprite
     state: prison
@@ -731,8 +731,8 @@
 - type: entity
   parent: BaseSign
   id: SignPsychology
-  name: psychology sign
-  description: A sign labelling an area where the Psychologist works.
+  name: 心理学标识
+  description: 标识心理学家工作区域的标牌。
   components:
   - type: Sprite
     state: psychology
@@ -740,8 +740,8 @@
 - type: entity
   parent: BaseSign
   id: SignReception
-  name: reception sign
-  description: A sign indicating the reception.
+  name: 接待处指示牌
+  description: 指示接待处的标志。
   components:
   - type: Sprite
     state: reception
@@ -749,8 +749,8 @@
 - type: entity
   parent: BaseSign
   id: SignRND
-  name: research and development sign
-  description: A sign indicating the research and development lab.
+  name: 研发标识
+  description: 研发实验室的标识。
   components:
   - type: Sprite
     state: rnd
@@ -758,8 +758,8 @@
 - type: entity
   parent: BaseSign
   id: SignRobo
-  name: robo sign
-  description: A sign indicating the robotics lab.
+  name: 机器人标志
+  description: 一个指示机器人实验室的标志。
   components:
   - type: Sprite
     state: robo
@@ -767,8 +767,8 @@
 - type: entity
   parent: BaseSign
   id: SignSalvage
-  name: salvage sign
-  description: A sign indicating the salvage area.
+  name: 打捞标志
+  description: 标示打捞区域的标志。
   components:
   - type: Sprite
     state: salvage
@@ -776,8 +776,8 @@
 - type: entity
   parent: BaseSign
   id: SignScience
-  name: science sign
-  description: A sign indicating the science area.
+  name: 科学标志
+  description: 科学区域的指示标志。
   components:
   - type: Sprite
     state: sci
@@ -785,8 +785,8 @@
 - type: entity
   parent: BaseSign
   id: SignServer
-  name: server sign
-  description: Ever heard of Big Data? This is it, chump. The biggest.
+  name: 服务器标志
+  description: 听说过大数据吗？这就是了，小子。最大的那种。
   components:
   - type: Sprite
     state: data
@@ -794,8 +794,8 @@
 - type: entity
   parent: BaseSign
   id: SignCans
-  name: canisters sign
-  description: A sign indicating the auspicious presence of gas canisters.
+  name: 气罐标志
+  description: 一个指示气罐吉祥存在的标志。
   components:
   - type: Sprite
     state: cans
@@ -811,8 +811,8 @@
 - type: entity
   parent: BaseSign
   id: SignShipDock
-  name: evac sign
-  description: A sign indicating the where the evac shuttle will (likely) arrive.
+  name: 疏散标志
+  description: 指示疏散班车（可能）抵达位置的标志。
   components:
   - type: Sprite
     state: dock
@@ -820,8 +820,8 @@
 - type: entity
   parent: BaseSign
   id: SignSpace
-  name: space sign
-  description: A sign warning that the area ahead is nothing but cold, empty space.
+  name: 太空标志
+  description: 一个警示标志，表明前方区域只有寒冷、虚无的太空。
   components:
   - type: Sprite
     state: space
@@ -829,8 +829,8 @@
 - type: entity
   parent: BaseSign
   id: SignSurgery
-  name: surgery sign
-  description: A sign indicating the operating theater.
+  name: 手术室指示牌
+  description: 手术室指示牌。
   components:
   - type: Sprite
     state: surgery
@@ -838,8 +838,8 @@
 - type: entity
   parent: BaseSign
   id: SignTelecomms
-  name: telecomms sign
-  description: A sign indicating the telecommunications room.
+  name: 电信标志
+  description: 电信机房的标识。
   components:
   - type: Sprite
     state: telecoms
@@ -847,8 +847,8 @@
 - type: entity
   parent: BaseSign
   id: SignToxins
-  name: toxins sign
-  description: A sign indicating the toxin lab.
+  name: 毒素标志
+  description: 指示毒素实验室的标志。
   components:
   - type: Sprite
     state: toxins
@@ -856,8 +856,8 @@
 - type: entity
   parent: BaseSign
   id: SignVault
-  name: vault sign
-  description: A sign indicating the vault. Who knows what secrets lie inside?
+  name: 金库标识
+  description: 一个指示金库的标识。谁知道里面藏着什么秘密呢？
   components:
   - type: Sprite
     state: vault
@@ -865,8 +865,8 @@
 - type: entity
   parent: BaseSign
   id: SignVirology
-  name: virology sign
-  description: A sign indicating the virology lab.
+  name: 病毒学标志
+  description: 一个指示病毒学实验室的标志。
   components:
   - type: Sprite
     state: virology
@@ -874,8 +874,8 @@
 - type: entity
   parent: BaseSign
   id: SignCorrosives
-  name: corrosives warning sign
-  description: A sign indicating a corrosive materials hazard.
+  name: 腐蚀品警告标志
+  description: 表示腐蚀品危险的标志。
   components:
   - type: Sprite
     state: corrosives
@@ -883,8 +883,8 @@
 - type: entity
   parent: BaseSign
   id: SignCryogenics
-  name: cryogenics warning sign
-  description: A sign indicating a cryogenic materials hazard. Bring a jacket!
+  name: 低温警告标志
+  description: 低温材料危险标志。带件夹克吧！
   components:
   - type: Sprite
     state: cryogenics
@@ -892,8 +892,8 @@
 - type: entity
   parent: BaseSign
   id: SignDanger
-  name: danger warning sign
-  description: A sign warning against some danger.
+  name: 危险警告标志
+  description: 警示危险的标志。
   components:
   - type: Sprite
     state: danger
@@ -901,8 +901,8 @@
 - type: entity
   parent: BaseSign
   id: SignExplosives
-  name: explosives warning sign
-  description: A sign indicating an explosive materials hazard.
+  name: 爆炸物警示标志
+  description: 表示爆炸物危险的标志。
   components:
   - type: Sprite
     state: explosives
@@ -910,8 +910,8 @@
 - type: entity
   parent: BaseSign
   id: SignFlammable
-  name: flammable warning sign
-  description: A sign indicating a flammable materials hazard.
+  name: 易燃警告标志
+  description: 一个指示易燃材料危险的标志。
   components:
   - type: Sprite
     state: flammable
@@ -919,8 +919,8 @@
 - type: entity
   parent: BaseSign
   id: SignLaser
-  name: laser warning sign
-  description: A sign indicating a laser hazard.
+  name: 激光警告标志
+  description: 表示存在激光危险的标志。
   components:
   - type: Sprite
     state: laser
@@ -928,8 +928,8 @@
 - type: entity
   parent: BaseSign
   id: SignMagnetics
-  name: magnetics warning sign
-  description: A sign indicating a magnetic materials hazard.
+  name: 磁性材料警示标志
+  description: 磁性材料危险警示标志。
   components:
   - type: Sprite
     state: magnetics
@@ -937,8 +937,8 @@
 - type: entity
   parent: BaseSign
   id: SignMemetic
-  name: memetic warning sign
-  description: A sign indicating a memetic hazard.
+  name: 模因警告标志
+  description: 标示模因危害的标志。
   components:
   - type: Sprite
     state: memetic
@@ -946,8 +946,8 @@
 - type: entity
   parent: BaseSign
   id: SignSecure
-  name: secure sign
-  description: A sign indicating that the area ahead is a secure area.
+  name: 安全标志
+  description: 前方为安全区域的指示标志。
   components:
   - type: Sprite
     state: secure
@@ -955,8 +955,8 @@
 - type: entity
   parent: BaseSign
   id: SignSecurearea
-  name: secure area sign
-  description: A sign indicating that the area ahead is a secure area.
+  name: 安全区域标志
+  description: 前方为安全区域的指示标志。
   components:
   - type: Sprite
     state: securearea
@@ -965,8 +965,8 @@
 - type: entity
   parent: BaseSign
   id: SignShock
-  name: shock sign
-  description: A sign indicating an electrical hazard.
+  name: 电击警示标志
+  description: 表示存在电击危险的标志。
   components:
   - type: Sprite
     state: shock
@@ -974,8 +974,8 @@
 - type: entity
   parent: BaseSign
   id: SignOptical
-  name: optical warning sign
-  description: A sign indicating an optical radiation hazard.
+  name: 光学警告标志
+  description: 表示存在光辐射危险的标志。
   components:
   - type: Sprite
     state: optical
@@ -983,8 +983,8 @@
 - type: entity
   parent: BaseSign
   id: SignOxidants
-  name: oxidants warning sign
-  description: A sign indicating an oxidizing agent hazard.
+  name: 氧化剂警示标志
+  description: 表示氧化剂危害的标志。
   components:
   - type: Sprite
     state: oxidants
@@ -992,8 +992,8 @@
 - type: entity
   parent: BaseSign
   id: SignRadiation
-  name: radiation warning sign
-  description: A sign indicating an ionizing radiation hazard.
+  name: 辐射警告标志
+  description: 表示存在电离辐射危险的标志。
   components:
   - type: Sprite
     state: radiation
@@ -1001,8 +1001,8 @@
 - type: entity
   parent: BaseSign
   id: SignXenobio
-  name: xenobio sign
-  description: A sign indicating the xenobiology lab.
+  name: 异生标志
+  description: 指向异生实验室的标志。
   components:
   - type: Sprite
     state: xenobio
@@ -1010,8 +1010,8 @@
 - type: entity
   parent: BaseSign
   id: SignZomlab
-  name: zombie lab sign
-  description: The final remains of a shut-down Nanotrasen research project that aimed to harness the powers of Romerol. I wonder how that went...
+  name: 僵尸实验室标牌
+  description: 一个已关停的纳诺特拉森研究项目的最后残余，该项目旨在利用罗梅洛尔的力量。我想知道进展如何了……
   components:
   - type: Sprite
     state: zomlab
@@ -1019,8 +1019,8 @@
 - type: entity
   parent: BaseSign
   id: SignSecureMedRed
-  name: red secure sign
-  description: A sign indicating that the area ahead is a secure area.
+  name: 红色安全标志
+  description: 前方为安全区域的标识。
   components:
   - type: Sprite
     state: medium_secure_red
@@ -1028,8 +1028,8 @@
 - type: entity
   parent: BaseSign
   id: SignSecureSmall
-  name: small secure sign
-  description: A sign indicating that the area ahead is a secure area.
+  name: 小型安全标识
+  description: 前方为安全区域的标识。
   components:
   - type: Sprite
     state: small_secure
@@ -1037,8 +1037,8 @@
 - type: entity
   parent: BaseSign
   id: SignSecureSmallRed
-  name: small red secure sign
-  description: A sign indicating that the area ahead is a secure area.
+  name: 小型红色安全标识
+  description: 前方为安全区域的标识。
   components:
   - type: Sprite
     state: small_secure_red
@@ -1046,8 +1046,8 @@
 - type: entity
   parent: BaseSign
   id: SignBlankMed
-  name: blank sign
-  description: A blank sign.
+  name: 空白标志
+  description: 一个空白标志。
   components:
   - type: Sprite
     state: medium_blank
@@ -1055,8 +1055,8 @@
 - type: entity
   parent: BaseSign
   id: SignMagneticsMed
-  name: magnetics sign
-  description: A sign indicating the use of magnets.
+  name: 磁铁使用标志
+  description: 一个指示磁铁使用的标志。
   components:
   - type: Sprite
     state: medium_magnetics
@@ -1064,8 +1064,8 @@
 - type: entity
   parent: BaseSign
   id: SignDangerMed
-  name: danger sign
-  description: A sign warning against some form of danger.
+  name: 危险标志
+  description: 警示某种危险的标志。
   components:
   - type: Sprite
     state: medium_danger
@@ -1073,8 +1073,8 @@
 - type: entity
   parent: BaseSign
   id: ExplosivesSignMed
-  name: explosives sign
-  description: A sign indicating explosive materials.
+  name: 爆炸物标志
+  description: 一个指示爆炸物的标志。
   components:
   - type: Sprite
     state: medium_explosives
@@ -1082,8 +1082,8 @@
 - type: entity
   parent: BaseSign
   id: SignCryogenicsMed
-  name: cryogenics sign
-  description: A sign indicating cryogenic materials.
+  name: 低温材料标志
+  description: 低温材料标志。
   components:
   - type: Sprite
     state: medium_cryogenics
@@ -1091,8 +1091,8 @@
 - type: entity
   parent: BaseSign
   id: SignElectricalMed
-  name: electrical sign
-  description: A sign indicating an electrical hazard.
+  name: 电气标志
+  description: 表示存在电气危险的标志。
   components:
   - type: Sprite
     state: medium_electrical
@@ -1100,8 +1100,8 @@
 - type: entity
   parent: BaseSign
   id: SignBiohazardMed
-  name: biohazard sign
-  description: A sign indicating a biohazard.
+  name: 生物危害标志
+  description: 表示生物危害的标志。
   components:
   - type: Sprite
     state: medium_biohazard
@@ -1109,8 +1109,8 @@
 - type: entity
   parent: BaseSign
   id: SignRadiationMed
-  name: radiation sign
-  description: A sign indicating an ionizing radiation hazard.
+  name: 辐射标志
+  description: 表示存在电离辐射危险的标志。
   components:
   - type: Sprite
     state: medium_radiation
@@ -1118,8 +1118,8 @@
 - type: entity
   parent: BaseSign
   id: SignFlammableMed
-  name: flammable sign #when flammable component is done, this sign needs it
-  description: A sign indicating flammable materials.
+  name: 易燃标志 #当易燃组件完成时，此标志需要它
+  description: 易燃材料标志。
   components:
   - type: Sprite
     state: medium_flammable
@@ -1127,8 +1127,8 @@
 - type: entity
   parent: BaseSign
   id: SignLaserMed
-  name: laser sign
-  description: A sign indicating a laser hazard.
+  name: 激光标志
+  description: 表示存在激光危险的标志。
   components:
   - type: Sprite
     state: medium_laser
@@ -1136,8 +1136,8 @@
 - type: entity
   parent: BaseSign
   id: SignSecureMed
-  name: secure sign
-  description: A sign indicating that the area ahead is a secure area.
+  name: 安全标识
+  description: 前方为安全区域的标识。
   components:
   - type: Sprite
     state: medium_secure
@@ -1146,8 +1146,8 @@
 - type: entity
   parent: BaseSign
   id: SignVox
-  name: vox area sign
-  description: A sign indicating that the area ahead is intended for Vox crew members and does not have an oxygen atmosphere.
+  name: Vox区域标识
+  description: 前方区域为Vox工作人员专用，无氧气环境。
   components:
   - type: Sprite
     state: vox
@@ -1157,8 +1157,8 @@
 - type: entity
   parent: BaseSign
   id: WarningAir
-  name: air warning sign
-  description: WARNING! Air flow tube. Ensure the flow is disengaged before working.
+  name: 气流警告标志
+  description: 警告！气流管。操作前请确保气流已断开。
   components:
   - type: Sprite
     state: atmos_air
@@ -1166,8 +1166,8 @@
 - type: entity
   parent: BaseSign
   id: WarningCO2
-  name: CO2 warning sign
-  description: WARNING! CO2 flow tube. Ensure the flow is disengaged before working.
+  name: CO2警示标志
+  description: 警告！二氧化碳流量管。操作前请确保流量已断开。
   components:
   - type: Sprite
     state: atmos_co2
@@ -1175,8 +1175,8 @@
 - type: entity
   parent: BaseSign
   id: WarningN2
-  name: N2 warning sign
-  description: WARNING! N2 flow tube. Ensure the flow is disengaged before working.
+  name: N2 警示标识
+  description: 警告！N2流量管。操作前务必确认流量已关闭。
   components:
   - type: Sprite
     state: atmos_n2
@@ -1184,8 +1184,8 @@
 - type: entity
   parent: BaseSign
   id: WarningN2O
-  name: N2O warning sign
-  description: WARNING! N2O flow tube. Ensure the flow is disengaged before working.
+  name: N2O 警示标识
+  description: 警告！N2O流量管。操作前请确保流量已断开。
   components:
   - type: Sprite
     state: atmos_n2o
@@ -1193,8 +1193,8 @@
 - type: entity
   parent: BaseSign
   id: WarningO2
-  name: O2 warning sign
-  description: WARNING! O2 flow tube. Ensure the flow is disengaged before working.
+  name: O2 警示标识
+  description: 警告！氧气流量管。操作前请确保流量已关闭。
   components:
   - type: Sprite
     state: atmos_o2
@@ -1202,8 +1202,8 @@
 - type: entity
   parent: BaseSign
   id: WarningPlasma
-  name: plasma waste sign
-  description: WARNING! Plasma flow tube. Ensure the flow is disengaged before working.
+  name: 等离子废物标志
+  description: 警告！等离子流管。操作前请确保流路已断开。
   components:
   - type: Sprite
     state: atmos_plasma
@@ -1211,8 +1211,8 @@
 - type: entity
   parent: BaseSign
   id: WarningTritium
-  name: tritium waste sign
-  description: WARNING! Tritium flow tube. Ensure the flow is disengaged before working.
+  name: 氚废物标志
+  description: 警告！氚气流管。操作前请确保气流已断开。
   components:
   - type: Sprite
     state: atmos_tritium
@@ -1220,8 +1220,8 @@
 - type: entity
   parent: BaseSign
   id: WarningWaste
-  name: atmos waste sign
-  description: WARNING! Waste flow tube. Ensure the flow is disengaged before working.
+  name: 大气废物标志
+  description: 警告！废气废液输送管。操作前请确保流路已断开。
   components:
   - type: Sprite
     state: atmos_waste
@@ -1229,8 +1229,8 @@
 - type: entity
   parent: BaseSign
   id: SignSmoking
-  name: no smoking sign
-  description: A warning sign which reads 'NO SMOKING'.
+  name: 禁止吸烟标志
+  description: 一个写有“禁止吸烟”的警示标志。
   components:
   - type: Sprite
     state: nosmoking2
@@ -1238,8 +1238,8 @@
 - type: entity
   parent: BaseSign
   id: SignSomethingOld
-  name: old sign
-  description: Technical information of some sort, shame it's too worn-out to read.
+  name: 旧标志
+  description: 某种技术信息，可惜磨损得太厉害，无法辨认。
   components:
   - type: Sprite
     state: something-old1
@@ -1247,8 +1247,8 @@
 - type: entity
   parent: BaseSign
   id: SignSomethingOld2
-  name: old sign
-  description: Looks like a planet crashing by some station above it. It's kinda scary.
+  name: 旧标牌
+  description: 看起来像一颗行星撞上了它上方的某个空间站，有点吓人。
   components:
   - type: Sprite
     state: something-old2
@@ -1256,8 +1256,8 @@
 - type: entity
   parent: BaseSign
   id: SignSecurity
-  name: security sign
-  description: A sign depicting the security insignia.
+  name: 安全标志
+  description: 一个描绘安全标志的标识。
   components:
   - type: Sprite
     state: security
@@ -1265,8 +1265,8 @@
 - type: entity
   parent: BaseSign
   id: SignDetective
-  name: Detective sign
-  description: A sign depicting the detective's office.
+  name: 侦探招牌
+  description: 一块描绘侦探办公室的招牌。
   components:
   - type: Sprite
     state: detective
@@ -1274,8 +1274,8 @@
 - type: entity
   parent: BaseSign
   id: SignPlaque
-  name: golden plaque
-  description: A prestigious golden plaque.
+  name: 金牌匾
+  description: 一块尊贵的金牌匾。
   components:
   - type: Sprite
     state: goldenplaque
@@ -1283,8 +1283,8 @@
 - type: entity
   parent: BaseSign
   id: SignKiddiePlaque
-  name: kiddie plaque
-  description: A modest plaque.
+  name: 儿童牌匾
+  description: 一块朴素的牌匾。
   components:
   - type: Sprite
     state: kiddieplaque
@@ -1292,8 +1292,8 @@
 - type: entity
   parent: BaseSign
   id: SignNanotrasen1
-  name: nanotrasen sign 1
-  description: Part 1.
+  name: 纳米传讯标志1
+  description: 第一部分。
   components:
   - type: Sprite
     state: nanotrasen_sign1
@@ -1302,8 +1302,8 @@
 - type: entity
   parent: BaseSign
   id: SignNanotrasen2
-  name: nanotrasen sign 2
-  description: Part 2.
+  name: 纳米传讯标志 2
+  description: 第二部分。
   components:
   - type: Sprite
     state: nanotrasen_sign2
@@ -1312,8 +1312,8 @@
 - type: entity
   parent: BaseSign
   id: SignNanotrasen3
-  name: nanotrasen sign 3
-  description: Part 3.
+  name: 纳米传讯标志3
+  description: 第三部分。
   components:
   - type: Sprite
     state: nanotrasen_sign3
@@ -1322,8 +1322,8 @@
 - type: entity
   parent: BaseSign
   id: SignNanotrasen4
-  name: nanotrasen sign 4
-  description: Part 4.
+  name: 纳米传讯标志4
+  description: 第四部分。
   components:
   - type: Sprite
     state: nanotrasen_sign4
@@ -1332,8 +1332,8 @@
 - type: entity
   parent: BaseSign
   id: SignNanotrasen5
-  name: nanotrasen sign 5
-  description: Part 5.
+  name: 纳米传讯标志5
+  description: 第五部分。
   components:
   - type: Sprite
     state: nanotrasen_sign5
@@ -1342,8 +1342,8 @@
 - type: entity
   parent: BaseSign
   id: SignRedOne
-  name: one sign
-  description: A sign with a digit, one is written on it.
+  name: 一号标志
+  description: 一个带有数字的标志，上面写着一。
   components:
   - type: Sprite
     state: one
@@ -1351,8 +1351,8 @@
 - type: entity
   parent: BaseSign
   id: SignRedTwo
-  name: two sign
-  description: A sign with a digit, two is written on it.
+  name: 二号标志
+  description: 一个带有数字的标志，上面写着二。
   components:
   - type: Sprite
     state: two
@@ -1360,8 +1360,8 @@
 - type: entity
   parent: BaseSign
   id: SignRedThree
-  name: three sign
-  description: A sign with a digit, three is written on it.
+  name: 三号标志
+  description: 一个标牌上写着一个数字三。
   components:
   - type: Sprite
     state: three
@@ -1369,8 +1369,8 @@
 - type: entity
   parent: BaseSign
   id: SignRedFour
-  name: four sign
-  description: A sign with a digit, four is written on it.
+  name: 四号标志
+  description: 一个带有数字四的标志。
   components:
   - type: Sprite
     state: four
@@ -1378,8 +1378,8 @@
 - type: entity
   parent: BaseSign
   id: SignRedFive
-  name: five sign
-  description: A sign with a digit, five is written on it.
+  name: 五号标志
+  description: 一个标牌上写着一个数字五。
   components:
   - type: Sprite
     state: five
@@ -1387,8 +1387,8 @@
 - type: entity
   parent: BaseSign
   id: SignRedSix
-  name: six sign
-  description: A sign with a digit, six is written on it.
+  name: 六号标志
+  description: 一个标有数字六的标志。
   components:
   - type: Sprite
     state: six
@@ -1396,8 +1396,8 @@
 - type: entity
   parent: BaseSign
   id: SignRedSeven
-  name: seven sign
-  description: A sign with a digit, seven is written on it.
+  name: 七号标志
+  description: 一个标牌上写着一个数字七。
   components:
   - type: Sprite
     state: seven
@@ -1405,8 +1405,8 @@
 - type: entity
   parent: BaseSign
   id: SignRedEight
-  name: eight sign
-  description: A sign with a digit, eight is written on it.
+  name: 八的标识
+  description: 一个标有数字八的标识。
   components:
   - type: Sprite
     state: eight
@@ -1414,8 +1414,8 @@
 - type: entity
   parent: BaseSign
   id: SignRedNine
-  name: nine sign
-  description: A sign with a digit, nine is written on it.
+  name: 九号标志
+  description: 一个标有数字九的标志。
   components:
   - type: Sprite
     state: nine
@@ -1423,8 +1423,8 @@
 - type: entity
   parent: BaseSign
   id: SignRedZero
-  name: zero sign
-  description: A sign with a digit, zero is written on it.
+  name: 零号标志
+  description: 一个标牌上写着一个数字零。
   components:
   - type: Sprite
     state: zero
@@ -1432,8 +1432,8 @@
 - type: entity
   parent: BaseSign
   id: SignSurvival
-  name: survival sign
-  description: A sign. "Survival" is written on it.
+  name: 生存标志
+  description: 一个标志。上面写着“生存”。
   components:
   - type: Sprite
     state: survival
@@ -1441,8 +1441,8 @@
 - type: entity
   parent: BaseSign
   id: SignNTMine
-  name: mine sign
-  description: A sign. "Mine" is written on it.
+  name: 矿物标志
+  description: 一个标志。上面写着“矿”。
   components:
   - type: Sprite
     state: ntmining

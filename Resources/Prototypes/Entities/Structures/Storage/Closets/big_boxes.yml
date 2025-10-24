@@ -1,7 +1,7 @@
 ﻿- type: entity
   id: BaseBigBox
-  name: cardboard box #it's still just a box
-  description: Huh? Just a box...
+  name: 纸箱 #说到底只是个盒子
+  description: 嗯？只是个盒子……
   abstract: true
   components:
     - type: Transform
@@ -61,7 +61,7 @@
   id: StealthBox
   suffix: stealth
   parent: BaseBigBox
-  description: Kept ya waiting, huh?
+  description: 让你久等了，是吧？
   components:
     - type: Damageable
       damageModifierSet: FlimsyMetallic #Syndicate boxes should have a bit of protection
@@ -93,8 +93,8 @@
   id: GhostBox
   parent: StealthBox
   suffix: ""
-  name: ghost box
-  description: Beware!
+  name: 幽灵盒
+  description: 当心！
   components:
     - type: Fixtures
       fixtures:

@@ -1,6 +1,6 @@
 - type: entity
   id: RandomDrinkGlass
-  name: random drink spawner
+  name: 随机饮料生成器
   suffix: Glass
   parent: MarkerBase
   placement:

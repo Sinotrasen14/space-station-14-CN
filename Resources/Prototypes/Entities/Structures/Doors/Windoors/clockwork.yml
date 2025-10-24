@@ -1,6 +1,6 @@
 ﻿- type: entity
   id: BaseClockworkWindoor
-  name: clockwork windoor
+  name: 发条式风门
   parent: BaseWindoor
   abstract: true
   components:

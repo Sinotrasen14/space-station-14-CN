@@ -10,10 +10,10 @@
     size: Small
 
 - type: entity
-  name: match stick
+  name: 火柴棍
   parent: BaseItem
   id: Matchstick
-  description: A simple match stick, used for lighting fine smokables.
+  description: 一根简单的火柴棍，用于点燃精致的可吸食物品。
   components:
   - type: Tag
     tags:
@@ -60,10 +60,10 @@
     state: Burnt
 
 - type: entity
-  name: match box
+  name: 火柴盒
   parent: [ SmallboxItem, BaseBagOpenClose ]
   id: Matchbox
-  description: A small box of Almost But Not Quite Plasma Premium Matches.
+  description: 一小盒近乎但并非完全是等离子高级火柴。
   components:
   - type: EmitSoundOnLand
     sound:
@@ -112,8 +112,8 @@
 - type: entity
   parent: [Matchbox, BaseSyndicateContraband]
   id: GorlexMatchbox
-  name: Gorlex match box
-  description: "A pneumatic match box styled after the Gorlex Marauders' equipment. Contains 24 matches."
+  name: 戈莱克斯火柴盒
+  description: 一款仿照戈莱克斯掠夺者装备风格的充气火柴盒，内置24根火柴。
   components:
   - type: Sprite
     sprite: Objects/Tools/Lighters/gorlex.rsi
@@ -129,10 +129,10 @@
   - type: Matchbox
 
 - type: entity
-  name: match stick
+  name: 火柴棍
   parent: [Matchstick, BaseSyndicateContraband]
   id: GorlexMatchstick
-  description: A military grade match stick, used for lighting fine smokables and noncombatants alike.
+  description: 一根军用级火柴棍，用于点燃精致烟品与非战斗人员。
   components:
   - type: Sprite
     sprite: Objects/Tools/Lighters/gorlexmatch.rsi

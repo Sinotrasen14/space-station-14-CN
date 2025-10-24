@@ -2,8 +2,8 @@
   abstract: true
   parent: [ BaseItem, StorePresetUplink ] #PDA's have uplinks so they have to inherit the data.
   id: BasePDA
-  name: PDA
-  description: Personal Data Assistant.
+  name: 个人数据助理
+  description: 个人数据助理。
   components:
   - type: Appearance
     appearanceDataInit:
@@ -39,7 +39,7 @@
         tags:
         - Write
     idSlot:
-      name: access-id-card-component-default
+      name: 访问ID卡组件默认
       ejectSound: /Audio/Machines/id_swipe.ogg
       insertSound: /Audio/Machines/id_insert.ogg
       whitelist:
@@ -86,7 +86,7 @@
       - NewsReaderCartridge
     cartridgeSlot:
       priority: -1
-      name: device-pda-slot-component-slot-name-cartridge
+      name: 设备-PDA-插槽-组件-插槽-名称-墨盒
       ejectSound: /Audio/Machines/id_swipe.ogg
       insertSound: /Audio/Machines/id_insert.ogg
       whitelist:
@@ -173,8 +173,8 @@
 - type: entity
   parent: BasePDA
   id: PassengerPDA
-  name: passenger PDA
-  description: Why isn't it gray?
+  name: 乘客PDA
+  description: 为什么它不是灰色的？
   components:
   - type: Pda
     id: PassengerIDCard
@@ -184,8 +184,8 @@
 - type: entity
   parent: BasePDA
   id: TechnicalAssistantPDA
-  name: technical assistant PDA
-  description: Why isn't it yellow?
+  name: 技术助理PDA
+  description: 为什么它不是黄色的？
   components:
   - type: Pda
     id: TechnicalAssistantIDCard
@@ -203,8 +203,8 @@
 - type: entity
   parent: BaseMedicalPDA
   id: MedicalInternPDA
-  name: medical intern PDA
-  description: Why isn't it white?
+  name: 实习医生PDA
+  description: 为什么它不是白色的？
   components:
   - type: Pda
     id: MedicalInternIDCard
@@ -225,8 +225,8 @@
 - type: entity
   parent: BaseSecurityPDA
   id: SecurityCadetPDA
-  name: security cadet PDA
-  description: Why isn't it red?
+  name: 安保学员PDA
+  description: 为什么它不是红色的？
   components:
   - type: Pda
     id: SecurityCadetIDCard
@@ -244,8 +244,8 @@
 - type: entity
   parent: BasePDA
   id: ResearchAssistantPDA
-  name: research assistant PDA
-  description: Why isn't it purple?
+  name: 研究助理PDA
+  description: 为什么它不是紫色的？
   components:
   - type: Pda
     id: ResearchAssistantIDCard
@@ -263,8 +263,8 @@
 - type: entity
   parent: BasePDA
   id: ServiceWorkerPDA
-  name: service worker PDA
-  description: Why isn't it gray?
+  name: 服务工作者 PDA
+  description: 为什么它不是灰色的？
   components:
   - type: Pda
     id: ServiceWorkerIDCard
@@ -282,8 +282,8 @@
 - type: entity
   parent: BasePDA
   id: ChefPDA
-  name: chef PDA
-  description: Covered in grease and flour.
+  name: 厨师PDA
+  description: 沾满油污和面粉。
   components:
   - type: Pda
     id: ChefIDCard
@@ -302,8 +302,8 @@
 - type: entity
   parent: BasePDA
   id: BotanistPDA
-  name: botanist PDA
-  description: Has an earthy scent.
+  name: 植物学家PDA
+  description: 带有泥土气息。
   components:
   - type: Pda
     id: BotanistIDCard
@@ -321,8 +321,8 @@
 - type: entity
   parent: BasePDA
   id: ClownPDA
-  name: clown PDA
-  description: Looks can be deceiving.
+  name: 小丑PDA
+  description: 外表可能具有欺骗性。
   components:
   - type: Pda
     id: ClownIDCard
@@ -381,8 +381,8 @@
 - type: entity
   parent: BasePDA
   id: MimePDA
-  name: mime PDA
-  description: Suprisingly not on mute.
+  name: 哑剧PDA
+  description: 竟然没有静音。
   components:
   - type: Pda
     id: MimeIDCard
@@ -394,7 +394,7 @@
         components:
         - PAI
     idSlot:
-      name: access-id-card-component-default
+      name: 访问ID卡组件默认
       ejectSound: null # mime is silent
       insertSound: null
       whitelist:
@@ -428,10 +428,10 @@
   - type: Muted # for random sentience event
 
 - type: entity
-  name: chaplain PDA
+  name: 随军牧师PDA
   parent: BasePDA
   id: ChaplainPDA
-  description: God's chosen PDA.
+  description: 上帝选中的PDA。
   components:
   - type: Pda
     id: ChaplainIDCard
@@ -457,10 +457,10 @@
     - DoorBumpOpener
 
 - type: entity
-  name: quartermaster PDA
+  name: 军需官掌上电脑
   parent: BasePDA
   id: QuartermasterPDA
-  description: PDA for the guy that orders the guns.
+  description: 为订购枪支的家伙准备的掌上电脑。
   components:
   - type: Pda
     id: QuartermasterIDCard
@@ -485,8 +485,8 @@
 - type: entity
   parent: BasePDA
   id: CargoPDA
-  name: cargo PDA
-  description: PDA for the guys that order the pizzas.
+  name: 货物PDA
+  description: 为订购披萨的人员配备的PDA。
   components:
   - type: Pda
     id: CargoIDCard
@@ -503,8 +503,8 @@
 - type: entity
   parent: BasePDA
   id: SalvagePDA
-  name: salvage PDA
-  description: Smells like ash.
+  name: 抢救用PDA
+  description: 闻起来像灰烬。
   components:
   - type: Pda
     id: SalvageIDCard
@@ -530,8 +530,8 @@
 - type: entity
   parent: BasePDA
   id: BartenderPDA
-  name: bartender PDA
-  description: Smells like beer.
+  name: 酒保PDA
+  description: 闻起来像啤酒。
   components:
   - type: Pda
     id: BartenderIDCard
@@ -548,8 +548,8 @@
 - type: entity
   parent: BaseWidePDA
   id: LibrarianPDA
-  name: librarian PDA
-  description: Smells like books.
+  name: 图书管理员PDA
+  description: 闻起来有书香味。
   components:
   - type: Pda
     id: LibrarianIDCard
@@ -583,8 +583,8 @@
 - type: entity
   parent: BaseSecurityPDA
   id: LawyerPDA
-  name: lawyer PDA
-  description: For lawyers to poach dubious clients.
+  name: 律师揽客
+  description: 律师招揽可疑客户。
   components:
   - type: Pda
     id: LawyerIDCard
@@ -618,8 +618,8 @@
 - type: entity
   parent: BasePDA
   id: JanitorPDA
-  name: janitor PDA
-  description: Smells like bleach.
+  name: 清洁工PDA
+  description: 闻起来有股漂白剂的味道。
   components:
   - type: Pda
     id: JanitorIDCard
@@ -636,8 +636,8 @@
 - type: entity
   parent: BasePDA
   id: CaptainPDA
-  name: captain PDA
-  description: Surprisingly no different from your PDA.
+  name: 队长PDA
+  description: 与你的PDA相比，竟然毫无差别。
   components:
   - type: Pda
     id: CaptainIDCard
@@ -660,8 +660,8 @@
 - type: entity
   parent: BasePDA
   id: HoPPDA
-  name: head of personnel PDA
-  description: Looks like it's been chewed on.
+  name: 人事主管的PDA
+  description: 看起来像是被咬过。
   components:
   - type: Pda
     id: HoPIDCard
@@ -685,8 +685,8 @@
 - type: entity
   parent: BasePDA
   id: CEPDA
-  name: chief engineer PDA
-  description: Looks like it's barely been used.
+  name: 总工程师的PDA
+  description: 看起来几乎没怎么用过。
   components:
   - type: Pda
     id: CEIDCard
@@ -704,8 +704,8 @@
 - type: entity
   parent: BasePDA
   id: EngineerPDA
-  name: engineer PDA
-  description: Rugged and well-worn.
+  name: 工程师PDA
+  description: 坚固耐用，饱经风霜。
   components:
   - type: Pda
     id: EngineeringIDCard
@@ -723,8 +723,8 @@
 - type: entity
   parent: BaseMedicalPDA
   id: CMOPDA
-  name: chief medical officer PDA
-  description: Extraordinarily shiny and sterile.
+  name: 首席医疗官PDA
+  description: 异常闪亮且无菌。
   components:
   - type: Pda
     id: CMOIDCard
@@ -743,8 +743,8 @@
 - type: entity
   parent: BaseMedicalPDA
   id: MedicalPDA
-  name: medical PDA
-  description: Shiny and sterile.
+  name: 医用PDA
+  description: 闪亮无菌。
   components:
   - type: Pda
     id: MedicalIDCard
@@ -776,8 +776,8 @@
 - type: entity
   parent: BaseMedicalPDA
   id: ParamedicPDA
-  name: paramedic PDA
-  description: Shiny and sterile.
+  name: 护理员掌上电脑
+  description: 闪亮且无菌。
   components:
   - type: Pda
     id: ParamedicIDCard
@@ -795,8 +795,8 @@
 - type: entity
   parent: BaseMedicalPDA
   id: ChemistryPDA
-  name: chemistry PDA
-  description: It has a few discolored blotches here and there.
+  name: 化学PDA
+  description: 它这里那里有几块变色的斑点。
   components:
   - type: Pda
     id: ChemistIDCard
@@ -814,8 +814,8 @@
 - type: entity
   parent: BasePDA
   id: RnDPDA
-  name: research director PDA
-  description: It appears surprisingly ordinary.
+  name: 首席科学家PDA
+  description: 它看起来出奇地普通。
   components:
   - type: Pda
     id: RDIDCard
@@ -834,8 +834,8 @@
 - type: entity
   parent: BasePDA
   id: SciencePDA
-  name: science PDA
-  description: It's covered with an unknown gooey substance.
+  name: 科学PDA
+  description: 它被一种未知的粘稠物质覆盖着。
   components:
   - type: Pda
     id: ResearchIDCard
@@ -853,8 +853,8 @@
 - type: entity
   parent: BaseSecurityPDA
   id: HoSPDA
-  name: head of security PDA
-  description: Whosoever bears this PDA is the law.
+  name: 安保主管PDA
+  description: 持此PDA者即为法律。
   components:
   - type: Pda
     id: HoSIDCard
@@ -880,8 +880,8 @@
 - type: entity
   parent: BaseSecurityPDA
   id: WardenPDA
-  name: warden PDA
-  description: The OS appears to have been jailbroken.
+  name: 典狱长PDA
+  description: 操作系统似乎已被越狱。
   components:
   - type: Pda
     id: WardenIDCard
@@ -899,8 +899,8 @@
 - type: entity
   parent: BaseSecurityPDA
   id: SecurityPDA
-  name: security PDA
-  description: Red to hide the stains of passenger blood.
+  name: 安保PDA
+  description: 红色掩盖乘客血迹。
   components:
   - type: Pda
     id: SecurityIDCard
@@ -917,8 +917,8 @@
 - type: entity
   parent: BaseSecurityPDA
   id: CentcomPDA
-  name: CentComm PDA
-  description: Light green sign of walking bureaucracy.
+  name: 中央司令部PDA
+  description: 浅绿色的行走官僚机构标志。
   components:
   - type: Pda
     id: CentcomIDCard
@@ -952,9 +952,9 @@
 - type: entity
   parent: CentcomPDA
   id: AdminPDA
-  name: Admin PDA
+  name: 管理员PDA
   suffix: Admin
-  description: If you are not an admin please return this PDA to the nearest admin.
+  description: 如果您不是管理员，请将此PDA归还给最近的管理员。
   components:
   - type: Pda
     id: UniversalIDCard
@@ -992,8 +992,8 @@
 - type: entity
   parent: BasePDA
   id: MusicianPDA
-  name: musician PDA
-  description: It fills you with inspiration.
+  name: 音乐家PDA
+  description: 它让你充满灵感。
   components:
   - type: Pda
     id: MusicianIDCard
@@ -1026,8 +1026,8 @@
 - type: entity
   parent: BasePDA
   id: AtmosPDA
-  name: atmos PDA
-  description: Still smells like plasma.
+  name: 大气PDA
+  description: 还是有一股等离子体的味道。
   components:
   - type: Pda
     id: AtmosIDCard
@@ -1045,8 +1045,8 @@
 - type: entity
   parent: BasePDA
   id: ClearPDA
-  name: clear PDA
-  description: 99 and 44/100ths percent pure plastic.
+  name: 透明PDA
+  description: 百分之九十九又百分之四十四纯塑料。
   components:
   - type: Pda
     id: PassengerIDCard
@@ -1073,8 +1073,8 @@
 - type: entity
   parent: [ BasePDA, BaseSyndicateContraband ]
   id: SyndiPDA
-  name: syndicate PDA
-  description: Ok, time to be a productive member of- oh cool I'm a bad guy time to kill people!
+  name: 辛迪加PDA
+  description: 好的，该做个积极向上的社会成——哦酷！我现在是反派了，开始杀人吧！
   components:
   - type: Pda
     id: SyndicateIDCard
@@ -1096,8 +1096,8 @@
 - type: entity
   parent: [ SyndiPDA, BaseSyndicateContraband ]
   id: SyndiOperativePDA
-  name: syndicate operative PDA
-  description: Death to NT!
+  name: 辛迪加特工PDA
+  description: NT去死！
   components:
   - type: Pda
     id: SyndiOperativeIDCard
@@ -1112,8 +1112,8 @@
 - type: entity
   parent: [ SyndiOperativePDA, BaseSyndicateContraband ]
   id: SyndiCorpsmanPDA
-  name: syndicate corpsman PDA
-  description: Commander... I need to cook!
+  name: 辛迪加医护兵PDA
+  description: 指挥官...我得做饭了！
   components:
   - type: Pda
     id: SyndiCorpsmanIDCard
@@ -1134,8 +1134,8 @@
 - type: entity
   parent: [ SyndiOperativePDA, BaseSyndicateContraband ]
   id: SyndiCommanderPDA
-  name: syndicate commander PDA
-  description: So what are we, some kind of Nukie squad?
+  name: 辛迪加指挥官PDA
+  description: 所以我们是什么，某种核能小队？
   components:
   - type: Pda
     id: SyndiCommanderIDCard
@@ -1150,9 +1150,9 @@
 - type: entity
   parent: BaseSecurityPDA
   id: ERTLeaderPDA
-  name: ERT Leader PDA
+  name: ERT领队PDA
   suffix: Leader
-  description: Red for firepower.
+  description: 红色代表火力。
   components:
   - type: Pda
     id: ERTLeaderIDCard
@@ -1182,9 +1182,9 @@
 - type: entity
   parent: ERTLeaderPDA
   id: ERTChaplainPDA
-  name: ERT Chaplain PDA
+  name: ERT 牧师 PDA
   suffix: Chaplain
-  description: Red for firepower, it's blessed.
+  description: 红色代表火力，这是受祝福的。
   components:
   - type: Pda
     id: ERTChaplainIDCard
@@ -1192,9 +1192,9 @@
 - type: entity
   parent: ERTLeaderPDA
   id: ERTEngineerPDA
-  name: ERT Engineer PDA
+  name: ERT工程师PDA
   suffix: Engineer
-  description: Red for firepower, it's well-worn.
+  description: 红色代表火力，它已经饱经风霜。
   components:
   - type: Pda
     id: ERTEngineerIDCard
@@ -1202,9 +1202,9 @@
 - type: entity
   parent: ERTLeaderPDA
   id: ERTJanitorPDA
-  name: ERT Janitor PDA
+  name: ERT清洁工PDA
   suffix: Janitor
-  description: Red for firepower, it's squeaky clean.
+  description: 红色代表火力，它洁净无瑕。
   components:
   - type: Pda
     id: ERTJanitorIDCard
@@ -1212,9 +1212,9 @@
 - type: entity
   parent: ERTLeaderPDA
   id: ERTMedicPDA
-  name: ERT Medic PDA
+  name: ERT医疗PDA
   suffix: Medic
-  description: Red for firepower, it's shiny and sterile.
+  description: 红色代表火力，它闪闪发光且无菌。
   components:
   - type: Pda
     id: ERTMedicIDCard
@@ -1222,9 +1222,9 @@
 - type: entity
   parent: ERTLeaderPDA
   id: ERTSecurityPDA
-  name: ERT Security PDA
+  name: ERT安全PDA
   suffix: Security
-  description: Red for firepower, it has tally marks etched on the side.
+  description: 红色代表火力，侧面刻有计数标记。
   components:
   - type: Pda
     id: ERTSecurityIDCard
@@ -1232,8 +1232,8 @@
 - type: entity
   parent: ERTLeaderPDA
   id: CBURNPDA
-  name: CBURN PDA
-  description: Smells like rotten flesh.
+  name: CBURN个人数字助理
+  description: 闻起来像腐肉的味道。
   components:
   - type: Pda
     id: CBURNIDcard
@@ -1245,8 +1245,8 @@
 - type: entity
   parent: BasePDA
   id: PsychologistPDA
-  name: psychologist PDA
-  description: Looks immaculately cleaned.
+  name: 心理学家PDA
+  description: 看起来一尘不染。
   components:
   - type: Pda
     id: PsychologistIDCard
@@ -1264,8 +1264,8 @@
 - type: entity
   parent: BasePDA
   id: ReporterPDA
-  name: reporter PDA
-  description: Smells like freshly printed press.
+  name: 记者掌上电脑
+  description: 闻起来像刚印刷的新闻报纸。
   components:
   - type: Pda
     id: ReporterIDCard
@@ -1288,8 +1288,8 @@
 - type: entity
   parent: BasePDA
   id: ZookeeperPDA
-  name: zookeeper PDA
-  description: Made with genuine synthetic leather. Crikey!
+  name: 动物园管理员 PDA
+  description: 采用真合成皮革制成。哎呀！
   components:
   - type: Pda
     id: ZookeeperIDCard
@@ -1306,8 +1306,8 @@
 - type: entity
   parent: BasePDA
   id: BoxerPDA
-  name: boxer PDA
-  description: Float like a butterfly, ringtone like a bee.
+  name: 拳击手PDA
+  description: 身若蝴蝶翩跹，铃如蜜蜂振翅。
   components:
   - type: Pda
     id: BoxerIDCard
@@ -1325,8 +1325,8 @@
 - type: entity
   parent: BaseSecurityPDA
   id: DetectivePDA
-  name: detective PDA
-  description: Smells like rain... pouring down the rooftops...
+  name: 侦探PDA
+  description: 闻起来像是雨水的味道……正从屋顶倾泻而下……
   components:
   - type: Pda
     id: DetectiveIDCard
@@ -1351,8 +1351,8 @@
 - type: entity
   parent: BaseMedicalPDA
   id: BrigmedicPDA
-  name: brigmedic PDA
-  description: I wonder whose pulse is on the screen? I hope it doesn't stop...
+  name: brigmedic 生命体征监测仪
+  description: 不知道屏幕上是谁的脉搏？希望它不要停下来……
   components:
   - type: Pda
     id: BrigmedicIDCard
@@ -1379,9 +1379,9 @@
 - type: entity
   parent: ClownPDA
   id: CluwnePDA
-  name: cluwne PDA
+  name: 被诅咒的小丑PDA
   suffix: Unremoveable
-  description: Cursed cluwne PDA.
+  description: 被诅咒的小丑PDA。
   components:
   - type: Pda
     id: CluwneIDCard
@@ -1406,8 +1406,8 @@
 - type: entity
   parent: BasePDA
   id: SeniorEngineerPDA
-  name: senior engineer PDA
-  description: Seems to have been taken apart and put back together several times.
+  name: 高级工程师PDA
+  description: 似乎被拆开又组装回去好几次了。
   components:
   - type: Pda
     id: SeniorEngineerIDCard
@@ -1425,8 +1425,8 @@
 - type: entity
   parent: BasePDA
   id: SeniorResearcherPDA
-  name: senior researcher PDA
-  description: Looks like it's been through years of chemical burns and explosions.
+  name: 高级研究员PDA
+  description: 看起来它经历了多年的化学灼伤和爆炸。
   components:
   - type: Pda
     id: SeniorResearcherIDCard
@@ -1445,8 +1445,8 @@
 - type: entity
   parent: BaseMedicalPDA
   id: SeniorPhysicianPDA
-  name: senior physician PDA
-  description: Smells faintly like iron and chemicals.
+  name: 资深医师PDA
+  description: 闻起来有淡淡的铁和化学品气味。
   components:
   - type: Pda
     id: SeniorPhysicianIDCard
@@ -1465,8 +1465,8 @@
 - type: entity
   parent: BaseSecurityPDA
   id: SeniorOfficerPDA
-  name: senior officer PDA
-  description: Beaten, battered and broken, but just barely useable.
+  name: 高级军官PDA
+  description: 被打得破破烂烂，但勉强还能用。
   components:
   - type: Pda
     id: SeniorOfficerIDCard
@@ -1484,8 +1484,8 @@
 - type: entity
   parent: BasePDA
   id: SeniorCourierPDA
-  name: senior courier PDA
-  description: Smells like postage stamps and shuttle fuel.
+  name: 高级快递员PDA
+  description: 闻起来有股邮票和穿梭机燃料的味道。
   components:
   - type: Pda
     id: CargoIDCard
@@ -1503,8 +1503,8 @@
 - type: entity
   parent: [ BaseMajorContraband, SyndiPDA ]
   id: PiratePDA
-  name: pirate PDA
-  description: Yargh!
+  name: 海盗PDA
+  description: 哟！
   components:
   - type: Pda
     id: PirateIDCard
@@ -1519,8 +1519,8 @@
 - type: entity
   parent: [BasePDA, SelectableLock]
   id: ChameleonPDA
-  name: passenger PDA
-  description: Why isn't it gray?
+  name: 乘客PDA
+  description: 为什么它不是灰色的？
   suffix: Chameleon
   components:
   - type: PdaBorderColor
@@ -1550,8 +1550,8 @@
 - type: entity
   parent: BaseWidePDA
   id: WizardPDA
-  name: wizard PDA
-  description: You hear faint whispers coming from it.
+  name: 巫师掌上电脑
+  description: 你听到它传来微弱的低语声。
   components:
   - type: Pda
     id: WizardIDCard
@@ -1574,7 +1574,7 @@
 - type: entity
   parent: ClearPDA
   id: ScurretPDA
-  description: A temporary PDA granted to scurret temps. Doesn't do much. Wawa!
+  description: 发给临时工的临时PDA。功能不多。哇哇！
   components:
   - type: Pda
     id: VisitorIDCard

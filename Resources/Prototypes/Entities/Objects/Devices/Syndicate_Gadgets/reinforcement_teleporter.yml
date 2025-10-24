@@ -2,8 +2,8 @@
   parent: [BaseItem, BaseSyndicateContraband]
   abstract: true
   id: ReinforcementRadio
-  name: syndicate reinforcement radio
-  description: Call in a syndicate agent of questionable quality, instantly! Only basic equipment provided.
+  name: 辛迪加强援电台
+  description: 立刻呼叫一名质量存疑的辛迪加特工！仅提供基础装备。
   components:
   - type: Sprite
     sprite: Objects/Devices/communication.rsi
@@ -19,12 +19,12 @@
 - type: entity
   parent: ReinforcementRadio
   id: ReinforcementRadioSyndicate
-  name: syndicate reinforcement radio
-  description: Call in a syndicate agent of questionable quality, instantly!
+  name: 辛迪加强援无线电
+  description: 立刻呼叫一个质量存疑的辛迪加特工！
   components:
   - type: GhostRole
-    name: ghost-role-information-syndicate-reinforcement-spy-name
-    description: ghost-role-information-syndicate-reinforcement-spy-description
+    name: 幽灵角色信息-辛迪加强化间谍名称
+    description: 幽灵角色信息-辛迪加强化间谍描述
     rules: ghost-role-information-syndicate-reinforcement-rules
     mindRoles:
     - MindRoleGhostRoleTeamAntagonist
@@ -37,13 +37,13 @@
 - type: entity
   parent: ReinforcementRadio
   id: ReinforcementRadioSyndicateNukeops # Reinforcement radio exclusive to nukeops uplink
-  name: nuclear operative radio
-  description: Call in a nuclear operative of questionable quality, instantly! Basic nukeop equipment provided.
+  name: 核战特工无线电
+  description: 立刻呼叫一名质量存疑的核战特工！基础核战装备已配备。
   suffix: NukeOps
   components:
   - type: GhostRole
-    name: ghost-role-information-nukeop-reinforcement-name
-    description: ghost-role-information-nukeop-reinforcement-description
+    name: 幽灵角色信息-核弹特工增援名称
+    description: 幽灵角色信息-核弹特工增援描述
     rules: ghost-role-information-nukeop-reinforcement-rules
     mindRoles:
     - MindRoleGhostRoleTeamAntagonist
@@ -55,12 +55,12 @@
 - type: entity
   parent: ReinforcementRadio
   id: ReinforcementRadioSyndicateAncestor
-  name: syndicate genetic ancestor reinforcement radio
-  description: Calls in a specially trained ancestor of your choosing to assist you.
+  name: 辛迪加基因先祖强化无线电
+  description: 召唤一位您选择的经过特殊训练的基因先祖前来协助。
   components:
   - type: GhostRole
-    name: ghost-role-information-syndicate-monkey-reinforcement-name
-    description: ghost-role-information-syndicate-monkey-reinforcement-description
+    name: 幽灵角色信息-辛迪加猴子增援名称
+    description: 幽灵角色信息-辛迪加猴子增援描述
     rules: ghost-role-information-syndicate-reinforcement-rules
     mindRoles:
     - MindRoleGhostRoleTeamAntagonist
@@ -84,12 +84,12 @@
 - type: entity
   parent: ReinforcementRadio
   id: ReinforcementRadioSyndicateSyndiCat
-  name: syndicat reinforcement radio
-  description: Calls in a faithfully trained cat with a microbomb to assist you.
+  name: 工会增援电台
+  description: 召唤一只经过忠诚训练的携带微型炸弹的猫来协助你。
   components:
   - type: GhostRole
-    name: ghost-role-information-SyndiCat-name
-    description: ghost-role-information-SyndiCat-description
+    name: 幽灵角色信息-辛迪猫-名称
+    description: 幽灵角色信息-辛迪猫-描述
     rules: ghost-role-information-syndicate-reinforcement-rules
     mindRoles:
     - MindRoleGhostRoleTeamAntagonist
@@ -103,13 +103,13 @@
 - type: entity
   parent: ReinforcementRadio
   id: ReinforcementRadioSyndicateCyborgAssault # Reinforcement radio exclusive to nukeops uplink
-  name: syndicate assault cyborg reinforcement radio
-  description: Call in a well armed assault cyborg, instantly!
+  name: 辛迪加强袭生化机器人增援无线电
+  description: 呼叫一支装备精良的强袭生化机器人，立刻行动！
   suffix: NukeOps
   components:
     - type: GhostRole
-      name: ghost-role-information-syndicate-cyborg-assault-name
-      description: ghost-role-information-syndicate-cyborg-description
+      name: 幽灵角色信息-辛迪加突击型改造人名称
+      description: 幽灵角色信息-辛迪加改造人描述
       rules: ghost-role-information-silicon-rules
       mindRoles:
       - MindRoleGhostRoleSilicon

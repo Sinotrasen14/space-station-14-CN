@@ -21,7 +21,7 @@
 
 - type: entity
   id: ClickTestRotatingCornerVisible
-  name: ClickTestRotatingCornerVisible
+  name: 点击测试旋转角可见
   parent: ClickTestBase
   components:
   - type: Clickable
@@ -31,7 +31,7 @@
 
 - type: entity
   id: ClickTestRotatingCornerVisibleNoRot
-  name: ClickTestRotatingCornerVisibleNoRot
+  name: 点击测试旋转角可见不旋转
   parent: ClickTestRotatingCornerVisible
   components:
   - type: Sprite
@@ -39,7 +39,7 @@
 
 - type: entity
   id: ClickTestRotatingCornerInvisible
-  name: ClickTestRotatingCornerInvisible
+  name: 点击测试旋转角落不可见
   parent: ClickTestBase
   components:
   - type: Clickable
@@ -55,7 +55,7 @@
 
 - type: entity
   id: ClickTestRotatingCornerInvisibleNoRot
-  name: ClickTestRotatingCornerInvisibleNoRot
+  name: 点击测试旋转角落不可见无旋转
   parent: ClickTestRotatingCornerInvisible
   components:
     - type: Sprite
@@ -64,7 +64,7 @@
 
 - type: entity
   id: ClickTestFixedCornerVisible
-  name: ClickTestFixedCornerVisible
+  name: 点击测试固定角可见
   parent: ClickTestBase
   components:
   - type: Clickable
@@ -74,7 +74,7 @@
 
 - type: entity
   id: ClickTestFixedCornerInvisible
-  name: ClickTestFixedCornerInvisible
+  name: 点击测试固定角落不可见
   parent: ClickTestBase
   components:
   - type: Clickable

@@ -1,6 +1,6 @@
 - type: entity
   id: BaseCartridgeLightRifle
-  name: cartridge (.30 rifle)
+  name: 子弹（0.30英寸步枪）
   parent: [ BaseCartridge, BaseSecurityContraband ]
   abstract: true
   components:
@@ -19,18 +19,18 @@
 
 - type: entity
   id: CartridgeLightRifle
-  name: cartridge (.30 rifle)
+  name: 子弹（.30口径步枪）
   parent: BaseCartridgeLightRifle
-  description: A classic intermediate cartridge used by many combat rifles and LMGs. Standard kinetic ammunition is common and useful in most situations.
+  description: 一款经典的中间型子弹，广泛用于多种战斗步枪和轻机枪。标准动能弹药在多数情况下既常见又实用。
   components:
   - type: CartridgeAmmo
     proto: BulletLightRifle
 
 - type: entity
   id: CartridgeLightRiflePractice
-  name: cartridge (.30 rifle practice)
+  name: 子弹（.30步枪练习弹）
   parent: BaseCartridgeLightRifle
-  description: A classic intermediate cartridge used by many combat rifles and LMGs. Chalk ammunition is generally non-harmful, used for practice.
+  description: 一种经典的中间型弹药，被多种战斗步枪和轻机枪使用。练习弹通常无害，用于训练。
   components:
   - type: CartridgeAmmo
     proto: BulletLightRiflePractice
@@ -44,9 +44,9 @@
 
 - type: entity
   id: CartridgeLightRifleIncendiary
-  name: cartridge (.30 rifle incendiary)
+  name: 子弹（.30步枪燃烧弹）
   parent: BaseCartridgeLightRifle
-  description: A classic intermediate cartridge used by many combat rifles and LMGs. Incendiary ammunition contains a self-igniting compound that sets the target ablaze.
+  description: 一款经典的中间威力弹药，被众多战斗步枪和轻机枪采用。燃烧弹内含有自燃化合物，能引燃目标。
   components:
   - type: CartridgeAmmo
     proto: BulletLightRifleIncendiary
@@ -60,9 +60,9 @@
 
 - type: entity
   id: CartridgeLightRifleUranium
-  name: cartridge (.30 rifle uranium)
+  name: 子弹（.30口径铀步枪弹）
   parent: BaseCartridgeLightRifle
-  description: A classic intermediate cartridge used by many combat rifles and LMGs. Uranium ammunition replaces the lead core of the bullet with fissile material, irradiating the target from the inside.
+  description: 一种经典的中间威力弹药，被众多战斗步枪和轻机枪采用。铀制弹药以裂变材料替代弹头铅芯，能从内部辐照目标。
   components:
   - type: CartridgeAmmo
     proto: BulletLightRifleUranium

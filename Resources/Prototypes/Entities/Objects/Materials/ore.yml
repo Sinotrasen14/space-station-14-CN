@@ -2,7 +2,7 @@
   abstract: true
   parent: BaseItem
   id: OreBase
-  description: A piece of unrefined ore.
+  description: 一块未经提炼的矿石。
   components:
   - type: Sprite
     sprite: Objects/Materials/ore.rsi
@@ -27,7 +27,7 @@
 - type: entity
   parent: OreBase
   id: GoldOre
-  name: gold ore
+  name: 金矿石
   suffix: Full
   components:
   - type: Stack
@@ -64,7 +64,7 @@
 - type: entity
   parent: OreBase
   id: DiamondOre
-  name: diamond ore
+  name: 钻石矿石
   suffix: Full
   components:
   - type: Stack
@@ -97,7 +97,7 @@
 - type: entity
   parent: OreBase
   id: SteelOre
-  name: iron ore
+  name: 铁矿石
   suffix: Full
   components:
   - type: Stack
@@ -130,7 +130,7 @@
 - type: entity
   parent: OreBase
   id: PlasmaOre
-  name: plasma ore
+  name: 等离子矿石
   suffix: Full
   components:
   - type: Stack
@@ -172,7 +172,7 @@
 - type: entity
   parent: OreBase
   id: SilverOre
-  name: silver ore
+  name: 银矿石
   suffix: Full
   components:
   - type: Stack
@@ -209,7 +209,7 @@
 - type: entity
   parent: OreBase
   id: SpaceQuartz
-  name: space quartz
+  name: 太空石英
   suffix: Full
   components:
   - type: Stack
@@ -242,7 +242,7 @@
 - type: entity
   parent: OreBase
   id: UraniumOre
-  name: uranium ore
+  name: 铀矿石
   suffix: Full
   components:
   - type: Stack
@@ -287,7 +287,7 @@
 - type: entity
   parent: OreBase
   id: BananiumOre
-  name: bananium ore
+  name: 香蕉矿
   suffix: Full
   components:
   - type: Stack
@@ -333,7 +333,7 @@
 - type: entity
   parent: OreBase
   id: Coal
-  name: coal
+  name: 煤
   suffix: Full
   components:
   - type: Stack
@@ -398,7 +398,7 @@
 - type: entity
   parent: OreBase
   id: SaltOre
-  name: salt
+  name: 盐
   suffix: Full
   components:
   - type: Stack

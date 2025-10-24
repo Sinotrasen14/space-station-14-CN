@@ -21,10 +21,10 @@
 # Muffins
 
 - type: entity
-  name: muffin
+  name: 松饼
   parent: FoodInjectableBase
   id: FoodBakedMuffin
-  description: A delicious and spongy little cake.
+  description: 一种美味松软的小蛋糕。
   components:
   - type: Edible
     trash:
@@ -48,10 +48,10 @@
     size: Tiny
 
 - type: entity
-  name: berry muffin
+  name: 浆果松饼
   parent: FoodBakedMuffin
   id: FoodBakedMuffinBerry
-  description: A delicious and spongy little cake, with berries.
+  description: 一款美味松软、带有浆果的小蛋糕。
   components:
   - type: Sprite
     state: muffin-berry
@@ -71,10 +71,10 @@
     - Fruit
 
 - type: entity
-  name: cherry muffin
+  name: 樱桃松饼
   parent: FoodBakedMuffin
   id: FoodBakedMuffinCherry
-  description: A sweet muffin with cherry bits.
+  description: 一款带有樱桃粒的甜松饼。
   components:
   - type: Sprite
     state: muffin-cherry
@@ -94,10 +94,10 @@
     - Fruit
 
 - type: entity
-  name: bluecherry muffin
+  name: 蓝樱桃麦芬
   parent: FoodBakedMuffin
   id: FoodBakedMuffinBluecherry
-  description: Blue cherries inside a delicious muffin.
+  description: 美味的麦芬里藏着蓝樱桃。
   components:
   - type: Sprite
     state: muffin-bluecherry
@@ -106,10 +106,10 @@
     - Fruit
 
 - type: entity
-  name: chocolate muffin
+  name: 巧克力松饼
   parent: FoodBakedMuffin
   id: FoodBakedMuffinChocolate
-  description: A delicious and spongy chocolate muffin.
+  description: 一款美味松软的巧克力松饼。
   components:
   - type: Sprite
     state: muffin-chocolate
@@ -126,10 +126,10 @@
           Quantity: 2
 
 - type: entity
-  name: banana muffin
+  name: 香蕉马芬
   parent: FoodBakedMuffin
   id: FoodBakedMuffinBanana
-  description: A delicious and spongy banana muffin.
+  description: 一款美味松软的香蕉马芬。
   components:
   - type: Sprite
     state: muffin-banana
@@ -151,28 +151,28 @@
 # Buns
 
 - type: entity
-  name: honey bun #TODO honey
+  name: 蜂蜜面包
   parent: FoodBakedBase
   id: FoodBakedBunHoney
-  description: A sticky pastry bun glazed with honey.
+  description: 一款表面涂有蜂蜜的粘性糕点面包。
   components:
   - type: Sprite
     state: bun-honey
 
 - type: entity
-  name: hotcross bun
+  name: 十字面包
   parent: FoodBakedBase
   id: FoodBakedBunHotX
-  description: A sticky pastry bun glazed with a distinct white cross.
+  description: 一种表面粘滑、饰有独特白色十字图案的糕点面包。
   components:
   - type: Sprite
     state: bun-hotcross
 
 - type: entity
-  name: meat bun
+  name: 肉包子
   parent: FoodBakedBase
   id: FoodBakedBunMeat
-  description: Has the potential to not be dog.
+  description: 有潜力不是狗。
   components:
   - type: Sprite
     state: bun-meat
@@ -189,19 +189,19 @@
 # Cookies
 
 - type: entity
-  name: cookie
+  name: 曲奇
   parent: FoodBakedBase
   id: FoodBakedCookie
-  description: COOKIE!!!
+  description: 曲奇!!!
   components:
   - type: Sprite
     state: COOKIE!!!
 
 - type: entity
-  name: oatmeal cookie
+  name: 燕麦饼干
   parent: FoodBakedBase
   id: FoodBakedCookieOatmeal
-  description: The best of both cookie and oat.
+  description: 饼干与燕麦的完美融合。
   components:
   - type: Sprite
     state: cookie-oatmeal
@@ -216,10 +216,10 @@
           Quantity: 1
 
 - type: entity
-  name: raisin cookie
+  name: 葡萄干饼干
   parent: FoodBakedBase
   id: FoodBakedCookieRaisin
-  description: Why would you put raisins in a cookie?
+  description: 你为什么要在饼干里放葡萄干？
   components:
   - type: Sprite
     state: cookie-raisin
@@ -237,10 +237,10 @@
     - Fruit
 
 - type: entity
-  name: sugar cookie
+  name: 糖曲奇
   parent: FoodBakedBase
   id: FoodBakedCookieSugar
-  description: Just like your mom used to make.
+  description: 就像你妈妈以前做的那样。
   components:
   - type: Sprite
     state: cookie-sugar
@@ -248,10 +248,10 @@
 # Nuggets
 
 - type: entity
-  name: chicken nugget
+  name: 鸡块
   parent: FoodBakedBase
   id: FoodBakedNugget
-  description: A "chicken" nugget vaguely shaped into an object. # Should change depending on name.
+  description: 一块被粗略塑成"鸡块"形状的物体。
   components:
   - type: Tag
     tags:
@@ -286,10 +286,10 @@
 # Once StackVisuals is updated you should be able to mix/match stacks of pancakes.
 
 - type: entity
-  name: pancake
+  name: 薄煎饼
   parent: FoodBakedBase
   id: FoodBakedPancake
-  description: A fluffy pancake. The softer, superior relative of the waffle.
+  description: 蓬松的薄煎饼，华夫饼更柔软的高级形态。
   components:
   - type: Stack
     stackType: Pancake
@@ -341,10 +341,10 @@
     - Pancake
 
 - type: entity
-  name: blueberry pancake
+  name: 蓝莓煎饼
   parent: FoodBakedPancake
   id: FoodBakedPancakeBb
-  description: A fluffy and delicious blueberry pancake.
+  description: 一份蓬松可口的蓝莓煎饼。
   components:
   - type: Stack
     stackType: PancakeBb
@@ -394,10 +394,10 @@
     - Fruit
 
 - type: entity
-  name: chocolate chip pancake
+  name: 巧克力薄饼
   parent: FoodBakedPancake
   id: FoodBakedPancakeCc
-  description: A fluffy and delicious chocolate chip pancake.
+  description: 蓬松可口的巧克力薄饼。
   components:
   - type: Stack
     stackType: PancakeCc
@@ -452,10 +452,10 @@
           Quantity: 1
 
 - type: entity
-  name: waffles
+  name: 华夫饼
   parent: FoodBakedBase
   id: FoodBakedWaffle
-  description: Mmm, waffles.
+  description: 嗯，华夫饼。
   components:
   - type: Sprite
     layers:
@@ -472,10 +472,10 @@
           Quantity: 1
 
 - type: entity
-  name: soy waffles
+  name: 豆渣华夫饼
   parent: FoodBakedWaffle
   id: FoodBakedWaffleSoy
-  description: You feel healthier and - more feminine?
+  description: 你感觉更健康，也更女性化了？
   components:
   - type: Sprite
     layers:
@@ -492,10 +492,10 @@
           Quantity: 1
 
 - type: entity
-  name: soylent waffles
+  name: soylent牌华夫饼
   parent: FoodBakedWaffle
   id: FoodBakedWaffleSoylent
-  description: Not made of people. Honest. # Definitely people
+  description: 不是用人做的。真的。#绝对是
   components:
   - type: Sprite
     layers:
@@ -512,10 +512,10 @@
           Quantity: 1
 
 - type: entity
-  name: roffle waffles
+  name: 罗弗华夫饼
   parent: FoodBakedWaffle
   id: FoodBakedWaffleRoffle
-  description: Waffles from Roffle. Co.
+  description: 罗弗公司的华夫饼。
   components:
   - type: Sprite
     layers:
@@ -534,19 +534,19 @@
 # Misc
 
 - type: entity
-  name: poppy pretzel
+  name: 罂粟椒盐卷饼
   parent: FoodBakedBase
   id: FoodBakedPretzel
-  description: It's all twisted up!
+  description: 它全都扭曲在一起了！
   components:
   - type: Sprite
     state: pretzel
 
 - type: entity
-  name: cannoli
+  name: 奶油甜馅煎饼卷
   parent: FoodBakedBase
   id: FoodBakedCannoli
-  description: A Sicilian treat that makes you into a wise guy.
+  description: 西西里风味美食，让你化身智者。
   components:
   - type: Sprite
     state: cannoli
@@ -561,10 +561,10 @@
           Quantity: 1
 
 - type: entity
-  name: dumplings
+  name: 饺子
   parent: FoodBakedBase
   id: FoodBakedDumplings
-  description: Average recipe for meat in doughs.
+  description: 面团中肉馅的常见配比。
   components:
   - type: Sprite
     state: dumplings
@@ -586,10 +586,10 @@
     - Meat
 
 - type: entity
-  name: chèvre chaud
+  name: 山羊奶酪烤面包片
   parent: FoodBakedBase
   id: FoodBakedChevreChaud
-  description: A disk of slightly melted chèvre flopped on top of a crostini, and toasted all-round.
+  description: 一片微融的山羊奶酪落在烤面包片上，四周烘烤得恰到好处。
   components:
   - type: FlavorProfile
     flavors:
@@ -610,10 +610,10 @@
           Quantity: 0.5
 
 - type: entity
-  name: cotton chèvre chaud
+  name: 棉花山羊奶酪热三明治
   parent: FoodBakedChevreChaud
   id: FoodBakedChevreChaudCotton
-  description: A disk of slightly melted chèvre flopped on top of a... cotton crostini, and toasted all-round.
+  description: 一片微微融化的山羊奶酪掉在了……棉花脆片上，四周烤得焦黄。
   components:
   - type: FlavorProfile
     flavors:
@@ -644,8 +644,8 @@
 - type: entity
   parent: FoodBakedBase
   id: FoodBakedBrownieBatch
-  name: brownies
-  description: A pan of brownies.
+  name: 布朗尼
+  description: 一盘布朗尼。
   components:
   - type: Item
     size: Normal
@@ -671,11 +671,11 @@
     slice: FoodBakedBrownie
 
 - type: entity
-  name: brownie
+  name: 布朗尼
   parent: FoodBakedBase
   id: FoodBakedBrownie
   suffix: Fresh
-  description: A fresh baked brownie.
+  description: 一块新鲜出炉的布朗尼。
   components:
   - type: FlavorProfile
     flavors:
@@ -700,8 +700,8 @@
 - type: entity
   parent: FoodBakedBase
   id: FoodBakedCannabisBrownieBatch
-  name: special brownies
-  description: A pan of "special" brownies.
+  name: 特制布朗尼
+  description: 一盘"特制"布朗尼。
   components:
   - type: Item
     size: Normal
@@ -732,8 +732,8 @@
 - type: entity
   parent: FoodBakedBase
   id: FoodBakedCannabisBrownie
-  name: special brownie
-  description: A "special" brownie.
+  name: 特制布朗尼
+  description: 一份"特制"布朗尼。
   components:
   - type: FlavorProfile
     flavors:
@@ -759,10 +759,10 @@
     - Slice
 
 - type: entity
-  name: onion rings
+  name: 洋葱圈
   parent: FoodBakedBase
   id: FoodOnionRings
-  description: You can eat it or propose to your loved ones.
+  description: 你可以吃掉它，也可以用它向爱人求婚。
   components:
     - type: FlavorProfile
       flavors:
@@ -785,8 +785,8 @@
 - type: entity
   parent: FoodBakedBase
   id: FoodBakedCroissant
-  name: croissant
-  description: Buttery, flaky goodness.
+  name: 可颂
+  description: 黄油般酥脆的美味。
   components:
   - type: Item
     size: Small
@@ -819,8 +819,8 @@
 - type: entity
   parent: FoodBakedCroissant
   id: FoodBakedCroissantCotton
-  name: cotton croissant
-  description: Buttery, flaky, fibery goodness.
+  name: 棉花可颂
+  description: 黄油般香浓，酥脆多层，富含纤维的美味。
   components:
   - type: Item
     size: Small
@@ -856,8 +856,8 @@
 - type: entity
   parent: FoodBakedBase
   id: FoodBakedGrilledCheeseSandwich
-  name: grilled cheese sandwich
-  description: Bread and cheese toasted with butter, perfect for a chilly day in space.
+  name: 烤奶酪三明治
+  description: 面包和奶酪与黄油一同烤制，非常适合在太空的寒冷日子里享用。
   components:
   - type: Item
     size: Small
@@ -885,8 +885,8 @@
 - type: entity
   parent: FoodBakedGrilledCheeseSandwich
   id: FoodBakedGrilledCheeseSandwichCotton
-  name: cotton grilled cheese sandwich
-  description: Cotton bread slightly burnt in butter, with melted cheese. Moths find it difficult to resist this combination.
+  name: 棉花 grilled cheese 三明治
+  description: 棉花面包在黄油中微烤至略带焦痕，融化的芝士绵密包裹。飞蛾也难以抗拒这般搭配。
   components:
   - type: FlavorProfile
     flavors:

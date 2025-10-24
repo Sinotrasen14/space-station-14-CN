@@ -1,8 +1,8 @@
 - type: entity
   parent: BaseItem
   id: Igniter
-  name: igniter
-  description: Creates a spark when activated by a signal.
+  name: 点火器
+  description: 被信号激活时产生火花。
   components:
   - type: Sprite
     sprite: Objects/Devices/igniter.rsi

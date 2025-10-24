@@ -1,8 +1,8 @@
 - type: entity
-  name: bola
+  name: 流星锤
   parent: [BaseItem, BaseSecurityContraband]
   id: Bola
-  description: Linked together with some spare cuffs and metal.
+  description: 用一些多余的镣铐和金属连接在一起。
   components:
   - type: Item
     size: Normal

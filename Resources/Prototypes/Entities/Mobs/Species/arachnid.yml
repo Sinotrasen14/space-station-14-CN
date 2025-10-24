@@ -1,6 +1,6 @@
 - type: entity
   save: false
-  name: Urist McWebs
+  name: 乌里斯特·麦克韦布斯
   parent: BaseMobSpeciesOrganic
   id: BaseMobArachnid
   abstract: true

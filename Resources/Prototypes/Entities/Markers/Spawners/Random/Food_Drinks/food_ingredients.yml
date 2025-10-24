@@ -1,7 +1,7 @@
 #Spawners
 - type: entity
   id: RandomIngredient
-  name: random ingredient spawner
+  name: 随机配料生成器
   suffix: Non-Plant
   parent: MarkerBase
   placement:

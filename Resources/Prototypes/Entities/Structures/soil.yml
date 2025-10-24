@@ -1,7 +1,7 @@
 - type: entity
   id: hydroponicsSoil
-  name: soil
-  description: A mix of organic matter and minerals creating a soil to grow your plant in space. Seems to be dry.
+  name: 土壤
+  description: 由有机物和矿物质混合而成，为太空植物培育所制的土壤。看起来是干燥的。
   placement:
     mode: SnapgridCenter
   components:
@@ -61,8 +61,8 @@
 - type: entity
   parent: hydroponicsSoil
   id: FungalSoil
-  name: fungal soil
-  description: A mix of organic matter and fungal root creating a soil to grow your plant in space. Seems to be dry.
+  name: 真菌土壤
+  description: 由有机物和真菌根混合而成，为太空植物培育打造的土壤。看起来已经干燥。
   components:
   - type: Construction
     graph: Soil

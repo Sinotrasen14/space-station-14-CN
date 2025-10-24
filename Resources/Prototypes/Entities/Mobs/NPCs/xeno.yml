@@ -1,9 +1,9 @@
 # Hacky for the stress test so don't even consider adding to this
 - type: entity
-  name: burrower
+  name: 挖洞者
   id: MobXeno
   parent: SimpleSpaceMobBase
-  description: They mostly come at night. Mostly.
+  description: 它们大多在夜晚出现。大多数时候都是。
   components:
   - type: Insulated
   - type: CombatMode
@@ -96,8 +96,8 @@
     allowMovement: true
     allowSpeech: true
     makeSentient: true
-    name: ghost-role-information-xeno-name
-    description: ghost-role-information-xeno-description
+    name: 幽灵角色信息-异形名称
+    description: 幽灵角色信息-异形描述
     rules: ghost-role-information-xeno-rules
     raffle:
       settings: default
@@ -120,7 +120,7 @@
     speechVerb: LargeMob
 
 - type: entity
-  name: praetorian
+  name: 禁卫军
   parent: MobXeno
   id: MobXenoPraetorian
   components:
@@ -153,7 +153,7 @@
         - MobLayer
 
 - type: entity
-  name: drone
+  name: 无人机
   parent: MobXeno
   id: MobXenoDrone
   components:
@@ -190,7 +190,7 @@
         - MobLayer
 
 - type: entity
-  name: queen
+  name: 女王
   parent: MobXeno
   id: MobXenoQueen
   components:
@@ -229,7 +229,7 @@
     - CannotSuicide
 
 - type: entity
-  name: ravager
+  name: 蹂躏者
   parent: MobXeno
   id: MobXenoRavager
   components:
@@ -266,7 +266,7 @@
         - MobLayer
 
 - type: entity
-  name: runner
+  name: 跑步者
   parent: MobXeno
   id: MobXenoRunner
   components:
@@ -296,7 +296,7 @@
         - MobLayer
 
 - type: entity
-  name: rouny
+  name: 圆润
   parent: MobXenoRunner
   id: MobXenoRouny
   components:
@@ -311,7 +311,7 @@
       amount: 3
 
 - type: entity
-  name: spitter
+  name: 吐痰者
   parent: MobXeno
   id: MobXenoSpitter
   components:
@@ -358,10 +358,10 @@
         - MobLayer
 
 - type: entity
-  name: space adder
+  name: 太空蝰蛇
   parent: SimpleSpaceMobBase
   id: MobPurpleSnake
-  description: A menacing purple snake from Kepler-283c.
+  description: 一条来自开普勒-283c星球的紫色巨蛇，面目狰狞。
   components:
   - type: Sprite
     drawdepth: Mobs
@@ -428,11 +428,11 @@
     - FootstepSound
 
 - type: entity
-  name: space adder
+  name: 空间加法器
   parent: MobPurpleSnake
   id: MobSmallPurpleSnake
   suffix: small
-  description: A smaller version of the menacing purple snake from Kepler-283c.
+  description: 开普勒-283c星球上那条凶险紫色蛇类的小型版本。
   components:
   - type: Sprite
     drawdepth: Mobs
@@ -458,8 +458,8 @@
 # Mob mapped to Xeno Station that can not be ghostrole / pry
 
 - type: entity
-  name: '"Dale"'
-  description: A praetorian left over from the station's initial security sweep. Has a pair of bloodied dog tags engraved with the name "Pvt. Dale" stuck in its maw.
+  name: 「戴尔」
+  description: 一名在空间站初次安全清扫中遗留的禁军队员。其口中卡着一副血迹斑斑的身份识别牌，上面刻有“列兵戴尔”的字样。
   parent: SimpleSpaceMobBase
   id: MobXenoLonePraetorianNoGhost
   components:

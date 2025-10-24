@@ -1,5 +1,5 @@
 - type: entity
-  name: lantern
+  name: 灯笼
   parent: BaseItem
   id: BaseLamp
   abstract: true
@@ -29,7 +29,7 @@
   - type: ItemSlots
     slots:
       cell_slot:
-        name: power-cell-slot-component-slot-name-default
+        name: 电源电池插槽组件插槽名称-默认
         startingItem: PowerCellSmall
   - type: ContainerContainer
     containers:
@@ -55,10 +55,10 @@
     stealGroup: LAMP
 
 - type: entity
-  name: lamp
+  name: 灯
   id: Lamp
   parent: BaseLamp
-  description: A light emitting device.
+  description: 一种发光设备。
   components:
   - type: Sprite
     sprite: Objects/Misc/Lights/lamp.rsi
@@ -84,10 +84,10 @@
           festive: { state: christmaslamp-on }
 
 - type: entity
-  name: banana lamp
+  name: 香蕉灯
   id: LampBanana
   parent: BaseLamp
-  description: A light emitting device, shaped like a banana.
+  description: 一种发光装置，形状像香蕉。
   components:
   - type: Sprite
     layers:
@@ -98,10 +98,10 @@
         map: [ "light" ]
 
 - type: entity
-  name: desk lamp
+  name: 台灯
   id: LampGold
   parent: BaseLamp
-  description: A light emitting device that would look great on a desk.
+  description: 一款放在书桌上会很好看的发光设备。
   components:
   - type: Sprite
     sprite: Objects/Misc/Lights/lampgreen.rsi
@@ -131,10 +131,10 @@
             state: christmaslamp-on
 
 - type: entity
-  name: interrogator lamp
+  name: 审讯灯
   id: LampInterrogator
   parent: [ BaseLamp, BaseSecurityContraband ]
-  description: Ultra-bright lamp for the bad cop.
+  description: 超亮审讯灯，专为“坏警察”设计。
   components:
   - type: Sprite
     sprite: Objects/Misc/Lights/lampint.rsi
@@ -175,7 +175,7 @@
   - type: ItemSlots
     slots:
       cell_slot:
-        name: power-cell-slot-component-slot-name-default
+        name: 动力电池插槽-组件插槽名称-默认
         startingItem: PowerCellHigh
   - type: GenericVisualizer
     visuals:
@@ -188,10 +188,10 @@
           False: {visible: false}
 
 - type: entity
-  name: floodlight
+  name: 泛光灯
   id: Floodlight
   parent: BaseLamp
-  description: A pole with powerful mounted lights on it.
+  description: 一根装有强力泛光灯的灯柱。
   components:
   - type: Item
     size: Normal
@@ -222,7 +222,7 @@
   - type: ItemSlots
     slots:
       cell_slot:
-        name: power-cell-slot-component-slot-name-default
+        name: 动力电池插槽-组件插槽名称-默认
         startingItem: PowerCellMedium
   - type: Anchorable
   - type: Damageable
@@ -249,10 +249,10 @@
       Glass: 500
       Steel: 200
 - type: entity
-  name: broken floodlight
+  name: 破损的泛光灯
   id: FloodlightBroken
   parent: BaseItem
-  description: A pole with powerful mounted lights on it. It's broken.
+  description: 一根装有强力照明灯的杆子。它坏了。
   components:
   - type: Item
     size: Normal

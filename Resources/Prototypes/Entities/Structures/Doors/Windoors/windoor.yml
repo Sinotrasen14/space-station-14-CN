@@ -1,44 +1,44 @@
 - type: entity
   id: Windoor
   parent: BaseWindoor
-  name: windoor
-  description: It's a window and a sliding door. Wow!
+  name: 窗门
+  description: 这是一扇窗户和一扇滑动门。哇！
 
 - type: entity
   id: WindoorSecure
   parent: BaseSecureWindoor
-  name: secure windoor
-  description: It's a sturdy window and a sliding door. Wow!
+  name: 牢固的窗门
+  description: 这是一扇牢固的窗户和一扇滑动门。哇！
 
 - type: entity
   id: WindoorClockwork
   parent: BaseClockworkWindoor
-  name: clockwork windoor
-  description: It's a sturdy window and a sliding door. Wow!
+  name: 发条式门窗
+  description: 这是一扇坚固的窗户和一扇滑动门。哇！
 
 - type: entity
   id: WindoorPlasma
   parent: BasePlasmaWindoor
-  name: plasma windoor
-  description: It's a pink window *and* a sliding door. Amazing!
+  name: 等离子体窗门
+  description: 这是一扇粉色的窗户*和*一扇滑动门。太神奇了！
 
 - type: entity
   id: WindoorSecurePlasma
   parent: BaseSecurePlasmaWindoor
-  name: secure plasma windoor
-  description: It's a sturdy purple window *and* a sliding door. Spectacular!
+  name: 牢固的等离子体窗门
+  description: 这是一扇牢固的紫色窗户*兼*滑动门。太壮观了！
 
 - type: entity
   id: WindoorUranium
   parent: BaseUraniumWindoor
-  name: uranium windoor
-  description: It's a window and a sliding door. Huh? Oh, and it's green!
+  name: 铀制门窗
+  description: 这是一扇窗户和一扇滑动门。嗯？哦，还是绿色的！
 
 - type: entity
   id: WindoorSecureUranium
   parent: BaseSecureUraniumWindoor
-  name: secure uranium windoor
-  description: It's a sturdy window and a sliding door. It's so neon green, it might even taste like limes!
+  name: 安全铀制门窗
+  description: 这是一扇坚固的窗户和一扇滑动门。它的霓虹绿如此鲜艳，甚至可能尝起来有酸橙的味道！
 
 # TODO remove these with parameterized prototypes/whatever we end up doing
 # Windoors (alphabetical)

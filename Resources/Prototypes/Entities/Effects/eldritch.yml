@@ -1,6 +1,6 @@
 ﻿- type: entity
   id: EffectVoidBlink
-  name: void blink
+  name: 无效闪烁
   categories: [ HideSpawnMenu ]
   save: false
   components:

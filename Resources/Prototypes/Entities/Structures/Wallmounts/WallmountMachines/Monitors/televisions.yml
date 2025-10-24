@@ -2,8 +2,8 @@
   parent: BaseWallmountMachine
   id: WallmountTelevision
   suffix: entertainment
-  name: television
-  description: Finally, some decent reception around here...
+  name: 电视
+  description: 终于能在这附近收到像样的信号了……
   components:
   - type: Construction
     graph: WallmountTelevision
@@ -61,8 +61,8 @@
 - type: entity
   parent: BaseWallmountGlass
   id: WallmountTelevisionFrame
-  name: television frame
-  description: Finally, some decent reception around here...
+  name: 电视画面
+  description: 终于，这附近的接收效果像点样了……
   components:
   - type: Construction
     graph: WallmountTelevision

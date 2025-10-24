@@ -1,7 +1,7 @@
 ﻿# Be careful with these as they get removed on shutdown too!
 - type: entity
   id: AiHeld
-  description: Components added / removed from an entity that gets inserted into an AI core.
+  description: 从插入人工智能核心的实体中添加/移除的组件。
   categories: [ HideSpawnMenu ]
   components:
   - type: IntrinsicRadioReceiver
@@ -77,7 +77,7 @@
 
 - type: entity
   id: AiHeldIntellicard
-  description: Components added / removed from an entity that gets inserted into an Intellicard.
+  description: 从插入到智能卡中的实体中添加/移除的组件。
   categories: [ HideSpawnMenu ]
   components:
   - type: IntrinsicRadioReceiver
@@ -101,7 +101,7 @@
 - type: entity
   id: AiHolder
   abstract: true
-  description: Handles AI interactions across holocards + AI cores
+  description: 处理全息卡和AI核心之间的AI交互。
   components:
   - type: ItemSlots
   - type: Tag
@@ -109,7 +109,7 @@
     - GhostOnlyWarp
   - type: StationAiHolder
     slot:
-      name: station-ai-mind-slot
+      name: 站台人工智能思维槽
       locked: false
       disableEject: true
       whitelist:
@@ -127,8 +127,8 @@
 # Items
 - type: entity
   id: Intellicard
-  name: intellicard
-  description: A storage device for AIs.
+  name: 智能卡
+  description: 人工智能的存储设备。
   parent:
   - BaseItem
   - AiHolder
@@ -169,8 +169,8 @@
 # Empty AI core
 - type: entity
   id: PlayerStationAiEmpty
-  name: AI core
-  description: The latest in Artificial Intelligences.
+  name: 人工智能核心
+  description: 最新的人工智能技术。
   parent:
   - BaseStructure
   - AiHolder
@@ -330,8 +330,8 @@
 - type: entity
   parent: BaseStructure
   id: PlayerStationAiAssembly
-  name: AI core assembly
-  description: An unfinished computer core for housing an artifical intelligence.
+  name: 人工智能核心组件
+  description: 一个用于容纳人工智能的未完成计算机核心。
   components:
   - type: Anchorable
     flags: 
@@ -459,8 +459,8 @@
   - Incorporeal
   - BaseMob
   id: StationAiHolo
-  name: AI eye
-  description: The AI's viewer.
+  name: AI之眼
+  description: AI之眼。
   categories: [ HideSpawnMenu, DoNotMap ]
   components:
   - type: NoFTL
@@ -486,8 +486,8 @@
 # The holographic representation of the AI that is projected from a holopad.
 - type: entity
   id: StationAiHoloLocal
-  name: AI hologram
-  description: A holographic representation of an AI.
+  name: AI全息影像
+  description: 一个AI的全息影像。
   categories: [ HideSpawnMenu, DoNotMap ]
   components:
   - type: Transform
@@ -523,7 +523,7 @@
   - type: ItemSlots
     slots:
       cell_slot:
-        name: power-cell-slot-component-slot-name-default
+        name: 动力电池插槽-组件插槽名称-默认
         startingItem: PowerCellMedium
   - type: StartingMindRole
     mindRole: "MindRoleSiliconBrain"
@@ -546,7 +546,7 @@
   - type: ItemSlots
     slots:
       cell_slot:
-        name: power-cell-slot-component-slot-name-default
+        name: 动力电池插槽-组件插槽名称-默认
         startingItem: PowerCellHyper
 
 - type: entity
@@ -555,8 +555,8 @@
   suffix: Ghost role
   components:
     - type: GhostRole
-      name: ghost-role-information-syndicate-cyborg-assault-name
-      description: ghost-role-information-syndicate-cyborg-description
+      name: 幽灵角色信息-辛迪加突击型改造人名称
+      description: 幽灵角色信息-辛迪加改造人描述
       rules: ghost-role-information-silicon-rules
       raffle:
         settings: default
@@ -580,7 +580,7 @@
   - type: ItemSlots
     slots:
       cell_slot:
-        name: power-cell-slot-component-slot-name-default
+        name: 动力电池插槽-组件插槽名称-默认
         startingItem: PowerCellHyper
 
 - type: entity
@@ -589,8 +589,8 @@
   suffix: Ghost role
   components:
     - type: GhostRole
-      name: ghost-role-information-syndicate-cyborg-saboteur-name
-      description: ghost-role-information-syndicate-cyborg-description
+      name: 辛迪加破坏者赛博格
+      description: 幽灵角色信息-辛迪加破坏者赛博格描述
       rules: ghost-role-information-silicon-rules
       raffle:
         settings: default
@@ -598,7 +598,7 @@
     - type: GhostTakeoverAvailable
 
 - type: entity
-  name: syndicate invasion borg spawner
+  name: 集团入侵博格生成器
   id: PlayerBorgSyndicateInvasionGhostRoleSpawner
   parent: MarkerBase
   components:
@@ -631,7 +631,7 @@
   - type: ItemSlots
     slots:
       cell_slot:
-        name: power-cell-slot-component-slot-name-default
+        name: 电源电池槽组件槽位名称-默认
         startingItem: PowerCellHigh
   - type: RandomMetadata
     nameSegments: [NamesBorg]
@@ -642,8 +642,8 @@
   suffix: Ghost role
   components:
   - type: GhostRole
-    name: ghost-role-information-derelict-engineering-cyborg-name
-    description: ghost-role-information-derelict-engineering-cyborg-description
+    name: 废弃工程半机械人
+    description: 幽灵角色信息-废弃工程半机械人描述
     rules: ghost-role-information-silicon-rules
     raffle:
       settings: default
@@ -666,7 +666,7 @@
   - type: ItemSlots
     slots:
       cell_slot:
-        name: power-cell-slot-component-slot-name-default
+        name: 动力电池插槽-组件插槽名称-默认
         startingItem: PowerCellHigh
   - type: RandomMetadata
     nameSegments: [NamesBorg]
@@ -677,8 +677,8 @@
   suffix: Ghost role
   components:
     - type: GhostRole
-      name: ghost-role-information-derelict-cyborg-name
-      description: ghost-role-information-derelict-cyborg-description
+      name: 遗弃生化人名称
+      description: 幽灵角色信息-遗弃生化人描述
       rules: ghost-role-information-silicon-rules
       raffle:
         settings: default
@@ -703,7 +703,7 @@
   - type: ItemSlots
     slots:
       cell_slot:
-        name: power-cell-slot-component-slot-name-default
+        name: 动力电池插槽-组件插槽名称-默认
         startingItem: PowerCellHigh
   - type: RandomMetadata
     nameSegments: [NamesBorg]
@@ -714,8 +714,8 @@
   suffix: Ghost role
   components:
   - type: GhostRole
-    name: ghost-role-information-derelict-janitor-cyborg-name
-    description: ghost-role-information-derelict-janitor-cyborg-description
+    name: 废弃清洁工赛博格
+    description: 废弃清洁工赛博格描述信息
     rules: ghost-role-information-silicon-rules
     raffle:
       settings: default
@@ -741,7 +741,7 @@
   - type: ItemSlots
     slots:
       cell_slot:
-        name: power-cell-slot-component-slot-name-default
+        name: 动力电池插槽-组件插槽名称-默认
         startingItem: PowerCellHigh
   - type: RandomMetadata
     nameSegments: [NamesBorg]
@@ -752,8 +752,8 @@
   suffix: Ghost role
   components:
   - type: GhostRole
-    name: ghost-role-information-derelict-medical-cyborg-name
-    description: ghost-role-information-derelict-medical-cyborg-description
+    name: 废弃医疗赛博格名称
+    description: 幽灵角色信息-废弃医疗赛博格描述
     rules: ghost-role-information-silicon-rules
     raffle:
       settings: default
@@ -778,7 +778,7 @@
   - type: ItemSlots
     slots:
       cell_slot:
-        name: power-cell-slot-component-slot-name-default
+        name: 电源电池槽组件默认槽位名称
         startingItem: PowerCellHigh
   - type: RandomMetadata
     nameSegments: [NamesBorg]
@@ -789,8 +789,8 @@
   suffix: Ghost role
   components:
   - type: GhostRole
-    name: ghost-role-information-derelict-mining-cyborg-name
-    description: ghost-role-information-derelict-mining-cyborg-description
+    name: 废弃采矿生化人
+    description: 废弃采矿生化人幽灵角色信息描述
     rules: ghost-role-information-silicon-rules
     raffle:
       settings: default
@@ -814,7 +814,7 @@
   - type: ItemSlots
     slots:
       cell_slot:
-        name: power-cell-slot-component-slot-name-default
+        name: 动力电池插槽-组件插槽名称-默认
         startingItem: PowerCellHyper
   - type: RandomMetadata
     nameSegments: [NamesDeathCommando]
@@ -825,8 +825,8 @@
   suffix: Ghost role
   components:
   - type: GhostRole
-    name: ghost-role-information-derelict-syndicate-assault-cyborg-name
-    description: ghost-role-information-derelict-syndicate-assault-cyborg-description
+    name: 幽灵角色信息 - 遗弃辛迪加突击改造人名称
+    description: 幽灵角色信息 - 遗弃辛迪加突击改造人描述
     rules: ghost-role-information-silicon-rules
     raffle:
       settings: default

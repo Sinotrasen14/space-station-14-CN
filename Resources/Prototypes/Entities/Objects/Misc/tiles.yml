@@ -1,7 +1,7 @@
 - type: entity
   parent: BaseItem
   id: FloorTileItemBase
-  description: These could work as a pretty decent throwing weapon.
+  description: 这些可以当作相当不错的投掷武器。
   abstract: true
   components:
   - type: Sprite
@@ -45,7 +45,7 @@
     - ExpandingRepairingStation
 
 - type: entity
-  name: steel dark checker tile
+  name: 钢制深色方格瓷砖
   parent: FloorTileItemSteel
   id: FloorTileItemSteelCheckerDark
   components:
@@ -59,7 +59,7 @@
     stackType: FloorTileSteelCheckerDark
 
 - type: entity
-  name: steel light checker tile
+  name: 钢光格砖
   parent: FloorTileItemSteel
   id: FloorTileItemSteelCheckerLight
   components:
@@ -73,7 +73,7 @@
     stackType: FloorTileSteelCheckerLight
 
 - type: entity
-  name: dark tile
+  name: 深色瓷砖
   parent: FloorTileItemBase
   id: FloorTileItemDark
   components:
@@ -92,7 +92,7 @@
     node: darktile
 
 - type: entity
-  name: dark steel diagonal mini tile
+  name: 深钢色斜角迷你瓷砖
   parent: FloorTileItemDark
   id: FloorTileItemDarkDiagonalMini
   components:
@@ -106,7 +106,7 @@
     stackType: FloorTileDarkDiagonalMini
 
 - type: entity
-  name: dark steel diagonal tile
+  name: 深钢对角线瓷砖
   parent: FloorTileItemDark
   id: FloorTileItemDarkDiagonal
   components:
@@ -120,7 +120,7 @@
     stackType: FloorTileDarkDiagonal
 
 - type: entity
-  name: dark steel herringbone
+  name: 深钢色人字纹
   parent: FloorTileItemDark
   id: FloorTileItemDarkHerringbone
   components:
@@ -134,7 +134,7 @@
     stackType: FloorTileDarkHerringbone
 
 - type: entity
-  name: dark steel mini tile
+  name: 深钢迷你瓷砖
   parent: FloorTileItemDark
   id: FloorTileItemDarkMini
   components:
@@ -148,7 +148,7 @@
     stackType: FloorTileDarkMini
 
 - type: entity
-  name: dark steel mono tile
+  name: 深色钢质单色瓷砖
   parent: FloorTileItemDark
   id: FloorTileItemDarkMono
   components:
@@ -162,7 +162,7 @@
     stackType: FloorTileDarkMono
 
 - type: entity
-  name: dark steel pavement
+  name: 深色钢铺面
   parent: FloorTileItemDark
   id: FloorTileItemDarkPavement
   components:
@@ -176,7 +176,7 @@
     stackType: FloorTileDarkPavement
 
 - type: entity
-  name: dark steel vertical pavement
+  name: 深色钢制垂直铺面
   parent: FloorTileItemDark
   id: FloorTileItemDarkPavementVertical
   components:
@@ -190,7 +190,7 @@
     stackType: FloorTileDarkPavementVertical
 
 - type: entity
-  name: offset dark steel tile
+  name: 偏移深色钢瓦
   parent: FloorTileItemDark
   id: FloorTileItemDarkOffset
   components:
@@ -204,7 +204,7 @@
     stackType: FloorTileDarkOffset
 
 - type: entity
-  name: steel tile
+  name: 钢瓦
   parent: FloorTileItemBase
   id: FloorTileItemSteel
   components:
@@ -223,7 +223,7 @@
     node: steeltile
 
 - type: entity
-  name: offset steel tile
+  name: 偏置钢瓦
   parent: FloorTileItemSteel
   id: FloorTileItemSteelOffset
   components:
@@ -237,7 +237,7 @@
     stackType: FloorTileSteelOffset
 
 - type: entity
-  name: steel diagonal mini tile
+  name: 钢质斜角迷你瓷砖
   parent: FloorTileItemSteel
   id: FloorTileItemSteelDiagonalMini
   components:
@@ -251,7 +251,7 @@
     stackType: FloorTileSteelDiagonalMini
 
 - type: entity
-  name: steel diagonal tile
+  name: 钢制斜铺瓦
   parent: FloorTileItemSteel
   id: FloorTileItemSteelDiagonal
   components:
@@ -265,7 +265,7 @@
     stackType: FloorTileSteelDiagonal
 
 - type: entity
-  name: steel herringbone
+  name: 钢制人字形
   parent: FloorTileItemSteel
   id: FloorTileItemSteelHerringbone
   components:
@@ -279,7 +279,7 @@
     stackType: FloorTileSteelHerringbone
 
 - type: entity
-  name: steel mini tile
+  name: 钢制迷你瓷砖
   parent: FloorTileItemSteel
   id: FloorTileItemSteelMini
   components:
@@ -293,7 +293,7 @@
     stackType: FloorTileSteelMini
 
 - type: entity
-  name: steel mono tile
+  name: 钢单瓦
   parent: FloorTileItemSteel
   id: FloorTileItemSteelMono
   components:
@@ -307,7 +307,7 @@
     stackType: FloorTileSteelMono
 
 - type: entity
-  name: steel pavement
+  name: 钢板路面
   parent: FloorTileItemSteel
   id: FloorTileItemSteelPavement
   components:
@@ -321,7 +321,7 @@
     stackType: FloorTileSteelPavement
 
 - type: entity
-  name: steel vertical pavement
+  name: 钢制垂直铺面
   parent: FloorTileItemSteel
   id: FloorTileItemSteelPavementVertical
   components:
@@ -335,7 +335,7 @@
     stackType: FloorTileSteelPavementVertical
 
 - type: entity
-  name: white tile
+  name: 白瓷砖
   parent: FloorTileItemBase
   id: FloorTileItemWhite
   components:
@@ -354,7 +354,7 @@
     node: whitetile
 
 - type: entity
-  name: offset white steel tile
+  name: 偏移白钢瓦
   parent: FloorTileItemWhite
   id: FloorTileItemWhiteOffset
   components:
@@ -368,7 +368,7 @@
     stackType: FloorTileWhiteOffset
 
 - type: entity
-  name: white steel diagonal mini tile
+  name: 白色钢质斜角迷你瓷砖
   parent: FloorTileItemWhite
   id: FloorTileItemWhiteDiagonalMini
   components:
@@ -382,7 +382,7 @@
     stackType: FloorTileWhiteDiagonalMini
 
 - type: entity
-  name: white steel diagonal tile
+  name: 白色钢质斜铺瓷砖
   parent: FloorTileItemWhite
   id: FloorTileItemWhiteDiagonal
   components:
@@ -396,7 +396,7 @@
     stackType: FloorTileWhiteDiagonal
 
 - type: entity
-  name: white steel herringbone
+  name: 白色钢制人字形
   parent: FloorTileItemWhite
   id: FloorTileItemWhiteHerringbone
   components:
@@ -410,7 +410,7 @@
     stackType: FloorTileWhiteHerringbone
 
 - type: entity
-  name: white steel mini tile
+  name: 白色钢制小瓷砖
   parent: FloorTileItemWhite
   id: FloorTileItemWhiteMini
   components:
@@ -424,7 +424,7 @@
     stackType: FloorTileWhiteMini
 
 - type: entity
-  name: white steel mono tile
+  name: 白色钢质单板
   parent: FloorTileItemWhite
   id: FloorTileItemWhiteMono
   components:
@@ -438,7 +438,7 @@
     stackType: FloorTileWhiteMono
 
 - type: entity
-  name: white steel pavement
+  name: 白色钢制路面
   parent: FloorTileItemWhite
   id: FloorTileItemWhitePavement
   components:
@@ -452,7 +452,7 @@
     stackType: FloorTileWhitePavement
 
 - type: entity
-  name: white steel vertical pavement
+  name: 白色钢质垂直铺面
   parent: FloorTileItemWhite
   id: FloorTileItemWhitePavementVertical
   components:
@@ -466,7 +466,7 @@
     stackType: FloorTileWhitePavementVertical
 
 - type: entity
-  name: steel tile
+  name: 钢瓦
   parent: FloorTileItemBase
   id: FloorTileItemMetalDiamond
   components:
@@ -485,7 +485,7 @@
 #    node: steeltile
 
 - type: entity
-  name: wood floor
+  name: 木地板
   parent: FloorTileItemBase
   id: FloorTileItemWood
   components:
@@ -504,7 +504,7 @@
     node: woodtile
 
 - type: entity
-  name: techmaint floor
+  name: 技术维护楼层
   parent: FloorTileItemBase
   id: FloorTileItemTechmaint
   components:
@@ -522,7 +522,7 @@
 - type: entity
   parent: FloorTileItemBase
   id: FloorTileItemTechmaintDark
-  name: dark techmaint floor
+  name: 暗技术维护楼层
   components:
   - type: Sprite
     state: techfloordark
@@ -538,7 +538,7 @@
 # TODO add a catwalk tile item once tile smoothing is supported
 
 - type: entity
-  name: mono tile
+  name: 单块瓷砖
   parent: FloorTileItemBase
   id: FloorTileItemMono
   components:
@@ -554,7 +554,7 @@
     stackType: FloorTileMono
 
 - type: entity
-  name: linoleum floor
+  name: 油毡地板
   parent: FloorTileItemBase
   id: FloorTileItemLino
   components:
@@ -570,7 +570,7 @@
     stackType: FloorTileLino
 
 - type: entity
-  name: filled brass plate
+  name: 填充黄铜板
   parent: FloorTileItemBase
   id: FloorTileItemBrassFilled
   components:
@@ -589,7 +589,7 @@
     node: filledPlate
 
 - type: entity
-  name: smooth brass plate
+  name: 光滑的黄铜板
   parent: FloorTileItemBase
   id: FloorTileItemBrassReebe
   components:
@@ -608,7 +608,7 @@
     node: reebe
 
 - type: entity
-  name: dirty tile
+  name: 脏瓷砖
   parent: FloorTileItemBase
   id: FloorTileItemDirty
   components:
@@ -624,7 +624,7 @@
     stackType: FloorTileDirty
 
 - type: entity
-  name: elevator shaft tile
+  name: 电梯井瓷砖
   parent: FloorTileItemBase
   id: FloorTileItemElevatorShaft
   components:
@@ -640,7 +640,7 @@
     stackType: FloorTileElevatorShaft
 
 - type: entity
-  name: rock vault tile
+  name: 摇滚拱顶瓦
   parent: FloorTileItemBase
   id: FloorTileItemRockVault
   components:
@@ -656,7 +656,7 @@
     stackType: FloorTileRockVault
 
 - type: entity
-  name: blue tile
+  name: 蓝瓦
   parent: FloorTileItemBase
   id: FloorTileItemBlue
   components:
@@ -672,7 +672,7 @@
     stackType: FloorTileBlue
 
 - type: entity
-  name: lime tile
+  name: 石灰砖
   parent: FloorTileItemBase
   id: FloorTileItemLime
   components:
@@ -688,7 +688,7 @@
     stackType: FloorTileLime
 
 - type: entity
-  name: mining tile
+  name: 采矿区块
   parent: FloorTileItemBase
   id: FloorTileItemMining
   components:
@@ -704,7 +704,7 @@
     stackType: FloorTileMining
 
 - type: entity
-  name: dark mining tile
+  name: 深色采矿地块
   parent: FloorTileItemBase
   id: FloorTileItemMiningDark
   components:
@@ -720,7 +720,7 @@
     stackType: FloorTileMiningDark
 
 - type: entity
-  name: light mining tile
+  name: 浅色采矿砖
   parent: FloorTileItemBase
   id: FloorTileItemMiningLight
   components:
@@ -737,7 +737,7 @@
 
 # Departmental
 - type: entity
-  name: freezer tile
+  name: 冷冻瓷砖
   parent: FloorTileItemBase
   id: FloorTileItemFreezer
   components:
@@ -753,7 +753,7 @@
     stackType: FloorTileFreezer
 
 - type: entity
-  name: showroom tile
+  name: 展厅瓷砖
   parent: FloorTileItemBase
   id: FloorTileItemShowroom
   components:
@@ -769,7 +769,7 @@
     stackType: FloorTileShowroom
 
 - type: entity
-  name: hydro tile
+  name: 水力砖
   parent: FloorTileItemBase
   id: FloorTileItemHydro
   components:
@@ -785,7 +785,7 @@
     stackType: FloorTileHydro
 
 - type: entity
-  name: bar tile
+  name: 条形砖
   parent: FloorTileItemBase
   id: FloorTileItemBar
   components:
@@ -801,7 +801,7 @@
     stackType: FloorTileBar
 
 - type: entity
-  name: clown tile
+  name: 小丑瓷砖
   parent: FloorTileItemBase
   id: FloorTileItemClown
   components:
@@ -817,7 +817,7 @@
     stackType: FloorTileClown
 
 - type: entity
-  name: mime tile
+  name: 哑光瓷砖
   parent: FloorTileItemBase
   id: FloorTileItemMime
   components:
@@ -833,7 +833,7 @@
     stackType: FloorTileMime
 
 - type: entity
-  name: kitchen tile
+  name: 厨房瓷砖
   parent: FloorTileItemBase
   id: FloorTileItemKitchen
   components:
@@ -849,7 +849,7 @@
     stackType: FloorTileKitchen
 
 - type: entity
-  name: laundry tile
+  name: 洗衣砖
   parent: FloorTileItemBase
   id: FloorTileItemLaundry
   components:
@@ -868,7 +868,7 @@
 - type: entity
   parent: FloorTileItemBase
   id: FloorTileItemConcrete
-  name: concrete tile
+  name: 混凝土瓦
   components:
   - type: Sprite
     state: concrete
@@ -882,7 +882,7 @@
     stackType: FloorTileConcrete
 
 - type: entity
-  name: concrete mono tile
+  name: 混凝土单层砖
   parent: FloorTileItemConcrete
   id: FloorTileItemConcreteMono
   components:
@@ -896,7 +896,7 @@
     stackType: FloorTileConcreteMono
 
 - type: entity
-  name: concrete smooth
+  name: 混凝土光滑
   parent: FloorTileItemConcrete
   id: FloorTileItemConcreteSmooth
   components:
@@ -912,7 +912,7 @@
 - type: entity
   parent: FloorTileItemBase
   id: FloorTileItemGrayConcrete
-  name: gray concrete tile
+  name: 灰色混凝土砖
   components:
   - type: Sprite
     state: grayconcrete
@@ -926,7 +926,7 @@
     stackType: FloorTileGrayConcrete
 
 - type: entity
-  name: gray concrete mono tile
+  name: 灰色混凝土单色地砖
   parent: FloorTileItemGrayConcrete
   id: FloorTileItemGrayConcreteMono
   components:
@@ -940,7 +940,7 @@
     stackType: FloorTileGrayConcreteMono
 
 - type: entity
-  name: gray concrete smooth
+  name: 灰色混凝土 光滑
   parent: FloorTileItemGrayConcrete
   id: FloorTileItemGrayConcreteSmooth
   components:
@@ -956,7 +956,7 @@
 - type: entity
   parent: FloorTileItemBase
   id: FloorTileItemOldConcrete
-  name: old concrete tile
+  name: 旧混凝土瓦片
   components:
   - type: Sprite
     state: oldconcrete
@@ -970,7 +970,7 @@
     stackType: FloorTileOldConcrete
 
 - type: entity
-  name: old concrete mono tile
+  name: 旧混凝土单层地砖
   parent: FloorTileItemOldConcrete
   id: FloorTileItemOldConcreteMono
   components:
@@ -984,7 +984,7 @@
     stackType: FloorTileOldConcreteMono
 
 - type: entity
-  name: old concrete smooth
+  name: 旧混凝土光滑
   parent: FloorTileItemOldConcrete
   id: FloorTileItemOldConcreteSmooth
   components:
@@ -999,7 +999,7 @@
 
 # Carpets
 - type: entity
-  name: blue arcade floor
+  name: 蓝色街机地板
   parent: FloorTileItemBase
   id: FloorTileItemArcadeBlue
   components:
@@ -1015,7 +1015,7 @@
     stackType: FloorTileStackArcadeBlue
 
 - type: entity
-  name: blue arcade floor
+  name: 蓝色街机厅地板
   parent: FloorTileItemBase
   id: FloorTileItemArcadeBlue2
   components:
@@ -1031,7 +1031,7 @@
     stackType: FloorTileStackArcadeBlue2
 
 - type: entity
-  name: red arcade floor
+  name: 红色街机地板
   parent: FloorTileItemBase
   id: FloorTileItemArcadeRed
   components:
@@ -1047,7 +1047,7 @@
     stackType: FloorTileStackArcadeRed
 
 - type: entity
-  name: eighties floor
+  name: 八十年代舞池
   parent: FloorTileItemBase
   id: FloorTileItemEighties
   components:
@@ -1063,7 +1063,7 @@
     stackType: FloorTileStackEighties
 
 - type: entity
-  name: clown carpet floor
+  name: 小丑地毯地板
   parent: FloorTileItemBase
   id: FloorTileItemCarpetClown
   components:
@@ -1079,7 +1079,7 @@
     stackType: FloorTileStackCarpetClown
 
 - type: entity
-  name: office carpet floor
+  name: 办公室地毯地板
   parent: FloorTileItemBase
   id: FloorTileItemCarpetOffice
   components:
@@ -1095,7 +1095,7 @@
     stackType: FloorTileStackCarpetOffice
 
 - type: entity
-  name: boxing ring floor
+  name: 拳击台地面
   parent: FloorTileItemBase
   id: FloorTileItemBoxing
   components:
@@ -1111,7 +1111,7 @@
     stackType: FloorTileStackBoxing
 
 - type: entity
-  name: gym floor
+  name: 健身房地面
   parent: FloorTileItemBase
   id: FloorTileItemGym
   components:
@@ -1128,7 +1128,7 @@
 
 # Shuttles
 - type: entity
-  name: white shuttle floor
+  name: 白色梭织地板
   parent: FloorTileItemBase
   id: FloorTileItemShuttleWhite
   components:
@@ -1144,7 +1144,7 @@
     stackType: FloorTileStackShuttleWhite
 
 - type: entity
-  name: blue shuttle floor
+  name: 蓝色穿梭地板
   parent: FloorTileItemBase
   id: FloorTileItemShuttleBlue
   components:
@@ -1160,7 +1160,7 @@
     stackType: FloorTileStackShuttleBlue
 
 - type: entity
-  name: orange shuttle floor
+  name: 橙色穿梭班车楼层
   parent: FloorTileItemBase
   id: FloorTileItemShuttleOrange
   components:
@@ -1176,7 +1176,7 @@
     stackType: FloorTileStackShuttleOrange
 
 - type: entity
-  name: purple shuttle floor
+  name: 紫色班车地板
   parent: FloorTileItemBase
   id: FloorTileItemShuttlePurple
   components:
@@ -1192,7 +1192,7 @@
     stackType: FloorTileStackShuttlePurple
 
 - type: entity
-  name: red shuttle floor
+  name: 红色穿梭地板
   parent: FloorTileItemBase
   id: FloorTileItemShuttleRed
   components:
@@ -1208,7 +1208,7 @@
     stackType: FloorTileStackShuttleRed
 
 - type: entity
-  name: grey shuttle floor
+  name: 灰色班车地板
   parent: FloorTileItemBase
   id: FloorTileItemShuttleGrey
   components:
@@ -1224,7 +1224,7 @@
     stackType: FloorTileStackShuttleGrey
 
 - type: entity
-  name: black shuttle floor
+  name: 黑色穿梭地板
   parent: FloorTileItemBase
   id: FloorTileItemShuttleBlack
   components:
@@ -1241,7 +1241,7 @@
 
 # Materials
 - type: entity
-  name: gold floor
+  name: 金地板
   parent: FloorTileItemBase
   id: FloorTileItemGold
   components:
@@ -1257,7 +1257,7 @@
     stackType: FloorTileGold
 
 - type: entity
-  name: silver tile
+  name: 银砖
   parent: FloorTileItemBase
   id: FloorTileItemSilver
   components:
@@ -1274,7 +1274,7 @@
 
 # Circuits
 - type: entity
-  name: green circuit floor
+  name: 绿色电路地板
   parent: FloorTileItemBase
   id: FloorTileItemGCircuit
   components:
@@ -1290,7 +1290,7 @@
     stackType: FloorTileGCircuit
 
 - type: entity
-  name: blue circuit floor
+  name: 蓝色电路地板
   parent: FloorTileItemBase
   id: FloorTileItemBCircuit
   components:
@@ -1306,7 +1306,7 @@
     stackType: FloorTileBCircuit
 
 - type: entity
-  name: red circuit floor
+  name: 红色电路地板
   parent: FloorTileItemBase
   id: FloorTileItemRCircuit
   components:
@@ -1323,7 +1323,7 @@
 
 # Terrain
 - type: entity
-  name: grass tile
+  name: 草地块
   parent: FloorTileItemBase
   id: FloorTileItemGrass
   components:
@@ -1339,7 +1339,7 @@
     stackType: FloorTileGrass
 
 - type: entity
-  name: jungle grass tile
+  name: 丛林草砖
   parent: FloorTileItemBase
   id: FloorTileItemGrassJungle
   components:
@@ -1355,7 +1355,7 @@
     stackType: FloorTileGrassJungle
 
 - type: entity
-  name: snow tile
+  name: 雪砖
   parent: FloorTileItemBase
   id: FloorTileItemSnow
   components:
@@ -1371,7 +1371,7 @@
     stackType: FloorTileSnow
 
 - type: entity
-  name: wood pattern floor
+  name: 木纹地板
   parent: FloorTileItemBase
   id: FloorTileItemWoodPattern
   components:
@@ -1389,7 +1389,7 @@
 - type: entity
   id: FloorTileItemFlesh
   parent: FloorTileItemBase
-  name: flesh floor
+  name: 肉地板
   components:
   - type: Sprite
     state: meat
@@ -1406,7 +1406,7 @@
     node: fleshTile
 
 - type: entity
-  name: steel maint floor
+  name: 钢制维修平台
   parent: FloorTileItemBase
   id: FloorTileItemSteelMaint
   components:
@@ -1422,7 +1422,7 @@
     stackType: FloorTileSteelMaint
 
 - type: entity
-  name: grating maint floor
+  name: 光栅维护层
   parent: FloorTileItemBase
   id: FloorTileItemGratingMaint
   components:
@@ -1438,7 +1438,7 @@
     stackType: FloorTileGratingMaint
 
 - type: entity
-  name: web tile
+  name: 网络图块
   parent: FloorTileItemBase
   id: FloorTileItemWeb
   components:
@@ -1459,8 +1459,8 @@
 - type: entity
   id: FloorTileItemAstroGrass
   parent: FloorTileItemBase
-  name: astro-grass
-  description: Fake grass that covers up wires and even comes with realistic NanoTrimmings!
+  name: 仿真草坪
+  description: 仿真草坪，能遮盖电线，甚至配有逼真的纳米修剪装饰！
   components:
   - type: Sprite
     state: astrograss
@@ -1476,8 +1476,8 @@
 - type: entity
   id: FloorTileItemMowedAstroGrass
   parent: FloorTileItemBase
-  name: mowed astro-grass
-  description: Fake grass that covers up wires and even comes with realistic NanoTrimmings!
+  name: 修剪过的人造草坪
+  description: 覆盖电线的人造草坪，甚至配有逼真的纳米修剪效果！
   components:
   - type: Sprite
     state: grass
@@ -1493,8 +1493,8 @@
 - type: entity
   id: FloorTileItemJungleAstroGrass
   parent: FloorTileItemBase
-  name: jungle astro-grass
-  description: Fake grass that covers up wires and even comes with realistic NanoTrimmings!
+  name: 丛林太空草
+  description: 能遮盖电线的仿真草皮，甚至配有逼真的纳米修剪装饰！
   components:
   - type: Sprite
     state: grassjungle
@@ -1510,8 +1510,8 @@
 - type: entity
   parent: FloorTileItemBase
   id: FloorTileItemDarkAstroGrass
-  name: dark astro-grass
-  description: Fake grass that covers up wires and even comes with realistic NanoTrimmings!
+  name: 深色太空草
+  description: 遮盖电线的仿真草皮，甚至配有逼真的纳米修剪装饰！
   components:
   - type: Sprite
     state: grassdark
@@ -1527,8 +1527,8 @@
 - type: entity
   parent: FloorTileItemBase
   id: FloorTileItemLightAstroGrass
-  name: light astro-grass
-  description: Fake grass that covers up wires and even comes with realistic NanoTrimmings!
+  name: 浅色太空草
+  description: 遮盖电线的仿真草坪，甚至配有逼真的纳米修剪装饰！
   components:
   - type: Sprite
     state: grasslight
@@ -1544,8 +1544,8 @@
 - type: entity
   id: FloorTileItemAstroIce
   parent: FloorTileItemBase
-  name: astro-ice
-  description: Fake ice that's as slippery as the real thing, while being easily removable!
+  name: 天文冰
+  description: 假冰，如真冰般滑溜，却又易于移除！
   components:
   - type: Sprite
     state: astroice
@@ -1561,8 +1561,8 @@
 - type: entity
   id: FloorTileItemAstroSnow
   parent: FloorTileItemBase
-  name: astro-snow
-  description: Fake snow that's as fluffy as the real thing, while being easily removable!
+  name: 星尘雪
+  description: 假雪蓬松如真雪，却能轻松清除！
   components:
   - type: Sprite
     state: snow
@@ -1578,8 +1578,8 @@
 - type: entity
   id: FloorTileItemAstroAsteroidSand
   parent: FloorTileItemBase
-  name: asteroid astro-sand
-  description: Fake sand. Luckily, it's not as coarse as the real thing.
+  name: 小行星太空沙
+  description: 假沙子。幸运的是，它不像真沙子那么粗糙。
   components:
   - type: Sprite
     state: astro-asteroid
@@ -1595,8 +1595,8 @@
 - type: entity
   id: FloorTileItemAstroAsteroidSandBorderless
   parent: FloorTileItemBase
-  name: borderless asteroid astro-sand
-  description: Fake sand. Luckily, it's not as coarse as the real thing.
+  name: 无边界小行星太空沙
+  description: 假沙子。幸运的是，它不像真沙子那么粗糙。
   components:
   - type: Sprite
     state: asteroid
@@ -1612,8 +1612,8 @@
 - type: entity
   parent: FloorTileItemBase
   id: FloorTileItemDesertAstroSand
-  name: desert astro-sand
-  description: Fake sand, designed to be fine.
+  name: 沙漠天文沙
+  description: 假沙，旨在精细。
   components:
   - type: Sprite
     state: desertsand
@@ -1627,7 +1627,7 @@
     stackType: FloorTileDesertAstroSand
 
 - type: entity
-  name: large wood floor
+  name: 大地板
   parent: FloorTileItemBase
   id: FloorTileItemWoodLarge
   components:
@@ -1648,8 +1648,8 @@
 # Marble
 
 - type: entity
-  name: white marble tile
-  description: A chiseled, polished square of the finest Space Marble. Best not to lose it.
+  name: 白色大理石瓷砖
+  description: 一块精雕细琢、光洁如镜的顶级太空大理石方砖。最好别弄丢了。
   parent: FloorTileItemBase
   id: FloorTileItemWhiteMarble
   components:
@@ -1665,8 +1665,8 @@
     stackType: FloorTileWhiteMarble
 
 - type: entity
-  name: dark marble tile
-  description: A chiseled, polished square of the finest Space Marble. Best not to lose it.
+  name: 暗色大理石砖
+  description: 一块精雕细琢、光洁如镜的顶级太空大理石方砖。最好别弄丢了。
   parent: FloorTileItemWhiteMarble
   id: FloorTileItemDarkMarble
   components:
@@ -1682,8 +1682,8 @@
     stackType: FloorTileDarkMarble
 
 - type: entity
-  name: plasmarble tile
-  description: A chiseled, polished square of the finest Space Marble. Plasma-infused for extra... something.
+  name: 等离子大理石瓷砖
+  description: 一块精雕细琢、光洁如镜的顶级太空大理石方砖。注入等离子体以获得额外的……某种特性。
   parent: FloorTileItemWhiteMarble
   id: FloorTileItemPlasmaMarble
   components:
@@ -1703,8 +1703,8 @@
         Blunt: 6
 
 - type: entity
-  name: uranium marble tile
-  description: A chiseled, polished square of the finest Space Marble. Uranium-infused to make it extra rad! Pun intended!
+  name: 铀大理石瓷砖
+  description: 一块精雕细琢、光可鉴人的顶级太空大理石方砖。注入铀元素让它格外"放射"夺目！双关语是故意的！
   parent: FloorTileItemWhiteMarble
   id: FloorTileItemUraniumMarble
   components:
@@ -1732,7 +1732,7 @@
 - type: entity
   id: FloorTileItemXeno
   parent: FloorTileItemBase
-  name: xeno floor
+  name: 异形地板
   components:
   - type: Sprite
     state: xenofloor
@@ -1748,7 +1748,7 @@
 - type: entity
   id: FloorTileItemXenoSteel
   parent: FloorTileItemBase
-  name: xeno steel floor
+  name: 异种钢地板
   components:
   - type: Sprite
     state: xeno-steel
@@ -1764,7 +1764,7 @@
 - type: entity
   id: FloorTileItemXenoSteelCorner
   parent: FloorTileItemBase
-  name: xeno steel corner floor
+  name: 异种钢角地板
   components:
   - type: Sprite
     state: xeno-steel-corner
@@ -1778,7 +1778,7 @@
     stackType: FloorTileXenoSteelCorner
 
 - type: entity
-  name: xeno techmaint floor
+  name: 异星技术维护层
   parent: FloorTileItemBase
   id: FloorTileItemXenoMaint
   components:
@@ -1796,7 +1796,7 @@
 - type: entity
   id: FloorTileItemXenoborg
   parent: FloorTileItemBase
-  name: xenoborg floor
+  name: 异生体楼层
   components:
   - type: Sprite
     state: xenoborg-floor
@@ -1810,7 +1810,7 @@
 - type: entity
   parent: FloorTileItemDark
   id: FloorTileItemDarkSquiggly
-  name: dark steel squiggly tile
+  name: 深色钢质波浪纹瓷砖
   components:
   - type: Sprite
     state: dark-squiggly

@@ -1,5 +1,5 @@
 - type: entity
-  name: trash bag
+  name: 垃圾袋
   id: TrashBag
   parent: BaseStorageItem
   components:
@@ -38,7 +38,7 @@
     size: Normal
 
 - type: entity
-  name: trash bag
+  name: 垃圾袋
   id: TrashBagBlue
   parent: TrashBag
   components:
@@ -52,7 +52,7 @@
     fillBaseName: blue-icon
 
 - type: entity
-  name: spell of all-consuming cleanliness
+  name: 全神贯注的洁净魔咒
   id: BagOfSummoningGarbage
   parent: TrashBagBlue
   components:
@@ -67,8 +67,8 @@
 - type: entity
   parent: TrashBag
   id: BorgTrashBag
-  name: internal trash bag
-  description: An upgraded trash bag with a larger internal volume, installed directly into a custodial cyborg.
+  name: 内置垃圾袋
+  description: 升级版垃圾袋，内部容积更大，直接安装于保洁机器人内部。
   components:
   - type: Storage
     maxItemSize: Huge

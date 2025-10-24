@@ -85,8 +85,8 @@
 - type: entity
   parent: FoodMeatRawBase
   id: FoodMeat
-  name: raw meat
-  description: A slab of raw meat.
+  name: 生肉
+  description: 一块生肉。
   components:
   - type: Sprite
     state: plain
@@ -121,8 +121,8 @@
 - type: entity
   parent: FoodMeatRawBase
   id: FoodMeatHuman
-  name: raw human meat
-  description: Gross.
+  name: 生人肉
+  description: 恶心。
   components:
   - type: Sprite
     state: plain
@@ -147,8 +147,8 @@
   parent: FoodMeatBase
   # MeatFish?...
   id: FoodMeatFish
-  name: raw carp fillet
-  description: Your last words being "Wow, exotic!" are not worth it. The taste itself though? Maybe.
+  name: 生鲤鱼片
+  description: 你最后的遗言是“哇，好异域风情！”可不值得。不过味道本身呢？也许吧。
   components:
   - type: FlavorProfile
     flavors:
@@ -182,8 +182,8 @@
   # bacon is cured so not raw = cant rot
   parent: FoodMeatBase
   id: FoodMeatBacon
-  name: raw bacon
-  description: A raw piece of bacon.
+  name: 生培根
+  description: 一块生培根。
   components:
   - type: Tag
     tags:
@@ -218,8 +218,8 @@
 - type: entity
   parent: FoodMeatRawBase
   id: FoodMeatBear
-  name: raw bear meat
-  description: A very manly slab of raw bear meat.
+  name: 生熊肉
+  description: 一块非常爷们的生熊肉。
   components:
   - type: Sprite
     state: bear
@@ -251,8 +251,8 @@
 - type: entity
   parent: FoodMeatRawBase
   id: FoodMeatPenguin
-  name: raw penguin meat
-  description: A slab of raw penguin meat. Can be used as a substitute for fish in recipes.
+  name: 生企鹅肉
+  description: 一块生企鹅肉。在食谱中可作为鱼类的替代品。
   components:
   - type: Sprite
     state: bird
@@ -282,8 +282,8 @@
 - type: entity
   parent: FoodMeatRawBase
   id: FoodMeatChicken
-  name: raw chicken meat
-  description: A slab of raw chicken. Remember to wash your hands!
+  name: 生鸡肉
+  description: 一块生鸡肉。记得洗手！
   components:
   - type: Sprite
     state: bird
@@ -315,8 +315,8 @@
 - type: entity
   parent: FoodMeatRawBase
   id: FoodMeatDuck
-  name: raw duck meat
-  description: A slab of raw duck. Remember to wash your hands!
+  name: 生鸭肉
+  description: 一块生鸭肉。记得洗手！
   components:
   - type: Sprite
     state: bird
@@ -344,11 +344,11 @@
       - state: generic-pink-inhand-right
 
 - type: entity
-  name: prime-cut corgi meat
+  name: 上等柯基肉
   # can't rot since that would be very bad for syndies
   parent: [FoodMeatBase, BaseGrandTheftContraband]
   id: FoodMeatCorgi
-  description: The tainted gift of an evil crime. The meat may be delicious, but at what cost?
+  description: 一桩邪恶罪行所玷污的馈赠。肉味虽美，代价几何？
   components:
   - type: Tag
     tags:
@@ -377,8 +377,8 @@
 - type: entity
   parent: FoodMeatRawBase
   id: FoodMeatCrab
-  name: raw crab meat
-  description: A pile of raw crab meat.
+  name: 生蟹肉
+  description: 一堆生蟹肉。
   components:
   - type: Item
     storedOffset: -1,2
@@ -403,8 +403,8 @@
 - type: entity
   parent: FoodMeatRawBase
   id: FoodMeatGoliath
-  name: raw goliath meat
-  description: A slab of goliath meat. It's not very edible now, but it cooks great in lava.
+  name: 生哥利亚肉块
+  description: 一块哥利亚肉块。现在还不适合食用，但在熔岩中烹饪后会非常美味。
   components:
   - type: Sprite
     state: goliath
@@ -433,8 +433,8 @@
 - type: entity
   parent: FoodMeatBase
   id: FoodMeatDragon
-  name: dragon flesh
-  description: The dense meat of the space-era apex predator is oozing with its mythical ichor. Ironically, best eaten raw.
+  name: 龙肉
+  description: 太空时代顶级掠食者紧实的肉质中流淌着神话般的灵血。讽刺的是，生食最为美味。
   components:
   - type: Tag
     tags:
@@ -474,8 +474,8 @@
 - type: entity
   parent: FoodMeatRawBase
   id: FoodMeatRat
-  name: raw rat meat
-  description: Prime meat from maintenance!
+  name: 生老鼠肉
+  description: 来自维护的优质肉品！
   components:
   - type: Sprite
     state: plain
@@ -501,8 +501,8 @@
 - type: entity
   parent: FoodMeatRawBase
   id: FoodMeatLizard
-  name: raw lizard meat
-  description: Delicious dino damage.
+  name: 生蜥蜴肉
+  description: 美味的恐龙伤害。
   components:
   - type: Sprite
     state: lizard
@@ -532,10 +532,10 @@
         color: "#6EFF41"
 
 - type: entity
-  name: raw plant meat
+  name: 生植肉
   parent: FoodMeatBase
   id: FoodMeatPlant
-  description: All the joys of healthy eating with all the fun of cannibalism.
+  description: 健康饮食的所有乐趣，加上食人盛宴的全部欢愉。
   components:
   - type: Sprite
     state: plant
@@ -543,8 +543,8 @@
 - type: entity
   parent: FoodMeatBase
   id: FoodMeatRotten
-  name: rotten meat
-  description: Halfway to becoming fertilizer for your garden.
+  name: 烂肉
+  description: 半只脚踏进你花园肥料堆的东西。
   components:
   - type: Tag
     tags:
@@ -575,8 +575,8 @@
 - type: entity
   parent: FoodMeatRawBase
   id: FoodMeatSpider
-  name: raw spider meat
-  description: A slab of spider meat. That's so Kafkaesque.
+  name: 生蜘蛛肉
+  description: 一块蜘蛛肉。这真是太卡夫卡式了。
   components:
   - type: Sprite
     state: spider
@@ -598,8 +598,8 @@
 - type: entity
   parent: FoodMeatBase
   id: FoodMeatSpiderLeg
-  name: raw spider leg
-  description: A still twitching leg of a giant spider... you don't really want to eat this, do you?
+  name: 生蜘蛛腿
+  description: 一条仍在抽搐的巨型蜘蛛腿...你不会真的想吃这东西吧？
   components:
   - type: Sprite
     state: spiderleg
@@ -626,8 +626,8 @@
 - type: entity
   parent: FoodMeatBase
   id: FoodMeatWheat
-  name: meatwheat clump
-  description: This doesn't look like meat, but your standards aren't that high to begin with.
+  name: 肉麦块
+  description: 这看起来不像肉，不过你的标准本来也没多高。
   components:
   - type: FlavorProfile
     flavors:
@@ -655,8 +655,8 @@
 - type: entity
   parent: FoodMeatBase
   id: FoodMeatSnake
-  name: raw snake meat
-  description: A long piece of snake meat, hopefully not poisonous.
+  name: 生蛇肉
+  description: 一块长长的蛇肉，希望没有毒。
   components:
   - type: Tag
     tags:
@@ -684,8 +684,8 @@
   # not raw since acid kills bacteria or something, same as xeno
   parent: FoodMeatBase
   id: FoodMeatXeno
-  name: raw xeno meat
-  description: A slab of xeno meat, dripping with acid.
+  name: 生异形肉
+  description: 一大块异形肉，滴着酸液。
   components:
   - type: FlavorProfile
     flavors:
@@ -717,11 +717,11 @@
         color: "#6EFF41"
 
 - type: entity
-  name: raw rouny meat
+  name: 生肉
   # not raw since rouny best
   parent: FoodMeatBase
   id: FoodMeatRouny
-  description: A slab of meat from an innocent red friend.
+  description: 一块来自无辜红色朋友的肉块。
   components:
   - type: FlavorProfile
     flavors:
@@ -754,8 +754,8 @@
 - type: entity
   parent: FoodMeatBase
   id: FoodMeatTomato
-  name: killer tomato meat
-  description: A slice from a huge tomato.
+  name: 杀手番茄肉片
+  description: 一片巨大的番茄切片。
   components:
   - type: Sprite
     state: tomato
@@ -775,8 +775,8 @@
 - type: entity
   parent: FoodMeatBase
   id: FoodMeatSalami
-  name: salami
-  description: A large tube of salami. Best not to ask what went into it.
+  name: 萨拉米香肠
+  description: 一大管萨拉米香肠。最好别问里面放了什么。
   components:
   - type: Item
     storedOffset: 0,1
@@ -803,8 +803,8 @@
 - type: entity
   parent: FoodMeatBase
   id: FoodMeatClown
-  name: meat clown
-  description: A delicious, round piece of meat clown. How horrifying.
+  name: 肉块小丑
+  description: 一块美味、圆形的肉块小丑。多么可怕。
   components:
   - type: Item
     storedOffset: 0,3
@@ -824,8 +824,8 @@
 - type: entity
   parent: FoodMeatBase
   id: FoodMeatMeatball
-  name: meatball
-  description: A raw ball of meat. Meat ball.
+  name: 肉丸
+  description: 一个生肉球。肉丸。
   components:
   - type: Item
     size: Tiny
@@ -847,8 +847,8 @@
 - type: entity
   parent: FoodMeatBase
   id: FoodMeatPatty
-  name: meat patty
-  description: A flat slab of ground meat. Ready for grillin'.
+  name: 肉饼
+  description: 一块用于烧烤的肉饼。
   components:
   - type: Tag
     tags:
@@ -871,8 +871,8 @@
 - type: entity
   parent: FoodMeatBase
   id: FoodMeatSlime
-  name: slimeball
-  description: A gelatinous shaping of slime jelly.
+  name: 粘液球
+  description: 一滩凝胶状成型的粘液冻。
   components:
   - type: FlavorProfile
     flavors:
@@ -899,8 +899,8 @@
 - type: entity
   parent: FoodMeatRawBase
   id: FoodMeatSnail
-  name: raw snail meat
-  description: Improved with salt.
+  name: 生蜗牛肉
+  description: 用盐改良。
   components:
   - type: Sprite
     state: snail
@@ -928,8 +928,8 @@
 - type: entity
   parent: FoodMeatRawBase
   id: FoodMeatAnomaly
-  name: anomalous meat mass
-  description: An impossibly dense slab of meat. Just looking at it makes you uncomfortable.
+  name: 异常肉块
+  description: 一块密度高到不可思议的肉块。光是看着它就让人感到不适。
   components:
   - type: Sprite
     state: anomalymeat
@@ -969,8 +969,8 @@
 - type: entity
   parent: FoodBase
   id: MaterialSmileExtract
-  name: smile extract
-  description: It's a real panacea. But at what cost?
+  name: 微笑精华
+  description: 这是一剂真正的万灵药。但代价是什么呢？
   components:
   - type: Item
     size: Tiny
@@ -1003,8 +1003,8 @@
 - type: entity
   parent: FoodMeatBase
   id: FoodMeatCooked
-  name: steak
-  description: A cooked slab of meat. Smells primal.
+  name: 牛排
+  description: 一块烹制好的肉排。散发着原始的气息。
   components:
   - type: Tag
     tags:
@@ -1043,8 +1043,8 @@
 - type: entity
   parent: FoodMeatBase
   id: FoodMeatBaconCooked
-  name: bacon
-  description: A delicious piece of cooked bacon.
+  name: 培根
+  description: 一片美味的熟培根。
   components:
   - type: Tag
     tags:
@@ -1087,8 +1087,8 @@
 - type: entity
   parent: FoodMeatBase
   id: FoodMeatBearCooked
-  name: cooked bear
-  description: A well-cooked slab of bear meat. Tough, but tasty with the right sides.
+  name: 熟熊肉
+  description: 一块熟透的熊肉厚切。肉质偏韧，但配上合适的配菜便风味绝佳。
   components:
   - type: Tag
     tags:
@@ -1123,8 +1123,8 @@
 - type: entity
   parent: FoodMeatBase
   id: FoodMeatPenguinCooked
-  name: penguin filet
-  description: A cooked filet of penguin. Can be used as a substitute for fish in recipes.
+  name: 企鹅肉片
+  description: 一份煮熟的企鹅肉片。在烹饪中可作为鱼肉的替代品。
   components:
   - type: Tag
     tags:
@@ -1164,8 +1164,8 @@
 - type: entity
   parent: FoodMeatBase
   id: FoodMeatChickenCooked
-  name: cooked chicken
-  description: A cooked piece of chicken. Best used in other recipes.
+  name: 熟鸡肉
+  description: 一块熟鸡肉。最好用于其他食谱。
   components:
   - type: Tag
     tags:
@@ -1203,10 +1203,10 @@
         color: "#F7E3A3"
 
 - type: entity
-  name: fried chicken
+  name: 炸鸡
   parent: FoodMeatBase
   id: FoodMeatChickenFried
-  description: A juicy hunk of chicken meat, fried to perfection.
+  description: 一块多汁的大块鸡肉，炸得恰到好处。
   components:
   - type: Tag
     tags:
@@ -1245,8 +1245,8 @@
 - type: entity
   parent: FoodMeatChickenFried
   id: FoodMeatChickenFriedVox
-  name: mystery fried chicken
-  description: “Eleven secret herbs and… oh no. That’s not chicken."
+  name: 神秘炸鸡
+  description: 十一种秘制香料…糟了。这不是鸡肉。
   components:
   - type: SolutionContainerManager
     solutions:
@@ -1262,8 +1262,8 @@
 - type: entity
   parent: FoodMeatBase
   id: FoodMeatDuckCooked
-  name: cooked duck
-  description: A cooked piece of duck. Best used in other recipes.
+  name: 熟鸭
+  description: 一块熟鸭肉。最好用于其他食谱。
   components:
   - type: Tag
     tags:
@@ -1303,8 +1303,8 @@
 - type: entity
   parent: FoodMeatBase
   id: FoodMeatCrabCooked
-  name: cooked crab
-  description: Some deliciously cooked crab meat.
+  name: 熟蟹肉
+  description: 一些烹饪得十分美味的熟蟹肉。
   components:
   - type: FlavorProfile
     flavors:
@@ -1342,8 +1342,8 @@
 - type: entity
   parent: FoodMeatBase
   id: FoodMeatGoliathCooked
-  name: goliath steak
-  description: A delicious, lava cooked steak.
+  name: 歌利亚牛排
+  description: 一块用熔岩烹制的美味牛排。
   components:
   - type: Tag
     tags:
@@ -1377,10 +1377,10 @@
       - state: plain-cooked-inhand-right
 
 - type: entity
-  name: rouny steak
+  name: 圆形牛排
   parent: FoodMeatBase
   id: FoodMeatRounyCooked
-  description: Some kill to survive. You on the other hand, kill for fun.
+  description: 有人为生存而杀戮。而你却以杀戮为乐。
   components:
   - type: FlavorProfile
     flavors:
@@ -1419,8 +1419,8 @@
 - type: entity
   parent: FoodMeatBase
   id: FoodMeatLizardCooked
-  name: lizard steak
-  description: Cooked, tough lizard meat.
+  name: 蜥蜴肉排
+  description: 煮熟后口感坚韧的蜥蜴肉。
   components:
   - type: Tag
     tags:
@@ -1459,8 +1459,8 @@
 - type: entity
   parent: FoodMeatBase
   id: FoodMeatSpiderlegCooked
-  name: boiled spider leg
-  description: A giant spider's leg that's still twitching after being cooked. Gross!
+  name: 煮蜘蛛腿
+  description: 一条仍在烹煮后抽搐的巨型蜘蛛腿。真恶心！
   components:
   - type: Tag
     tags:
@@ -1494,8 +1494,8 @@
 - type: entity
   parent: FoodMeatBase
   id: FoodMeatMeatballCooked
-  name: meatball
-  description: A cooked meatball. Perfect to add to other dishes... except fruity ones.
+  name: 肉丸
+  description: 一颗煮熟的肉丸。非常适合添加到其他菜肴中……除了水果类的。
   components:
   - type: Tag
     tags:
@@ -1528,8 +1528,8 @@
 - type: entity
   parent: FoodMeatBase
   id: FoodMeatPattyCooked
-  name: cooked meat patty
-  description: A cooked meat patty.
+  name: 熟肉饼
+  description: 熟肉饼。
   components:
   - type: Tag
     tags:
@@ -1562,8 +1562,8 @@
 - type: entity
   parent: FoodMeatBase
   id: FoodMeatSnailCooked
-  name: boiled snail
-  description: Improved with salt.
+  name: 水煮蜗牛
+  description: 加盐改良。
   components:
   - type: Tag
     tags:
@@ -1600,8 +1600,8 @@
 - type: entity
   parent: FoodMeatBase
   id: FoodMeatAnomalyCooked
-  name: anomalous steak
-  description: A gigantic mass of cooked meat. A meal for a dinner party, or someone REALLY hungry.
+  name: 异常牛排
+  description: 一大块熟肉。适合宴会享用，或是为饥肠辘辘者准备的美餐。
   components:
   - type: Tag
     tags:
@@ -1638,8 +1638,8 @@
 - type: entity
   parent: FoodMeatBase
   id: FoodMeatDragonCooked
-  name: dragon steak
-  description: Pouring ketchup on this is considered a capital crime on most stations.
+  name: 龙排
+  description: 在大多数空间站上，往龙排上倒番茄酱都是重罪。
   components:
   - type: Tag
     tags:
@@ -1684,8 +1684,8 @@
 - type: entity
   parent: FoodMeatBase
   id: FoodMeatCutlet
-  name: raw cutlet
-  description: A raw meat cutlet.
+  name: 生肉饼
+  description: 一块生肉饼。
   components:
   - type: Tag
     tags:
@@ -1719,8 +1719,8 @@
 - type: entity
   parent: FoodMeatBase
   id: FoodMeatBearCutlet
-  name: raw bear cutlet
-  description: A very manly cutlet of raw bear meat.
+  name: 生熊肉排
+  description: 一块非常粗犷的生熊肉排。
   components:
   - type: Tag
     tags:
@@ -1759,8 +1759,8 @@
 - type: entity
   parent: FoodMeatBase
   id: FoodMeatPenguinCutlet
-  name: raw penguin cutlet
-  description: A cutlet of raw penguin meat. Can be used as a substitute for fish in recipes.
+  name: 生企鹅肉排
+  description: 一块生企鹅肉排。在食谱中可作为鱼肉的替代品。
   components:
   - type: Tag
     tags:
@@ -1797,8 +1797,8 @@
 - type: entity
   parent: FoodMeatBase
   id: FoodMeatChickenCutlet
-  name: raw chicken cutlet
-  description: A cutlet of raw chicken. Remember to wash your hands!
+  name: 生鸡排
+  description: 一块生鸡排。记得洗手！
   components:
   - type: Tag
     tags:
@@ -1833,8 +1833,8 @@
 - type: entity
   parent: FoodMeatBase
   id: FoodMeatDuckCutlet
-  name: raw duck cutlet
-  description: A cutlet of raw duck. Remember to wash your hands!
+  name: 生鸭肉片
+  description: 一份生鸭肉片。记得洗手！
   components:
   - type: Tag
     tags:
@@ -1869,8 +1869,8 @@
 - type: entity
   parent: FoodMeatBase
   id: FoodMeatLizardCutlet
-  name: raw lizard cutlet
-  description: Delicious dino cutlet.
+  name: 生蜥蜴肉排
+  description: 美味的恐龙肉排。
   components:
   - type: Tag
     tags:
@@ -1910,8 +1910,8 @@
 - type: entity
   parent: FoodMeatBase
   id: FoodMeatSpiderCutlet
-  name: raw spider cutlet
-  description: A cutlet of raw spider meat. So Kafkaesque.
+  name: 生蜘蛛肉排
+  description: 一块生蜘蛛肉排。真是卡夫卡式的。
   components:
   - type: Tag
     tags:
@@ -1947,8 +1947,8 @@
 - type: entity
   parent: FoodMeatBase
   id: FoodMeatXenoCutlet
-  name: raw xeno cutlet
-  description: A slab of raw xeno meat, dripping with acid.
+  name: 生异形肉排
+  description: 一块生异形肉排，滴着酸液。
   components:
   - type: FlavorProfile
     flavors:
@@ -1986,8 +1986,8 @@
 - type: entity
   parent: FoodMeatBase
   id: FoodMeatTomatoCutlet
-  name: raw killer tomato cutlet
-  description: A cutlet from a slab of tomato.
+  name: 生鲜杀手番茄肉排
+  description: 一块番茄厚切片制成的肉排。
   components:
   - type: Item
     size: Tiny
@@ -2007,8 +2007,8 @@
 - type: entity
   parent: FoodMeatBase
   id: FoodMeatSalamiSlice
-  name: salami slice
-  description: A slice of cured salami.
+  name: 萨拉米切片
+  description: 一片腌制萨拉米香肠。
   components:
   - type: Item
     size: Tiny
@@ -2034,8 +2034,8 @@
 - type: entity
   parent: FoodMeatBase
   id: FoodMeatDragonCutlet
-  name: raw dragon cutlet
-  description: A raw dragon meat cutlet.
+  name: 生龙肉排
+  description: 一块生龙肉排。
   components:
   - type: Tag
     tags:
@@ -2074,8 +2074,8 @@
 - type: entity
   parent: FoodMeatBase
   id: FoodMeatCutletCooked
-  name: cutlet
-  description: A cooked meat cutlet. Needs some seasoning.
+  name: 肉排
+  description: 一块熟肉排。需要加点调料。
   components:
   - type: Tag
     tags:
@@ -2115,8 +2115,8 @@
 - type: entity
   parent: FoodMeatBase
   id: FoodMeatBearCutletCooked
-  name: bear cutlet
-  description: A very manly cutlet of cooked bear meat.
+  name: 熊肉排
+  description: 一块非常粗犷的熟熊肉肉排。
   components:
   - type: Tag
     tags:
@@ -2159,8 +2159,8 @@
 - type: entity
   parent: FoodMeatBase
   id: FoodMeatPenguinCutletCooked
-  name: penguin cutlet
-  description: A cutlet of cooked penguin meat.
+  name: 企鹅肉排
+  description: 一块烹熟的企鹅肉排。
   components:
   - type: Tag
     tags:
@@ -2201,8 +2201,8 @@
 - type: entity
   parent: FoodMeatBase
   id: FoodMeatChickenCutletCooked
-  name: chicken cutlet
-  description: A cutlet of cooked chicken. Remember to wash your hands!
+  name: 鸡肉片
+  description: 一片熟鸡肉片。记得洗手！
   components:
   - type: Tag
     tags:
@@ -2243,8 +2243,8 @@
 - type: entity
   parent: FoodMeatBase
   id: FoodMeatDuckCutletCooked
-  name: duck cutlet
-  description: A cutlet of cooked duck. Remember to wash your hands!
+  name: 鸭肉片
+  description: 一份熟鸭肉片。记得洗手！
   components:
   - type: Tag
     tags:
@@ -2285,8 +2285,8 @@
 - type: entity
   parent: FoodMeatBase
   id: FoodMeatLizardCutletCooked
-  name: lizard cutlet
-  description: Delicious cooked dino cutlet.
+  name: 蜥蜴肉排
+  description: 美味熟恐龙肉排。
   components:
   - type: Tag
     tags:
@@ -2328,8 +2328,8 @@
 - type: entity
   parent: FoodMeatBase
   id: FoodMeatSpiderCutletCooked
-  name: spider cutlet
-  description: A cutlet of cooked spider meat. Finally edible.
+  name: 蜘蛛肉排
+  description: 一块熟蜘蛛肉排。终于可以食用了。
   components:
   - type: Tag
     tags:
@@ -2369,8 +2369,8 @@
 - type: entity
   parent: FoodMeatBase
   id: FoodMeatXenoCutletCooked
-  name: xeno cutlet
-  description: A cutlet of cooked xeno, dripping with... tastiness?
+  name: 异形肉排
+  description: 一块熟透的异形肉排，滴着……美味汁水？
   components:
   - type: Tag
     tags:
@@ -2410,8 +2410,8 @@
 - type: entity
   parent: FoodMeatBase
   id: FoodMeatDragonCutletCooked
-  name: dragon cutlet
-  description: It's a meal for kings!
+  name: 龙排
+  description: 这是国王的盛宴！
   components:
   - type: Tag
     tags:

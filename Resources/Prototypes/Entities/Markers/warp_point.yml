@@ -1,7 +1,7 @@
 - type: entity
   id: WarpPoint
   parent: MarkerBase
-  name: warp point
+  name: 扭曲点
   components:
   - type: WarpPoint
   - type: Sprite
@@ -10,7 +10,7 @@
 - type: entity
   id: WarpPointBeacon
   parent: WarpPoint
-  name: warp point (beacon)
+  name: 跃迁信标
   components:
   - type: NavMapBeacon
   - type: WarpPoint
@@ -20,7 +20,7 @@
 - type: entity
   id: GhostWarpPoint
   parent: MarkerBase
-  name: ghost only warp point
+  name: 幽灵仅传送点
   components:
   - type: Tag
     tags:

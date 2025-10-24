@@ -1,8 +1,8 @@
 - type: entity
-  name: Plant-B-Gone
+  name: 植物克星
   id: PlantBGoneSpray
   parent: SprayBottle
-  description: Kills those pesky weeds!
+  description: 杀死那些讨厌的杂草！
   suffix: "Filled"
   components:
   - type: Tag
@@ -25,10 +25,10 @@
     heldPrefix: plantbgone
 
 - type: entity
-  name: weed spray
+  name: 杂草喷雾
   id: WeedSpray
   parent: SprayBottle
-  description: It's a toxic mixture, in spray form, to kill small weeds.
+  description: 这是一种有毒的混合物，以喷雾形式用于清除小杂草。
   suffix: "Filled"
   components:
   - type: Sprite
@@ -54,10 +54,10 @@
     sprite: Objects/Tools/Hydroponics/sprays.rsi
 
 - type: entity
-  name: pest spray
+  name: 害虫喷雾
   id: PestSpray
   parent: WeedSpray
-  description: It's some pest eliminator spray! Do not inhale!
+  description: 这是害虫清除喷雾！请勿吸入！
   suffix: "Filled"
   components:
   - type: Sprite

@@ -2,8 +2,8 @@
   abstract: true
   parent: Paper
   id: PaperAcquisitionSlip
-  name: acquisition slip
-  description: A slip with order details on it. It can be given to Cargo to complete the order.
+  name: 领货单
+  description: 一张带有订单详情的单据。可将其交给货运部门以完成订单。
   components:
   - type: Sprite
     layers:

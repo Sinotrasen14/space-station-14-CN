@@ -3,8 +3,8 @@
 - type: entity
   parent: ReagentContainerBase
   id: FoodBowlBig
-  name: bowl
-  description: A simple bowl, used for soups and salads.
+  name: 碗
+  description: 一个简单的碗，用于盛放汤和沙拉。
   components:
   - type: Item
     shape:
@@ -70,8 +70,8 @@
 - type: entity
   parent: BaseItem
   id: FoodBowlBigTrash
-  name: broken bowl
-  description: A simple bowl, broken and useless.
+  name: 破碗
+  description: 一只简单的碗，破了，没用了。
   components:
   - type: Item
     shape:
@@ -91,10 +91,10 @@
     price: 0
 
 - type: entity
-  name: bowl
+  name: 碗
   parent: FoodBowlBig
   id: FoodBowlFancy
-  description: A fancy bowl, used for SPECIAL soups and salads.
+  description: 一个精致的碗，用于盛装特别的汤和沙拉。
   components:
   - type: Sprite
     sprite: Objects/Consumable/Food/bowl.rsi

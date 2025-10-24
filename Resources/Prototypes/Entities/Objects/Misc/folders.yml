@@ -1,7 +1,7 @@
 - type: entity
   parent: BaseItem
   id: BoxFolderNuclearCodes
-  name: nuclear code folder
+  name: 核密码文件夹
   components:
   - type: Sprite
     sprite: Objects/Misc/folders.rsi
@@ -24,8 +24,8 @@
 - type: entity
   parent: BoxBase
   id: BoxFolderBaseEmpty
-  name: folder
-  description: A folder filled with top secret paperwork.
+  name: 文件夹
+  description: 一个装满绝密文件的文件夹。
   components:
   - type: Sprite
     sprite: Objects/Misc/folders.rsi
@@ -257,8 +257,8 @@
   parent: BoxFolderBaseEmpty
   id: BoxFolderCentComEmpty
   categories: [ DoNotMap ]
-  name: CentComm folder
-  description: CentComm's miserable little pile of secrets!
+  name: CentComm文件夹
+  description: CentComm那可怜巴巴的一小堆秘密！
   components:
   - type: Sprite
     layers:
@@ -278,8 +278,8 @@
 - type: entity
   parent: BoxFolderBaseEmpty
   id: BoxFolderClipboardEmpty
-  name: clipboard
-  description: The weapon of choice for those on the front lines of bureaucracy.
+  name: 剪贴板
+  description: 官僚前线人士的首选武器。
   components:
   - type: Sprite
     sprite: Objects/Misc/clipboard.rsi
@@ -300,7 +300,7 @@
   - type: ItemSlots
     slots:
       pen_slot:
-        name: clipboard-slot-component-slot-name-pen
+        name: 剪贴板插槽组件插槽名称笔
         whitelist:
           tags:
           - Write
@@ -349,8 +349,8 @@
 - type: entity
   parent: BoxFolderClipboardEmpty
   id: BoxFolderPlasticClipboardEmpty
-  name: plastic clipboard
-  description: A cheap clipboard made of blue plastic. For those who aren't yet ready to wield the bureaucratic might of a proper wooden clipboard.
+  name: 塑料剪贴板
+  description: 一块廉价的蓝色塑料剪贴板，专为尚未准备好驾驭木质剪贴板那般官僚威严的人士而设计。
   components:
   - type: Sprite
     sprite: Objects/Misc/plastic_clipboard.rsi
@@ -383,8 +383,8 @@
 - type: entity
   parent: BoxFolderClipboardEmpty
   id: BoxFolderCentComClipboardEmpty
-  name: CentComm clipboard
-  description: A luxurious clipboard upholstered with green velvet. Often seen carried by CentComm officials, seldom seen actually used.
+  name: 中央司令部剪贴板
+  description: 一张铺着绿色天鹅绒的奢华剪贴板。常见于中央司令部官员手中，却鲜少目睹其真正派上用场。
   components:
   - type: Sprite
     sprite: Objects/Misc/cc-clipboard.rsi
@@ -418,8 +418,8 @@
 - type: entity
   parent: [BoxFolderClipboardEmpty, BaseGrandTheftContraband]
   id: BoxFolderQmClipboard
-  name: requisition digi-board
-  description: A bulky electric clipboard, filled with shipping orders and financing details. With so many compromising documents, you ought to keep this safe.
+  name: 征用数字板
+  description: 一个笨重的电子写字板，塞满了货运订单和财务明细。这么多敏感文件，你可得把它保管妥当。
   components:
   - type: Sprite
     sprite: Objects/Misc/qm_clipboard.rsi
@@ -435,7 +435,7 @@
   - type: ItemSlots
     slots:
       pen_slot:
-        name: clipboard-slot-component-slot-name-pen
+        name: 剪贴板插槽组件插槽名称笔
         whitelist:
           tags:
           - Write

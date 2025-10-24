@@ -1,7 +1,7 @@
 ﻿- type: entity
   id: BaseScrapDebris
   parent: BaseDebris
-  name: scrap debris
+  name: 碎屑残骸
   abstract: true
   components:
     - type: MapGrid
@@ -52,7 +52,7 @@
 - type: entity
   id: ScrapDebrisSmall
   parent: BaseScrapDebris
-  name: scrap debris small
+  name: 碎屑
   categories: [ HideSpawnMenu ]
   components:
     - type: MapGrid
@@ -62,7 +62,7 @@
 - type: entity
   id: ScrapDebrisMedium
   parent: BaseScrapDebris
-  name: scrap debris medium
+  name: 碎屑介质
   categories: [ HideSpawnMenu ]
   components:
     - type: MapGrid
@@ -72,7 +72,7 @@
 - type: entity
   id: ScrapDebrisLarge
   parent: BaseScrapDebris
-  name: scrap debris large
+  name: 大块废料碎屑
   categories: [ HideSpawnMenu ]
   components:
     - type: MapGrid

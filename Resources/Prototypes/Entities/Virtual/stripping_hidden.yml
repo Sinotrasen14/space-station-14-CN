@@ -3,8 +3,8 @@
 
 - type: entity
   id: StrippingHiddenEntity
-  name: hidden entity
-  description: There is something in this pocket. #Or maybe they ar... nah... too obvious a joke.
+  name: 隐藏的实体
+  description: 这个口袋里好像有什么东西。#或者他们可能……算了……这玩笑太明显了。
   categories: [ HideSpawnMenu ]
   components:
   - type: Sprite

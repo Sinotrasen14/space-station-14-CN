@@ -1,9 +1,9 @@
 - type: entity
   save: false
-  name: pathfinding dummy
+  name: 寻路假人
   parent: BaseMobHuman
   id: MobHumanPathDummy
-  description: A miserable pile of secrets.
+  description: 一堆可悲的秘密。
   suffix: AI
   components:
   - type: InputMover

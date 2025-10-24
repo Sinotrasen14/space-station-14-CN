@@ -1,6 +1,6 @@
 - type: entity
-  name: spider clan charge
-  description: A modified C-4 charge supplied to you by the Spider Clan. Its explosive power has been juiced up, but only works in one specific area.
+  name: 蜘蛛氏族炸药
+  description: 蜘蛛氏族提供给你的改良型C-4炸药。其爆炸威力虽已增强，但仅能在特定区域生效。
   # not actually modified C-4! oh the horror!
   parent: [ BaseItem, BaseHighlyIllegalContraband ]
   id: SpiderCharge

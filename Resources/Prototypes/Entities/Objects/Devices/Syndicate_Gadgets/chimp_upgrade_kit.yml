@@ -1,8 +1,8 @@
 - type: entity
-  name: C.H.I.M.P. handcannon upgrade chip
+  name: C.H.I.M.P.手持火炮升级芯片
   parent: [BaseItem, BaseSyndicateContraband]
   id: WeaponPistolCHIMPUpgradeKit
-  description: An experimental upgrade kit for the C.H.I.M.P.
+  description: C.H.I.M.P.的实验性升级套件
   components:
   - type: Sprite
     sprite: Objects/Misc/module.rsi

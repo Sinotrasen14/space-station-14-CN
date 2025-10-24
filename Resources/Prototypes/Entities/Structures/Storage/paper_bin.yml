@@ -1,8 +1,8 @@
 - type: entity
   parent: BaseStructureDynamic
   id: PaperBin
-  name: paper bin
-  description: What secrets lie at the bottom of its endless stack?
+  name: 纸篓
+  description: 它那无底的纸堆底部究竟藏着什么秘密？
   suffix: Empty
   components:
   - type: Sprite

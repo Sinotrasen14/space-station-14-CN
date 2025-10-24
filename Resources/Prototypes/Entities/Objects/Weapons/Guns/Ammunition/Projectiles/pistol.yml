@@ -1,6 +1,6 @@
 - type: entity
   id: BulletPistol
-  name: bullet (.35 auto)
+  name: 子弹（0.35英寸自动手枪弹）
   parent: BaseBullet
   categories: [ HideSpawnMenu ]
   components:
@@ -11,7 +11,7 @@
 
 - type: entity
   id: BulletPistolPractice
-  name: bullet (.35 auto practice)
+  name: 子弹（.35自动手枪练习弹）
   parent: BaseBulletPractice
   categories: [ HideSpawnMenu ]
   components:
@@ -23,7 +23,7 @@
 - type: entity
   id: BulletPistolIncendiary
   parent: BaseBulletIncendiary
-  name: bullet (.35 auto incendiary)
+  name: 子弹（.35自动燃烧弹）
   categories: [ HideSpawnMenu ]
   components:
   - type: Projectile
@@ -35,7 +35,7 @@
 - type: entity
   id: BulletPistolUranium
   parent: BaseBulletUranium
-  name: bullet (.35 auto uranium)
+  name: 子弹（.35自动铀弹）
   categories: [ HideSpawnMenu ]
   components:
   - type: Projectile

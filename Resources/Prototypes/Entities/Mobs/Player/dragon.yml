@@ -2,8 +2,8 @@
   parent: [ SimpleSpaceMobBase, FlyingMobBase ]
   id: BaseMobDragon
   suffix: ""
-  name: space dragon
-  description: A flying leviathan, loosely related to space carps.
+  name: 太空龙
+  description: 一条飞行的庞然巨兽，与太空鲤鱼有远亲关系。
   abstract: true
   components:
   - type: Bloodstream
@@ -12,8 +12,8 @@
     allowMovement: true
     allowSpeech: true
     makeSentient: true
-    name: ghost-role-information-space-dragon-name
-    description: ghost-role-information-space-dragon-description
+    name: 幽灵角色信息空间龙名称
+    description: 幽灵角色信息空间龙描述
     rules: ghost-role-information-space-dragon-rules
     mindRoles:
     - MindRoleGhostRoleTeamAntagonist
@@ -186,8 +186,8 @@
 - type: entity
   categories: [ HideSpawnMenu ]
   id: DragonsBreathGun
-  name: dragon's lung
-  description: For dragon's breathing.
+  name: 龙肺
+  description: 用于龙的呼吸。
   components:
   - type: RechargeBasicEntityAmmo
     rechargeCooldown: 5
@@ -209,7 +209,7 @@
   suffix: Dungeon
   components:
   - type: GhostRole
-    description: ghost-role-information-space-dragon-dungeon-description
+    description: 幽灵角色信息空间龙地牢描述
     rules: ghost-role-information-space-dragon-dungeon-rules
     raffle:
       settings: default
@@ -233,8 +233,8 @@
 - type: entity
   parent: BaseAction
   id: ActionSpawnRift
-  name: Summon Carp Rift
-  description: Summons a carp rift that will periodically spawns carps.
+  name: 召唤鲤跃渊
+  description: 召唤一道鲤鱼裂隙，会周期性生成鲤鱼。
   components:
   - type: Action
     icon:
@@ -248,8 +248,8 @@
 - type: entity
   parent: BaseAction
   id: ActionDevour
-  name: "[color=red]Devour[/color]"
-  description: Attempt to break a structure with your jaws or swallow a creature.
+  name: "[color=red]吞噬[/color]"
+  description: 尝试用你的下颌咬碎结构或吞噬生物。
   components:
   - type: Action
     icon: { sprite : Interface/Actions/devour.rsi, state: icon }
@@ -270,8 +270,8 @@
 - type: entity
   parent: BaseAction
   id: ActionDragonsBreath
-  name: "[color=orange]Dragon's Breath[/color]"
-  description: Spew out flames at anyone foolish enough to attack you!
+  name: "[color=orange]龙之吐息[/color]"
+  description: 向任何胆敢攻击你的蠢货喷出火焰！
   components:
   - type: Action
     # TODO: actual sprite and iconOn

@@ -1,8 +1,8 @@
 - type: entity
   parent: BaseComputerAiAccess
   id: ComputerAlert
-  name: atmospheric alerts computer
-  description: Used to access the station's atmospheric automated alert system.
+  name: 大气警报计算机
+  description: 用于访问站点的大气自动警报系统。
   components:
   - type: Computer
     board: AlertsComputerCircuitboard
@@ -56,8 +56,8 @@
 - type: entity
   parent: BaseComputerAiAccess
   id: ComputerAtmosMonitoring
-  name: atmospheric network monitor
-  description: Used to monitor the station's atmospheric networks.
+  name: 大气网络监测器
+  description: 用于监测空间站的大气网络。
   components:
   - type: Computer
     board: AtmosMonitoringComputerCircuitboard
@@ -93,8 +93,8 @@
 - type: entity
   parent: BaseComputer
   id: ComputerEmergencyShuttle
-  name: emergency shuttle console
-  description: Handles authorization to early launch the shuttle.
+  name: 紧急穿梭机控制台
+  description: 处理提前发射穿梭机的授权。
   components:
   - type: AccessReader
     access:
@@ -116,8 +116,8 @@
 - type: entity
   parent: BaseComputer
   id: BaseComputerShuttle
-  name: shuttle console
-  description: Used to pilot a shuttle.
+  name: 穿梭机控制台
+  description: 用于驾驶穿梭机。
   abstract: true
   components:
   - type: ShuttleConsole
@@ -139,7 +139,7 @@
   - type: ItemSlots
     slots:
       disk_slot:
-        name: Disk
+        name: 磁盘
         insertSound:
           path: /Audio/Machines/terminal_insert_disc.ogg
         ejectSound:
@@ -159,8 +159,8 @@
 - type: entity
   parent: BaseComputerShuttle
   id: ComputerShuttle
-  name: shuttle console
-  description: Used to pilot a shuttle.
+  name: 穿梭机控制台
+  description: 用于驾驶穿梭机。
   components:
   - type: Sprite
     layers:
@@ -180,8 +180,8 @@
 - type: entity
   parent: BaseComputerShuttle
   id: ComputerShuttleSyndie
-  name: syndicate shuttle console
-  description: Used to pilot a syndicate shuttle.
+  name: 辛迪加穿梭机控制台
+  description: 用于驾驶辛迪加穿梭机。
   components:
   - type: Sprite
     layers:
@@ -212,8 +212,8 @@
 - type: entity
   parent: BaseComputerShuttle
   id: ComputerShuttleCargo
-  name: cargo shuttle console
-  description: Used to pilot the cargo shuttle.
+  name: 货物穿梭机控制台
+  description: 用于操控货物穿梭机。
   components:
   - type: Sprite
     layers:
@@ -244,8 +244,8 @@
 - type: entity
   parent: BaseComputerAiAccess
   id: ComputerIFF
-  name: IFF computer
-  description: Allows you to control the IFF characteristics of this vessel.
+  name: IFF计算机
+  description: 允许您控制本舰的敌我识别特征。
   components:
   - type: IFFConsole
   - type: Sprite
@@ -275,9 +275,9 @@
 - type: entity
   parent: ComputerIFF
   id: ComputerIFFSyndicate
-  name: IFF computer
+  name: IFF计算机
   suffix: Syndicate
-  description: Allows you to control the IFF and stealth characteristics of this vessel.
+  description: 允许您控制此舰船的IFF与隐身特性。
   components:
   - type: IFFConsole
     allowedFlags:
@@ -297,8 +297,8 @@
 - type: entity
   parent: BaseComputerAiAccess
   id: ComputerPowerMonitoring
-  name: power monitoring computer
-  description: It monitors power levels across the station.
+  name: 电源监控计算机
+  description: 它监控整个空间站的电源水平。
   components:
   - type: Sprite
     layers:
@@ -339,8 +339,8 @@
 - type: entity
   parent: BaseComputerAiAccess
   id: ComputerMedicalRecords
-  name: medical records computer
-  description: This can be used to check medical records.
+  name: 医疗记录计算机
+  description: 这可以用来检查医疗记录。
   components:
   - type: Sprite
     layers:
@@ -364,8 +364,8 @@
 - type: entity
   parent: BaseComputerAiAccess
   id: ComputerCriminalRecords
-  name: criminal records computer
-  description: This can be used to check criminal records. Only security can modify them.
+  name: 犯罪记录计算机
+  description: 这可用于查询犯罪记录。只有安全人员才能修改它们。
   components:
   - type: CriminalRecordsConsole
   - type: UserInterface
@@ -403,8 +403,8 @@
 - type: entity
   parent: BaseComputerAiAccess
   id: ComputerStationRecords
-  name: station records computer
-  description: This can be used to check station records.
+  name: 车站记录计算机
+  description: 这可用于检查车站记录。
   components:
   - type: GeneralStationRecordConsole
   - type: UserInterface
@@ -428,8 +428,8 @@
 - type: entity
   parent: BaseComputerAiAccess
   id: ComputerCrewMonitoring
-  name: crew monitoring console
-  description: Used to monitor active health sensors built into most of the crew's uniforms.
+  name: 乘员监测控制台
+  description: 用于监测内置在大多数乘员制服中的主动健康传感器。
   components:
   - type: Sprite
     layers:
@@ -467,8 +467,8 @@
 - type: entity
   parent: BaseComputerAiAccess
   id: ComputerResearchAndDevelopment
-  name: R&D computer
-  description: A computer used to interface with R&D tools.
+  name: 研发计算机
+  description: 用于连接研发工具的计算机。
   components:
   - type: Sprite
     layers:
@@ -515,8 +515,8 @@
 - type: entity
   parent: BaseComputerAiAccess
   id: ComputerAnalysisConsole
-  name: analysis console
-  description: A computer used to interface with the artifact analyzer.
+  name: 分析控制台
+  description: 用于连接分析仪器的计算机。
   components:
   - type: Sprite
     layers:
@@ -564,12 +564,12 @@
 - type: entity
   parent: BaseComputerAiAccess
   id: ComputerId
-  name: ID card computer
-  description: Terminal for programming Nanotrasen employee ID cards to access parts of the station.
+  name: ID卡计算机
+  description: 用于编程纳米传森员工ID卡以访问空间站各区域的终端。
   components:
   - type: IdCardConsole
     privilegedIdSlot:
-      name: id-card-console-privileged-id
+      name: ID卡控制台特权身份
       ejectSound: /Audio/Machines/id_swipe.ogg
       insertSound: /Audio/Weapons/Guns/MagIn/batrifle_magin.ogg
       ejectOnBreak: true
@@ -578,7 +578,7 @@
         components:
         - IdCard
     targetIdSlot:
-      name: id-card-console-target-id
+      name: ID卡控制台目标标识
       ejectSound: /Audio/Machines/id_swipe.ogg
       insertSound: /Audio/Weapons/Guns/MagIn/batrifle_magin.ogg
       ejectOnBreak: true
@@ -627,8 +627,8 @@
 - type: entity
   parent: BaseComputerAiAccess
   id: computerBodyScanner
-  name: body scanner computer
-  description: A body scanner.
+  name: 身体扫描仪计算机
+  description: 一台身体扫描仪。
   components:
   - type: ApcPowerReceiver
     powerLoad: 500
@@ -642,8 +642,8 @@
 - type: entity
   parent: BaseComputerAiAccess
   id: ComputerComms
-  name: communications computer
-  description: A computer used to make station wide announcements via keyboard, set the appropriate alert level, and call the emergency shuttle.
+  name: 通讯计算机
+  description: 一台用于通过键盘进行全站广播、设置相应警报级别以及呼叫紧急穿梭机的通讯计算机。
   components:
   - type: Sprite
     layers:
@@ -685,8 +685,8 @@
 - type: entity
   parent: ComputerComms
   id: SyndicateComputerComms
-  name: syndicate communications computer
-  description: A computer capable of remotely hacking into the station's communications systems. Using this to make an announcement will alert the station to your presence.
+  name: 辛迪加通讯计算机
+  description: 一台能够远程入侵空间站通讯系统的计算机。使用它发布通告会暴露你的行踪。
   components:
   - type: Sprite
     layers:
@@ -719,8 +719,8 @@
 - type: entity
   parent: ComputerComms
   id: WizardComputerComms
-  name: wizard communications computer
-  description: A computer capable of magically projecting your speech to the station. Using this to make an announcement will alert the station to your presence.
+  name: 巫师通讯计算机
+  description: 一台能够用魔法将你的话语投射至空间站的计算机。使用它进行广播会向空间站暴露你的存在。
   components:
   - type: Sprite
     layers:
@@ -753,8 +753,8 @@
 - type: entity
   parent: ComputerComms
   id: CentcommComputerComms
-  name: central command communications computer
-  description: A computer used to make world wide announcements via keyboard. The superior cousin of the regular communications computer.
+  name: 中央指挥通信计算机
+  description: 一台通过键盘向全世界发布公告的计算机，是普通通信计算机的高级版本。
   components:
   - type: Sprite
     layers:
@@ -785,8 +785,8 @@
 - type: entity
   parent: BaseComputerAiAccess
   id: ComputerSolarControl
-  name: solar control computer
-  description: A controller for solar panel arrays.
+  name: 太阳能控制计算机
+  description: 太阳能电池板阵列的控制器。
   components:
   - type: Sprite
     layers:
@@ -823,8 +823,8 @@
 - type: entity
   parent: BaseComputerAiAccess
   id: ComputerRadar
-  name: mass scanner computer
-  description: A computer for detecting nearby bodies, displaying them by position and mass.
+  name: 质量扫描仪计算机
+  description: 一台用于探测附近物体、按位置和质量显示它们的计算机。
   components:
   - type: Sprite
     layers:
@@ -857,8 +857,8 @@
 - type: entity
   id: ComputerCargoOrders
   parent: BaseComputerAiAccess
-  name: cargo request computer
-  description: Used to order supplies and approve requests.
+  name: 货物申请计算机
+  description: 用于订购物资和审批申请。
   components:
   - type: Sprite
     layers:
@@ -910,8 +910,8 @@
 - type: entity
   id: ComputerCargoOrdersEngineering
   parent: ComputerCargoOrders
-  name: engineering request computer
-  description: Used by the engineering department to order supplies.
+  name: 工程请求计算机
+  description: 工程部门用于订购物资。
   components:
   - type: Sprite
     layers:
@@ -943,8 +943,8 @@
 - type: entity
   id: ComputerCargoOrdersMedical
   parent: ComputerCargoOrders
-  name: medical request computer
-  description: Used by the medical department to order supplies.
+  name: 医疗请求计算机
+  description: 医疗部门用于订购物资。
   components:
   - type: Sprite
     layers:
@@ -976,8 +976,8 @@
 - type: entity
   id: ComputerCargoOrdersScience
   parent: ComputerCargoOrders
-  name: science request computer
-  description: Used by the science department to order supplies.
+  name: 科学部申请用电脑
+  description: 科学部用于订购物资。
   components:
   - type: Sprite
     layers:
@@ -1009,8 +1009,8 @@
 - type: entity
   id: ComputerCargoOrdersSecurity
   parent: ComputerCargoOrders
-  name: security request computer
-  description: Used by the security department to order supplies.
+  name: 安全部门申请电脑
+  description: 安全部门用于订购物资。
   components:
   - type: Sprite
     layers:
@@ -1042,8 +1042,8 @@
 - type: entity
   id: ComputerCargoOrdersService
   parent: ComputerCargoOrders
-  name: service request computer
-  description: Used by the service department to order supplies.
+  name: 服务请求计算机
+  description: 服务部门用于订购物资。
   components:
   - type: Sprite
     layers:
@@ -1075,8 +1075,8 @@
 - type: entity
   id: ComputerCargoBounty
   parent: BaseComputerAiAccess
-  name: cargo bounty computer
-  description: Used to manage currently active bounties.
+  name: 赏金任务计算机
+  description: 用于管理当前活跃的赏金任务。
   components:
   - type: Sprite
     layers:
@@ -1115,8 +1115,8 @@
 - type: entity
   parent: BaseComputerAiAccess
   id: ComputerFundingAllocation
-  name: funding allocation computer
-  description: Terminal for controlling the distribution of funds and pay to departments.
+  name: 资金分配计算机
+  description: 用于控制资金分配及部门薪酬支付的终端。
   components:
   - type: Sprite
     layers:
@@ -1152,8 +1152,8 @@
 - type: entity
   parent: BaseComputerAiAccess
   id: ComputerCloningConsole
-  name: cloning console computer
-  description: The centerpiece of the cloning system, medicine's greatest accomplishment. It has lots of ports and wires.
+  name: 克隆控制台计算机
+  description: 克隆系统的核心，医学最伟大的成就。它有许多端口和电线。
   components:
   - type: CloningConsole
   - type: DeviceList
@@ -1205,8 +1205,8 @@
 - type: entity
   parent: BaseComputerAiAccess
   id: ComputerSalvageJobBoard
-  name: salvage job board
-  description: Console for accessing salvage jobs, if you're tough enough.
+  name: 打捞任务公告板
+  description: 打捞任务访问控制台，如果你够强悍的话。
   components:
   - type: Sprite
     layers:
@@ -1241,8 +1241,8 @@
 - type: entity
   id: ComputerSalvageExpedition
   parent: BaseComputerAiAccess
-  name: salvage expeditions computer
-  description: Used to accept salvage missions, if you're tough enough.
+  name: 打捞远征计算机
+  description: 用于承接打捞任务，如果你足够强悍的话。
   components:
     - type: Sprite
       layers:
@@ -1294,8 +1294,8 @@
 - type: entity
   parent: BaseComputer
   id: ComputerSurveillanceCameraMonitor
-  name: camera monitor
-  description: A surveillance camera monitor. You're watching them. Maybe.
+  name: 摄像头监视器
+  description: 一个监控摄像头监视器。你在看着他们。也许吧。
   components:
   - type: Sprite
     layers:
@@ -1333,8 +1333,8 @@
 - type: entity
   parent: BaseComputer
   id: ComputerSurveillanceWirelessCameraMonitor
-  name: wireless camera monitor
-  description: A wireless surveillance camera monitor. You're watching them. Maybe.
+  name: 无线摄像头监视器
+  description: 无线摄像头监视器。你在看着他们。也许吧。
   components:
   - type: Sprite
     layers:
@@ -1374,8 +1374,8 @@
 - type: entity
   parent: ComputerSurveillanceWirelessCameraMonitor
   id: ComputerSurveillanceWirelessXenoborgCameraMonitor
-  name: xenoborg camera monitor
-  description: A wireless xenoborg camera monitor. You're watching them. Maybe.
+  name: 异生体摄像头监视器
+  description: 一款无线异生体摄像头监视器。你正在监视它们。也许吧。
   components:
   - type: Computer
     board: XenoborgCameraMonitorCircuitboard
@@ -1389,8 +1389,8 @@
 - type: entity
   id: ComputerPalletConsole
   parent: BaseComputerAiAccess
-  name: cargo sale computer
-  description: Used to sell goods loaded onto cargo pallets.
+  name: 货物销售计算机
+  description: 用于销售装载在货盘上的货物。
   components:
   - type: Sprite
     layers:
@@ -1429,8 +1429,8 @@
 - type: entity
   parent: BaseComputerAiAccess
   id: ComputerMassMedia
-  name: news manager console
-  description: Write your message to the world!
+  name: 新闻管理器控制台
+  description: 向世界发出你的讯息！
   components:
   - type: Sprite
     layers:
@@ -1465,8 +1465,8 @@
 - type: entity
   parent: BaseComputer
   id: ComputerSensorMonitoring
-  name: sensor monitoring computer
-  description: A flexible console for monitoring all kinds of sensors.
+  name: 传感器监控计算机
+  description: 用于监控各类传感器的灵活控制台。
   # Putting this as "DO NOT MAP" until the performance issues are fixed.
   # And it's more fleshed out.
   suffix: TESTING, DO NOT MAP
@@ -1513,8 +1513,8 @@
 - type: entity
   parent: BaseComputerAiAccess
   id: ComputerRoboticsControl
-  name: robotics control console
-  description: Used to remotely monitor, disable and destroy the station's cyborgs.
+  name: 机器人控制台
+  description: 用于远程监控、停用和摧毁空间站的机器人。
   components:
   - type: Sprite
     layers:
@@ -1556,8 +1556,8 @@
 - type: entity
   parent: ComputerRoboticsControl
   id: ComputerXenoborgsControl
-  name: xenoborgs control console
-  description: Used to remotely monitor all xenoborgs.
+  name: 异生体控制台
+  description: 用于远程监控所有异生体。
   components:
   - type: Sprite
     layers:
@@ -1589,8 +1589,8 @@
 - type: entity
   id: StationAiUploadComputer
   parent: BaseComputer
-  name: AI upload console
-  description: Used to update the laws of the station AI.
+  name: AI上传控制台
+  description: 用于更新空间站人工智能的法则。
   components:
   - type: Sprite
     layers:
@@ -1622,7 +1622,7 @@
   - type: ItemSlots
     slots:
       circuit_holder:
-        name: circuit-holder
+        name: 电路固定器
         insertSuccessPopup: silicon-laws-updated
         whitelist:
           requireAll: true
@@ -1637,8 +1637,8 @@
 - type: entity
   id: StationAiFixerComputer
   parent: BaseComputer
-  name: AI restoration console
-  description: Used to repair damaged artifical intelligences.
+  name: AI修复控制台
+  description: 用于修复受损的人工智能。
   components:
   - type: Sprite
     layers:

@@ -1,8 +1,8 @@
 - type: entity
-  name: bow
+  name: 弓
   parent: [BaseItem, BaseMinorContraband]
   id: BaseBow
-  description: The original rooty tooty point and shooty.
+  description: 最初的根状射击装置。
   abstract: true
   components:
   - type: Sprite
@@ -33,7 +33,7 @@
   - type: ItemSlots
     slots:
       projectiles:
-        name: Projectiles
+        name: 抛射物
         startingItem: null
         insertSound: /Audio/Weapons/Guns/Misc/arrow_nock.ogg
         whitelist:
@@ -49,7 +49,7 @@
 - type: entity
   id: BowImprovised
   parent: BaseBow
-  name: improvised shortbow
+  name: 临时制作的短弓
   components:
   - type: Sprite
     layers:

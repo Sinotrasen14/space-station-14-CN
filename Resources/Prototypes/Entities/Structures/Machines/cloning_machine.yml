@@ -1,8 +1,8 @@
 ﻿- type: entity
   id: CloningPod
   parent: BaseMachinePowered
-  name: cloning pod
-  description: A Cloning Pod. 50% reliable.
+  name: 克隆舱
+  description: 一个克隆舱。可靠性为50%。
   components:
   - type: CloningPod
   - type: DeviceList

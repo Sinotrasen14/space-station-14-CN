@@ -1,7 +1,7 @@
 - type: entity
   id: AlwaysPoweredStrobeLight
-  name: strobe
-  description: "UH?! Sorry, all I can hear is WEE-OOO-WEE-OOO!"
+  name: 频闪
+  description: "呃？！抱歉，我只听见呜咿—喔—呜咿—喔！"
   suffix: Always powered
   components:
   - type: AmbientSound
@@ -80,8 +80,8 @@
     - Wallmount
 
 - type: entity
-  name: strobe
-  description: "UH?! Sorry, all I can hear is WEE-OOO-WEE-OOO!"
+  name: 频闪
+  description: "呃？！抱歉，我只听见呜咿—喔—呜咿—喔！"
   id: PoweredStrobeLightEmpty
   suffix: Empty
   parent: AlwaysPoweredStrobeLight

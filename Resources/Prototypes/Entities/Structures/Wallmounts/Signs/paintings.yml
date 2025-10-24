@@ -9,8 +9,8 @@
 - type: entity
   parent: PaintingBase
   id: PaintingEmpty
-  name: empty frame
-  description: An empty frame, waiting to be filled with art.
+  name: 空画框
+  description: 一个空画框，等待着被艺术填满。
   components:
   - type: Sprite
     state: painting0
@@ -18,8 +18,8 @@
 - type: entity
   parent: PaintingBase
   id: PaintingMoony
-  name: Abstract No.1
-  description: An imposing abstract painting. It feels like it's pressuring you to do good.
+  name: 《抽象一号》
+  description: 一幅气势恢宏的抽象画作，仿佛在敦促你积极向善。
   components:
   - type: Sprite
     state: painting1
@@ -27,8 +27,8 @@
 - type: entity
   parent: PaintingBase
   id: PaintingPersistenceOfMemory
-  name: The Persistence of Memory
-  description: This painting depicts a barren landscape. It's filled with various surreal objects.
+  name: 记忆的永恒
+  description: 这幅画描绘了一片荒凉的景象，布满了各种超现实的物体。
   components:
   - type: Sprite
     state: painting2
@@ -36,8 +36,8 @@
 - type: entity
   parent: PaintingBase
   id: PaintingTheSonOfMan
-  name: The Son of Man
-  description: This painting depicts a formal-looking man. His face is obscured by an apple.
+  name: 《人类之子》
+  description: 这幅画描绘了一位外表正式的男子，他的脸被一个苹果遮住了。
   components:
   - type: Sprite
     state: painting3
@@ -45,8 +45,8 @@
 - type: entity
   parent: PaintingBase
   id: PaintingTheKiss
-  name: The Kiss
-  description: This painting depicts a couple in tender embrace. It's covered in glittery gold ornamentation.
+  name: 《吻》
+  description: 这幅画描绘了一对温柔相拥的恋人，画面覆盖着闪闪发光的金色装饰。
   components:
   - type: Sprite
     state: painting4
@@ -54,8 +54,8 @@
 - type: entity
   parent: PaintingBase
   id: PaintingTheScream
-  name: The Scream
-  description: This painting depicts a distressed man standing on a bridge.
+  name: 呐喊
+  description: 这幅画描绘了一个站在桥上、神情痛苦的男人。
   components:
   - type: Sprite
     state: painting5
@@ -63,8 +63,8 @@
 - type: entity
   parent: PaintingBase
   id: PaintingTheGreatWave
-  name: The Great Wave off Kanagawa
-  description: This painting depicts a majestic wave. It's throwing around several small fishing boats.
+  name: 《神奈川冲浪里》
+  description: 这幅画描绘了一道巨浪，几艘小渔船在浪中颠簸。
   components:
   - type: Sprite
     state: painting6
@@ -72,8 +72,8 @@
 - type: entity
   parent: PaintingBase
   id: PaintingCafeTerraceAtNight
-  name: Cafe Terrace at Night
-  description: This painting depicts lively night scene at a cafe.
+  name: 夜晚的咖啡馆露台
+  description: 这幅画描绘了咖啡馆夜晚的生动景象。
   components:
   - type: Sprite
     state: painting7
@@ -81,8 +81,8 @@
 - type: entity
   parent: PaintingBase
   id: PaintingNightHawks
-  name: Nighthawks
-  description: This painting depicts a lonely-looking diner. The patrons are sitting glumly at the counter.
+  name: 夜鹰
+  description: 这幅画描绘了一个看起来孤寂的餐馆，顾客们忧郁地坐在柜台旁。
   components:
   - type: Sprite
     state: painting8
@@ -90,8 +90,8 @@
 - type: entity
   parent: PaintingBase
   id: PaintingSkeletonCigarette
-  name: Skull of a Skeleton with Burning Cigarette
-  description: This painting depicts an impressionist portrait of a skeleton. A lit cigarette is wedged between its teeth.
+  name: 叼着燃烧香烟的骷髅头
+  description: 这幅画描绘了一幅骷髅的印象派肖像，一支点燃的香烟被斜插在它的齿间。
   components:
   - type: Sprite
     state: painting9
@@ -99,8 +99,8 @@
 - type: entity
   parent: PaintingBase
   id: PaintingSkeletonBoof
-  name: Skull of MLG Skeleton with Fat Boof
-  description: Painting goes hard. Feel free to screenshot.
+  name: MLG骷髅头配大烟枪
+  description: 这幅画太硬核了，欢迎截图保存。
   components:
   - type: Sprite
     state: painting10
@@ -108,8 +108,8 @@
 - type: entity
   parent: PaintingBase
   id: PaintingPrayerHands
-  name: Study of the Hands of an Apostle
-  description: This painting depicts a pair of hands clasped in prayer.
+  name: 使徒双手习作
+  description: 这幅画描绘了一双正在祈祷的紧握的双手。
   components:
   - type: Sprite
     state: painting11
@@ -117,8 +117,8 @@
 - type: entity
   parent: PaintingBase
   id: PaintingOldGuitarist
-  name: The Old Guitarist
-  description: This painting depicts an old, thin man clutching a guitar. His face looks shallow and sickly.
+  name: 老吉他手
+  description: 这幅画描绘了一位瘦削的老人紧抱着一把吉他，他的面容显得憔悴而病态。
   components:
   - type: Sprite
     state: painting12
@@ -126,8 +126,8 @@
 - type: entity
   parent: PaintingBase
   id: PaintingOlympia
-  name: Olympia
-  description: This painting depicts a nude woman lying on a bed. A servant is tending to her.
+  name: 奥林匹亚
+  description: 这幅画描绘了一名裸体女子躺在床上的场景，一名仆人正在照料她。
   components:
   - type: Sprite
     state: painting13
@@ -135,8 +135,8 @@
 - type: entity
   parent: PaintingBase
   id: PaintingSaturn
-  name: Saturn Devouring His Son
-  description: This painting depicts giant devouring a human corpse. He has a frightening look in his eyes.
+  name: 土星吞噬其子
+  description: 这幅画描绘了一个巨人正在吞噬一具人类尸体的场景。他的眼中透露出骇人的神色。
   components:
   - type: Sprite
     state: painting14
@@ -144,8 +144,8 @@
 - type: entity
   parent: PaintingBase
   id: PaintingSleepingGypsy
-  name: The Sleeping Gypsy
-  description: This painting depicts a gypsy sleeping among their belongings in the desert. A lion stands behind them.
+  name: 睡着的吉普赛人
+  description: 这幅画描绘了一位吉普赛人在沙漠中枕着行囊沉睡，身后伫立着一头狮子。
   components:
   - type: Sprite
     state: painting15
@@ -153,8 +153,8 @@
 - type: entity
   parent: PaintingBase
   id: PaintingRedBlueYellow
-  name: Composition with Red Blue and Yellow
-  description: This painting is made up of several boxes. They are filled with flat shades of color.
+  name: 红蓝黄构图
+  description: 这幅画由多个方块构成，里面填充着平涂的色彩。
   components:
   - type: Sprite
     state: painting16
@@ -162,8 +162,8 @@
 - type: entity
   parent: PaintingBase
   id: PaintingAmogusTriptych
-  name: Amogus Triptych (Untitled.)
-  description: This painting is made up of 3 individual sections. Each depicts a religious figure.
+  name: 阿莫古斯三联画（无题）
+  description: 这幅画作由三个独立部分组成，每部分都描绘了一位宗教人物。
   components:
   - type: Sprite
     state: painting17
@@ -171,8 +171,8 @@
 - type: entity
   parent: PaintingBase
   id: PaintingHelloWorld
-  name: Hello World
-  description: This painting is made up of lots of multicolored squares arranged in a peculiar pattern. Perhaps it means something?
+  name: 你好世界
+  description: 这幅画由许多五彩斑斓的方块组成，它们以独特的排列方式组合在一起。或许其中蕴含着某种深意？
   components:
   - type: Sprite
     state: painting18
@@ -180,8 +180,8 @@
 - type: entity
   parent: PaintingBase
   id: PaintingSadClown
-  name: Sad Clown
-  description: This painting is a sad clown! It sparks joy.
+  name: 悲伤的小丑
+  description: 这幅画是一个悲伤的小丑！它却激发了欢乐。
   components:
   - type: Sprite
     state: painting19

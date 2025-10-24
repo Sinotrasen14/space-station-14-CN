@@ -2,8 +2,8 @@
 - type: entity
   parent: BaseBoardEntity
   id: CheckerBoard
-  name: checkerboard
-  description: A checkerboard. Pieces included!
+  name: 棋盘
+  description: 一个棋盘。包含棋子！
   components:
   - type: Sprite
     sprite: Objects/Fun/Tabletop/chessboard.rsi
@@ -22,7 +22,7 @@
 # Checkerboard tabletop item (item only visible in tabletop game)
 - type: entity
   id: *checkerboard
-  name: checkerboard
+  name: 棋盘
   parent: BaseBoardTabletop
   categories: [ HideSpawnMenu ]
   components:
@@ -33,7 +33,7 @@
 # The pieces
 - type: entity
   id: *pieceWhite
-  name: white checker piece
+  name: 白色棋子
   parent: BaseTabletopPiece
   components:
     - type: Sprite
@@ -42,7 +42,7 @@
 
 - type: entity
   id: *crownWhite
-  name: white checker crown
+  name: 白色方格皇冠
   parent: BaseTabletopPiece
   components:
     - type: Sprite
@@ -51,7 +51,7 @@
 
 - type: entity
   id: *pieceBlack
-  name: black checker piece
+  name: 黑色棋子
   parent: BaseTabletopPiece
   components:
     - type: Sprite
@@ -60,7 +60,7 @@
 
 - type: entity
   id: *crownBlack
-  name: black checker crown
+  name: 黑色方格皇冠
   parent: BaseTabletopPiece
   components:
     - type: Sprite

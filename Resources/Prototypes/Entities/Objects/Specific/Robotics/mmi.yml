@@ -1,8 +1,8 @@
 - type: entity
   parent: BaseItem
   id: MMI
-  name: man-machine interface
-  description: A machine able to facilitate communication between a biological brain and electronics, enabling crew to continue to provide value after work-related incidents.
+  name: 人机接口
+  description: 一种能够促进生物大脑与电子设备之间通信的机器，使工作人员在工作相关事故后仍能持续创造价值。
   components:
   - type: Sprite
     sprite: Objects/Specific/Robotics/mmi.rsi
@@ -37,7 +37,7 @@
   - type: ItemSlots
     slots:
       brain_slot:
-        name: positronic-brain-slot-component-slot-name-brain
+        name: 正电子脑槽位组件槽位名称脑
         whitelist:
           components:
           - Brain
@@ -62,7 +62,7 @@
   - type: ItemSlots
     slots:
       brain_slot:
-        name: "Brain"
+        name: 大脑
         startingItem: OrganHumanBrain
         whitelist:
           components:
@@ -71,8 +71,8 @@
 - type: entity
   parent: BaseItem
   id: PositronicBrain
-  name: positronic brain
-  description: An artificial brain capable of spontaneous neural activity.
+  name: 正电子脑
+  description: 能够产生自发神经活动的人工大脑。
   components:
     - type: Sprite
       sprite: Objects/Specific/Robotics/mmi.rsi

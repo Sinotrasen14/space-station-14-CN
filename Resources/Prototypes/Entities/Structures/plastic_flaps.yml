@@ -45,9 +45,9 @@
 - type: entity
   id: PlasticFlapsClear
   parent: PlasticFlapsBase
-  name: plastic flaps
+  name: 塑料挡板
   suffix: Clear
-  description: Heavy duty, plastic flaps. Definitely can't get past those. No way.
+  description: 重型塑料挡板。绝对没法通过。不可能。
   components:
   - type: Construction
     graph: PlasticFlapsGraph
@@ -56,9 +56,9 @@
 - type: entity
   id: PlasticFlapsOpaque
   parent: PlasticFlapsBase
-  name: plastic flaps
+  name: 塑料挡板
   suffix: Opaque
-  description: Heavy duty, plastic flaps. Definitely can't get past those. No way.
+  description: 重型塑料挡板。绝对无法穿越。绝无可能。
   components:
   - type: Fixtures
     fixtures:
@@ -80,9 +80,9 @@
 - type: entity
   id: PlasticFlapsAirtightClear
   parent: PlasticFlapsBase
-  name: airtight plastic flaps
+  name: 气密塑料挡板
   suffix: Airtight, Clear
-  description: Heavy duty, slightly stronger, airtight plastic flaps. Definitely can't get past those. No way.
+  description: 重型、稍厚实、气密塑料挡板。绝对无法穿越。绝无可能。
   components:
   - type: Destructible
     thresholds:
@@ -99,9 +99,9 @@
 - type: entity
   id: PlasticFlapsAirtightOpaque
   parent: PlasticFlapsBase
-  name: airtight plastic flaps
+  name: 气密塑料挡板
   suffix: Airtight, Opaque
-  description: Heavy duty, slightly stronger, airtight plastic flaps. Definitely can't get past those. No way.
+  description: 重型、稍厚实、气密塑料挡板。绝对无法穿越。绝无可能。
   components:
   - type: Destructible
     thresholds:

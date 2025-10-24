@@ -1,7 +1,7 @@
 - type: entity
   id: WoodenSign
-  name: wooden sign
-  description: He's pointing somewhere.
+  name: 木牌
+  description: 他正指着某个地方。
   components:
   - type: Clickable
   - type: InteractionOutline
@@ -57,8 +57,8 @@
 - type: entity
   id: WoodenSupport
   parent: BaseStructure
-  name: wooden support
-  description: Increases your confidence that a rock won't fall on your head.
+  name: 木质支架
+  description: 让你更加确信不会有石头掉到头上。
   placement:
     mode: SnapgridCenter
   components:
@@ -115,7 +115,7 @@
 
 - type: entity
   id: WoodenSupportBeam
-  name: wooden support beam
+  name: 木制支撑梁
   parent: WoodenSupport
   components:
   - type: Sprite
@@ -137,8 +137,8 @@
 - type: entity
   id: WoodenSupportWall
   parent: BaseStructure
-  name: wooden support wall
-  description: An old, rotten wall.
+  name: 木质支撑墙
+  description: 一堵破旧腐朽的墙。
   placement:
     mode: SnapgridCenter
   components:

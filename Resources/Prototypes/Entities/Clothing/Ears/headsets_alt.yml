@@ -2,8 +2,8 @@
   abstract: true
   parent: ClothingHeadset
   id: ClothingHeadsetAlt
-  name: headset
-  description: An updated, modular intercom that fits over the head. Takes encryption keys.
+  name: 耳机
+  description: 一款升级版模块化对讲机，采用头戴式设计。可配置加密密钥。
   components:
   - type: Sprite
     state: icon_alt
@@ -13,7 +13,7 @@
 - type: entity
   parent: ClothingHeadsetAlt
   id: ClothingHeadsetAltCargo
-  name: quartermaster's over-ear headset
+  name: 军需官的罩耳式耳机
   components:
   - type: ContainerFill
     containers:
@@ -29,7 +29,7 @@
 - type: entity
   parent: ClothingHeadsetAlt
   id: ClothingHeadsetAltCentCom
-  name: CentComm over-ear headset
+  name: 中央通讯专用头戴式耳机
   components:
   - type: ContainerFill
     containers:
@@ -44,7 +44,7 @@
 - type: entity
   parent: [ClothingHeadsetAlt, BaseCommandContraband]
   id: ClothingHeadsetAltCommand
-  name: command over-ear headset
+  name: 命令式头戴耳机
   components:
   - type: ContainerFill
     containers:
@@ -58,7 +58,7 @@
 - type: entity
   parent: [ClothingHeadsetAlt, BaseCommandContraband]
   id: ClothingHeadsetAltEngineering
-  name: chief engineer's over-ear headset
+  name: 总工程师的头戴式耳机
   components:
   - type: ContainerFill
     containers:
@@ -74,7 +74,7 @@
 - type: entity
   parent: [ClothingHeadsetAlt, BaseCommandContraband]
   id: ClothingHeadsetAltMedical
-  name: chief medical officer's over-ear headset
+  name: 首席医疗官的包耳式耳机
   components:
   - type: ContainerFill
     containers:
@@ -92,7 +92,7 @@
 - type: entity
   parent: [ClothingHeadsetAlt, BaseCommandContraband]
   id: ClothingHeadsetAltSecurity
-  name: head of security's over-ear headset
+  name: 安保主管的包耳式耳机
   components:
   - type: ContainerFill
     containers:
@@ -108,7 +108,7 @@
 - type: entity
   parent: [ClothingHeadsetAlt, BaseCommandContraband]
   id: ClothingHeadsetAltScience
-  name: research director's over-ear headset
+  name: 首席科学家的包耳式耳机
   components:
   - type: ContainerFill
     containers:
@@ -124,8 +124,8 @@
 - type: entity
   parent: [ClothingHeadsetAlt, BaseSyndicateContraband]
   id: ClothingHeadsetAltSyndicate
-  name: blood-red over-ear headset
-  description: An updated, modular syndicate intercom that fits over the head and takes encryption keys (there are 5 key slots.).
+  name: 血红色头戴式耳机
+  description: 一款经过更新的模块化集团内部对讲机，采用头戴式设计，并配备加密密钥插槽（共5个密钥插位）。
   components:
   - type: Headset
   - type: EncryptionKeyHolder
@@ -142,7 +142,7 @@
 - type: entity
   parent: ClothingHeadsetAlt
   id: ClothingHeadsetAltFreelancer
-  name: freelancer's over-ear headset
+  name: 自由职业者的头戴式耳机
   components:
     - type: Headset
     - type: EncryptionKeyHolder
@@ -159,7 +159,7 @@
 - type: entity
   parent: [ClothingHeadsetAlt, BaseMagicalContraband]
   id: ClothingHeadsetAltWizard
-  name: wizard's over-ear headset
+  name: 巫师牌头戴式耳机
   components:
     - type: Headset
     - type: EncryptionKeyHolder

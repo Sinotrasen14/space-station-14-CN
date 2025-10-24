@@ -1,8 +1,8 @@
 ﻿- type: entity
   id: FirelockFrame
   parent: BaseStructureDynamic
-  name: firelock frame
-  description: That is a firelock frame.
+  name: 火枪枪机框架
+  description: 那是一个火枪枪机框架。
   components:
   - type: Sprite
     sprite: Structures/Doors/Airlocks/Standard/firelock.rsi

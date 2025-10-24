@@ -10,8 +10,8 @@
 - type: entity
   parent: BaseWoodwindInstrument
   id: SaxophoneInstrument
-  name: saxophone
-  description: An instrument. You could probably grind this into raw jazz.
+  name: 萨克斯风
+  description: 一件乐器。你大概能把它磨成原始爵士乐。
   components:
   - type: Instrument
     program: 66
@@ -35,7 +35,7 @@
 - type: entity
   parent: BaseWoodwindInstrument
   id: HarmonicaInstrument
-  name: harmonica
+  name: 口琴
   components:
   - type: Instrument
     program: 22
@@ -54,8 +54,8 @@
 - type: entity
   parent: BaseWoodwindInstrument
   id: ClarinetInstrument
-  name: clarinet
-  description: Skweedward tintacklays.
+  name: 单簧管
+  description: 斯奎德沃德·廷塔克莱斯。
   components:
   - type: Instrument
     program: 71
@@ -65,8 +65,8 @@
 - type: entity
   parent: BaseWoodwindInstrument
   id: FluteInstrument
-  name: flute
-  description: Reaching new heights of being horrifyingly shrill.
+  name: 笛子
+  description: 达到令人毛骨悚然的刺耳新高度。
   components:
   - type: Instrument
     program: 73
@@ -76,8 +76,8 @@
 - type: entity
   parent: BaseWoodwindInstrument
   id: RecorderInstrument
-  name: recorder
-  description: Comes in various colors of fashionable plastic!
+  name: 录音机
+  description: 采用时尚塑料，有多种颜色可选！
   components:
   - type: Instrument
     program: 74
@@ -87,8 +87,8 @@
 - type: entity
   parent: BaseWoodwindInstrument
   id: PanFluteInstrument
-  name: pan flute
-  description: Perfect for luring ancient mythical beings to dance with you.
+  name: 排箫
+  description: 非常适合引诱古老神话生物与你共舞。
   components:
   - type: Instrument
     program: 75
@@ -99,8 +99,8 @@
 - type: entity
   parent: BaseWoodwindInstrument
   id: OcarinaInstrument
-  name: ocarina
-  description: Good for playing lullabies.
+  name: 陶笛
+  description: 适合演奏摇篮曲。
   components:
   - type: Instrument
     program: 79
@@ -112,8 +112,8 @@
 - type: entity
   parent: BaseWoodwindInstrument
   id: BagpipeInstrument
-  name: bagpipe
-  description: Pairs nicely with a kilt.
+  name: 风笛
+  description: 与苏格兰短裙相得益彰。
   components:
   - type: Instrument
     program: 109

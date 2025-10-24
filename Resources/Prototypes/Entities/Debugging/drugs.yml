@@ -1,8 +1,8 @@
 ﻿- type: entity
   parent: [DrinkBaseMaterialGlass, DrinkBase]
   id: DrinkMeth
-  name: meth  # beer it is. coffee. beer? coff-ee? be-er? c-o... b-e
-  description: Just a whole glass of meth.
+  name: 甲基  # 啤酒也行。咖啡。啤酒？咖-啡？啤-酒？咖... 啤...
+  description: 就一整杯甲基。
   suffix: DEBUG
   components:
   - type: Tag

@@ -1,8 +1,8 @@
 - type: entity
   parent: BaseWallmountMachine
   id: BaseIntercom
-  name: intercom
-  description: An intercom. For when the station just needs to know something.
+  name: 对讲机
+  description: 对讲机。当站点需要了解情况时使用。
   abstract: true
   components:
   - type: StationAiWhitelist
@@ -116,8 +116,8 @@
 
 - type: entity
   id: IntercomAssembly
-  name: intercom assembly
-  description: An intercom. It doesn't seem very helpful right now.
+  name: 对讲机组件
+  description: 一个对讲机。目前看来它似乎没什么用处。
   components:
   - type: Sprite
     drawdepth: SmallObjects
@@ -217,7 +217,7 @@
   id: IntercomCommand
   parent: BaseIntercomSecure
   suffix: Command
-  description: An intercom. It's been reinforced with metal.
+  description: 一个对讲机。它已经用金属加固了。
   components:
   - type: ContainerFill
     containers:
@@ -270,7 +270,7 @@
   id: IntercomSecurity
   parent: BaseIntercomSecure
   suffix: Security
-  description: An intercom. It's been reinforced with metal from security helmets, making it a bitch-and-a-half to open.
+  description: 一个对讲机。它的外壳用安全头盔的金属加固过，打开它得费九牛二虎之力。
   components:
   - type: ContainerFill
     containers:

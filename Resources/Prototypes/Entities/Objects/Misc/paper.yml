@@ -58,10 +58,10 @@
   - type: PhysicalComposition
 
 - type: entity
-  name: paper
+  name: 纸
   parent: BasePaper
   id: Paper
-  description: 'A piece of white paper.'
+  description: 一张白纸。
   components:
   - type: Sprite
     sprite: Objects/Misc/bureaucracy.rsi
@@ -86,10 +86,10 @@
   - type: PaperVisuals
 
 - type: entity
-  name: paper scrap
+  name: 纸屑
   parent: BasePaper
   id: PaperScrap
-  description: 'A crumpled up piece of white paper.'
+  description: 一张皱巴巴的白纸。
   components:
   - type: Tag
     tags:
@@ -102,10 +102,10 @@
     - state: scrap
 
 - type: entity
-  name: office paper
+  name: 办公用纸
   parent: Paper
   id: PaperOffice
-  description: 'A plain sheet of office paper.'
+  description: 一张普通的办公用纸。
   components:
   - type: PaperVisuals
     backgroundImagePath: "/Textures/Interface/Paper/paper_background_default.svg.96dpi.png"
@@ -114,10 +114,10 @@
     contentMargin: 16.0, 16.0, 16.0, 16.0
 
 - type: entity
-  name: artifact analyzer printout
+  name: 文物分析仪打印件
   parent: Paper
   id: PaperArtifactAnalyzer
-  description: The readout of a device forgotten to time.
+  description: 一台被时光遗忘的仪器的读数。
   components:
   - type: Sprite
     layers:
@@ -141,10 +141,10 @@
     maxWritableArea: 400.0, 0.0
 
 - type: entity
-  name: captain's thoughts
+  name: 船长的思绪
   parent: Paper
   id: PaperCaptainsThoughts
-  description: "A page of the captain's journal. In luxurious lavender."
+  description: 一页船长的日志，以奢华的薰衣草色呈现。
   components:
   - type: Sprite
     layers:
@@ -167,10 +167,10 @@
     contentMargin: 32.0, 16.0, 32.0, 0.0
 
 - type: entity
-  name: cargo invoice
+  name: 货物发票
   parent: Paper
   id: PaperCargoInvoice
-  description: 'A single unit of bureaucracy.'
+  description: 一个单位的官僚机构。
   components:
   - type: Sprite
     layers:
@@ -203,8 +203,8 @@
 - type: entity
   id: PaperNanoTaskItem
   parent: Paper
-  name: NanoTask item
-  description: A printed NanoTask item. Can be inserted into your PDA to add it to your tasks.
+  name: 纳米任务物品
+  description: 一份打印的纳米任务物品。可插入您的PDA以将其添加到任务列表中。
   components:
   - type: Tag
     tags:
@@ -237,8 +237,8 @@
 - type: entity
   id: PaperCargoBountyManifest
   parent: PaperCargoInvoice
-  name: bounty manifest
-  description: A paper label designating a crate as containing a bounty. Selling a crate with this label will fulfill the bounty.
+  name: 赏金清单
+  description: 一张标明板条箱内装有赏金的纸质标签。出售带有此标签的板条箱即可完成赏金任务。
   components:
   - type: Sprite
     layers:
@@ -278,8 +278,8 @@
 - type: entity
   id: PaperSalvageJobLabel
   parent: PaperCargoInvoice
-  name: salvage job shipment label
-  description: A paper label designating a crate as containing a shipment to fulfill a salvage job. Selling a crate with this will fulfill the job.
+  name: 打捞任务货运标签
+  description: 标明板条箱内装有用于完成打捞任务的货物的纸质标签。出售带有此标签的板条箱即可完成任务。
   components:
   - type: Sprite
     layers:
@@ -311,10 +311,10 @@
     price: 0
 
 - type: entity
-  name: character sheet
+  name: 角色卡
   parent: Paper
   id: PaperCNCSheet # legally gray zone of using "D&D" and "DND"
-  description: 'A sheet for your Carps and Crypts characters.'
+  description: 一张用于记录你在《鲤鱼与地穴》中角色的角色卡。
   components:
   - type: Paper
     contentSize: 10000
@@ -352,7 +352,7 @@
 - type: entity
   parent: Paper
   id: NukeCodePaper
-  name: nuclear authentication codes
+  name: 核认证码
   components:
   - type: NukeCodePaper
     allNukesAvailable: true
@@ -367,8 +367,8 @@
 - type: entity
   parent: [Paper, BaseSyndicateContraband] # eat or burn your damn piece of paper damn thieves
   id: TraitorCodePaper
-  name: syndicate codeword
-  description: A leaked codeword to possibly get in touch with the Syndicate.
+  name: 辛迪加暗语
+  description: 一份泄露的暗语，或许能借此与辛迪加取得联系。
   categories: [ DoNotMap ]
   components:
   - type: TraitorCodePaper
@@ -376,8 +376,8 @@
 - type: entity
   parent: [Paper, BaseSyndicateContraband]
   id: AllTraitorCodesPaper
-  name: syndicate codewords registry
-  description: A registry of all active Syndicate codewords.
+  name: 辛迪加密码词注册表
+  description: 所有活跃辛迪加密码词的注册表。
   suffix: Admeme
   components:
   - type: TraitorCodePaper
@@ -385,10 +385,10 @@
     codewordShowAll: true
 
 - type: entity
-  name: envelope
+  name: 信封
   parent: BaseItem
   id: Envelope
-  description: 'A small envelope for keeping prying eyes off of your sensitive documents.'
+  description: 一个小信封，用于防止他人窥探您的敏感文件。
   components:
   - type: Sprite
     sprite: Objects/Misc/bureaucracy.rsi
@@ -418,7 +418,7 @@
   - type: ItemSlots
     slots:
       letter_slot:
-        name: envelope-letter-slot
+        name: 信封投递口
         insertSound: /Audio/Effects/packetrip.ogg
         ejectSound: /Audio/Effects/packetrip.ogg
         whitelist:

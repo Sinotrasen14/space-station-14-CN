@@ -1,7 +1,7 @@
 - type: entity
   id: CarpRift
-  name: carp rift
-  description: A rift akin to the ones space carp use to travel long distances.
+  name: 鲤鱼裂隙
+  description: 一道类似于太空鲤鱼用来长途旅行的裂隙。
   placement:
     mode: SnapgridCenter
   components:

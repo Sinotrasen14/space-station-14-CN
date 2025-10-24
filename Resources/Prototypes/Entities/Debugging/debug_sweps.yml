@@ -1,8 +1,8 @@
 - type: entity
-  name: bang, ded
+  name: 砰，死了
   parent: BaseWeaponPistol
   id: WeaponPistolDebug
-  description: ded
+  description: 死了
   suffix: DEBUG
   components:
   - type: Tag
@@ -25,7 +25,7 @@
   - type: ItemSlots
     slots:
       gun_magazine:
-        name: Magazine
+        name: 杂志
         startingItem: MagazinePistolDebug
         insertSound: /Audio/Weapons/Guns/MagIn/smg_magin.ogg
         ejectSound: /Audio/Weapons/Guns/MagOut/smg_magout.ogg
@@ -34,7 +34,7 @@
           tags:
             - Debug
       gun_chamber:
-        name: Chamber
+        name: 腔室
         startingItem: CartridgeDebug
         priority: 1
         whitelist:
@@ -43,7 +43,7 @@
 
 - type: entity
   id: MagazinePistolDebug
-  name: bang, ded mag
+  name: 砰，死掉的杂志
   parent: BaseMagazinePistol
   suffix: DEBUG
   components:
@@ -58,7 +58,7 @@
 
 - type: entity
   id: BulletDebug
-  name: bang, ded bullet
+  name: 砰，死掉的子弹
   parent: BaseBullet
   categories: [ Debug, HideSpawnMenu ]
   suffix: DEBUG
@@ -73,7 +73,7 @@
 
 - type: entity
   id: CartridgeDebug
-  name: bang, ded cartridge
+  name: 砰，用过的弹壳
   parent: BaseCartridgePistol
   suffix: DEBUG
   components:
@@ -84,10 +84,10 @@
     proto: BulletDebug
 
 - type: entity
-  name: bang stick gibber
+  name: 猛击棍棒胡言乱语
   parent: BaseItem
   id: MeleeDebugGib
-  description: hit hard ye
+  description: 猛击
   suffix: DEBUG
   components:
   - type: Tag
@@ -105,7 +105,7 @@
     sprite: Objects/Weapons/Melee/debug.rsi
 
 - type: entity
-  name: bang stick 100dmg
+  name: 爆炸棒 100点伤害
   parent: MeleeDebugGib
   id: MeleeDebug100
   components:
@@ -118,7 +118,7 @@
         Blunt: 100
 
 - type: entity
-  name: bang stick 200dmg
+  name: 爆炸棒 200点伤害
   parent: MeleeDebugGib
   id: MeleeDebug200
   components:

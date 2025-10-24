@@ -1,7 +1,7 @@
 - type: entity
   id: TwoWayLever
-  name: two way lever
-  description: A two way lever.
+  name: 双向拉杆
+  description: 双向拉杆。
   placement:
     mode: SnapgridCenter
   components:

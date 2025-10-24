@@ -1,8 +1,8 @@
 - type: entity
-  name: BaseWeaponLauncher
+  name: 基础武器发射器
   parent: BaseItem
   id: BaseWeaponLauncher
-  description: A rooty tooty point and shooty.
+  description: 一把指哪打哪的突突枪。
   abstract: true
   components:
   - type: Sprite
@@ -21,10 +21,10 @@
         ents: []
 
 - type: entity
-  name: china lake
+  name: 中国湖
   parent: [BaseWeaponLauncher, BaseGunWieldable, BaseSyndicateContraband]
   id: WeaponLauncherChinaLake
-  description: PLOOP.
+  description: 噗噜。
   components:
   - type: Sprite
     sprite: Objects/Weapons/Guns/Launchers/china_lake.rsi
@@ -63,8 +63,8 @@
 - type: entity
   parent: [ BaseWeaponLauncher, BaseGunWieldable, BaseMajorContraband ]
   id: WeaponLauncherHydra
-  name: hydra
-  description: PLOOP... FSSSSSS...
+  name: 九头蛇
+  description: 噗噜噜... 嘶嘶嘶...
   components:
   - type: Sprite
     sprite: Objects/Weapons/Guns/Launchers/hydra_launcher.rsi
@@ -104,10 +104,10 @@
       path: /Audio/Weapons/Guns/MagIn/sfrifle_magin.ogg
 
 - type: entity
-  name: RPG-7
+  name: RPG-7火箭筒
   parent: [ BaseWeaponLauncher, BaseMajorContraband ]
   id: WeaponLauncherRocket
-  description: A modified ancient rocket-propelled grenade launcher.
+  description: 一具经过改装的古老火箭推进榴弹发射器。
   components:
   - type: Sprite
     sprite: Objects/Weapons/Guns/Launchers/rocket.rsi
@@ -137,10 +137,10 @@
   - type: Appearance
 
 - type: entity
-  name: multiple rocket launcher
+  name: 多管火箭发射器
   parent: BaseWeaponLauncher
   id: WeaponLauncherMultipleRocket
-  description: A modified ancient rocket-propelled grenade launcher.
+  description: 一把经过改装的古代火箭推进榴弹发射器。
   components:
   - type: Sprite
     sprite: Objects/Weapons/Guns/Launchers/rocket.rsi
@@ -172,10 +172,10 @@
   - type: Appearance
 
 - type: entity
-  name: pirate cannon
+  name: 海盗大炮
   parent: BaseWeaponLauncher
   id: WeaponLauncherPirateCannon
-  description: Kaboom!
+  description: 轰！
   components:
     - type: Sprite
       sprite: Objects/Weapons/Guns/Launchers/pirate_cannon.rsi
@@ -204,12 +204,12 @@
         path: /Audio/Weapons/Guns/Gunshots/grenade_launcher.ogg
 
 - type: entity
-  name: tether gun
+  name: 系绳枪
   parent:
   - BaseItem
   - PowerCellSlotMediumItem
   id: WeaponTetherGun
-  description: Manipulates gravity around objects to fling them at high velocities.
+  description: 操纵物体周围的重力，使其以高速飞射而出。
   components:
     - type: Item
       size: Normal
@@ -246,12 +246,12 @@
             False: { visible: false }
 
 - type: entity
-  name: force gun
+  name: 力场枪
   parent:
     - BaseItem
     - PowerCellSlotMediumItem
   id: WeaponForceGun
-  description: Manipulates gravity around objects to fling them at high velocities.
+  description: 操纵物体周围的重力，使其以高速飞射出去。
   components:
     - type: Item
       size: Normal
@@ -294,7 +294,7 @@
                 False: { visible: false }
 
 - type: entity
-  name: grappling gun
+  name: 抓钩枪
   parent: BaseItem
   id: WeaponGrapplingGun
   components:
@@ -333,11 +333,11 @@
 
 # Admeme
 - type: entity
-  name: tether gun
+  name: 系绳枪
   parent: BaseItem
   id: WeaponTetherGunAdmin
   suffix: Admeme
-  description: Manipulates gravity around objects to fling them at high velocities.
+  description: 操纵物体周围的重力，以高速将其抛射出去。
   components:
     - type: Item
       size: Normal
@@ -374,11 +374,11 @@
             False: { visible: false }
 
 - type: entity
-  name: force gun
+  name: 力场枪
   parent: BaseItem
   id: WeaponForceGunAdmin
   suffix: Admeme
-  description: Manipulates gravity around objects to fling them at high velocities.
+  description: 操纵物体周围的重力，以高速抛射它们。
   components:
     - type: Item
       size: Normal
@@ -418,11 +418,11 @@
             False: { visible: false }
 
 - type: entity
-  name: meteor launcher
+  name: 流星发射器
   parent: WeaponLauncherMultipleRocket
   id: WeaponLauncherAdmemeMeteorLarge
   suffix: Admeme
-  description: It fires large meteors.
+  description: 它发射大型流星。
   components:
   - type: BallisticAmmoProvider
     whitelist: # Redundant
@@ -431,11 +431,11 @@
     proto: MeteorMedium
 
 - type: entity
-  name: immovable rod launcher
+  name: 固定发射杆
   parent: WeaponLauncherAdmemeMeteorLarge
   id: WeaponLauncherAdmemeImmovableRodSlow
   suffix: Admeme
-  description: It fires slow immovable rods.
+  description: 它发射缓慢且无法移动的固定发射杆。
   components:
   - type: BallisticAmmoProvider
     whitelist: # Redundant

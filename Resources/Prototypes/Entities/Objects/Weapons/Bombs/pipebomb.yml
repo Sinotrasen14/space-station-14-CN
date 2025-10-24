@@ -1,8 +1,8 @@
 - type: entity
   parent: [ GrenadeBase, BaseMinorContraband ]
   id: PipeBomb
-  name: pipe bomb
-  description: An improvised explosive made from pipes and wire.
+  name: 管状炸弹
+  description: 一种由管子和电线制成的简易爆炸装置。
   components:
   - type: Sprite
     sprite: Objects/Weapons/Bombs/pipebomb.rsi
@@ -37,8 +37,8 @@
 - type: entity
   parent: [ BaseItem, BaseMinorContraband ]
   id: PipeBombGunpowder
-  name: pipe bomb
-  description: An improvised explosive made from a pipe. This one has no gunpowder.
+  name: 管式炸弹
+  description: 一种用管道制作的简易爆炸装置。这个没有火药。
   suffix: Gunpowder
   components:
   - type: Sprite
@@ -52,8 +52,8 @@
 - type: entity
   parent: [ BaseItem, BaseMinorContraband ]
   id: PipeBombCable
-  name: pipe bomb
-  description: An improvised explosive made from a pipe. This one has no cable.
+  name: 管式炸弹
+  description: 一种用管道制作的简易爆炸装置。这个没有电线。
   suffix: Cable
   components:
   - type: Sprite

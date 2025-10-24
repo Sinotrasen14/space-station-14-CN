@@ -1,12 +1,12 @@
 - type: entity
   parent: [ BaseXenoborgChassis, BaseXenoborgTransponder ]
   id: XenoborgEngi
-  name: engi xenoborg
+  name: 工程型异生体
   suffix: with brain
-  description: A man-machine hybrid that aims to replicate itself. They love extracting brains to insert into fresh Xenoborg chassis to grow their army. This one seems to be an engineering type, as it has more tools for supporting the other Xenoborgs.
+  description: 一种旨在自我复制的人机混合体。它们热衷于提取大脑并植入新的异生体躯壳中，以扩充军队规模。这个似乎是工程型变种，配备了更多用于支援其他异生体的工具。
   components:
   - type: BorgTransponder
-    name: engi xenoborg
+    name: 恩吉赛博格
     sprite:
       sprite: Mobs/Silicon/chassis.rsi
       state: xenoborg_engi
@@ -50,18 +50,18 @@
   - type: ItemSlots
     slots:
       cell_slot:
-        name: power-cell-slot-component-slot-name-default
+        name: 动力电池插槽-组件插槽名称-默认
         startingItem: PowerCellHigh
 
 - type: entity
   parent: [ BaseXenoborgChassis, BaseXenoborgTransponder ]
   id: XenoborgHeavy
-  name: heavy xenoborg
+  name: 重型异生体
   suffix: with brain
-  description: A man-machine hybrid that aims to replicate itself. They love extracting brains to insert into fresh Xenoborg chassis to grow their army. This type is has heavy lasers and is covered in thick armor plates. It may be tougher, but its speed matches its brawn.
+  description: 人机混合体，旨在不断自我复制。它们热衷于提取大脑，植入新的异生体躯壳中以扩充军队。此类个体配备重型激光武器，并覆盖厚重装甲。或许更为坚韧，但其速度与力量相匹配。
   components:
   - type: BorgTransponder
-    name: heavy xenoborg
+    name: 重型异生体
     sprite:
       sprite: Mobs/Silicon/chassis.rsi
       state: xenoborg_heavy
@@ -137,18 +137,18 @@
   - type: ItemSlots
     slots:
       cell_slot:
-        name: power-cell-slot-component-slot-name-default
+        name: 动力电池插槽-组件插槽名称-默认
         startingItem: PowerCellHigh
 
 - type: entity
   parent: [ BaseXenoborgChassis, BaseXenoborgTransponder ]
   id: XenoborgScout
-  name: scout xenoborg
+  name: 侦察型异生体
   suffix: with brain
-  description: A man-machine hybrid that aims to replicate itself. They love extracting brains to insert into fresh Xenoborg chassis to grow their army. This is a scout type, its nimble thrusters allow it to move quickly through space.
+  description: 一种旨在自我复制的人机混合体。它们热衷于提取大脑并植入新的异生体躯壳中，以此扩充军队规模。此为侦察型号，灵巧的推进器使其能在太空中快速移动。
   components:
   - type: BorgTransponder
-    name: scout xenoborg
+    name: 侦察异生体
     sprite:
       sprite: Mobs/Silicon/chassis.rsi
       state: xenoborg_scout
@@ -190,18 +190,18 @@
   - type: ItemSlots
     slots:
       cell_slot:
-        name: power-cell-slot-component-slot-name-default
+        name: 动力电池插槽
         startingItem: PowerCellHigh
 
 - type: entity
   parent: [ BaseXenoborgChassis, BaseXenoborgTransponder ]
   id: XenoborgStealth
-  name: stealth xenoborg
+  name: 隐形异生体
   suffix: with brain
-  description: A man-machine hybrid that aims to replicate itself. They love extracting brains to insert into fresh Xenoborg chassis to grow their army. This one is a stealth type. Its armor shimmers in the light like no other material you've seen.
+  description: 一种旨在复制自身的人机混合体。它们热衷于提取大脑，将其植入新的异生体躯壳中以壮大军队。此为隐形型号，其装甲在光线下闪烁的光芒与你所见过的任何材质都截然不同。
   components:
   - type: BorgTransponder
-    name: stealth xenoborg
+    name: 隐形异生体
     sprite:
       sprite: Mobs/Silicon/chassis.rsi
       state: xenoborg_stealth
@@ -244,7 +244,7 @@
   - type: ItemSlots
     slots:
       cell_slot:
-        name: power-cell-slot-component-slot-name-default
+        name: 动力电池插槽-组件插槽名称-默认
         startingItem: PowerCellHigh
 
 
@@ -269,7 +269,7 @@
   - type: ItemSlots
     slots:
       cell_slot:
-        name: power-cell-slot-component-slot-name-default
+        name: 动力电池插槽-组件插槽名称-默认
         startingItem: PowerCellHighPrinted
 
 - type: entity
@@ -289,7 +289,7 @@
   - type: ItemSlots
     slots:
       cell_slot:
-        name: power-cell-slot-component-slot-name-default
+        name: 动力电池槽组件默认插槽名称
         startingItem: PowerCellHighPrinted
 
 - type: entity
@@ -309,7 +309,7 @@
   - type: ItemSlots
     slots:
       cell_slot:
-        name: power-cell-slot-component-slot-name-default
+        name: 动力电池插槽-组件插槽名称-默认
         startingItem: PowerCellHighPrinted
 
 - type: entity
@@ -330,5 +330,5 @@
   - type: ItemSlots
     slots:
       cell_slot:
-        name: power-cell-slot-component-slot-name-default
+        name: 动力电池槽组件默认槽位名称
         startingItem: PowerCellHighPrinted

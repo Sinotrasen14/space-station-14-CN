@@ -1,8 +1,8 @@
 - type: entity
   parent: BaseStructure
   id: ContainmentFieldGenerator
-  name: containment field generator
-  description: A machine that generates a containment field when powered by an emitter. Keeps the Singularity docile.
+  name: 收容场发生器
+  description: 一台由发射器供能时生成收容场的机器，用于保持奇点体的稳定状态。
   components:
   - type: Fixtures
     fixtures:
@@ -73,8 +73,8 @@
 
 - type: entity
   id: ContainmentField
-  name: containment field
-  description: A containment field that repels gravitational singularities.
+  name: 约束场
+  description: 一种能够排斥引力奇点的约束场。
   placement:
     mode: SnapgridCenter
   components:

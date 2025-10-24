@@ -1,7 +1,7 @@
 ﻿- type: entity
   id: BaseBarSign
   parent: [ BaseWallmountGlass, BaseWallmountMachine ]
-  name: bar sign
+  name: 酒吧标志
   abstract: true
   components:
   - type: WallMount
@@ -43,7 +43,7 @@
 - type: entity
   parent: BaseBarSign
   id: BarSign
-  name: bar sign
+  name: 酒吧标志
   suffix: Random
 
 # Missing appearance components & various other sprite issues.
@@ -65,8 +65,8 @@
 - type: entity
   parent: BaseBarSign
   id: BarSignComboCafe
-  name: Combo Cafe
-  description: Renowned system-wide for their utterly uncreative drink combinations.
+  name: 组合咖啡
+  description: 以毫无创意的饮品搭配而闻名全系统。
   components:
   - type: BarSign
     current: ComboCafe
@@ -74,8 +74,8 @@
 - type: entity
   parent: BaseBarSign
   id: BarSignEmergencyRumParty
-  name: Emergency Rum Party
-  description: Recently relicensed after a long closure.
+  name: 紧急朗姆酒派对
+  description: 在长期停业后，近期重新获得了经营许可。
   components:
   - type: BarSign
     current: EmergencyRumParty
@@ -84,7 +84,7 @@
   parent: BaseBarSign
   id: BarSignLV426
   name: LV426
-  description: Drinking with fancy facemasks is clearly more important than going to medbay.
+  description: 戴着花哨的面具喝酒显然比去医疗舱更重要。
   components:
   - type: BarSign
     current: LV426
@@ -92,8 +92,8 @@
 - type: entity
   parent: BaseBarSign
   id: BarSignMaidCafe
-  name: Maid Cafe
-  description: Welcome back, master!
+  name: 女仆咖啡厅
+  description: 欢迎回来，主人！
   components:
   - type: BarSign
     current: MaidCafe
@@ -101,8 +101,8 @@
 - type: entity
   parent: BaseBarSign
   id: BarSignMalteseFalcon
-  name: Maltese Falcon
-  description: Play it again, sam.
+  name: 马耳他之鹰
+  description: 再弹一次，山姆。
   components:
   - type: BarSign
     current: MalteseFalcon
@@ -110,8 +110,8 @@
 - type: entity
   parent: BaseBarSign
   id: BarSignOfficerBeersky
-  name: Officer Beersky
-  description: Man eat a dong, these drinks are great.
+  name: 比尔斯基警官
+  description: 男人吃一根，这些饮料很棒。
   components:
   - type: BarSign
     current: OfficerBeersky
@@ -119,8 +119,8 @@
 - type: entity
   parent: BaseBarSign
   id: BarSignRobustaCafe
-  name: Robusta Cafe
-  description: Holder of the 'Most Lethal Barfights' record 5 years uncontested.
+  name: 罗布斯塔咖啡馆
+  description: “最致命酒吧斗殴”纪录保持者，五年无人能破。
   components:
   - type: BarSign
     current: RobustaCafe
@@ -128,8 +128,8 @@
 - type: entity
   parent: BaseBarSign
   id: BarSignTheAleNath
-  name: The Ale Nath
-  description: All right, buddy. I think you've had EI NATH. Time to get a cab.
+  name: 阿勒·纳特
+  description: 好了，老兄，我看你已经喝够阿勒·纳特了，该叫辆出租车了。
   components:
   - type: BarSign
     current: TheAleNath
@@ -137,8 +137,8 @@
 - type: entity
   parent: BaseBarSign
   id: BarSignTheBirdCage
-  name: The Bird Cage
-  description: Caw caw!
+  name: 鸟笼
+  description: 呱呱！
   components:
   - type: BarSign
     current: TheBirdCage
@@ -146,8 +146,8 @@
 - type: entity
   parent: BaseBarSign
   id: BarSignTheCoderbus
-  name: The Coderbus
-  description: A very controversial bar known for its wide variety of constantly-changing drinks.
+  name: Coderbus酒吧
+  description: 一家以种类繁多、不断更新的饮品而闻名的极具争议的酒吧。
   components:
   - type: BarSign
     current: TheCoderbus
@@ -155,8 +155,8 @@
 - type: entity
   parent: BaseBarSign
   id: BarSignTheDrunkCarp
-  name: The Drunk Carp
-  description: Don't drink and swim.
+  name: 醉鲤
+  description: 酒后勿游泳。
   components:
   - type: BarSign
     current: TheDrunkCarp
@@ -164,8 +164,8 @@
 - type: entity
   parent: BaseBarSign
   id: BarSignEngineChange
-  name: The Engine Change
-  description: Still waiting.
+  name: 发动机更换
+  description: 仍在等待。
   components:
   - type: BarSign
     current: EngineChange
@@ -173,8 +173,8 @@
 - type: entity
   parent: BaseBarSign
   id: BarSignTheHarmbaton
-  name: The Harmbaton
-  description: A great dining experience for both security members and passengers.
+  name: 汉巴顿
+  description: 为安保人员和乘客都提供了绝佳的用餐体验。
   components:
   - type: BarSign
     current: Harmbaton
@@ -182,8 +182,8 @@
 - type: entity
   parent: BaseBarSign
   id: BarSignTheLightbulb
-  name: The Lightbulb
-  description: A cafe popular among moths and moffs. Once shut down for a week after the bartender used mothballs to protect her spare uniforms.
+  name: 灯泡咖啡馆
+  description: 一家深受飞蛾和MOFF们喜爱的咖啡馆。曾因酒保用樟脑丸保护备用制服而停业一周。
   components:
   - type: BarSign
     current: TheLightbulb
@@ -191,8 +191,8 @@
 - type: entity
   parent: BaseBarSign
   id: BarSignTheLooseGoose
-  name: The Loose Goose
-  description: Drink till you puke and/or break the laws of reality!
+  name: 醉鹅
+  description: 喝到吐，喝到突破现实法则！
   components:
   - type: BarSign
     current: Goose
@@ -200,8 +200,8 @@
 - type: entity
   parent: BaseBarSign
   id: BarSignTheNet
-  name: The Net
-  description: You just seem to get caught up in it for hours.
+  name: 网络
+  description: 你好像一玩就是好几个小时。
   components:
   - type: BarSign
     current: TheNet
@@ -209,8 +209,8 @@
 - type: entity
   parent: BaseBarSign
   id: BarSignTheOuterSpess
-  name: The Outer Spess
-  description: This bar isn't actually located in outer space.
+  name: 外太空酒吧
+  description: 这间酒吧实际上并不位于外太空。
   components:
   - type: BarSign
     current: TheOuterSpess
@@ -218,8 +218,8 @@
 - type: entity
   parent: BaseBarSign
   id: BarSignTheSingulo
-  name: The Singulo
-  description: Where people go that'd rather not be called by their name.
+  name: 奇点酒吧
+  description: 人们不愿以姓名相称时所去的去处。
   components:
   - type: BarSign
     current: TheSingulo
@@ -227,8 +227,8 @@
 - type: entity
   parent: BaseBarSign
   id: BarSignTheSun
-  name: The Sun
-  description: Ironically bright for such a shady bar.
+  name: 太阳
+  description: 讽刺的是，这家昏暗的酒吧竟有如此明亮的灯光。
   components:
   - type: BarSign
     current: TheSun
@@ -236,8 +236,8 @@
 - type: entity
   parent: BaseBarSign
   id: BarSignWiggleRoom
-  name: Wiggle Room
-  description: MoMMIs got moves.
+  name: 回旋余地
+  description: MoMMIs动作灵活。
   components:
   - type: BarSign
     current: WiggleRoom
@@ -245,8 +245,8 @@
 - type: entity
   parent: BaseBarSign
   id: BarSignZocalo
-  name: Zocalo
-  description: Anteriormente ubicado en Spessmerica.
+  name: 索卡洛
+  description: 先前位于斯佩斯梅里卡。
   components:
   - type: BarSign
     current: Zocalo
@@ -254,8 +254,8 @@
 - type: entity
   parent: BaseBarSign
   id: BarSignEmprah
-  name: 4 The Emprah
-  description: Enjoyed by fanatics, heretics, and brain-damaged patrons alike.
+  name: 4 帝皇
+  description: 深受狂热者、异端以及脑部受损顾客的喜爱。
   components:
   - type: BarSign
     current: Emprah
@@ -263,8 +263,8 @@
 - type: entity
   parent: BaseBarSign
   id: BarSignSpacebucks
-  name: Spacebucks
-  description: You can't get away from them, even in space, and even after we started calling them 'spesos' instead.
+  name: 太空币
+  description: 即便在太空中，你也摆脱不了它们——哪怕我们早已改称它们为"太空币"。
   components:
   - type: BarSign
     current: Spacebucks
@@ -272,8 +272,8 @@
 - type: entity
   parent: BaseBarSign
   id: BarSignMaltroach
-  name: The Maltroach
-  description: Squeak!
+  name: 蟑螂
+  description: 吱吱！
   components:
   - type: BarSign
     current: Maltroach
@@ -281,8 +281,8 @@
 - type: entity
   parent: BaseBarSign
   id: BarSignWhiskeyEchoes
-  name: Whiskey Echoes
-  description: An elite bar for elite oper-wait, this is a Nanotrasen station. Why's this sign in the database?
+  name: 威士忌回响
+  description: 精英酒吧为精英特工——等等，这里是纳诺特拉森空间站。这标识怎么会出现在数据库里？
   components:
   - type: BarSign
     current: WhiskeyEchoes

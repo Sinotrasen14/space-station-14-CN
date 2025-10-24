@@ -1,8 +1,8 @@
 - type: entity
   parent: BoxCardboard
-  name: monkey cube box
+  name: 猴子方块盒
   id: MonkeyCubeBox
-  description: Drymate brand monkey cubes. Just add water!
+  description: Drymate品牌猴子方块盒。只需加水即可！
   components:
   - type: StorageFill
     contents:
@@ -28,9 +28,9 @@
 
 - type: entity
   parent: BaseWrappedCube
-  name: monkey cube
+  name: 猴子方块
   id: MonkeyCubeWrapped
-  description: Unwrap this to get a monkey cube.
+  description: 解开这个就能得到一个猴子方块。
   components:
   - type: SpawnItemsOnUse
     items:
@@ -43,9 +43,9 @@
 
 - type: entity
   parent: MonkeyCubeBox
-  name: kobold cube box
+  name: 狗头人压缩方块盒
   id: KoboldCubeBox
-  description: Condensed kobolds in a cube. Just add water!
+  description: 压缩的狗头人方块盒。只需加水！
   components:
   - type: StorageFill
     contents:
@@ -57,9 +57,9 @@
 
 - type: entity
   parent: MonkeyCubeBox
-  name: variant cube box
+  name: 变种方块盒
   id: VariantCubeBox
-  description: Both kobold cubes and monkey cubes. Just add water!
+  description: 地精方块和猴子方块。只需加水！
   components:
   - type: StorageFill
     contents:
@@ -73,9 +73,9 @@
 
 - type: entity
   parent: BaseWrappedCube
-  name: kobold cube
+  name: 狗头人方块
   id: KoboldCubeWrapped
-  description: Unwrap this to get a kobold cube.
+  description: 解开这个就能得到一个狗头人方块。
   components:
   - type: SpawnItemsOnUse
     items:
@@ -85,10 +85,10 @@
 
 - type: entity
   parent: MonkeyCubeBox
-  name: monkey cube box
+  name: 猴子方块盒
   suffix: Syndicate
   id: SyndicateSpongeBox
-  description: Drymate brand monkey cubes. Just add water!
+  description: Drymate品牌猴子方块盒。只需加水即可！
   components:
   - type: StorageFill
     contents:
@@ -100,7 +100,7 @@
 
 - type: entity
   parent: MonkeyCubeWrapped
-  name: monkey cube
+  name: 猴子方块
   suffix: Wrapped, Syndicate
   id: SyndicateSpongeWrapped
   components:

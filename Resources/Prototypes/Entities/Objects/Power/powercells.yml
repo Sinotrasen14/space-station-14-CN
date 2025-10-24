@@ -35,8 +35,8 @@
   - type: Riggable
 
 - type: entity
-  name: potato battery
-  description: Someone's stuck two nails and some wire in a large potato. Somehow it provides a little charge.
+  name: 土豆电池
+  description: 有人把两根钉子和一些电线插进了一个大土豆里。不知怎的，它竟然能提供一点电量。
   id: PowerCellPotato
   parent: BasePowerCell
   components:
@@ -54,8 +54,8 @@
     node: potatobattery
 
 - type: entity
-  name: small-capacity power cell
-  description: A rechargeable power cell. This is the cheapest kind you can find.
+  name: 小容量动力电池
+  description: 可充电动力电池。这是你能找到的最便宜的一种。
   id: PowerCellSmall
   suffix: Full
   parent: BasePowerCell
@@ -94,8 +94,8 @@
 - type: entity
   parent: PowerCellSmall
   id: PowerCellSmallNuclear
-  name: small-capacity nuclear power cell
-  description: A self rechargeable power cell, designed for fast recharge rate at the expense of capacity.
+  name: 小容量核能电池
+  description: 一种自充电动力电池，设计为以容量为代价实现快速充电速率。
   components:
   - type: BatterySelfRecharger
     autoRecharge: true
@@ -104,8 +104,8 @@
     autoRechargePauseTime: 30
 
 - type: entity
-  name: medium-capacity power cell
-  description: A rechargeable power cell. This is the popular and reliable version.
+  name: 中等容量动力电池
+  description: 可充电动力电池。这是流行且可靠的版本。
   id: PowerCellMedium
   suffix: Full
   parent: BasePowerCell
@@ -139,8 +139,8 @@
     startingCharge: 0
 
 - type: entity
-  name: high-capacity power cell
-  description: A rechargeable standardized power cell. This premium brand stores up to 50% more energy than the competition.
+  name: 高容量动力电池
+  description: 一款可充电标准化动力电池。该高端品牌比同类产品多储存高达50%的能量。
   id: PowerCellHigh
   suffix: Full
   parent: BasePowerCell
@@ -174,8 +174,8 @@
     startingCharge: 0
 
 - type: entity
-  name: hyper-capacity power cell
-  description: A rechargeable standardized power cell. This iteration pushes the upper limits of portable power storage, boasting 66% more capacity than its predecessor.
+  name: 超大容量动力电池
+  description: 一款可充电的标准化动力电池。此版本突破了便携式电力存储的上限，容量比前代产品高出66%。
   id: PowerCellHyper
   suffix: Full
   parent: BasePowerCell
@@ -211,8 +211,8 @@
 - type: entity
   parent: BasePowerCell
   id: PowerCellMicroreactor
-  name: microreactor power cell
-  description: A rechargeable standardized microreactor cell. Has lower capacity but slowly recharges by itself.
+  name: 微型反应堆动力电池
+  description: 一种可充电的标准化微型反应堆动力电池。虽然容量较低，但能够缓慢自行充电。
   suffix: Full
   components:
   - type: Sprite
@@ -246,8 +246,8 @@
     startingCharge: 0
 
 - type: entity
-  name: antique power cell prototype
-  description: A small cell that self recharges. Used in old laser arms research.
+  name: 古董电源原型
+  description: 一种能够自我充电的小型电池。曾用于旧式激光臂研究。
   id: PowerCellAntiqueProto
   parent: BasePowerCell
   components:
@@ -295,8 +295,8 @@
 - type: entity
   id: PowerCageSmall
   parent: BasePowerCage
-  name: small-capacity power cage
-  description: A rechargeable power cage for big devices. This is the cheapest kind you can find.
+  name: 小容量充电电池仓
+  description: 大容量设备用可充电电源仓。这是你能找到的最便宜的一种。
   components:
   - type: Sprite
     sprite: Objects/Power/power_cages.rsi
@@ -313,8 +313,8 @@
 - type: entity
   id: PowerCageMedium
   parent: BasePowerCage
-  name: medium-capacity power cage
-  description: A rechargeable power cage for big devices. The gold standard of capacity and cost.
+  name: 中容量电源笼
+  description: 一款适用于大型设备的可充电电源笼。容量与成本的黄金标准。
   components:
   - type: Sprite
     sprite: Objects/Power/power_cages.rsi
@@ -331,8 +331,8 @@
 - type: entity
   id: PowerCageHigh
   parent: BasePowerCage
-  name: high-capacity power cage
-  description: A rechargeable power cage for big devices. Increased capacity for increased power levels.
+  name: 高容量电源笼
+  description: 一款适用于大型设备的可充电电源笼。容量增大，功率水平提升。
   components:
   - type: Sprite
     sprite: Objects/Power/power_cages.rsi

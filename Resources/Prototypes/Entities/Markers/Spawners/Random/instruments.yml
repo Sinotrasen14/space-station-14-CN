@@ -139,7 +139,7 @@
 
 - type: entity
   id: RandomInstruments
-  name: random instruments spawner
+  name: 随机乐器生成器
   parent: MarkerBase
   components:
   - type: Sprite

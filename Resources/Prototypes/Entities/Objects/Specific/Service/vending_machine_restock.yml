@@ -2,8 +2,8 @@
   parent: BaseItem
   id: BaseVendingMachineRestock
   abstract: true
-  name: vending machine restock box
-  description: A box for restocking vending machines with corporate goodies.
+  name: 自动售货机补货箱
+  description: 一个用于为自动售货机补充公司零食的箱子。
   components:
   - type: VendingMachineRestock
   - type: Sprite
@@ -47,8 +47,8 @@
 - type: entity
   parent: BaseVendingMachineRestock
   id: VendingMachineRestockBooze
-  name: Booze-O-Mat restock box
-  description: Slot into your Booze-O-Mat to start the party! Not for sale to passengers below the legal age.
+  name: Booze-O-Mat补货箱
+  description: 插入您的自动调酒机，即刻开启派对！未达法定年龄的乘客禁止购买。
   components:
   - type: VendingMachineRestock
     canRestock:
@@ -63,8 +63,8 @@
 - type: entity
   parent: BaseVendingMachineRestock
   id: VendingMachineRestockChang
-  name: Mr. Chang's restock box
-  description: A box covered in white labels with bold red Chinese characters, ready to be loaded into the nearest Mr. Chang's vending machine.
+  name: 常先生的补货箱
+  description: 一个贴满白色标签的箱子，标签上印着醒目的红色汉字，正准备装进最近的常先生自动售货机。
   components:
   - type: VendingMachineRestock
     canRestock:
@@ -79,8 +79,8 @@
 - type: entity
   parent: BaseVendingMachineRestock
   id: VendingMachineRestockChefvend
-  name: ChefVend restock box
-  description: Refill the ChefVend. Just don't break any more of the eggs.
+  name: ChefVend补货箱
+  description: 给ChefVend补货。只是别再弄破任何鸡蛋了。
   components:
   - type: VendingMachineRestock
     canRestock:
@@ -95,8 +95,8 @@
 - type: entity
   parent: BaseVendingMachineRestock
   id: VendingMachineRestockCondimentStation
-  name: condiment station restock box
-  description: Refill the condiment station. Mmmm, cold sauce.
+  name: 调料站补货箱
+  description: 补充调料站。嗯，冷掉的酱料。
   components:
   - type: VendingMachineRestock
     canRestock:
@@ -111,8 +111,8 @@
 - type: entity
   parent: BaseVendingMachineRestock
   id: VendingMachineRestockClothes
-  name: wardrobe restock box
-  description: It's time to step up your fashion! Place inside any clothes vendor restock slot to begin.
+  name: 衣柜补货箱
+  description: 是时候提升你的时尚品味了！将其放入任意衣物供应商的补货槽即可开始。
   components:
   - type: VendingMachineRestock
     canRestock:
@@ -145,8 +145,8 @@
 - type: entity
   parent: BaseVendingMachineRestock
   id: VendingMachineRestockCostumes
-  name: AutoDrobe restock box
-  description: A panoply of NanoTrasen employees are prancing about a colorful theater in a tragicomedy. You can join them too! Load this into your nearest AutoDrobe vending machine.
+  name: AutoDrobe补货箱
+  description: 一群 NanoTrasen 员工正在五彩斑斓的剧院里上演一出悲喜剧。你也可以加入他们！将其装入离你最近的 AutoDrobe 自动售货机中。
   components:
   - type: VendingMachineRestock
     canRestock:
@@ -161,8 +161,8 @@
 - type: entity
   parent: BaseVendingMachineRestock
   id: VendingMachineRestockDinnerware
-  name: Plasteel Chef's restock box
-  description: It's never raw in this kitchen! Drop into the restock slot on the Plasteel Chef to begin.
+  name: Plasteel Chef的补货箱
+  description: 厨房里绝不手生！将食材投入Plasteel Chef的补货槽即可开始。
   components:
   - type: VendingMachineRestock
     canRestock:
@@ -177,8 +177,8 @@
 - type: entity
   parent: BaseVendingMachineRestock
   id: VendingMachineRestockDiscountDans
-  name: Discount Dan's restock box
-  description: A box full of salt and starch. Why suffer Quality when you can have Quantity? Discount Dan's!
+  name: Discount Dan's补货箱
+  description: 一盒装满了盐和淀粉。既然能拥有数量，何必苛求质量？折扣丹补货箱！
   components:
   - type: VendingMachineRestock
     canRestock:
@@ -193,8 +193,8 @@
 - type: entity
   parent: BaseVendingMachineRestock
   id: VendingMachineRestockDonut
-  name: Robust Donuts restock box
-  description: A box full of toroidal bundles of fried dough for restocking a vending machine. Use only as directed by Robust Industries, LLC.
+  name: Robust Donuts 补货箱
+  description: 一个装满环形油炸面团束的补货箱，用于自动售货机补货。请仅按照Robust Industries, LLC的指示使用。
   components:
   - type: VendingMachineRestock
     canRestock:
@@ -209,8 +209,8 @@
 - type: entity
   parent: BaseVendingMachineRestock
   id: VendingMachineRestockEngineering
-  name: EngiVend restock box
-  description: Only to be used by certified professionals.
+  name: EngiVend补货箱
+  description: 仅供认证专业人员使用。
   components:
   - type: VendingMachineRestock
     canRestock:
@@ -226,8 +226,8 @@
 - type: entity
   parent: BaseVendingMachineRestock
   id: VendingMachineRestockGames
-  name: Good Clean Fun restock box
-  description: It's time to roll for initiative, dice dragons! Load up at the Good Clean Fun vending machine!
+  name: 好趣清洁补货箱
+  description: 骰子龙们，是时候掷先攻了！快来“好趣清洁”自动售货机补货吧！
   components:
   - type: VendingMachineRestock
     canRestock:
@@ -242,8 +242,8 @@
 - type: entity
   parent: BaseVendingMachineRestock
   id: VendingMachineRestockGetmoreChocolateCorp
-  name: GetMore Chocolate restock box
-  description: A box loaded with the finest ersatz cacao. Only to be used in official Getmore Chocolate vending machines.
+  name: GetMore巧克力补货箱
+  description: 一盒装满最优质人造可可的补货箱。仅限在官方Getmore巧克力自动售货机中使用。
   components:
   - type: VendingMachineRestock
     canRestock:
@@ -258,8 +258,8 @@
 - type: entity
   parent: BaseVendingMachineRestock
   id: VendingMachineRestockHotDrinks
-  name: Solar's Best restock box
-  description: Toasty! For use in Solar's Best Hot Drinks or other affiliate vending machines.
+  name: Solar's Best补货箱
+  description: 烤好了！适用于Solar's Best热饮或其他关联自动售货机。
   components:
   - type: VendingMachineRestock
     canRestock:
@@ -274,8 +274,8 @@
 - type: entity
   parent: BaseVendingMachineRestock
   id: VendingMachineRestockMedical
-  name: NanoMed restock box
-  description: Slot into your department's NanoMed or NanoMedPlus to dispense. Handle with care.
+  name: NanoMed 补货盒
+  description: 插入您科室的NanoMed或NanoMedPlus设备进行配药。请小心轻放。
   components:
   - type: VendingMachineRestock
     canRestock:
@@ -293,8 +293,8 @@
 - type: entity
   parent: BaseVendingMachineRestock
   id: VendingMachineRestockNutriMax
-  name: NutriMax restock box
-  description: We'll make your thumbs green with our tools. Let's get to harvesting! Load into a NutriMax vending machine.
+  name: NutriMax补货箱
+  description: 有了我们的工具，您也能成为种植高手。一起收获吧！装入NutriMax自动售货机。
   components:
   - type: VendingMachineRestock
     canRestock:
@@ -309,8 +309,8 @@
 - type: entity
   parent: BaseVendingMachineRestock
   id: VendingMachineRestockPTech
-  name: PTech restock box
-  description: All the bureaucracy you can handle, and more! Load into the PTech vending machine to get started.
+  name: PTech 补货箱
+  description: 所有你能应付的官僚手续，甚至更多！装入PTech自动售货机即可开始。
   components:
   - type: VendingMachineRestock
     canRestock:
@@ -325,8 +325,8 @@
 - type: entity
   parent: BaseVendingMachineRestock
   id: VendingMachineRestockRobustSoftdrinks
-  name: beverage restock box
-  description: A cold, clunky container of colliding chilly cylinders. Use only as directed by Robust Industries, LLC.
+  name: 饮料补货箱
+  description: 一个冰冷笨重、装满碰撞冰镇圆柱体的容器。仅限按照 Robust Industries, LLC 的指示使用。
   components:
   - type: VendingMachineRestock
     canRestock:
@@ -349,8 +349,8 @@
 - type: entity
   parent: BaseVendingMachineRestock
   id: VendingMachineRestockSecTech
-  name: SecTech restock box
-  description: "Communists beware: the reinforcements have arrived! A label reads SECURITY PERSONNEL ONLY."
+  name: 安保技术补货箱
+  description: 共产党人当心：增援已到！标签上写着“仅限安保人员使用”。
   components:
   - type: VendingMachineRestock
     canRestock:
@@ -365,8 +365,8 @@
 - type: entity
   parent: BaseVendingMachineRestock
   id: VendingMachineRestockSalvageEquipment
-  name: Salvage Vendor restock box
-  description: Strike the earth ere the space carp nip your behind! Slam into a salvage vendor to begin.
+  name: 废品回收商补货箱
+  description: 在太空鲤鱼咬到你屁股之前，快向大地进发！猛撞废品回收商即可开始。
   components:
   - type: VendingMachineRestock
     canRestock:
@@ -381,8 +381,8 @@
 - type: entity
   parent: BaseVendingMachineRestock
   id: VendingMachineRestockSeeds
-  name: MegaSeed restock box
-  description: A label says they're heirloom seeds, passed down from our ancestors. Pack it into the MegaSeed Servitor!
+  name: 巨型种子补货箱
+  description: 标签上写着，这些是祖传种子，由我们先辈代代相传。快把它装进巨型种子补货箱！
   components:
   - type: VendingMachineRestock
     canRestock:
@@ -397,8 +397,8 @@
 - type: entity
   parent: BaseVendingMachineRestock
   id: VendingMachineRestockSmokes
-  name: ShadyCigs restock box
-  description: It's hard to see anything under all the Surgeon General warnings, but it mentions loading it into a vending machine.
+  name: ShadyCigs补货箱
+  description: 在这么多卫生局局长警告下很难看清具体内容，但上面提到要将其装入自动售货机。
   components:
   - type: VendingMachineRestock
     canRestock:
@@ -413,8 +413,8 @@
 - type: entity
   parent: BaseVendingMachineRestock
   id: VendingMachineRestockTankDispenser
-  name: tank dispenser restock box
-  description: Capable of replacing tanks in a gas tank dispenser. Handle with care.
+  name: 油箱加注机补货箱
+  description: 能够更换油箱加注机中的油箱。请小心处理。
   components:
   - type: VendingMachineRestock
     canRestock:
@@ -430,8 +430,8 @@
 - type: entity
   parent: BaseVendingMachineRestock
   id: VendingMachineRestockVendomat
-  name: Vendomat restock box
-  description: A box full of parts for various machinery. Load it into a Vendomat to begin.
+  name: 自动售货机补货箱
+  description: 一个装满各种机器零件的小箱子。将其装入自动售货机即可开始使用。
   components:
   - type: VendingMachineRestock
     canRestock:
@@ -446,8 +446,8 @@
 - type: entity
   parent: BaseVendingMachineRestock
   id: VendingMachineRestockRobotics
-  name: Robotech Deluxe restock box
-  description: A box full of tools for creating borgs. Load it into a Robotech Deluxe to begin.
+  name: 《太空堡垒》豪华版补货箱
+  description: 装满工具的箱子，用于创建博格。将其加载到《太空堡垒》豪华版中即可开始。
   components:
   - type: VendingMachineRestock
     canRestock:
@@ -462,8 +462,8 @@
 - type: entity
   parent: BaseVendingMachineRestock
   id: VendingMachineRestockHappyHonk
-  name: Happy Honk restock box
-  description: Place this box full of fun into the restock slot on the Happy Honk Dispenser to begin.
+  name: 快乐鸣笛补货箱
+  description: 将此充满趣味的箱子放入快乐鸣笛发放器的补货槽即可开始使用。
   components:
   - type: VendingMachineRestock
     canRestock:
@@ -478,8 +478,8 @@
 - type: entity
   parent: BaseVendingMachineRestock
   id: VendingMachineRestockChemVend
-  name: ChemVend restock box
-  description: A box filled with chemicals and covered in dangerous-looking NFPA diamonds. Load it into a ChemVend to begin.
+  name: ChemVend补货箱
+  description: 一个装满化学品、贴有危险标识NFPA菱形标志的箱子。将其装入ChemVend补货箱即可开始使用。
   components:
   - type: VendingMachineRestock
     canRestock:

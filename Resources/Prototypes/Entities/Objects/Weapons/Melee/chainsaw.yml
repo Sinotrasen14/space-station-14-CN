@@ -1,8 +1,8 @@
 - type: entity
-  name: chainsaw
+  name: 链锯
   parent: BaseItem
   id: Chainsaw
-  description: A very large chainsaw. Usually you use this for cutting down trees... usually.
+  description: 一把非常大的链锯。通常你用这个来砍树……通常。
   components:
   - type: Wieldable
     wieldSound: !type:SoundPathSpecifier

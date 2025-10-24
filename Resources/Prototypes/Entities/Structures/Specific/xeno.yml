@@ -1,6 +1,6 @@
 - type: entity
   id: XenoWardingTower
-  name: xeno warding tower
+  name: 异族防御塔
   placement:
     mode: SnapgridCenter
     snap:
@@ -53,8 +53,8 @@
 - type: entity
   parent: XenoWardingTower
   id: CarpStatue
-  name: carp statue
-  description: A statue of one of the brave carp that got us where we are today. Made with real teeth!
+  name: 鲤鱼雕像
+  description: 一座以勇猛鲤鱼为原型的雕像，正是它们引领我们抵达今日之境。采用真牙打造而成！
   components:
   - type: Sprite
     noRot: true
@@ -86,7 +86,7 @@
   parent: CarpStatue
   id: CarpStatueEmpty
   suffix: Empty
-  description: A lump of precious metals, soon to be a brilliant carp statue.
+  description: 一块贵金属，即将化身为璀璨的鲤鱼雕像。
   components:
   - type: Sprite
     layers:
@@ -98,7 +98,7 @@
   parent: CarpStatue
   id: CarpStatueEyes
   suffix: Eyes
-  description: A statue of one of the brave carp that got us where we are today. This one needs a dentist...
+  description: 一座为纪念带领我们走到今天的勇敢鲤鱼而立的雕像。这条鱼该去看牙医了……
   components:
   - type: Sprite
     layers:

@@ -1,8 +1,8 @@
 ﻿- type: entity
   id: MedicalScanner
   parent: BaseMachinePowered
-  name: medical scanner
-  description: A bulky medical scanner.
+  name: 医用扫描仪
+  description: 一台笨重的医用扫描仪。
   components:
   - type: MedicalScanner
   - type: DeviceNetwork

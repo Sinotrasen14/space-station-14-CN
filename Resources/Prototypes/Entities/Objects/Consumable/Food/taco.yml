@@ -3,8 +3,8 @@
 - type: entity
   parent: FoodMealBase
   id: FoodTacoShell
-  name: taco shell
-  description: A taco shell, easy to hold, but falls on its side when put down.
+  name: 塔可饼皮
+  description: 塔可饼皮，易于握持，但放下时容易侧翻。
   components:
   - type: Item
     storedOffset: 0,-3
@@ -69,28 +69,28 @@
       - Meat
 
 - type: entity
-  name: beef taco
+  name: 牛肉塔可
   parent: FoodTacoBase
   id: FoodTacoBeef
-  description: A very basic and run of the mill beef taco, now with cheese!
+  description: 一款非常基础、普通的牛肉塔可，现在加入了芝士！
   components:
   - type: Sprite
     state: beeftaco
 
 - type: entity
-  name: chicken taco
+  name: 鸡肉卷饼
   parent: FoodTacoBase
   id: FoodTacoChicken
-  description: A very basic and run of the mill chicken taco, now with cheese!
+  description: 一款非常基础、普通的鸡肉卷饼，现在加上了奶酪！
   components:
   - type: Sprite
     state: chickentaco
 
 - type: entity
-  name: fish taco
+  name: 鱼肉卷
   parent: FoodTacoBase
   id: FoodTacoFish
-  description: Sounds kinda gross, but it's actually not that bad.
+  description: 听起来有点恶心，但其实味道还不错。
   components:
   - type: FlavorProfile
     flavors:
@@ -109,10 +109,10 @@
           Quantity: 6
 
 - type: entity
-  name: rat taco
+  name: 老鼠玉米卷
   parent: FoodTacoBase
   id: FoodTacoRat
-  description: Yeah, that looks about right...
+  description: 嗯，看起来差不多……
   components:
   - type: Sprite
     state: rattaco
@@ -127,10 +127,10 @@
           Quantity: 4
 
 - type: entity
-  name: beef taco supreme
+  name: 至尊牛肉塔可
   parent: FoodTacoBase
   id: FoodTacoBeefSupreme
-  description: It's like a regular beef taco, but supreme!
+  description: 它就像一个普通的牛肉塔可，不过是至尊版的！
   components:
   - type: Sprite
     state: beeftacosupreme
@@ -145,10 +145,10 @@
           Quantity: 6
 
 - type: entity
-  name: chicken taco supreme
+  name: 至尊鸡肉塔可
   parent: FoodTacoBase
   id: FoodTacoChickenSupreme
-  description: It's like a regular chicken taco, but supreme!
+  description: 它就像普通的鸡肉塔可，不过是至尊版的！
   components:
   - type: Sprite
     state: chickentacosupreme
@@ -165,8 +165,8 @@
 - type: entity
   parent: FoodTacoBase
   id: FoodTacoDragon
-  name: draco
-  description: A dragon taco, which is technically also a fish taco.
+  name: 德拉科
+  description: 龙舌兰玉米卷，严格来说也是一种鱼肉玉米卷。
   components:
   - type: Item
     storedOffset: 0,3
@@ -191,10 +191,10 @@
           Quantity: 6
 
 - type: entity
-  name: soft taco
+  name: 软塔可
   parent: FoodMealBase
   id: FoodMealSoftTaco
-  description: Take a bite!
+  description: 咬一口！
   components:
   - type: FlavorProfile
     flavors:

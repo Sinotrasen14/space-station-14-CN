@@ -2,7 +2,7 @@
   abstract: true
   parent: BaseItem
   id: BaseMagazineBoxPistol
-  name: ammunition box (.35 auto)
+  name: 弹药箱（.35自动手枪子弹）
   components:
   - type: BallisticAmmoProvider
     mayTransfer: true
@@ -28,8 +28,8 @@
 - type: entity
   parent: BaseMagazineBoxPistol
   id: MagazineBoxPistol
-  name: ammunition box (.35 auto)
-  description: A cardboard box of .35 auto rounds. Intended to hold general-purpose kinetic ammunition.
+  name: 弹药箱（0.35自动手枪弹）
+  description: 一个装有0.35自动手枪弹的纸板箱，用于存放通用动能弹药。
   components:
   - type: BallisticAmmoProvider
     proto: CartridgePistol
@@ -43,8 +43,8 @@
 - type: entity
   parent: BaseMagazineBoxPistol
   id: MagazineBoxPistolPractice
-  name: ammunition box (.35 auto practice)
-  description: A cardboard box of .35 auto rounds. Intended to hold non-harmful chalk ammunition.
+  name: 弹药盒（.35自动练习弹）
+  description: 一个装有.35自动练习弹的纸盒，用于存放无害的粉笔弹药。
   components:
   - type: BallisticAmmoProvider
     proto: CartridgePistolPractice
@@ -59,8 +59,8 @@
 - type: entity
   id: MagazineBoxPistolIncendiary
   parent: BaseMagazineBoxPistol
-  name: ammunition box (.35 auto incendiary)
-  description: A cardboard box of .35 auto rounds. Intended to hold self-igniting incendiary ammunition.
+  name: 弹药箱（0.35口径自动燃烧弹）
+  description: 一个装有.35口径自动燃烧弹的纸箱，用于存放自燃式燃烧弹药。
   components:
   - type: BallisticAmmoProvider
     proto: CartridgePistolIncendiary
@@ -75,8 +75,8 @@
 - type: entity
   id: MagazineBoxPistolUranium
   parent: BaseMagazineBoxPistol
-  name: ammunition box (.35 auto uranium)
-  description: A cardboard box of .35 auto rounds. Intended to hold exotic uranium-core ammunition.
+  name: 弹药箱（.35自动铀弹）
+  description: 一个装有.35自动子弹的纸板箱，用于存放特制的铀芯弹药。
   components:
   - type: BallisticAmmoProvider
     proto: CartridgePistolUranium

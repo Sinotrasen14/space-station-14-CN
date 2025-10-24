@@ -1,8 +1,8 @@
 - type: entity
   id: BaseThruster
   parent: BaseStructureDynamic
-  name: thruster
-  description: A thruster that allows a shuttle to move.
+  name: 推进器
+  description: 一种能让航天飞机移动的推进器。
   abstract: true
   components:
     - type: Fixtures
@@ -63,7 +63,7 @@
 
 - type: entity
   id: Thruster
-  name: thruster
+  name: 推进器
   parent: [ BaseThruster, ConstructibleMachine ]
   components:
   - type: Machine
@@ -104,7 +104,7 @@
 
 - type: entity
   id: ThrusterLarge
-  name: large thruster
+  name: 大型推进器
   parent: [ BaseThruster]
   placement:
     mode: AlignTileAny
@@ -203,8 +203,8 @@
 - type: entity
   id: Gyroscope
   parent: [ BaseThruster, ConstructibleMachine ]
-  name: gyroscope
-  description: Increases the shuttle's potential angular rotation.
+  name: 陀螺仪
+  description: 增加航天飞机的潜在角旋转。
   components:
   - type: Thruster
     thrusterType: Angular
@@ -304,8 +304,8 @@
 - type: entity
   id: RustedThruster
   parent: BaseStructureDynamic
-  name: rusted thruster
-  description: An unrepairable thruster, broken down from wear and tear. Only useful for scrapping.
+  name: 锈蚀的推进器
+  description: 一个无法修复的推进器，因长期磨损而损坏。仅能用于拆解回收。
   components:
     - type: Fixtures
       fixtures:

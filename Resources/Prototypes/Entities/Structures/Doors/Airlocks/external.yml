@@ -2,7 +2,7 @@
   parent: AirlockRCDResistant
   id: AirlockExternal
   suffix: External
-  description: It opens, it closes, it might crush you, and there might be only space behind it.
+  description: 它开启，它闭合，它可能将你压碎，而其后或许空无一物。
   components:
   - type: Door
     crushDamage:

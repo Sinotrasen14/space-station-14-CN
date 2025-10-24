@@ -3,8 +3,8 @@
 - type: entity
   id: RipleyCentralElectronics
   parent: BaseElectronics
-  name: ripley central control module
-  description: The electrical control center for the ripley mech.
+  name: 雷普利中央控制模块
+  description: 雷普利机甲的电气控制中心。
   components:
     - type: Item
       storedRotation: 0
@@ -21,8 +21,8 @@
 - type: entity
   id: RipleyPeripheralsElectronics
   parent: BaseElectronics
-  name: ripley peripherals control module
-  description: The electrical peripherals control for the ripley mech.
+  name: ripley外围设备控制模块
+  description: ripley机甲的外围设备控制。
   components:
     - type: Sprite
       sprite: Objects/Misc/module.rsi
@@ -39,8 +39,8 @@
 - type: entity
   id: HonkerCentralElectronics
   parent: BaseElectronics
-  name: H.O.N.K. central control module
-  description: The electrical control center for the H.O.N.K. mech.
+  name: H.O.N.K.中央控制模块
+  description: H.O.N.K.机甲的电气控制中心。
   components:
     - type: Item
       storedRotation: 0
@@ -57,8 +57,8 @@
 - type: entity
   id: HonkerPeripheralsElectronics
   parent: BaseElectronics
-  name: H.O.N.K. peripherals control module
-  description: The electrical peripherals control for the H.O.N.K. mech.
+  name: H.O.N.K. 外设控制模块
+  description: H.O.N.K.机甲的外设电气控制。
   components:
     - type: Sprite
       sprite: Objects/Misc/module.rsi
@@ -73,8 +73,8 @@
 - type: entity
   id: HonkerTargetingElectronics
   parent: BaseElectronics
-  name: H.O.N.K. weapon control and targeting module
-  description: The electrical targeting control for the H.O.N.K. mech.
+  name: H.O.N.K.武器控制与目标锁定模块
+  description: H.O.N.K.机甲电子瞄准控制系统
   components:
     - type: Sprite
       sprite: Objects/Misc/module.rsi
@@ -91,8 +91,8 @@
 - type: entity
   id: HamtrCentralElectronics
   parent: BaseElectronics
-  name: HAMTR central control module
-  description: The electrical control center for the HAMTR mech.
+  name: HAMTR中央控制模块
+  description: HAMTR机甲的电气控制中心。
   components:
     - type: Item
       storedRotation: 0
@@ -109,8 +109,8 @@
 - type: entity
   id: HamtrPeripheralsElectronics
   parent: BaseElectronics
-  name: HAMTR peripherals control module
-  description: The electrical peripherals control for the HAMTR mech.
+  name: HAMTR外设控制模块
+  description: HAMTR外设控制模块的电气外围控制。
   components:
     - type: Sprite
       sprite: Objects/Misc/module.rsi

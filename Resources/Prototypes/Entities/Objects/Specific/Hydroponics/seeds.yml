@@ -41,7 +41,7 @@
 
 - type: entity
   parent: SeedBase
-  name: packet of wheat seeds
+  name: 一包小麦种子
   id: WheatSeeds
   components:
     - type: Seed
@@ -51,8 +51,8 @@
 
 - type: entity
   parent: SeedBase
-  name: packet of meatwheat seeds
-  description: "If you ever wanted to drive a vegetarian to insanity, here's how."
+  name: 一包肉麦种子
+  description: 若想逼疯素食者，不妨试试这招。
   id: MeatwheatSeeds
   components:
     - type: Seed
@@ -62,7 +62,7 @@
 
 - type: entity
   parent: SeedBase
-  name: packet of oat seeds
+  name: 一包燕麦种子
   id: OatSeeds
   components:
     - type: Seed
@@ -72,7 +72,7 @@
 
 - type: entity
   parent: SeedBase
-  name: packet of banana seeds
+  name: 一包香蕉种子
   id: BananaSeeds
   components:
     - type: Seed
@@ -82,7 +82,7 @@
 
 - type: entity
   parent: SeedBase
-  name: packet of mimana seeds
+  name: 米玛那种子包
   id: MimanaSeeds
   components:
     - type: Seed
@@ -92,7 +92,7 @@
 
 - type: entity
   parent: SeedBase
-  name: packet of carrot seeds
+  name: 一包胡萝卜种子
   id: CarrotSeeds
   components:
     - type: Seed
@@ -102,7 +102,7 @@
 
 - type: entity
   parent: SeedBase
-  name: packet of cabbage seeds
+  name: 一包卷心菜种子
   id: CabbageSeeds
   components:
     - type: Seed
@@ -112,7 +112,7 @@
 
 - type: entity
   parent: SeedBase
-  name: packet of garlic seeds
+  name: 一包大蒜种子
   id: GarlicSeeds
   components:
     - type: Seed
@@ -123,8 +123,8 @@
 - type: entity
   parent: SeedBase
   id: LaughinPeaSeeds
-  name: packet of laughin' pea pods
-  description: "These seeds give off a very soft purple glow.. they should grow into Laughin' Peas."
+  name: 一包笑豆荚
+  description: 这些种子散发着非常柔和的紫色光芒……它们应该会长成笑豆荚。
   components:
     - type: Seed
       seedId: laughinPea
@@ -133,7 +133,7 @@
 
 - type: entity
   parent: SeedBase
-  name: packet of lemon seeds
+  name: 一包柠檬种子
   id: LemonSeeds
   components:
     - type: Seed
@@ -143,7 +143,7 @@
 
 - type: entity
   parent: SeedBase
-  name: packet of lemoon seeds
+  name: 一包柠檬种子
   id: LemoonSeeds
   components:
     - type: Seed
@@ -153,7 +153,7 @@
 
 - type: entity
   parent: SeedBase
-  name: packet of lime seeds
+  name: 一包石灰种子
   id: LimeSeeds
   components:
     - type: Seed
@@ -163,7 +163,7 @@
 
 - type: entity
   parent: SeedBase
-  name: packet of orange seeds
+  name: 一包橙子种子
   id: OrangeSeeds
   components:
     - type: Seed
@@ -173,8 +173,8 @@
 
 - type: entity
   parent: SeedBase
-  name: packet of extradimensional orange seeds
-  description: "Polygonal seeds."
+  name: 一包异次元橙色种子
+  description: 多边形种子。
   id: ExtradimensionalOrangeSeeds
   components:
     - type: Seed
@@ -184,7 +184,7 @@
 
 - type: entity
   parent: SeedBase
-  name: packet of pineapple seeds
+  name: 一包菠萝种子
   id: PineappleSeeds
   components:
     - type: Seed
@@ -194,7 +194,7 @@
 
 - type: entity
   parent: SeedBase
-  name: packet of potato seeds
+  name: 一包土豆种子
   id: PotatoSeeds
   components:
     - type: Seed
@@ -204,7 +204,7 @@
 
 - type: entity
   parent: SeedBase
-  name: packet of sugarcane seeds
+  name: 一包甘蔗种子
   id: SugarcaneSeeds
   components:
     - type: Seed
@@ -214,7 +214,7 @@
 
 - type: entity
   parent: SeedBase
-  name: packet of tea plant seeds
+  name: 一包茶树种籽
   id: TeaPlantSeeds
   components:
     - type: Seed
@@ -224,7 +224,7 @@
 
 - type: entity
   parent: SeedBase
-  name: packet of papercane seeds
+  name: 一包纸莎草种子
   id: PapercaneSeeds
   components:
     - type: Seed
@@ -234,7 +234,7 @@
 
 - type: entity
   parent: SeedBase
-  name: packet of tower cap spores
+  name: 塔盖孢子包
   id: TowercapSeeds
   components:
     - type: Seed
@@ -244,7 +244,7 @@
 
 - type: entity
   parent: SeedBase
-  name: packet of steel cap spores
+  name: 钢帽孢子包
   id: SteelcapSeeds
   components:
     - type: Seed
@@ -254,7 +254,7 @@
 
 - type: entity
   parent: SeedBase
-  name: packet of tomato seeds
+  name: 一包番茄种子
   id: TomatoSeeds
   components:
     - type: Seed
@@ -264,7 +264,7 @@
 
 - type: entity
   parent: SeedBase
-  name: packet of blue tomato seeds
+  name: 一包蓝色番茄种子
   id: BlueTomatoSeeds
   components:
     - type: Seed
@@ -274,7 +274,7 @@
 
 - type: entity
   parent: SeedBase
-  name: packet of blood tomato seeds
+  name: 血番茄种子包
   id: BloodTomatoSeeds
   components:
     - type: Seed
@@ -284,7 +284,7 @@
 
 - type: entity
   parent: SeedBase
-  name: packet of killer tomato seeds
+  name: 杀手番茄种子包
   id: KillerTomatoSeeds
   components:
     - type: Seed
@@ -294,7 +294,7 @@
 
 - type: entity
   parent: SeedBase
-  name: packet of eggplant seeds
+  name: 一包茄子种子
   id: EggplantSeeds
   components:
     - type: Seed
@@ -304,7 +304,7 @@
 
 - type: entity
   parent: SeedBase
-  name: packet of apple seeds
+  name: 一包苹果种子
   id: AppleSeeds
   components:
     - type: Seed
@@ -314,7 +314,7 @@
 
 - type: entity
   parent: SeedBase
-  name: packet of golden apple seeds
+  name: 一包金苹果种子
   id: GoldenAppleSeeds
   components:
     - type: Seed
@@ -324,7 +324,7 @@
 
 - type: entity
   parent: SeedBase
-  name: packet of corn seeds
+  name: 一包玉米种子
   id: CornSeeds
   components:
     - type: Seed
@@ -334,7 +334,7 @@
 
 - type: entity
   parent: SeedBase
-  name: packet of chanterelle spores
+  name: 一包鸡油菌孢子
   id: ChanterelleSeeds
   components:
     - type: Seed
@@ -344,7 +344,7 @@
 
 - type: entity
   parent: SeedBase
-  name: packet of egg-plant seeds
+  name: 一包茄子种子
   id: EggySeeds
   components:
     - type: Seed
@@ -354,8 +354,8 @@
 
 - type: entity
   parent: SeedBase
-  name: packet of tobacco seeds
-  description: "These seeds grow into tobacco plants."
+  name: 一包烟草种子
+  description: 这些种子会长成烟草植物。
   id: TobaccoSeeds
   components:
     - type: Seed
@@ -365,8 +365,8 @@
 
 - type: entity
   parent: SeedBase
-  name: packet of cannabis seeds
-  description: "Taxable."
+  name: 大麻种子包
+  description: "应税。"
   id: CannabisSeeds
   components:
     - type: Seed
@@ -376,8 +376,8 @@
 
 - type: entity
   parent: SeedBase
-  name: packet of rainbow cannabis seeds
-  description: "These seeds grow into rainbow weed. Groovy... and also highly addictive."
+  name: 一包彩虹大麻种子
+  description: 这些种子能长出彩虹大麻。很迷幻...而且极易上瘾。
   id: RainbowCannabisSeeds
   components:
     - type: Seed
@@ -387,8 +387,8 @@
 
 - type: entity
   parent: SeedBase
-  name: packet of nettle seeds
-  description: "Handle with gloves."
+  name: 一包荨麻种子
+  description: 请戴手套操作。
   id: NettleSeeds
   components:
     - type: Seed
@@ -398,8 +398,8 @@
 
 - type: entity
   parent: SeedBase
-  name: packet of death nettle seeds
-  description: "Handle with very thick gloves."
+  name: 一包死亡荨麻种子
+  description: 请用非常厚的手套处理。
   id: DeathNettleSeeds
   components:
     - type: Seed
@@ -409,8 +409,8 @@
 
 - type: entity
   parent: SeedBase
-  name: packet of chili seeds
-  description: "Spicy."
+  name: 一包辣椒种子
+  description: 辣。
   id: ChiliSeeds
   components:
     - type: Seed
@@ -420,8 +420,8 @@
 
 - type: entity
   parent: SeedBase
-  name: packet of chilly seeds
-  description: "Frostburn."
+  name: 一包寒霜种子
+  description: 霜燃。
   id: ChillySeeds
   components:
     - type: Seed
@@ -431,8 +431,8 @@
 
 - type: entity
   parent: SeedBase
-  name: packet of aloe seeds
-  description: "Soothing."
+  name: 一包芦荟种子
+  description: 舒缓。
   id: AloeSeeds
   components:
     - type: Seed
@@ -442,8 +442,8 @@
 
 - type: entity
   parent: SeedBase
-  name: packet of poppy seeds
-  description: "Do not eat within 72 hours of a drug test."
+  name: 罂粟籽包
+  description: 药物检测前72小时内请勿食用。
   id: PoppySeeds
   components:
     - type: Seed
@@ -453,8 +453,8 @@
 
 - type: entity
   parent: SeedBase
-  name: packet of lily seeds
-  description: "These seeds grow into lilies."
+  name: 一包百合种子
+  description: 这些种子会长成百合花。
   id: LilySeeds
   components:
     - type: Seed
@@ -464,8 +464,8 @@
 
 - type: entity
   parent: SeedBase
-  name: packet of lingzhi spores
-  description: "Also known as reishi."
+  name: 一包灵芝孢子
+  description: 也称为灵芝。
   id: LingzhiSeeds
   components:
     - type: Seed
@@ -475,8 +475,8 @@
 
 - type: entity
   parent: SeedBase
-  name: packet of ambrosia vulgaris seeds
-  description: "A medicinal plant for the common folk."
+  name: 一包寻常仙馔籽
+  description: "一株寻常百姓的草药。"
   id: AmbrosiaVulgarisSeeds
   components:
     - type: Seed
@@ -486,8 +486,8 @@
 
 - type: entity
   parent: SeedBase
-  name: packet of ambrosia deus seeds
-  description: "A medicinal plant for the gods themselves."
+  name: 一包神之珍馐种子
+  description: "一包神之珍馐种子"
   id: AmbrosiaDeusSeeds
   components:
     - type: Seed
@@ -497,8 +497,8 @@
 
 - type: entity
   parent: SeedBase
-  name: packet of galaxythistle seeds
-  description: "Brushes of starry nights."
+  name: 一包星蓟种子
+  description: 星夜之触。
   id: GalaxythistleSeeds
   components:
     - type: Seed
@@ -508,8 +508,8 @@
 
 - type: entity
   parent: SeedBase
-  name: packet of glasstle seeds
-  description: "Scars of gloomy nights."
+  name: 一包格拉斯尔种子
+  description: 阴郁之夜的伤痕。
   id: GlasstleSeeds
   components:
     - type: Seed
@@ -519,8 +519,8 @@
 
 - type: entity
   parent: SeedBase
-  name: packet of fly amanita spores
-  description: "The iconic, extremely deadly mushroom to be used for purely ornamental purposes."
+  name: 一包蝇蕈孢子
+  description: "这种标志性且剧毒的蘑菇将仅用于纯粹的装饰目的。"
   id: FlyAmanitaSeeds
   components:
     - type: Seed
@@ -530,8 +530,8 @@
 
 - type: entity
   parent: [SeedBase, BaseSyndicateContraband]
-  name: packet of gatfruit seeds
-  description: "These are no peashooters."
+  name: 一包加特林种子
+  description: 这些可不是豌豆射手。
   id: GatfruitSeeds
   components:
     - type: Seed
@@ -541,8 +541,8 @@
 
 - type: entity
   parent: SeedBase
-  name: packet of onion seeds
-  description: "Not a shallot."
+  name: 一包洋葱种子
+  description: 不是青葱。
   id: OnionSeeds
   components:
     - type: Seed
@@ -552,7 +552,7 @@
 
 - type: entity
   parent: SeedBase
-  name: packet of rice seeds
+  name: 一包稻种
   id: RiceSeeds
   components:
     - type: Seed
@@ -562,7 +562,7 @@
 
 - type: entity
   parent: SeedBase
-  name: packet of soybean seeds
+  name: 一包大豆种子
   id: SoybeanSeeds
   components:
     - type: Seed
@@ -572,7 +572,7 @@
 
 - type: entity
   parent: SeedBase
-  name: packet of spaceman's trumpet seeds
+  name: 太空人号角种子包
   id: SpacemansTrumpetSeeds
   components:
     - type: Seed
@@ -582,7 +582,7 @@
 
 - type: entity
   parent: SeedBase
-  name: packet of koibean seeds
+  name: 一包豇豆种子
   id: KoibeanSeeds
   components:
     - type: Seed
@@ -592,8 +592,8 @@
 
 - type: entity
   parent: SeedBase
-  name: packet of red onion seeds
-  description: "Purple despite the name."
+  name: 一包红洋葱种子
+  description: 虽名如此，实为紫色。
   id: OnionRedSeeds
   components:
     - type: Seed
@@ -603,7 +603,7 @@
 
 - type: entity
   parent: SeedBase
-  name: packet of watermelon seeds
+  name: 一包西瓜种子
   id: WatermelonSeeds
   components:
     - type: Seed
@@ -613,7 +613,7 @@
 
 - type: entity
   parent: SeedBase
-  name: packet of holymelon seeds
+  name: 神圣甜瓜种子包
   id: HolymelonSeeds
   components:
     - type: Seed
@@ -623,7 +623,7 @@
 
 - type: entity
   parent: SeedBase
-  name: packet of grape seeds
+  name: 一包葡萄籽
   id: GrapeSeeds
   components:
     - type: Seed
@@ -633,7 +633,7 @@
 
 - type: entity
   parent: SeedBase
-  name: packet of cocoa seeds
+  name: 一包可可种子
   id: CocoaSeeds
   components:
     - type: Seed
@@ -643,7 +643,7 @@
 
 - type: entity
   parent: SeedBase
-  name: packet of berry seeds
+  name: 浆果种子包
   id: BerrySeeds
   components:
     - type: Seed
@@ -653,8 +653,8 @@
 
 - type: entity
   parent: SeedBase
-  name: packet of bungo seeds
-  description: "Don't eat the pits."
+  name: 一包本戈种子
+  description: 不要吃果核。
   id: BungoSeeds
   components:
     - type: Seed
@@ -665,8 +665,8 @@
 - type: entity
   parent: SeedBase
   id: PeaSeeds
-  name: packet of pea pods
-  description: "These humble plants were once a vital part in the study of genetics."
+  name: 一包豌豆荚
+  description: 这些不起眼的植物曾是遗传学研究中的重要组成部分。
   components:
     - type: Seed
       seedId: pea
@@ -676,8 +676,8 @@
 - type: entity
   parent: SeedBase
   id: WorldPeaSeeds
-  name: packet of world pea seeds
-  description: "These rather large seeds give off a soothing blue glow."
+  name: 一包世界豌豆种子
+  description: 这些相当大的种子散发出令人舒缓的蓝色光芒。
   components:
     - type: Seed
       seedId: worldPea
@@ -686,7 +686,7 @@
 
 - type: entity
   parent: SeedBase
-  name: packet of pumpkin seeds
+  name: 一包南瓜种子
   id: PumpkinSeeds
   components:
     - type: Seed
@@ -696,7 +696,7 @@
 
 - type: entity
   parent: SeedBase
-  name: packet of blue pumpkin seeds
+  name: 一包蓝色南瓜种子
   id: BluePumpkinSeeds
   components:
     - type: Seed
@@ -706,7 +706,7 @@
 
 - type: entity
   parent: SeedBase
-  name: packet of cotton seeds
+  name: 一包棉花种子
   id: CottonSeeds
   components:
     - type: Seed
@@ -716,7 +716,7 @@
 
 - type: entity
   parent: SeedBase
-  name: packet of pyrotton seeds
+  name: 一包派罗顿种子
   id: PyrottonSeeds
   components:
     - type: Seed
@@ -727,8 +727,8 @@
 - type: entity
   parent: SeedBase
   id: RealCapfruitSeeds
-  name: packet of capfruit seeds
-  description: "Is it real, or is it fake?"
+  name: 一包卡普果种子
+  description: "这是真的，还是假的？"
   components:
     - type: Seed
       seedId: realCapfruit
@@ -745,7 +745,7 @@
 
 - type: entity
   parent: SeedBase
-  name: packet of cherry seeds
+  name: 一包樱桃种子
   id: CherrySeeds
   components:
     - type: Seed
@@ -755,7 +755,7 @@
 
 - type: entity
   parent: SeedBase
-  name: packet of anomaly berry seeds
+  name: 异常浆果种子包
   id: AnomalyBerrySeeds
   components:
     - type: Seed
@@ -765,7 +765,7 @@
 
 - type: entity
   parent: SeedBase
-  name: packet of bloonion seeds
+  name: 一包布朗尼洋葱种子
   id: BloonionSeeds
   components:
   - type: Seed

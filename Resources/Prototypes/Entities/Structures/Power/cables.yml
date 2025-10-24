@@ -61,8 +61,8 @@
 - type: entity
   parent: CableBase
   id: CableHV
-  name: HV power cable
-  description: An orange high voltage power cable.
+  name: 高压电力电缆
+  description: 一根橙色的高压电力电缆。
   components:
   - type: Sprite
     sprite: Structures/Power/Cables/hv_cable.rsi
@@ -119,8 +119,8 @@
 - type: entity
   parent: CableBase
   id: CableMV
-  name: MV power cable
-  description: A medium voltage power cable.
+  name: 中压电力电缆
+  description: 中压电力电缆。
   components:
   - type: Sprite
     sprite: Structures/Power/Cables/mv_cable.rsi
@@ -173,8 +173,8 @@
 - type: entity
   parent: CableBase
   id: CableApcExtension
-  name: LV power cable
-  description: A cable used to connect machines to an APC. #APCs aren't area defined anymore so need this cable to connect things to the APC. This description should be dynamic in future.
+  name: 低压电力电缆
+  description: 用于将机器连接到APC的电缆。#APC不再按区域定义，因此需要此电缆将设备连接到APC。该描述未来应设为动态。
   components:
   - type: Sprite
     color: Green
@@ -228,8 +228,8 @@
 - type: entity
   id: CableDet
   parent: [ CablePhysBase, BaseSecurityContraband ]
-  name: explosive cord
-  description: Spaghetti for people who hate walls.
+  name: 炸药引线
+  description: 讨厌墙壁之人的意面。
   components:
   - type: Cable
     cableDroppedOnCutPrototype: CableDetStack1

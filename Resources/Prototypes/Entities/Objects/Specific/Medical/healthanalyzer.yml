@@ -1,9 +1,9 @@
 - type: entity
   id: HandheldHealthAnalyzerUnpowered
   parent: BaseItem
-  name: health analyzer
+  name: 健康分析仪
   suffix: Always Powered
-  description: A hand-held body scanner capable of distinguishing vital signs of the subject.
+  description: 一款能够区分对象生命体征的手持式身体扫描仪。
   components:
   - type: Sprite
     sprite: Objects/Specific/Medical/healthanalyzer.rsi
@@ -60,4 +60,4 @@
   - type: ItemSlots
     slots:
       cell_slot:
-        name: power-cell-slot-component-slot-name-default
+        name: 动力电池插槽-组件插槽名称-默认

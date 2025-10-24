@@ -1,8 +1,8 @@
 - type: entity
-  name: handheld mass scanner
+  name: 手持式质量扫描仪
   parent: BaseHandheldComputer
   id: HandHeldMassScanner
-  description: A hand-held mass scanner.
+  description: 手持式质量扫描仪。
   components:
   - type: Item
     sprite: Objects/Tools/handheld_mass_scanner.rsi
@@ -47,7 +47,7 @@
   - type: ItemSlots
     slots:
       cell_slot:
-        name: power-cell-slot-component-slot-name-default
+        name: 动力电池插槽-组件插槽名称-默认
 
 - type: entity
   id: HandHeldMassScannerBorg
@@ -57,7 +57,7 @@
   - type: ItemSlots
     slots:
       cell_slot:
-        name: power-cell-slot-component-slot-name-default
+        name: 动力电池插槽-组件插槽名称-默认
         startingItem: PowerCellMicroreactor
         disableEject: true
         swap: false

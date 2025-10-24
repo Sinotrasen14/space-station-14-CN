@@ -1,6 +1,6 @@
 # Normal materials spawners
 - type: entity
-  name: materials spawner
+  name: 材料生成器
   id: LootSpawnerMaterials
   suffix: Construction Materials
   parent: MarkerBase
@@ -16,7 +16,7 @@
         prob: 0.8
 
 - type: entity
-  name: materials spawner
+  name: 材料生成器
   suffix: Supplementary Materials
   id: LootSpawnerMaterialsSupplementary
   parent: MarkerBase
@@ -34,7 +34,7 @@
 # High-value materials spawners
 # Maybe these should use the 10-in-stack variants?
 - type: entity
-  name: high-value materials spawner
+  name: 高价值材料生成器
   suffix: Construction Materials
   id: LootSpawnerMaterialsHighValueConstruction
   parent: MarkerBase
@@ -50,7 +50,7 @@
         prob: 0.8
 
 - type: entity
-  name: high-value materials spawner
+  name: 高价值材料生成器
   id: LootSpawnerMaterialsHighValue
   parent: MarkerBase
   components:
@@ -68,7 +68,7 @@
 # Intended use case: randomly place in maintenance or in storage areas.
 # Does not include weirdo stuff like Bronze or Paper since those are intended to be gimmicks.
 - type: entity
-  name: surplus materials spawner
+  name: 剩余物资生成器
   id: LootSpawnerMaterialsSurplus
   parent: MarkerBase
   components:
@@ -84,7 +84,7 @@
 
 # Cable coil spawner
 - type: entity
-  name: cable coil spawner
+  name: 电缆卷轴生成器
   id: LootSpawnerCableCoil
   parent: MarkerBase
   components:

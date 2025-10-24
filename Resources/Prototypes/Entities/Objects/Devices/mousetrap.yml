@@ -1,8 +1,8 @@
 - type: entity
-  name: mousetrap
+  name: 捕鼠器
   parent: BaseItem
   id: Mousetrap
-  description: Useful for catching rodents sneaking into your kitchen.
+  description: 适用于捕捉潜入厨房的啮齿动物。
   components:
     - type: Sprite
       sprite: Objects/Devices/mousetrap.rsi
@@ -62,11 +62,11 @@
     - type: Rotatable
 
 - type: entity
-  name: mousetrap
+  name: 捕鼠器
   suffix: Armed
   parent: Mousetrap
   id: MousetrapArmed
-  description: Useful for catching rodents sneaking into your kitchen.
+  description: 适用于捕捉潜入厨房的啮齿动物。
   components:
   - type: Sprite
     layers:

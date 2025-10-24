@@ -1,6 +1,6 @@
 - type: entity
-  name: handcuffs
-  description: Used to detain criminals and other assholes.
+  name: 手铐
+  description: 用于拘留罪犯和其他混蛋。
   id: Handcuffs
   parent: [BaseItem, BaseSecurityCommandContraband]
   components:
@@ -31,8 +31,8 @@
     delay: 3
 
 - type: entity
-  name: makeshift handcuffs
-  description: Homemade handcuffs crafted from spare cables.
+  name: 临时手铐
+  description: 用多余线缆自制的临时手铐。
   id: Cablecuffs
   parent: Handcuffs
   components:
@@ -70,8 +70,8 @@
     color: forestgreen
 
 - type: entity
-  name: zipties
-  description: Tough single-use plastic zipties, ideal for restraining rowdy prisoners.
+  name: 塑料束线带
+  description: 坚韧耐用的塑料束线带，非常适合用来约束吵闹的囚犯。
   id: Zipties
   parent: Handcuffs
   components:
@@ -113,8 +113,8 @@
       Plastic: 25
 
 - type: entity
-  name: broken zipties
-  description: These zipties look like they tried to manage the wrong cables.
+  name: 断裂的扎带
+  description: 这些扎带看起来像是用错了电缆。
   id: ZiptiesBroken
   parent: BaseHandcuffsBroken
   components:
@@ -123,8 +123,8 @@
     state: cuff-broken
 
 - type: entity
-  name: broken cables
-  description: These cables are broken in several places and don't seem very useful.
+  name: 损坏的电缆
+  description: 这些电缆多处损坏，看起来不太实用。
   id: CablecuffsBroken
   parent: BaseHandcuffsBroken
   components:
@@ -144,8 +144,8 @@
 - type: entity
   parent: Handcuffs
   id: ClothingOuterStraightjacket
-  name: straitjacket
-  description: Used to restrain those who may cause harm to themselves or others.
+  name: 约束衣
+  description: 用于约束可能对自己或他人造成伤害的人。
   components:
   - type: Item
     size: Normal

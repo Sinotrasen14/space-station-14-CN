@@ -1,7 +1,7 @@
 - type: entity
   id: FloorDrain
-  name: drain
-  description: Drains puddles around it. Useful for dumping mop buckets or keeping certain rooms clean.
+  name: 排水口
+  description: 排干周围的水洼。可用于倾倒拖把桶或保持特定房间的清洁。
   placement:
     mode: SnapgridCenter
   components:

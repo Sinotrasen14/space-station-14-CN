@@ -1,9 +1,9 @@
 - type: entity
   parent: [ClothingOuterBaseLarge, AllowSuitStorageClothingGasTanks]
   id: ClothingOuterBioGeneral
-  name: bio suit
+  name: 生化防护服
   suffix: Generic
-  description: A suit that protects against biological contamination.
+  description: 一套防止生物污染的防护服。
   components:
   - type: Sprite
     sprite: Clothing/OuterClothing/Bio/general.rsi
@@ -26,9 +26,9 @@
 - type: entity
   parent: ClothingOuterBioGeneral
   id: ClothingOuterBioCmo
-  name: bio suit
+  name: 生物防护服
   suffix: CMO
-  description: An advanced suit that protects against biological contamination, in CMO colors.
+  description: 一款采用CMO配色、可防护生物污染的高级防护服。
   components:
   - type: Sprite
     sprite: Clothing/OuterClothing/Bio/cmo.rsi
@@ -38,9 +38,9 @@
 - type: entity
   parent: ClothingOuterBioGeneral
   id: ClothingOuterBioJanitor
-  name: bio suit
+  name: 生化防护服
   suffix: Janitor
-  description: A suit that protects against biological contamination and caustic spills.
+  description: 一套可防护生物污染和腐蚀性液体喷溅的防护服。
   components:
   - type: Sprite
     sprite: Clothing/OuterClothing/Bio/janitor.rsi
@@ -54,9 +54,9 @@
 - type: entity
   parent: ClothingOuterBioGeneral
   id: ClothingOuterBioScientist
-  name: bio suit
+  name: 生物防护服
   suffix: Science
-  description: A suit that protects against biological contamination, in Scientist colors.
+  description: 一套采用科学家配色、可防护生物污染的防护服。
   components:
   - type: Sprite
     sprite: Clothing/OuterClothing/Bio/scientist.rsi
@@ -66,9 +66,9 @@
 - type: entity
   parent: [ClothingOuterBaseLarge, AllowSuitStorageClothing, BaseSecurityContraband]
   id: ClothingOuterBioSecurity
-  name: bio suit
+  name: 生化防护服
   suffix: Security
-  description: A suit that protects against biological contamination, kitted out with additional armor.
+  description: 一套可防护生化污染的防护服，并额外配备了装甲。
   components:
   - type: Sprite
     sprite: Clothing/OuterClothing/Bio/security.rsi
@@ -90,9 +90,9 @@
 - type: entity
   parent: ClothingOuterBioGeneral
   id: ClothingOuterBioVirology
-  name: bio suit
+  name: 生化防护服
   suffix: Virology
-  description: A suit that strongly protects against biological contamination.
+  description: 一套能有效防护生物污染的服装。
   components:
   - type: Sprite
     sprite: Clothing/OuterClothing/Bio/virology.rsi

@@ -1,7 +1,7 @@
 ﻿- type: entity
   id: MapText
   parent: MarkerBase
-  name: map text
+  name: 地图文本
   placement:
     mode: PlaceFree
   components:

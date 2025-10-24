@@ -1,7 +1,7 @@
 - type: entity
   parent: ClothingHeadBase
   id: WeldingMaskBase
-  name: welding mask
+  name: 焊接面罩
   abstract: true
   components:
   - type: Item
@@ -27,8 +27,8 @@
 - type: entity
   parent: WeldingMaskBase
   id: ClothingHeadHatWelding
-  name: welding mask
-  description: A head-mounted face cover designed to protect the wearer completely from space-arc eye.
+  name: 焊接面罩
+  description: 一种头戴式面罩，旨在完全保护佩戴者免受太空电弧眼伤害。
   components:
   - type: Sprite
     sprite: Clothing/Head/Welding/welding.rsi
@@ -43,8 +43,8 @@
 - type: entity
   parent: WeldingMaskBase
   id: ClothingHeadHatWeldingMaskFlame
-  name: flame welding mask
-  description: A painted welding helmet, this one has flames on it.
+  name: 火焰焊接面罩
+  description: 一个喷漆焊接面罩，上面绘有火焰图案。
   components:
   - type: Sprite
     sprite: Clothing/Head/Welding/flame_welding_mask.rsi
@@ -54,8 +54,8 @@
 - type: entity
   parent: WeldingMaskBase
   id: ClothingHeadHatWeldingMaskFlameBlue
-  name: blue-flame welding mask
-  description: A painted welding helmet, this one has blue flames on it.
+  name: 蓝色火焰焊接面罩
+  description: 一个喷漆焊接面罩，上面绘有蓝色火焰图案。
   components:
   - type: Sprite
     sprite: Clothing/Head/Welding/blue_flame_welding_mask.rsi
@@ -65,8 +65,8 @@
 - type: entity
   parent: WeldingMaskBase
   id: ClothingHeadHatWeldingMaskPainted
-  name: painted welding mask
-  description: A welding helmet, painted in crimson.
+  name: 涂成深红色的焊接面罩
+  description: 一个焊接面罩，被涂成了深红色。
   components:
   - type: Sprite
     sprite: Clothing/Head/Welding/paintedwelding.rsi

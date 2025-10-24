@@ -4,8 +4,8 @@
   abstract: true
   parent: BaseMachine
   id: BaseGenerator
-  description: A high efficiency thermoelectric generator.
-  name: generator
+  description: 一种高效热电发电机。
+  name: 发电机
   placement:
     mode: SnapgridCenter
   components:
@@ -90,8 +90,8 @@
   abstract: true
   id: BaseGeneratorWallmount
   parent: [ BaseGenerator, BaseWallmount ]
-  name: wallmount generator
-  description: A high efficiency thermoelectric generator stuffed in a wall cabinet.
+  name: 壁挂式发电机
+  description: 一款高效的热电发电机，安装在壁柜内。
   components:
   - type: AmbientOnPowered
   - type: AmbientSound
@@ -137,8 +137,8 @@
   parent: BaseWallmountMetallic
   categories: [ HideSpawnMenu ]
   id: BaseGeneratorWallmountFrame
-  name: wallmount generator frame
-  description: A construction frame for a wallmount generator.
+  name: 壁挂式发电机框架
+  description: 壁挂式发电机的安装框架。
   components:
   - type: Sprite
     drawdepth: WallMountedItems
@@ -189,8 +189,8 @@
 - type: entity
   parent: BaseGeneratorWallmount
   id: GeneratorWallmountAPU
-  name: shuttle APU
-  description: An auxiliary power unit for a shuttle - 6kW.
+  name: 航天飞机辅助动力装置
+  description: 航天飞机辅助动力装置 - 6千瓦。
   suffix: APU, 6kW
   components:
   - type: PowerSupplier
@@ -215,8 +215,8 @@
 - type: entity
   parent: BaseGenerator
   id: GeneratorRTG
-  name: RTG
-  description: A Radioisotope Thermoelectric Generator for long term power.
+  name: 放射性同位素热电发电机
+  description: 放射性同位素热电发电机，用于长期供电。
   suffix: 10kW
   components:
   - type: PowerSupplier
@@ -263,8 +263,8 @@
 - type: entity
   parent: GeneratorRTG
   id: GeneratorRTGDamaged
-  name: damaged RTG
-  description: A Radioisotope Thermoelectric Generator for long term power. This one has damaged shielding.
+  name: 受损的放射性同位素热电发电机
+  description: 一台用于长期供电的放射性同位素热电发电机。该设备的屏蔽层已受损。
   suffix: 10kW
   components:
   - type: PowerSupplier

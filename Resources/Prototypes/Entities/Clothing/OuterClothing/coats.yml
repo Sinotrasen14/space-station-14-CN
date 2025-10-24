@@ -1,8 +1,8 @@
 - type: entity
   parent: ClothingOuterStorageBase
   id: ClothingOuterCoatBomber
-  name: bomber jacket
-  description: A thick, well-worn WW2 leather bomber jacket.
+  name: 飞行员夹克
+  description: 一件厚重、破旧的二战皮质飞行员夹克。
   components:
   - type: Sprite
     sprite: Clothing/OuterClothing/Coats/bomber.rsi
@@ -12,8 +12,8 @@
 - type: entity
   parent: [ClothingOuterStorageBase, AllowSuitStorageClothing, ClothingOuterArmorBase]
   id: ClothingOuterCoatDetective
-  name: detective trenchcoat
-  description: An 18th-century multi-purpose trenchcoat. Someone who wears this means serious business.
+  name: 侦探风衣
+  description: 一件18世纪的多功能风衣。穿着它的人意味着要办正事。
   components:
   - type: Sprite
     sprite: Clothing/OuterClothing/Coats/detective.rsi
@@ -29,8 +29,8 @@
 - type: entity
   parent: [ClothingOuterCoatDetectiveLoadout]
   id: ClothingOuterCoatDetectiveLoadoutGrey
-  name: noir trenchcoat
-  description: Ah, your trusty coat. There's a few tears here and there, giving it a more timely look. Or at least, that's what you told yourself when you found out gettin' it repaired would set you back 200 spesos.
+  name: 黑色风衣
+  description: 啊，你这件可靠的风衣。到处都有些破洞，反倒让它看起来更合时宜了。至少，在发现修补要花200斯佩索时，你是这么告诉自己的。
   components:
   - type: Sprite
     sprite: Clothing/OuterClothing/Coats/detective_grey.rsi
@@ -50,8 +50,8 @@
 - type: entity
   parent: ClothingOuterStorageBase
   id: ClothingOuterCoatGentle
-  name: gentle coat
-  description: A gentle coat for a gentle man, or woman.
+  name: 温柔的外套
+  description: 一件温柔的外套，献给温柔的男士，或女士。
   components:
   - type: Sprite
     sprite: Clothing/OuterClothing/Coats/gentlecoat.rsi
@@ -93,8 +93,8 @@
 - type: entity
   parent: [ClothingOuterArmorHoS, ClothingOuterStorageBase, BaseSecurityCommandContraband]
   id: ClothingOuterCoatHoSTrench
-  name: head of security's armored trenchcoat
-  description: A greatcoat enhanced with a special alloy for some extra protection and style for those with a commanding presence.
+  name: 安保主管的装甲风衣
+  description: 一件采用特殊合金强化的风衣，为气场强大之人提供额外防护与不凡风度。
   components:
   - type: Sprite
     sprite: Clothing/OuterClothing/Coats/hos_trenchcoat.rsi
@@ -104,8 +104,8 @@
 - type: entity
   parent: ClothingOuterStorageToggleableBase
   id: ClothingOuterCoatJensen
-  name: jensen coat
-  description: A jensen coat.
+  name: 詹森大衣
+  description: 詹森大衣。
   components:
   - type: Sprite
     sprite: Clothing/OuterClothing/Coats/jensencoat.rsi
@@ -117,8 +117,8 @@
 - type: entity
   parent: ClothingOuterStorageBase
   id: ClothingOuterCoatTrench
-  name: trench coat
-  description: A comfy trench coat.
+  name: 风衣
+  description: 一件舒适的风衣。
   components:
   - type: Sprite
     sprite: Clothing/OuterClothing/Coats/trenchcoat.rsi
@@ -144,8 +144,8 @@
 - type: entity
   parent: ClothingOuterStorageFoldableBase
   id: ClothingOuterCoatLab
-  name: lab coat
-  description: A suit that protects against minor chemical spills.
+  name: 实验服
+  description: 可防护轻微化学品泼溅的实验服。
   components:
   - type: Sprite
     sprite: Clothing/OuterClothing/Coats/labcoat.rsi
@@ -159,13 +159,13 @@
 - type: entity
   parent: [ClothingOuterStorageFoldableBaseOpened, ClothingOuterCoatLab]
   id: ClothingOuterCoatLabOpened
-  name: lab coat
+  name: 实验服
 
 - type: entity
   parent: ClothingOuterStorageFoldableBase
   id: ClothingOuterCoatLabChem
-  name: chemist lab coat
-  description: A suit that protects against minor chemical spills. Has an orange stripe on the shoulder.
+  name: 化学实验服
+  description: 一件可防护轻微化学品泼溅的实验服，肩部带有橙色条纹。
   components:
   - type: Sprite
     sprite: Clothing/OuterClothing/Coats/labcoat_chem.rsi
@@ -179,13 +179,13 @@
 - type: entity
   parent: [ClothingOuterStorageFoldableBaseOpened, ClothingOuterCoatLabChem]
   id: ClothingOuterCoatLabChemOpened
-  name: chemist lab coat
+  name: 化学实验服
 
 - type: entity
   parent: ClothingOuterStorageFoldableBase
   id: ClothingOuterCoatLabViro
-  name: virologist lab coat
-  description: A suit that protects against bacteria and viruses. Has an green stripe on the shoulder.
+  name: 病毒学家实验服
+  description: 一件能防护细菌和病毒的实验服，肩部带有绿色条纹。
   components:
   - type: Sprite
     sprite: Clothing/OuterClothing/Coats/labcoat_viro.rsi
@@ -199,13 +199,13 @@
 - type: entity
   parent: [ClothingOuterStorageFoldableBaseOpened, ClothingOuterCoatLabViro]
   id: ClothingOuterCoatLabViroOpened
-  name: virologist lab coat
+  name: 病毒学家实验服
 
 - type: entity
   parent: ClothingOuterStorageFoldableBase
   id: ClothingOuterCoatLabGene
-  name: geneticist lab coat
-  description: A suit that protects against minor chemical spills. Has an blue stripe on the shoulder.
+  name: 遗传学家实验服
+  description: 一件可防护轻微化学品泼溅的实验服，肩部饰有蓝色条纹。
   components:
   - type: Sprite
     sprite: Clothing/OuterClothing/Coats/labcoat_gene.rsi
@@ -219,13 +219,13 @@
 - type: entity
   parent: [ClothingOuterStorageFoldableBaseOpened, ClothingOuterCoatLabGene]
   id: ClothingOuterCoatLabGeneOpened
-  name: geneticist lab coat
+  name: 遗传学家实验服
 
 - type: entity
   parent: ClothingOuterStorageFoldableBase
   id: ClothingOuterCoatLabCmo
-  name: chief medical officer's lab coat
-  description: Custom made blue lab coat for the Chief Medical Officer, offers improved protection against chemical spills and minor cuts.
+  name: 首席医务官的实验服
+  description: 为首席医务官量身定制的蓝色实验服，增强了对化学品泼溅和小型割伤的防护能力。
   components:
   - type: Sprite
     sprite: Clothing/OuterClothing/Coats/labcoat_cmo.rsi
@@ -241,13 +241,13 @@
 - type: entity
   parent: [ClothingOuterStorageFoldableBaseOpened, ClothingOuterCoatLabCmo]
   id: ClothingOuterCoatLabCmoOpened
-  name: chief medical officer's lab coat
+  name: 首席医务官的白大褂
 
 - type: entity
   parent: ClothingOuterStorageFoldableBase
   id: ClothingOuterCoatRnd
-  name: scientist lab coat
-  description: A suit that protects against minor chemical spills. Has a purple stripe on the shoulder.
+  name: 科学家实验服
+  description: 一件能防护轻微化学液体泼溅的实验服，肩部带有紫色条纹。
   components:
   - type: Sprite
     sprite: Clothing/OuterClothing/Coats/labcoat_sci.rsi
@@ -261,13 +261,13 @@
 - type: entity
   parent: [ClothingOuterStorageFoldableBaseOpened, ClothingOuterCoatRnd]
   id: ClothingOuterCoatRndOpened
-  name: scientist lab coat
+  name: 科学家实验服
 
 - type: entity
   parent: ClothingOuterStorageFoldableBase
   id: ClothingOuterCoatRobo
-  name: roboticist lab coat
-  description: More like an eccentric coat than a labcoat. Helps pass off bloodstains as part of the aesthetic. Comes with red shoulder pads.
+  name: 机器人专家实验袍
+  description: 与其说是实验袍，不如说是件古怪的外套。血迹能被当成设计美学的一部分，还配有红色肩垫。
   components:
   - type: Sprite
     sprite: Clothing/OuterClothing/Coats/labcoat_robo.rsi
@@ -281,13 +281,13 @@
 - type: entity
   parent: [ClothingOuterStorageFoldableBaseOpened, ClothingOuterCoatRobo]
   id: ClothingOuterCoatRoboOpened
-  name: roboticist lab coat
+  name: 机器人专家实验室外套
 
 - type: entity
   parent: ClothingOuterStorageFoldableBase
   id: ClothingOuterCoatRD
-  name: research director lab coat
-  description: Woven with top of the line technology, this labcoat helps protect against radiation in similar way to the experimental hardsuit.
+  name: 首席科学家实验服
+  description: 采用顶尖技术编织而成，这款实验服能提供与实验防护服相似的辐射防护效果。
   components:
   - type: Sprite
     sprite: Clothing/OuterClothing/Coats/labcoat_rd.rsi
@@ -302,13 +302,13 @@
 - type: entity
   parent: [ClothingOuterStorageFoldableBaseOpened, ClothingOuterCoatRD]
   id: ClothingOuterCoatRDOpened
-  name: research director lab coat
+  name: 研究主任实验室外套
 
 - type: entity
   parent: ClothingOuterStorageBase
   id: ClothingOuterCoatPirate
-  name: pirate garb
-  description: Yarr.
+  name: 海盗装束
+  description: 呀儿。
   components:
   - type: Sprite
     sprite: Clothing/OuterClothing/Coats/pirate.rsi
@@ -318,8 +318,8 @@
 - type: entity
   parent: [ClothingOuterArmorWarden, ClothingOuterStorageBase, BaseSecurityContraband]
   id: ClothingOuterCoatWarden
-  name: warden's armored jacket
-  description: A sturdy, utilitarian jacket designed to protect a warden from any brig-bound threats.
+  name: 狱卒的装甲夹克
+  description: 一件结实实用的夹克，旨在保护狱卒免受来自囚犯的任何威胁。
   components:
   - type: Sprite
     sprite: Clothing/OuterClothing/Coats/warden.rsi
@@ -329,8 +329,8 @@
 - type: entity
   parent: ClothingOuterStorageBase
   id: ClothingOuterDameDane
-  name: yakuza coat
-  description: Friday...
+  name: 极道外套
+  description: 星期五...
   components:
   - type: Sprite
     sprite: Clothing/OuterClothing/Coats/damedanecoat.rsi
@@ -340,8 +340,8 @@
 - type: entity
   parent: ClothingOuterStorageBase
   id: ClothingOuterClownPriest
-  name: robes of the honkmother
-  description: Meant for a clown of the cloth.
+  name: honkmother 的袍子
+  description: 专为神职小丑而备。
   components:
   - type: Sprite
     sprite: Clothing/OuterClothing/Coats/clownpriest.rsi
@@ -351,8 +351,8 @@
 - type: entity
   parent: [ClothingOuterStorageBase, BaseMajorContraband]
   id: ClothingOuterDogi
-  name: samurai dogi
-  description: Dogi is a type of traditional Japanese clothing. The dogi is made of heavy, durable fabric, it is practical in combat and stylish in appearance. It is decorated with intricate patterns and embroidery on the back.
+  name: 武士道着
+  description: 道着是一种日本传统服饰。道衣采用厚重耐用的面料制成，既实用 combat 又外观时尚。其背部装饰有精美的图案和刺绣。
   components:
   - type: Sprite
     sprite: Clothing/OuterClothing/Coats/dogi.rsi
@@ -368,8 +368,8 @@
 - type: entity
   parent: ClothingOuterStorageBase
   id: ClothingOuterCoatParamedicWB
-  name: paramedic windbreaker
-  description: A paramedic's trusty windbreaker, for all the space wind.
+  name: 护理员防风夹克
+  description: 护理员的防风夹克，抵御一切空间之风。
   components:
   - type: Sprite
     sprite: Clothing/OuterClothing/Coats/windbreaker_paramedic.rsi
@@ -379,8 +379,8 @@
 - type: entity
   parent: [ClothingOuterStorageBase, BaseSyndicateContraband]
   id: ClothingOuterCoatSyndieCap
-  name: syndicate's coat
-  description: The syndicate's coat is made of durable fabric, with gilded patterns.
+  name: 辛迪加的外套
+  description: 辛迪加的外套采用耐用面料制成，饰有鎏金纹样。
   components:
   - type: Sprite
     sprite: Clothing/OuterClothing/Coats/syndicate/coatsyndiecap.rsi
@@ -390,8 +390,8 @@
 - type: entity
   parent: [BaseSyndicateContraband, ClothingOuterCoatHoSTrench] # BaseSyndicateContraband as first parent so contraband system takes that as priority, yeah I know
   id: ClothingOuterCoatSyndieCapArmored
-  name: syndicate's armored coat
-  description: The syndicate's armored coat is made of durable fabric, with gilded patterns.
+  name: 辛迪加的护甲外套
+  description: 辛迪加的护甲外套由耐用织物制成，饰有鎏金纹样。
   components:
   - type: Sprite
     sprite: Clothing/OuterClothing/Coats/syndicate/coatsyndiecaparmored.rsi
@@ -401,8 +401,8 @@
 - type: entity
   parent: ClothingOuterStorageBase
   id: ClothingOuterCoatAMG
-  name: armored medical gown
-  description: The version of the medical gown, with elements of a bulletproof vest, looks strange, but your heart is protected.
+  name: 防弹医疗长袍
+  description: 这款医疗长袍的版本，融入了防弹背心的元素，看起来有些奇特，但能保护你的心脏。
   components:
   - type: Sprite
     sprite: Clothing/OuterClothing/Coats/brigmedic.rsi
@@ -420,8 +420,8 @@
 - type: entity
   parent: ClothingOuterStorageFoldableBase
   id: ClothingOuterCoatLabSeniorResearcher
-  name: senior researcher lab coat
-  description: A suit that protects against minor chemical spills. Has a purple collar and wrist trims.
+  name: 高级研究员实验服
+  description: 一件可防护轻微化学品泼溅的实验服，配有紫色衣领和袖口装饰。
   components:
   - type: Sprite
     sprite: Clothing/OuterClothing/Coats/labcoat_senior_researcher.rsi
@@ -435,13 +435,13 @@
 - type: entity
   parent: [ClothingOuterStorageFoldableBaseOpened, ClothingOuterCoatLabSeniorResearcher]
   id: ClothingOuterCoatLabSeniorResearcherOpened
-  name: senior researcher lab coat
+  name: 高级研究员实验服
 
 - type: entity
   parent: ClothingOuterStorageFoldableBase
   id: ClothingOuterCoatLabSeniorPhysician
-  name: senior physician lab coat
-  description: A suit that protects against minor chemical spills. Has light blue sleeves and an orange waist trim.
+  name: 高级医师实验服
+  description: 一套可防护轻微化学品泼溅的实验服，配有浅蓝色袖子和橙色腰饰。
   components:
   - type: Sprite
     sprite: Clothing/OuterClothing/Coats/labcoat_senior_physician.rsi
@@ -455,13 +455,13 @@
 - type: entity
   parent: [ClothingOuterStorageFoldableBaseOpened, ClothingOuterCoatLabSeniorPhysician]
   id: ClothingOuterCoatLabSeniorPhysicianOpened
-  name: senior physician lab coat
+  name: 高级医师白大褂
 
 - type: entity
   parent: ClothingOuterStorageBase
   id: ClothingOuterCoatSpaceAsshole
-  name: the coat of space asshole
-  description: And there he was...
+  name: 太空混蛋的外套
+  description: 而他就在那里……
   components:
   - type: Sprite
     sprite: Clothing/OuterClothing/Coats/space_asshole.rsi
@@ -471,8 +471,8 @@
 - type: entity
   parent: ClothingOuterStorageFoldableBase
   id: ClothingOuterCoatExpensive
-  name: expensive coat
-  description: Very fluffy pink coat, made out of very expensive fur (clearly).
+  name: 昂贵的外套
+  description: 非常蓬松的粉色外套，显然是用昂贵的毛皮制成的。
   components:
   - type: Sprite
     sprite: Clothing/OuterClothing/Coats/expensive_coat.rsi
@@ -482,4 +482,4 @@
 - type: entity
   parent: [ClothingOuterStorageFoldableBaseOpened, ClothingOuterCoatExpensive]
   id: ClothingOuterCoatExpensiveOpened
-  name: expensive coat
+  name: 昂贵的外套

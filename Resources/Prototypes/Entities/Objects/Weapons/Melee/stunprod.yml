@@ -1,8 +1,8 @@
 - type: entity
-  name: stun prod
+  name: 电击棒
   parent: [BaseItem, BaseMinorContraband]
   id: Stunprod
-  description: A stun prod for illegal incapacitation.
+  description: 用于非法制伏的电击棒。
   components:
   - type: Sprite
     sprite: Objects/Weapons/Melee/stunprod.rsi

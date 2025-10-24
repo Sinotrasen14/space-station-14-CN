@@ -6,7 +6,7 @@
 
 - type: entity
   id: RandomHumanoidVisitorCaptain
-  name: visiting Captain ghost role
+  name: 拜访幽灵船长角色
   components:
     - type: Sprite
       sprite: Markers/jobs.rsi
@@ -16,7 +16,7 @@
 
 - type: entity
   id: RandomHumanoidVisitorCE
-  name: visiting CE ghost role
+  name: 访问CE幽灵角色
   components:
     - type: Sprite
       sprite: Markers/jobs.rsi
@@ -26,7 +26,7 @@
 
 - type: entity
   id: RandomHumanoidVisitorCMO
-  name: visiting CMO ghost role
+  name: 访问首席营销官幽灵角色
   components:
     - type: Sprite
       sprite: Markers/jobs.rsi
@@ -36,7 +36,7 @@
 
 - type: entity
   id: RandomHumanoidVisitorHOP
-  name: visiting HOP ghost role
+  name: 拜访HOP幽灵角色
   components:
     - type: Sprite
       sprite: Markers/jobs.rsi
@@ -46,7 +46,7 @@
 
 - type: entity
   id: RandomHumanoidVisitorHOS
-  name: visiting HOS ghost role
+  name: 拜访HOS幽灵角色
   components:
     - type: Sprite
       sprite: Markers/jobs.rsi
@@ -56,7 +56,7 @@
 
 - type: entity
   id: RandomHumanoidVisitorRD
-  name: visiting RD ghost role
+  name: 拜访研发部幽灵角色
   components:
     - type: Sprite
       sprite: Markers/jobs.rsi
@@ -66,7 +66,7 @@
 
 - type: entity
   id: RandomHumanoidVisitorQM
-  name: visiting QM ghost role
+  name: 访问QM幽灵角色
   components:
     - type: Sprite
       sprite: Markers/jobs.rsi
@@ -78,7 +78,7 @@
 
 - type: entity
   id: RandomHumanoidVisitorSecurityCadet
-  name: visiting security cadet role
+  name: 访问安全学员角色
   components:
     - type: Sprite
       sprite: Markers/jobs.rsi
@@ -88,7 +88,7 @@
 
 - type: entity
   id: RandomHumanoidVisitorSecurityOfficer
-  name: visiting security officer ghost role
+  name: 访问安全官员幽灵角色
   components:
     - type: Sprite
       sprite: Markers/jobs.rsi
@@ -98,7 +98,7 @@
 
 - type: entity
   id: RandomHumanoidVisitorDetective
-  name: visiting detective role
+  name: 访问侦探角色
   components:
     - type: Sprite
       sprite: Markers/jobs.rsi
@@ -108,7 +108,7 @@
 
 - type: entity
   id: RandomHumanoidVisitorWarden
-  name: visiting warden ghost role
+  name: 探访典狱长幽灵角色
   components:
     - type: Sprite
       sprite: Markers/jobs.rsi
@@ -120,7 +120,7 @@
 
 - type: entity
   id: RandomHumanoidVisitorCargoTechnician
-  name: visiting cargo technician ghost role
+  name: 访问货物技术员幽灵角色
   components:
     - type: Sprite
       sprite: Markers/jobs.rsi
@@ -130,7 +130,7 @@
 
 - type: entity
   id: RandomHumanoidVisitorSalvageSpecialist
-  name: visiting salvage specialist ghost role
+  name: 访问打捞专家幽灵角色
   components:
     - type: Sprite
       sprite: Markers/jobs.rsi
@@ -142,7 +142,7 @@
 
 - type: entity
   id: RandomHumanoidVisitorAtmosTech
-  name: visiting atmospheric technician ghost role
+  name: 来访大气技术员幽灵角色
   components:
     - type: Sprite
       sprite: Markers/jobs.rsi
@@ -152,7 +152,7 @@
 
 - type: entity
   id: RandomHumanoidVisitorTechnicalAssistant
-  name: visiting technical assistant ghost role
+  name: 访问技术助理幽灵角色
   components:
     - type: Sprite
       sprite: Markers/jobs.rsi
@@ -162,7 +162,7 @@
 
 - type: entity
   id: RandomHumanoidVisitorEngineer
-  name: visiting engineer ghost role
+  name: 访问工程师幽灵角色
   components:
     - type: Sprite
       sprite: Markers/jobs.rsi
@@ -174,7 +174,7 @@
 
 - type: entity
   id: RandomHumanoidVisitorMedicalIntern
-  name: visiting medical intern ghost role
+  name: 访问医学生幽灵角色
   components:
     - type: Sprite
       sprite: Markers/jobs.rsi
@@ -184,7 +184,7 @@
 
 - type: entity
   id: RandomHumanoidVisitorMedicalDoctor
-  name: visiting medical doctor ghost role
+  name: 出诊幽灵医生角色
   components:
     - type: Sprite
       sprite: Markers/jobs.rsi
@@ -194,7 +194,7 @@
 
 - type: entity
   id: RandomHumanoidVisitorParamedic
-  name: visiting paramedic ghost role
+  name: 出诊医护幽灵角色
   components:
     - type: Sprite
       sprite: Markers/jobs.rsi
@@ -204,7 +204,7 @@
 
 - type: entity
   id: RandomHumanoidVisitorPsychologist
-  name: visiting psychologist ghost role
+  name: 到访心理学家幽灵角色
   components:
     - type: Sprite
       sprite: Markers/jobs.rsi
@@ -214,7 +214,7 @@
 
 - type: entity
   id: RandomHumanoidVisitorChemist
-  name: visiting chemist ghost role
+  name: 访问化学家幽灵角色
   components:
     - type: Sprite
       sprite: Markers/jobs.rsi
@@ -224,7 +224,7 @@
 
 - type: entity
   id: RandomHumanoidVisitorVirologist
-  name: visiting virologist ghost role
+  name: 访问病毒学家幽灵角色
   components:
     - type: Sprite
       sprite: Markers/jobs.rsi
@@ -234,7 +234,7 @@
 
 - type: entity
   id: RandomHumanoidVisitorGeneticist
-  name: visiting geneticist ghost role
+  name: 访问遗传学家幽灵角色
   components:
     - type: Sprite
       sprite: Markers/jobs.rsi
@@ -244,7 +244,7 @@
 
 - type: entity
   id: RandomHumanoidVisitorDentist
-  name: visiting dentist ghost role
+  name: 看牙医幽灵角色
   components:
     - type: Sprite
       sprite: Markers/jobs.rsi
@@ -256,7 +256,7 @@
 
 - type: entity
   id: RandomHumanoidVisitorResearchAssistant
-  name: visiting research assistant ghost role
+  name: 访问研究助理幽灵角色
   components:
     - type: Sprite
       sprite: Markers/jobs.rsi
@@ -266,7 +266,7 @@
 
 - type: entity
   id: RandomHumanoidVisitorScientist
-  name: visiting scientist ghost role
+  name: 访问科学家幽灵角色
   components:
     - type: Sprite
       sprite: Markers/jobs.rsi
@@ -278,7 +278,7 @@
 
 - type: entity
   id: RandomHumanoidVisitorBartender
-  name: visiting bartender ghost role
+  name: 客座调酒师幽灵角色
   components:
     - type: Sprite
       sprite: Markers/jobs.rsi
@@ -288,7 +288,7 @@
 
 - type: entity
   id: RandomHumanoidVisitorBotanist
-  name: visiting botanist ghost role
+  name: 访问植物学家幽灵角色
   components:
     - type: Sprite
       sprite: Markers/jobs.rsi
@@ -298,7 +298,7 @@
 
 - type: entity
   id: RandomHumanoidVisitorBoxer
-  name: visiting boxer ghost role
+  name: 来访的拳击手幽灵角色
   components:
     - type: Sprite
       sprite: Markers/jobs.rsi
@@ -308,7 +308,7 @@
 
 - type: entity
   id: RandomHumanoidVisitorChaplain
-  name: visiting chaplain ghost role
+  name: 探访牧师幽灵角色
   components:
     - type: Sprite
       sprite: Markers/jobs.rsi
@@ -318,7 +318,7 @@
 
 - type: entity
   id: RandomHumanoidVisitorChef
-  name: visiting chef ghost role
+  name: 客座主厨幽灵角色
   components:
     - type: Sprite
       sprite: Markers/jobs.rsi
@@ -328,7 +328,7 @@
 
 - type: entity
   id: RandomHumanoidVisitorClown
-  name: visiting clown ghost role
+  name: 来访小丑幽灵角色
   components:
     - type: Sprite
       sprite: Markers/jobs.rsi
@@ -338,7 +338,7 @@
 
 - type: entity
   id: RandomHumanoidVisitorJanitor
-  name: visiting janitor ghost role
+  name: 到访的清洁工幽灵角色
   components:
     - type: Sprite
       sprite: Markers/jobs.rsi
@@ -348,7 +348,7 @@
 
 - type: entity
   id: RandomHumanoidVisitorLawyer
-  name: visiting lawyer ghost role
+  name: 访问律师幽灵角色
   components:
     - type: Sprite
       sprite: Markers/jobs.rsi
@@ -358,7 +358,7 @@
 
 - type: entity
   id: RandomHumanoidVisitorLawyerCentcom
-  name: visiting centcom lawyer ghost role
+  name: 访问中央司令部的律师幽灵角色
   components:
     - type: Sprite
       sprite: Markers/jobs.rsi
@@ -368,7 +368,7 @@
 
 - type: entity
   id: RandomHumanoidVisitorLibrarian
-  name: visiting librarian ghost role
+  name: 访问图书馆员幽灵角色
   components:
     - type: Sprite
       sprite: Markers/jobs.rsi
@@ -378,7 +378,7 @@
 
 - type: entity
   id: RandomHumanoidVisitorMusician
-  name: visiting musician ghost role
+  name: 客座音乐家幽灵角色
   components:
     - type: Sprite
       sprite: Markers/jobs.rsi
@@ -388,7 +388,7 @@
 
 - type: entity
   id: RandomHumanoidVisitorMusicianFancy
-  name: visiting fancy musician ghost role
+  name: 拜访花哨的音乐家幽灵角色
   components:
     - type: Sprite
       sprite: Markers/jobs.rsi
@@ -398,7 +398,7 @@
 
 - type: entity
   id: RandomHumanoidVisitorMusicianRelaxed
-  name: visiting relaxed musician ghost role
+  name: 拜访悠闲的音乐家幽灵角色
   components:
     - type: Sprite
       sprite: Markers/jobs.rsi
@@ -408,7 +408,7 @@
 
 - type: entity
   id: RandomHumanoidVisitorMime
-  name: visiting mime ghost role
+  name: 访问哑剧幽灵角色
   components:
     - type: Sprite
       sprite: Markers/jobs.rsi
@@ -418,7 +418,7 @@
 
 - type: entity
   id: RandomHumanoidVisitorReporter
-  name: visiting reporter ghost role
+  name: 特约记者幽灵角色
   components:
     - type: Sprite
       sprite: Markers/jobs.rsi
@@ -428,7 +428,7 @@
 
 - type: entity
   id: RandomHumanoidVisitorServiceWorker
-  name: visiting service worker ghost role
+  name: 访问服务工作者幽灵角色
   components:
     - type: Sprite
       sprite: Markers/jobs.rsi
@@ -438,7 +438,7 @@
 
 - type: entity
   id: RandomHumanoidVisitorZookeeper
-  name: visiting zookeeper ghost role
+  name: 访问动物园管理员幽灵角色
   components:
     - type: Sprite
       sprite: Markers/jobs.rsi
@@ -450,7 +450,7 @@
 
 - type: entity
   id: RandomHumanoidClownTroupeBanana
-  name: banana clown troupe
+  name: 香蕉小丑剧团
   parent: RandomHumanoidVisitorClown
   components:
     - type: RandomHumanoidSpawner
@@ -462,7 +462,7 @@
 
 - type: entity
   id: RandomHumanoidChallengeVictimCaptain
-  name: disaster victim Captain ghost role
+  name: 灾民幽灵船长角色
   suffix: CHALLENGE
   # This is supposed to be for challenge events. Its intentionally missing QOL gear to make interesting scenarios.
   components:
@@ -475,7 +475,7 @@
 - type: entity
   id: RandomHumanoidChallengeVictimCE
   parent: RandomHumanoidChallengeVictimCaptain
-  name: disaster victim CE ghost role
+  name: 灾民联络官幽灵角色
   suffix: CHALLENGE
   # This is supposed to be for challenge events. Its intentionally missing QOL gear to make interesting scenarios.
   components:
@@ -485,7 +485,7 @@
 - type: entity
   id: RandomHumanoidChallengeVictimCMO
   parent: RandomHumanoidChallengeVictimCaptain
-  name: disaster victim CMO ghost role
+  name: 灾难受害者CMO幽灵角色
   suffix: CHALLENGE
   # This is supposed to be for challenge events. Its intentionally missing QOL gear to make interesting scenarios.
   components:
@@ -495,7 +495,7 @@
 - type: entity
   id: RandomHumanoidChallengeVictimHOP
   parent: RandomHumanoidChallengeVictimCaptain
-  name: disaster victim HOP ghost role
+  name: 灾民HOP幽灵角色
   suffix: CHALLENGE
   # This is supposed to be for challenge events. Its intentionally missing QOL gear to make interesting scenarios.
   components:
@@ -505,7 +505,7 @@
 - type: entity
   id: RandomHumanoidChallengeVictimHOS
   parent: RandomHumanoidChallengeVictimCaptain
-  name: disaster victim HOS ghost role
+  name: 灾民HOS幽灵角色
   suffix: CHALLENGE
   # This is supposed to be for challenge events. Its intentionally missing QOL gear to make interesting scenarios.
   components:
@@ -515,7 +515,7 @@
 - type: entity
   id: RandomHumanoidChallengeVictimRD
   parent: RandomHumanoidChallengeVictimCaptain
-  name: disaster victim RD ghost role
+  name: 灾民RD幽灵角色
   suffix: CHALLENGE
   # This is supposed to be for challenge events. Its intentionally missing QOL gear to make interesting scenarios.
   components:
@@ -525,7 +525,7 @@
 - type: entity
   id: RandomHumanoidChallengeVictimQM
   parent: RandomHumanoidChallengeVictimCaptain
-  name: disaster victim QM ghost role
+  name: 灾民QM幽灵角色
   suffix: CHALLENGE
   # This is supposed to be for challenge events. Its intentionally missing QOL gear to make interesting scenarios.
   components:
@@ -539,7 +539,7 @@
 - type: entity
   id: RandomHumanoidChallengeCargoTechnician
   parent: RandomHumanoidChallengeVictimCaptain
-  name: disaster cargo technician ghost role
+  name: 灾难货物技术员幽灵角色
   suffix: CHALLENGE
   # This is supposed to be for challenge events. Its intentionally missing QOL gear to make interesting scenarios.
   components:
@@ -560,7 +560,7 @@
 
 - type: entity
   id: RandomHumanoidSyndieSoldierTeamLeader
-  name: syndicate team leader ghost role
+  name: 辛迪加团队头目幽灵角色
   components:
     - type: Sprite
       sprite: Structures/Decoration/banner.rsi
@@ -570,7 +570,7 @@
 
 - type: entity
   id: RandomHumanoidSyndieSoldier
-  name: syndicate soldier ghost role
+  name: 辛迪加士兵幽灵角色
   components:
     - type: Sprite
       sprite: Structures/Decoration/banner.rsi
@@ -580,7 +580,7 @@
 
 - type: entity
   id: RandomHumanoidSyndieVisitor
-  name: syndie disaster victim ghost role
+  name: 辛迪灾难受害者幽灵角色
   components:
     - type: Sprite
       sprite: Structures/Decoration/banner.rsi
@@ -590,7 +590,7 @@
 
 - type: entity
   id: RandomHumanoidPirateScooner
-  name: pirate crewman ghost role
+  name: 海盗船员幽灵角色
   suffix: scooner
   components:
     - type: Sprite
@@ -601,7 +601,7 @@
 
 - type: entity
   id: RandomHumanoidPirateCaptainScooner
-  name: pirate captain ghost role
+  name: 海盗船长幽灵角色
   suffix: scooner
   components:
     - type: Sprite
@@ -614,7 +614,7 @@
 
 - type: entity
   id: RandomHumanoidVisitorBlackmarketeer
-  name: visiting blackmarketeer ghost role
+  name: 探访黑市商人幽灵角色
   components:
     - type: Sprite
       sprite: Structures/Decoration/banner.rsi
@@ -625,7 +625,7 @@
 
 - type: entity
   id: RandomHumanoidCossack
-  name: cossack ghost role
+  name: 哥萨克幽灵角色
   components:
     - type: Sprite
       sprite: Structures/Decoration/banner.rsi

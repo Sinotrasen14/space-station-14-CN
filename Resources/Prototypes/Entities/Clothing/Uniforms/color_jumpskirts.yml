@@ -2,8 +2,8 @@
 - type: entity
   parent: ClothingUniformSkirtBase
   id: ClothingUniformJumpskirtColorWhite
-  name: white jumpskirt
-  description: A generic white jumpskirt with no rank markings.
+  name: 白色连身短裙
+  description: 一件普通的白色连身短裙，无任何军衔标识。
   components:
   - type: Sprite
     sprite: Clothing/Uniforms/Jumpskirt/color.rsi
@@ -29,8 +29,8 @@
 - type: entity
   parent: ClothingUniformSkirtBase
   id: ClothingUniformJumpskirtColorGrey
-  name: grey jumpskirt
-  description: A tasteful grey jumpskirt that reminds you of the good old days.
+  name: 灰色连衣短裙
+  description: 一条品味高雅的灰色连衣短裙，让你想起过去的美好时光。
   components:
   - type: Sprite
     sprite: Clothing/Uniforms/Jumpskirt/color.rsi
@@ -60,8 +60,8 @@
 - type: entity
   parent: ClothingUniformSkirtBase
   id: ClothingUniformJumpskirtColorBlack
-  name: black jumpskirt
-  description: A generic black jumpskirt with no rank markings.
+  name: 黑色连体短裙
+  description: 一件普通的黑色连体短裙，无任何军衔标识。
   components:
   - type: Sprite
     sprite: Clothing/Uniforms/Jumpskirt/color.rsi
@@ -91,8 +91,8 @@
 - type: entity
   parent: ClothingUniformSkirtBase
   id: ClothingUniformJumpskirtColorBlue
-  name: blue jumpskirt
-  description: A generic blue jumpskirt with no rank markings.
+  name: 蓝色连身短裙
+  description: 一件普通的蓝色连身短裙，无任何军衔标识。
   components:
   - type: Sprite
     sprite: Clothing/Uniforms/Jumpskirt/color.rsi
@@ -122,8 +122,8 @@
 - type: entity
   parent: ClothingUniformSkirtBase
   id: ClothingUniformJumpskirtColorDarkBlue
-  name: dark blue jumpskirt
-  description: A generic dark blue jumpskirt with no rank markings.
+  name: 深蓝色连身短裙
+  description: 一件普通的深蓝色连身短裙，无任何军衔标识。
   components:
   - type: Sprite
     sprite: Clothing/Uniforms/Jumpskirt/color.rsi
@@ -153,8 +153,8 @@
 - type: entity
   parent: ClothingUniformSkirtBase
   id: ClothingUniformJumpskirtColorTeal
-  name: teal jumpskirt
-  description: A generic teal jumpskirt with no rank markings.
+  name: 蓝绿色无标识连身短裙
+  description: 一件普通的蓝绿色无标识连身短裙。
   components:
   - type: Sprite
     sprite: Clothing/Uniforms/Jumpskirt/color.rsi
@@ -184,8 +184,8 @@
 - type: entity
   parent: ClothingUniformSkirtBase
   id: ClothingUniformJumpskirtColorGreen
-  name: green jumpskirt
-  description: A generic green jumpskirt with no rank markings.
+  name: 绿色连身短裙
+  description: 一件普通的绿色连身短裙，无任何军衔标识。
   components:
   - type: Sprite
     sprite: Clothing/Uniforms/Jumpskirt/color.rsi
@@ -215,8 +215,8 @@
 - type: entity
   parent: ClothingUniformSkirtBase
   id: ClothingUniformJumpskirtColorDarkGreen
-  name: dark green jumpskirt
-  description: A generic dark green jumpskirt with no rank markings.
+  name: 深绿色连身短裙
+  description: 一件普通的深绿色连身短裙，无军衔标识。
   components:
   - type: Sprite
     sprite: Clothing/Uniforms/Jumpskirt/color.rsi
@@ -246,8 +246,8 @@
 - type: entity
   parent: ClothingUniformSkirtBase
   id: ClothingUniformJumpskirtColorOrange
-  name: orange jumpskirt
-  description: Don't wear this near paranoid security officers.
+  name: 橙色连衣短裙
+  description: 别在疑神疑鬼的安保人员附近穿这件衣服。
   components:
   - type: Sprite
     sprite: Clothing/Uniforms/Jumpskirt/color.rsi
@@ -277,8 +277,8 @@
 - type: entity
   parent: ClothingUniformSkirtBase
   id: ClothingUniformJumpskirtColorPink
-  name: pink jumpskirt
-  description: Just looking at this makes you feel <i>fabulous</i>.
+  name: 粉色连衣短裙
+  description: 光是看着就让你感觉<i>棒极了</i>。
   components:
   - type: Sprite
     sprite: Clothing/Uniforms/Jumpskirt/color.rsi
@@ -308,8 +308,8 @@
 - type: entity
   parent: ClothingUniformSkirtBase
   id: ClothingUniformJumpskirtColorRed
-  name: red jumpskirt
-  description: A generic red jumpskirt with no rank markings.
+  name: 红色连身短裙
+  description: 一件普通的红色连身短裙，无任何军衔标识。
   components:
   - type: Sprite
     sprite: Clothing/Uniforms/Jumpskirt/color.rsi
@@ -339,8 +339,8 @@
 - type: entity
   parent: ClothingUniformSkirtBase
   id: ClothingUniformJumpskirtColorYellow
-  name: yellow jumpskirt
-  description: A generic yellow jumpskirt with no rank markings.
+  name: 黄色连身短裙
+  description: 一件普通的黄色连身短裙，没有军衔标识。
   components:
   - type: Sprite
     sprite: Clothing/Uniforms/Jumpskirt/color.rsi
@@ -370,8 +370,8 @@
 - type: entity
   parent: ClothingUniformSkirtBase
   id: ClothingUniformJumpskirtColorPurple
-  name: purple jumpskirt
-  description: A generic light purple jumpskirt with no rank markings.
+  name: 紫色连身短裙
+  description: 一件普通的浅紫色连身短裙，没有等级标识。
   components:
   - type: Sprite
     sprite: Clothing/Uniforms/Jumpskirt/color.rsi
@@ -401,8 +401,8 @@
 - type: entity
   parent: ClothingUniformSkirtBase
   id: ClothingUniformJumpskirtColorLightBrown
-  name: light brown jumpskirt
-  description: A generic light brown jumpskirt with no rank markings.
+  name: 浅棕色连体短裙
+  description: 一件普通的浅棕色连体短裙，无任何军衔标识。
   components:
   - type: Sprite
     sprite: Clothing/Uniforms/Jumpskirt/color.rsi
@@ -432,8 +432,8 @@
 - type: entity
   parent: ClothingUniformSkirtBase
   id: ClothingUniformJumpskirtColorBrown
-  name: brown jumpskirt
-  description: A generic brown jumpskirt with no rank markings.
+  name: 棕色连体短裙
+  description: 一件普通的棕色连体短裙，无任何军衔标识。
   components:
   - type: Sprite
     sprite: Clothing/Uniforms/Jumpskirt/color.rsi
@@ -463,8 +463,8 @@
 - type: entity
   parent: ClothingUniformSkirtBase
   id: ClothingUniformJumpskirtColorMaroon
-  name: maroon jumpskirt
-  description: A generic maroon jumpskirt with no rank markings.
+  name: 栗色连身短裙
+  description: 一件普通的栗色连身短裙，无军衔标识。
   components:
   - type: Sprite
     sprite: Clothing/Uniforms/Jumpskirt/color.rsi
@@ -494,8 +494,8 @@
 - type: entity
   parent: ClothingUniformBase
   id: ClothingUniformJumpskirtColorRainbow
-  name: rainbow jumpskirt
-  description: A multi-colored jumpskirt!
+  name: 彩虹连体裙
+  description: 一条五彩斑斓的连体裙！
   components:
   - type: Sprite
     sprite: Clothing/Uniforms/Jumpskirt/rainbow.rsi

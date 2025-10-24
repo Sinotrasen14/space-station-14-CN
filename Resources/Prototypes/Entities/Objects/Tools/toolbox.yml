@@ -38,10 +38,10 @@
   - type: Appearance
 
 - type: entity
-  name: emergency toolbox
+  name: 应急工具箱
   parent: ToolboxBase
   id: ToolboxEmergency
-  description: A bright red toolbox, stocked with emergency tools.
+  description: 一个鲜红色的工具箱，装满了应急工具。
   components:
   - type: Sprite
     sprite: Objects/Tools/Toolboxes/toolbox_red.rsi
@@ -50,10 +50,10 @@
     sprite: Objects/Tools/Toolboxes/toolbox_red.rsi
 
 - type: entity
-  name: mechanical toolbox
+  name: 机械工具箱
   parent: ToolboxBase
   id: ToolboxMechanical
-  description: A blue box, stocked with mechanical tools.
+  description: 一个蓝色的箱子，装满了机械工具。
   components:
   - type: Sprite
     sprite: Objects/Tools/Toolboxes/toolbox_blue.rsi
@@ -62,10 +62,10 @@
     sprite: Objects/Tools/Toolboxes/toolbox_blue.rsi
 
 - type: entity
-  name: electrical toolbox
+  name: 电工工具箱
   parent: ToolboxBase
   id: ToolboxElectrical
-  description: A toolbox typically stocked with electrical gear.
+  description: 一个通常装有电工设备的工具箱。
   components:
   - type: Sprite
     sprite: Objects/Tools/Toolboxes/toolbox_yellow.rsi
@@ -74,11 +74,11 @@
     sprite: Objects/Tools/Toolboxes/toolbox_yellow.rsi
 
 - type: entity
-  name: electrical toolbox
+  name: 电工工具箱
   suffix: Syndicate, Turret
   parent: ToolboxElectrical
   id: ToolboxElectricalTurret
-  description: A toolbox typically stocked with electrical gear.
+  description: 一个通常装有电工设备的工具箱。
   components:
   - type: Damageable
     damageContainer: Inorganic
@@ -105,10 +105,10 @@
     price: 1350
 
 - type: entity
-  name: artistic toolbox
+  name: 艺术工具箱
   parent: ToolboxBase
   id: ToolboxArtistic
-  description: A toolbox typically stocked with artistic supplies.
+  description: 一个通常装满了艺术用品的工具箱。
   components:
   - type: Sprite
     sprite: Objects/Tools/Toolboxes/toolbox_green.rsi
@@ -117,10 +117,10 @@
     sprite: Objects/Tools/Toolboxes/toolbox_green.rsi
 
 - type: entity
-  name: suspicious toolbox
+  name: 可疑工具箱
   parent: [ToolboxBase, BaseSyndicateContraband]
   id: ToolboxSyndicate
-  description: A sinister looking toolbox filled with elite syndicate tools.
+  description: 一个看起来阴险的工具箱，里面装满了精英集团的工具。
   components:
   - type: Sprite
     sprite: Objects/Tools/Toolboxes/toolbox_syn.rsi
@@ -137,10 +137,10 @@
         Blunt: 20
 
 - type: entity
-  name: golden toolbox
+  name: 金制工具箱
   parent: ToolboxBase
   id: ToolboxGolden
-  description: A solid gold toolbox. A rapper would kill for this.
+  description: 一个纯金打造的工具箱。说唱歌手会为之疯狂。
   components:
   - type: Sprite
     sprite: Objects/Tools/Toolboxes/toolbox_gold.rsi

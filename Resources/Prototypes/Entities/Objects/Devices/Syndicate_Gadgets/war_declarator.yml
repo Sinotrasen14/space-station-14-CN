@@ -1,8 +1,8 @@
 - type: entity
   parent: [BaseItem, BaseSyndicateContraband ]
   id: NukeOpsDeclarationOfWar
-  name: war declarator
-  description: Use to send a declaration of hostilities to the target, delaying your shuttle departure while they prepare for your assault. Such a brazen move will attract the attention of powerful benefactors within the Syndicate, who will supply your team with a massive amount of bonus telecrystals. Must be used at start of mission, or your benefactors will lose interest.
+  name: 战争宣告器
+  description: 用于向目标发送敌对宣言，在对方备战期间将延迟你的穿梭机启程。如此公然之举将吸引辛迪加内部强大赞助者的关注，他们会为你的团队提供大量额外远程水晶。必须在任务开始时使用，否则赞助者将失去兴趣。
   components:
     - type: Sprite
       sprite: Objects/Devices/declaration_of_war.rsi

@@ -1,8 +1,8 @@
 - type: entity
   parent: BaseComputer
   id: ComputerTechnologyDiskTerminal
-  name: tech disk terminal
-  description: A terminal used to print out technology disks.
+  name: 科技磁盘终端
+  description: 用于打印科技磁盘的终端。
   components:
   - type: Sprite
     noRot: true

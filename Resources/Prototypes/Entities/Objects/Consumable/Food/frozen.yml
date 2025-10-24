@@ -21,8 +21,8 @@
 - type: entity
   parent: FoodFrozenBase
   id: FoodFrozenSandwich
-  name: ice-cream sandwich
-  description: Portable ice-cream in its own packaging.
+  name: 冰淇淋三明治
+  description: 便携式冰淇淋，自带包装。
   components:
   - type: Item
     shape:
@@ -33,8 +33,8 @@
 - type: entity
   parent: FoodFrozenBase
   id: FoodFrozenSandwichStrawberry
-  name: strawberry ice-cream sandwich
-  description: Portable ice-cream in its own packaging of the strawberry variety.
+  name: 草莓冰淇淋三明治
+  description: 便携式草莓口味冰淇淋，自带包装。
   components:
   - type: Item
     shape:
@@ -43,19 +43,19 @@
     state: sandwich-strawberry
 
 - type: entity
-  name: space freezy
+  name: 太空酷爽
   parent: FoodFrozenBase
   id: FoodFrozenFreezy
-  description: The best ice-cream in space.
+  description: 太空最佳冰淇淋。
   components:
   - type: Sprite
     state: spacefreezy
 
 - type: entity
-  name: ice-cream sundae
+  name: 冰淇淋圣代
   parent: FoodFrozenBase
   id: FoodFrozenSundae
-  description: A classic dessert.
+  description: 经典甜点。
   components:
   - type: Sprite
     state: spacefreezy
@@ -63,8 +63,8 @@
 - type: entity
   parent: FoodFrozenBase
   id: FoodFrozenCornuto
-  name: cornuto
-  description: A Neapolitan vanilla and chocolate ice-cream cone. It menaces with a sprinkling of caramelized nuts.
+  name: 戴绿帽子的
+  description: 一个那不勒斯香草巧克力冰淇淋甜筒。它散发着焦糖坚果的威胁气息。
   components:
   - type: Item
     storedRotation: -45
@@ -83,10 +83,10 @@
 # Popsicle
 
 - type: entity
-  name: orange creamsicle
+  name: 橙色奶油冰棒
   parent: FoodFrozenBase
   id: FoodFrozenPopsicleOrange
-  description: A classic orange creamsicle. A sunny frozen treat.
+  description: 经典橙味奶油冰棒。阳光般明媚的冰爽享受。
   components:
   - type: Sprite
     layers:
@@ -103,10 +103,10 @@
     - Creamsicle
 
 - type: entity
-  name: berry creamsicle
+  name: 浆果奶油冰
   parent: FoodFrozenBase
   id: FoodFrozenPopsicleBerry
-  description: A vibrant berry creamsicle. A berry good frozen treat.
+  description: 一款充满活力的浆果奶油冰。浆果风味极佳的冷冻甜点。
   components:
   - type: Sprite
     layers:
@@ -123,10 +123,10 @@
     - Creamsicle
 
 - type: entity
-  name: jumbo ice-cream
+  name: 巨型冰淇淋
   parent: FoodFrozenBase
   id: FoodFrozenPopsicleJumbo
-  description: A luxurious ice-cream covered in rich chocolate. It's smaller than you remember.
+  description: 一份覆盖着浓郁巧克力的奢华冰淇淋。它比你记忆中的要小。
   components:
   - type: Sprite
     layers:
@@ -151,11 +151,11 @@
 # layer depending on soda/syrup/waterever. Name and description will also have
 # to be modified.
 - type: entity
-  name: sweet snowcone
+  name: 甜雪糕
   #  name: [Flavor] snowcone
   parent: FoodFrozenBase
   id: FoodFrozenSnowconeBase
-  description: It's just shaved ice and simple syrup, minimum effort.
+  description: 这不过就是刨冰和糖浆，毫不费力。
   #  description: [Liquid] drizzled over a snowball in a paper cup.
   components:
     - type: Sprite
@@ -179,10 +179,10 @@
               Quantity: 2
 
 - type: entity
-  name: flavorless snowcone
+  name: 无味的雪糕筒
   parent: FoodFrozenSnowconeBase
   id: FoodFrozenSnowcone
-  description: It's just shaved ice. Still fun to chew on.
+  description: 这只是刨冰而已。嚼起来依然很有趣。
   components:
   - type: SolutionContainerManager
     solutions:
@@ -193,10 +193,10 @@
             Quantity: 8
 
 - type: entity
-  name: berry snowcone
+  name: 浆果雪泥球
   parent: FoodFrozenSnowconeBase
   id: FoodFrozenSnowconeBerry
-  description: Berry syrup drizzled over a snowball in a paper cup.
+  description: 浆果糖浆淋在纸杯中的雪泥球上。
   components:
   - type: Sprite
     layers:
@@ -210,10 +210,10 @@
     - Fruit
 
 - type: entity
-  name: fruit salad snowcone
+  name: 水果沙拉雪糕
   parent: FoodFrozenSnowconeBase
   id: FoodFrozenSnowconeFruit
-  description: A delightful mix of citrus syrups drizzled over a snowball in a paper cup.
+  description: 纸杯雪球上淋满各种柑橘糖浆，令人愉悦。
   components:
   - type: Sprite
     layers:
@@ -227,10 +227,10 @@
     - Fruit
 
 - type: entity
-  name: clowncone
+  name: 小丑甜筒
   parent: FoodFrozenSnowconeBase
   id: FoodFrozenSnowconeClown
-  description: Laughter drizzled over a snowball in a paper cup.
+  description: 纸杯雪球上洒满了笑声。
   components:
   - type: Sprite
     layers:
@@ -241,10 +241,10 @@
     - FoodFrozenSnowconeTrash
 
 - type: entity
-  name: mime snowcone
+  name: 雪糕
   parent: FoodFrozenSnowconeBase
   id: FoodFrozenSnowconeMime
-  description: ...
+  description: ……
   components:
   - type: Sprite
     layers:
@@ -255,10 +255,10 @@
     - FoodFrozenSnowconeTrash
 
 - type: entity
-  name: rainbow snowcone
+  name: 彩虹雪糕球
   parent: FoodFrozenSnowconeBase
   id: FoodFrozenSnowconeRainbow
-  description: A very colorful snowball in a paper cup.
+  description: 一个放在纸杯里的色彩缤纷的雪糕球。
   components:
   - type: Sprite
     layers:
@@ -273,8 +273,8 @@
 - type: entity
   parent: BaseItem
   id: FoodFrozenSnowconeTrash
-  name: paper cone
-  description: A crumpled paper cone used for an icy treat. Worthless.
+  name: 纸锥
+  description: 一个皱巴巴的纸锥，用来装冰品。毫无价值。
   components:
   - type: Item
     size: Tiny
@@ -286,10 +286,10 @@
     - Trash
 
 - type: entity
-  name: popsicle stick
+  name: 冰棒棍
   parent: BaseItem
   id: FoodFrozenPopsicleTrash
-  description: Once held a delicious treat. Now, 'tis barren.
+  description: 曾承载美味，而今，空空如也。
   components:
   - type: Sprite
     sprite: Objects/Consumable/Food/frozen.rsi

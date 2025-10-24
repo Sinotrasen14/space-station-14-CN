@@ -46,8 +46,8 @@
 # Subclasses
 
 - type: entity
-  name: wheat bushel
-  description: Sigh... wheat... a-grain?
+  name: 小麦蒲式耳
+  description: 唉…小麦…粒？
   id: WheatBushel
   parent: ProduceBaseRuminant
   components:
@@ -69,8 +69,8 @@
     - Ruminant
 
 - type: entity
-  name: meatwheat bushel
-  description: Some blood-drenched wheat stalks. You can crush them into what passes for meat if you squint hard enough.
+  name: 肉麦捆
+  description: 一些沾满血污的麦秆。如果你使劲眯起眼睛，可以把它们碾碎成勉强算作肉的东西。
   id: MeatwheatBushel
   parent: ProduceBaseRuminant
   components:
@@ -93,8 +93,8 @@
     seedId: meatwheat
 
 - type: entity
-  name: oat bushel
-  description: Eat oats, do squats.
+  name: 燕麦蒲式耳
+  description: 吃燕麦，做深蹲。
   id: OatBushel
   parent: ProduceBaseRuminant
   components:
@@ -117,8 +117,8 @@
         Quantity: 5
 
 - type: entity
-  name: sugarcane
-  description: Sickly sweet.
+  name: 甘蔗
+  description: 甜得发腻。
   id: Sugarcane
   parent: ProduceBaseRuminant
   components:
@@ -136,8 +136,8 @@
     seedId: sugarcane
 
 - type: entity
-  name: papercane roll
-  description: Why do we even need to grow paper?
+  name: 纸甘蔗卷
+  description: 我们为什么还需要种植纸呢？
   id: Papercane
   parent: ProduceBase
   components:
@@ -155,8 +155,8 @@
 - type: entity
   parent: FoodProduceBase
   id: FoodLaughinPeaPod
-  name: laughin' pea pod
-  description: The clown's favorite plant.
+  name: 笑豌豆荚
+  description: 小丑最爱的植物。
   components:
   - type: FlavorProfile
     flavors:
@@ -189,8 +189,8 @@
     - Ruminant
 
 - type: entity
-  name: tower-cap log
-  description: It's better than bad, it's good!
+  name: 塔盖原木
+  description: 它虽不算坏，但绝对称得上好！
   id: Log
   parent: ProduceBase
   components:
@@ -208,8 +208,8 @@
   - type: Log
 
 - type: entity
-  name: steel-cap log
-  description: Steel doesn't grow on trees! It grows on mushrooms, of course.
+  name: 钢帽原木
+  description: 钢铁可不是树上长的！当然是蘑菇上长的啦。
   id: SteelLog
   parent: ProduceBase
   components:
@@ -229,8 +229,8 @@
     spawnCount: 1
 
 - type: entity
-  name: nettle
-  description: Stingy little prick.
+  name: 荨麻
+  description: 小气鬼。
   id: Nettle
   parent: ProduceBaseRuminant
   components:
@@ -260,8 +260,8 @@
     grindableSolutionName: food
 
 - type: entity
-  name: death nettle
-  description: This nettle's out for blood.
+  name: 死亡荨麻
+  description: 这株荨麻杀气腾腾。
   id: DeathNettle
   parent: [ProduceBase, BaseMajorContraband]
   components:
@@ -326,10 +326,10 @@
         Blunt: 5 # The nettle will "wilt" after 5 hits.
 
 - type: entity
-  name: banana
+  name: 香蕉
   parent: FoodProduceBase
   id: FoodBanana
-  description: Rich in potassium.
+  description: 富含钾。
   components:
   - type: FlavorProfile
     flavors:
@@ -367,10 +367,10 @@
       Taco: Banana
 
 - type: entity
-  name: mimana
+  name: 咪玛娜
   parent: FoodProduceBase
   id: FoodMimana
-  description: Mime's favorite.
+  description: 咪玛娜的最爱。
   components:
   - type: FlavorProfile
     flavors:
@@ -410,7 +410,7 @@
       Taco: Mimana
 
 - type: entity
-  name: banana peel
+  name: 香蕉皮
   parent: BaseItem
   id: TrashBananaPeel
   components:
@@ -472,7 +472,7 @@
     quickEquip: false
 
 - type: entity
-  name: baked banana peel
+  name: 烤香蕉皮
   parent: TrashBananaPeel
   id: TrashBakedBananaPeel
   components:
@@ -497,7 +497,7 @@
           Quantity: 2
 
 - type: entity
-  name: mimana peel
+  name: 美马那 peel
   parent: TrashBananaPeel
   id: TrashMimanaPeel
   components:
@@ -517,7 +517,7 @@
         volume: -100
 
 - type: entity
-  name: bananium peel
+  name: 香蕉皮
   parent: TrashBananaPeel
   id: TrashBananiumPeel
   components:
@@ -533,10 +533,10 @@
     equippedPrefix: peel
 
 - type: entity
-  name: carrot
+  name: 胡萝卜
   parent: FoodProduceBase
   id: FoodCarrot
-  description: It's good for the eyes!
+  description: 它对眼睛有好处！
   components:
   - type: FlavorProfile
     flavors:
@@ -575,10 +575,10 @@
       Taco: Carrot
 
 - type: entity
-  name: cabbage
+  name: 卷心菜
   parent: FoodProduceBase
   id: FoodCabbage
-  description: Ewwwwwwwwww. Cabbage.
+  description: 呃。卷心菜。
   components:
   - type: FlavorProfile
     flavors:
@@ -607,10 +607,10 @@
       Taco: Cabbage
 
 - type: entity
-  name: garlic
+  name: 大蒜
   parent: FoodProduceBase
   id: FoodGarlic
-  description: Delicious, but with a potentially overwhelming odor.
+  description: 美味，但气味可能过于浓烈。
   components:
   - type: FlavorProfile
     flavors:
@@ -639,10 +639,10 @@
       Taco: Garlic
 
 - type: entity
-  name: lemon
+  name: 柠檬
   parent: FoodProduceBase
   id: FoodLemon
-  description: When life gives you lemons, be grateful they aren't limes.
+  description: 当生活给你柠檬时，要庆幸它们不是酸橙。
   components:
   - type: FlavorProfile
     flavors:
@@ -677,10 +677,10 @@
       Taco: Lemon
 
 - type: entity
-  name: lemoon
+  name: 莱檬
   parent: FoodProduceBase
   id: FoodLemoon
-  description: People says Moon is made out of cheese, but Moon is actually made out of milk and laurel!
+  description: 人们说月亮是奶酪做的，但月亮其实是牛奶和莱檬做的！
   components:
   - type: FlavorProfile
     flavors:
@@ -714,10 +714,10 @@
       Taco: Lemoon
 
 - type: entity
-  name: lime
+  name: 酸橙
   parent: FoodLemon
   id: FoodLime
-  description: Cures Space Scurvy, allows you to act like a Space Pirate.
+  description: 治愈太空坏血病，让你化身太空海盗。
   components:
   - type: FlavorProfile
     flavors:
@@ -743,10 +743,10 @@
       Taco: Lime
 
 - type: entity
-  name: orange
+  name: 橙色
   parent: FoodLemon
   id: FoodOrange
-  description: Healthy, very orange.
+  description: 健康，非常橙。
   components:
   - type: FlavorProfile
     flavors:
@@ -771,10 +771,10 @@
       Taco: Orange
 
 - type: entity
-  name: extradimensional orange
+  name: 超维橙子
   parent: FoodProduceBase
   id: FoodExtradimensionalOrange
-  description: You can hardly wrap your head around this thing.
+  description: 你几乎无法理解这东西。
   components:
   - type: FlavorProfile
     flavors:
@@ -814,10 +814,10 @@
       Taco: ExtradimensionalOrange
 
 - type: entity
-  name: pineapple
+  name: 菠萝
   parent: FoodProduceBase
   id: FoodPineapple
-  description: Mmm, tropical.
+  description: 嗯，热带风味。
   components:
   - type: FlavorProfile
     flavors:
@@ -852,10 +852,10 @@
     - Fruit
 
 - type: entity
-  name: potato
+  name: 土豆
   parent: FoodProduceBase
   id: FoodPotato
-  description: The space Irish starved to death after their potato crops died. Sadly they were unable to fish for space carp due to it being the queen's space. Bringing this up to any space IRA member will drive them insane with anger.
+  description: 在土豆作物死亡后，太空爱尔兰人纷纷饿死。可悲的是，由于太空鲤鱼属于女王领地，他们无法捕捞。向任何太空爱尔兰共和军成员提及此事都会令他们暴怒如狂。
   components:
   - type: FlavorProfile
     flavors:
@@ -891,10 +891,10 @@
 
 
 - type: entity
-  name: tomato
+  name: 番茄
   parent: [FoodProduceBase, ItemHeftyBase]
   id: FoodTomato
-  description: I say to-mah-to, you say tom-mae-to.
+  description: 我说番茄，你说西红柿。
   components:
   - type: FlavorProfile
     flavors:
@@ -953,10 +953,10 @@
       Taco: Tomato
 
 - type: entity
-  name: blue tomato
+  name: 蓝色的番茄
   parent: FoodTomato
   id: FoodBlueTomato
-  description: This one is blue.
+  description: 这个是蓝色的。
   components:
   - type: SolutionContainerManager
     solutions:
@@ -1004,10 +1004,10 @@
       Taco: BlueTomato
 
 - type: entity
-  name: blood tomato
+  name: 血番茄
   parent: FoodTomato
   id: FoodBloodTomato
-  description: Wait, that's not ketchup...
+  description: 等等，那不是番茄酱...
   components:
   - type: SolutionContainerManager
     solutions:
@@ -1054,10 +1054,10 @@
       Taco: BloodTomato
 
 - type: entity
-  name: eggplant
+  name: 茄子
   parent: FoodProduceBase
   id: FoodEggplant
-  description: Maybe there's a chicken inside?
+  description: 里面会不会有只鸡？
   components:
   - type: FlavorProfile
     flavors:
@@ -1083,10 +1083,10 @@
     - Vegetable
 
 - type: entity
-  name: apple
+  name: 苹果
   parent: FoodProduceBase
   id: FoodApple
-  description: It's a little piece of Eden.
+  description: 这是一小块伊甸园。
   components:
   - type: FlavorProfile
     flavors:
@@ -1120,10 +1120,10 @@
       Taco: Apple
 
 - type: entity
-  name: golden apple
+  name: 金苹果
   parent: FoodProduceBase
   id: FoodGoldenApple
-  description: It should be shaped like a cube, shouldn't it?
+  description: 它应该被塑造成立方体，不是吗？
   components:
   - type: FlavorProfile
     flavors:
@@ -1162,10 +1162,10 @@
       Taco: GoldenApple
 
 - type: entity
-  name: cocoa pod
+  name: 可可豆荚
   parent: FoodProduceBase
   id: FoodCocoaPod
-  description: You can never have too much chocolate!
+  description: 你永远都不会嫌巧克力太多！
   components:
   - type: FlavorProfile
     flavors:
@@ -1195,10 +1195,10 @@
     - Fruit
 
 - type: entity
-  name: ear of corn
+  name: 玉米穗
   parent: FoodProduceBase
   id: FoodCorn
-  description: Needs some butter! And some cooking...
+  description: 需要加点黄油！再煮一下……
   components:
   - type: FlavorProfile
     flavors:
@@ -1238,10 +1238,10 @@
       Skewer: CornSkewer
 
 - type: entity
-  name: corn cob
+  name: 玉米芯
   parent: BaseItem
   id: FoodCornTrash
-  description: Not a dang kernel left.
+  description: 一颗玉米粒都没剩下。
   components:
   - type: Sprite
     sprite: Objects/Specific/Hydroponics/corn.rsi
@@ -1260,10 +1260,10 @@
           Quantity: 10
 
 - type: entity
-  name: onion
+  name: 洋葱
   parent: FoodProduceBase
   id: FoodOnion
-  description: Nothing to cry over.
+  description: 没什么好哭的。
   components:
   - type: FlavorProfile
     flavors:
@@ -1293,10 +1293,10 @@
     - Vegetable
 
 - type: entity
-  name: red onion
+  name: 红洋葱
   parent: FoodProduceBase
   id: FoodOnionRed
-  description: Purple despite the name.
+  description: 尽管名为红洋葱，实为紫色。
   components:
   - type: FlavorProfile
     flavors:
@@ -1326,10 +1326,10 @@
     - Vegetable
 
 - type: entity
-  name: chanterelle cluster
+  name: 鸡油菌丛
   parent: FoodProduceBase
   id: FoodMushroom
-  description: "Cantharellus Cibarius: These jolly yellow little shrooms sure look tasty!"
+  description: 鸡油菌：这些快活的黄色小蘑菇看起来确实很美味！
   components:
   - type: SolutionContainerManager
     solutions:
@@ -1371,10 +1371,10 @@
     - Slice
 
 - type: entity
-  name: pineapple slice
+  name: 菠萝片
   parent: ProduceSliceBase
   id: FoodPineappleSlice
-  description: Mmm, tropical.
+  description: 嗯，热带风味。
   components:
   - type: FlavorProfile
     flavors:
@@ -1396,10 +1396,10 @@
       Taco: PineappleSlice
 
 - type: entity
-  name: onion slice
+  name: 洋葱片
   parent: ProduceSliceBase
   id: FoodOnionSlice
-  description: Nothing to cry over.
+  description: 没什么好哭的。
   components:
   - type: FlavorProfile
     flavors:
@@ -1427,10 +1427,10 @@
       Taco: OnionSlice
 
 - type: entity
-  name: red onion slice
+  name: 红洋葱片
   parent: ProduceSliceBase
   id: FoodOnionRedSlice
-  description: Purple despite the name.
+  description: 尽管名为红洋葱片，实为紫色。
   components:
   - type: FlavorProfile
     flavors:
@@ -1458,10 +1458,10 @@
       Taco: OnionRedSlice
 
 - type: entity
-  name: chili pepper
+  name: 辣椒
   parent: FoodProduceBase
   id: FoodChiliPepper
-  description: Spicy, best not touch your eyes.
+  description: 辣，最好别碰眼睛。
   components:
   - type: FlavorProfile
     flavors:
@@ -1493,10 +1493,10 @@
       Skewer: ChiliPepperSkewer
 
 - type: entity
-  name: chilly pepper
+  name: 辣椒
   parent: FoodProduceBase
   id: FoodChillyPepper
-  description: Icy hot.
+  description: 冰火两重天。
   components:
   - type: FlavorProfile
     flavors:
@@ -1526,10 +1526,10 @@
       Skewer: ChillyPepperSkewer
 
 - type: entity
-  name: aloe
+  name: 芦荟
   parent: FoodProduceBase
   id: FoodAloe
-  description: A fragrant plant with soothing properties.
+  description: 一种具有舒缓特性的芳香植物。
   components:
   - type: FlavorProfile
     flavors:
@@ -1560,10 +1560,10 @@
       Burger: Aloe
 
 - type: entity
-  name: poppy
+  name: 罂粟
   parent: FoodProduceBase
   id: FoodPoppy
-  description: A flower with extracts often used in the production of medicine.
+  description: 一种花，其提取物常用于药品生产。
   components:
   - type: Clothing
     slots:
@@ -1596,10 +1596,10 @@
       Burger: Poppy
 
 - type: entity
-  name: lily
+  name: 百合
   parent: FoodPoppy
   id: FoodLily
-  description: A beautiful orange flower.
+  description: 一朵美丽的橙色花朵。
   components:
   - type: FlavorProfile
     flavors:
@@ -1628,10 +1628,10 @@
       Burger: Lily
 
 - type: entity
-  name: lingzhi
+  name: 灵芝
   parent: FoodProduceBase
   id: FoodLingzhi
-  description: A potent medicinal mushroom. Don't go overboard.
+  description: 一种强效药用蘑菇。切勿过量使用。
   components:
   - type: FlavorProfile
     flavors:
@@ -1663,10 +1663,10 @@
     - Mushroom
 
 - type: entity
-  name: ambrosia vulgaris
+  name: 普通豚草
   parent: FoodProduceBase
   id: FoodAmbrosiaVulgaris
-  description: A medicinal plant. May make you feel a little funny.
+  description: 一种药用植物。可能会让你感觉有点晕乎乎的。
   components:
   - type: FlavorProfile
     flavors:
@@ -1706,10 +1706,10 @@
       Burger: AmbrosiaVulgarisBurger
 
 - type: entity
-  name: ambrosia deus
+  name: 神之珍馐
   parent: FoodProduceBase
   id: FoodAmbrosiaDeus
-  description: An extremely sought-after medicinal plant. May have some funky side effects.
+  description: 一种极受欢迎的药用植物。可能会有些古怪的副作用。
   components:
   - type: FlavorProfile
     flavors:
@@ -1747,10 +1747,10 @@
       Burger: AmbrosiaDeusBurger
 
 - type: entity
-  name: galaxythistle
+  name: 银河蓟
   parent: FoodProduceBase
   id: FoodGalaxythistle
-  description: A medicinal plant used for its antitoxin.
+  description: 一种用于解毒的药用植物。
   components:
   - type: FlavorProfile
     flavors:
@@ -1780,10 +1780,10 @@
       Burger: GalaxythistleBurger
 
 - type: entity
-  name: glasstle
+  name: 棘刺玻璃株
   parent: FoodProduceBase
   id: FoodGlasstle
-  description: A fragile crystal plant with lot of spiky thorns.
+  description: 一株长满尖刺的脆弱水晶植株。
   components:
   - type: Item
     size: Small
@@ -1850,10 +1850,10 @@
       Burger: GlasstleBurger
 
 - type: entity
-  name: fly amanita
+  name: 毒蝇伞
   parent: FoodProduceBase
   id: FoodFlyAmanita
-  description: A delicious-looking mushroom like you see in those cartoons.
+  description: 一种像你在那些卡通片里看到的看起来很美味的蘑菇。
   components:
   - type: FlavorProfile
     flavors:
@@ -1885,10 +1885,10 @@
     - Mushroom
 
 - type: entity
-  name: gatfruit
+  name: 枪果
   parent: [ FoodProduceBase, BaseSyndicateContraband ]
   id: FoodGatfruit
-  description: A delicious, gun-shaped fruit with a thick wooden stem.
+  description: 一种美味的枪形水果，带有粗壮的木质果梗。
   components:
   - type: FlavorProfile
     flavors:
@@ -1918,10 +1918,10 @@
       Burger: GatfruitBurger
 
 - type: entity
-  name: capfruit
+  name: 枪果
   parent: FoodProduceBase
   id: FoodRealCapfruit
-  description: A soft but smooth gun-shaped fruit.
+  description: 一种柔软但顺滑的枪形果实。
   components:
   - type: FlavorProfile
     flavors:
@@ -1953,7 +1953,7 @@
       Burger: CapfruitBurger
 
 - type: entity
-  name: capfruit
+  name: 帽果
   parent: FoodRealCapfruit
   id: FoodFakeCapfruit
   suffix: Fake
@@ -1965,8 +1965,8 @@
     - RevolverCapGunFake
 
 - type: entity
-  name: rice bushel
-  description: Can be ground into rice, perfect for pudding or sake.
+  name: 稻谷
+  description: 可磨成米，非常适合做布丁或清酒。
   id: RiceBushel
   parent: ProduceBaseRuminant
   components:
@@ -1984,8 +1984,8 @@
     seedId: rice
 
 - type: entity
-  name: soybeans
-  description: For those who can't stand seeing good old meat.
+  name: 大豆
+  description: 献给那些无法忍受眼睁睁看着上等好肉的人。
   id: FoodSoybeans
   parent: ProduceBaseRuminant
   components:
@@ -2014,8 +2014,8 @@
       Burger: SoybeansBurger
 
 - type: entity
-  name: spaceman's trumpet
-  description: A vivid flower that smells faintly of freshly cut grass. Touching the flower seems to stain the skin some time after contact, yet most other surfaces seem to be unaffected by this phenomenon.
+  name: 太空人的小号
+  description: 一朵栩栩如生的花，散发着淡淡的刚割过的青草香气。触碰这朵花后，皮肤似乎会在一段时间后留下痕迹，但大多数其他表面似乎不受这种现象影响。
   id: FoodSpacemansTrumpet
   parent: FoodProduceBase
   components:
@@ -2048,8 +2048,8 @@
       Burger: SpacemansTrumpetBurger
 
 - type: entity
-  name: koibean
-  description: These beans seem a little bit fishy.
+  name: 豆豆
+  description: 这些豆子看起来有点可疑。
   id: FoodKoibean
   parent: ProduceBaseRuminant
   components:
@@ -2080,10 +2080,10 @@
       Burger: KoibeanBurger
 
 - type: entity
-  name: watermelon
+  name: 西瓜
   parent: [FoodProduceBase, ItemHeftyBase]
   id: FoodWatermelon
-  description: Round green object that you can slice and eat.
+  description: 圆形绿色物体，可切片食用。
   components:
   - type: Item
     size: Small
@@ -2143,10 +2143,10 @@
     - Fruit
 
 - type: entity
-  name: watermelon slice
+  name: 西瓜切片
   parent: ProduceSliceBase
   id: FoodWatermelonSlice
-  description: Juicy green and red slice.
+  description: 多汁的绿红相间切片。
   components:
   - type: Item
     size: Tiny
@@ -2182,10 +2182,10 @@
       Skewer: WatermelonSliceSkewer
 
 - type: entity
-  name: holymelon
+  name: 圣瓜
   parent: [FoodProduceBase, ItemHeftyBase]
   id: FoodHolymelon
-  description: The water within this melon has been blessed by some deity that's particularly fond of watermelon.
+  description: 这瓜里的水受到了某位特别喜爱西瓜的神祇祝福。
   components:
   - type: Item
     size: Small
@@ -2246,10 +2246,10 @@
     - Fruit
 
 - type: entity
-  name: holymelon slice
+  name: 圣瓜片
   parent: ProduceSliceBase
   id: FoodHolymelonSlice
-  description: Juicy golden and red slice.
+  description: 多汁的金黄色和红色切片。
   components:
   - type: Item
     size: Tiny
@@ -2286,10 +2286,10 @@
       Skewer: HolymelonSliceSkewer
 
 - type: entity
-  name: grapes
+  name: 葡萄
   parent: FoodProduceBase
   id: FoodGrape
-  description: The food of emperors, Space France inhabitants (usually as wine) and soccer moms. One day it could be used in wine production for the bartender if he ever runs out.
+  description: 帝王的美食、太空法国居民（通常以葡萄酒的形式）和足球妈妈们的钟爱。如果酒保哪天断货了，这或许能用来酿制葡萄酒。
   components:
   - type: FlavorProfile
     flavors:
@@ -2319,10 +2319,10 @@
     - Fruit
 
 - type: entity
-  name: berries
+  name: 浆果
   parent: FoodProduceBase
   id: FoodBerries
-  description: A handful of various types of berries.
+  description: 一把各式各样的浆果。
   components:
   - type: FlavorProfile
     flavors:
@@ -2356,10 +2356,10 @@
       Burger: BerriesBurger
 
 - type: entity
-  name: bungo fruit
+  name: 邦戈果
   parent: FoodProduceBase
   id: FoodBungo
-  description: The humble bungo fruit.
+  description: 不起眼的邦戈果。
   components:
   - type: FlavorProfile
     flavors:
@@ -2394,7 +2394,7 @@
       Burger: Bungo
 
 - type: entity
-  name: bungo pit
+  name: 文豪坑
   parent: FoodInjectableBase
   id: FoodBungoPit
   components:
@@ -2424,8 +2424,8 @@
 - type: entity
   parent: FoodProduceBase
   id: FoodPeaPod
-  name: pea pod
-  description: A duck's favorite treat!
+  name: 豌豆荚
+  description: 鸭子最爱的美食！
   components:
   - type: FlavorProfile
     flavors:
@@ -2456,8 +2456,8 @@
 - type: entity
   parent: FoodProduceBase
   id: FoodWorldPeas
-  name: cluster of world peas
-  description: It's rumored to bring peace to any who consume it.
+  name: 世界和平豆簇
+  description: 据说食用它的人都能获得和平。
   components:
   - type: FlavorProfile
     flavors:
@@ -2488,10 +2488,10 @@
       Burger: WorldPeaBurger
 
 - type: entity
-  name: pumpkin
+  name: 南瓜
   parent: FoodProduceBase
   id: FoodPumpkin
-  description: A large, orange... berry. Seriously.
+  description: 一个巨大的、橙色的……浆果。真的。
   components:
   - type: Item
     size: Small
@@ -2538,10 +2538,10 @@
     - Vegetable
 
 - type: entity
-  name: blue pumpkin
+  name: 蓝南瓜
   parent: FoodProduceBase
   id: FoodBluePumpkin
-  description: A large, blue... berry. Seriously.
+  description: 一颗巨大的蓝色……浆果。真的。
   components:
   - type: Item
     size: Small
@@ -2589,8 +2589,8 @@
     - Fruit
 
 - type: entity
-  name: cotton boll
-  description: Moth people's favorite snack, and just as fluffy as them.
+  name: 棉桃
+  description: 蛾民们最喜爱的小零食，和它们一样毛茸茸的。
   id: CottonBol
   parent: FoodProduceBase
   components:
@@ -2621,8 +2621,8 @@
       CottonBurger: CottonBol
 
 - type: entity
-  name: pyrotton boll
-  description: This will probably set you on fire.
+  name: 燃烧弹
+  description: 这很可能会让你着火。
   id: PyrottonBol
   parent: FoodProduceBase
   components:
@@ -2657,10 +2657,10 @@
       CottonBurger: PyrottonBol
 
 - type: entity
-  name: cherry
+  name: 樱桃
   parent: FoodProduceBase
   id: FoodCherry
-  description: Juicy red cherry with a pit inside.
+  description: 多汁的红樱桃，内含果核。
   components:
   - type: FlavorProfile
     flavors:
@@ -2695,7 +2695,7 @@
       Burger: Cherry
 
 - type: entity
-  name: cherry pit
+  name: 樱桃核
   parent: FoodInjectableBase
   id: TrashCherryPit
   components:
@@ -2725,8 +2725,8 @@
   - type: BadFood
 
 - type: entity
-  name: anomaly berry
-  description: A strange blue fruit. Something about it doesn't seem right.
+  name: 异果莓
+  description: 一颗奇怪的蓝色果实。它似乎有些不对劲。
   parent: FoodProduceBase
   id: FoodAnomalyBerry
   components:
@@ -2763,8 +2763,8 @@
       Burger: AnomalyBerryBurger
 
 - type: entity
-  name: bloonion bulb
-  description: A strange floating bulb.. Nothing worth crying over.
+  name: 膨胀洋葱球
+  description: 一个奇怪的漂浮球体..没什么值得哭的。
   parent: BaseStructureDynamic
   id: FoodBloonion
   components:

@@ -1,8 +1,8 @@
 - type: entity
   id: Ashtray
   parent: BaseItem
-  name: ashtray
-  description: Proven by scientists to improve the smoking experience by 37%!
+  name: 烟灰缸
+  description: 经科学家证实，能将吸烟体验提升37%！
   components:
   - type: Sprite
     sprite: Objects/Decoration/ashtray.rsi

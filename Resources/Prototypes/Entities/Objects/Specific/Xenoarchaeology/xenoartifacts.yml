@@ -1,8 +1,8 @@
 - type: entity
   id: BaseXenoArtifact
   parent: BaseMob # we use this since it can technically get inhabited
-  name: artifact
-  description: A strange artifact from time unknown. Looks like a good time.
+  name: 器物
+  description: 一件来自未知年代的奇异器物。看起来会很有趣。
   abstract: true
   noSpawn: true
   components:
@@ -53,8 +53,8 @@
 - type: entity
   parent: BaseAction
   id: ActionArtifactActivate
-  name: Activate Artifact
-  description: Activate yourself, causing chaos to those near you.
+  name: 激活神器
+  description: 激活自身，对周围敌人造成混乱。
   components:
   - type: Action
     icon:
